@@ -7,7 +7,7 @@ artefacts filled in with real case content, 550 exam questions, and 8 hours of
 recorded voice acting.
 
 <p align="center">
-  <a href="https://rhycha.github.io/PM in ESM Role Playing Game/"><b>▶ Play it in your browser</b></a>
+  <a href="https://rhycha.github.io/PM-in-ESM-Role-Playing-Game/"><b>▶ Play it in your browser</b></a>
   &nbsp;·&nbsp;
   <a href="#what-is-in-here">What is in here</a>
   &nbsp;·&nbsp;
@@ -223,12 +223,12 @@ show the preparation than claim the certificate.
 Nothing to install. Open any file in `play/` in a browser.
 
 ```bash
-git clone https://github.com/rhycha/PM in ESM Role Playing Game.git
-cd PM in ESM Role Playing Game
+git clone https://github.com/rhycha/PM-in-ESM-Role-Playing-Game.git
+cd PM-in-ESM-Role-Playing-Game
 open play/03_Dashboard_EN.html      # macOS · use `xdg-open` on Linux, `start` on Windows
 ```
 
-Or use the [live version](https://rhycha.github.io/PM in ESM Role Playing Game/).
+Or use the [live version](https://rhycha.github.io/PM-in-ESM-Role-Playing-Game/).
 
 **Voice.** The `play/voice/` folder holds the recorded audio; the story pages find it
 automatically when they sit beside it. Turn it on with the 🔊 button, or press `V`.
