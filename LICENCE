@@ -6,7 +6,7 @@ Applies to: the HTML/CSS/JavaScript in play/, everything in tools/,
 and the build pipeline.
 ────────────────────────────────────────────────────────────────────────
 
-Copyright (c) 2026 the repository author
+Copyright (c) 2026 Youngsub Lee
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,14 +27,39 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ────────────────────────────────────────────────────────────────────────
-WRITTEN CONTENT — CC BY-NC 4.0
+WRITTEN CONTENT — CC BY 4.0
 Applies to: the dialogue, the case bibles, the artefact explanations,
 the question banks, the solution diagrams, and the recorded audio.
 ────────────────────────────────────────────────────────────────────────
 
-Creative Commons Attribution-NonCommercial 4.0 International.
-You may share and adapt this material for non-commercial purposes with
-attribution. Full text: https://creativecommons.org/licenses/by-nc/4.0/
+Creative Commons Attribution 4.0 International.
+You may share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence,
+and indicate if changes were made.
+Full text: https://creativecommons.org/licenses/by/4.0/
 
-The PM² Guide itself is a European Commission publication and is NOT covered
-by either licence above. It is not redistributed in this repository.
+Suggested attribution:
+
+    "PM² by playing it" by Youngsub Lee, CC BY 4.0
+    https://github.com/rhycha/PM-in-ESM-Role-Playing-Game
+
+This is the same licence the European Commission uses for the PM² Guide,
+so the whole work — the quoted excerpts and the material written around
+them — sits under one set of terms.
+
+────────────────────────────────────────────────────────────────────────
+THIRD-PARTY MATERIAL — not covered by either licence above
+────────────────────────────────────────────────────────────────────────
+
+Quoted excerpts from the PM² Methodology Guide 3.1 and the PM²-Agile Guide
+3.0.1 (the "What the guide says" reference boxes, artefact names, process
+names and RASCI tables) are:
+
+    © European Union, licensed CC BY 4.0
+    https://creativecommons.org/licenses/by/4.0/
+
+They remain under that licence wherever they appear here. Neither guide is
+redistributed as a document; both are free from the European Commission.
+
+The recorded audio was generated with the LibriTTS-R voice model, CC BY 4.0.
+See NOTICE.md for full attribution of both.

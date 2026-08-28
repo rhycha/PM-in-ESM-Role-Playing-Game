@@ -276,13 +276,18 @@ credits file.
 ## Licence and attribution
 
 - **Code and original content** (`play/`, `src/`, `tools/`, `docs/`) —
-  see [LICENCE](LICENCE). Code is MIT; the written case material is CC BY-NC 4.0.
+  see [LICENCE](LICENCE). Code is MIT; the written case material is
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — the same licence the
+  European Commission uses for the guide itself, so the whole work sits under one set
+  of terms. Use it, adapt it, teach from it; just credit it.
 - **Recorded voice** — synthesised with [Piper](https://github.com/rhasspy/piper) (MIT)
   using the LibriTTS-R multi-speaker model (CC BY 4.0). See
   [NOTICE.md](NOTICE.md) for full attribution.
-- **The PM² Guide** is published by the European Commission and is not redistributed
-  here. Page citations point at the official edition, which is
-  [free to download](https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/pm2-project-management-methodology_en).
+- **The PM² Guide and PM²-Agile Guide** are © European Union, licensed
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Roughly 10,000 words are
+  quoted here as page-cited reference boxes; those excerpts stay under CC BY 4.0. Neither
+  guide is redistributed as a document — both are
+  [free from the European Commission](https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/pm2-project-management-methodology_en).
 - This project is **not affiliated with, endorsed by, or connected to** the European
   Commission, the European Stability Mechanism, or any certifying body.
 

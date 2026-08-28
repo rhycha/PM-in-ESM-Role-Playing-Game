@@ -16,17 +16,39 @@ a scene sound alike. Speaker ids and rates are in `tools/make_voices.py`.
 
 Regenerating the audio requires only the model above; see the README.
 
-## The PM² methodology
+## The PM² methodology — © European Union, CC BY 4.0
 
 **PM²** is the project management methodology of the European Commission. The
 *PM² Project Management Methodology Guide 3.1* and the *PM²-Agile Guide 3.0.1* are
-European Commission publications, freely available from:
+publications of the European Union, released under the
+**Creative Commons Attribution 4.0 International licence (CC BY 4.0)** in line with
+Commission Decision 2011/833/EU on the reuse of Commission documents.
 
+> © European Union, 2023–2024. Licensed under CC BY 4.0.
+> https://creativecommons.org/licenses/by/4.0/
+> Source: https://op.europa.eu/en/publication-detail/-/publication/97cc2f12-c648-11ee-95d9-01aa75ed71a1
+
+**What this project reproduces.** The guides are not redistributed as documents — no PDF
+of either is included here. But this project *does* quote them: 577 short excerpts appear
+as the "What the guide says" reference boxes attached to lines of dialogue, roughly
+10,000 words in total, with a median length of 16 words and none longer than 45. Every
+excerpt carries the page number it came from. Chapter structure, artefact names, the
+RASCI tables and the process names are likewise taken from the guides.
+
+That reuse is permitted by CC BY 4.0 and is acknowledged here as the licence requires.
+The excerpts remain © European Union under CC BY 4.0, and the material written around them
+is released under the same licence — so the whole work sits under one consistent set of
+terms, with the European Union credited for its part and the repository author for theirs.
+
+**Not endorsed.** This project is not affiliated with, endorsed by, certified by, or
+connected to the European Commission, the PM² Alliance, or any PM² certifying body.
+Nothing here is an official PM² product, and reuse of the guide's content does not imply
+the European Union endorses this project or its author.
+
+**Not included.** The official artefact template pack and both original PDFs are
+deliberately excluded from this repository. Download them free from the European
+Commission:
 https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/pm2-project-management-methodology_en
-
-Neither guide is redistributed here. Page numbers cited throughout point at those
-official editions. This project is not affiliated with, endorsed by, or connected to the
-European Commission or any PM² certifying body.
 
 ## The European Stability Mechanism
 
