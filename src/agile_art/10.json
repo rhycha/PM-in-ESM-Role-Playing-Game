@@ -1,0 +1,302 @@
+{
+ "n": 10,
+ "id": "business-case",
+ "name": "Business Case",
+ "group": "Artefacts",
+ "one_liner": "Why the project is worth doing — and worth continuing.",
+ "purpose": "The Business Case captures the project's rationale, describes its alignment with the organisation's strategic objectives, justifies the investment in time and effort, and establishes budgetary needs. For larger strategic projects it also assesses impact and risks and carries a fuller cost-benefit analysis. It is a living document, re-examined at critical milestones to check that the expected benefits are still achievable and the project still relevant.",
+ "guide_page": 68,
+ "meta": [
+  [
+   "Artefact type",
+   "IT governance artefact — mandatory for projects with an information system (p.25)"
+  ],
+  [
+   "PM² equivalent",
+   "The PM² Business Case itself — PM²-Agile defines no agile variant"
+  ],
+  [
+   "Structure",
+   "Unchanged PM² template; the agile guide refers you to the PM² Portal and Guide"
+  ],
+  [
+   "Produced by",
+   "Business Manager (BM) — Responsible"
+  ],
+  [
+   "Approved by",
+   "Project Owner (PO) — Accountable"
+  ],
+  [
+   "RASCI columns",
+   "PM² eight-column set (AGB·PSC·PO·BM·UR·SP·PM·PCT), not the agile six"
+  ],
+  [
+   "Created in",
+   "Initiating; re-examined at critical project milestones"
+  ],
+  [
+   "Feeds",
+   "Project Charter · Architecture Overview · Operational Model · requirements (p.31)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "AGB",
+   "PSC",
+   "PO",
+   "BM",
+   "UR",
+   "SP",
+   "PM",
+   "PCT"
+  ],
+  "row": [
+   "I",
+   "C",
+   "A",
+   "R",
+   "C",
+   "S",
+   "S",
+   "-"
+  ],
+  "A": "PO",
+  "R": "BM"
+ },
+ "diagram": [
+  {
+   "sec": "1. Project Initiation Request information",
+   "items": [
+    "Project title",
+    "Initiator · organisation / unit",
+    "Date of request · target delivery date",
+    "Type of delivery: in-house / outsourced / mix"
+   ]
+  },
+  {
+   "sec": "2. Context",
+   "items": [
+    "Current situation description and urgency",
+    "Impact on processes and the organisation",
+    "Impact on stakeholders and users",
+    "Interrelations and interdependencies"
+   ]
+  },
+  {
+   "sec": "3–4. Outcomes and alternatives",
+   "items": [
+    "Desired outcomes (organisation, staff, assets, reputation)",
+    "Alternative A — do nothing",
+    "Alternatives B, C — description, SWOT, qualitative assessment",
+    "The chosen alternative"
+   ]
+  },
+  {
+   "sec": "5. Solution description — the value",
+   "items": [
+    "Legal basis",
+    "Benefits",
+    "Success criteria",
+    "Scope",
+    "Deliverables"
+   ]
+  },
+  {
+   "sec": "5. Solution description — the exposure",
+   "items": [
+    "Assumptions",
+    "Constraints",
+    "Risks",
+    "Costs, effort and funding source",
+    "Roadmap",
+    "Synergies and interdependencies"
+   ]
+  },
+  {
+   "sec": "6. Governance",
+   "items": [
+    "Project Owner (PO)",
+    "Solution Provider (SP)",
+    "Approving authority, signature and date"
+   ]
+  },
+  {
+   "sec": "What PM²-Agile adds to it",
+   "items": [
+    "Nothing to the template — it is an IT governance artefact, mandatory as-is",
+    "Documents the problem or need before any requirement is gathered (p.31)",
+    "Understanding the problem is the first input to the Architecture Overview (p.69)",
+    "Re-read at each milestone as the emerging solution changes the numbers"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Rationale",
+   "what": "Why the project exists — the problem, need or opportunity, and the case for acting on it now.",
+   "who": "BM Responsible · PO Accountable",
+   "pollux": "Eleven spreadsheets, four analysts, five days per quarter-end, and two open internal-audit findings on version control."
+  },
+  {
+   "f": "Alignment with strategic objectives",
+   "what": "How the project serves the organisation's strategy — the link decision-makers need before committing budget.",
+   "who": "BM drafts · AGB informed",
+   "pollux": "Exposure transparency to the Board, Risk and national authorities, building directly on the delivered CASTOR platform."
+  },
+  {
+   "f": "Justification of the investment",
+   "what": "Justifies the investment in time and effort: what the organisation gets for the person-days and the money.",
+   "who": "BM Responsible · PSC consulted",
+   "pollux": "1,850 PD over 18 months to remove a five-day manual quarter-end and an audit exposure."
+  },
+  {
+   "f": "Budgetary needs",
+   "what": "Establishes the budget the project needs, by cost type and funding source, before approval is sought.",
+   "who": "BM Responsible · PO approves",
+   "pollux": "€4.6 m total, in-house agile team plus two seconded contractor members from Levallois Systems."
+  },
+  {
+   "f": "Impact and risk assessment",
+   "what": "For larger strategic projects, an assessment of impact and risks alongside the cost-benefit analysis.",
+   "who": "BM with SP support",
+   "pollux": "National-authority access raises data-protection exposure; Brandeis (DPC) and Turing (LISO) flagged at Business Case stage."
+  },
+  {
+   "f": "Cost-benefit analysis",
+   "what": "A more detailed cost-benefit analysis for larger strategic projects; the basis of 'is it worth doing'.",
+   "who": "BM Responsible",
+   "pollux": "Four analyst-weeks per quarter released, against €4.6 m over eighteen months of delivery."
+  },
+  {
+   "f": "Success criteria",
+   "what": "Measurable criteria the benefits will be judged against; they carry forward unchanged into the Project Charter.",
+   "who": "BM with User Representatives",
+   "pollux": "SC1–SC5, each with a baseline and a target, from pack assembly time to open audit findings."
+  },
+  {
+   "f": "Alternatives considered",
+   "what": "Do-nothing plus real options, each with a SWOT and qualitative assessment, and the chosen alternative named.",
+   "who": "BM Responsible · SP supports",
+   "pollux": "Do nothing; extend CASTOR reporting screens; build a separate portal — the portal was chosen."
+  },
+  {
+   "f": "Scope and deliverables",
+   "what": "High-level scope and the deliverables that will exist at the end — not yet decomposed into work items.",
+   "who": "BM drafts · PM supports",
+   "pollux": "One portal, reconciled exposure by member state, instrument and maturity, traceable to the lending platform."
+  },
+  {
+   "f": "Roadmap",
+   "what": "The high-level route from approval to benefits, later refined into the Charter's milestones and the Release Plan.",
+   "who": "BM · PM supports",
+   "pollux": "Four quarterly releases across 2029, transition into service 31 Jan 2030."
+  },
+  {
+   "f": "Governance",
+   "what": "Names the Project Owner, the Solution Provider and the approving authority who signs the investment off.",
+   "who": "PO Accountable · AGB informed",
+   "pollux": "Nightingale (PO), da Vinci (SP), approving authority the Corporate Investment Board chaired by de' Medici."
+  },
+  {
+   "f": "Living-document rule",
+   "what": "Re-examined at critical milestones: benefits still achievable, costs and schedule still within budget and timeline, project still relevant.",
+   "who": "PO Accountable · PM supports",
+   "pollux": "Re-examined at the RfP and RfE gates and after Release 2's reconciliation panel changed scope."
+  },
+  {
+   "f": "Decision support",
+   "what": "Its job is to give decision-makers what they need to decide whether the project is worth doing.",
+   "who": "AGB informed · PO decides",
+   "pollux": "De' Medici's question — funding something that cannot say what it will deliver — is answered here."
+  },
+  {
+   "f": "Source of the problem statement",
+   "what": "The guide says to fully document the problem or need in the Business Case before gathering requirements (p.31).",
+   "who": "BM Responsible",
+   "pollux": "Nobody agrees what the exposure report should contain — stated as the problem, not deferred to requirements."
+  },
+  {
+   "f": "Input to architecture",
+   "what": "With the Charter, it tells the Architecture Owner what problem is to be solved before any solution is drawn (pp.69, 71).",
+   "who": "ArOw consumes it",
+   "pollux": "Einstein starts every enabler discussion from the Business Case problem statement, not from a technology."
+  },
+  {
+   "f": "Relationship to PM²-Agile",
+   "what": "Agile changes how Executing is run, not the governance layer: the Business Case stays mandatory and unchanged.",
+   "who": "PM explains it · PO owns it",
+   "pollux": "PM²-Agile does not replace PM²: Business Case, Charter, phases and gates all stay in POLLUX."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "AGB I · PSC C · PO A · BM R · UR C · SP S · PM S · PCT –. Eight PM² columns, not six.",
+   "who": "PO Accountable · BM Responsible",
+   "pollux": "Hopper writes it; Nightingale signs for it; the PM only supports."
+  }
+ ],
+ "traps": [
+  "PM is not Accountable here — the Project Owner is.",
+  "The BM writes the Business Case; the PM writes the Charter.",
+  "Agile does not delete or lighten the Business Case — it is mandatory.",
+  "Appendix B.2 prints BM = R, PM = S and shows no Accountable at all.",
+  "Business Case = why and whether; Project Charter = what, how and when."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Business Case v1.2, approved 12 Oct 2028",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Problem",
+    "11 manual spreadsheets, 4 analysts, 5 days per quarter-end; 2 open audit findings"
+   ],
+   [
+    "Chosen alternative",
+    "Build a reporting portal over the CASTOR lending platform data"
+   ],
+   [
+    "SC1",
+    "Quarter-end pack assembly: 5 days / 4 analysts → 1 day / 1 analyst"
+   ],
+   [
+    "SC2",
+    "Time to deliver a new report view: ~1 quarter → 1 iteration (2 weeks)"
+   ],
+   [
+    "SC3",
+    "Manually maintained spreadsheets in the reporting chain: 11 → 0"
+   ],
+   [
+    "SC4",
+    "Figures traceable without manual mapping: ~40% → 100%"
+   ],
+   [
+    "SC5",
+    "Open internal-audit findings on reporting version control: 2 → 0"
+   ],
+   [
+    "Costs and effort",
+    "€4.6 m · 1,850 PD · 18 months"
+   ],
+   [
+    "Type of delivery",
+    "In-house agile team with two seconded contractor members"
+   ],
+   [
+    "Why PM²-Agile",
+    "Requirement genuinely not knowable up front; users cannot specify until they see it"
+   ],
+   [
+    "Author · Accountable",
+    "Grace Hopper (BM) · Florence Nightingale (PO)"
+   ],
+   [
+    "Approving authority",
+    "Corporate Investment Board, chaired by Lorenzo de' Medici — approved 12 Oct 2028"
+   ]
+  ]
+ }
+}

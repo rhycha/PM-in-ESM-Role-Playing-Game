@@ -1,0 +1,299 @@
+{
+ "n": 17,
+ "id": "release-plan",
+ "name": "Release Plan",
+ "group": "Artefacts",
+ "one_liner": "What will be released and when — the delivery strategy, not a calendar.",
+ "purpose": "The Release Plan documents the high-level UX and development milestones, giving information on what will be released and when, based on what the Project Core Team knows at a given point in time. It results from the initial overall planning effort during the PM² Initiating and Planning phases and is adjusted with progress and feedback from the A-PCT. Releases introduce a timeboxed rhythm to construction, give stakeholders some predictability, and let the plan carry the dependencies, transition and business implementation activities each release needs.",
+ "guide_page": 78,
+ "meta": [
+  [
+   "Artefact type",
+   "Agile-specific artefact — the release-level schedule of the Development Work Plan"
+  ],
+  [
+   "Also called",
+   "Release Schedule — 'documents the high-level development milestones' (glossary, p.105)"
+  ],
+  [
+   "PM² equivalent",
+   "Part of the Project Work Plan; aligns with the Transition Plan and Business Implementation Plan"
+  ],
+  [
+   "Produced by",
+   "Team Coordinator (TeCo) — Responsible"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — alignment with project vision and Charter milestones"
+  ],
+  [
+   "Focus",
+   "What needs to be done and when — never how"
+  ],
+  [
+   "Updated by",
+   "The Release Planning ceremony; revisited after each iteration"
+  ],
+  [
+   "Lifecycle",
+   "Planning Created · Executing Updated (p.79)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "S",
+   "S",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "1. What it documents",
+   "items": [
+    "The high-level UX and development milestones",
+    "What will be released, and when",
+    "Based on what the PCT knows at a specific point in time",
+    "Adjusted with progress and feedback from the A-PCT"
+   ]
+  },
+  {
+   "sec": "2. The five purposes",
+   "items": [
+    "Plan the release of usable versions of the solution",
+    "Provide a high-level plan with main goals and major features to deliver",
+    "Give visibility to risks, issues, decisions, changes, constraints and assumptions",
+    "Assist when scheduling transition activities — deployment strategy and activities",
+    "Assist when scheduling Business Implementation activities — for example training"
+   ]
+  },
+  {
+   "sec": "3. Different levels of detail",
+   "items": [
+    "AGB — the releases planned and their major objectives, to check strategic alignment",
+    "PrOw — which work items land in which release",
+    "Which part of each feature is released, and when"
+   ]
+  },
+  {
+   "sec": "4. Assumptions made visible",
+   "items": [
+    "The velocity of the team",
+    "The pre-defined size of each iteration",
+    "Optimistic and pessimistic velocity scenarios",
+    "Assumptions identified as assumptions, not stated as facts"
+   ]
+  },
+  {
+   "sec": "5. Feasibility",
+   "items": [
+    "Size of the Work Items List versus the team's velocity",
+    "Re-evaluated at the end of every iteration",
+    "Business stakeholders adjust when required"
+   ]
+  },
+  {
+   "sec": "6. Per planned release",
+   "items": [
+    "Transition activities defined and aligned with the PM² Transition Plan",
+    "The target environment prepared",
+    "The end-users ready to use the delivered solution",
+    "Business Implementation activities for releases going to the whole requestor organisation"
+   ]
+  },
+  {
+   "sec": "7. Dependencies and strategy",
+   "items": [
+    "Dependencies on other projects, information systems and operations activities",
+    "The overall release strategy — marketing, operational, economic, legal",
+    "A Deployment Plan prepared as early as possible; it can change the WIL and the Release Plan",
+    "A Continuous Delivery Pipeline (DevSecOps) can dramatically reduce the complexity"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "What and when",
+   "what": "The Release Plan's focus is primarily on what needs to be done and when — the iteration level covers how.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Four releases in 2029: member-state view, instrument and reconciliation, scenario overlay, self-service builder."
+  },
+  {
+   "f": "High-level milestones",
+   "what": "Documents the high-level UX and development milestones; the glossary calls this the Release Schedule.",
+   "who": "TeCo Responsible",
+   "pollux": "29 Mar, 28 Jun, 27 Sep, 20 Dec 2029 — the same dates as the Charter milestones."
+  },
+  {
+   "f": "Usable versions",
+   "what": "Plans the release of usable versions of the solution — releases exist to put working solution in users' hands.",
+   "who": "PrOw supplies delivery strategy",
+   "pollux": "Release 1 is read-only exposure by member state — thin, but genuinely usable by the Board Secretariat."
+  },
+  {
+   "f": "Main goals and major features",
+   "what": "A high-level plan with the main goals to be achieved, including the major features to deliver.",
+   "who": "PrOw Supports · TeCo Responsible",
+   "pollux": "Release 2 goal: Risk and Finance stop maintaining their own spreadsheets (SC3)."
+  },
+  {
+   "f": "Visibility of uncertainty",
+   "what": "Offers visibility to the risks, issues, decisions, changes, constraints and assumptions related to the development aspect.",
+   "who": "TeCo records · PM Accountable",
+   "pollux": "Dependency: no CASTOR schema change during the Release 2 window."
+  },
+  {
+   "f": "Transition activities",
+   "what": "Assists scheduling transition activities such as deployment strategy and activities, documented and aligned with the PM² Transition Plan.",
+   "who": "TeCo Responsible · PM aligns upward",
+   "pollux": "Cut-over rehearsals two weeks before each release; service transition completed 31 Jan 2030."
+  },
+  {
+   "f": "Business Implementation activities",
+   "what": "Releases reaching the whole requestor organisation carry Business Implementation activities aligned with the PM² Business Implementation Plan.",
+   "who": "BM and BIG · PM Accountable",
+   "pollux": "National-authority training and access onboarding scheduled before Release 3 on 27 Sep 2029."
+  },
+  {
+   "f": "Timeboxed rhythm",
+   "what": "Releases introduce a timeboxed rhythm to construction, providing some level of predictability for the team and stakeholders.",
+   "who": "TeCo Responsible",
+   "pollux": "Roughly quarterly releases over six two-week iterations each."
+  },
+  {
+   "f": "Dependency management",
+   "what": "Facilitates management of dependencies the system has with other projects, information systems or operations activities.",
+   "who": "ArOw Supports · TeCo Responsible",
+   "pollux": "The single upstream dependency is the CASTOR nightly extract owned by Lending Operations."
+  },
+  {
+   "f": "Levels of detail per audience",
+   "what": "The AGB wants releases and major objectives; the PrOw needs which work items land in which release.",
+   "who": "TeCo Responsible",
+   "pollux": "De' Medici's board pack shows four releases and their objectives; Curie's view shows every item."
+  },
+  {
+   "f": "Build it as early as possible",
+   "what": "Hold the first Release Planning ceremony to establish the initial plan as soon as possible, preferably early in Planning.",
+   "who": "TeCo Responsible · A-PCT participates",
+   "pollux": "First Release Planning on 23 Oct 2028, a week after the RfP gate."
+  },
+  {
+   "f": "More than a calendar",
+   "what": "It reflects the whole release strategy — marketing, operational, economic, legal — not just dates and functionality.",
+   "who": "PrOw and BM supply strategy",
+   "pollux": "National-authority access waits for Release 3 because the legal basis had to be confirmed first."
+  },
+  {
+   "f": "Revisit after each iteration",
+   "what": "New inputs from Iteration Review and Retrospective generate work items; updated velocity must be reflected in the plan.",
+   "who": "TeCo Responsible · ATeM inputs",
+   "pollux": "Velocity settled at 34 points after iteration 3; Release 4 scope trimmed accordingly."
+  },
+  {
+   "f": "Release Planning ceremony",
+   "what": "Its outputs update the plan: items added, updated or removed with the relative estimates given by the team.",
+   "who": "PrOw R/A for the ceremony · TeCo supports",
+   "pollux": "Held at least once per iteration; Curie runs it, Lovelace facilitates, Einstein defends enablers."
+  },
+  {
+   "f": "Feasibility",
+   "what": "WIL size and team velocity together evaluate feasibility; different data sets create optimistic and pessimistic scenarios.",
+   "who": "TeCo Responsible · business adjusts",
+   "pollux": "Pessimistic velocity of 28 points showed Release 4 slipping; scope was cut, not the date."
+  },
+  {
+   "f": "Assumptions visible",
+   "what": "Velocity and the pre-defined iteration size must be clearly visible and identified as the plan's current assumptions.",
+   "who": "TeCo Responsible",
+   "pollux": "Stated on the plan: two-week iterations, 34 points, team of eight with no holiday gaps assumed."
+  },
+  {
+   "f": "Have a Deployment Plan",
+   "what": "Plan the production deployment strategy as early as possible — it can impact both the WIL and the Release Plan.",
+   "who": "TeCo Responsible · Operations contributes",
+   "pollux": "Deployment dry-runs became enabler stories once operations named their cut-over window."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "BM I · PM A · TeCo R · PrOw S · ArOw S · ATeM S. BM is informed by the PrOw of the updated plan.",
+   "who": "PM Accountable · TeCo Responsible",
+   "pollux": "Lovelace builds it, Curie supplies the delivery strategy, Hopper is informed of each update."
+  }
+ ],
+ "traps": [
+  "Release Plan = what and when; Iteration Plan = how.",
+  "TeCo is Responsible, not the PrOw — the PrOw only Supports.",
+  "BM is Informed here but Supports on the Work Items List.",
+  "It is not the PM² Transition Plan — it schedules transition activities, not readiness.",
+  "A release strategy, not a date list: marketing, legal and operational drivers included."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Release Plan v4.0, after iteration 9 (Release 2 window)",
+  "rows": [
+   [
+    "Release · Date",
+    "Goal and major features",
+    "Notes"
+   ],
+   [
+    "R1 · 29 Mar 2029",
+    "Exposure by member state, read-only",
+    "Delivered; SC1 baseline re-measured at 2 days"
+   ],
+   [
+    "R2 · 28 Jun 2029",
+    "Instrument and maturity views, reconciliation panel",
+    "In progress; targets SC3 (spreadsheets 11 → 4)"
+   ],
+   [
+    "R3 · 27 Sep 2029",
+    "Scenario overlay, national-authority access",
+    "Needs legal basis confirmed and DPC sign-off"
+   ],
+   [
+    "R4 · 20 Dec 2029",
+    "Self-service report builder",
+    "Scope trimmed on pessimistic velocity"
+   ],
+   [
+    "Assumptions",
+    "Two-week iterations · velocity 34 points · team of eight",
+    "Stated on the plan, reviewed each iteration"
+   ],
+   [
+    "Dependency",
+    "CASTOR nightly extract; no schema change during the R2 window",
+    "Owned by Lending Operations"
+   ],
+   [
+    "Transition activities",
+    "Cut-over rehearsal two weeks before each release",
+    "Aligned with the PM² Transition Plan"
+   ],
+   [
+    "Business Implementation",
+    "National-authority training and onboarding before R3",
+    "Aligned with the Business Implementation Plan"
+   ],
+   [
+    "Responsible · Accountable",
+    "Ada Lovelace (TeCo) · Project Manager (PM)",
+    "Curie supports, Hopper informed"
+   ]
+  ]
+ }
+}

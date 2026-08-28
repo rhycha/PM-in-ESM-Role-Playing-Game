@@ -1,0 +1,282 @@
+{
+ "n": 10,
+ "id": "business-implementation-plan",
+ "name": "Business Implementation Plan",
+ "family": "Planning",
+ "one_liner": "How the organisation — its processes, people and culture — is changed so the outputs actually deliver benefits.",
+ "purpose": "The Business Implementation Plan aims to increase the likelihood of achieving the project's desired outcomes and benefits. It documents an assessment of the project's impact on the organisation's processes, culture and people, and outlines the change-management and communications activities needed so the outputs are effectively integrated into the organisation's environment. Business implementation activities may run inside the project or as a separate one; those inside become part of the Project Work Plan.",
+ "guide_page": 52,
+ "rasci": {
+  "A": "PO",
+  "R": "BM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "R",
+   "BIG": "C",
+   "SP": "I",
+   "PM": "S",
+   "PCT": "I"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Owner (PO)",
+ "inputs": [
+  "Business Case",
+  "Project Charter",
+  "Project Handbook",
+  "Project Work Plan",
+  "Transition Plan",
+  "Quality Management Plan"
+ ],
+ "feeds": [
+  "Project Work Plan",
+  "Transition Plan",
+  "Business Implementation Checklist",
+  "Transition Checklist",
+  "Project Reports",
+  "Project-End Report (Post-Project Recommendations)"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "BM prepares, BIG consulted, PM assists, PO approves"
+  },
+  {
+   "phase": "Executing",
+   "what": "Process redesign, communication, promotion and training delivered"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Manage Business Implementation; BM reports status and changes"
+  },
+  {
+   "phase": "Closing",
+   "what": "Post-project activities and benefit tracking handed to the permanent organisation"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Document Approver(s) and Reviewer(s) — BM held responsible for this document",
+    "Document History",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Consider the impact of deliverables on the performing organisation and beneficiaries",
+    "Prepare them to accept and use the deliverables",
+    "Manage the resulting organisational changes"
+   ]
+  },
+  {
+   "sec": "2. Impact On Processes",
+   "items": [
+    "How deliverables affect existing business processes",
+    "Definition of the new business processes",
+    "Reference to 'as-is' and 'to-be' process descriptions"
+   ]
+  },
+  {
+   "sec": "3. Impact On People",
+   "items": [
+    "Impact on people using the deliverables",
+    "Resistance to substantial change",
+    "Client-side awareness and handling"
+   ]
+  },
+  {
+   "sec": "4. Impact On the Organisational Culture",
+   "items": [
+    "Analyse and evaluate the impact on organisational culture",
+    "Observe capabilities, behaviour, controlling methods, communication forms",
+    "Look at mission statement (old/new) and social events"
+   ]
+  },
+  {
+   "sec": "5. Business Implementation Strategies and Activities",
+   "items": [
+    "5.1 Communications Strategy",
+    "5.2 Timing and Milestones",
+    "5.3 Project Promotion Activities",
+    "5.4 Change Management Activities",
+    "5.4.1 Project Activities",
+    "5.4.2 Change Activities for the Permanent Organization",
+    "5.4.3 Post-Project Activities",
+    "5.5 Benefits Tracking"
+   ]
+  },
+  {
+   "sec": "6. Training Needs and Activities",
+   "items": [
+    "Training needs of people in the performing organisation",
+    "Caused by the implementation of the deliverables"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID",
+    "Reference or Related Document",
+    "Source or Link/Location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1. Introduction",
+   "what": "Define the plan's objectives: consider the impact of deliverables on the performing organisation and beneficiaries, prepare them to accept and use the deliverables, manage the resulting change.",
+   "who": "BM prepares · PM assists · PO approves",
+   "castor": "Prepare Lending Operations to run disbursements on the new platform instead of re-keying between systems."
+  },
+  {
+   "f": "2. Impact On Processes",
+   "what": "How the deliverables affect existing business processes in the performing organisation and beneficiaries; define the new processes and refer to 'as-is' and 'to-be' descriptions.",
+   "who": "BM drafts · BIG consulted",
+   "castor": "Manual re-keying of ~1,400 fields per quarter disappears (SC4); reconciliation moves from three days to same day."
+  },
+  {
+   "f": "3. Impact On People",
+   "what": "Impact on the people in the performing organisation or beneficiaries using the deliverables; substantial change may cause resistance and the client must be aware and deal with it.",
+   "who": "BM drafts · BIG and PO consulted",
+   "castor": "40 loan administrators lose the re-keying task; two roles refocus on exception handling and controls."
+  },
+  {
+   "f": "4. Impact On the Organisational Culture",
+   "what": "Analyse and evaluate the impact on organisational culture — capabilities and behaviour, controlling methods, forms of communication, mission statement, social events.",
+   "who": "BM drafts · PO consulted",
+   "castor": "Shift from a four-eyes manual culture to system-enforced segregation of duties, closing an audit finding."
+  },
+  {
+   "f": "5.1 Communications Strategy",
+   "what": "Describe a communications strategy that facilitates effective implementation of this plan; regular communication activities belong in the Communications Management Plan or Project Handbook.",
+   "who": "BM drafts · PM aligns with CMP",
+   "castor": "Monthly Lending Operations briefings from Grace Hopper, plus a quarterly note to the Board of Directors."
+  },
+  {
+   "f": "5.2 Timing and Milestones",
+   "what": "Determine the business implementation timeline, milestones and overlap with project activities. Business implementation may continue after closure; it completes when benefits are achieved or can no longer be achieved.",
+   "who": "BM drafts · PM schedules in the Work Plan",
+   "castor": "Process redesign Q3 2027; training Jan–Apr 2028; benefits measurable only in 2029."
+  },
+  {
+   "f": "5.3 Project Promotion Activities",
+   "what": "Communication methods and instruments that win internal and external stakeholder support; project promotion increases management attention and eases acceptance. Splits into project-management and project-output activities.",
+   "who": "All project roles · BM coordinates",
+   "castor": "Demo of the configuration engine to the Corporate Investment Board after Release 1, 26 Mar 2027."
+  },
+  {
+   "f": "5.4 Change Management Activities",
+   "what": "Template warns explicitly: NOT about processing change requests to the project. It describes organisational change during and after the project needed to realise Business Case benefits.",
+   "who": "BM owns · PO accountable",
+   "castor": "Not the SRF-backstop scope request — that went to a Change Request Form and the Change Log."
+  },
+  {
+   "f": "5.4.1 Project Activities",
+   "what": "Organisational change activities within the project's direct responsibility, fully completable within its mandate and by its end; aligned with and incorporated into the Project Work Plan.",
+   "who": "BM defines · PM schedules",
+   "castor": "Retraining all 40 loan administrators and republishing the disbursement procedure before 15 May 2028."
+  },
+  {
+   "f": "5.4.2 Change Activities for the Permanent Organization",
+   "what": "Necessary change activities that cannot be executed within the project's mandate, budget and deadline; identified, described and passed on to the permanent organisation to carry out.",
+   "who": "BM identifies · PO accepts handover",
+   "castor": "Annual refresher training and control self-assessment owned by Lending Operations from 2029."
+  },
+  {
+   "f": "5.4.3 Post-Project Activities",
+   "what": "Change or change-management activities to take place after the project ends — by the permanent organisation, related projects, or the programme; may recommend follow-up projects.",
+   "who": "BM proposes · PO endorses",
+   "castor": "Onboard the SRF common backstop within six weeks of the ESM Treaty reform entering into force."
+  },
+  {
+   "f": "5.5 Benefits Tracking",
+   "what": "Identify, describe and recommend activities and metrics for measuring future benefits realisation, implemented by the permanent organisation or a future project.",
+   "who": "BM defines · PO owns the benefits",
+   "castor": "SC1–SC5 measured quarterly by Lending Operations from Q1 2029; first full-year reading 2029."
+  },
+  {
+   "f": "6. Training Needs and Activities",
+   "what": "Define the training needs of the people in the performing organisation caused by the implementation — this is where user training is owned, designed and resourced.",
+   "who": "BM owns and schedules delivery · PM adds it to the Work Plan",
+   "castor": "Three-day classroom course plus shadowing for 40 loan administrators, Jan–Apr 2028, run by the BIG."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Reference any relevant or additional documents by title, version, date and source or location.",
+   "who": "BM maintains",
+   "castor": "09.Transition_Plan.CASTOR.26-06-2026.V1.0.docx; 02.Business_Case.CASTOR.24-03-2026.V1.0.docx."
+  }
+ ],
+ "traps": [
+  "The only plan the PM does not own: BM Responsible, PO Accountable, PM merely Supports.",
+  "Guide p.26 excludes the BIP (with PIR and Business Case) from artefacts the PM oversees.",
+  "PSC is only Informed here — it does not approve the Business Implementation Plan.",
+  "5.4 is organisational change, not Change Requests; the template warns explicitly.",
+  "Retraining 40 users lives here; the Transition Plan only checks it happened before cutover."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Business Implementation Plan v1.0, 26 Jun 2026 (Project CASTOR)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Prepared by",
+    "Grace Hopper, Business Manager · approved by Florence Nightingale, Project Owner"
+   ],
+   [
+    "Impact on processes",
+    "Manual re-keying of ~1,400 fields/quarter removed; reconciliation three days to same day"
+   ],
+   [
+    "Impact on people",
+    "40 loan administrators lose re-keying; two roles refocus on exception handling"
+   ],
+   [
+    "Impact on culture",
+    "Four-eyes manual controls replaced by system-enforced segregation of duties"
+   ],
+   [
+    "Communications strategy",
+    "Monthly Lending Operations briefings; quarterly note to the Board of Directors"
+   ],
+   [
+    "Timing",
+    "Process redesign Q3 2027 · training Jan–Apr 2028 · benefits measurable 2029"
+   ],
+   [
+    "Promotion",
+    "Configuration-engine demo to the Corporate Investment Board after Release 1, 26 Mar 2027"
+   ],
+   [
+    "Change — project activities",
+    "Retrain all 40 loan administrators; republish disbursement procedure before 15 May 2028"
+   ],
+   [
+    "Change — permanent organisation",
+    "Annual refresher training and control self-assessment from 2029, Lending Operations"
+   ],
+   [
+    "Post-project activity",
+    "Onboard the SRF common backstop within six weeks of Treaty reform entering into force"
+   ],
+   [
+    "Benefits tracking",
+    "SC1–SC5 measured quarterly by Lending Operations from Q1 2029"
+   ],
+   [
+    "Training",
+    "Three-day classroom course plus shadowing, delivered by the BIG, Jan–Apr 2028"
+   ]
+  ]
+ }
+}

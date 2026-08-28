@@ -1,0 +1,243 @@
+{
+ "n": 30,
+ "id": "planning",
+ "name": "Planning",
+ "group": "Themes",
+ "one_liner": "Agile plans more than traditional projects — just continuously and at three granularities.",
+ "purpose": "The common misperception that agile does not plan comes from the value 'Responding to change over following a plan' — which refers to following a plan, not to planning. The amount of planning effort in agile is greater than in traditionally managed projects, and its intensity is spread throughout the whole project lifecycle. PM²-Agile proposes sufficient upfront planning and documentation to comply with IT governance and project management requirements, which then guides iterative and incremental planning.",
+ "guide_page": 28,
+ "meta": [
+  [
+   "Theme",
+   "4.2"
+  ],
+  [
+   "Core correction",
+   "The value rejects following a plan, not planning"
+  ],
+  [
+   "Motto",
+   "Do the planning, throw away the Plan"
+  ]
+ ],
+ "rasci": {
+  "title": "RAM (RASCI) — the planning artefacts",
+  "rows": [
+   [
+    "Artefact",
+    "BM",
+    "PM",
+    "TeCo",
+    "PrOw",
+    "ArOw",
+    "ATeM"
+   ],
+   [
+    "Development Work Plan",
+    "I",
+    "A",
+    "R",
+    "S",
+    "S",
+    "S"
+   ],
+   [
+    "Release Plan",
+    "I",
+    "A",
+    "R",
+    "S",
+    "S",
+    "S"
+   ],
+   [
+    "Iteration Plan",
+    "I",
+    "A",
+    "R",
+    "C",
+    "S",
+    "S"
+   ],
+   [
+    "Work Items List",
+    "S",
+    "A",
+    "C",
+    "R",
+    "S",
+    "S"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "The core correction",
+   "items": [
+    "'Responding to change over following a plan' refers to following a plan, not to planning",
+    "Agile planning involves more effort than traditionally managed projects",
+    "Planning intensity is spread throughout the whole project lifecycle",
+    "From maintaining the Work Items List to stand-ups, success depends on effective planning"
+   ]
+  },
+  {
+   "sec": "What differs from traditional planning",
+   "items": [
+    "Detail, granularity and format of the plans",
+    "The key players involved in the planning activities",
+    "Measures — iterations, story points and velocity instead of person-hours",
+    "Releases based on a cut-off date rather than well-defined requirements",
+    "Production founded on increments integrating client and stakeholder feedback"
+   ]
+  },
+  {
+   "sec": "Three PM²-Agile planning principles",
+   "items": [
+    "Planning cycles and scope are decided per the cycle they belong to and the nature of the project",
+    "Everybody is involved in planning",
+    "Planning is more important than plans: 'Do the planning, throw away the Plan'"
+   ]
+  },
+  {
+   "sec": "What must be agreed with stakeholders",
+   "items": [
+    "Presentation and granularity of plan elements, so they are accessible and transparent",
+    "Without agreements it is hard to commit resources or synchronise parallel work streams",
+    "Lack of visibility and coordination causes disconnects, inefficiencies, tension and friction",
+    "Managing and Directing stakeholders are involved and educated rather than bypassed"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "The misperception",
+   "what": "One of the commonest misperceptions about agile relates to planning and originates from the value on responding to change.",
+   "who": "Managing and Directing stakeholders",
+   "pollux": "Gantt hears 'agile' and assumes POLLUX has no schedule."
+  },
+  {
+   "f": "Following a plan, not planning",
+   "what": "The agile value refers to following a plan; it does not devalue the act of planning itself.",
+   "who": "Whole project organisation",
+   "pollux": "You show Gantt three plans that exist and are maintained continuously."
+  },
+  {
+   "f": "More effort, not less",
+   "what": "The amount of planning effort in agile involves more effort in comparison to traditionally managed projects.",
+   "who": "A-PCT, TeCo facilitating",
+   "pollux": "Planning happens every fortnight rather than once before execution."
+  },
+  {
+   "f": "Spread across the lifecycle",
+   "what": "The intensity of planning activities is spread throughout the whole project lifecycle rather than concentrated upfront.",
+   "who": "A-PCT and PM",
+   "pollux": "Release Planning runs at least once per iteration across eighteen months."
+  },
+  {
+   "f": "What planning covers",
+   "what": "Maintaining the Work Items List, estimating work item effort, Stand-up meetings and iteration planning all count as planning.",
+   "who": "PrOw, ATeMs, TeCo",
+   "pollux": "Curie's list, the team's estimates and the daily stand-up are all planning."
+  },
+  {
+   "f": "Different granularity and players",
+   "what": "Agile plans differ in detail, granularity and format, and in the various key players involved in planning activities.",
+   "who": "A-PCT, BM, PM, stakeholders",
+   "pollux": "WIL, Release Plan and Iteration Plan give three levels of detail."
+  },
+  {
+   "f": "Integration and coordination",
+   "what": "Planning plays an important role in integrating and coordinating people's efforts across different involvement levels and planning horizons.",
+   "who": "A-PCT and other teams",
+   "pollux": "Coordinates the in-house team with two seconded Levallois Systems members."
+  },
+  {
+   "f": "Agreements on plan elements",
+   "what": "Agreements must be established so certain plan elements, including presentation and granularity, are accessible and transparent to all.",
+   "who": "Team members and stakeholders",
+   "pollux": "Gantt and the team agree what a release-level plan must show."
+  },
+  {
+   "f": "Cost of no agreement",
+   "what": "Without such agreements it is difficult to commit resources or synchronise various parallel work streams.",
+   "who": "Resource owners, parallel teams",
+   "pollux": "Unagreed formats would leave the reporting analysts unable to plan their quarter."
+  },
+  {
+   "f": "Cost of no visibility",
+   "what": "Lack of visibility and coordination results in disconnects and inefficiencies and increases tension and friction across the organisation.",
+   "who": "Whole organisation",
+   "pollux": "The old eleven-spreadsheet chain is exactly that failure, in reporting form."
+  },
+  {
+   "f": "Different measures",
+   "what": "Resource requirements and timelines are measured using iterations, story points and velocity rather than detailed timelines and cost estimates.",
+   "who": "A-PCT",
+   "pollux": "The team sizes work in points; the budget stays €4.6 m and 1,850 PD."
+  },
+  {
+   "f": "Releases on a cut-off date",
+   "what": "Releases are based on a cut-off date as opposed to well-defined requirements, and production integrates feedback into increments.",
+   "who": "PrOw, TeCo, stakeholders",
+   "pollux": "Release 2 ships on 28 Jun 2029 with what is ready by then."
+  },
+  {
+   "f": "Managing expectations upward",
+   "what": "Managing and Directing stakeholders usually prefer complete plans upfront; involving and educating them demonstrates the agile process's efficacy.",
+   "who": "PM, BM, Directing layer",
+   "pollux": "Conflict 1 — Medici asks why he should fund an undefined deliverable."
+  },
+  {
+   "f": "Sufficient upfront planning",
+   "what": "PM²-Agile proposes sufficient upfront planning and documentation complying with IT governance and project management requirements, guiding later iterative planning.",
+   "who": "PM, TeCo, IT Governance",
+   "pollux": "Development Handbook and Development Work Plan baselined 27 Nov 2028."
+  },
+  {
+   "f": "Three planning principles",
+   "what": "Cycles decided per cycle and project nature; everybody is involved in planning; planning is more important than plans.",
+   "who": "Everybody",
+   "pollux": "Every POLLUX role plans something, from Curie's list to Eiffel's estimates."
+  }
+ ],
+ "traps": [
+  "Agile planning takes more effort than traditional planning, not less.",
+  "The agile value rejects following a plan, not the act of planning.",
+  "Releases are cut off by date, not by completing well-defined requirements.",
+  "PM²-Agile still requires sufficient upfront planning for IT governance compliance.",
+  "'Throw away the Plan' targets the artefact, never the planning activity."
+ ],
+ "pollux_excerpt": {
+  "title": "Planning on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Three levels of detail",
+    "Work Items List, Release Plan, Iteration Plan"
+   ],
+   [
+    "Iteration cadence",
+    "Two weeks, fixed"
+   ],
+   [
+    "Release cadence",
+    "Roughly quarterly, four releases in total"
+   ],
+   [
+    "Release Planning",
+    "At least once per iteration"
+   ],
+   [
+    "Upfront baseline",
+    "Development Handbook and Development Work Plan, 27 Nov 2028"
+   ],
+   [
+    "Live conflict",
+    "Conflict 2 — Gantt assumes an agile project has no schedule"
+   ]
+  ]
+ }
+}

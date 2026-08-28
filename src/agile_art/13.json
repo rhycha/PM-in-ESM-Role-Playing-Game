@@ -1,0 +1,289 @@
+{
+ "n": 13,
+ "id": "operational-model",
+ "name": "Operational Model",
+ "group": "Artefacts",
+ "one_liner": "The infrastructure side of the architecture: nodes, deployment units, connections.",
+ "purpose": "The Operational Model describes the 'operational' aspect of an IT system's architecture, focusing on the system's infrastructure from both a logical and a physical perspective. It describes the required operational characteristics and the network of computer systems, peripherals, software, middleware and application software that support the system's users, including the operational distribution into deployment units, the nodes, their placement across locations and the connections between them. For systems hosted in a third party's data centre it is a key input for proper support and maintenance.",
+ "guide_page": 70,
+ "meta": [
+  [
+   "Artefact type",
+   "IT governance artefact — mandatory for projects with an information system (p.25)"
+  ],
+  [
+   "PM² equivalent",
+   "None — PM² core has no Operational Model; IT governance requires it"
+  ],
+  [
+   "Produced by",
+   "Architecture Owner (ArOw) — Responsible"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — as on every agile artefact row"
+  ],
+  [
+   "Pairs with",
+   "Architecture Overview (logical) · Deployment Plan (how it is put there)"
+  ],
+  [
+   "Lifecycle",
+   "Initiating Created · Planning Updated · Executing Updated · Closing – (p.72)"
+  ],
+  [
+   "RASCI anomaly",
+   "Its own table on p.71 prints no BM column; Appendix B.2 (p.95) shows BM = I"
+  ],
+  [
+   "Feeds",
+   "Work Items List — enabler stories, with the Architecture Overview (p.76)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "A",
+   "S",
+   "I",
+   "R",
+   "S"
+  ],
+  "A": "PM",
+  "R": "ArOw"
+ },
+ "diagram": [
+  {
+   "sec": "1. Required operational characteristics",
+   "items": [
+    "What the system must do operationally, logically and physically",
+    "Support for the functional requirements",
+    "Support for the non-functional requirements"
+   ]
+  },
+  {
+   "sec": "2. The network of systems",
+   "items": [
+    "Computer systems and associated peripherals",
+    "Systems software",
+    "Middleware",
+    "Application software used to support the system's users"
+   ]
+  },
+  {
+   "sec": "3. Operational distribution",
+   "items": [
+    "The system's components grouped into deployment units",
+    "Which deployment unit runs where",
+    "Defined, not left implicit"
+   ]
+  },
+  {
+   "sec": "4. Nodes and connections",
+   "items": [
+    "The nodes themselves",
+    "Placement of nodes and users across locations",
+    "Connections between nodes",
+    "The interactions between components those connections must support"
+   ]
+  },
+  {
+   "sec": "5. Compliance concerns",
+   "items": [
+    "Security",
+    "Data protection",
+    "Document management",
+    "Organisation standards and policies"
+   ]
+  },
+  {
+   "sec": "6. Models",
+   "items": [
+    "UML deployment diagrams",
+    "Several perspectives of the same infrastructure"
+   ]
+  },
+  {
+   "sec": "7. Feasibility",
+   "items": [
+    "Operational complexity actively managed",
+    "Viable at development stage",
+    "Viable at operational stage",
+    "Alignment with the Architecture Overview maintained"
+   ]
+  },
+  {
+   "sec": "8. Who is involved",
+   "items": [
+    "The whole A-PCT is involved",
+    "Broader stakeholder community informed of crucial operational decisions",
+    "Key input when hosting is in a third party's data centre",
+    "Essential for the system's proper support and maintenance"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Operational aspect of the architecture",
+   "what": "Describes the operational aspect of the IT system's architecture — the infrastructure, logically and physically.",
+   "who": "ArOw Responsible · PM Accountable",
+   "pollux": "Four environments — development, test, pre-production and production — with the replica load in each."
+  },
+  {
+   "f": "Operational characteristics",
+   "what": "The required operational characteristics the infrastructure must deliver to meet functional and non-functional requirements.",
+   "who": "ArOw Responsible",
+   "pollux": "Nightly load must complete before 06:00 CET so the quarter-end pack can be assembled in one day."
+  },
+  {
+   "f": "Computer systems and peripherals",
+   "what": "The architecture's network of computer systems and associated peripherals supporting the system's users.",
+   "who": "ArOw Responsible · ATeM contribute",
+   "pollux": "Application and database nodes in the Kirchberg data centre, with a warm standby."
+  },
+  {
+   "f": "Software layers",
+   "what": "Systems software, middleware and application software required to support the users of the system.",
+   "who": "ArOw Responsible",
+   "pollux": "Container runtime, message broker for the delta load, and the reporting API service."
+  },
+  {
+   "f": "Deployment units",
+   "what": "The operational distribution — the system's components grouped into deployment units that are deployed together.",
+   "who": "ArOw Responsible · TeCo facilitates",
+   "pollux": "Three units: data layer, API plus reconciliation service, portal UI."
+  },
+  {
+   "f": "Nodes and their placement",
+   "what": "The nodes, and the placement of nodes and users across locations — where each part physically runs.",
+   "who": "ArOw Responsible",
+   "pollux": "Internal users at Kirchberg; national-authority users reach a separate external access node."
+  },
+  {
+   "f": "Connections between nodes",
+   "what": "The connections needed to support the required interactions between components and meet the requirements.",
+   "who": "ArOw Responsible · ATeM support",
+   "pollux": "One-way link from the lending platform to the replica; no path back into CASTOR."
+  },
+  {
+   "f": "Compliance concerns",
+   "what": "Organisation standards and policies that affect infrastructure design — security, document management, data protection.",
+   "who": "ArOw ensures compliance",
+   "pollux": "External access zone separated from internal networks after Brandeis and Turing reviewed it."
+  },
+  {
+   "f": "Understand the problem first",
+   "what": "Check the Business Case and Project Charter so the project context and proposed solution are understood before designing infrastructure.",
+   "who": "ArOw Responsible",
+   "pollux": "National-authority access was a charter need (N4), so the access zone is planned from the start."
+  },
+  {
+   "f": "Use of models",
+   "what": "Several UML models, deployment diagrams in particular, because infrastructure can be seen from different perspectives.",
+   "who": "ArOw Responsible",
+   "pollux": "One deployment diagram per environment, kept beside the Architecture Overview component diagram."
+  },
+  {
+   "f": "Feasibility management",
+   "what": "Manage the system's operational complexity and ensure it is viable at both development and operational stage.",
+   "who": "ArOw Responsible · PM Accountable",
+   "pollux": "Standby node dropped from Release 1 scope after operations judged the failover unmaintainable."
+  },
+  {
+   "f": "Alignment with the Architecture Overview",
+   "what": "Keeping the two aligned is why feasibility is manageable at all — the guide calls this an important activity.",
+   "who": "ArOw owns both artefacts",
+   "pollux": "Einstein reviews both artefacts together at every release boundary."
+  },
+  {
+   "f": "Keep updating it",
+   "what": "Refined as the project evolves, to detail the required operational characteristics as understanding improves.",
+   "who": "ArOw Responsible",
+   "pollux": "Updated for Release 3 when the external access zone became real infrastructure."
+  },
+  {
+   "f": "Third-party hosting",
+   "what": "Where the system is hosted in a third party's data centre it is a key input for support and maintenance.",
+   "who": "PM opens the channel to hosting services",
+   "pollux": "Hosting stays in-house at Kirchberg; the model is still the handover document to operations."
+  },
+  {
+   "f": "Everyone is involved",
+   "what": "The whole A-PCT contributes and the broader stakeholder community is informed of crucial operational decisions.",
+   "who": "ArOw R · TeCo, ATeM S · PrOw I",
+   "pollux": "Babbage and Lamarr contributed the load and access designs; Curie was informed, not consulted."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "PM A · TeCo S · PrOw I · ArOw R · ATeM S. The row on p.71 prints no BM column at all.",
+   "who": "PM Accountable · ArOw Responsible",
+   "pollux": "Hopper (BM) is informed in practice; Appendix B.2 gives her the I the page omits."
+  }
+ ],
+ "traps": [
+  "Its RAM on p.71 omits the BM column; Appendix B.2 (p.95) restores BM = I.",
+  "Same RASCI pattern as the Architecture Overview — ArOw R, PM A, PrOw I.",
+  "Operational Model describes infrastructure; the Deployment Plan describes putting software on it.",
+  "It is created in Initiating, not Planning — it is an IT governance artefact.",
+  "It is not the PM² Transition Plan: no training, no business readiness here."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Operational Model v1.1, updated 27 Nov 2028",
+  "rows": [
+   [
+    "Element",
+    "Content"
+   ],
+   [
+    "Environments",
+    "Development · Test · Pre-production · Production"
+   ],
+   [
+    "Deployment unit 1",
+    "Replica data layer with nightly delta load from the CASTOR lending platform"
+   ],
+   [
+    "Deployment unit 2",
+    "Reporting API and reconciliation service"
+   ],
+   [
+    "Deployment unit 3",
+    "Portal UI and corporate charting components"
+   ],
+   [
+    "Nodes",
+    "Application and database nodes, Kirchberg data centre; separate external access node"
+   ],
+   [
+    "Users across locations",
+    "Internal: Lending Operations, Risk, Finance, Board Secretariat. External: national authorities"
+   ],
+   [
+    "Connections",
+    "One-way feed from lending platform to replica; no return path into CASTOR"
+   ],
+   [
+    "Operational characteristic",
+    "Nightly load complete before 06:00 CET to protect the one-day quarter-end pack"
+   ],
+   [
+    "Compliance",
+    "External access zone segregated; reviewed by Brandeis (DPC) and Turing (LISO)"
+   ],
+   [
+    "Responsible · Accountable",
+    "Albert Einstein (ArOw) · Project Manager (PM)"
+   ],
+   [
+    "Feeds",
+    "Deployment Plan (dry-runs, cut-over) and enabler story WIL-045"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,353 @@
+{
+ "n": 5,
+ "id": "iteration-planning",
+ "name": "Iteration Planning",
+ "group": "Ceremonies",
+ "one_liner": "Capacity, goal, tasks, commitment, confidence — the iteration's first activity.",
+ "purpose": "Iteration Planning creates a plan and a strategy that accounts for the team's availability and capacity to reach the agreed-upon goal. It exists because iterations are short, so a well-defined strategy is essential to keep the A-PCT focused on meaningful delivery iteration after iteration. By the end the team should hold a clear, well-defined Iteration Goal and a generated iteration Work Items List — the vital elements of the Iteration Plan.",
+ "guide_page": 41,
+ "meta": [
+  [
+   "Frequency",
+   "Once per iteration — the first activity conducted by the A-PCT in the iteration"
+  ],
+  [
+   "Timebox",
+   "Two hours for each iteration week (four hours for a two-week iteration)"
+  ],
+  [
+   "Sizing basis",
+   "A typical A-PCT of five to nine Agile Team Members"
+  ],
+  [
+   "Facilitated by",
+   "Team Coordinator (TeCo)"
+  ],
+  [
+   "Executed by",
+   "Agile Team Members (ATeM) — Responsible"
+  ],
+  [
+   "Precondition",
+   "A prioritised Work Items List with acceptance criteria already defined"
+  ],
+  [
+   "Main outputs",
+   "Iteration Goal · iteration Work Items List · Commitment Agreement · Vote of Confidence"
+  ],
+  [
+   "Guide reference",
+   "§5.1, pp. 41–45 (RAM p. 45; Appendix B.2 p. 95, under Planning)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "I",
+   "S",
+   "S/A",
+   "S",
+   "R"
+  ],
+  "A": "PrOw",
+  "R": "ATeM"
+ },
+ "diagram": [
+  {
+   "sec": "Setup — before the ceremony (not a step, p. 45)",
+   "items": [
+    "Have the Work Items List prepared: PrOw prioritises it, supported by TeCo and ArOw",
+    "Have the acceptance criteria defined for every refined and estimated item",
+    "Assess ATeM capacity in advance where possible; TeCo states the operating rules first",
+    "The organics (Fig. 5.1): prioritised WIL → PrOw proposes a goal → team weighs capacity and capability → team decides what, how and how long → is the goal achievable?"
+   ]
+  },
+  {
+   "sec": "1. Determine the Team's Capacity (§5.1.2.1)",
+   "items": [
+    "Each ATeM building the solution states how much time — preferably in hours — they can give the iteration",
+    "The exercise must consider team members' holidays, public holidays and other events",
+    "Worked example: ten calendar days with one public holiday = 9 working days",
+    "Capacity: 9 days × 7 hours = 63 hours for that Agile Team Member",
+    "Unplanned events (production bugs, support, corporate meetings) also reduce availability",
+    "Guideline: take a further allowance — e.g. 10% — off each member's calculated availability"
+   ]
+  },
+  {
+   "sec": "2. Agree on the Iteration Goal (§5.1.2.2)",
+   "items": [
+    "Defining the Iteration Goal is the Product Owner's responsibility",
+    "It must start with a prioritised Work Items List",
+    "The PrOw evaluates the existing items and formulates a goal that is meaningful and adds value to the solution",
+    "The PrOw relays the goal to the rest of the A-PCT so they focus on the most relevant items",
+    "An initial agreement is not approval — the ATeMs must still confirm their availability and capacity"
+   ]
+  },
+  {
+   "sec": "3. Define the Work to be Done (§5.1.2.3) — the eight-step loop",
+   "items": [
+    "1. The A-PCT picks up the first item in the WIL related to the iteration goal",
+    "2. As a team, they identify the tasks they believe are required to build and deliver that item",
+    "3. Each task is chosen by an Agile Team Member for implementation",
+    "4. The ATeM estimates the task — it should be no bigger than 12 hours",
+    "5. Each ATeM verifies availability after taking the task",
+    "6. If every ATeM still has availability, the team picks up the next Work Item from the WIL",
+    "7. If an ATeM verifies the task cannot be delivered, other team members perform a check; if no other member can do it, the team should stop progress",
+    "8. Once the team reaches full capacity, evaluate whether the iteration goal can be reached or must be adjusted — which is the next step, the Commitment Agreement"
+   ]
+  },
+  {
+   "sec": "4. Commitment Agreement (§5.1.2.4)",
+   "items": [
+    "Formalises the agreement between the Product Owner and the rest of the Agile Team Members per the Iteration Goal",
+    "Critical because it aligns everyone's expectations transparently in terms of team delivery",
+    "Scenario 1 — the team confirms it can reach the Iteration Goal (the simplest case)",
+    "Scenario 2 — the team cannot reach it: it proposes a less ambitious, achievable goal and the PrOw evaluates the feedback and adjusts",
+    "Scenario 3 — the team can deliver beyond it: the PrOw confirms that the extra Work Items are indeed the most relevant ones"
+   ]
+  },
+  {
+   "sec": "5. Vote of Confidence (§5.1.2.5)",
+   "items": [
+    "Each ATeM and the PrOw use a finger count from 1 to 5: 1 = no confidence at all, 5 = 100% sure we will complete it successfully",
+    "1. ATeMs and PrOw take a minute to assess their confidence",
+    "2. On the count of three, everyone raises their hand at the same time",
+    "3. The facilitator asks the 5's to lower their hands, then the 4's, and finally the 3's",
+    "4. Team members who rate 2 or 1 explain their concerns and doubts",
+    "5. The entire A-PCT then performs the required adjustments, if any, to address those concerns",
+    "Once there are no more 1's or 2's, the Vote of Confidence ends — and with it, the Iteration Planning"
+   ]
+  },
+  {
+   "sec": "Guidelines worth memorising (not a step, p. 45)",
+   "items": [
+    "Have an extra two or three work items decomposed after the vote, in case of spare time or a dropped item",
+    "\"Difficult-to-find\" tasks: when the team struggles to find more tasks for an item, move to the next work item",
+    "Yesterday's weather: PM²-Agile does not recommend using past velocity to set capacity, but the PrOw may use it to sanity-check the goal",
+    "Participants: TeCo facilitates and keeps the time slot · ATeM executes and builds the iteration WIL · PrOw proposes the goal and clarifies · ArOw supports goal definition for enablement work · PM is informed"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Iteration Goal",
+   "what": "A meaningful goal that adds value to the solution, formulated by the PrOw from the prioritised WIL, and the thing that keeps the team focused all iteration.",
+   "who": "PrOw proposes and is Accountable · A-PCT commits",
+   "pollux": "\"A Risk analyst can break exposure down by instrument, traceable to the lending platform.\""
+  },
+  {
+   "f": "Prioritised Work Items List",
+   "what": "The mandatory input. Because it reflects the work to implement the solution, it must always be prioritised so the PrOw can propose a relevant, aligned goal.",
+   "who": "PrOw R · TeCo and ArOw support the preparation",
+   "pollux": "Prioritised on 10 Apr at the Release Planning prioritisation session, before planning."
+  },
+  {
+   "f": "Team capacity",
+   "what": "How much time, preferably in hours, each ATeM can dedicate to the next iteration, after holidays, public holidays and other events.",
+   "who": "Each ATeM states their own",
+   "pollux": "189 hours across four builders for iteration 7."
+  },
+  {
+   "f": "The 63-hour example",
+   "what": "The guide's arithmetic: a seven-hour working day, an iteration of ten calendar days with one public holiday, so 9 days × 7 hours = 63 hours.",
+   "who": "ATeM calculates",
+   "pollux": "Easter Monday, 02 Apr 2029, gives iteration 7 exactly nine working days."
+  },
+  {
+   "f": "Unplanned-events allowance",
+   "what": "A reserve for production bugs, support and other unforeseen work: e.g. 10% taken off each member's availability after the capacity calculation.",
+   "who": "A-PCT agrees the percentage",
+   "pollux": "10% held back; Lamarr's 63 hours becomes 57 planned hours."
+  },
+  {
+   "f": "Capacity assessed in advance",
+   "what": "Members may compute individual capacity before the ceremony to save time; the TeCo must first make the operating rules clear, especially the unplanned allowance.",
+   "who": "TeCo sets the rules · ATeM computes",
+   "pollux": "Lovelace collects hours by the Friday before each planning session."
+  },
+  {
+   "f": "Task",
+   "what": "A unit of work identified by the team for a Work Item, chosen by one ATeM, and estimated by that ATeM. It should be no bigger than 12 hours.",
+   "who": "Identified as a team · owned by one ATeM",
+   "pollux": "Babbage's 16-hour sync task was split into two 8-hour tasks."
+  },
+  {
+   "f": "The 12-hour ceiling",
+   "what": "A task estimate should not exceed 12 hours. Anything larger is decomposed; the ceiling exists so progress is visible within a day or two.",
+   "who": "The estimating ATeM",
+   "pollux": "Nothing over 12 hours survives into a POLLUX iteration plan."
+  },
+  {
+   "f": "Availability check",
+   "what": "After taking a task, each ATeM re-verifies remaining availability. Only if every member still has availability does the team pull the next Work Item.",
+   "who": "Each ATeM, every task",
+   "pollux": "Eiffel hit his ceiling on WIL-124, so the team stopped adding to his queue."
+  },
+  {
+   "f": "The stop rule (step 7)",
+   "what": "If an ATeM verifies a task cannot be delivered, other members check whether they can take it. If nobody can, the team should stop progress.",
+   "who": "A-PCT collectively",
+   "pollux": "Nobody but Babbage could take the sync engine work — the queue stopped there."
+  },
+  {
+   "f": "Commitment Agreement",
+   "what": "The formal agreement between the PrOw and the ATeMs on the Iteration Goal, aligning everyone's expectations transparently in terms of team delivery.",
+   "who": "PrOw and ATeMs jointly",
+   "pollux": "Signed for 29 points on 03 Apr 2029 after the goal was trimmed once."
+  },
+  {
+   "f": "Commitment scenario 2",
+   "what": "The team finds it cannot achieve the goal; it discusses with the PrOw and proposes a less ambitious, achievable goal, which the PrOw evaluates and adjusts.",
+   "who": "ATeMs propose · PrOw adjusts",
+   "pollux": "Curie dropped the maturity export from the goal rather than extend the timebox."
+  },
+  {
+   "f": "Commitment scenario 3",
+   "what": "The team finds it can deliver beyond the goal; the discussion confirms that the extra Work Items taken on are indeed the most relevant ones.",
+   "who": "ATeMs raise · PrOw confirms relevance",
+   "pollux": "Happened in iteration 5, when two Release 1 stories were pulled forward."
+  },
+  {
+   "f": "Vote of Confidence",
+   "what": "A closing check where every ATeM and the PrOw express, by finger count, how comfortable they are with the plan just agreed.",
+   "who": "ATeMs and PrOw vote · TeCo facilitates",
+   "pollux": "Lamarr voted 2 over the batch-window collision; the plan changed."
+  },
+  {
+   "f": "The finger scale",
+   "what": "1 to 5, where 1 means \"no confidence at all\" and 5 means \"I'm 100% sure we will complete it successfully\".",
+   "who": "Each voter, simultaneously",
+   "pollux": "Iteration 7 first round: Eiffel 4 · Einstein 4 · Curie 4 · Babbage 3 · Lamarr 2."
+  },
+  {
+   "f": "Lowering order",
+   "what": "The facilitator asks the 5's to lower their hands, then the 4's, then the 3's — so only the 2's and 1's remain visible and explain their concerns.",
+   "who": "TeCo (facilitator)",
+   "pollux": "Lovelace runs it hands-up so nobody re-votes after seeing the room."
+  },
+  {
+   "f": "End condition",
+   "what": "Adjustments are made until there are no more 1's or 2's. Only then does the Vote of Confidence — and the Iteration Planning — end.",
+   "who": "A-PCT",
+   "pollux": "Second round after dropping WIL-131: 4 · 4 · 4 · 4 · 3."
+  },
+  {
+   "f": "Extra two or three items",
+   "what": "After full capacity is reached and the vote is finished, decompose another two or three items. They are not in the iteration, but are ready if time frees up.",
+   "who": "A-PCT",
+   "pollux": "WIL-133 and WIL-136 decomposed and parked for iteration 7."
+  },
+  {
+   "f": "\"Difficult-to-find\" tasks",
+   "what": "When decomposing an item the team will reach a point where it struggles to find more tasks; when that happens it should move to the next work item.",
+   "who": "A-PCT · TeCo watches for it",
+   "pollux": "The drill-through story stalled at four tasks, so the team moved on."
+  },
+  {
+   "f": "Yesterday's weather",
+   "what": "Using past velocity to set current capacity. PM²-Agile does not recommend it, but the PrOw may use velocity to judge how realistic the goal is.",
+   "who": "PrOw, as a sanity check only",
+   "pollux": "Curie compares the 34-point average against the 29 points committed."
+  },
+  {
+   "f": "Iteration Plan",
+   "what": "The artefact the ceremony feeds: iteration dates, the Iteration Goal, the committed Work Items, dependencies, risks and the initial burndown chart.",
+   "who": "TeCo R · PM A · PrOw C",
+   "pollux": "Iteration Plan 7 opened 03 Apr, closed after the review on 13 Apr."
+  },
+  {
+   "f": "TeCo's role here",
+   "what": "Supports and facilitates the ceremony, helps the team keep the time slot, and detects anti-patterns that could jeopardise the meeting's success.",
+   "who": "TeCo — Supports, not Responsible",
+   "pollux": "Lovelace holds the four hours and stops the goal debate reopening."
+  },
+  {
+   "f": "ArOw's role here",
+   "what": "Besides acting as an ATeM, the ArOw supports the PrOw on goal definition when enablement work is involved, clarifying dependencies and mitigating architectural risks.",
+   "who": "ArOw — Supports",
+   "pollux": "Einstein defends WIL-121, the sync enabler, as a precondition for everything else."
+  },
+  {
+   "f": "PM's role here",
+   "what": "The Project Manager is informed about the Iteration Goal and the plan the A-PCT defined to achieve it. The PM does not run or attend to direct the ceremony.",
+   "who": "PM — Informed",
+   "pollux": "You receive the goal and the 29-point commitment; you do not negotiate it."
+  }
+ ],
+ "traps": [
+  "Two hours per iteration WEEK, not two hours per iteration.",
+  "The PrOw is Accountable for the goal; the ATeMs are Responsible for the ceremony.",
+  "Iteration Planning does not refine or prioritise the WIL — that is Release Planning.",
+  "12 hours is a task ceiling, not an estimating unit or a story size.",
+  "5's, 4's then 3's lower their hands; only 1's and 2's must explain."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX Iteration 7 Planning, Tue 03 Apr 2029, 09:00–13:00, Kirchberg",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Timebox",
+    "4 hours — two hours per iteration week for a two-week iteration"
+   ],
+   [
+    "Facilitator / participants",
+    "Ada Lovelace (TeCo) · Marie Curie (PrOw) · Albert Einstein (ArOw) · Lamarr, Babbage, Eiffel (ATeM)"
+   ],
+   [
+    "Working days",
+    "9 — Easter Monday, 02 Apr 2029, is a public holiday"
+   ],
+   [
+    "Capacity stated, less 10% unplanned",
+    "Lamarr 63→57 h · Eiffel 63→57 h · Babbage 56→50 h (one day's leave) · Einstein 28→25 h = 189 planned hours"
+   ],
+   [
+    "Iteration goal proposed by PrOw",
+    "A Risk analyst can break exposure down by instrument for any member state, every figure traceable to the lending platform"
+   ],
+   [
+    "Work decomposed",
+    "WIL-118 (8) · WIL-121 enabler (5) · WIL-124 (8) · WIL-127 (8) · WIL-131 defect (3) = 32 points"
+   ],
+   [
+    "Task ceiling applied",
+    "Babbage's \"nightly reference sync\" estimated 16 h → split into two 8 h tasks"
+   ],
+   [
+    "Commitment Agreement",
+    "Scenario 2 — team could not hold all five items; PrOw kept the goal, dropped defect WIL-131"
+   ],
+   [
+    "Vote of Confidence, round 1",
+    "Eiffel 4 · Einstein 4 · Curie 4 · Babbage 3 · Lamarr 2 (sync collides with the lending-platform batch window)"
+   ],
+   [
+    "Adjustment",
+    "Add an 8-hour spike on the batch window, owned by Lamarr"
+   ],
+   [
+    "Vote of Confidence, round 2",
+    "4 · 4 · 4 · 4 · 3 — no 1's or 2's; closed at 12:40 on 29 points, four work items and one spike"
+   ],
+   [
+    "Parked, ready to pull",
+    "WIL-133 and WIL-136 decomposed but not committed"
+   ],
+   [
+    "PM informed",
+    "Goal and commitment sent to the Project Manager at 13:00; no approval requested"
+   ]
+  ]
+ }
+}

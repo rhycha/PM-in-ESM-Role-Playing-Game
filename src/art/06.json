@@ -1,0 +1,392 @@
+{
+ "n": 6,
+ "id": "project-work-plan",
+ "name": "Project Work Plan",
+ "family": "Planning",
+ "one_liner": "What work, by whom, how much it costs and when it happens.",
+ "purpose": "The Project Work Plan further elaborates the project scope and identifies and organises the work and deliverables needed to achieve the project goals. It establishes the basis for estimating duration, calculating resources and scheduling the work, and is then used to monitor progress and control the project. It is baselined and kept up to date for the life of the project.",
+ "guide_page": 46,
+ "rasci": {
+  "A": "PSC",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "A",
+   "PO": "C",
+   "BM": "S/C",
+   "BIG": "C",
+   "SP": "C",
+   "PM": "R",
+   "PCT": "S/C"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Steering Committee (PSC)",
+ "inputs": [
+  "Business Case",
+  "Project Charter",
+  "Project Requirements (for the Work Breakdown)",
+  "Project Handbook"
+ ],
+ "feeds": [
+  "Outsourcing Plan",
+  "Transition Plan",
+  "Business Implementation Plan",
+  "Executing Kick-off Meeting",
+  "Control Schedule",
+  "Control Cost",
+  "Project Reports",
+  "Project-End Report",
+  "Administrative Closure"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Charter gives only milestones and the budget envelope"
+  },
+  {
+   "phase": "Planning",
+   "what": "Work Breakdown, Effort & Costs, Schedule built and baselined"
+  },
+  {
+   "phase": "Executing",
+   "what": "Basis for authorising, coordinating and accepting work"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Baseline for Control Schedule and Control Cost; re-baselined on approved change"
+  },
+  {
+   "phase": "Closing",
+   "what": "Input to the Project-End Report and Administrative Closure"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Settings table (title, project, author, PO, PM, version, sensitivity)",
+    "Document Approver(s) and Reviewer(s)",
+    "Document history (revisions)",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "What the Work Plan documents and why it is the control baseline",
+    "Covers ALL project activities, including those described in other plans",
+    "Always holds the latest baselined plan",
+    "1.1 Project summary — elaborated scope, deliverables and sub-deliverables"
+   ]
+  },
+  {
+   "sec": "2. Work Breakdown",
+   "items": [
+    "Component types: Deliverable, Activity, Task, Work Package",
+    "ID convention: 1.0 → 1.1 → 1.1.1 → 1.1.1.1",
+    "Work Breakdown Structure table (five indent levels)",
+    "Work Breakdown Component Description (one paragraph per component)",
+    "Tree-format example",
+    "Choice of approach: deliverables-, work-, organisation- or phase-based"
+   ]
+  },
+  {
+   "sec": "3. Effort & Cost Estimates",
+   "items": [
+    "3.1 Estimates: Predecessors/Dependencies · Resource · Quantity (workdays) · Total Cost",
+    "Estimating approach: expert advice, historical data, similarity",
+    "3.2 Resource needs — human vs non-human",
+    "Resource Plan · Human Resources (ID, from/to, resource, skill, skill level, quantity)",
+    "Resource Plan · Other Resources (ID, from/to, resource, characteristics, quantity)",
+    "Cost of Resources (cost per unit × no. of units = total cost)",
+    "Resource Availability (unavailable from/to, reason) and capacity (%)",
+    "Contingencies (buffer in time or units)"
+   ]
+  },
+  {
+   "sec": "4. Project Schedule",
+   "items": [
+    "Work Breakdown rows repeated with Predecessors / Dependencies",
+    "Resource, Quantity and Cost per row",
+    "Start Date and End Date per row; overall project duration",
+    "Representation: milestone list, bar chart, Gantt or network diagram"
+   ]
+  },
+  {
+   "sec": "5. Related PM² Plans",
+   "items": [
+    "Project Handbook",
+    "Communications Management Plan",
+    "Quality Management Plan",
+    "Transition Plan",
+    "Business Implementation Plan",
+    "Requirements Management Plan",
+    "Deliverables Acceptance Plan"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "Related artefacts by title, version, date and location",
+    "Previous versions of this plan and the matching status reports",
+    "Project folder location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1.1 Project summary",
+   "what": "Elaborates the Charter's scope baseline to a finer level of detail, including deliverables and sub-deliverables. It must not introduce new or different scope.",
+   "who": "PM drafts · PCT assists",
+   "castor": "Configurable lending platform giving straight-through processing from loan agreement to disbursement to repayment schedule."
+  },
+  {
+   "f": "Work Breakdown — component type",
+   "what": "Every component has a type: Deliverable, Activity, Task or Work Package. Each lower level gives a finer view of the work.",
+   "who": "PM with PCT",
+   "castor": "Deliverable 1.3 Release 1 — product configuration engine; Activity 1.3.2 Configure instrument templates."
+  },
+  {
+   "f": "Work Breakdown — ID convention",
+   "what": "The project itself is 1.0; second level 1.1, 1.2 …; third level 1.1.1, 1.1.2 …; fourth 1.1.1.1. IDs must match across all three parts.",
+   "who": "PM defines",
+   "castor": "1.0 Project CASTOR · 1.3 Release 1 · 1.3.2 Configure instrument templates · 1.3.2.1 PCCL/ECCL template."
+  },
+  {
+   "f": "Work Breakdown — name",
+   "what": "A unique name per component, placed at the correct indent level of the five-column breakdown table.",
+   "who": "PM with PCT",
+   "castor": "1.5 Parallel run with LOS; 1.6 Transition & go-live; 1.7 Business implementation."
+  },
+  {
+   "f": "Work Breakdown Component Description",
+   "what": "A short description per deliverable, activity and task; level of detail should match the audience and the component's importance.",
+   "who": "PM with task owners",
+   "castor": "1.5 Parallel run: run CASTOR and LOS side by side on live disbursements and compare reconciliation output daily."
+  },
+  {
+   "f": "Breakdown approach",
+   "what": "Choose one representation: deliverables-based, work-based, by part of the organisation involved, or phase-based.",
+   "who": "PM decides · PSO advises",
+   "castor": "Deliverables-based, aligned to the two releases plus parallel run, transition and business implementation."
+  },
+  {
+   "f": "Predecessors / Dependencies",
+   "what": "Which components must complete before this one can start — the input to sequencing and to the overall duration.",
+   "who": "PM with PCT",
+   "castor": "1.3 Release 1 depends on 1.2 contract award (18 Sep 2026); 1.6 transition depends on 1.5 parallel run."
+  },
+  {
+   "f": "Resource (estimates table)",
+   "what": "The resource or resource profile assigned to the component; assignment is what makes a cost calculable.",
+   "who": "PM assigns · PCT confirms",
+   "castor": "Levallois implementation team, ESM solution architect (Nikola Tesla), business analyst (Ada Lovelace)."
+  },
+  {
+   "f": "Quantity (e.g. Workdays)",
+   "what": "Estimated effort for the component, in the chosen unit — normally person-days — based on resource availability and capability.",
+   "who": "PM with task owners and experts",
+   "castor": "3,100 PD in total: 820 PD on Release 1, 940 PD on Release 2, 360 PD on the parallel run."
+  },
+  {
+   "f": "Total Cost (e.g. Euros)",
+   "what": "Cost of the component, derived from the quantity and the cost per unit for each assigned resource. Include internal and external resources.",
+   "who": "PM calculates · PO owns the budget",
+   "castor": "€8.4 m total; €2.4 m Release 1, €2.8 m Release 2, €0.6 m business implementation."
+  },
+  {
+   "f": "Estimating approach",
+   "what": "State the method(s) used — expert advice, historical information, similarity to other tasks — and include contingency for known uncertainty.",
+   "who": "PM documents · PCT and experts input",
+   "castor": "Expert advice from Leonardo da Vinci' division plus vendor benchmarks; contingency held against risk R-07."
+  },
+  {
+   "f": "3.2 Resource needs",
+   "what": "List every resource the project needs, distinguishing human resources from non-human ones (software, hardware, equipment, facilities, supplies, materials).",
+   "who": "PM compiles",
+   "castor": "In-house core team plus outsourced platform implementation (Mix delivery), test environments and a training room."
+  },
+  {
+   "f": "Resource Plan — Resource ID",
+   "what": "Unique identifier per resource, human (H.n) or material (M.n), reused across the cost, availability and contingency tables.",
+   "who": "PM maintains",
+   "castor": "H.1 solution architect · H.4 loan-operations SME · M.2 parallel-run test environment."
+  },
+  {
+   "f": "Resource Plan — Date (from / to)",
+   "what": "The window during which the resource is needed by the project.",
+   "who": "PM plans · line managers confirm",
+   "castor": "Levallois implementation team from 18 Sep 2026 to 30 Apr 2028; trainers from Jan 2028."
+  },
+  {
+   "f": "Resource Plan — Skill and Skill level",
+   "what": "The skills the resource must have and the level required to guarantee the quality of the deliverables.",
+   "who": "PM with SP",
+   "castor": "Platform configuration — advanced; ESM disbursement process knowledge — expert (Grace Hopper's team)."
+  },
+  {
+   "f": "Resource Plan — Characteristics",
+   "what": "For non-human resources, the properties that matter: capacity, version, specification, seats.",
+   "who": "PM specifies",
+   "castor": "Parallel-run environment: full copy of live loan data, restricted access, 30-seat training room."
+  },
+  {
+   "f": "Resource Plan — Quantity",
+   "what": "How many units of the resource are needed (number of people, licences, rooms).",
+   "who": "PM estimates",
+   "castor": "Two ESM business analysts, one solution architect, one dedicated test environment."
+  },
+  {
+   "f": "Cost of Resources",
+   "what": "Cost per unit × number of units = total cost, per resource. Another view of the costs already in section 3.1.",
+   "who": "PM calculates · PO approves",
+   "castor": "Levallois implementation days at contract rate; internal PD charged at the ESM standard rate. Total €8.4 m."
+  },
+  {
+   "f": "Resource Availability",
+   "what": "Known unavailability of critical resources: unavailable from / to plus the reason.",
+   "who": "PM records",
+   "castor": "Marie Curie unavailable during the EFSF bond rollover overlapping the parallel run."
+  },
+  {
+   "f": "Resource capacity (Availability %)",
+   "what": "Whether a resource is fully assigned to the project or shared, with a percentage and a comment.",
+   "who": "PM records · line managers confirm",
+   "castor": "Grace Hopper 50%, retaining her Senior Loan Operations Officer duties; Nikola Tesla 100%."
+  },
+  {
+   "f": "Contingencies",
+   "what": "The resource buffer, in time or units, held against identified uncertainties or risks.",
+   "who": "PM sets · PSC endorses",
+   "castor": "Buffer on architect days against R-07, the loss of Levallois's key architect."
+  },
+  {
+   "f": "Project Schedule — Start Date / End Date",
+   "what": "Start and end date per breakdown component, derived from dependencies and effort, giving the overall project duration.",
+   "who": "PM schedules · PSO advises",
+   "castor": "Release 1 ends 26 Mar 2027; Release 2 ends 17 Dec 2027; parallel run 08 Jan – 30 Apr 2028; go-live 15 May 2028."
+  },
+  {
+   "f": "Schedule representation",
+   "what": "Milestone list, bar chart, Gantt chart, network diagram or linked bar chart — often several, chosen for project size and control needs.",
+   "who": "PM chooses",
+   "castor": "Milestone schedule for the PSC plus a Gantt chart for the Project Core Team."
+  },
+  {
+   "f": "5. Related PM² Plans",
+   "what": "Names the Handbook and every other plan whose activities are costed and scheduled here, so nothing is planned twice or not at all.",
+   "who": "PM maintains",
+   "castor": "Handbook, Outsourcing Plan, Transition Plan and Business Implementation Plan; all their activities appear in the breakdown."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Related documents by title, version, date and location — including previous baselines of this plan and their status reports.",
+   "who": "PM maintains",
+   "castor": "Baseline v1.0 of 26 Jun 2026 plus the Levallois contract of 18 Sep 2026 triggering re-baseline v2.0."
+  }
+ ],
+ "traps": [
+  "Accountable is the PSC — unlike the Handbook, which the PO approves.",
+  "Must cost and schedule ALL activities, including Transition and Business Implementation ones.",
+  "Three parts in fixed order: Work Breakdown → Effort & Cost Estimates → Schedule.",
+  "It elaborates Charter scope; new scope needs a Change Request, not a redraft.",
+  "Baselined and signed off, then kept current — the file always holds the latest baseline."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Work Plan v1.0 (Work Breakdown), baselined 26 Jun 2026",
+  "rows": [
+   [
+    "ID",
+    "Work package / deliverable",
+    "Predecessor",
+    "Effort (PD)",
+    "Cost (€)",
+    "Ends"
+   ],
+   [
+    "1.0",
+    "Project CASTOR — Renewal of the Lending Operations System",
+    "—",
+    "3,100",
+    "8,400,000",
+    "28 Jul 2028"
+   ],
+   [
+    "1.1",
+    "Project management, PSO support & reporting",
+    "—",
+    "340",
+    "550,000",
+    "28 Jul 2028"
+   ],
+   [
+    "1.2",
+    "Procurement & contract award (Levallois Systems)",
+    "1.1",
+    "160",
+    "250,000",
+    "18 Sep 2026"
+   ],
+   [
+    "1.3",
+    "Release 1 — product configuration engine",
+    "1.2",
+    "820",
+    "2,400,000",
+    "26 Mar 2027"
+   ],
+   [
+    "1.4",
+    "Release 2 — straight-through disbursement",
+    "1.3",
+    "940",
+    "2,800,000",
+    "17 Dec 2027"
+   ],
+   [
+    "1.5",
+    "Parallel run with LOS (08 Jan – 30 Apr 2028)",
+    "1.4",
+    "360",
+    "1,050,000",
+    "30 Apr 2028"
+   ],
+   [
+    "1.6",
+    "Transition & go-live",
+    "1.5",
+    "220",
+    "750,000",
+    "15 May 2028"
+   ],
+   [
+    "1.7",
+    "Business implementation — retrain 40 loan administrators",
+    "1.4",
+    "260",
+    "600,000",
+    "15 May 2028"
+   ],
+   [
+    "",
+    "Total",
+    "",
+    "3,100",
+    "8,400,000",
+    ""
+   ],
+   [
+    "",
+    "Approved by the Project Steering Committee, chaired by Florence Nightingale (PO), ahead of the RfE gate on 03 Jul 2026",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ }
+}

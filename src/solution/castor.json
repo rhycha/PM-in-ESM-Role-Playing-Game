@@ -1,0 +1,2115 @@
+[
+ {
+  "id": "c-chain",
+  "k": "flow",
+  "t": "Where CASTOR sits in the lending chain",
+  "sub": "How a euro area rescue loan works at the European Stability Mechanism (ESM) — and which part of it a software project can actually change",
+  "act": 1,
+  "when": "Background to the whole project. The stretch on the right is the one Ada Lovelace mapped for the Business Case in February 2026: 41 steps from signed agreement to value date.",
+  "lanes": [
+   {
+    "t": "The member state and Europe",
+    "s": [
+     {
+      "id": "req",
+      "t": "Request for assistance",
+      "d": "A euro area government writes to the Chair of the Board of Governors asking for financial support. It is a political act with an exact legal form, usually after months of quiet discussion.",
+      "c": "ext",
+      "meta": "months"
+     },
+     {
+      "id": "assess",
+      "t": "Assessment",
+      "d": "The European Commission, with the European Central Bank and often the International Monetary Fund, works out how much is needed and whether the country can repay it. The ESM runs its own analysis alongside.",
+      "c": "ext",
+      "meta": "weeks to months"
+     },
+     {
+      "id": "mou",
+      "t": "Programme and Memorandum of Understanding",
+      "d": "The reforms the country commits to, and the timetable for reviewing them. This is where conditionality lives: money arrives only when the agreed conditions have been met.",
+      "c": "ext",
+      "meta": "reviewed every few months"
+     }
+    ]
+   },
+   {
+    "t": "ESM governance",
+    "s": [
+     {
+      "id": "bog",
+      "t": "Board of Governors grants assistance",
+      "d": "The euro area finance ministers, one governor per member state, decide by mutual agreement — everyone voting has to agree. It is the highest decision the institution can take.",
+      "c": "ext",
+      "meta": "one decision per programme"
+     },
+     {
+      "id": "bod",
+      "t": "Board of Directors approves the facility",
+      "d": "One director per member state approves the facility, and later each individual disbursement under it. These are day-to-day powers delegated by the Governors.",
+      "c": "ext",
+      "meta": "and every tranche after"
+     },
+     {
+      "id": "ffa",
+      "t": "Financial Assistance Facility Agreement signed",
+      "d": "The contract: amount, availability period, pricing, drawdown rules, what counts as an event of default. From here everything is contractual, and Legal owns the text.",
+      "c": "ext",
+      "meta": "the document CASTOR configures against"
+     }
+    ]
+   },
+   {
+    "t": "ESM Treasury and Funding",
+    "s": [
+     {
+      "id": "fund",
+      "t": "Bonds and bills issued",
+      "d": "The ESM holds no pool of cash waiting to be lent. It borrows on the capital markets by issuing bonds and short-term bills under a published plan, and lends every loan out of one shared pool.",
+      "c": "ext",
+      "meta": "the market sets the day"
+     },
+     {
+      "id": "nostro",
+      "t": "Cash on the nostro account",
+      "d": "A nostro account is the ESM's own account at a central or correspondent bank. It is the account the money physically leaves from on the value date, and it has to be funded before the instruction is released.",
+      "c": "ext",
+      "meta": "confirmed by telephone today"
+     }
+    ]
+   },
+   {
+    "t": "Lending Operations — the stretch CASTOR replaces",
+    "s": [
+     {
+      "id": "instr",
+      "t": "Disbursement instruction created",
+      "d": "Which facility, which tranche, how much, to which account, for which value date, against which approval. This is the object the whole project revolves around.",
+      "c": "new",
+      "meta": "success criteria SC1 (cycle time) and SC4 (re-keying) begin here"
+     },
+     {
+      "id": "four",
+      "t": "Four-eyes approval",
+      "d": "A second, different person checks the instruction against the underlying documents and releases it. Whoever created it may not release it — and in the Lending Operations System (LOS) that CASTOR replaces, only a habit enforced that.",
+      "c": "new",
+      "meta": "Internal Audit finding 1"
+     },
+     {
+      "id": "pay",
+      "t": "Payment message and cut-off",
+      "d": "The released instruction becomes a formatted payment message to the bank that moves the money. Every payment system has a time of day after which it can no longer settle for the value date you wanted.",
+      "c": "new",
+      "meta": "16:00 cut-off"
+     },
+     {
+      "id": "vd",
+      "t": "Value date",
+      "d": "The day the money must actually be sitting in the borrower's account and be usable. One day late on €250 million costs real interest and breaks the borrower's own plan for that day.",
+      "c": "new",
+      "meta": "SC1: 5 working days to 1"
+     },
+     {
+      "id": "rec",
+      "t": "Reconciliation",
+      "d": "Proving that what the loan system says was paid, what treasury says was funded, and what the bank statement shows left the account are the same figure. Anything unexplained is a break.",
+      "c": "new",
+      "meta": "SC2: 3 working days to same day"
+     },
+     {
+      "id": "sched",
+      "t": "Repayment schedule and accrual",
+      "d": "Interest builds day by day from the value date, and the agreement fixes when interest and principal fall due. The system generates every future cash flow and posts each receipt against the right loan.",
+      "c": "new",
+      "meta": "runs for years after the project ends"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   [
+    "What a tranche is",
+    "A tranche is one instalment of an agreed loan, and a disbursement is the act of paying one out. A facility of tens of billions is never sent as a single wire: it is drawn in tranches, and each one is released only when its own conditions have been met."
+   ],
+   [
+    "What a value date is",
+    "The value date is the day the money must be in the receiving account and usable. It is not the day the instruction was typed and not the day it was booked. Almost every argument about dates in this story is really an argument about a value date."
+   ],
+   [
+    "Why only the last lane is in scope",
+    "Steps one to six are political, legal and market work, and no software project changes them. The Project Charter of 24 March 2026 puts the treasury system and the payment messaging gateway explicitly out of scope and keeps CASTOR to the operational stretch: loan agreement, to disbursement, to repayment schedule."
+   ],
+   [
+    "Where the five success criteria bite",
+    "SC1 attacks the instruction-to-value-date stretch, SC2 the reconciliation after it, SC3 how fast a new instrument can be defined at all, SC4 the re-keying inside the instruction step, and SC5 the audit trail running underneath all of it."
+   ]
+  ],
+  "scenes": [
+   "s01",
+   "s05",
+   "s07"
+  ],
+  "hi": {
+   "s01": "vd",
+   "s05": "instr",
+   "s07": "ffa"
+  }
+ },
+ {
+  "id": "c-asis",
+  "k": "layers",
+  "t": "AS-IS — the LOS landscape",
+  "sub": "The way it works today: fourteen years old, three systems that do not speak, and about 1,400 payment fields re-typed by hand every quarter",
+  "act": 1,
+  "when": "The situation on 8 January 2026, the morning the story opens",
+  "legend": [
+   [
+    "esm",
+    "ESM system or ESM staff"
+   ],
+   [
+    "ext",
+    "Outside Lending Operations, and out of scope"
+   ],
+   [
+    "warn",
+    "Manual hop CASTOR removes"
+   ],
+   [
+    "data",
+    "Work that lives outside any system"
+   ]
+  ],
+  "bands": [
+   {
+    "t": "The people and the day",
+    "n": [
+     {
+      "id": "admin",
+      "t": "Loan administrator",
+      "d": "Marie Curie's job. She builds the disbursement instruction in LOS, checks it against the loan agreement, signs it — and then types the same instruction again, twice.",
+      "c": "esm",
+      "tag": "manual"
+     },
+     {
+      "id": "second",
+      "t": "Second officer",
+      "d": "Reads all three systems against one another before the 16:00 cut-off and signs. The control is a person, reading, and it works exactly as well as that person's attention on the day.",
+      "c": "esm",
+      "tag": "manual"
+     },
+     {
+      "id": "finrec",
+      "t": "Finance and Control reconcilers",
+      "d": "Clear the differences after the money has already gone, out of a spreadsheet, over the following three working days.",
+      "c": "esm",
+      "tag": "manual"
+     }
+    ]
+   },
+   {
+    "t": "The three systems that do not speak",
+    "n": [
+     {
+      "id": "los",
+      "t": "LOS — Lending Operations System",
+      "d": "Built in the European Financial Stability Facility era and extended every year since. Three people in the building can read the parts that matter, and two of them are contractors.",
+      "c": "esm",
+      "tag": "db"
+     },
+     {
+      "id": "treas",
+      "t": "Treasury system",
+      "d": "Holds the funding position and the nostro account — the ESM's own account at the bank the money actually leaves from. Out of scope for CASTOR: it stays exactly as it is.",
+      "c": "ext",
+      "tag": "db"
+     },
+     {
+      "id": "gw",
+      "t": "Payment messaging gateway",
+      "d": "Formats the payment message and sends it to the bank that moves the money. It silently drops the value date if the instruction arrives after 16:00, and nobody in the building ever wrote down why.",
+      "c": "ext",
+      "tag": "api"
+     }
+    ]
+   },
+   {
+    "t": "The manual hops between them",
+    "n": [
+     {
+      "id": "hop1",
+      "t": "Re-key 22 fields into the treasury system",
+      "d": "Twenty-two fields, typed a second time from the LOS screen. Field, glance, field, at whatever hour the person becomes free.",
+      "c": "warn",
+      "tag": "manual"
+     },
+     {
+      "id": "hop2",
+      "t": "Re-key again into the payment gateway",
+      "d": "The same instruction typed a third time. Across the two hops that is roughly 1,400 fields a quarter — counted by hand, because Internal Audit made Lending Operations count them.",
+      "c": "warn",
+      "tag": "manual"
+     },
+     {
+      "id": "hop3",
+      "t": "Telephone treasury to confirm the nostro",
+      "d": "Step 31 of Ada Lovelace's 41-step process map: the back office telephones treasury to confirm the account the money leaves from is funded. Telephones.",
+      "c": "warn",
+      "tag": "manual"
+     },
+     {
+      "id": "hop4",
+      "t": "Three-way visual check before 16:00",
+      "d": "The second officer reads LOS, the treasury system and the gateway against one another and signs. It is a genuine control, and there is no way to make it faster.",
+      "c": "warn",
+      "tag": "manual"
+     }
+    ]
+   },
+   {
+    "t": "What lives outside any system",
+    "n": [
+     {
+      "id": "sheet",
+      "t": "The reconciliation spreadsheet",
+      "d": "Where the post-disbursement matching is actually done, three working days after the money moved. This is the whole of the SC2 baseline.",
+      "c": "data",
+      "tag": "file"
+     },
+     {
+      "id": "letters",
+      "t": "400 interest notices a quarter",
+      "d": "Quarterly notices to borrowers, merged in Word, checked twice, posted by a person. Grace Hopper has signed six hundred of them, and they read the same loan data LOS already holds.",
+      "c": "data",
+      "tag": "file"
+     },
+     {
+      "id": "code",
+      "t": "Bespoke code for every instrument",
+      "d": "A new instrument is a development project, not a setting. The last one took nine months from decision to first disbursement, which is the SC3 baseline.",
+      "c": "warn",
+      "tag": "batch"
+     }
+    ]
+   },
+   {
+    "t": "Where the two Internal Audit findings bite",
+    "n": [
+     {
+      "id": "f1",
+      "t": "Finding 1 — segregation of duties",
+      "d": "Nothing in LOS prevents the same person from originating and releasing a disbursement. Only a habit and a second officer's attention do, and neither can be shown to an auditor as a system control.",
+      "c": "warn"
+     },
+     {
+      "id": "f2",
+      "t": "Finding 2 — completeness of the audit trail",
+      "d": "You can see what LOS holds this morning. You cannot always see who changed it, or when — and a re-keyed field has no verified link back to the value it was copied from.",
+      "c": "warn"
+     }
+    ]
+   }
+  ],
+  "flows": [
+   {
+    "a": "los",
+    "b": "hop1",
+    "t": "22 fields, typed again"
+   },
+   {
+    "a": "hop1",
+    "b": "treas",
+    "t": "a second copy of the same truth"
+   },
+   {
+    "a": "los",
+    "b": "hop2",
+    "t": "the same instruction, a third time"
+   },
+   {
+    "a": "hop2",
+    "b": "gw",
+    "t": "a third copy of the same truth"
+   },
+   {
+    "a": "hop4",
+    "b": "f1",
+    "t": "the control is a person, not the system"
+   },
+   {
+    "a": "hop2",
+    "b": "f2",
+    "t": "breaks the chain of evidence"
+   },
+   {
+    "a": "treas",
+    "b": "sheet",
+    "t": "differences cleared 3 working days later"
+   },
+   {
+    "a": "sheet",
+    "b": "finrec",
+    "t": "by hand, after the money has gone"
+   },
+   {
+    "a": "code",
+    "b": "los",
+    "t": "9 months per new instrument"
+   },
+   {
+    "a": "los",
+    "b": "letters",
+    "t": "400 letters merged in Word"
+   },
+   {
+    "a": "admin",
+    "b": "hop3",
+    "t": "is the account funded?"
+   }
+  ],
+  "notes": [
+   [
+    "Why re-keying is worse than it looks",
+    "It is slow, because every hop needs a specific person to be free at a specific minute before a cut-off. It fails silently, because a wrong digit produces a perfectly valid, perfectly wrong payment. And it is an audit finding, because the value in the second system has no verified link to the value in the first."
+   ],
+   [
+    "What a cut-off is",
+    "Every payment system has a time of day after which an instruction can no longer settle for the value date it was meant for. Miss it and the money arrives a day late. A re-keying step that starts at 15:40 for a 16:00 cut-off is the whole of success criterion SC1 in one sentence."
+   ],
+   [
+    "Three copies of one truth",
+    "The same instruction exists in LOS, in the treasury system and in the gateway, and nothing but a colleague's eyes keeps the three equal. That is why reconciliation afterwards takes three working days instead of being a formality, and why nobody can prove which copy was authoritative."
+   ],
+   [
+    "None of this is anybody's fault",
+    "LOS works. Close to €300 billion went through it and its predecessor between 2011 and 2018. It is a legacy system in the exact technical sense: old, still correct, still load-bearing — which is precisely what makes replacing it harder than building something new."
+   ]
+  ],
+  "scenes": [
+   "s01",
+   "s02",
+   "s05",
+   "s10"
+  ],
+  "hi": {
+   "s01": "hop1",
+   "s02": "code",
+   "s05": "hop3",
+   "s10": "f1"
+  }
+ },
+ {
+  "id": "c-vs",
+  "k": "matrix",
+  "t": "LOS today versus CASTOR",
+  "sub": "The five success criteria of the Business Case, drawn — plus three things the criteria do not say out loud",
+  "act": 1,
+  "when": "Baselines set in the Business Case of 24 March 2026; the right-hand column is what was true by January 2029",
+  "cols": [
+   "Today — LOS, 14 years old",
+   "After CASTOR"
+  ],
+  "rows": [
+   {
+    "t": "SC1 — Disbursement cycle time, instruction to value date",
+    "v": [
+     "5 working days. Three systems, two re-keying hops, a telephone call to treasury, and a second officer reading all three before the 16:00 cut-off.",
+     "1 working day. The instruction is keyed once and moves by itself. The first live one on 15 May 2028 went in at 06:10 and was out the other side at 06:14."
+    ],
+    "c": "new"
+   },
+   {
+    "t": "SC2 — Post-disbursement reconciliation",
+    "v": [
+     "3 working days, in a spreadsheet, after the money has already gone.",
+     "Same day. The platform matches at 06:00 and puts only the genuine differences into an exception queue for a person to work."
+    ],
+    "c": "new"
+   },
+   {
+    "t": "SC3 — New instrument onboarding",
+    "v": [
+     "9 months from decision to first disbursement, because every instrument is written as program code.",
+     "6 weeks, because an instrument is a set of settings a trained business user can change. Rehearsed end to end in eleven days in the test environment — and not yet proven in production, because there is no new instrument to onboard."
+    ],
+    "c": "new"
+   },
+   {
+    "t": "SC4 — Manual re-keying of payment instructions",
+    "v": [
+     "About 1,400 payment fields a quarter, typed twice, counted by hand because Internal Audit asked.",
+     "Zero. Not 'mostly automated' — zero, because 90% automated still leaves a person retyping the hardest cases under time pressure."
+    ],
+    "c": "new"
+   },
+   {
+    "t": "SC5 — Open Internal Audit findings on LOS",
+    "v": [
+     "2. Segregation of duties, and the completeness of the audit trail.",
+     "0. Both closed by Internal Audit's letter of 4 July 2028, against an evidence pack they had held since May."
+    ],
+    "c": "new"
+   },
+   {
+    "t": "What the second pair of eyes actually is",
+    "v": [
+     "A person reading three screens at half past four in the afternoon, and remembering to.",
+     "The system refusing. Segregation of duties is enforced by the platform and tested every quarter by somebody deliberately attempting the forbidden thing."
+    ],
+    "c": "new"
+   },
+   {
+    "t": "Who can change how it works",
+    "v": [
+     "Three people in the building can read the parts of LOS that matter, and two of them are contractors.",
+     "A licensed platform product with configuration manuals, an operations runbook and the migration mapping named as contract deliverables, and the configuration and source held in escrow under clause 14."
+    ]
+   },
+   {
+    "t": "What it would cost to be ready for the common backstop",
+    "v": [
+     "Nine months of coding, starting the day the ESM Treaty reform enters into force — a date nobody in the building controls.",
+     "Six weeks of configuration, reusing the engine. Written into the Business Implementation Plan as a recommendation to Lending Operations, not as a project commitment."
+    ]
+   },
+   {
+    "t": "What a loan administrator's morning looks like",
+    "v": [
+     "Chase breaks, type the same instruction three times, and hope nothing surprises you before four o'clock.",
+     "Type it once and approve or reject what the system found. Same job title, same grade, genuinely different job — and two of Marie Curie's colleagues mind that very much."
+    ]
+   }
+  ],
+  "notes": [
+   [
+    "Why the target is zero and not almost zero",
+    "SC4 was written as zero deliberately. Partial automation leaves a person retyping exactly the cases that are unusual, urgent and closest to the cut-off, which is where transcription errors actually happen."
+   ],
+   [
+    "Why SC3 still carries an asterisk in July 2028",
+    "Onboarding a new instrument in six weeks was rehearsed in a test environment in eleven days, but no new instrument existed to onboard: the ESM Treaty reform that would create the common backstop to the Single Resolution Fund is not in force. The Project-End Report says exactly that rather than claiming the criterion outright."
+   ],
+   [
+    "Why the right-hand column is dated 2029, not 2028",
+    "The project closed on 28 July 2028. One working day across fourteen disbursements in a quiet July is not one working day across a quarter-end, an August and the week before Christmas. Lending Operations measures all five criteria quarterly out of its own operational reporting, and the full-year 2029 statement reaches the Corporate Investment Board in February 2030."
+   ],
+   [
+    "The row that is not a success criterion",
+    "The last row is the one no business case scores. The benefit is real and so is the cost: two people's most interesting hour of the day has been automated. The Business Implementation Plan names that as a source of resistance in Marie Curie's own words, in 2026, two years before it happened."
+   ]
+  ],
+  "scenes": [
+   "s01",
+   "s03",
+   "s10",
+   "s49",
+   "s52"
+  ]
+ },
+ {
+  "id": "c-tobe",
+  "k": "layers",
+  "t": "TO-BE — the CASTOR target platform",
+  "sub": "The way it will work: products that are settings, an instruction keyed once, and one audit trail underneath everything",
+  "act": 2,
+  "when": "Shaped in Planning during 2026, built across Release 1 (26 Mar 2027) and Release 2 (17 Dec 2027), live 15 May 2028",
+  "legend": [
+   [
+    "esm",
+    "Built and owned by the ESM"
+   ],
+   [
+    "vendor",
+    "Levallois Systems platform product — configured, not coded"
+   ],
+   [
+    "ext",
+    "Outside the project's scope, unchanged"
+   ],
+   [
+    "data",
+    "Data the platform holds"
+   ],
+   [
+    "new",
+    "The behaviour that is genuinely new"
+   ]
+  ],
+  "bands": [
+   {
+    "t": "Channels — what a person actually touches",
+    "n": [
+     {
+      "id": "ui-queue",
+      "t": "Disbursement queue",
+      "d": "What a loan administrator opens every morning: every instruction waiting, what state it is in, and who has to act next before today's cut-off.",
+      "c": "vendor",
+      "tag": "web"
+     },
+     {
+      "id": "ui-cfg",
+      "t": "Product configuration workbench",
+      "d": "Where a new instrument is defined as settings — pricing, fees, drawdown rules, repayment profile — without anybody writing code.",
+      "c": "vendor",
+      "tag": "web"
+     },
+     {
+      "id": "ui-exc",
+      "t": "Exception and reconciliation desk",
+      "d": "The morning list of differences the platform could not explain by itself. The job changes from chasing breaks to approving or rejecting what the system found.",
+      "c": "vendor",
+      "tag": "web"
+     },
+     {
+      "id": "ui-audit",
+      "t": "Audit trail search",
+      "d": "Ask who changed a field, when, and on what basis, and get an answer that cannot have been edited afterwards. This is the screen that closes Internal Audit finding 2.",
+      "c": "esm",
+      "tag": "web"
+     }
+    ]
+   },
+   {
+    "t": "Product configuration — an instrument is settings, not code",
+    "n": [
+     {
+      "id": "cfg-tpl",
+      "t": "Instrument templates",
+      "d": "One template per product on the shelf: adjustment programme loan, indirect bank recapitalisation, the two precautionary credit lines — PCCL, the Precautionary Conditioned Credit Line, and ECCL, the Enhanced Conditions Credit Line — and the Primary and Secondary Market Support Facilities. Eleven templates were in Release 1.",
+      "c": "vendor",
+      "tag": "db"
+     },
+     {
+      "id": "cfg-price",
+      "t": "Pricing and fee rules",
+      "d": "Base rate plus a margin in basis points, the upfront and annual service fees, and the commitment fee charged on money promised but not yet drawn. Changing a rule here must not disturb any existing repayment schedule.",
+      "c": "vendor"
+     },
+     {
+      "id": "cfg-draw",
+      "t": "Drawdown and conditionality rules",
+      "d": "The availability period, the maximum tranche, and the documents that must exist before a tranche may be released. The platform enforces the drawdown schedule rather than merely recording it.",
+      "c": "vendor"
+     },
+     {
+      "id": "cfg-rep",
+      "t": "Cash-flow and repayment generator",
+      "d": "Turns the agreement's terms into every future payment: interest dates, principal repayments, fees and the daily accrual in between. Change one rate reset and several hundred future amounts change with it.",
+      "c": "vendor",
+      "tag": "batch"
+     }
+    ]
+   },
+   {
+    "t": "Disbursement orchestration — the instruction moves by itself",
+    "n": [
+     {
+      "id": "orch-state",
+      "t": "Instruction lifecycle",
+      "d": "One instruction, one record, with an explicit state: drafted, submitted, approved, released, settled, reconciled. There is no second or third copy for anyone to disagree with.",
+      "c": "vendor",
+      "tag": "api"
+     },
+     {
+      "id": "orch-4eyes",
+      "t": "Four-eyes release control",
+      "d": "The platform refuses to accept a release from the person who created the instruction, whatever their seniority. This is the control that closes Internal Audit finding 1.",
+      "c": "new"
+     },
+     {
+      "id": "orch-cut",
+      "t": "Value-date cut-off scheduler",
+      "d": "Works backwards from the value date and the 16:00 payment cut-off and tells the queue what has to be released today, instead of leaving it to somebody's memory at half past three.",
+      "c": "vendor",
+      "tag": "batch"
+     },
+     {
+      "id": "orch-msg",
+      "t": "Payment message builder",
+      "d": "Turns one released instruction into one structured payment message carrying every field the network needs. Nobody types twenty-two fields into anything, ever again.",
+      "c": "esm",
+      "tag": "api"
+     }
+    ]
+   },
+   {
+    "t": "Integration — and the systems on the other side of it",
+    "n": [
+     {
+      "id": "int-treas",
+      "t": "Treasury system interface",
+      "d": "Built by the ESM, not bought. Sends the funding requirement out and takes the treasury position back; the feed publishes at close of business and the platform consumes it at 06:00 the next morning.",
+      "c": "esm",
+      "tag": "api"
+     },
+     {
+      "id": "int-pay",
+      "t": "Payment gateway interface",
+      "d": "Built by the ESM. Hands the payment message to the gateway in ISO 20022 form — the international standard for payment messages — so that the instruction is never re-typed on its way out of the building.",
+      "c": "esm",
+      "tag": "api"
+     },
+     {
+      "id": "int-gl",
+      "t": "General ledger posting extract",
+      "d": "A standard output of the platform, configured rather than built: every disbursement, accrual, fee and receipt as matching double-entry bookkeeping for Finance and Control.",
+      "c": "vendor",
+      "tag": "batch"
+     },
+     {
+      "id": "int-notice",
+      "t": "Borrower notice production",
+      "d": "Quarterly interest notices generated from the same loan data instead of merged in Word — the four hundred letters a quarter Marie Curie called the worst job in the division.",
+      "c": "vendor",
+      "tag": "batch"
+     },
+     {
+      "id": "ext-treas",
+      "t": "Treasury system",
+      "d": "Unchanged. Explicitly out of scope in the Project Charter, because saying so loudly is what stops people assuming their own system goes too.",
+      "c": "ext",
+      "tag": "db"
+     },
+     {
+      "id": "ext-gw",
+      "t": "Payment gateway and correspondent bank",
+      "d": "Unchanged, and also out of scope. The gateway passes the instruction to the central or correspondent bank that actually moves the money out of the ESM's account.",
+      "c": "ext",
+      "tag": "api"
+     }
+    ]
+   },
+   {
+    "t": "Data and the audit trail",
+    "n": [
+     {
+      "id": "dat-book",
+      "t": "Loan book",
+      "d": "The register of every facility and every loan: borrower, committed, drawn, outstanding, rate, dates, status. When somebody asks what the exposure to a given country is, this answers, and everything else is derived from it.",
+      "c": "data",
+      "tag": "db"
+     },
+     {
+      "id": "dat-audit",
+      "t": "Audit trail store",
+      "d": "Who did what, when and on what basis, written once and never editable afterwards. Deliberately kept inside the ESM: the Outsourcing Plan says anything that touches the audit trail is not outsourced.",
+      "c": "esm",
+      "tag": "db"
+     },
+     {
+      "id": "dat-cpty",
+      "t": "Counterparty and bank-details register",
+      "d": "Borrower identity, authorised signatories, account details and when each was last verified. It holds personal data, which is why retention rules sit next to the migration and not in an annex.",
+      "c": "data",
+      "tag": "db"
+     },
+     {
+      "id": "dat-arch",
+      "t": "Migrated LOS records",
+      "d": "Fourteen years of loan data: about a thousand live loans plus nine closed European Financial Stability Facility portfolios, carried across with their original references intact so that reconciliation still matches.",
+      "c": "data",
+      "tag": "file"
+     }
+    ]
+   },
+   {
+    "t": "Reporting and proof",
+    "n": [
+     {
+      "id": "rep-rec",
+      "t": "Daily reconciliation report",
+      "d": "Runs at 06:00 and either balances or names the breaks. Acceptance criterion AC-04 sets the tolerance at zero unexplained breaks — a break with an explanation is a break with an explanation.",
+      "c": "vendor",
+      "tag": "batch"
+     },
+     {
+      "id": "rep-mgmt",
+      "t": "Management and Board reporting",
+      "d": "Exposure by member state, drawn and undrawn, forward cash flows: the question a Board of Directors member asks on a Tuesday, answered from the same data as everything else.",
+      "c": "vendor",
+      "tag": "web"
+     },
+     {
+      "id": "rep-reg",
+      "t": "Accounting and regulatory extracts",
+      "d": "Fixed-timetable extracts for Finance and Control and for external reporting, built from the loan book instead of assembled by hand each quarter.",
+      "c": "vendor",
+      "tag": "batch"
+     },
+     {
+      "id": "rep-sc",
+      "t": "Benefit measurement extract",
+      "d": "Cycle time, reconciliation timing and re-keyed field count straight out of the platform, so that Lending Operations can measure SC1 to SC5 quarterly from 2029 without anybody counting fields by hand again.",
+      "c": "new",
+      "tag": "batch"
+     }
+    ]
+   }
+  ],
+  "flows": [
+   {
+    "a": "ui-queue",
+    "b": "orch-state",
+    "t": "create and submit — keyed once"
+   },
+   {
+    "a": "orch-state",
+    "b": "orch-4eyes",
+    "t": "queue for a different person"
+   },
+   {
+    "a": "orch-cut",
+    "b": "ui-queue",
+    "t": "what must be released today"
+   },
+   {
+    "a": "orch-4eyes",
+    "b": "orch-msg",
+    "t": "release, only after a second approval"
+   },
+   {
+    "a": "orch-msg",
+    "b": "int-pay",
+    "t": "one structured message, no typing"
+   },
+   {
+    "a": "int-pay",
+    "b": "ext-gw",
+    "t": "ISO 20022 credit transfer instruction"
+   },
+   {
+    "a": "int-treas",
+    "b": "ext-treas",
+    "t": "funding requirement out, position back at 06:00"
+   },
+   {
+    "a": "ui-cfg",
+    "b": "cfg-tpl",
+    "t": "define a new instrument as settings"
+   },
+   {
+    "a": "cfg-tpl",
+    "b": "cfg-rep",
+    "t": "terms become future cash flows"
+   },
+   {
+    "a": "cfg-draw",
+    "b": "orch-state",
+    "t": "refuse anything the agreement does not permit"
+   },
+   {
+    "a": "orch-state",
+    "b": "dat-book",
+    "t": "one record of what is owed"
+   },
+   {
+    "a": "int-treas",
+    "b": "rep-rec",
+    "t": "three records matched at 06:00"
+   },
+   {
+    "a": "rep-rec",
+    "b": "ui-exc",
+    "t": "only the genuine differences"
+   },
+   {
+    "a": "orch-state",
+    "b": "dat-audit",
+    "t": "every state change, written once"
+   },
+   {
+    "a": "cfg-price",
+    "b": "dat-audit",
+    "t": "changing a pricing rule is audited too"
+   },
+   {
+    "a": "dat-audit",
+    "b": "ui-audit",
+    "t": "evidence Internal Audit can read"
+   },
+   {
+    "a": "dat-arch",
+    "b": "dat-book",
+    "t": "fourteen years, carried across"
+   },
+   {
+    "a": "dat-book",
+    "b": "int-notice",
+    "t": "notices from the data, not from Word"
+   }
+  ],
+  "notes": [
+   [
+    "What straight-through processing means",
+    "Straight-through processing means the instruction is keyed once and passes from system to system automatically, with nobody retyping anything on the way. It does not remove the human decision or the second approval. It removes the keyboard between the systems, not the judgement between the people — and any vendor who says otherwise should worry you."
+   ],
+   [
+    "What was bought and what was built",
+    "The Outsourcing Plan settled this in April 2026 and never reopened it. Bought from Levallois Systems: the platform licence, the implementation, the migration of fourteen years of LOS data, and the two releases. Kept inside the ESM: the requirements, the testing, the two interfaces, and anything that touches the audit trail."
+   ],
+   [
+    "What ISO 20022 is",
+    "ISO 20022 is the international standard for payment messages — a shared vocabulary so that an instruction means the same thing to every bank that handles it. A pain.001 message instructs a credit transfer; a camt.053 message is the statement reporting what actually happened on the account. Getting a field wrong means the message is rejected, not corrected."
+   ],
+   [
+    "Why configuration instead of code",
+    "In LOS every instrument was program code, so a new one was a nine-month development project. Here an instrument is a template of settings — interest basis, fees, drawdown rules, repayment profile — that a trained business user can add. That single design decision is the whole of success criterion SC3, and it is why Leonardo da Vinci said in every draft that the platform is bought, not built."
+   ]
+  ],
+  "scenes": [
+   "s07",
+   "s19",
+   "s23",
+   "s30",
+   "s42"
+  ],
+  "hi": {
+   "s07": "orch-4eyes",
+   "s19": "dat-audit",
+   "s23": "dat-arch",
+   "s30": "cfg-tpl",
+   "s42": "orch-msg"
+  }
+ },
+ {
+  "id": "c-disb",
+  "k": "flow",
+  "t": "One disbursement, end to end",
+  "sub": "Five working days today, one working day after CASTOR",
+  "act": 4,
+  "when": "The five-day version is the morning of 8 January 2026. The one-day version first ran live at 06:10 on 15 May 2028.",
+  "lanes": [
+   {
+    "t": "Lending Operations — the loan administrator",
+    "s": [
+     {
+      "id": "d1",
+      "t": "Build the instruction",
+      "d": "Read the facility agreement and the drawdown schedule, then key the instruction once: facility, tranche, amount, beneficiary account, value date, and the approval it rests on.",
+      "c": "esm",
+      "meta": "today D-5 · CASTOR 06:00"
+     },
+     {
+      "id": "d2",
+      "t": "Re-key 22 fields into the treasury system",
+      "d": "The same instruction typed a second time from the LOS screen, because the two systems have never been connected to one another.",
+      "c": "warn",
+      "meta": "today D-4 · removed by CASTOR"
+     },
+     {
+      "id": "d3",
+      "t": "Re-key again into the payment gateway",
+      "d": "A third typing of the same instruction. Across the two hops that is roughly 1,400 payment fields a quarter, which is the SC4 baseline.",
+      "c": "warn",
+      "meta": "today D-3 · removed by CASTOR"
+     },
+     {
+      "id": "d4",
+      "t": "Telephone treasury about the nostro",
+      "d": "Step 31 of the 41-step process map: a phone call to confirm the account the money leaves from is funded, because no system answers the question.",
+      "c": "warn",
+      "meta": "today D-3 · removed by CASTOR"
+     }
+    ]
+   },
+   {
+    "t": "The control — the second pair of eyes",
+    "s": [
+     {
+      "id": "d5",
+      "t": "Second officer reads all three systems",
+      "d": "Compares LOS, the treasury system and the gateway against one another before the 16:00 cut-off and signs. A real control, and one that cannot be made faster.",
+      "c": "warn",
+      "meta": "today D-2 · replaced, not removed"
+     },
+     {
+      "id": "d6",
+      "t": "Four-eyes approval in the platform",
+      "d": "A different named person approves the single record. The platform refuses an approval from whoever created it, so the control survives the automation instead of being swallowed by it.",
+      "c": "new",
+      "meta": "CASTOR 06:12"
+     }
+    ]
+   },
+   {
+    "t": "The CASTOR platform",
+    "s": [
+     {
+      "id": "d7",
+      "t": "Validate against the agreement",
+      "d": "Checks the tranche against the drawdown schedule, the availability period and the conditions attached to it, and refuses anything the facility agreement does not permit.",
+      "c": "vendor",
+      "meta": "CASTOR 06:11, seconds"
+     },
+     {
+      "id": "d8",
+      "t": "Build the payment message",
+      "d": "One release produces one structured ISO 20022 payment message — the international payment-message standard — with not a single field typed by a human.",
+      "c": "vendor",
+      "meta": "CASTOR 06:13"
+     },
+     {
+      "id": "d9",
+      "t": "Generate the repayment schedule",
+      "d": "From the value date the platform produces every future interest and principal payment and starts the daily accrual, without anyone opening a spreadsheet.",
+      "c": "vendor",
+      "meta": "CASTOR 06:14"
+     },
+     {
+      "id": "d10",
+      "t": "Match at 06:00 the next morning",
+      "d": "Compares its own record, the treasury position and the bank statement, and puts only the differences it cannot explain into an exception queue.",
+      "c": "vendor",
+      "meta": "CASTOR next morning"
+     }
+    ]
+   },
+   {
+    "t": "Outside the ESM",
+    "s": [
+     {
+      "id": "d11",
+      "t": "Gateway and correspondent bank",
+      "d": "The gateway sends the instruction to the central or correspondent bank holding the ESM's account, which moves the money. Out of scope for CASTOR — none of this changes.",
+      "c": "ext",
+      "meta": "cut-off 16:00, both worlds"
+     },
+     {
+      "id": "d12",
+      "t": "Value date — money in the account",
+      "d": "The day the money must actually be there and usable. One day late on €250 million costs real interest and breaks the borrower's own payment plan for that day.",
+      "c": "ext",
+      "meta": "today D+0 · CASTOR D+0"
+     }
+    ]
+   },
+   {
+    "t": "Finance and Control",
+    "s": [
+     {
+      "id": "d13",
+      "t": "Reconcile by hand in a spreadsheet",
+      "d": "Three working days after the money moved, proving that the loan system, the treasury system and the bank statement all say the same figure.",
+      "c": "warn",
+      "meta": "today D+3 · removed by CASTOR"
+     },
+     {
+      "id": "d14",
+      "t": "Work the exception queue",
+      "d": "The 06:00 run either balances or names the breaks. On 27 April 2028, 998 of a thousand loans reconciled and two did not — and the two had names, an owner and a target date by nine the same morning.",
+      "c": "new",
+      "meta": "CASTOR same day"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   [
+    "Why five days is five days",
+    "None of the five days is thinking time. Each one is a queue: a specific person has to be free at a specific minute, before a cut-off, to type the same instruction again. You cannot compress a queue of humans, which is why SC1 could never have been met by working harder."
+   ],
+   [
+    "What the four minutes on 15 May 2028 actually were",
+    "At 06:10 the first live instruction went into the platform and at 06:14 it was out the other side. By January 2029 Marie Curie types it once and is finished in about forty seconds: the treasury system already has it, the payment gateway already has it, and nobody in the building will ever count those fields again."
+   ],
+   [
+    "The control that stayed",
+    "Straight-through processing removed four manual steps and deliberately kept one. The second person still approves. What changed is that the platform now refuses the approval if it comes from the person who created the instruction, instead of relying on two colleagues remembering the rule at half past four."
+   ],
+   [
+    "Why the value date does not move",
+    "The value date is fixed in the facility agreement, and everything on this diagram is arithmetic backwards from it. Saving four days does not deliver the money earlier. It moves the risk of missing the 16:00 wall out of the process altogether, which is what an operations division actually buys."
+   ]
+  ],
+  "scenes": [
+   "s01",
+   "s10",
+   "s45",
+   "s52"
+  ],
+  "hi": {
+   "s01": "d2",
+   "s10": "d5",
+   "s45": "d8",
+   "s52": "d1"
+  }
+ },
+ {
+  "id": "c-4eyes",
+  "k": "seq",
+  "t": "Four-eyes release of a payment",
+  "sub": "The control that closes Internal Audit finding 1, and the record that closes finding 2",
+  "act": 4,
+  "when": "Written into the Project Charter on 17 March 2026 as a scoped feature; live from 15 May 2028; both findings closed by letter on 4 July 2028",
+  "actors": [
+   {
+    "id": "orig",
+    "t": "Loan administrator (originator)"
+   },
+   {
+    "id": "appr",
+    "t": "Authorising officer (a different person)"
+   },
+   {
+    "id": "cas",
+    "t": "CASTOR platform"
+   },
+   {
+    "id": "trail",
+    "t": "Audit trail store"
+   },
+   {
+    "id": "gw",
+    "t": "Payment gateway"
+   },
+   {
+    "id": "audit",
+    "t": "Internal Audit and the quarterly control test"
+   }
+  ],
+  "msgs": [
+   {
+    "a": "orig",
+    "b": "cas",
+    "t": "create instruction — keyed once",
+    "d": "Facility, tranche, amount, beneficiary account, value date and the approval it rests on. One record, not three copies in three systems.",
+    "c": "esm"
+   },
+   {
+    "a": "cas",
+    "b": "trail",
+    "t": "write: created by whom, when, from what",
+    "d": "Written once and not editable afterwards. Every step below this line also writes here; the diagram does not repeat it each time.",
+    "c": "new"
+   },
+   {
+    "a": "cas",
+    "b": "cas",
+    "t": "validate against the facility agreement",
+    "d": "Tranche inside the drawdown schedule, inside the availability period, conditions met, bank details verified. Anything the agreement does not permit is refused here rather than discovered later.",
+    "c": "vendor"
+   },
+   {
+    "a": "orig",
+    "b": "cas",
+    "t": "attempt to release her own instruction",
+    "d": "The forbidden thing, tried deliberately. Under LOS nothing in the system stopped this; only a second officer's attention did, which is precisely what Internal Audit objected to.",
+    "c": "warn"
+   },
+   {
+    "a": "cas",
+    "b": "orig",
+    "t": "refused — the originator may not release",
+    "d": "Segregation of duties stops being a person reading and becomes the system refusing. The refusal is itself written to the audit trail, because the attempts that were stopped are the interesting record.",
+    "c": "new"
+   },
+   {
+    "a": "cas",
+    "b": "appr",
+    "t": "queue for approval, with today's deadline",
+    "d": "The queue works backwards from the value date and the 16:00 payment cut-off, so the approver sees what must be released today rather than what arrived first.",
+    "c": "vendor"
+   },
+   {
+    "a": "appr",
+    "b": "cas",
+    "t": "approve — different named person, enforced",
+    "d": "The authorising officer checks the instruction against the underlying documents. What changed is not the check itself but the fact that the platform cannot be persuaded to skip it.",
+    "c": "new"
+   },
+   {
+    "a": "cas",
+    "b": "gw",
+    "t": "release: one ISO 20022 payment message",
+    "d": "ISO 20022 is the international standard for payment messages. The instruction was keyed once at the top of this diagram and has not been re-typed since.",
+    "c": "esm"
+   },
+   {
+    "a": "gw",
+    "b": "cas",
+    "t": "acknowledged — settling for value date",
+    "d": "The state on the instruction moves to released and then to settled. That state column is most of the audit trail expressed in one word.",
+    "c": "ext"
+   },
+   {
+    "a": "audit",
+    "b": "trail",
+    "t": "evidence: who did what, when, on what basis",
+    "d": "An audit finding closes with evidence, not with a demonstration. The evidence pack went to Internal Audit in May 2028 and held; the closure letter arrived on 4 July.",
+    "c": "new"
+   },
+   {
+    "a": "audit",
+    "b": "cas",
+    "t": "quarterly: attempt the forbidden thing again",
+    "d": "W. Edwards Deming's rule, agreed in the Business Implementation Plan in June 2026: a control has to be tested, not demonstrated. Somebody attempts a self-release every quarter and the report records that it failed.",
+    "c": "new"
+   }
+  ],
+  "notes": [
+   [
+    "What segregation of duties means",
+    "No single person may both start and release the same transaction. Its everyday form is the four-eyes principle: a second competent person checks and approves before anything takes effect. It is not distrust of colleagues — it catches an ordinary mistake, makes a fraud need two people, and lets the institution prove afterwards that both were true."
+   ],
+   [
+    "Why automation nearly made the audit finding worse",
+    "Alan Turing's warning in the Charter workshop of 17 March 2026: if straight-through processing lets one officer originate and release the same disbursement, the project closes one audit finding and opens a worse one. That is why the four-eyes rule became a feature in scope, traced to a deliverable, and not a footnote."
+   ],
+   [
+    "What an audit trail has to be",
+    "A stored record of who changed what, when and on what basis, which cannot be altered afterwards. A re-keyed field breaks it: the value in the second system has no verified link to the value in the first, so the chain of evidence simply stops there. That was Internal Audit finding 2."
+   ],
+   [
+    "Why a control is tested and not demonstrated",
+    "A demonstration shows that the control can work. A test shows that it did work, on a day nobody chose in advance. The quarterly attempt is deliberately run by somebody who wants it to succeed, and the report says that it failed — which is the only form of evidence an auditor will accept."
+   ]
+  ],
+  "scenes": [
+   "s07",
+   "s25",
+   "s43",
+   "s46"
+  ],
+  "hi": {
+   "s07": "cas",
+   "s25": "audit",
+   "s43": "appr",
+   "s46": "trail"
+  }
+ },
+ {
+  "id": "c-model",
+  "k": "model",
+  "t": "What the platform stores",
+  "sub": "Instrument → Facility agreement → Tranche → Disbursement → Repayment schedule, with the audit trail underneath",
+  "act": 4,
+  "when": "The product model Nikola Tesla covered a whiteboard with on 22 October 2026 — every instrument the institution has ever had, and four it does not have yet",
+  "ents": [
+   {
+    "id": "inst",
+    "t": "Instrument",
+    "d": "A product type on the ESM's shelf. In LOS this was program code, so a new one took nine months. Here it is a template of settings, and that single difference is the whole of success criterion SC3.",
+    "f": [
+     [
+      "code",
+      "PCCL — Precautionary Conditioned Credit Line"
+     ],
+     [
+      "interest basis",
+      "base rate + margin, day-count convention"
+     ],
+     [
+      "fee rules",
+      "upfront and annual service fee, commitment fee"
+     ],
+     [
+      "drawdown rules",
+      "availability period, minimum and maximum tranche"
+     ],
+     [
+      "conditionality",
+      "documents required before a tranche may be released"
+     ],
+     [
+      "repayment profile",
+      "bullet or amortising, grace period, final maturity"
+     ],
+     [
+      "accounting rules",
+      "which ledger accounts each event posts to"
+     ],
+     [
+      "display order",
+      "where it sits in the administrator's list — configurable, not coded"
+     ]
+    ],
+    "c": "vendor"
+   },
+   {
+    "id": "fac",
+    "t": "Facility agreement",
+    "d": "The signed financial assistance facility agreement with one borrower: how much is available, until when, priced how, drawn under what rules. Legal owns the text; the platform holds what the text implies.",
+    "f": [
+     [
+      "reference",
+      "the identifier everything else hangs off"
+     ],
+     [
+      "counterparty",
+      "the borrowing member state"
+     ],
+     [
+      "committed / drawn / outstanding",
+      "the three numbers everyone asks for"
+     ],
+     [
+      "availability period",
+      "when it closes, anything undrawn is cancelled"
+     ],
+     [
+      "legacy reference",
+      "the old European Financial Stability Facility (EFSF) loan reference, kept because reconciliation still matches on it"
+     ]
+    ],
+    "c": "data"
+   },
+   {
+    "id": "tr",
+    "t": "Tranche",
+    "d": "One instalment of the agreed loan, with its own conditions. A facility of tens of billions is never sent as a single wire, and each tranche waits for its own review to confirm the agreed measures were taken.",
+    "f": [
+     [
+      "sequence",
+      "third tranche of six"
+     ],
+     [
+      "amount",
+      "€250,000,000"
+     ],
+     [
+      "earliest drawdown",
+      "from the drawdown schedule — enforced, not merely recorded"
+     ],
+     [
+      "conditions met",
+      "which programme review, approved when, by whom"
+     ]
+    ],
+    "c": "data"
+   },
+   {
+    "id": "disb",
+    "t": "Disbursement instruction",
+    "d": "The order to pay one tranche. This is the object the whole project revolves around, and the object that used to be typed three times into three systems.",
+    "f": [
+     [
+      "value date",
+      "the day the money must be in the account and usable"
+     ],
+     [
+      "beneficiary account",
+      "from the counterparty register, with a last-verified date"
+     ],
+     [
+      "state",
+      "drafted · submitted · approved · released · settled · reconciled"
+     ],
+     [
+      "created by / approved by",
+      "two different people, enforced by the platform"
+     ],
+     [
+      "payment message reference",
+      "the ISO 20022 message the gateway acknowledged"
+     ]
+    ],
+    "c": "new"
+   },
+   {
+    "id": "rep",
+    "t": "Repayment schedule",
+    "d": "Every future cash flow on the loan, generated from the agreement rather than kept in a spreadsheet. Change one rate reset and several hundred future amounts change with it, which is why it must never be a spreadsheet.",
+    "f": [
+     [
+      "interest dates and amounts",
+      "recalculated on each rate reset"
+     ],
+     [
+      "principal repayments",
+      "and any rescheduling, without losing what was true before"
+     ],
+     [
+      "daily accrual",
+      "interest earned but not yet paid, booked as the days pass"
+     ],
+     [
+      "notices",
+      "the quarterly borrower letters, generated instead of merged in Word"
+     ]
+    ],
+    "c": "vendor"
+   },
+   {
+    "id": "cpty",
+    "t": "Counterparty",
+    "d": "Who is on the other side. Usually a borrowing member state — but for the planned common backstop it would be the Single Resolution Fund, the pot filled by banks that pays for resolving failing banks, which is a different counterparty entirely.",
+    "f": [
+     [
+      "type",
+      "member state · institution · Single Resolution Fund"
+     ],
+     [
+      "authorised signatories",
+      "who may request a drawdown, and against which document"
+     ],
+     [
+      "bank details",
+      "and the date they were last verified"
+     ],
+     [
+      "contact data",
+      "names and telephone numbers — personal data, with a retention rule"
+     ]
+    ],
+    "c": "data"
+   },
+   {
+    "id": "trail",
+    "t": "Audit trail entry",
+    "d": "Who did what, when and on what basis, written once and never editable. Deliberately kept inside the ESM: the Outsourcing Plan drew the line at anything touching the audit trail.",
+    "f": [
+     [
+      "actor",
+      "a named staff identifier, never a shared account"
+     ],
+     [
+      "action",
+      "created · amended · approved · refused · released"
+     ],
+     [
+      "before / after",
+      "the value as it was and as it became"
+     ],
+     [
+      "basis",
+      "the document or approval relied on"
+     ]
+    ],
+    "c": "esm"
+   },
+   {
+    "id": "brk",
+    "t": "Reconciliation break",
+    "d": "A difference between the platform, the treasury position and the bank statement that nobody has explained yet. The goal is not zero breaks: it is that a person only ever sees a genuine one.",
+    "f": [
+     [
+      "matching key",
+      "the loan reference — about 300 EFSF references were re-issued in 2014 with a different check digit"
+     ],
+     [
+      "explained / resolved",
+      "acceptance criterion AC-04 tolerates the first and not the second"
+     ],
+     [
+      "owner and target date",
+      "every break has both, from the morning it appears"
+     ]
+    ],
+    "c": "warn"
+   }
+  ],
+  "rels": [
+   {
+    "a": "inst",
+    "b": "fac",
+    "t": "1 → many",
+    "d": "One instrument type, many facility agreements. Adding a new instrument must not touch a single existing agreement — that is the test of whether it is really configuration."
+   },
+   {
+    "a": "fac",
+    "b": "tr",
+    "t": "1 → many",
+    "d": "One facility, drawn in tranches across its availability period, each released on its own conditions."
+   },
+   {
+    "a": "tr",
+    "b": "disb",
+    "t": "1 → 1..n",
+    "d": "One tranche is normally paid by one disbursement instruction, occasionally by more than one."
+   },
+   {
+    "a": "disb",
+    "b": "rep",
+    "t": "1 → 1",
+    "d": "The value date starts the clock: from it the platform generates every future interest and principal payment and the daily accrual between them."
+   },
+   {
+    "a": "fac",
+    "b": "cpty",
+    "t": "many → 1",
+    "d": "Every facility has one borrower, and the instrument decides what kind of borrower is even permitted."
+   },
+   {
+    "a": "disb",
+    "b": "trail",
+    "t": "1 → many",
+    "d": "Every state change on an instruction writes an entry. So does every refusal, which is the half people forget."
+   },
+   {
+    "a": "inst",
+    "b": "trail",
+    "t": "1 → many",
+    "d": "Changing a pricing rule is an audited event too. Configuration is not a back door around the trail."
+   },
+   {
+    "a": "disb",
+    "b": "brk",
+    "t": "1 → 0..n",
+    "d": "A disbursement that does not match produces a break with an owner and a date, rather than a footnote on somebody's report."
+   }
+  ],
+  "notes": [
+   [
+    "What makes an instrument configurable rather than coded",
+    "Look at the fields on Instrument. Interest basis, fees, drawdown rules, conditionality, repayment profile, accounting rules, even the order it appears in on the screen — all of them are values a trained business user sets. Nothing about defining a new instrument requires a developer, which is how nine months becomes six weeks."
+   ],
+   [
+    "Why the old loan reference is still in the model",
+    "Reconciliation matches on the loan reference, and roughly three hundred European Financial Stability Facility references were re-issued in 2014 with a different check digit. Migration kept the old reference deliberately: throw it away and the matching breaks in a way nobody can explain at six in the morning."
+   ],
+   [
+    "Why the common backstop was never just two screens",
+    "It is a whole product in the configuration engine — drawdown, monitoring and repayment — and the repayment side faces the Single Resolution Fund rather than a member state. Priced in May 2027 at 145 person-days and €392,000, which is why it became change request CR-014 and a Steering Committee decision, and not a favour done over the telephone."
+   ],
+   [
+    "The rule underneath all of it",
+    "One record, one owner, one trail. Three copies of an instruction living in three systems is what produced two audit findings. A single record with a history that cannot be altered is what closes them."
+   ]
+  ],
+  "scenes": [
+   "s30",
+   "s32",
+   "s35",
+   "s36"
+  ],
+  "hi": {
+   "s30": "inst",
+   "s32": "inst",
+   "s35": "brk",
+   "s36": "cpty"
+  }
+ },
+ {
+  "id": "c-screen-queue",
+  "k": "wire",
+  "t": "The disbursement queue",
+  "sub": "The screen the whole project is about",
+  "act": 4,
+  "when": "Delivered in Release 2 on 17 December 2027; in daily use by forty loan administrators from 15 May 2028",
+  "screen": {
+   "title": "CASTOR · Disbursement queue · Tuesday 16 May 2028, 06:04",
+   "chrome": [
+    "Queue",
+    "Instruments",
+    "Reconciliation",
+    "Audit trail",
+    "Reports"
+   ],
+   "cols": [
+    "Reference",
+    "Counterparty",
+    "Instrument",
+    "Amount",
+    "Value date",
+    "State",
+    "Next action"
+   ],
+   "rows": [
+    [
+     "CY-2028-014",
+     "Cyprus",
+     "Adjustment programme loan",
+     "€250,000,000",
+     "Mon 22 May",
+     "Awaiting approval",
+     "A different officer, before 16:00 today"
+    ],
+    [
+     "PT-2028-009",
+     "Portugal",
+     "Adjustment programme loan",
+     "€480,000,000",
+     "Thu 18 May",
+     "Released",
+     "Gateway acknowledged 06:12 — nothing to do"
+    ],
+    [
+     "ES-2028-003",
+     "Spain",
+     "Indirect bank recapitalisation",
+     "€120,000,000",
+     "Fri 19 May",
+     "Validation failed",
+     "Tranche exceeds the drawdown schedule"
+    ],
+    [
+     "IE-2028-001",
+     "Ireland",
+     "PCCL — precautionary credit line",
+     "€0 drawn",
+     "—",
+     "Standing, undrawn",
+     "Nothing. A credit line may never be drawn at all"
+    ],
+    [
+     "GR-2028-021",
+     "Greece",
+     "Adjustment programme loan",
+     "€95,400,000",
+     "Mon 22 May",
+     "Draft",
+     "Bank details last verified 2024 — re-verify"
+    ]
+   ],
+   "side": [
+    [
+     "Filter",
+     "State · instrument · counterparty · value date"
+    ],
+    [
+     "Today's cut-off",
+     "16:00. Anything not released by then loses its value date."
+    ],
+    [
+     "Actions",
+     "Submit · Approve · Reject · Hold · Open audit trail"
+    ],
+    [
+     "Greyed out for you",
+     "Approve on CY-2028-014 — you created it"
+    ],
+    [
+     "Yesterday",
+     "Reconciled at 06:00, 0 unexplained breaks"
+    ]
+   ],
+   "call": [
+    [
+     "1",
+     "The State column is the audit trail in one word. Every move between states is written once, with a name and a time against it, and cannot be edited afterwards."
+    ],
+    [
+     "2",
+     "Approve is greyed out on the instruction you created yourself. That is Internal Audit finding 1, closed in software rather than by two colleagues remembering a rule at half past four."
+    ],
+    [
+     "3",
+     "There is no Refresh button. In the workshop of 21 May 2026 Marie Curie asked for one; Ada Lovelace wrote down the need instead — see the current state of the queue without leaving the screen — and the platform already satisfied it."
+    ],
+    [
+     "4",
+     "'Validation failed' is the platform enforcing the drawdown schedule rather than merely recording it. That instruction never becomes a payment message at all."
+    ],
+    [
+     "5",
+     "The instrument list is ordered by how often it is used, not alphabetically, and the order is a setting the business can change. That is requirement 104, and it cost nine person-days rather than two."
+    ]
+   ]
+  },
+  "notes": [
+   [
+    "Why this screen and not a dashboard",
+    "Marie Curie's ground rule at the Executing kick-off on 10 July 2026: if it has a screen her people touch, her people see it before anybody says it is done. Forty loan administrators live in this screen, and its design is what decides whether SC1 is met in practice rather than on paper."
+   ],
+   [
+    "Describe the need, not the button",
+    "A requirement written as 'put a Refresh button at the top right' is a solution shaped like a button. Written as a need — a loan administrator must be able to see the current state of the queue without leaving the screen — the platform can satisfy it three ways, and one of them costs nothing because it is already in the product."
+   ],
+   [
+    "Why a credit line sits in the queue showing zero",
+    "A precautionary credit line such as the PCCL may never be drawn at all; its value is the signal that it exists. The system still has to hold it, price it, charge the commitment fee on the undrawn amount and report on it — which is why an unused instrument is never a cheap instrument."
+   ],
+   [
+    "What a loan administrator does now",
+    "Under LOS she chased breaks and typed the same instruction three times. Here the system chases and she approves or rejects what it found: same job title, same grade, genuinely different job. Two of Marie's colleagues discovered that the most interesting hour of their day had been automated, and one of them minds very much."
+   ]
+  ],
+  "scenes": [
+   "s14",
+   "s27",
+   "s32",
+   "s52"
+  ]
+ },
+ {
+  "id": "c-screen-cfg",
+  "k": "wire",
+  "t": "The product configuration workbench",
+  "sub": "How a new instrument gets defined in six weeks instead of nine months",
+  "act": 4,
+  "when": "Release 1, 26 March 2027 — the engine the Architecture Office made a condition of committing Release 2 at all",
+  "screen": {
+   "title": "CASTOR · Instruments · New instrument — draft, not live",
+   "chrome": [
+    "Queue",
+    "Instruments",
+    "Reconciliation",
+    "Audit trail",
+    "Reports"
+   ],
+   "cols": [
+    "Setting",
+    "Value",
+    "Where the value comes from",
+    "What it changes"
+   ],
+   "rows": [
+    [
+     "Instrument code",
+     "SRF-BACKSTOP",
+     "Draft — never yet used",
+     "Common backstop to the Single Resolution Fund"
+    ],
+    [
+     "Counterparty type",
+     "Single Resolution Fund",
+     "ESM Treaty reform, article text",
+     "Not a member state: different drawdown, monitoring and repayment"
+    ],
+    [
+     "Ceiling",
+     "€68,000,000,000",
+     "ESM Treaty reform, once in force",
+     "A hard limit the platform enforces, not a note in a manual"
+    ],
+    [
+     "Interest basis",
+     "Base rate + margin, actual/360",
+     "Pricing policy",
+     "Daily accrual from the value date"
+    ],
+    [
+     "Repayment profile",
+     "Bullet, 3 years, extendable to 5",
+     "Treaty text",
+     "Generates every forward cash flow automatically"
+    ],
+    [
+     "Drawdown rule",
+     "On a Single Resolution Board request",
+     "Legal",
+     "No tranche exists without the request document"
+    ],
+    [
+     "Fee schedule",
+     "Commitment fee on the undrawn ceiling",
+     "Pricing policy",
+     "Charged whether or not the line is ever drawn"
+    ],
+    [
+     "Four-eyes threshold",
+     "All amounts",
+     "Internal control standard",
+     "Originator can never release, at any value"
+    ],
+    [
+     "Display order",
+     "Position 7 in the administrator's list",
+     "The business, not a developer",
+     "Ordered by how often, not by alphabet"
+    ]
+   ],
+   "side": [
+    [
+     "Status",
+     "Draft. Invisible in the disbursement queue until switched live."
+    ],
+    [
+     "Rehearsed in",
+     "Test environment — eleven days, end to end, in 2028"
+    ],
+    [
+     "Blocked by",
+     "ESM Treaty reform not in force. Italy has not ratified."
+    ],
+    [
+     "Audited",
+     "Every setting change is written to the audit trail with a name against it"
+    ],
+    [
+     "Estimated",
+     "CR-014: 145 person-days, €392,000 at 2027 prices"
+    ]
+   ],
+   "call": [
+    [
+     "1",
+     "Nine settings, no code. Under LOS this was a nine-month development project, because every instrument was written as program code."
+    ],
+    [
+     "2",
+     "'Counterparty type' is why this was never two screens. The backstop lends to a fund filled by banks, not to a government, so drawdown, monitoring and repayment all behave differently."
+    ],
+    [
+     "3",
+     "Draft status is why the project could promise the backstop without being hostage to a ratification nobody in the building controls. The instrument is defined and switched off."
+    ],
+    [
+     "4",
+     "Levallois configured an instrument on stage in about forty minutes — with a prepared instrument, a demonstration dataset and no reconciliation. Six weeks is the honest number, and the Business Case did not move it because a sales engineer was quick."
+    ]
+   ]
+  },
+  "notes": [
+   [
+    "What six weeks actually covers",
+    "Not the forty minutes of typing settings. Six weeks is agreeing the product with Legal and Risk, configuring it, generating and checking the forward cash flows, testing the payment path end to end, republishing the operating procedure, and training the people who will run it. Acceptance criterion AC-01 measures all of that, not the screen."
+   ],
+   [
+    "Why the backstop is a draft rather than a build",
+    "The 2021 reform of the ESM Treaty would add a credit line from the ESM to the Single Resolution Fund, capped at €68 billion and repayable within three years, extendable to five. It enters into force only when every member state has ratified, and Italy has not. The Charter put backstop screens explicitly out of scope and left the instrument as configuration — which is how a ratification nobody controls was stopped from moving the project's dates."
+   ],
+   [
+    "What a business user may and may not change",
+    "Settings, yes: pricing, fees, drawdown rules, repayment profile, thresholds, display order. The engine underneath them, no. Two people in Europe could change a pricing rule without breaking a repayment schedule, and one of them resigned on 4 October 2027 — which is why fifteen person-days of knowledge transfer had been sitting in the Work Plan since 2026, and why it mattered that they were nine months overdue."
+   ],
+   [
+    "Eleven templates, nine on the date",
+    "Release 1 carried eleven product templates and delivered nine on 26 March 2027. The two that slipped were the Primary and Secondary Market Support Facilities, and nobody disburses on either of those — which is a fact about priority, not a reason to leave them out of the product."
+   ]
+  ],
+  "scenes": [
+   "s20",
+   "s30",
+   "s33",
+   "s36"
+  ]
+ },
+ {
+  "id": "c-rel",
+  "k": "timeline",
+  "t": "What ships when",
+  "sub": "Two releases, four months of running both systems, one cutover weekend",
+  "act": 2,
+  "when": "Dated in the Outsourcing Plan before the tender and baselined in the Project Work Plan on 26 June 2026 — and delivered on those dates",
+  "rows": [
+   {
+    "t": "Procurement and award",
+    "from": "Apr 2026",
+    "to": "18 Sep 2026",
+    "d": "An open tender under the procurement code, because the existing framework contract covers staff and infrastructure but not a licensed lending platform with fourteen years of migration underneath it.",
+    "c": "esm",
+    "items": [
+     "Outsourcing Plan approved by the Corporate Investment Board, 24 Jun 2026",
+     "Tender file closed July 2026, acceptance process written into the contract",
+     "Contract awarded to Levallois Systems, 18 Sep 2026",
+     "160 person-days · €250,000"
+    ]
+   },
+   {
+    "t": "Release 1 — product configuration engine",
+    "from": "Sep 2026",
+    "to": "26 Mar 2027",
+    "d": "The engine that turns an instrument into settings. It moves no money: this release exists to prove that a product can be defined without code before anybody commits to Release 2.",
+    "c": "vendor",
+    "items": [
+     "Eleven product templates in scope, nine delivered on the date",
+     "Six instruments configured in the test environment, interim check 5 Nov 2026",
+     "First reconciliation on live data, read-only, 11 Apr 2027: 1,106 matched, 294 exceptions",
+     "820 person-days · €2.4 m"
+    ]
+   },
+   {
+    "t": "Release 2 — straight-through disbursement",
+    "from": "Apr 2027",
+    "to": "17 Dec 2027",
+    "d": "The instruction keyed once and moving by itself: the disbursement queue, the four-eyes release control, the two interfaces and the payment message — delivered on the date printed in the Business Case twenty-one months earlier.",
+    "c": "vendor",
+    "items": [
+     "Platform, release notes, User Manual, Operations Manual, training material",
+     "Accepted deliverable by deliverable, on signed notes, to four different owners",
+     "Lead architect resigned 4 Oct 2027; replacement named 15 Nov; the date held",
+     "940 person-days · €2.8 m"
+    ]
+   },
+   {
+    "t": "Parallel run",
+    "from": "08 Jan 2028",
+    "to": "30 Apr 2028",
+    "d": "Four months in which every instruction goes through both LOS and CASTOR on live work and the results are compared before the 16:00 cut-off. Where they disagree, LOS wins and the reason is written down.",
+    "c": "new",
+    "items": [
+     "Two loan administrators full time from 8 January — Lending Operations time, not spare time",
+     "Forty administrators trained by 30 April, in cohorts, around their day jobs",
+     "The heaviest test last: a €3 bn EFSF bond matured 25 Apr, refinancing settled 27 Apr",
+     "360 person-days · €1.05 m"
+    ]
+   },
+   {
+    "t": "Transition and go-live",
+    "from": "May 2028",
+    "to": "30 Jun 2028",
+    "d": "Backup and restore rehearsed on the Saturday, written approval to deploy on the Sunday, first live instruction at 06:10 on the Monday. Ownership transfers from the Solution Provider to the Project Owner the same day.",
+    "c": "esm",
+    "items": [
+     "Full backup and tested restore, 13 May 2028, four hours forty minutes",
+     "Cutover 15 May 2028; LOS read-only from 16 May",
+     "Rollback available until 30 June, and only before the 06:00 value-date cut-off",
+     "220 person-days · €750,000"
+    ]
+   },
+   {
+    "t": "Business implementation",
+    "from": "Dec 2027",
+    "to": "30 Apr 2028",
+    "d": "Grace Hopper's plan, not the Project Manager's: retraining forty loan administrators, redesigning two roles, and republishing the disbursement procedure with segregation of duties enforced by the platform.",
+    "c": "esm",
+    "items": [
+     "Three days classroom then shadowing, delivered by the Business Implementation Group",
+     "28 of 40 trained by 21 Mar 2028; all 40 by 30 Apr",
+     "Revised procedure through Legal and past Internal Audit",
+     "260 person-days · €600,000"
+    ]
+   },
+   {
+    "t": "After the project",
+    "from": "Aug 2028",
+    "to": "Feb 2030",
+    "d": "The project closes on 28 July 2028. Everything that proves it was worth doing happens afterwards, owned by Lending Operations rather than by a project that no longer exists.",
+    "c": "data",
+    "items": [
+     "Warranty runs to 15 May 2029; defects go to the service desk",
+     "SC1 to SC5 measured quarterly by Lending Operations from Q1 2029",
+     "Full-year 2029 statement to the Corporate Investment Board, February 2030"
+    ]
+   }
+  ],
+  "marks": [
+   {
+    "t": "Contract award",
+    "when": "18 Sep 2026",
+    "d": "Levallois Systems, after an open tender. The Corporate Investment Board authorises the award — not the Steering Committee, which surprised the Steering Committee."
+   },
+   {
+    "t": "Release 1",
+    "when": "26 Mar 2027",
+    "d": "Product configuration engine, nine of eleven templates. No payments yet, and that is the point."
+   },
+   {
+    "t": "Release 2",
+    "when": "17 Dec 2027",
+    "d": "Straight-through disbursement. Four supporting deliverables accepted on signed notes at 17:40 that Friday, each by whoever will actually use it."
+   },
+   {
+    "t": "Parallel run starts",
+    "when": "08 Jan 2028",
+    "d": "Both systems live on the same real work, every day, for four months."
+   },
+   {
+    "t": "Parallel run ends",
+    "when": "30 Apr 2028",
+    "d": "After the heaviest reconciliation the platform will ever do. 998 loans reconciled; two did not, and both were explained, owned and closed by 3 May."
+   },
+   {
+    "t": "Cutover and go-live",
+    "when": "15 May 2028",
+    "d": "First live instruction into the platform at 06:10, out the other side at 06:14. Zero missed value dates since."
+   },
+   {
+    "t": "LOS decommissioned",
+    "when": "30 Jun 2028",
+    "d": "The last day a rollback was possible, and the day the fourteen-year-old system was switched off for good."
+   }
+  ],
+  "notes": [
+   [
+    "Why Release 1 pays for nothing",
+    "Release 1 moves no money. It exists because the Architecture Office set one condition in March 2026: demonstrate the configuration engine before committing Release 2. Buying a platform on the promise that products are configurable and discovering in 2028 that they are not is exactly the failure this sequencing prevents."
+   ],
+   [
+    "Why the dates never moved",
+    "Release 1, Release 2, the parallel run and go-live were dated in the Outsourcing Plan before the tender opened, so bidders had to hold named people against them. Payment followed release acceptance rather than effort, and ten per cent of the contract was held back until final acceptance."
+   ],
+   [
+    "What it cost in the end",
+    "€8.96 million against €8.4 million baselined — 6.7 per cent over — and 3,307 person-days against 3,100. Nearly all of the overrun was data migration, priced by the contractor against a data model they had never been shown. The rows above do not add up to €8.4 million on their own: a seventh work package, 340 person-days and €550,000 of project management and Project Support Office effort, runs underneath all of them for twenty-six months."
+   ],
+   [
+    "Why the last row has no end date the project controls",
+    "A project produces an output. The outcome is straight-through processing, and the benefit is a number somebody reads in 2030. Three different things — and only the first was ever the project's to finish."
+   ]
+  ],
+  "scenes": [
+   "s17",
+   "s18",
+   "s33",
+   "s42"
+  ]
+ },
+ {
+  "id": "c-cut",
+  "k": "flow",
+  "t": "Migration and cutover",
+  "sub": "Fourteen years of LOS data, about a thousand loans, four months of doing everything twice",
+  "act": 4,
+  "when": "Prerequisites agreed in the Transition Plan on 4 June 2026; run from October 2027 to 30 June 2028",
+  "lanes": [
+   {
+    "t": "The data — fourteen years of LOS",
+    "s": [
+     {
+      "id": "m1",
+      "t": "Map the old data",
+      "d": "The migration mapping was named as a contract deliverable, so in 2028 it was an obligation rather than a favour. Levallois priced it against a data model they had never been shown, which is where nearly all of the €560,000 overrun came from.",
+      "c": "esm",
+      "meta": "480 person-days"
+     },
+     {
+      "id": "m2",
+      "t": "Convert the EFSF legacy portfolios first",
+      "d": "Nine closed European Financial Stability Facility loans carrying the oldest repayment schedules the institution holds. Deliberately moved to October 2027, ahead of Release 2, because that is when breaking things is still free.",
+      "c": "new",
+      "meta": "Oct 2027, before Release 2"
+     },
+     {
+      "id": "m3",
+      "t": "Fix the matching key",
+      "d": "Reconciliation matches on the loan reference, and about three hundred EFSF references were re-issued in 2014 with a different check digit. On 11 April 2027 that put 294 of 1,400 lines into the exception queue.",
+      "c": "warn",
+      "meta": "data, not software"
+     },
+     {
+      "id": "m4",
+      "t": "Dry runs",
+      "d": "A full rehearsal on real data with none of the results going live. The migration was designed to be run once, correctly. It was run four times — which became the single most useful entry in the lessons learned register.",
+      "c": "esm",
+      "meta": "rescheduled twice around funding events"
+     }
+    ]
+   },
+   {
+    "t": "Parallel run — 8 Jan to 30 Apr 2028",
+    "s": [
+     {
+      "id": "p1",
+      "t": "Every instruction through both systems",
+      "d": "Live work, done twice, for four months. The two results are compared before the 16:00 cut-off, and where they disagree LOS wins and somebody writes down why.",
+      "c": "new",
+      "meta": "about 1,000 loans"
+     },
+     {
+      "id": "p2",
+      "t": "Two administrators full time",
+      "d": "Not goodwill and not spare time: two of Marie Curie's people on acceptance runs from 8 January, with twenty-five person-days of user acceptance testing sitting in the baseline since June 2026.",
+      "c": "esm",
+      "meta": "Lending Operations time"
+     },
+     {
+      "id": "p3",
+      "t": "Train forty loan administrators",
+      "d": "Three days classroom then shadowing, in cohorts, while all forty carry on doing their day jobs. Twenty-eight were trained by 21 March 2028 and all forty by 30 April, which was a prerequisite for cutover.",
+      "c": "esm",
+      "meta": "a condition, not a nice-to-have"
+     },
+     {
+      "id": "p4",
+      "t": "The hardest week, deliberately last",
+      "d": "A €3 billion EFSF bond matured on 25 April 2028 and the refinancing settled on the 27th, recomputing the funding cost across the pooled loans overnight. 998 loans reconciled and two did not.",
+      "c": "warn",
+      "meta": "25–27 Apr 2028"
+     },
+     {
+      "id": "p5",
+      "t": "Fix, re-test, close",
+      "d": "Both breaks went into the Issue Log the same morning with an owner and a target date. The treasury feed timing was corrected in four days and the two positions were re-tested and closed on 3 May 2028 — inside the acceptance window, outside the parallel run.",
+      "c": "new",
+      "meta": "closed 3 May 2028"
+     }
+    ]
+   },
+   {
+    "t": "Cutover weekend — 13 to 15 May 2028",
+    "s": [
+     {
+      "id": "c1",
+      "t": "Pick a weekend the calendar allows",
+      "d": "The weekend has to miss an EFSF bond rollover, because treasury cannot do both, and the Finance month-end close, because the accounts cannot be paused. On the 2028 disbursement calendar that left three weekends in May.",
+      "c": "esm",
+      "meta": "the calendar chooses, not the project"
+     },
+     {
+      "id": "c2",
+      "t": "Full backup, restore tested",
+      "d": "Saturday 13 May. Four hours forty minutes, proven rather than assumed — a backup nobody has ever restored is a hope, not a control.",
+      "c": "esm",
+      "meta": "Sat 13 May"
+     },
+     {
+      "id": "c3",
+      "t": "Written approval to deploy",
+      "d": "Sunday 14 May. The Project Owner signs. Provisional acceptance had already been given on 5 May, before the transition rather than after it.",
+      "c": "esm",
+      "meta": "Sun 14 May"
+     },
+     {
+      "id": "c4",
+      "t": "Re-issue every production right from nothing",
+      "d": "Access is rebuilt rather than copied across. Every Levallois account closes the same weekend, including the departed architect's, and support staff are re-admitted on the Monday morning under the new rules.",
+      "c": "new",
+      "meta": "security signed off 6 May"
+     },
+     {
+      "id": "c5",
+      "t": "First live instruction",
+      "d": "Monday 15 May at 06:10 the first disbursement instruction goes into the platform, and at 06:14 it is out the other side. Ownership transfers from the Solution Provider to the Project Owner the same day.",
+      "c": "new",
+      "meta": "Mon 15 May, 06:10"
+     }
+    ]
+   },
+   {
+    "t": "After — the old system winds down",
+    "s": [
+     {
+      "id": "a1",
+      "t": "LOS read-only",
+      "d": "From 16 May 2028 nothing can be entered in the old system; it can only be read. Fourteen years of records are still there and still answerable while anybody needs them.",
+      "c": "warn",
+      "meta": "16 May 2028"
+     },
+     {
+      "id": "a2",
+      "t": "LOS kept warm",
+      "d": "Until 30 June 2028 the Project Owner can order a rollback, and only before the 06:00 value-date cut-off on the morning she orders it. Nobody used it, and zero value dates were missed.",
+      "c": "warn",
+      "meta": "to 30 Jun 2028"
+     },
+     {
+      "id": "a3",
+      "t": "Decommissioning",
+      "d": "LOS switched off on 30 June 2028: accounts closed, interfaces withdrawn, the two contractor accounts already revoked at cutover. The loan records keep their own retention clock, which now belongs to Lending Operations.",
+      "c": "esm",
+      "meta": "30 Jun 2028"
+     },
+     {
+      "id": "a4",
+      "t": "Parallel-run data deleted",
+      "d": "The parallel-run datasets held real counterparty and staff data. Deleted on 26 July 2028 with a certificate in the closing folder, and the record of processing activities updated to say the processing has ended.",
+      "c": "data",
+      "meta": "administrative closure, 28 Jul"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   [
+    "Why a parallel run exists",
+    "It is the only honest proof that the new system is right. Testing shows the platform does what the specification said; running both systems on the same real work for four months shows whether the specification itself was right. It cost 360 person-days and €1.05 million, and there is no substitute for it."
+   ],
+   [
+    "Why LOS wins when the two disagree",
+    "During the parallel run the old system remains the system of record. That rule has to be agreed in advance and written down, or every disagreement turns into an argument about which answer people prefer on the morning of a value date."
+   ],
+   [
+    "Why the cutover date is not a project decision",
+    "In a financial institution the payment calendar chooses the weekend. It must avoid a bond rollover, because the treasury team cannot do both at once, and the month-end close, because the accounts cannot be paused. Only three weekends in May 2028 satisfied both, and the project took one of them."
+   ],
+   [
+    "Why the old system is kept warm and then killed",
+    "A rollback is only real if the old system can still run, so LOS stayed warm until 30 June. But a rollback that stays available forever is one nobody ever takes, and two systems nobody fully owns. Decommissioning is a dated act with a cost, and it belongs in the Business Case rather than in somebody's good intentions."
+   ]
+  ],
+  "scenes": [
+   "s23",
+   "s44",
+   "s45",
+   "s51"
+  ],
+  "hi": {
+   "s23": "c1",
+   "s44": "p4",
+   "s45": "c5",
+   "s51": "a4"
+  }
+ }
+]

@@ -1,0 +1,436 @@
+{
+ "n": 15,
+ "id": "quality-management-plan",
+ "name": "Quality Management Plan",
+ "family": "Management Plan",
+ "one_liner": "How quality is planned, assured, controlled and improved — and where configuration management is written down.",
+ "purpose": "The Quality Management Plan defines and documents the project's quality requirements, the quality management approach, process and responsibilities, and outlines the quality assurance and control activities undertaken throughout the project. It requires the balance between planned quality, cost, time and risk to be evaluated deliberately, and appropriate metrics to be defined for evaluating project management quality. The project's configuration management procedure is also documented here, so that correct versions are delivered, unauthorised changes are prevented and artefacts stay traceable.",
+ "guide_page": 93,
+ "rasci": {
+  "A": "PSC",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "A",
+   "PO": "C",
+   "BM": "C",
+   "BIG": "C",
+   "SP": "C",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Steering Committee (PSC)",
+ "inputs": [
+  "Project Charter",
+  "Project Handbook",
+  "Project Work Plan",
+  "Pre-existing organisational quality process (if any)"
+ ],
+ "feeds": [
+  "Quality Review Checklist",
+  "Phase-exit Review Checklist",
+  "Quality Review Report",
+  "Audit Reports",
+  "Project Work Plan (QA/QC activities scheduled in it)",
+  "Project Acceptance Note"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Not yet written; Charter supplies quality and success criteria"
+  },
+  {
+   "phase": "Planning",
+   "what": "Drafted by PM, presented to PSC for approval before RfE"
+  },
+  {
+   "phase": "Executing",
+   "what": "QA activities executed; evidence collected as quality records"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Drives quality reviews; refined when findings recur"
+  },
+  {
+   "phase": "Closing",
+   "what": "Supports final acceptance and archiving of quality records"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Settings: Document Title · Project Title · Document Author · PO · PM · Version · Sensitivity · Date",
+    "Document Approver(s) and Reviewer(s): Name · Role · Approve/Review · Date",
+    "Document history: Revision · Date · Created by · Short Description of Changes",
+    "Configuration Management: Document Location",
+    "Notes for Templates (orange = fill in, blue = guidance, green = customisable)"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Why a standalone plan (complex or risky projects) rather than a Handbook section",
+    "Outline the quality strategy, approach and process",
+    "Identify quality roles and responsibilities",
+    "Identify the major artefacts and deliverables",
+    "Define and plan QA and QC activities across the project",
+    "Agree quality requirements, metrics and evaluation method",
+    "Specify methodology, standards, tools and techniques"
+   ]
+  },
+  {
+   "sec": "2. Quality Management Objectives",
+   "items": [
+    "Quality characteristics defined, agreed and achieved",
+    "Quality assurance activities performed as planned",
+    "Compliance with organisational, governmental and industry rules",
+    "Non-conformities and improvement opportunities identified and implemented",
+    "Deliverables accepted against defined quality/acceptance criteria"
+   ]
+  },
+  {
+   "sec": "3. Quality Management Process",
+   "items": [
+    "Step 1: Define (Project) Quality Characteristics",
+    "Step 2: Perform Quality Assurance",
+    "Step 3: Perform Quality Control",
+    "Step 4: Perform Deliverables Acceptance",
+    "Step 5: Perform Final (Project) Acceptance",
+    "3.1 Quality Management Roles and Responsibilities — RASCI table + contact details reference"
+   ]
+  },
+  {
+   "sec": "4. Tools and Techniques",
+   "items": [
+    "Techniques: audits · walkthroughs · benchmarking · questionnaires",
+    "Techniques: peer reviews · acceptance testing · Project Review Meetings",
+    "Tools: Quality Management Plan · Deliverables Acceptance Plan",
+    "Tools: Quality Review Checklist · Deliverables Acceptance Checklist · Phase-exit Review Checklist",
+    "Tools: Quality Review Report · Project-End Report",
+    "Tools: Deliverables Acceptance Note · Project Acceptance Note"
+   ]
+  },
+  {
+   "sec": "5. Quality Assurance Activities",
+   "items": [
+    "Compliance verification with policies, rules and legislation",
+    "Artefact reviews and approvals before finalisation",
+    "Timesheets set-up and timesheets reviewed · monthly activities reports",
+    "Status, Review and Project Steering Committee meetings",
+    "Milestone reviews · phase-exit reviews · project acceptance review",
+    "Project and process audits · audits of contractors' quality activities",
+    "Deliverables acceptance testing · stakeholders' satisfaction questionnaires",
+    "Security certification & accreditation audits"
+   ]
+  },
+  {
+   "sec": "6. Metrics",
+   "items": [
+    "Criterion Name · Frequency · Tolerance (one row per criterion)",
+    "Artefacts review per project phase · Once · no tolerance",
+    "Monthly timesheets reviewed and approved · Monthly · no tolerance",
+    "Status reports distributed · Monthly · one month",
+    "PSC meetings performed · Monthly · one month",
+    "Milestone and phase-exit reviews executed · per milestone/phase-exit · no tolerance",
+    "Audits and satisfaction questionnaires · yearly or once · no tolerance"
+   ]
+  },
+  {
+   "sec": "7. Quality Control",
+   "items": [
+    "7.1 Quality Reviews — frequency, Quality Review Checklist, Quality Review Report, Issue Log",
+    "7.2 Deliverables Reviews — frequency, Deliverables Acceptance Plan and Checklist",
+    "7.3 Other Quality Control Activities",
+    "Effectiveness of the previous cycle's actions re-assessed each time"
+   ]
+  },
+  {
+   "sec": "8. Quality Records",
+   "items": [
+    "Evidence that quality activities were performed",
+    "Archived in the project repository under the 'Monitor & Control' folder",
+    "Successive artefact versions serve as evidence"
+   ]
+  },
+  {
+   "sec": "9. Configuration Management",
+   "items": [
+    "Definition of project configuration items (CIs), attributes and status codes",
+    "File and email naming conventions",
+    "Versioning and tracking of project documents",
+    "Control of the release of artefacts and deliverables and changes to them",
+    "Periodic reviews of CI records against actual status (configuration registry)",
+    "Storage and archiving, including folder structure (01 Initiating … 05 Closing)",
+    "Security of CIs: access, copies/backups, fall-back procedures, retention and sanitisation"
+   ]
+  },
+  {
+   "sec": "10. Related PM² Plans",
+   "items": [
+    "Project Handbook",
+    "Communications Management Plan",
+    "Deliverables Acceptance Plan",
+    "Issue Management Plan"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID · Reference or Related Document · Source or Link/Location",
+    "Handbook, Issue Management Plan, Communications Management Plan, Deliverables Acceptance Plan",
+    "Quality Review, Phase-exit Review and Deliverables Acceptance Checklists",
+    "Deliverables Acceptance Note · Project Acceptance Note",
+    "Project folder · configuration registry location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Document Approver(s) and Reviewer(s)",
+   "what": "All approvers are required and a record of each must be kept; all listed reviewers are required unless explicitly marked Optional.",
+   "who": "PM lists · PSC approves · PQA and BM review",
+   "castor": "Approve: PSC (chaired by Florence Nightingale, PO). Review: Grace Hopper (BM), W. Edwards Deming (PQA)."
+  },
+  {
+   "f": "Document history",
+   "what": "Changes summarised in reverse chronological order; the author may make editorial, formatting, spelling and clarification changes without re-approval.",
+   "who": "PM maintains",
+   "castor": "v0.1 12 May 2026 draft · v0.9 15 Jun 2026 PQA review · v1.0 26 Jun 2026 PSC-approved."
+  },
+  {
+   "f": "Configuration Management: Document Location",
+   "what": "Where the latest version of this controlled document is stored — the single reliable reference for the plan itself.",
+   "who": "PM sets · PSO/DMO maintains repository",
+   "castor": "CASTOR project repository, 02 Planning folder; registry entry maintained by Johannes Gutenberg (DMO)."
+  },
+  {
+   "f": "1. Introduction — objectives of the document",
+   "what": "States why a standalone plan is used: strategy and process, roles, major artefacts and deliverables, planned QA/QC, agreed metrics, and the standards and tools applied.",
+   "who": "PM drafts",
+   "castor": "Standalone plan justified: €8.4 m, 26 months, two open Internal Audit findings on LOS to close."
+  },
+  {
+   "f": "2. Quality Management Objectives",
+   "what": "The project's quality goals: characteristics agreed and achieved, QA performed as planned, compliance assured, non-conformities implemented, deliverables accepted on criteria.",
+   "who": "PM drafts · BM validates",
+   "castor": "SC5 — close both open internal-audit findings on LOS (baseline 2, target 0) before final acceptance."
+  },
+  {
+   "f": "3. Quality Management Process — five steps",
+   "what": "Define quality characteristics; perform quality assurance; perform quality control; perform deliverables acceptance; perform final acceptance. Tailor or delete steps not applicable.",
+   "who": "PM tailors · PSC approves",
+   "castor": "All five steps kept; deliverables acceptance detailed in the separate CASTOR Deliverables Acceptance Plan."
+  },
+  {
+   "f": "Step 1: Define Quality Characteristics",
+   "what": "Identify objectives, approach, requirements, activities and responsibilities from Business Case, Charter, Handbook and Work Plan; balance cost/time/risk against quality by cost-benefit analysis.",
+   "who": "PM decides the balance · stakeholders consulted",
+   "castor": "Quality characteristics derived from SC1–SC5; MoSCoW prioritisation applied to the platform's quality requirements."
+  },
+  {
+   "f": "Step 2: Perform Quality Assurance",
+   "what": "Verify performance and compliance of project activities against defined requirements: control design, implementation and operational effectiveness, plus regulatory compliance. Usually not done by the PM.",
+   "who": "Internally PQA and PCT/BM/SP · externally outsourced auditors",
+   "castor": "W. Edwards Deming (PQA) reviews artefacts independently; annual audit of Levallois Systems' own quality activities."
+  },
+  {
+   "f": "Step 3: Perform Quality Control",
+   "what": "Monitor and consolidate QA results, assess compliance and performance, recommend changes, refine QA activities. Performed throughout the project by the Project Manager.",
+   "who": "PM performs · SP supervises (Manage Quality: SP=A)",
+   "castor": "PM runs the Quality Review Checklist per milestone; findings feed the Quality Review Report and Issue Log."
+  },
+  {
+   "f": "Step 4: Perform Deliverables Acceptance",
+   "what": "Obtain formal PO approval per deliverable against Deliverables Acceptance Plan criteria, recorded in a Deliverables Acceptance Note; conditional acceptance allowed if known issues are documented and planned.",
+   "who": "PO accepts · PM and BM schedule the activities",
+   "castor": "Marie Curie (UR) refuses the reconciliation report in parallel run; partial acceptance granted with a documented defect plan."
+  },
+  {
+   "f": "Step 5: Perform Final (Project) Acceptance",
+   "what": "Final acceptance from the PO via a formal Project Acceptance Note, plus administrative closure: archiving, releasing resources, Project-End Report and lessons learned.",
+   "who": "PO signs · PM reports · PSO supports archiving",
+   "castor": "Project-End Review Meeting 12 Jul 2028; administrative closure complete 28 Jul 2028 with Henry Gantt (PSO)."
+  },
+  {
+   "f": "3.1 Quality Management Roles and Responsibilities (RASCI)",
+   "what": "RASCI table for quality artefacts and activities; contact details are kept in the Project Stakeholder Matrix, not duplicated here.",
+   "who": "PM drafts · PSC agrees the quality approach and criteria",
+   "castor": "Quality Management Plan row: PSC=A, PM=R; Perform Quality Control: SP=A, PM=R — Leonardo da Vinci supervises."
+  },
+  {
+   "f": "4. Tools and Techniques",
+   "what": "Techniques used for quality management (audits, walkthroughs, benchmarking, questionnaires, peer reviews, acceptance testing, review meetings) and the PM² tools/templates applied.",
+   "who": "PM selects · PCT applies",
+   "castor": "Peer reviews of Nikola Tesla's architecture artefacts; acceptance testing driven by Ada Lovelace's requirements traceability."
+  },
+  {
+   "f": "5. Quality Assurance Activities",
+   "what": "The concrete QA activity list — compliance verification, artefact reviews, timesheet set-up and review, monthly reports, meetings, milestone and phase-exit reviews, audits, questionnaires.",
+   "who": "PM accountable and schedules · PQA/PCT/external auditors perform",
+   "castor": "Phase-exit review before the RfE gate of 03 Jul 2026; contractor audits start after award on 18 Sep 2026."
+  },
+  {
+   "f": "6. Metrics — Criterion / Frequency / Tolerance",
+   "what": "Quality criteria for project management artefacts, each with a collection frequency and an acceptance tolerance. Deliverable test criteria live in domain documents instead.",
+   "who": "PM designs · BM reviews and validates the metrics",
+   "castor": "PSC meetings monthly, tolerance one month; artefact review once per phase, no tolerance."
+  },
+  {
+   "f": "7.1 Quality Reviews",
+   "what": "Frequency of project quality reviews verifying that Handbook plans and processes exist and are executed; the Quality Review Checklist assesses compliance across ten domains.",
+   "who": "PM performs · PQA reviews · PO approves resulting actions",
+   "castor": "Quality review at each release milestone; first full review at Release 1, 26 Mar 2027, by W. Edwards Deming."
+  },
+  {
+   "f": "7.2 Deliverables Reviews",
+   "what": "Frequency of client-side deliverable reviews, based on the Deliverables Acceptance Plan and Deliverables Acceptance Checklist; findings consolidated in the Quality Review Report.",
+   "who": "BM and URs review · PM consolidates",
+   "castor": "Reviews per release; parallel run 08 Jan – 30 Apr 2028 reviewed weekly with Marie Curie."
+  },
+  {
+   "f": "7.3 Other Quality Control Activities",
+   "what": "Free section for any further control activities in scope of the project that the standard reviews do not cover.",
+   "who": "PM defines",
+   "castor": "Straight-through processing reconciliation checks run daily against LOS during the parallel run."
+  },
+  {
+   "f": "8. Quality Records",
+   "what": "Evidence that quality activities were performed, archived in the project repository under the Monitor & Control folder; successive artefact versions are themselves evidence.",
+   "who": "PM archives · PSO and DMO support",
+   "castor": "Signed review checklists and audit reports filed in 04 Monitor & Control of the CASTOR repository."
+  },
+  {
+   "f": "9. Configuration Management — coverage",
+   "what": "Defines CIs and their attributes and status codes, baselines, who may authorise changes, and the maintenance and control of the project repository.",
+   "who": "PM defines · PO and SP agree scope · DMO implements",
+   "castor": "CIs: Handbook, Work Plan, Charter, interface specifications, Levallois contract deliverables, release packages."
+  },
+  {
+   "f": "Configuration registry fields",
+   "what": "Project identifier, item identifier, description, status, date of last status change, version, type, attributes, owner, location, relationships, and change history.",
+   "who": "PM maintains · PSO operates the registry",
+   "castor": "PM² provides no registry template; CASTOR uses a spreadsheet registry maintained by Henry Gantt (PSO)."
+  },
+  {
+   "f": "PM² file naming convention",
+   "what": "(XX).(DocumentName).(ProjectName).(dd-mm-yyyy).v(x.x) — XX is the unique PM² artefact number; a 0.x version means not yet approved.",
+   "who": "PM applies to every artefact",
+   "castor": "15.Quality_Management_Plan.CASTOR.26-06-2026.v1.0.docx — v1.0 because the PSC approved it."
+  },
+  {
+   "f": "Project email subject tag",
+   "what": "(ProjectName), (Topic), (type of communication — for approval / information / review / action), (free text if needed).",
+   "who": "Everyone on the project",
+   "castor": "[CASTOR][Quality Management Plan][for Approval] — PSC pack of 26 Jun 2026."
+  },
+  {
+   "f": "Document creation requirements",
+   "what": "Every project document carries title, document type, version number, issue date, document control information (approvers, reviewers, history, location) and a confidentiality classification.",
+   "who": "PM ensures on creation",
+   "castor": "CASTOR artefacts classified with ESM sensitivity marking; classification checked by Alan Turing (LISO)."
+  },
+  {
+   "f": "Versioning and release of artefacts and deliverables",
+   "what": "Names the tools used to manage versions and releases; the location of the latest versions is held in the configuration registry, not in this plan.",
+   "who": "PM defines · SP tools for deliverables",
+   "castor": "Platform releases versioned in the Levallois build pipeline; artefact versions in the ESM repository."
+  },
+  {
+   "f": "Storage and archiving — folder structure",
+   "what": "Project management artefacts structured per PM² phase: 01 Initiating, 02 Planning, 03 Executing, 04 Monitor & Control, 05 Closing; organisational records policy prevails if one exists.",
+   "who": "PM structures · DMO owns records management",
+   "castor": "Five-folder PM² structure adopted; Johannes Gutenberg (DMO) confirmed it satisfies ESM records management rules."
+  },
+  {
+   "f": "Security, retention and sanitisation of CIs",
+   "what": "PO and SP agree access to project files, copies of data, archive location, storage devices, retention periods and sanitisation of data when no longer needed.",
+   "who": "PO and SP agree · LISO and DPC advise",
+   "castor": "Florence Nightingale and Leonardo da Vinci agree retention and sanitisation; Louis Brandeis (DPC) reviews personal-data handling."
+  },
+  {
+   "f": "10. Related PM² Plans",
+   "what": "Cross-references, without duplicating them, the Project Handbook, Communications Management Plan, Deliverables Acceptance Plan and Issue Management Plan; locations sit in Appendix 1.",
+   "who": "PM cross-references",
+   "castor": "Quality Review Report distribution follows the CASTOR Communications Management Plan; findings logged as issues."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "ID, reference or related document, and source or link/location for every artefact this plan depends on, including the project folder and configuration registry.",
+   "who": "PM compiles",
+   "castor": "Lists 04 Project Handbook, 08 Deliverables Acceptance Plan, 28 Quality Review Checklist and the CASTOR configuration registry."
+  }
+ ],
+ "traps": [
+  "QA proves the process is being followed; QC checks results and raises change requests.",
+  "Quality Management Plan is approved by the PSC (A) — most other management plans are the PO's.",
+  "Manage Quality has SP=A, PM=R; Quality Assurance (p.58) has PM=A, PCT=R.",
+  "Configuration management lives inside the Quality Management Plan — it is not a separate PM² plan.",
+  "PM² gives no configuration registry template; you build it yourself."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — 15.Quality_Management_Plan.CASTOR.26-06-2026.v1.0 (approved by the PSC, RfE gate 03 Jul 2026)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Approver / Reviewers",
+    "PSC, chaired by Florence Nightingale (PO) · reviewed by Grace Hopper (BM) and W. Edwards Deming (PQA)"
+   ],
+   [
+    "Quality objectives",
+    "SC1 disbursement 5→1 working day · SC2 reconciliation 3 days→same day · SC5 open audit findings 2→0"
+   ],
+   [
+    "Project Quality Assurance",
+    "W. Edwards Deming, independent of the PM, reports to the PSC"
+   ],
+   [
+    "QA activities",
+    "Artefact reviews · monthly timesheet review · monthly PSC · milestone and phase-exit reviews · annual audit of Levallois Systems"
+   ],
+   [
+    "QC activities",
+    "Quality Review Checklist per milestone; findings consolidated in the Quality Review Report and registered in the Issue Log"
+   ],
+   [
+    "Metrics",
+    "PSC meetings monthly (tolerance one month) · artefacts reviewed once per phase (no tolerance)"
+   ],
+   [
+    "Configuration items",
+    "Project Charter · Project Handbook · Project Work Plan · interface specifications · Levallois contract deliverables · release packages"
+   ],
+   [
+    "Naming convention",
+    "(XX).(DocumentName).CASTOR.(dd-mm-yyyy).v(x.x) — e.g. 15.Quality_Management_Plan.CASTOR.26-06-2026.v1.0.docx"
+   ],
+   [
+    "Email tag",
+    "[CASTOR][Topic][for Approval / for Review / for Information / for Action]"
+   ],
+   [
+    "Folder structure",
+    "01 Initiating · 02 Planning · 03 Executing · 04 Monitor & Control · 05 Closing"
+   ],
+   [
+    "Configuration registry",
+    "Spreadsheet registry (no PM² template) maintained by Henry Gantt (PSO); reviewed at each milestone"
+   ],
+   [
+    "Retention & sanitisation",
+    "Agreed by Florence Nightingale (PO) and Leonardo da Vinci (SP); implemented by Johannes Gutenberg (DMO), reviewed by Louis Brandeis (DPC)"
+   ],
+   [
+    "Quality records",
+    "Filed in 04 Monitor & Control; successive artefact versions are the evidence"
+   ]
+  ]
+ }
+}

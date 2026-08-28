@@ -1,0 +1,437 @@
+{
+ "n": 16,
+ "id": "communications-management-plan",
+ "name": "Communications Management Plan",
+ "family": "Management Plan",
+ "one_liner": "Who gets told what, by whom, how often and in what form — meeting by meeting, report by report.",
+ "purpose": "The Communications Management Plan helps to ensure that all project stakeholders have the information they need to perform their roles throughout the project. It defines and documents communication activities, their goals, content, format, frequency and audience. It also defines how project status and the assignment of activities are communicated, and includes a communication strategy for each key stakeholder based on their interests, expectations and influence in the project.",
+ "guide_page": 95,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "S",
+   "BIG": "C",
+   "SP": "I",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Owner (PO)",
+ "inputs": [
+  "Project Charter",
+  "Project Handbook",
+  "Project Stakeholder Matrix",
+  "Project Work Plan"
+ ],
+ "feeds": [
+  "Meeting Agenda",
+  "Minutes of Meeting",
+  "Project Status Report",
+  "Project Progress Report",
+  "Quality Review Report",
+  "Project-End Report",
+  "Information Distribution activity"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Not yet written; Charter names the first stakeholders"
+  },
+  {
+   "phase": "Planning",
+   "what": "Drafted from the Stakeholder Matrix; approved by the PO"
+  },
+  {
+   "phase": "Executing",
+   "what": "Presented at the Executing Kick-off; meetings and reports run from it"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Governs report distribution and escalation communications"
+  },
+  {
+   "phase": "Closing",
+   "what": "Sets the Project-End Review audience and report distribution"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Settings: Document Title · Project Title · Document Author · PO · PM · Version · Sensitivity · Date",
+    "Document Approver(s) and Reviewer(s): Name · Role · Approve/Review · Date",
+    "Document history: Revision · Date · Created by · Short Description of Changes",
+    "Configuration Management: Document Location",
+    "Notes for Templates (orange = fill in, blue = guidance, green = customisable)"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Why communication planning matters to project success",
+    "Content, format, frequency, audience and expected results",
+    "Communication strategy per stakeholder — interests, expectations, influence"
+   ]
+  },
+  {
+   "sec": "2. Communications Objectives",
+   "items": [
+    "Adequate — right format and right content",
+    "Specific — for the targeted audience",
+    "Sufficient — all necessary information",
+    "Concise — brief, no repetition",
+    "Timely — at the right moment",
+    "Expectation management: progress, quality reporting, activity assignment"
+   ]
+  },
+  {
+   "sec": "2.1 Inputs / 2.2 Media",
+   "items": [
+    "Inputs: Project Stakeholder Matrix (main), Project Charter, Project Handbook and related plans, Project Work Plan",
+    "Media: emails · documents · phone calls · meetings",
+    "Supported by: Minutes of Meeting · Project Status Report · Project Progress Report",
+    "Supported by: Quality Review Report · Contractor Status Report · Custom/Ad-Hoc Reports",
+    "Supported by: Project Work Plan updates · Project Logs · project repository"
+   ]
+  },
+  {
+   "sec": "3. Project Meetings",
+   "items": [
+    "Planning Kick-off Meeting",
+    "Executing Kick-off Meeting",
+    "Project Status Meeting",
+    "Project Core Team (PCT) Meeting",
+    "Project Review Meeting",
+    "Project Steering Committee (PSC) Meeting",
+    "Change Control Meeting",
+    "Project-End Review Meeting"
+   ]
+  },
+  {
+   "sec": "3.* Meeting block — ten rows repeated for every meeting",
+   "items": [
+    "MEETING (name)",
+    "Purpose",
+    "Location",
+    "Frequency",
+    "Chairperson",
+    "Minutes by",
+    "Attendees",
+    "Agenda Items · Distribution list · Media"
+   ]
+  },
+  {
+   "sec": "4. Project Reports",
+   "items": [
+    "Project Status Report",
+    "Project Progress Report",
+    "Quality Review Report",
+    "Outsourcing (Contractor) Status Report",
+    "Project-End Report"
+   ]
+  },
+  {
+   "sec": "4.* Report block — seven rows repeated for every report",
+   "items": [
+    "REPORT (name)",
+    "Purpose",
+    "Frequency",
+    "Author",
+    "Distributed to",
+    "Media",
+    "Reference to (link to the document)"
+   ]
+  },
+  {
+   "sec": "5. Other Communications",
+   "items": [
+    "Name of the communication",
+    "Description",
+    "Audience",
+    "Frequency",
+    "Media — one block per other regular communication item"
+   ]
+  },
+  {
+   "sec": "6. Summary Table",
+   "items": [
+    "Item Name",
+    "Audience (summary)",
+    "Responsible person",
+    "Frequency",
+    "Media of Communication — one row per meeting and per report"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID · Reference or Related Document · Source or Link/Location",
+    "Project Handbook",
+    "Project folder location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Document Approver(s) and Reviewer(s)",
+   "what": "All approvers are required and records of each must be kept; listed reviewers are required unless explicitly marked Optional.",
+   "who": "PM drafts · PO approves · BM supports",
+   "castor": "Approve: Florence Nightingale (PO). Review: Grace Hopper (BM), Henry Gantt (PSO)."
+  },
+  {
+   "f": "Document history",
+   "what": "Revision, date, created by and short description of changes, latest version first; editorial and clarification edits need no re-approval.",
+   "who": "PM maintains",
+   "castor": "v0.4 20 May 2026 stakeholder review · v1.0 26 Jun 2026 approved with the Handbook baseline."
+  },
+  {
+   "f": "Configuration Management: Document Location",
+   "what": "Where the latest controlled version of this plan is stored, so every stakeholder reads the same version.",
+   "who": "PM sets",
+   "castor": "CASTOR repository, 02 Planning; filed as 16.Communications_Management_Plan.CASTOR.26-06-2026.v1.0.docx."
+  },
+  {
+   "f": "1. Introduction",
+   "what": "States that the plan determines how to communicate most efficiently to the various stakeholders, defining content, format, frequency, audience and expected results.",
+   "who": "PM drafts",
+   "castor": "Covers ESM internal audiences plus Levallois Systems as contractor; no external/press communication in scope."
+  },
+  {
+   "f": "Communication strategy per stakeholder",
+   "what": "For each key stakeholder, the strategy based on their interests, expectations and influence — what they need, why, and what result is expected.",
+   "who": "PM defines from the Stakeholder Matrix · BM assists",
+   "castor": "Lorenzo de' Medici (AGB) receives portfolio-level Progress Reports only; Marie Curie (UR) gets hands-on release walkthroughs."
+  },
+  {
+   "f": "2. Communications Objectives",
+   "what": "Communication must be adequate, specific, sufficient, concise and timely, and must manage expectations on progress, quality reporting and activity assignment.",
+   "who": "PM drafts · PO approves",
+   "castor": "One-page Status Report monthly; Florence Nightingale explicitly asked for business impact, not technical detail."
+  },
+  {
+   "f": "2.1 Inputs",
+   "what": "The Stakeholder Matrix is the major input for identifying stakeholder groups; Project Charter, Project Handbook with related plans, and Project Work Plan supply the content.",
+   "who": "PM assembles",
+   "castor": "CASTOR Stakeholder Matrix groups: Lending Operations, Finance & Control, Risk, Legal, IT & Digital, Levallois."
+  },
+  {
+   "f": "2.2 Media",
+   "what": "The media used — emails, documents, phone calls, meetings — and the artefacts that carry or support them, such as MoMs, reports, logs and the repository.",
+   "who": "PM selects · PSO supports tooling",
+   "castor": "Meetings at ESM Kirchberg with video for Levallois; artefacts in MS-Word in the project repository."
+  },
+  {
+   "f": "Meeting block — Purpose",
+   "what": "Why the meeting exists and what must be true after it; for the Planning Kick-off, scope, governance, roles and risks must all be clear.",
+   "who": "PM writes · attendees agree",
+   "castor": "Planning Kick-off, 09 Apr 2026: agree CASTOR scope, governance and first risk set before planning starts."
+  },
+  {
+   "f": "Meeting block — Location",
+   "what": "Where the meeting is held; often 'defined by the Project Manager in time' for kick-offs, or by the Project Owner for PSC meetings.",
+   "who": "Chairperson decides",
+   "castor": "ESM, Luxembourg City (Kirchberg), with video for Gustave Eiffel and remote Levallois staff."
+  },
+  {
+   "f": "Meeting block — Frequency",
+   "what": "How often: once per project for kick-offs, monthly for the PSC (or when a milestone needs approval), bi-annually or annually for Project Review Meetings.",
+   "who": "PM proposes · PO endorses",
+   "castor": "PSC monthly · Status Meeting weekly · PCT Meeting weekly · Change Control Meeting fortnightly."
+  },
+  {
+   "f": "Meeting block — Chairperson",
+   "what": "Who chairs. PM chairs kick-offs, Status, Review, Change Control and Project-End Review; the PO chairs the PSC; the Team Leader chairs the PCT Meeting.",
+   "who": "Set in the plan, not improvised",
+   "castor": "PSC chaired by Florence Nightingale (PO); all other CASTOR meetings chaired by the PM."
+  },
+  {
+   "f": "Meeting block — Minutes by",
+   "what": "Who takes the minutes: BM for the PSC Meeting, Project Support Officer for the Project Review Meeting, Team Leader for the PCT Meeting; others as the PM defines.",
+   "who": "Named in the plan before the meeting",
+   "castor": "PSC minutes by Grace Hopper (BM); Project Review minutes by Henry Gantt (PSO)."
+  },
+  {
+   "f": "Meeting block — Attendees",
+   "what": "The required and optional participants, by role. Kick-offs include PO, BM, SP, PM, PCT, BIG and URs; the PSC is PO, SP, BM, PM plus optional roles.",
+   "who": "PM invites · roles taken from the Stakeholder Matrix",
+   "castor": "PSC: Florence Nightingale, Leonardo da Vinci, Grace Hopper, PM, Marie Curie (UR), Albert Einstein (AO)."
+  },
+  {
+   "f": "Meeting block — Agenda Items",
+   "what": "The standing agenda for that meeting type, reused each time; the Meeting Agenda template turns it into a dated, timed agenda.",
+   "who": "Chairperson owns · PM issues in advance",
+   "castor": "PSC standing items: debriefing, problems and actions, scope/budget/finish-date status, formal approvals."
+  },
+  {
+   "f": "Meeting block — Distribution list",
+   "what": "Who receives the minutes — usually all invited participants; for PCT Meetings also the PM, who consolidates sub-project minutes.",
+   "who": "Minute-taker distributes",
+   "castor": "PSC minutes to all PSC members plus Lorenzo de' Medici (AGB) for information only."
+  },
+  {
+   "f": "Meeting block — Media",
+   "what": "What the meeting produces and in what form: MS-Word minutes by email, updated Decision Log, updated Change Log, Status or Progress Report.",
+   "who": "Minute-taker produces · PM ensures logs updated",
+   "castor": "PSC output: MoM in MS-Word by email plus a Decision Log update the same day."
+  },
+  {
+   "f": "4. Project Reports — Purpose",
+   "what": "What each report conveys. Status Report is a one-pager with traffic lights; the Progress Report is a fuller overview; the Quality Review Report covers quality findings.",
+   "who": "PM authors (contractor authors its own)",
+   "castor": "CASTOR Status Report traffic-lights cost, schedule, scope/changes, risks and issues on one page."
+  },
+  {
+   "f": "Report block — Frequency",
+   "what": "Status Report follows the Project Status Meeting; Progress Report follows the Project Review Meeting; Project-End Report is produced once in Closing.",
+   "who": "PM schedules",
+   "castor": "Status Report monthly; Progress Report bi-annually; Project-End Report once, ahead of 12 Jul 2028."
+  },
+  {
+   "f": "Report block — Author",
+   "what": "Who writes it. The PM authors all reports except the Outsourcing (Contractor) Status Report, written by the contractor's project manager.",
+   "who": "PM · contractor's PM for the outsourcing report",
+   "castor": "Contractor Status Report authored by Gustave Eiffel (Levallois CPM); summarised by the PM in the Status Report."
+  },
+  {
+   "f": "Report block — Distributed to / Media / Reference to",
+   "what": "The audience (often 'refer to the related meeting'), the format (Word document), and a link to the actual document instance.",
+   "who": "PM distributes",
+   "castor": "Quality Review Report to the PSC and W. Edwards Deming (PQA); Word document in 04 Monitor & Control."
+  },
+  {
+   "f": "5. Other Communications",
+   "what": "One block per other regular communication item: name, description, audience, frequency, media — for anything not a standard meeting or report.",
+   "who": "PM defines",
+   "castor": "Monthly CASTOR newsletter to the 40 loan administrators affected by the transition; owner Grace Hopper."
+  },
+  {
+   "f": "6. Summary Table",
+   "what": "One-page consolidation: Item Name, Audience (summary), Responsible person, Frequency, Media of Communication — one row per meeting and per report.",
+   "who": "PM compiles · everyone reads",
+   "castor": "Thirteen rows: eight CASTOR meetings, five reports; responsible person is the PM except the contractor report."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "ID, reference or related document, and source or link/location — title, version, date and source for each referenced artefact.",
+   "who": "PM compiles",
+   "castor": "References 04 Project Handbook, 05 Project Stakeholder Matrix and the CASTOR project folder."
+  }
+ ],
+ "traps": [
+  "Approved by the PO (A); the PSC is only Informed — unlike the Quality Management Plan.",
+  "BM is Supports (S) here, one of the few S cells in the Planning RASCI.",
+  "PSC Meeting is chaired by the PO and minuted by the BM — not the PM.",
+  "The Stakeholder Matrix is an input to this plan, not a section of it.",
+  "MoM items — issues, risks, decisions, changes — must also be recorded in the relevant logs."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — 16.Communications_Management_Plan.CASTOR.26-06-2026.v1.0, Summary Table (approved by Florence Nightingale, PO)",
+  "rows": [
+   [
+    "Item",
+    "Audience (summary)",
+    "Responsible",
+    "Frequency",
+    "Media"
+   ],
+   [
+    "Planning Kick-off Meeting",
+    "PO, BM, SP, PM, PCT, BIG, URs, PSO",
+    "PM",
+    "Once — held 09 Apr 2026",
+    "Meeting + MoM"
+   ],
+   [
+    "Executing Kick-off Meeting",
+    "PO, BM, PM, PCT, PSO",
+    "PM",
+    "Once — held 10 Jul 2026",
+    "Meeting + MoM"
+   ],
+   [
+    "Project Status Meeting",
+    "Florence Nightingale, Grace Hopper, PM, team leads",
+    "PM",
+    "Weekly, Tuesday",
+    "MoM + Project Status Report"
+   ],
+   [
+    "Project Core Team Meeting",
+    "Nikola Tesla, Ada Lovelace, dev/test leads, Levallois staff",
+    "Team Leader",
+    "Weekly, Thursday",
+    "MoM + updated Work Plan and Change Log"
+   ],
+   [
+    "Project Review Meeting",
+    "PSC members, team leads, Henry Gantt (PSO), W. Edwards Deming (PQA)",
+    "PM",
+    "Bi-annually",
+    "MoM + Project Progress Report"
+   ],
+   [
+    "Project Steering Committee Meeting",
+    "Florence Nightingale (chair), Leonardo da Vinci, Grace Hopper, PM, Marie Curie, Albert Einstein",
+    "Florence Nightingale (PO)",
+    "Monthly",
+    "MoM by Grace Hopper + Decision Log update"
+   ],
+   [
+    "Change Control Meeting",
+    "Grace Hopper, PM, Henry Gantt, W. Edwards Deming",
+    "PM",
+    "Fortnightly",
+    "MoM + Change Log update"
+   ],
+   [
+    "Project-End Review Meeting",
+    "PO, BM, SP, PM, URs, team leads, PCT",
+    "PM",
+    "Once — 12 Jul 2028",
+    "MoM + Project-End Report"
+   ],
+   [
+    "Project Status Report",
+    "As per Project Status Meeting",
+    "PM",
+    "Monthly",
+    "Word document, one page, traffic lights"
+   ],
+   [
+    "Project Progress Report",
+    "As per Project Review Meeting, plus Lorenzo de' Medici (AGB)",
+    "PM",
+    "Bi-annually",
+    "Word document"
+   ],
+   [
+    "Quality Review Report",
+    "PSC and W. Edwards Deming (PQA)",
+    "PM",
+    "Per milestone review",
+    "Word document"
+   ],
+   [
+    "Outsourcing (Contractor) Status Report",
+    "PM, then summarised into the Status Report",
+    "Gustave Eiffel (Levallois CPM)",
+    "Monthly from 18 Sep 2026",
+    "Word document"
+   ],
+   [
+    "Project-End Report",
+    "As per Project-End Review Meeting",
+    "PM",
+    "Once, in Closing",
+    "Word document"
+   ]
+  ]
+ }
+}

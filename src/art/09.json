@@ -1,0 +1,325 @@
+{
+ "n": 9,
+ "id": "transition-plan",
+ "name": "Transition Plan",
+ "family": "Planning",
+ "one_liner": "How the old state hands over to the new one, and when — the mechanics of go-live.",
+ "purpose": "The Transition Plan defines the goals, prerequisites, activities and responsibilities associated with transitioning from the old (pre-project) to the new (post-project) state. It seeks to minimise disruption to the business during the transition period and to make the roll-out of project outputs smooth and timely. A successful transition is a prerequisite for achieving the planned benefits; all transition activities become part of the Project Work Plan.",
+ "guide_page": 51,
+ "rasci": {
+  "A": "PSC",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "A",
+   "PO": "C",
+   "BM": "C",
+   "BIG": "C",
+   "SP": "C",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Steering Committee (PSC)",
+ "inputs": [
+  "Business Case",
+  "Project Charter",
+  "Project Work Plan",
+  "Project Change Management Plan",
+  "Business Implementation Plan"
+ ],
+ "feeds": [
+  "Project Work Plan",
+  "Transition Checklist",
+  "Manage Transition",
+  "Business Implementation Checklist",
+  "Project Reports",
+  "Project-End Report"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "PM prepares, PCT consulted, PSC accountable for approval"
+  },
+  {
+   "phase": "Executing",
+   "what": "Transition activities run as scheduled tasks in the Work Plan"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Manage Transition; PO provisionally accepts before transition completes"
+  },
+  {
+   "phase": "Closing",
+   "what": "Ownership transferred; sign-offs feed the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Document Approver(s) and Reviewer(s) — PM held responsible for content",
+    "Document History",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Identify and document the transition goals",
+    "Smooth move from 'project mode' to 'operations mode'",
+    "Identify prerequisites for rolling out deliverables",
+    "Prepare transfer of responsibility to the client's performing organisation"
+   ]
+  },
+  {
+   "sec": "2. Transition Goals and Activities",
+   "items": [
+    "2.1. Goals",
+    "2.2. Prerequisites",
+    "2.3. Timing and Milestones",
+    "2.4. Activities (Description · Effort · Start-End Dates · Resource · Comments)",
+    "2.5. Responsibilities",
+    "2.6. Coordination Aspects"
+   ]
+  },
+  {
+   "sec": "3. Communication",
+   "items": [
+    "Formal announcement of transition to production",
+    "Transition communication goals",
+    "Coordination with the Business Implementation Plan's goals",
+    "Consolidation in the Communications Management Plan / Project Handbook"
+   ]
+  },
+  {
+   "sec": "4. Specific Transition Activities",
+   "items": [
+    "4.1. Required Backups",
+    "4.2. Management of the Environment",
+    "4.3. Acceptance Clearance",
+    "4.4. Testing",
+    "4.5. System and Data Conversion",
+    "4.6. Training",
+    "4.7. Maintenance and Support"
+   ]
+  },
+  {
+   "sec": "5. Transfer of Responsibility",
+   "items": [
+    "From Project Core Team (PCT) to Project Owner (PO)",
+    "Handover to support staff",
+    "Scheduling and agreement of the transfer"
+   ]
+  },
+  {
+   "sec": "6. Rollback Scenario & Plan",
+   "items": [
+    "Fallback if transition fails",
+    "Guarantee of business continuity",
+    "Trigger and decision authority"
+   ]
+  },
+  {
+   "sec": "7. Transition Checklist",
+   "items": [
+    "Define or tailor a transition checklist for the project",
+    "Base it on goals, prerequisites and activity deliverables",
+    "Use the PM² checklist template or your own",
+    "Link to the checklist location"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID",
+    "Reference or Related Document",
+    "Source or Link/Location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1. Introduction",
+   "what": "States the plan's four objectives: document transition goals, ensure a smooth move from project mode to operations mode, identify roll-out prerequisites, prepare the transfer of responsibility.",
+   "who": "PM prepares · PSC approves",
+   "castor": "Move ESM from 14-year-old LOS to the new lending platform without interrupting disbursements."
+  },
+  {
+   "f": "2.1. Goals",
+   "what": "Identify the specific transition goals for this project.",
+   "who": "PM drafts · PO and BM consulted",
+   "castor": "Zero missed value dates during cutover; LOS decommissioned; disbursement cycle at 1 working day (SC1)."
+  },
+  {
+   "f": "2.2. Prerequisites",
+   "what": "Document what must be completed before transition can start, and define what must be achieved to consider the transition successfully completed.",
+   "who": "PM drafts · SP and BM consulted",
+   "castor": "Release 2 accepted (17 Dec 2027); parallel run clean for four weeks; 40 loan administrators trained."
+  },
+  {
+   "f": "2.3. Timing and Milestones",
+   "what": "Determine the transition timeline and milestones, estimate the length of the transition period and its overlap with other project development activities; develop a high-level schedule.",
+   "who": "PM drafts · PSC approves",
+   "castor": "Parallel run 08 Jan – 30 Apr 2028; cutover 15 May 2028; LOS read-only from 16 May 2028."
+  },
+  {
+   "f": "2.4. Activities — Activities Description · Estimated Effort · Start-End Dates · Resource · Other Comments",
+   "what": "Identify all transition activities; repeat tasks for each deliverable or release. Activities can be broken down further and scheduled in the Project Work Plan and controlled as project activities.",
+   "who": "PM drafts · PCT consulted",
+   "castor": "Final data conversion from LOS, 12 PD, 11–14 May 2028, Nikola Tesla (solution architect)."
+  },
+  {
+   "f": "2.5. Responsibilities",
+   "what": "Identify the roles and responsibilities of all resources involved in every aspect of the transition process.",
+   "who": "PM drafts · PSC approves",
+   "castor": "PM runs cutover; Leonardo da Vinci (SP) hands over; Florence Nightingale (PO) provisionally accepts."
+  },
+  {
+   "f": "2.6. Coordination Aspects",
+   "what": "Determine any coordination needs between teams or projects.",
+   "who": "PM drafts · BM and SP consulted",
+   "castor": "Cutover weekend must avoid EFSF bond rollovers and month-end reconciliation in Finance & Control."
+  },
+  {
+   "f": "3. Communication",
+   "what": "Ensure a formal announcement of the transition to production; identify transition communication goals and coordinate them with the Business Implementation Plan; consolidate items in the Communications Management Plan.",
+   "who": "PM drafts · BM aligns with BIP",
+   "castor": "Go-live announcement issued by the PO to all ESM staff on 12 May 2028; freeze notice on 08 May."
+  },
+  {
+   "f": "4.1. Required Backups",
+   "what": "Determine any data backups needed prior to starting or completing the transition.",
+   "who": "PM drafts · IT operations execute",
+   "castor": "Full LOS backup and restore test on 13 May 2028, retained for the seven-year audit period."
+  },
+  {
+   "f": "4.2. Management of the Environment",
+   "what": "Availability and access rights for the environments in which the project outputs will be released.",
+   "who": "PM drafts · SP provides",
+   "castor": "Production access rights re-issued by Alan Turing (LISO); contractor accounts removed at cutover."
+  },
+  {
+   "f": "4.3. Acceptance Clearance",
+   "what": "Refer to the Deliverables Acceptance Plan — the acceptance evidence that clears the deliverable for transition.",
+   "who": "PM refers · PO clears",
+   "castor": "Cutover conditional on the reconciliation report clearing its two provisionally accepted breaks."
+  },
+  {
+   "f": "4.4. Testing",
+   "what": "Define what needs to be prepared in the environment, including the necessary testing before transition.",
+   "who": "PM drafts · PQA controls",
+   "castor": "Dress-rehearsal cutover on the 22 Apr 2028 weekend, replaying one full disbursement day."
+  },
+  {
+   "f": "4.5. System and Data Conversion",
+   "what": "Analyse any system and data conversion impact.",
+   "who": "PM drafts · PCT executes · BIG validates",
+   "castor": "All live loan agreements and repayment schedules converted from LOS; BIG validates, PO approves."
+  },
+  {
+   "f": "4.6. Training",
+   "what": "Determine any training to be performed for the transition — here as a cutover prerequisite; the design and delivery of business training belongs to the Business Implementation Plan.",
+   "who": "PM verifies completion · BM owns delivery",
+   "castor": "Cutover gated on all 40 loan administrators having completed BIP-delivered training by 30 Apr 2028."
+  },
+  {
+   "f": "4.7. Maintenance and Support",
+   "what": "Ensure that maintenance and operational support are foreseen from the moment of transition.",
+   "who": "PM drafts · SP supplies · PO receives",
+   "castor": "IT & Digital Division assumes level-2 support from 15 May 2028; Levallois SLA runs 90 further days."
+  },
+  {
+   "f": "5. Transfer of Responsibility",
+   "what": "Define the transfer of responsibility for the project deliverables from the Project Core Team (PCT) to the Project Owner (PO) and support staff.",
+   "who": "PM schedules · SP hands over · PO accepts",
+   "castor": "Ownership of the platform passes from the PCT to Lending Operations and IT & Digital on 15 May 2028."
+  },
+  {
+   "f": "6. Rollback Scenario & Plan",
+   "what": "Ensure a rollback scenario exists if the transition fails for any reason, so business continuity can be guaranteed.",
+   "who": "PM drafts · SP prepares · PO decides",
+   "castor": "LOS kept warm until 30 Jun 2028; PO may order rollback before the 06:00 value-date cut-off."
+  },
+  {
+   "f": "7. Transition Checklist",
+   "what": "Define or tailor a transition checklist for the project, based on the goals, prerequisites and deliverables of the transition activities; PM²'s template may be customised.",
+   "who": "PM tailors and runs it",
+   "castor": "PM² Transition Checklist tailored with the IT Specific tab enabled; link in the CASTOR project folder."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Reference any relevant or additional documents by title, version, date and source or location.",
+   "who": "PM maintains",
+   "castor": "10.Business_Implementation_Plan.CASTOR.26-06-2026.V1.0.docx; 30.Transition_Checklist.CASTOR."
+  }
+ ],
+ "traps": [
+  "Transition Plan moves the system; Business Implementation Plan moves the organisation.",
+  "Training sits in both: the BIP designs and delivers it, the Transition Plan only gates cutover on it.",
+  "PSC is Accountable, not the PO — even though p.25 lists the PO among its approvers.",
+  "The plan does not schedule work: transition activities are scheduled in the Project Work Plan.",
+  "Transition Plan is an input to the Business Implementation Plan and vice versa — they are mutual inputs."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Transition Plan v1.0, 26 Jun 2026 (Project CASTOR)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Transition window",
+    "08 Jan – 30 Apr 2028 parallel run; cutover 15 May 2028"
+   ],
+   [
+    "Goal",
+    "Zero missed value dates at cutover; disbursement cycle down to 1 working day (SC1)"
+   ],
+   [
+    "Prerequisites",
+    "Release 2 accepted 17 Dec 2027 · four clean parallel-run weeks · 40 administrators trained"
+   ],
+   [
+    "Key activity",
+    "Final LOS data conversion, 12 PD, 11–14 May 2028, led by Nikola Tesla"
+   ],
+   [
+    "Coordination",
+    "Cutover weekend must avoid EFSF bond rollovers and Finance month-end close"
+   ],
+   [
+    "Backups",
+    "Full LOS backup and restore test 13 May 2028, retained seven years"
+   ],
+   [
+    "Data conversion",
+    "Live loan agreements and repayment schedules; BIG validates, PO approves"
+   ],
+   [
+    "Training (gate only)",
+    "All 40 loan administrators trained by 30 Apr 2028 — delivery owned by the BIP"
+   ],
+   [
+    "Transfer of responsibility",
+    "PCT hands the platform to Lending Operations and IT & Digital on 15 May 2028"
+   ],
+   [
+    "Maintenance and support",
+    "IT & Digital level-2 from 15 May 2028; Levallois SLA for 90 days after"
+   ],
+   [
+    "Rollback",
+    "LOS kept warm to 30 Jun 2028; PO may order rollback before the 06:00 value-date cut-off"
+   ],
+   [
+    "Communication",
+    "PO announces go-live to all staff 12 May 2028; change freeze from 08 May 2028"
+   ]
+  ]
+ }
+}

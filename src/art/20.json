@@ -1,0 +1,366 @@
+{
+ "n": 20,
+ "id": "project-status-report-evm",
+ "name": "Project Status Report (EVM)",
+ "family": "Report",
+ "one_liner": "The same one-page PSC dashboard, but with the project's performance expressed in Earned Value numbers.",
+ "purpose": "A variant of the Project Status Report that reports performance using Earned Value Management. Guide Appendix C.15 describes EVM as a technique to monitor and control project performance, giving an objective view based on project financials, with both cost and value measured in cost units such as person days or euro. It adds the current-state indicators — Planned, Actual work, Earned Value (Progress) and Remaining work — plus a three-curve chart.",
+ "guide_page": 104,
+ "rasci": null,
+ "created_in": "Executing Phase (Project Reporting, §7.4) — repeated every reporting cycle",
+ "approved_by": "Project Owner (PO) is Accountable for Project Reporting; the report is submitted to the Project Steering Committee (PSC)",
+ "inputs": [
+  "Baselined Project Work Plan (time-phased budget)",
+  "Actual effort/cost records",
+  "Project Logs (Risk, Issue, Change)",
+  "Communications Management Plan",
+  "Outputs of Monitor Project Performance"
+ ],
+ "feeds": [
+  "Project Progress Report",
+  "Control Cost and Control Schedule decisions",
+  "Project-End Report"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Time-phased baseline created; PV curve becomes measurable"
+  },
+  {
+   "phase": "Executing",
+   "what": "PV, EV, AC recomputed each reporting cycle"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "SPI/CPI drive Control Schedule and Control Cost"
+  },
+  {
+   "phase": "Closing",
+   "what": "Final variances quoted in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Cover",
+   "meta": true,
+   "items": [
+    "Organisation [Name] / Department [Name]",
+    "<Project Status Report EVM>",
+    "Date / Doc. Version"
+   ]
+  },
+  {
+   "sec": "Project identification band",
+   "items": [
+    "Overall Status: Green/Yellow/Red",
+    "Project Owner (PO): <Name>",
+    "Business Manager (BM): <Name>",
+    "Solution Provider (SP): <Name>",
+    "Project Manager (PM): <Name>",
+    "Project Progress (chart panel title)"
+   ]
+  },
+  {
+   "sec": "Project Indicators — Schedule",
+   "items": [
+    "Schedule: Green/Yellow/Red",
+    "Baselined delivery date: <xx/xx/xx>",
+    "Forecasted delivery date: <xx/xx/xx>",
+    "Variance: <+ xx months>"
+   ]
+  },
+  {
+   "sec": "Project Indicators — Cost",
+   "items": [
+    "Cost: Green/Yellow/Red",
+    "Baselined: <xx> workdays, <x.xxx,xx> €",
+    "Spent: <xx> workdays, <x.xxx,xx> €",
+    "Forecasted: <xx> workdays, <x.xxx,xx> €",
+    "Variance: <0% (Forecasted - Baselined)>"
+   ]
+  },
+  {
+   "sec": "Project Indicators (at current state)",
+   "items": [
+    "Status: Green/Yellow/Red",
+    "Planned: <xx> workdays  → PV",
+    "Actual work: <xx> workdays  → AC",
+    "Earned Value (Progress): <xx> workdays  → EV",
+    "Remaining work: <xx> workdays"
+   ]
+  },
+  {
+   "sec": "Milestones",
+   "items": [
+    "<xx/xx/xx> : <describe project milestone 1>",
+    "…up to six dated milestones"
+   ]
+  },
+  {
+   "sec": "Project Changes (input from Change Log)",
+   "items": [
+    "Status: Green/Yellow/Red",
+    "Severe: <x>",
+    "<id xx>, category <xx>, status <xx> (×3)"
+   ]
+  },
+  {
+   "sec": "Top Risks (input from Risk Log)",
+   "items": [
+    "Status: Green/Yellow/Red",
+    "Active: <x>",
+    "<id xx>, level <xx>, action <xx> (×3)"
+   ]
+  },
+  {
+   "sec": "Issues (input from Issue Log)",
+   "items": [
+    "Status: Green/Yellow/Red",
+    "Urgent: <x>",
+    "<id xx>, size <xx>, severity <xx> (×3)"
+   ]
+  },
+  {
+   "sec": "EVM chart legend",
+   "items": [
+    "Green curve: Planned effort (workdays) over weeks",
+    "Red curve: Current cost consumption (workdays)",
+    "Blue curve: Earned value (workdays)"
+   ]
+  },
+  {
+   "sec": "Activities Performed and Planned",
+   "items": [
+    "Performed: <action>, status <ongoing / complete / pending> (×3)",
+    "Planned: <next planned key project action> (×3)"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Overall Status: Green/Yellow/Red",
+   "what": "Single traffic light for the project. Note this template prints Yellow where template 19 prints Amber.",
+   "who": "PM proposes · PO owns the call",
+   "castor": "Yellow"
+  },
+  {
+   "f": "Project Owner (PO) / Business Manager (BM) / Solution Provider (SP) / Project Manager (PM)",
+   "what": "The four named Directing- and Managing-Layer roles. Unlike template 19 there is no Phase field.",
+   "who": "PM; from Project Charter",
+   "castor": "PO Florence Nightingale · BM Grace Hopper · SP Leonardo da Vinci · PM (ESM PSO)"
+  },
+  {
+   "f": "Project Progress (chart panel)",
+   "what": "Panel title for the EVM graph that occupies the top-right of the page.",
+   "who": "PM",
+   "castor": "Cumulative workdays plotted weekly, weeks 1–38 of Executing"
+  },
+  {
+   "f": "Schedule: Green/Yellow/Red + Baselined / Forecasted delivery date + Variance",
+   "what": "Calendar view of schedule: approved baseline date, current forecast date, and the gap in months.",
+   "who": "PM",
+   "castor": "Yellow — baselined 15/05/28, forecasted 15/06/28, variance +1 month"
+  },
+  {
+   "f": "Cost: Green/Yellow/Red + Baselined / Spent / Forecasted + Variance %",
+   "what": "Cost in workdays and euro against the baseline, with variance expressed as a percentage of forecast over baseline.",
+   "who": "PM with PSO/finance data",
+   "castor": "Yellow — baselined 3.100 wd / 8.400.000,00 €; spent 1.188 wd / 3.220.000,00 €; forecasted 3.444 wd / 9.333.000,00 €; variance +11,1%"
+  },
+  {
+   "f": "Project Indicators (at current state) — Status",
+   "what": "Traffic light for the current-state EVM block, driven by the SPI and CPI values below.",
+   "who": "PM",
+   "castor": "Yellow (SPI 0,92 · CPI 0,90)"
+  },
+  {
+   "f": "BAC — Budget at Completion",
+   "what": "Total baselined budget of the project. Formula: BAC = total time-phased baseline. Note: the Guide never uses the term BAC.",
+   "who": "Set at baselining; PO/AGB approved",
+   "castor": "€8.400.000 = 3.100 PD"
+  },
+  {
+   "f": "PV — Planned Value (Planned: <xx> workdays)",
+   "what": "Cost planned to be consumed until a point in time; an approved cost estimate of resources scheduled, time-phased and cumulative. Also BCWS.",
+   "who": "PM; from baselined Project Work Plan",
+   "castor": "PV at 31/03/27 = €3.150.000 = 1.163 PD (37,5% of BAC)"
+  },
+  {
+   "f": "EV — Earned Value (Earned Value (Progress): <xx> workdays)",
+   "what": "Value of the work performed expressed in budgetary terms — the percentage of the approved budget earned by actual work completed. Also BCWP.",
+   "who": "PM with PCT progress assessment",
+   "castor": "EV at 31/03/27 = €2.898.000 = 1.070 PD (34,5% of BAC)"
+  },
+  {
+   "f": "AC — Actual Cost (Actual work: <xx> workdays)",
+   "what": "Cost actually incurred until a given point in time, e.g. within a predefined reporting period. Also ACWP.",
+   "who": "PM with PSO/finance timesheet and invoice data",
+   "castor": "AC at 31/03/27 = €3.220.000 = 1.188 PD"
+  },
+  {
+   "f": "Remaining work: <xx> workdays",
+   "what": "Work still to be earned against the baseline. Formula: Remaining work = BAC − EV.",
+   "who": "PM",
+   "castor": "8.400.000 − 2.898.000 = €5.502.000 = 2.030 PD"
+  },
+  {
+   "f": "SV — Schedule Variance",
+   "what": "How far ahead or behind the baseline in value terms. Formula: SV = EV − PV. Negative means behind schedule.",
+   "who": "PM computes · PO reviews",
+   "castor": "2.898.000 − 3.150.000 = −€252.000 (−93 PD)"
+  },
+  {
+   "f": "CV — Cost Variance",
+   "what": "How far under or over budget the work performed is. Formula: CV = EV − AC. Negative means over budget.",
+   "who": "PM computes · PO reviews",
+   "castor": "2.898.000 − 3.220.000 = −€322.000 (−118 PD)"
+  },
+  {
+   "f": "SPI — Schedule Performance Index",
+   "what": "Schedule efficiency of work accomplished to date. Formula: SPI = EV ÷ PV. Below 1,00 means behind schedule.",
+   "who": "PM computes",
+   "castor": "2.898.000 ÷ 3.150.000 = 0,92"
+  },
+  {
+   "f": "CPI — Cost Performance Index (Budget Performance)",
+   "what": "Cost efficiency of work accomplished to date; the Guide prints it as Ratio=(Progress/Actual effort)*100. Under 100% means over budget.",
+   "who": "PM computes",
+   "castor": "2.898.000 ÷ 3.220.000 = 0,90, i.e. 90%"
+  },
+  {
+   "f": "EAC — Estimate at Completion",
+   "what": "Forecast total cost of the project. Named in Guide C.15 as a forecasting KPI; formula EAC = BAC ÷ CPI.",
+   "who": "PM forecasts · PO approves the re-forecast",
+   "castor": "8.400.000 ÷ 0,90 = €9.333.333 (3.444 PD)"
+  },
+  {
+   "f": "ETC — Estimate to Complete",
+   "what": "Forecast cost of the work still to be done. Named in Guide C.15; formula ETC = EAC − AC.",
+   "who": "PM forecasts",
+   "castor": "9.333.333 − 3.220.000 = €6.113.333"
+  },
+  {
+   "f": "TCPI — To Complete Performance Index",
+   "what": "Efficiency the team must now achieve to still finish on budget. Named in Guide C.15; formula TCPI = (BAC − EV) ÷ (BAC − AC).",
+   "who": "PM computes",
+   "castor": "5.502.000 ÷ 5.180.000 = 1,06 — 6% better than current efficiency needed"
+  },
+  {
+   "f": "Milestones",
+   "what": "Up to six dated milestones — one more slot than template 19 provides.",
+   "who": "PM; from Project Work Plan",
+   "castor": "26/03/27 Release 1 — product configuration engine · 17/12/27 Release 2 — straight-through disbursement"
+  },
+  {
+   "f": "Project Changes (input from Change Log)",
+   "what": "Traffic light, count of severe changes, then up to three lines of id, category and status.",
+   "who": "PM; source is the Change Log",
+   "castor": "Yellow · Severe: 1 · CR-007, category Scope, status Postponed"
+  },
+  {
+   "f": "Top Risks (input from Risk Log)",
+   "what": "Traffic light, count of active risks, then up to three lines of id, level and action.",
+   "who": "PM; source is the Risk Log",
+   "castor": "Yellow · Active: 9 · R-07, level High, action retention and knowledge-transfer clause with Levallois"
+  },
+  {
+   "f": "Issues (input from Issue Log)",
+   "what": "Traffic light, count of urgent issues, then up to three lines of id, size and severity.",
+   "who": "PM; source is the Issue Log",
+   "castor": "Yellow · Urgent: 2 · I-08, size Medium, severity High"
+  },
+  {
+   "f": "Green curve: Planned effort (workdays) over weeks",
+   "what": "The PV curve — the time-phased baseline plotted cumulatively week by week.",
+   "who": "PM; from baselined Project Work Plan",
+   "castor": "Reaches 1.163 PD at week 38 (31 Mar 2027)"
+  },
+  {
+   "f": "Red curve: Current cost consumption (workdays)",
+   "what": "The AC curve — actual effort or cost consumed to date, plotted cumulatively.",
+   "who": "PM with PSO/finance data",
+   "castor": "Reaches 1.188 PD at week 38 — above the green curve"
+  },
+  {
+   "f": "Blue curve: Earned value (workdays)",
+   "what": "The EV curve — value of completed work. Below green means behind schedule; below red means over budget.",
+   "who": "PM with PCT progress assessment",
+   "castor": "Reaches 1.070 PD at week 38 — below both other curves"
+  },
+  {
+   "f": "Activities Performed and Planned",
+   "what": "Up to three key actions performed with status, then up to three planned for the next period.",
+   "who": "PM with PCT input",
+   "castor": "Performed: Release 1 delivered to acceptance, complete. Planned: table the Release 2 recovery plan on 23 Apr 2027."
+  }
+ ],
+ "traps": [
+  "No RASCI of its own: the Project Reporting row governs (p.59) — PO=A, PM=R, PSC=I.",
+  "This template prints Green/Yellow/Red; template 19 prints Green/Amber/Red. Same idea, different words.",
+  "It drops the Phase field and the whole Decisions block that template 19 carries.",
+  "Cost here is Baselined/Spent/Forecasted overall; template 19 splits Current Year vs Overall project.",
+  "Guide C.15 (p.104) names PV, EV, AC, SV, SPI, CV, CPI, EAC, ETC, TCPI but prints no formulas."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Status Report EVM, Project CASTOR, status date 31 Mar 2027 (BAC €8,4 m / 3.100 PD)",
+  "rows": [
+   [
+    "Metric",
+    "Value and arithmetic"
+   ],
+   [
+    "Overall Status",
+    "Yellow"
+   ],
+   [
+    "BAC — Budget at Completion",
+    "€8.400.000 = 3.100 PD (baselined 26 Jun 2026)"
+   ],
+   [
+    "PV — Planned Value",
+    "37,5% of baseline scheduled to 31/03/27 → 0,375 × 8.400.000 = €3.150.000 = 1.163 PD"
+   ],
+   [
+    "EV — Earned Value (Progress)",
+    "34,5% of baseline earned → 0,345 × 8.400.000 = €2.898.000 = 1.070 PD"
+   ],
+   [
+    "AC — Actual Cost (Actual work)",
+    "€3.220.000 = 1.188 PD (2026: €1.764.000 / 651 PD; Q1 2027: €1.456.000 / 537 PD)"
+   ],
+   [
+    "SV = EV − PV",
+    "2.898.000 − 3.150.000 = −€252.000 (1.070 − 1.163 = −93 PD) → behind schedule"
+   ],
+   [
+    "CV = EV − AC",
+    "2.898.000 − 3.220.000 = −€322.000 (1.070 − 1.188 = −118 PD) → over budget"
+   ],
+   [
+    "SPI = EV ÷ PV",
+    "2.898.000 ÷ 3.150.000 = 0,92 → 8% of scheduled value not yet earned"
+   ],
+   [
+    "CPI = EV ÷ AC",
+    "2.898.000 ÷ 3.220.000 = 0,90 → 90% budget performance; €0,90 of value per €1 spent"
+   ],
+   [
+    "Remaining work = BAC − EV",
+    "8.400.000 − 2.898.000 = €5.502.000 = 2.030 PD"
+   ],
+   [
+    "EAC = BAC ÷ CPI",
+    "8.400.000 ÷ 0,90 = €9.333.333 → forecast overrun €933.333 (+11,1%)"
+   ],
+   [
+    "TCPI = (BAC − EV) ÷ (BAC − AC)",
+    "5.502.000 ÷ 5.180.000 = 1,06 → must run 6% more efficiently than the plan to still land on €8,4 m"
+   ],
+   [
+    "PM commentary to the PSC",
+    "Release 1 landed on its baselined date 26 Mar 2027, but two of eleven product templates were deferred, so earned value lags. Recovery plan tabled at the 23 Apr 2027 PSC."
+   ]
+  ]
+ }
+}

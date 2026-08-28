@@ -1,0 +1,13 @@
+# build scratch
+_voice_tmp/
+*.pcm
+__pycache__/
+*.pyc
+.DS_Store
+
+# optional, installed by tools/get_portraits.py
+portraits/
+
+# never commit: personal copies of the official guide
+*ANNOTE*.pdf
+02_PM2_Guide*.pdf

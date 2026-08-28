@@ -1,0 +1,334 @@
+{
+ "n": 9,
+ "id": "iteration-retrospective",
+ "name": "Iteration Retrospective",
+ "group": "Ceremonies",
+ "one_liner": "The team inspects itself, chooses improvements, and puts them in the WIL.",
+ "purpose": "The Iteration Retrospective happens at the end of every iteration and lets the A-PCT evaluate its own performance, permanently and recurrently, rather than waiting for the end of the project. It is focused on real problems that affect the team, and the solutions found can be implemented without waiting for management approval — which is why the team commits to them. It is the closure of the CIR rhythm, and its logs later enrich the project's Lessons Learned.",
+ "guide_page": 57,
+ "meta": [
+  [
+   "Frequency",
+   "Once every iteration, at the end of the iteration"
+  ],
+  [
+   "Timebox",
+   "Between 60 and 120 minutes"
+  ],
+  [
+   "Duration drivers",
+   "Size of the team · size of the iteration · level of stress and friction"
+  ],
+  [
+   "Structure",
+   "Five steps: Welcome · Collect Hard Data · Understand Data and Generate Ideas · Prioritise and Choose · Closing"
+  ],
+  [
+   "Facilitated by",
+   "Team Coordinator (TeCo) — and the facilitator must be fully dedicated"
+  ],
+  [
+   "Responsible / Accountable",
+   "ATeM Responsible and Accountable · ArOw acts as an ATeM (Responsible)"
+  ],
+  [
+   "Actions go to",
+   "The Work Items List — so they are visible and treated like any other item"
+  ],
+  [
+   "Recorded in",
+   "A Retrospective Log (document, wiki, etc.), a PM²-Agile Project Log"
+  ],
+  [
+   "Guide reference",
+   "§5.5, pp. 57–60 (RAM p. 60; Appendix B.2 p. 95, under Executing)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "I",
+   "S",
+   "I",
+   "R",
+   "R/A"
+  ],
+  "A": "ATeM",
+  "R": "ATeM and ArOw"
+ },
+ "diagram": [
+  {
+   "sec": "1. Welcome (§5.5.2.1)",
+   "items": [
+    "The most important step, even though it sounds the simplest: it makes people comfortable enough to speak",
+    "Exercise: the TeCo asks each ATeM to say, in one sentence, how they felt during the iteration or what they expect from the retrospective",
+    "This makes clear that everyone is expected to talk — allow silence here and silence rules the whole meeting",
+    "The TeCo then explains the approach: the steps, the corresponding activities and what is expected from each",
+    "The TeCo communicates the timebox for the ceremony",
+    "Define the rules of the ceremony — the accepted behaviours; reuse the team's working agreements, or create them now"
+   ]
+  },
+  {
+   "sec": "2. Collect Hard Data (§5.5.2.2)",
+   "items": [
+    "Collect the data everyone will analyse, so all members share the same vision of reality",
+    "Events: meetings, important decisions, celebrations — any moment relevant to any ATeM",
+    "Metrics: burnup and burndown charts, velocity charts, percentage of broken builds, percentage of test coverage",
+    "Completed work items count as data too; the more data, the easier a common view becomes",
+    "The TeCo helps collect, but it is always the ATeMs who decide which data they want to use",
+    "Make the data visible — organised by technical area, by team area, or chronologically on a timeline",
+    "Add feelings: they show what mattered to each member, and connecting feelings to data exposes root causes and patterns"
+   ]
+  },
+  {
+   "sec": "3. Understand Data and Generate Ideas (§5.5.2.3)",
+   "items": [
+    "Data alone is not enough — it needs meaning",
+    "Understand the root causes of problems and the patterns of success",
+    "Generate possible solutions with several alternative scenarios",
+    "Implementing the first answer without considering alternatives usually gives the worse result"
+   ]
+  },
+  {
+   "sec": "4. Prioritise and Choose (§5.5.2.4)",
+   "items": [
+    "It is usually not possible to implement all the proposals, so the team prioritises and decides which to take on",
+    "The TeCo guides the team towards the actions that bring the best benefits and that the team can commit to",
+    "The chosen actions are planned for the next iteration (or release)",
+    "PM²-Agile recommends including those actions in the Work Items List, so they stay visible and are treated like any other item",
+    "For each planned work item, ATeMs commit to execute the required tasks: a task assigned to the team rather than to a person ends up not being done"
+   ]
+  },
+  {
+   "sec": "5. Closing (§5.5.2.5)",
+   "items": [
+    "A retrospective is psychologically demanding, so a few minutes are spent closing it properly",
+    "The TeCo guarantees a decisive end and does not allow pending topics and conversations to progress to this stage",
+    "The team decides how to capture what was discussed and learnt — boards, photos, printed digital images",
+    "All this knowledge belongs to the Agile Team Members and not to the Team Coordinator: they own it and store it",
+    "The TeCo closes by acknowledging the work made during the retrospective and throughout the entire iteration",
+    "Optionally, a quick Inspect and Adapt on the retrospective itself"
+   ]
+  },
+  {
+   "sec": "Guidelines (p. 60)",
+   "items": [
+    "Have working agreements defined — they matter most in this ceremony",
+    "Have a fully dedicated facilitator; the TeCo is the right one, because the ATeMs must all be active participants",
+    "Send the agenda, activities included, in advance",
+    "Avoid the \"no man's-land\" responsibility: action items placed in someone else's hands remove the team's control over its own improvement",
+    "Record all the learnings, actions and people accountable in a Retrospective Log, for the next retrospective and for the Lessons Learned"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Purpose",
+   "what": "A recurrent evaluation of the A-PCT's performance, made by the team itself, focused on real problems that affect the team.",
+   "who": "ATeM R/A · TeCo facilitates",
+   "pollux": "Fri 13 Apr 2029, 14:00–16:00, after a review that accepted 21 of 29 points."
+  },
+  {
+   "f": "Frequency and placement",
+   "what": "Once every iteration, at the end of the iteration, so the team can collect as much data as possible and analyse it while it is fresh.",
+   "who": "TeCo schedules",
+   "pollux": "Same afternoon as the review, every iteration since January 2029."
+  },
+  {
+   "f": "Timebox",
+   "what": "Between 60 and 120 minutes, depending on team size, iteration size and the level of stress or friction; the time allotted to each section must be observed.",
+   "who": "TeCo announces it in the Welcome",
+   "pollux": "120 minutes booked — the stress level after iteration 7 justified the maximum."
+  },
+  {
+   "f": "No management approval needed",
+   "what": "The team finds solutions it can implement without waiting for management approval; because the improvements are chosen and not imposed, the team commits to them.",
+   "who": "A-PCT decides",
+   "pollux": "The pipeline gate change needed nobody's sign-off outside the team."
+  },
+  {
+   "f": "Step 1 — Welcome",
+   "what": "Establish an environment where everyone feels encouraged to participate. Each member speaks once, in a sentence, before anything else happens.",
+   "who": "TeCo runs the exercise",
+   "pollux": "One sentence each on how iteration 7 felt; Babbage went first."
+  },
+  {
+   "f": "Why silence is fatal",
+   "what": "If the opening round is skipped, or people are allowed to remain silent, it signals that staying silent for the rest of the retrospective is acceptable.",
+   "who": "TeCo enforces it",
+   "pollux": "Lovelace never skips the round, even in a good iteration."
+  },
+  {
+   "f": "Working agreements",
+   "what": "The rules defining accepted behaviours that make difficult conversations possible. Reuse existing ones; if the team has none, create them now.",
+   "who": "A-PCT owns them",
+   "pollux": "\"What is said in the retrospective stays with the team\" — agreed in iteration 2."
+  },
+  {
+   "f": "Step 2 — Collect Hard Data",
+   "what": "Gather events, metrics and completed work items so every member analyses the same reality rather than their own recollection.",
+   "who": "ATeMs decide the data · TeCo helps collect",
+   "pollux": "Burndown, velocity 21, three broken builds, and the batch-window incident."
+  },
+  {
+   "f": "Events vs metrics",
+   "what": "Events are any moments that mattered — meetings, decisions, celebrations. Metrics include burnup/burndown, velocity, percentage of broken builds, test coverage.",
+   "who": "ATeMs",
+   "pollux": "Event: the PM asking for status at the 05 Apr stand-up."
+  },
+  {
+   "f": "Feelings",
+   "what": "A second, essential layer of data: feelings show what was important to each member, and connecting them to the hard data exposes root causes and patterns.",
+   "who": "Each ATeM",
+   "pollux": "Lamarr: \"I flagged the batch window on day one and it still cost us the item.\""
+  },
+  {
+   "f": "Step 3 — Understand and Generate Ideas",
+   "what": "Find root causes of problems and patterns of success, and generate several alternative solutions rather than adopting the first one.",
+   "who": "A-PCT",
+   "pollux": "Two root causes: an unowned DoD check, and a sync window nobody controlled."
+  },
+  {
+   "f": "Step 4 — Prioritise and Choose",
+   "what": "The team cannot implement everything, so it chooses the actions with the best benefit that it can genuinely commit to for the next iteration or release.",
+   "who": "ATeMs choose · TeCo guides",
+   "pollux": "Three actions chosen from seven proposals."
+  },
+  {
+   "f": "Where actions go",
+   "what": "PM²-Agile recommends including the chosen actions in the Work Items List, so they are always visible and treated like any other item.",
+   "who": "ATeM commits · PrOw sees them in the WIL",
+   "pollux": "WIL-142, WIL-143 and WIL-144 entered the list the same afternoon."
+  },
+  {
+   "f": "Named ownership",
+   "what": "For each planned item, individual ATeMs commit to execute the required tasks. A task assigned to the team rather than to a person ends up not being done.",
+   "who": "Named ATeM per action",
+   "pollux": "WIL-142 Lamarr · WIL-143 Babbage · WIL-144 Eiffel."
+  },
+  {
+   "f": "\"No man's-land\" responsibility",
+   "what": "Action items the team believes it is not responsible for, placed in someone else's hands. This removes the team's control over its own improvement.",
+   "who": "TeCo challenges them",
+   "pollux": "\"Ask Enterprise Architecture to move the batch\" was rejected as no man's land."
+  },
+  {
+   "f": "Step 5 — Closing",
+   "what": "A decisive end with no pending conversations, a decision on how learnings are captured, and an acknowledgement of the whole iteration's work.",
+   "who": "TeCo closes",
+   "pollux": "Board photographed; the timeline stayed up until the next retrospective."
+  },
+  {
+   "f": "Who owns the learnings",
+   "what": "The knowledge produced belongs to the Agile Team Members and not to the Team Coordinator: they need to own it and store it.",
+   "who": "ATeMs",
+   "pollux": "The retrospective board lives in the team room, not in Lovelace's files."
+  },
+  {
+   "f": "Retrospective Log",
+   "what": "The record of all learnings, actions and the people accountable — a document, a wiki — reused at the next retrospective and at Lessons Learned.",
+   "who": "TeCo R on the log · PM A",
+   "pollux": "Entry 7 of 26; the log is cited in the POLLUX Project-End Report."
+  },
+  {
+   "f": "Feeds Lessons Learned",
+   "what": "At the end of the project the repository of iteration retrospectives dramatically enriches the Lessons Learned and the post-project recommendations.",
+   "who": "PM collects at Closing",
+   "pollux": "Eighteen months of logs feed one Lessons Learned exercise in Feb 2030."
+  },
+  {
+   "f": "Risk re-assessment",
+   "what": "In PM²-Agile risk reassessment occurs at least by the end of the iteration, during the Iteration Retrospective, where previous risks and concerns are revisited.",
+   "who": "A-PCT · PM informed",
+   "pollux": "The batch-window risk was upgraded and passed to the project Risk Log."
+  },
+  {
+   "f": "Dedicated facilitator",
+   "what": "The retrospective needs every ATeM active, which is incompatible with one of them also facilitating. The Team Coordinator is the right facilitator.",
+   "who": "TeCo — Supports",
+   "pollux": "Lovelace facilitates and does not contribute content."
+  },
+  {
+   "f": "Who is only Informed",
+   "what": "The BM and the PrOw are informed of the outputs only if necessary, and the PM is informed about the outputs of the ceremony.",
+   "who": "BM I · PrOw I · PM I",
+   "pollux": "Curie left after the review; she saw the three new WIL items on Monday."
+  }
+ ],
+ "traps": [
+  "Retrospective inspects the team and its process; the Review inspects the solution.",
+  "Retrospective actions go into the Work Items List, not a private improvement list.",
+  "Every action needs a named ATeM — team-owned tasks do not get done.",
+  "The learnings belong to the ATeMs, not to the Team Coordinator.",
+  "PrOw and BM are only Informed, and only if necessary; it is the team's meeting."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX Iteration 7 Retrospective, Fri 13 Apr 2029, 14:00–16:00 (Retrospective Log entry 7)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Facilitator / participants",
+    "Ada Lovelace (TeCo, fully dedicated) · Lamarr, Babbage, Eiffel (ATeM) · Einstein (ArOw, as ATeM)"
+   ],
+   [
+    "Timebox announced",
+    "120 minutes — justified by the stress level after a 21-point iteration"
+   ],
+   [
+    "Welcome round",
+    "One sentence each; Babbage: \"I knew on day two and said it too quietly\""
+   ],
+   [
+    "Hard data — metrics",
+    "Velocity 21 vs 34 average · three broken builds · burndown flat from 09 to 11 Apr"
+   ],
+   [
+    "Hard data — events",
+    "Easter Monday holiday · PM asked for status at the 05 Apr stand-up · Finance sign-off arrived a day late"
+   ],
+   [
+    "Feelings",
+    "Lamarr: flagged the batch window at planning and it still cost the item"
+   ],
+   [
+    "Root cause 1",
+    "No pipeline gate for the Definition of Done, so accessibility and the DPC check were simply skipped"
+   ],
+   [
+    "Root cause 2",
+    "The nightly sync window is owned outside the team and nobody had asked when it moves"
+   ],
+   [
+    "Chosen action WIL-142",
+    "Add accessibility and DPC screening as pipeline gates in the Definition of Done — Hedy Lamarr"
+   ],
+   [
+    "Chosen actions WIL-143 / WIL-144",
+    "Move the nightly sync outside the batch window — Charles Babbage · Pair on the drill-through before the next review — Gustave Eiffel"
+   ],
+   [
+    "Rejected as \"no man's land\"",
+    "\"Ask Enterprise Architecture to reschedule the batch\" — no team member could own it"
+   ],
+   [
+    "Boundary noted",
+    "The what-went-wrong discussion attempted in the morning review belonged here"
+   ],
+   [
+    "Closing",
+    "Board photographed and left standing; knowledge held by the ATeMs, logged by the TeCo"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,266 @@
+{
+ "n": 17,
+ "id": "meeting-agenda",
+ "name": "Meeting Agenda",
+ "family": "Meeting Artefact",
+ "one_liner": "The points to be discussed, timed and owned, sent out before the meeting — not improvised in the room.",
+ "purpose": "The Meeting Agenda is the PM² template used to plan and run project meetings effectively. The guide's Planning Kick-off steps require the Project Manager to plan the meeting, draft an agenda clearly indicating the points to be discussed, send it out in advance, ensure the required participants attend, and prepare documentation and hand-outs. It records the meeting's identification, invited participants, objectives, timed agenda items with owners, and the documents participants must read beforehand.",
+ "guide_page": 40,
+ "rasci": null,
+ "created_in": "Any phase — before every project meeting",
+ "approved_by": "Not approved — issued by the Meeting Coordinator (the chairperson named in the Communications Management Plan)",
+ "inputs": [
+  "Communications Management Plan (standing agenda items per meeting type)",
+  "Business Case and Project Charter (for the Planning Kick-off)",
+  "Project Handbook and Project Work Plan (for the Executing Kick-off)",
+  "Previous Minutes of Meeting — proposed agenda for next meeting"
+ ],
+ "feeds": [
+  "Minutes of Meeting",
+  "Project Handbook (via the Planning Kick-off MoM)"
+ ],
+ "gate": "None — supports every meeting, in every phase",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Used for the Initiating Meeting and Charter workshops"
+  },
+  {
+   "phase": "Planning",
+   "what": "Planning Kick-off agenda, issued in advance to all invited"
+  },
+  {
+   "phase": "Executing",
+   "what": "Executing Kick-off, Status, PCT, Change Control agendas"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Review and Steering Committee agendas driven by the plan"
+  },
+  {
+   "phase": "Closing",
+   "what": "Project-End Review Meeting agenda"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Header",
+   "meta": true,
+   "items": [
+    "Organisation [Name] · Department [Name]",
+    "Document title: Meeting Agenda",
+    "Date · Doc. Version",
+    "Logo block"
+   ]
+  },
+  {
+   "sec": "Meeting identification grid",
+   "items": [
+    "Meeting Title",
+    "Meeting Date/Time",
+    "Meeting Type",
+    "Meeting Location",
+    "Meeting Coordinator",
+    "Issue Date"
+   ]
+  },
+  {
+   "sec": "Participants (invited)",
+   "items": [
+    "Participant Name (invited)",
+    "Initials",
+    "Organisation / Email"
+   ]
+  },
+  {
+   "sec": "Meeting Objectives",
+   "items": [
+    "Free-text block — what must be true when the meeting ends",
+    "Taken from the meeting's Purpose row in the Communications Management Plan"
+   ]
+  },
+  {
+   "sec": "Agenda Items",
+   "items": [
+    "Agenda Items",
+    "Time",
+    "Owner"
+   ]
+  },
+  {
+   "sec": "Related Documents",
+   "items": [
+    "Document name",
+    "Location — where participants read it beforehand"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Meeting Title",
+   "what": "The name of the meeting, matching a meeting type defined in the Communications Management Plan so its standing purpose, attendees and media are already agreed.",
+   "who": "Meeting Coordinator sets",
+   "castor": "Project CASTOR — Planning Kick-off Meeting."
+  },
+  {
+   "f": "Meeting Date/Time",
+   "what": "Date and start/end time. Enough notice must be given for the agenda to be sent in advance and required participants to attend.",
+   "who": "Meeting Coordinator sets",
+   "castor": "09 Apr 2026, 09:30–12:30."
+  },
+  {
+   "f": "Meeting Type",
+   "what": "Which of the plan's meeting types this is — Planning Kick-off, Executing Kick-off, Status, PCT, Review, Steering Committee, Change Control, Project-End Review.",
+   "who": "Meeting Coordinator sets",
+   "castor": "Planning Kick-off Meeting — held once at project level, per the Communications Management Plan."
+  },
+  {
+   "f": "Meeting Location",
+   "what": "Where the meeting takes place, including remote joining arrangements; kick-off locations are defined by the PM in time.",
+   "who": "Meeting Coordinator · PSO handles logistics",
+   "castor": "ESM, Luxembourg City (Kirchberg), room B-2.04, with video for remote participants."
+  },
+  {
+   "f": "Meeting Coordinator",
+   "what": "The person organising and normally chairing the meeting. For the Planning Kick-off this is the Project Manager; for the PSC Meeting it would be the Project Owner.",
+   "who": "Per the Communications Management Plan chairperson row",
+   "castor": "Project Manager, ESM Project Support Office — the PM organises the Planning Kick-off."
+  },
+  {
+   "f": "Issue Date",
+   "what": "When the agenda was issued. The guide requires the agenda to be sent out in advance, so this date must clearly precede the meeting date.",
+   "who": "Meeting Coordinator issues",
+   "castor": "02 Apr 2026 — one week before the meeting, with the Charter attached."
+  },
+  {
+   "f": "Participant Name (invited)",
+   "what": "Everyone invited, by name. For the Planning Kick-off the required participants are PM, PCT, BIG, URs, SP, PO and BM; PMA and PSO attend if part of the project.",
+   "who": "Meeting Coordinator invites from the Stakeholder Matrix",
+   "castor": "Florence Nightingale, Leonardo da Vinci, Grace Hopper, Nikola Tesla, Ada Lovelace, Marie Curie, Henry Gantt."
+  },
+  {
+   "f": "Initials",
+   "what": "Short code for each participant, reused in the Minutes of Meeting to assign decision owners and action owners without repeating full names.",
+   "who": "Minute-taker relies on it",
+   "castor": "ÉM · RT · KB · JW · AO · AF · NR — carried through into the MoM action table."
+  },
+  {
+   "f": "Organisation / Email",
+   "what": "Contact details and home organisation of each invitee, which matter when contractors and other organisations attend; the master list stays in the Stakeholder Matrix.",
+   "who": "Taken from the Project Stakeholder Matrix",
+   "castor": "ESM Lending Operations, IT & Digital, Project Support Office; Levallois Systems not yet contracted."
+  },
+  {
+   "f": "Meeting Objectives",
+   "what": "What the meeting must achieve. For the Planning Kick-off: everyone understands the scope, expectations of key stakeholders are clarified, risks are identified and the project plans are discussed.",
+   "who": "Meeting Coordinator writes · chairperson owns",
+   "castor": "Agree CASTOR scope and governance, set role expectations, and capture the first risk set before planning starts."
+  },
+  {
+   "f": "Agenda Items",
+   "what": "The points to be discussed, clearly indicated. The Communications Management Plan holds the standing item list for each meeting type; the agenda instantiates it for this date.",
+   "who": "Meeting Coordinator drafts · PO contributes for kick-offs",
+   "castor": "Charter walkthrough, Planning Phase goals, governance and roles, timeline, approach, plans, risks, next steps."
+  },
+  {
+   "f": "Time",
+   "what": "Time box per item. Timing forces the agenda to be realistic and protects the closing items — summary of decisions, actions and risks, and next steps.",
+   "who": "Meeting Coordinator allocates",
+   "castor": "15 minutes for introductions, 30 for the Charter, 30 for risks, 15 to summarise and close."
+  },
+  {
+   "f": "Owner",
+   "what": "Who leads each item. Not everything belongs to the chair: the PO explains why the project matters, the SP speaks to approach, the PSO to supporting tools.",
+   "who": "Meeting Coordinator assigns · owners confirm",
+   "castor": "Florence Nightingale owns the business-importance item; Leonardo da Vinci the approach; Henry Gantt the tooling."
+  },
+  {
+   "f": "Related Documents / Location",
+   "what": "The documents participants must read before the meeting, and where to find them — hand-outs and documentation the guide asks to be prepared beforehand.",
+   "who": "Meeting Coordinator lists · PSO stores",
+   "castor": "02.Business_Case and 03.Project_Charter (approved 24 Mar 2026), in 01 Initiating of the CASTOR repository."
+  }
+ ],
+ "traps": [
+  "The agenda must be sent out in advance — that is an explicit guide step, not politeness.",
+  "PM² gives no RASCI row for the Meeting Agenda; the meeting has one, the artefact does not.",
+  "'Meeting Coordinator' here equals the 'Chairperson' row of the Communications Management Plan.",
+  "Planning Kick-off is chaired by the PM (RASCI PSC=A, PM=R); the PSC Meeting is chaired by the PO.",
+  "The agenda lists who was invited; only the MoM records who was actually Present."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — 17.Meeting_Agenda.CASTOR.09-04-2026.v1.0 · Planning Kick-off Meeting · 09:30–12:30, ESM Kirchberg · issued 02 Apr 2026 by the PM",
+  "rows": [
+   [
+    "Agenda item",
+    "Time",
+    "Owner"
+   ],
+   [
+    "Welcome, introduction of participants, agenda",
+    "09:30–09:45",
+    "PM"
+   ],
+   [
+    "Why CASTOR matters to Lending Operations and to the ESM",
+    "09:45–10:05",
+    "Florence Nightingale (PO)"
+   ],
+   [
+    "Walkthrough of the Project Charter — scope, SC1–SC5, €8.4 m, 26 months",
+    "10:05–10:35",
+    "PM"
+   ],
+   [
+    "Goals, expectations and activities of the Planning Phase; planning timeline to 26 Jun 2026",
+    "10:35–10:55",
+    "PM"
+   ],
+   [
+    "Governance structure; roles of the Project Core Team and Business Implementation Group",
+    "10:55–11:15",
+    "Grace Hopper (BM)"
+   ],
+   [
+    "Break",
+    "11:15–11:25",
+    "—"
+   ],
+   [
+    "Overall project approach: buy-not-build, mixed delivery, outsourced implementation",
+    "11:25–11:45",
+    "Leonardo da Vinci (SP)"
+   ],
+   [
+    "Which project plans CASTOR needs; Handbook and Work Plan targets",
+    "11:45–12:00",
+    "PM"
+   ],
+   [
+    "Risks, constraints and assumptions — including SRF-backstop ratification uncertainty",
+    "12:00–12:20",
+    "All, facilitated by PM"
+   ],
+   [
+    "Project supporting tools and repository",
+    "12:20–12:25",
+    "Henry Gantt (PSO)"
+   ],
+   [
+    "Any other business; summary of decisions, actions and risks; next steps",
+    "12:25–12:30",
+    "PM"
+   ],
+   [
+    "Related documents",
+    "02.Business_Case.CASTOR and 03.Project_Charter.CASTOR (approved 24 Mar 2026)",
+    "01 Initiating folder"
+   ],
+   [
+    "Invited",
+    "Florence Nightingale (PO), Leonardo da Vinci (SP), Grace Hopper (BM), PM, Nikola Tesla and Ada Lovelace (PCT), BIG members from Lending Ops, Finance & Control, Risk and Legal, Marie Curie (UR), Henry Gantt (PSO)",
+    "—"
+   ]
+  ]
+ }
+}

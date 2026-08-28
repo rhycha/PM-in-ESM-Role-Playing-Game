@@ -1,0 +1,362 @@
+{
+ "n": 27,
+ "id": "phase-exit-review-checklist",
+ "name": "Phase Exit Review Checklist",
+ "family": "Monitor & Control",
+ "one_liner": "The gate self-assessment — four sheets of questions the PM answers before asking the PSC to let the project through.",
+ "purpose": "Phase-Exit Review Checklists are spreadsheet-based documents used by the Project Manager (PM) to ensure that all the necessary items are in place before the project proceeds to the next phase or is closed. They check the key information of each phase and gather Lessons Learned. PM² provides one checklist per phase, used alongside a review of that phase's specific goals to support the RfP, RfE and RfC gate decisions.",
+ "guide_page": 69,
+ "rasci": null,
+ "created_in": "Monitor & Control — run at the end of each phase, from Initiating onwards",
+ "approved_by": "Not formally approved: the PM completes it and the Project Steering Committee (PSC) approves the phase transition it supports (the AGB if deviations from the Business Case or Charter are material)",
+ "inputs": [
+  "The phase's own artefacts and deliverables",
+  "Project Handbook",
+  "Project Work Plan",
+  "Quality Management Plan",
+  "Project Logs"
+ ],
+ "feeds": [
+  "Phase gate decision: RfP, RfE, RfC",
+  "Project Status / Progress Reports",
+  "Lessons Learned in the Project-End Report"
+ ],
+ "gate": "RfP · RfE · RfC (one sheet per gate, plus a Closing sheet)",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Initiating sheet completed; supports the RfP gate decision"
+  },
+  {
+   "phase": "Planning",
+   "what": "Planning sheet completed; supports the RfE gate decision"
+  },
+  {
+   "phase": "Executing",
+   "what": "Executing sheet completed; supports the RfC gate decision"
+  },
+  {
+   "phase": "Closing",
+   "what": "Closing sheet completed; confirms the project is ready to be closed"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Summary sheet — identification",
+   "meta": true,
+   "items": [
+    "Organisation / Department",
+    "Project Name",
+    "Project Owner · Business Manager · Solution Provider · Project Manager",
+    "Reviewer Name (person performing the phase-exit reviews)"
+   ]
+  },
+  {
+   "sec": "Summary sheet — scoring",
+   "items": [
+    "Overall Compliance (%)",
+    "Overall Phase-Exit Status",
+    "One row per Area: Initiating · Planning · Executing · Closing",
+    "Per row: Phase-Exit Status · % of Phase Compliance · Date · Already performed?",
+    "Assessment Key: 0.3 (<50%) · 0.7 (51–80%) · 0.9 (>80%)"
+   ]
+  },
+  {
+   "sec": "Layout of every phase sheet",
+   "items": [
+    "Title row: <Phase> Phase-Exit Checks · Date",
+    "% of Phase Compliance (calculated)",
+    "Columns: # · Description · Answer · Score · Comments",
+    "Answer list: Yes · Yes, Partially · No · N/A",
+    "Closing row: Total score for compliance"
+   ]
+  },
+  {
+   "sec": "Initiating Phase-Exit Checks (1–28)",
+   "items": [
+    "Q1–3 Request documented and approved · context, scope, deliverables, outcomes · PO identified",
+    "Q4–8 Benefits and success criteria, measurable · stakeholders · roles · PSC established",
+    "Q9–11 At least 4 alternatives analysed · assumptions, constraints, risks · synergies and dependencies",
+    "Q12–15 TCO in FTE and € · both sides' costs · funding lines · savings estimated",
+    "Q16–20 Business Case approved · PM assigned · needs linked to deliverables · roadmap · approach",
+    "Q21–24 Risk, Issue and Decision Logs set up · risk responses approved · resources · security, DM and data protection",
+    "Q25–27 Project Charter approved by the PSC · delivering to schedule · budget sufficient",
+    "Q28 Is the project ready to proceed to the Planning Phase?"
+   ]
+  },
+  {
+   "sec": "Planning Phase-Exit Checks (1–43)",
+   "items": [
+    "Q1–2 Stakeholder Matrix complete · all roles and responsibilities detailed",
+    "Q3–11 Scope broken down · scope linked to work packages · effort validated · schedule · critical path · performance indicators",
+    "Q12–21 Work Plan baselined and approved by the PSC · Handbook · Communications, Change, Risk, Issue plans · escalation · Change Log",
+    "Q22–27 Quality and acceptance criteria approved · Quality and Deliverables Acceptance Plans · configuration procedure · processes communicated to the PCT",
+    "Q28–36 Resources and training · Resource Plan · business-side activities · Business Implementation Plan · Transition Plan · Outsourcing Plan",
+    "Q37–39 All plans approved · Project Handbook documented · deviations from the Charter approved by PSC / AGB",
+    "Q40–42 Delivering to schedule · resources available · budget sufficient",
+    "Q43 Is the project ready to proceed to the Executing Phase?"
+   ]
+  },
+  {
+   "sec": "Executing Phase-Exit Checks (1–29)",
+   "items": [
+    "Q1–4 Resources and budget to finish and transfer · activities as planned · artefacts produced · QA/QC performed",
+    "Q5–9 Deliverables tested and reviewed · outsourcing monitored · test results documented · major risks mitigated · security and data protection",
+    "Q10–13 Approved changes implemented · deliverables match needs · issues closed · deliverables ready for PO approval",
+    "Q14–19 Transition performed · training conducted · stakeholders informed · metrics captured · business implementation done · communications delivered",
+    "Q20–23 PO formal approval · approvals documented by the right people · deliverables operational · formal transfer of responsibility",
+    "Q24–28 Maintenance actions handed over · transfer announced · repository complete · configuration management effective · operations ready",
+    "Q29 Is the project ready to proceed to the Closing Phase?"
+   ]
+  },
+  {
+   "sec": "Closing Phase-Exit Checks (1–20)",
+   "items": [
+    "Q1–4 Project-End Review Meeting held · final metrics vs baselines · benefits and unachieved goals · client satisfaction",
+    "Q5–8 Open risks and issues re-assessed · follow-up actions and ownership transferred · handover to operations · support running",
+    "Q9–11 Stakeholder feedback · Lessons Learned and recommendations captured · Project-End Report delivered",
+    "Q12–15 Artefacts archived centrally · records-management policy · configuration procedures · security procedures",
+    "Q16–19 Formal acceptance by PSC / PO · team performance assessed · team released · project costs stopped",
+    "Q20 Is the project ready to be closed?"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Organisation / Department · Project Name",
+   "what": "Identifies the reviewed project on the Summary sheet, so the completed workbook stands alone as a gate record.",
+   "who": "PM fills",
+   "castor": "European Stability Mechanism — Lending Operations Division; Project CASTOR"
+  },
+  {
+   "f": "Project Owner · Business Manager · Solution Provider · Project Manager",
+   "what": "Names the four governance roles whose artefacts the checks interrogate; empty rows here usually mean failing checks below.",
+   "who": "PM fills from the Charter",
+   "castor": "Florence Nightingale · Grace Hopper · Leonardo da Vinci · PM, ESM Project Support Office"
+  },
+  {
+   "f": "Reviewer Name",
+   "what": "Name of the person performing the phase-exit reviews — the PM in PM², optionally assured by Project Quality Assurance.",
+   "who": "PM performs · PQA may assure",
+   "castor": "PM, ESM Project Support Office; assured by W. Edwards Deming (PQA)"
+  },
+  {
+   "f": "Overall Compliance (%) · Overall Phase-Exit Status",
+   "what": "Roll-up of all four sheets: the aggregate compliance percentage and the resulting status band for the project as a whole.",
+   "who": "Calculated by the workbook",
+   "castor": "97% overall; Overall Phase-Exit Status 0.9"
+  },
+  {
+   "f": "Area rows (Initiating / Planning / Executing / Closing)",
+   "what": "One row per phase carrying Phase-Exit Status, % of Phase Compliance, review Date, and whether the review has already been performed.",
+   "who": "PM updates at each gate",
+   "castor": "Initiating 0.9 · 96% · 27 Mar 2026 · Yes; Planning 0.9 · 98% · 03 Jul 2026 · Yes"
+  },
+  {
+   "f": "Assessment Key (0.3 / 0.7 / 0.9)",
+   "what": "0.3 = major key activities not done (≥50% outstanding); 0.7 = some still to complete (51–80%); 0.9 = nearly all complete (>80%).",
+   "who": "Fixed scale in the template",
+   "castor": "All four CASTOR phases scored 0.9 — above 80%, with named exceptions justified"
+  },
+  {
+   "f": "Answer · Score · Comments (each check)",
+   "what": "Every check is answered Yes / Yes, Partially / No / N/A, scored automatically, and justified in the Comments column.",
+   "who": "PM answers · comment mandatory when not Yes",
+   "castor": "Q9 answered 'Yes, Partially' — three alternatives analysed, not four; justified in Comments"
+  },
+  {
+   "f": "Initiating Q1–3 — request, definition, ownership",
+   "what": "Is the Project Initiation Request documented and approved; are context, scope, deliverables and outcomes documented; is a Project Owner identified?",
+   "who": "PM checks · BM supplies evidence",
+   "castor": "Yes — request of 12 Jan 2026 approved; PO Florence Nightingale named"
+  },
+  {
+   "f": "Initiating Q4–8 — benefits, stakeholders, roles, PSC",
+   "what": "Are benefits and success criteria documented and measurable; all key stakeholders identified; initial roles defined; the PSC established?",
+   "who": "PM checks · PO confirms PSC",
+   "castor": "Yes — SC1–SC5 all measurable; PSC constituted with PO, SP, BM, PM plus UR and AO"
+  },
+  {
+   "f": "Initiating Q9–11 — alternatives, uncertainty, synergies",
+   "what": "Have at least four alternative solutions been analysed, e.g. by SWOT; are major assumptions, constraints and risks identified; synergies and dependencies analysed?",
+   "who": "PM checks · BM owns the analysis",
+   "castor": "Q9 Yes, Partially — three alternatives (do nothing, extend LOS, configure a platform); Q10–11 Yes"
+  },
+  {
+   "f": "Initiating Q12–15 — money",
+   "what": "Is TCO estimated in FTE and €; are requestor and provider costs both included; are funding budget lines identified per cost element; are savings estimated?",
+   "who": "PM checks · SP and BM supply costs",
+   "castor": "Yes — €8.4 m / 3,100 PD covering both the IT and the Lending Operations sides"
+  },
+  {
+   "f": "Initiating Q16–20 — Business Case, PM, traceability",
+   "what": "Business Case documented and approved; PM assigned; requestor needs linked to deliverables; roadmap with milestones documented; approach or methodology identified.",
+   "who": "PM checks · PO approves the Business Case",
+   "castor": "Yes — Business Case approved 24 Mar 2026; needs N-01/N-02 traced to D-01–D-04; PM² adopted"
+  },
+  {
+   "f": "Initiating Q21–24 — logs, risk responses, resources, compliance",
+   "what": "Risk, Issue and Decision Logs set up; risk responses approved; major resources and requirements identified; security, document management and data protection constraints assessed.",
+   "who": "PM sets up logs · PST advises",
+   "castor": "Yes — three logs open; DPC Louis Brandeis and LISO Alan Turing signed off the constraints"
+  },
+  {
+   "f": "Initiating Q25–27 — Charter, schedule, budget",
+   "what": "Has the Project Charter been documented and approved by the PSC; is the project delivering to schedule; is the allocated budget sufficient at this point?",
+   "who": "PM checks · PSC approves the Charter",
+   "castor": "Q25 Yes — Charter accepted 24 Mar 2026; Q27 Yes, Partially — contingency confirmed only to contract award"
+  },
+  {
+   "f": "Initiating Q28 — gate question",
+   "what": "Is the project ready to proceed to the Planning Phase? The single check the RfP decision turns on.",
+   "who": "PM answers · PSC decides",
+   "castor": "Yes — RfP gate passed 27 Mar 2026"
+  },
+  {
+   "f": "Planning Q1–2 — stakeholders and roles",
+   "what": "Is the Stakeholder Matrix complete with names and contact details; are all project roles and responsibilities detailed?",
+   "who": "PM checks · BM supplies business-side names",
+   "castor": "Yes — matrix covers Lending Ops, Finance & Control, Risk, Legal, PST and the contractor"
+  },
+  {
+   "f": "Planning Q3–11 — plan quality",
+   "what": "Scope broken into estimable components; scope linked to work packages and tasks; every task owned and validated; costs at task level; schedule, critical path and metrics defined.",
+   "who": "PM owns · PCT and task owners validate",
+   "castor": "Yes — 3,100 PD estimated at task level; critical path runs through procurement and Release 2"
+  },
+  {
+   "f": "Planning Q12–21 — Work Plan and the management plans",
+   "what": "Work Plan baselined and approved by the PSC; Handbook; Communications, Change, Risk and Issue plans; escalation process; risk thresholds and appetite; Change Log in place.",
+   "who": "PM produces · PSC approves the Work Plan",
+   "castor": "Yes — Handbook and Work Plan baselined 26 Jun 2026; Change Log opened in Planning"
+  },
+  {
+   "f": "Planning Q22–27 — quality, acceptance, configuration",
+   "what": "Quality requirements and metrics approved by the PSC; acceptance criteria approved by the PO; Quality and Deliverables Acceptance Plans; configuration procedure; processes communicated to the PCT.",
+   "who": "PM produces · PO approves acceptance criteria",
+   "castor": "Yes — acceptance criteria for the reconciliation report approved by the PO, with Marie Curie (UR) consulted"
+  },
+  {
+   "f": "Planning Q28–36 — resources, business change, transition, outsourcing",
+   "what": "All resource types identified and estimated; training needs; Resource Plan; business-side activities; Business Implementation Plan; transition activities agreed; Transition Plan; outsourcing activities and evaluation criteria; Outsourcing Plan.",
+   "who": "PM · BM owns business implementation · AGB accountable for outsourcing",
+   "castor": "Q33–34 Yes, Partially — ownership of retraining 40 loan administrators still split between Transition and Business Implementation Plans"
+  },
+  {
+   "f": "Planning Q37–39 — approvals and deviations",
+   "what": "Are all project plans approved; is a Project Handbook documented; are major deviations from the Project Charter approved by the PSC or the AGB?",
+   "who": "PM submits · PSC / AGB approve",
+   "castor": "Yes — Outsourcing Plan approved by the AGB (Corporate Investment Board), which surprised the PSC"
+  },
+  {
+   "f": "Planning Q40–43 — readiness",
+   "what": "Delivering to schedule; all resources available for Executing; budget sufficient; is the project ready to proceed to the Executing Phase?",
+   "who": "PM answers · PSC decides",
+   "castor": "Yes — RfE gate passed 03 Jul 2026; Executing Kick-off 10 Jul 2026"
+  },
+  {
+   "f": "Executing Q1–9 — work, quality, risk",
+   "what": "Resources and budget to finish and transfer; activities and artefacts as planned; QA and QC performed; deliverables tested; outsourcing monitored; risks mitigated; security and data protection handled.",
+   "who": "PM checks · PQA assures · SP accountable for quality",
+   "castor": "Yes — Levallois's work reviewed under the Outsourcing Plan; R-07 had already become an issue and was resolved"
+  },
+  {
+   "f": "Executing Q10–19 — changes, fit, transition, communication",
+   "what": "Approved changes implemented; deliverables match requestor needs; issues closed; deliverables ready for PO approval; transition and training done; stakeholders informed; metrics captured; business implementation and communications performed.",
+   "who": "PM · BM leads business implementation",
+   "castor": "Yes — the SRF-backstop request was handled as a Change Request and a PSC decision, not a favour; 40 staff trained"
+  },
+  {
+   "f": "Executing Q20–29 — acceptance and handover",
+   "what": "PO formal approval; approvals documented by the right people; deliverables operational; formal transfer to PO and operations; maintenance list and announcement; repository and configuration complete; ready for Closing?",
+   "who": "PO approves · PM organises · SP hands over",
+   "castor": "Q20 Yes, Partially — partial acceptance of the reconciliation report after the parallel run overlapped a bond rollover; RfC passed 22 Jun 2028"
+  },
+  {
+   "f": "Closing Q1–6 — review, performance, benefits, open items",
+   "what": "Project-End Review Meeting held; final metrics compared to baselines; benefits and unachieved goals assessed with remaining benefits forecast; satisfaction assessed; open risks and issues re-assessed with owners.",
+   "who": "PM runs · stakeholders evaluate",
+   "castor": "Q3 Yes, Partially — benefits only measurable in 2029, so tracking passes to Lending Operations"
+  },
+  {
+   "f": "Closing Q7–12 — handover, lessons, report, archive",
+   "what": "Handover to operations performed; support and maintenance running; stakeholder feedback collected; Lessons Learned and recommendations captured; Project-End Report delivered; artefacts archived centrally.",
+   "who": "PM produces · PSC accepts the report",
+   "castor": "Yes — Project-End Review Meeting 12 Jul 2028; report issued with benefit tracking handed to the permanent organisation"
+  },
+  {
+   "f": "Closing Q13–20 — compliance, acceptance, release, closure",
+   "what": "Records-management policy followed; configuration and security procedures completed; formal acceptance by PSC or PO; team performance assessed; team released; costs stopped; ready to be closed?",
+   "who": "PM · PO gives final approval · PSC accepts",
+   "castor": "Yes — administrative closure completed 28 Jul 2028; project costs stopped and the team released"
+  }
+ ],
+ "traps": [
+  "It is not approved by anyone — the PM completes it; the PSC approves the phase transition.",
+  "There is no RASCI row for it in the guide; it is an output of Manage Quality (SP=A, PM=R).",
+  "One workbook, four sheets, three gates — the Closing sheet sits after RfC, not at a gate.",
+  "A high score is not a gate pass: the PSC still decides, guided by the phase's own goals.",
+  "Do not confuse it with the Quality Review Checklist (deliverable quality) or the Business Implementation Checklist."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Phase-Exit Review Checklist, Project CASTOR (Summary sheet + Initiating sheet)",
+  "rows": [
+   [
+    "Field / Check",
+    "Value"
+   ],
+   [
+    "Organisation / Department",
+    "European Stability Mechanism — Lending Operations Division"
+   ],
+   [
+    "Project Name",
+    "Project CASTOR — Renewal of the Lending Operations System"
+   ],
+   [
+    "PO · BM · SP · PM",
+    "Florence Nightingale · Grace Hopper · Leonardo da Vinci · PM, ESM Project Support Office"
+   ],
+   [
+    "Reviewer Name",
+    "PM, ESM Project Support Office (assured by W. Edwards Deming, PQA)"
+   ],
+   [
+    "Overall Compliance (%) / Status",
+    "97% · 0.9"
+   ],
+   [
+    "Initiating · status / compliance / date / performed",
+    "0.9 · 96% · 27 Mar 2026 · Yes"
+   ],
+   [
+    "Planning · status / compliance / date / performed",
+    "0.9 · 98% · 03 Jul 2026 · Yes"
+   ],
+   [
+    "Executing · status / compliance / date / performed",
+    "0.9 · 97% · 22 Jun 2028 · Yes"
+   ],
+   [
+    "Closing · status / compliance / date / performed",
+    "0.9 · 98% · 28 Jul 2028 · Yes"
+   ],
+   [
+    "Initiating Q9 — at least 4 alternatives analysed?",
+    "Yes, Partially — three alternatives assessed by SWOT (do nothing; extend LOS in-house; configure a market platform). Accepted by the PSC as sufficient."
+   ],
+   [
+    "Initiating Q16 — Business Case approved?",
+    "Yes — approved 24 Mar 2026 by the Corporate Investment Board on the Project Owner's submission"
+   ],
+   [
+    "Initiating Q25 — Charter approved by the PSC?",
+    "Yes — accepted by the Project Steering Committee 24 Mar 2026"
+   ],
+   [
+    "Initiating Q28 — ready to proceed to Planning?",
+    "Yes — RfP gate passed 27 Mar 2026; Planning Kick-off Meeting 09 Apr 2026"
+   ]
+  ]
+ }
+}

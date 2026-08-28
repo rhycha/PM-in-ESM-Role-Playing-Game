@@ -1,0 +1,190 @@
+{
+ "n": 34,
+ "id": "risks",
+ "name": "Risks",
+ "group": "Themes",
+ "one_liner": "Impediments are risk; PM²-Agile manages risk implicitly and explicitly every iteration.",
+ "purpose": "Agile risk management involves removing the obstacles — impediments or roadblocks — that prevent or block work progress during an iteration; removing them reduces the project's overall risk. PM² Project Risk Management activities are still used in PM²-Agile and are performed throughout every iteration. The guide distinguishes an implicit approach, intrinsic to the agile process, from an explicit approach that adds specific agile risk management tools and techniques.",
+ "guide_page": 33,
+ "meta": [
+  [
+   "Theme",
+   "4.6"
+  ],
+  [
+   "Two approaches",
+   "Implicit — intrinsic to the process; Explicit — deliberate tools and strategies"
+  ],
+  [
+   "Still PM²",
+   "The PM² Risk Management Process and its four steps remain"
+  ]
+ ],
+ "rasci": null,
+ "diagram": [
+  {
+   "sec": "Two risk management approaches",
+   "items": [
+    "Implicit — risk management emerges naturally from iterative planning and review activities",
+    "Explicit — deliberate strategies to identify, assess and mitigate risk with agile tools and techniques"
+   ]
+  },
+  {
+   "sec": "The four PM² risk steps, agile-style",
+   "items": [
+    "Identify Risks — implicitly in ceremonies; explicitly as added planning agenda topics",
+    "Risk Assessment — generally qualitative, using likelihood and impact on a one-to-five scale",
+    "Develop a Risk Response Strategy — the whole team in planning; explicitly via risk-based spikes or risk boards",
+    "Control Risk Response activities — implicit in the iterative rhythm; daily stand-ups expose threats"
+   ]
+  },
+  {
+   "sec": "Why PM²-Agile is less risky by nature",
+   "items": [
+    "Collocated teams — better communication and less wasted time",
+    "Simplicity — maximise the work not done; wasteful processes eliminated and gold plating banned",
+    "Regular Reflection — improvements implemented immediately in the following iterations"
+   ]
+  },
+  {
+   "sec": "When risks are revisited",
+   "items": [
+    "Continuously, during the Daily Stand-up, as obstacles or as risks",
+    "During Iteration Planning, when the result influences what is planned",
+    "At least by the end of the iteration, during the Iteration Retrospective"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Obstacles are the unit of risk",
+   "what": "Impediments or roadblocks are any situation or event that prevents or blocks work progress during an iteration.",
+   "who": "A-PCT identifies; TeCo helps remove",
+   "pollux": "A pending data-protection ruling blocking national-authority access."
+  },
+  {
+   "f": "Removing obstacles reduces risk",
+   "what": "Removing these obstacles reduces the overall risk of a PM²-Agile project.",
+   "who": "TeCo, PM",
+   "pollux": "Lovelace escalates blockers rather than letting them sit an iteration."
+  },
+  {
+   "f": "PM² risk management still applies",
+   "what": "PM² Project Risk Management activities are also used in PM²-Agile and are performed throughout every iteration.",
+   "who": "PM, TeCo, A-PCT",
+   "pollux": "The Risk Log survives the switch from CASTOR's approach."
+  },
+  {
+   "f": "Collocated teams",
+   "what": "Bringing the project team and the client together, preferably in the same physical area, leads to better communication and less wasted time.",
+   "who": "A-PCT with the PrOw",
+   "pollux": "Curie sits with the team rather than in Reporting."
+  },
+  {
+   "f": "Simplicity",
+   "what": "Maximise the amount of work not done: concentrate on the minimum work needed, eliminate wasteful processes and ban gold plating.",
+   "who": "A-PCT",
+   "pollux": "No report view is built until a prototype proves someone needs it."
+  },
+  {
+   "f": "Regular reflection",
+   "what": "Continuously improving processes throughout the project reduces risk exponentially, with improvements implemented in the following iterations.",
+   "who": "A-PCT in the Retrospective",
+   "pollux": "Deming is delighted — retrospectives are his life's work."
+  },
+  {
+   "f": "Implicit risk management",
+   "what": "What is intrinsic to the agile process: risk management comes out naturally from iterative planning and review activities.",
+   "who": "Whole team",
+   "pollux": "Every fortnight's planning surfaces what could go wrong next."
+  },
+  {
+   "f": "Explicit risk management",
+   "what": "Implementing risk management strategies to identify, assess and mitigate risk using specific agile risk management tools and techniques.",
+   "who": "PM, TeCo, ArOw",
+   "pollux": "A risk board for the traceability work behind criterion SC4."
+  },
+  {
+   "f": "Identify Risks",
+   "what": "The whole team implicitly identifies risks during ceremonies and records results on whiteboards; explicitly, planning agendas add risk topics.",
+   "who": "A-PCT",
+   "pollux": "The 'Babbage never finishes an engine' risk is named in planning."
+  },
+  {
+   "f": "Risk Assessment",
+   "what": "Agile projects generally perform only qualitative analysis; short cycles and constant reviews make this feasible and effective.",
+   "who": "Team exercise",
+   "pollux": "Assessed by the team rather than modelled quantitatively."
+  },
+  {
+   "f": "Qualitative scale",
+   "what": "Risk likelihood and risk impact are rated on a relative scale of one to five, making assessment a team exercise.",
+   "who": "A-PCT",
+   "pollux": "Feeds the consolidated view Lovelace shows on the team's radiators."
+  },
+  {
+   "f": "Risk information radiators",
+   "what": "Qualitative assessment provides consolidated information to the risk information radiators visible to the team.",
+   "who": "A-PCT and visitors",
+   "pollux": "Visible in the team space alongside the burndown."
+  },
+  {
+   "f": "Develop a Risk Response Strategy",
+   "what": "The whole team is implicitly involved in response planning each iteration; explicitly, risk-based spikes or risk boards develop immediate responses.",
+   "who": "A-PCT, ArOw",
+   "pollux": "A spike tests the traceability approach before committing Release 2."
+  },
+  {
+   "f": "Control Risk Response activities",
+   "what": "Risk response is continuous; PM²-Agile has monitoring and controlling implicit, with daily stand-ups exposing potential threats and obstacles.",
+   "who": "A-PCT, TeCo",
+   "pollux": "Threats surface each morning rather than at a monthly review."
+  },
+  {
+   "f": "Reassessment point",
+   "what": "Risk reassessment occurs at least by the end of the iteration, during the Retrospective, revisiting previous risks and concerns.",
+   "who": "A-PCT in the Retrospective",
+   "pollux": "Every fortnight the team revisits what nearly went wrong."
+  }
+ ],
+ "traps": [
+  "Impediments are the agile face of risk — removing them reduces overall project risk.",
+  "PM²-Agile projects still follow the PM² Risk Management Process and the Risk Log.",
+  "Agile projects generally perform qualitative analysis at the expense of quantitative.",
+  "Risk reassessment happens at least at each iteration's end, in the Retrospective.",
+  "Implicit does not mean unmanaged; explicit simply adds tools on top."
+ ],
+ "pollux_excerpt": {
+  "title": "Risk on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Named live risk",
+    "Charles Babbage builds engines and famously never finished one"
+   ],
+   [
+    "Compliance risk",
+    "National-authority access raises real data-protection questions"
+   ],
+   [
+    "Who advises",
+    "Louis Brandeis (DPC) and Alan Turing (LISO)"
+   ],
+   [
+    "Architectural risk route",
+    "Einstein informs Lovelace and you, per the ArOw's responsibilities"
+   ],
+   [
+    "Implicit rhythm",
+    "Daily Stand-up, Iteration Planning, Retrospective each fortnight"
+   ],
+   [
+    "Reassessment",
+    "At least at the end of every two-week iteration"
+   ]
+  ]
+ }
+}

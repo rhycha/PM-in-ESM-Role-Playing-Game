@@ -1,0 +1,417 @@
+{
+ "n": 12,
+ "id": "project-change-management-plan",
+ "name": "Project Change Management Plan",
+ "family": "Management Plan",
+ "one_liner": "How changes to the baselined project are raised, assessed, approved and controlled.",
+ "purpose": "Defines and documents the change process for the project: the activities, roles and responsibilities related to identifying, documenting, assessing, approving, prioritising, implementing, controlling and communicating requested project changes. It brings transparency, accountability and traceability to all changes made after the project scope and plans have been baselined. Its escalation procedure ensures that changes with significant impact on project performance are assessed and approved by the appropriate level of authority.",
+ "guide_page": 90,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "C",
+   "BIG": "I",
+   "SP": "I",
+   "PM": "R",
+   "PCT": "I"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Owner (PO)",
+ "inputs": [
+  "Business Case",
+  "Project Charter",
+  "Project Handbook",
+  "Project Work Plan"
+ ],
+ "feeds": [
+  "Change Log",
+  "Change Request Form",
+  "Project Work Plan",
+  "Project Progress Report"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Written and approved; the Change Log is set up"
+  },
+  {
+   "phase": "Executing",
+   "what": "Change Requests raised, assessed, decided, implemented"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Manage Project Change; Change Log reviewed weekly and monthly"
+  },
+  {
+   "phase": "Closing",
+   "what": "Open and rejected changes summarised in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Cover & Settings (title, PO, PM, version, sensitivity)",
+    "Document Approver(s) and Reviewer(s)",
+    "Document History",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Purpose of the document",
+    "Describes the change management process",
+    "Defines roles and responsibilities",
+    "Specifies methodology, standards, tools and techniques"
+   ]
+  },
+  {
+   "sec": "2. Change Management Objectives",
+   "items": [
+    "Transparency, accountability, traceability after baselining",
+    "What counts as a project change",
+    "Boundary with configuration management (Quality Plan)"
+   ]
+  },
+  {
+   "sec": "3. Change Management process",
+   "items": [
+    "Step 1: Change Identification",
+    "Step 2: Change Assessment and Action Recommendation",
+    "Step 3: Change Approval",
+    "Step 4: Change Implementation",
+    "Step 5: Change Control"
+   ]
+  },
+  {
+   "sec": "4. Change Management Roles and Responsibilities",
+   "items": [
+    "PSC, PO, BM, SP, PM, PCT, BIG responsibilities",
+    "Change Control Board (CCB) / Change Advisory Board (CAB)",
+    "Other stakeholders",
+    "RASCI table (Plan + Manage Project Changes)"
+   ]
+  },
+  {
+   "sec": "5. Tools and Techniques",
+   "items": [
+    "Techniques: impact analysis",
+    "Tools: Change Log, Change Request Form",
+    "5.1 Change Log structure",
+    "5.2 Change Request Form structure"
+   ]
+  },
+  {
+   "sec": "6. Change Identification Activities",
+   "items": [
+    "Where changes come from",
+    "Issues that lead to project change",
+    "Role of the Change Request Form",
+    "Registration in the Change Log"
+   ]
+  },
+  {
+   "sec": "7. Change Assessment and Action Recommendation Activities",
+   "items": [
+    "Impact analysis",
+    "Risk analysis and Risk Log",
+    "Change Log update",
+    "Change Control Meetings; minor changes at Status Meetings"
+   ]
+  },
+  {
+   "sec": "8. Change Approval Decisions",
+   "items": [
+    "Significant-size changes to the monthly PSC",
+    "PSC acts as CCB/CAB; Charter and Business Case re-checked",
+    "Information the Change Log must already hold",
+    "8.1 Escalation workflow by change size"
+   ]
+  },
+  {
+   "sec": "9. Change Implementation Activities",
+   "items": [
+    "Project Work Plan",
+    "Change Log",
+    "Decision Log"
+   ]
+  },
+  {
+   "sec": "10. Change Control and Reporting",
+   "items": [
+    "Weekly reassessment at Project Status Meetings",
+    "Monthly status to PSC and CCB/CAB",
+    "Yearly Project Progress Report to governance bodies"
+   ]
+  },
+  {
+   "sec": "11. Related PM² Plans",
+   "items": [
+    "Project Handbook",
+    "Communications Management Plan",
+    "Quality Management Plan",
+    "Issue Management Plan"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "Title, version and date of each related document",
+    "Source or link/location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1. Introduction",
+   "what": "States the purpose: describe the change management process for the project, define change-related roles and responsibilities, and specify the methodology, standards, tools and techniques used.",
+   "who": "PM drafts · PO approves",
+   "castor": "Change management for Project CASTOR after the 26 Jun 2026 baseline."
+  },
+  {
+   "f": "2. Change Management Objectives",
+   "what": "Bring transparency, accountability and traceability to all changes made after scope and plans are baselined, so significant impacts on scope, time, cost, quality or risk are properly approved.",
+   "who": "PM drafts · PO approves",
+   "castor": "No change to the €8.4 m budget or the 15 May 2028 go-live without a PSC decision."
+  },
+  {
+   "f": "What is considered a project change",
+   "what": "A change can result from a scope change, a new requirement, an identified issue, a preventive action to reduce a risk level, or a decision altering any baseline.",
+   "who": "PM defines · PO approves",
+   "castor": "Scope, schedule, cost, quality and Levallois contract baselines are all change-controlled."
+  },
+  {
+   "f": "Boundary with configuration management",
+   "what": "Managing changes to configuration items — project artefacts and deliverables and their versions — is part of quality management and is documented in the Quality Management Plan.",
+   "who": "PM aligns with PQA",
+   "castor": "Document versioning handled by W. Edwards Deming (PQA) under the Quality Management Plan."
+  },
+  {
+   "f": "Step 1: Change Identification",
+   "what": "Any stakeholder can request a change at any time. The PM registers it in the Change Log and ensures it is described on a Change Request Form.",
+   "who": "Any stakeholder raises · PM registers",
+   "castor": "Verbal cabinet request of 21 Sep 2027 written up and logged as CHG-011 on 23 Sep."
+  },
+  {
+   "f": "Step 2: Change Assessment and Action Recommendation",
+   "what": "Assess whether it really is a project change, define options, size each option by impact on objectives, quality, risk, schedule, cost, effort and contract, then set priority.",
+   "who": "PM leads · PCT estimates · BM and SP consulted",
+   "castor": "CHG-011 sized at +€310k and +8 weeks on the Release 2 integration stream."
+  },
+  {
+   "f": "Contract and tendering impact",
+   "what": "If a contractor is involved, the impact on the contract must be assessed: contract changes are costly and slow, and their volume may be constrained by European tendering rules.",
+   "who": "PM · Legal · SP consulted",
+   "castor": "Any change touching the Levallois contract of 18 Sep 2026 needs Legal review first."
+  },
+  {
+   "f": "Step 3: Change Approval",
+   "what": "Decision taken by the appropriate decision-makers per the escalation procedure. Four possible decisions: Approve, Reject, Postpone or Merge. Requests needing clarification return to Step 2.",
+   "who": "PO or PSC decides · PM communicates",
+   "castor": "PSC of 12 Oct 2027 postponed CHG-011 until the Treaty reform enters into force."
+  },
+  {
+   "f": "Step 4: Change Implementation",
+   "what": "For approved or merged changes the PM incorporates the actions into the Project Work Plan and updates plans, logs and checklists — requirements, quality, resource, acceptance, and all four logs.",
+   "who": "PM implements · PCT executes",
+   "castor": "Approved changes become numbered Work Plan tasks before the next status report."
+  },
+  {
+   "f": "Step 5: Change Control",
+   "what": "Monitor and control changes so they can be communicated to each decision layer; the PM collects change information and controls the status of every change management activity.",
+   "who": "PM controls · PSC oversees",
+   "castor": "Change Log reviewed at the weekly Project Status Meeting each Tuesday."
+  },
+  {
+   "f": "4. Change Management Roles and Responsibilities",
+   "what": "PSC consulted on approvals and informed monthly; PO accountable and approves, rejects or escalates; BM and SP consulted from requester and provider sides; PM responsible; PCT supports; BIG informed.",
+   "who": "PM drafts · roles confirm",
+   "castor": "Florence Nightingale accountable; Grace Hopper and Leonardo da Vinci consulted on every assessment."
+  },
+  {
+   "f": "Change Control Board (CCB) / Change Advisory Board (CAB)",
+   "what": "The PO and/or PSC may delegate the authority for approving or rejecting changes to a Change Control Board or Change Advisory Board; in the template the PSC plays that role.",
+   "who": "PO/PSC delegate · PM services the board",
+   "castor": "No separate board: the CASTOR PSC acts as Change Control Board."
+  },
+  {
+   "f": "RASCI table",
+   "what": "Two rows: the Plan itself (I, I, A, C, I, I, R, I) and the Manage Project Changes process (I, C, A, S, I, I, R, C).",
+   "who": "PM completes · PO approves",
+   "castor": "PSC only Informed on the plan, but Consulted once changes are being managed."
+  },
+  {
+   "f": "5. Tools and Techniques",
+   "what": "Lists the techniques used for change management — principally impact analysis — and the tools: the Change Log and the Change Request Form.",
+   "who": "PM selects",
+   "castor": "Impact analysis, risk analysis, Change Log, Change Request Form."
+  },
+  {
+   "f": "5.1 Change Log (structure)",
+   "what": "Four blocks: identification and description; assessment and action description; approval; implementation. Customise scales of urgency, size and priority to the project.",
+   "who": "PM owns and updates",
+   "castor": "PM² Change Log used unchanged; stored beside the Risk, Issue and Decision Logs."
+  },
+  {
+   "f": "Change status values",
+   "what": "Submitted, Assessing, Waiting for Approval, Approved, Rejected, Postponed, Merged (folded into another change), Implemented (work incorporated in the Project Work Plan).",
+   "who": "PM sets · PSC decides",
+   "castor": "CHG-011 ran Submitted → Assessing → Waiting for Approval → Postponed."
+  },
+  {
+   "f": "Size and Priority scales",
+   "what": "Size is the effort required to implement the change; Priority is its agreed relative importance. Both use 5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low.",
+   "who": "PCT sizes · PSC agrees priority",
+   "castor": "CHG-011: Size 4 (High), Priority 2 (Low) — high effort, low urgency."
+  },
+  {
+   "f": "5.2 Change Request Form",
+   "what": "Captures the original request: project name, Change ID, change name, identification date, requestor, category, priority, current situation, desired situation, impact/risks of not implementing, out of scope, links.",
+   "who": "Requestor completes · PM checks",
+   "castor": "CR-011 signed off by the requesting cabinet before assessment started."
+  },
+  {
+   "f": "6. Change Identification Activities",
+   "what": "Changes surface from team brainstorming, meetings, user feedback, a risk response, a major delay or cost overrun, assumptions analysis, or a direct stakeholder request.",
+   "who": "Any stakeholder · PM screens",
+   "castor": "Weekly status meeting and monthly PSC are the two standing identification points."
+  },
+  {
+   "f": "Issues that lead to change",
+   "what": "Issues of significant size may lead to a project change, so issues are often linked to change items; both are logged, assessed, assigned and tracked, each in its own log.",
+   "who": "PM links log entries",
+   "castor": "ISS-012 (architect resignation) linked to the Release 2 replanning entry."
+  },
+  {
+   "f": "7. Change Assessment and Action Recommendation Activities",
+   "what": "Names the assessment activities and tools: impact analysis on time, cost and quality; risk analysis for new risks; Risk Log; Change Log. Reviewed at Change Control Meetings.",
+   "who": "PM runs · PCT and BM contribute",
+   "castor": "Impact analysis by Nikola Tesla; new risk raised on the Release 2 date."
+  },
+  {
+   "f": "Change Control Meeting",
+   "what": "The meeting where changes are reviewed, recommendations proposed, prioritised and logged. Minor changes may be first discussed at the more frequent Project Status Meeting.",
+   "who": "PM chairs · BM, SP attend",
+   "castor": "Monthly Change Control Meeting held the week before each PSC."
+  },
+  {
+   "f": "8. Change Approval Decisions",
+   "what": "Significant-size changes are discussed at the monthly PSC. For substantial scope, schedule or cost changes the PSC re-checks the Project Charter boundaries and the Business Case justification.",
+   "who": "PSC decides · PM prepares",
+   "castor": "CHG-011 tested against the Charter scope statement before the PSC voted."
+  },
+  {
+   "f": "8.1 Escalation procedure",
+   "what": "Very Low and Low size changes are approved at the Managing Layer (BM and PM); Medium, High and Very High by the PSC or CCB/CAB, which escalates further.",
+   "who": "PM applies · PO owns the rule",
+   "castor": "Managing Layer may approve only changes with no impact on €8.4 m or committed dates."
+  },
+  {
+   "f": "AGB reporting of scope change",
+   "what": "Substantial project scope changes are reported yearly in the Project Progress Report, to be reviewed and approved by the Appropriate Governance Body.",
+   "who": "PM reports · AGB approves",
+   "castor": "Reported yearly to the Corporate Investment Board chaired by Lorenzo de' Medici."
+  },
+  {
+   "f": "9. Change Implementation Activities",
+   "what": "Records where implementation of approved changes is reflected, monitored and controlled: the Project Work Plan, the Change Log and the Decision Log.",
+   "who": "PM maintains",
+   "castor": "CHG-011 traced to DEC-011 in the Decision Log and to REQ-108."
+  },
+  {
+   "f": "10. Change Control and Reporting",
+   "what": "New or open changes are reassessed weekly at Project Status Meetings; Medium, High and Very High changes are reported monthly to the PSC and CCB/CAB, yearly to governance bodies.",
+   "who": "PM reports · PSC reviews",
+   "castor": "Change Log extract in every monthly PSC pack from Jul 2026 onwards."
+  },
+  {
+   "f": "11. Related PM² Plans",
+   "what": "Cross-references the Project Handbook (escalation), Communications Management Plan (who is told what), Quality Management Plan (configuration) and Issue Management Plan (issues that generate changes).",
+   "who": "PM maintains cross-references",
+   "castor": "Handbook, Communications, Quality and Issue plans, all version 1.0 of 26 Jun 2026."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Lists each reference or related document by title, version, date and source or link/location.",
+   "who": "PM lists · PSO keeps locations",
+   "castor": "26.Change_Log.CASTOR.xlsx in the ESM PSO project folder."
+  }
+ ],
+ "traps": [
+  "Four decisions exist: Approve, Reject, Postpone, Merge — not just approve or reject.",
+  "The plan defines the process; the Change Log holds the actual change instances.",
+  "Change Log is set up in Planning; Risk, Issue and Decision Logs in Initiating.",
+  "Versioning artefacts is configuration/quality management, not project change management.",
+  "A verbal request is not a change until it has a Change Request Form and Log entry."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Change Management Plan v1.0, 26 Jun 2026",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Approved by",
+    "Florence Nightingale, Project Owner — 26 Jun 2026"
+   ],
+   [
+    "What is a change",
+    "Any deviation from the scope, schedule, cost or quality baselined on 26 Jun 2026"
+   ],
+   [
+    "Change categories",
+    "New requirement · Issue-related · Risk-related · Business improvement · Contract"
+   ],
+   [
+    "Size and Priority scale",
+    "5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low"
+   ],
+   [
+    "Managing Layer authority",
+    "Very Low and Low size only — no impact on the €8.4 m budget or committed dates"
+   ],
+   [
+    "PSC authority",
+    "Medium, High and Very High size; the CASTOR PSC acts as Change Control Board"
+   ],
+   [
+    "AGB reporting",
+    "Substantial scope changes reported yearly to the Corporate Investment Board"
+   ],
+   [
+    "Change Control Meeting",
+    "Monthly, chaired by the PM, held the week before each PSC"
+   ],
+   [
+    "Contract clause",
+    "Any change touching the Levallois Systems contract needs Legal review before assessment closes"
+   ],
+   [
+    "Worked example CHG-011",
+    "SRF-backstop screens requested verbally 21 Sep 2027; Change Request Form CR-011 logged 23 Sep 2027"
+   ],
+   [
+    "CHG-011 assessment",
+    "Size 4 (High): +€310k, +8 weeks on Release 2; Priority 2 (Low)"
+   ],
+   [
+    "CHG-011 decision",
+    "Postponed by the PSC on 12 Oct 2027 — revisit when the ESM Treaty reform enters into force"
+   ],
+   [
+    "Traceability",
+    "CHG-011 → DEC-011 (Decision Log) → REQ-108 (Rejected, postponed)"
+   ]
+  ]
+ }
+}

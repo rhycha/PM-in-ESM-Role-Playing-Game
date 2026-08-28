@@ -1,0 +1,424 @@
+{
+ "n": 5,
+ "id": "project-stakeholder-matrix",
+ "name": "Project Stakeholder Matrix",
+ "family": "Planning",
+ "one_liner": "Who is who — every stakeholder, their role, contact details and clout.",
+ "purpose": "The Project Stakeholder Matrix lists all (key) project stakeholders with their contact details and clearly states their role(s) in the project. It may also classify or categorise each stakeholder. What is captured should be tailored to the project's needs, respecting privacy and personal-data rules.",
+ "guide_page": 44,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "S",
+   "BIG": "C",
+   "SP": "I",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Planning Phase (roles first named in the Project Charter)",
+ "approved_by": "Project Owner (PO)",
+ "inputs": [
+  "Business Case",
+  "Project Charter",
+  "Planning Kick-off Minutes of Meeting (MoM)"
+ ],
+ "feeds": [
+  "Project Handbook (2.3 Project Stakeholders)",
+  "Communications Management Plan",
+  "Outsourcing Plan",
+  "Manage Stakeholders",
+  "Stakeholders Checklist",
+  "Project-End Report"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Preliminary role information taken from the Project Charter"
+  },
+  {
+   "phase": "Planning",
+   "what": "Updated: every role assigned a named person"
+  },
+  {
+   "phase": "Executing",
+   "what": "Drives information distribution and report recipients"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Updated as an output of Manage Stakeholders"
+  },
+  {
+   "phase": "Closing",
+   "what": "Feeds the Project-End Report; stakeholders thanked and released"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Sheet 1 · Stakeholder Matrix — identification",
+   "items": [
+    "Organisation",
+    "Dept / Unit",
+    "Team",
+    "Name",
+    "Notes",
+    "Impact"
+   ]
+  },
+  {
+   "sec": "Sheet 1 · Teams (tick columns)",
+   "items": [
+    "Appropriate Governance Body (AGB)",
+    "Project Steering Committee (PSC)",
+    "Project Core Team (PCT)",
+    "Project Support Team (PST)",
+    "Business Implentation Group (BIG)"
+   ]
+  },
+  {
+   "sec": "Sheet 1 · PSC roles (tick columns)",
+   "items": [
+    "Project Owner (PO)",
+    "Business Manager (BM)",
+    "Solution Provider (SP)",
+    "Project Manager (PM)"
+   ]
+  },
+  {
+   "sec": "Sheet 1 · PCT + Agile roles (tick columns)",
+   "items": [
+    "Contractor Project Manager (CPM)",
+    "Assistant Project Manager (APM)",
+    "Other Team member",
+    "Team Coordinator (TeCo)",
+    "Product Owner (PrOw)",
+    "Architecture Owner (ArOw)",
+    "Agile Team Member (ATeM)",
+    "Other ….."
+   ]
+  },
+  {
+   "sec": "Sheet 1 · Users & support (tick columns)",
+   "items": [
+    "User Representative (URs)",
+    "User",
+    "Other …..",
+    "Project Support Officer (PSO)"
+   ]
+  },
+  {
+   "sec": "Sheet 2 · Key Stakeholder Data Sheet — personal information",
+   "items": [
+    "Last name · First name · Role",
+    "Mobile · Email",
+    "Internal: Organisation, Dept / Unit",
+    "External: Company, Address"
+   ]
+  },
+  {
+   "sec": "Sheet 2 · Communication preference",
+   "items": [
+    "Frequency: Daily, Weekly, Bi-monthly, Monthly, Crisis",
+    "Channel: Face-Face, Text, email, PSR, PSC, Other",
+    "Concerns and needs"
+   ]
+  },
+  {
+   "sec": "Sheet 2 · Analysis",
+   "items": [
+    "Involvement during phases: Initiating, Planning, Executing, Closing",
+    "Influence: Power/Influence and Interest",
+    "Risk Appetite: Budget, Timing, Scope, Other",
+    "Details"
+   ]
+  },
+  {
+   "sec": "Sheet 3 · Project Roles (reference list)",
+   "meta": true,
+   "items": [
+    "Role · Initials",
+    "R/P — Requestor or Provider side",
+    "Group or individual · Role type (key / optional / key decision body)",
+    "Description · PSC participation (Chairman / Key member / On request / No)",
+    "Classification: Teams, Roles, Support, Operational, Agile, IT, Other DG"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Organisation",
+   "what": "The organisation the stakeholder belongs to — used to separate internal staff from contractors and other bodies.",
+   "who": "PM fills · BM assists on requestor side",
+   "castor": "ESM for all internal roles; Levallois Systems for the contractor staff."
+  },
+  {
+   "f": "Dept / Unit",
+   "what": "Department or unit inside that organisation, so the matrix mirrors the project's organisational structure.",
+   "who": "PM fills",
+   "castor": "Lending Operations Division · IT & Digital Division · Project Support Office."
+  },
+  {
+   "f": "Team",
+   "what": "Free-text grouping used alongside the tick columns, e.g. the sub-team or work stream the person sits in.",
+   "who": "PM fills",
+   "castor": "Business Implementation Group, coordinated by Grace Hopper, with Lending Ops, Finance & Control, Risk and Legal members."
+  },
+  {
+   "f": "Name",
+   "what": "The named individual. Every project role must be held by a physical person, not by an anonymous group.",
+   "who": "PM fills · PO approves",
+   "castor": "Florence Nightingale, Leonardo da Vinci, Grace Hopper, Marie Curie, Gustave Eiffel, Albert Einstein."
+  },
+  {
+   "f": "Notes",
+   "what": "Free-text remarks about the stakeholder — availability, sensitivities, substitutes, anything that shapes how you deal with them.",
+   "who": "PM maintains",
+   "castor": "Marie Curie does the day job the platform will change; expect blunt feedback at acceptance."
+  },
+  {
+   "f": "Impact",
+   "what": "The level of impact the project has on this stakeholder (and vice versa). The template ships no fixed scale — set one and apply it consistently.",
+   "who": "PM assesses · BM assists",
+   "castor": "High for the 40 loan administrators; medium for Finance & Control; low for the Document Management Officer."
+  },
+  {
+   "f": "Teams columns — AGB, PSC, PCT, PST, BIG",
+   "what": "Tick columns marking membership of each PM² team. One person can belong to several teams.",
+   "who": "PM assigns · PO approves",
+   "castor": "Lorenzo de' Medici ticked AGB; Florence, Leonardo, Grace, the PM and Marie Curie ticked PSC."
+  },
+  {
+   "f": "PSC role columns — PO, BM, SP, PM",
+   "what": "Tick columns for the four key PSC roles: Project Owner, Business Manager, Solution Provider, Project Manager.",
+   "who": "PM assigns · PO approves",
+   "castor": "PO Florence Nightingale · BM Grace Hopper · SP Leonardo da Vinci · PM (ESM Project Support Office)."
+  },
+  {
+   "f": "PCT + Agile role columns",
+   "what": "CPM, APM, Other Team member and the four Agile roles (TeCo, PrOw, ArOw, ATeM); delete the ones the project does not use.",
+   "who": "PM assigns",
+   "castor": "CPM Gustave Eiffel (Levallois); Other Team member Nikola Tesla (solution architect) and Ada Lovelace (business analyst)."
+  },
+  {
+   "f": "User Representative (URs) / User",
+   "what": "Operational columns: the people representing user interests, and the wider user population that will run the solution.",
+   "who": "BM identifies · PM records",
+   "castor": "UR Marie Curie; users are the 40 loan administrators in Lending Operations."
+  },
+  {
+   "f": "Project Support Officer (PSO)",
+   "what": "Support column for the office providing PM tooling, reporting and administration services.",
+   "who": "PM records",
+   "castor": "Henry Gantt, ESM Project Support Office."
+  },
+  {
+   "f": "Key Stakeholder Data Sheet (Sheet 2)",
+   "what": "One sheet per stakeholder, for the 3–5 most important only. The gathered information is to be kept private.",
+   "who": "PM completes · kept confidential",
+   "castor": "Sheets held for Florence Nightingale, Leonardo da Vinci, Grace Hopper and Marie Curie."
+  },
+  {
+   "f": "Personal information",
+   "what": "Last name, first name, role, mobile, email, plus internal organisation/unit or external company and address.",
+   "who": "PM collects · DPC advises",
+   "castor": "Marie Curie, Loan Administration Officer, ESM Lending Operations Division; internal."
+  },
+  {
+   "f": "Communication preference — Frequency",
+   "what": "How often this person wants contact: Daily, Weekly, Bi-monthly, Monthly, or only in a Crisis.",
+   "who": "PM agrees with the stakeholder",
+   "castor": "Florence Nightingale monthly by default, immediately on any slip against the 15 May 2028 go-live."
+  },
+  {
+   "f": "Communication preference — Channel",
+   "what": "Preferred medium per frequency: Face-Face, Text, email, PSR (Project Status Report), PSC meeting, or Other.",
+   "who": "PM agrees with the stakeholder",
+   "castor": "Leonardo da Vinci: PSC meeting plus the Project Status Report; Marie Curie: face-to-face."
+  },
+  {
+   "f": "Concerns and needs",
+   "what": "What this stakeholder actually worries about and what they need from the project — the raw material for the engagement strategy.",
+   "who": "PM records · BM assists",
+   "castor": "Marie Curie: that reconciliation still works during the parallel run over the EFSF bond rollover."
+  },
+  {
+   "f": "Involvement during phases",
+   "what": "Expected level of involvement in Initiating, Planning, Executing and Closing, scored on a Low-to-High scale.",
+   "who": "PM assesses",
+   "castor": "Grace Hopper: high in every phase; Lorenzo de' Medici: high at Initiating, low afterwards."
+  },
+  {
+   "f": "Power/Influence",
+   "what": "How much clout the stakeholder has. Template legend: Very Important, Some importance, Little/no importance.",
+   "who": "PM assesses · BM assists",
+   "castor": "Very Important for Lorenzo de' Medici, Florence Nightingale and Leonardo da Vinci."
+  },
+  {
+   "f": "Interest",
+   "what": "How much the stakeholder cares about the project outcome. Template legend: High, Medium, Low.",
+   "who": "PM assesses",
+   "castor": "High for Florence Nightingale and Marie Curie; Medium for Lorenzo de' Medici."
+  },
+  {
+   "f": "Influence (attitude)",
+   "what": "The direction of that influence — Positive, Neutral or Negative. Beware stakeholders who are less than enthusiastic or opposed.",
+   "who": "PM assesses · reviewed continuously",
+   "castor": "Negative for Marie Curie at planning: her day job changes and she refuses to rubber-stamp deliverables."
+  },
+  {
+   "f": "Risk Appetite",
+   "what": "Tolerance per area — Budget, Timing, Scope, Other. Levels: Acceptable, Deviations acceptable, Small deviations acceptable, Deviation is not acceptable.",
+   "who": "PM agrees with the stakeholder",
+   "castor": "Florence Nightingale: timing — deviation is not acceptable on 15 May 2028; budget — small deviations acceptable."
+  },
+  {
+   "f": "Details",
+   "what": "Supporting narrative for the analysis blocks: why these ratings, and what management strategy follows.",
+   "who": "PM records",
+   "castor": "Leonardo da Vinci is protective of the architecture and of his people; involve Albert Einstein early on design decisions."
+  },
+  {
+   "f": "Project Roles sheet — Role / Initials",
+   "what": "Reference list of the 33 possible PM² project roles with their standard abbreviations, so naming stays consistent.",
+   "who": "Shipped with the template",
+   "castor": "Roles used: AGB, PSC, PO, BM, SP, PM, BIG, PCT, PST, UR, CPM, PSO, PQA, DPC, LISO, DMO."
+  },
+  {
+   "f": "Project Roles sheet — R/P",
+   "what": "Whether the role sits on the Requestor side or the Provider side of the project.",
+   "who": "Shipped with the template",
+   "castor": "Requestor: Florence Nightingale, Grace Hopper, Marie Curie. Provider: Leonardo da Vinci, the PM, Gustave Eiffel."
+  },
+  {
+   "f": "Project Roles sheet — Role type",
+   "what": "Key role, key decision body, or optional role — the basis for deciding which roles the project must fill.",
+   "who": "Shipped with the template",
+   "castor": "Key roles filled first: PO, BM, SP, PM, plus PSC as the key decision body."
+  },
+  {
+   "f": "Project Roles sheet — PSC participation",
+   "what": "Whether the role sits on the PSC as Chairman, Key member, On request, or not at all.",
+   "who": "Shipped with the template",
+   "castor": "Chairman: Florence Nightingale. Key members: Grace Hopper, Leonardo da Vinci, PM. On request: Albert Einstein, Gustave Eiffel."
+  },
+  {
+   "f": "Project Roles sheet — Classification",
+   "what": "Groups the role: Teams, Roles, Support, Operational role, Agile specific, IT specific, or Other DG Role.",
+   "who": "Shipped with the template",
+   "castor": "Other DG Role used for Louis Brandeis (DPC), Alan Turing (LISO) and Johannes Gutenberg (DMO)."
+  }
+ ],
+ "traps": [
+  "Approved by the PO, not the PSC — identical RASCI to the Handbook.",
+  "Updated in Planning, not born there: names start in the Project Charter.",
+  "Matrix records who people are; the Checklist verifies what was done with them.",
+  "Interest is High/Medium/Low; Influence is Positive/Neutral/Negative — different scales.",
+  "Personal data: respect privacy rules and keep the Key Stakeholder Data Sheets private."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Stakeholder Matrix v1.0, 26 Jun 2026 (Project CASTOR)",
+  "rows": [
+   [
+    "Name",
+    "Organisation / Unit",
+    "Project role",
+    "Power",
+    "Interest",
+    "Influence"
+   ],
+   [
+    "Lorenzo de' Medici",
+    "ESM — Deputy Managing Director",
+    "AGB, chairs the Corporate Investment Board",
+    "Very Important",
+    "Medium",
+    "Neutral"
+   ],
+   [
+    "Florence Nightingale",
+    "ESM — Lending Operations Division",
+    "Project Owner (PO), chairs the PSC",
+    "Very Important",
+    "High",
+    "Positive"
+   ],
+   [
+    "Leonardo da Vinci",
+    "ESM — IT & Digital Division",
+    "Solution Provider (SP)",
+    "Very Important",
+    "High",
+    "Neutral"
+   ],
+   [
+    "Grace Hopper",
+    "ESM — Lending Operations Division",
+    "Business Manager (BM), coordinates the BIG",
+    "Some importance",
+    "High",
+    "Positive"
+   ],
+   [
+    "Marie Curie",
+    "ESM — Lending Operations Division",
+    "User Representative (UR) on the PSC",
+    "Some importance",
+    "High",
+    "Negative"
+   ],
+   [
+    "Albert Einstein",
+    "ESM — Architecture Office",
+    "Architecture Office (AO), PSC on request",
+    "Some importance",
+    "Medium",
+    "Neutral"
+   ],
+   [
+    "Gustave Eiffel",
+    "Levallois Systems (contractor)",
+    "Contractor's Project Manager (CPM)",
+    "Some importance",
+    "High",
+    "Positive"
+   ],
+   [
+    "Henry Gantt",
+    "ESM — Project Support Office",
+    "Project Support Officer (PSO)",
+    "Little/no importance",
+    "Medium",
+    "Positive"
+   ],
+   [
+    "Louis Brandeis",
+    "ESM — Project Support Team",
+    "Data Protection Coordinator (DPC)",
+    "Some importance",
+    "Low",
+    "Neutral"
+   ],
+   [
+    "Alan Turing",
+    "ESM — Project Support Team",
+    "Local Information Security Officer (LISO)",
+    "Some importance",
+    "Low",
+    "Neutral"
+   ],
+   [
+    "Approved by",
+    "Florence Nightingale (PO), 26 Jun 2026",
+    "Prepared by the PM, assisted by Grace Hopper",
+    "",
+    "",
+    ""
+   ]
+  ]
+ }
+}

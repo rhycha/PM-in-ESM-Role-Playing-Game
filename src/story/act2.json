@@ -1,0 +1,2537 @@
+[
+ {
+  "id": "s10",
+  "act": 2,
+  "actName": "Planning",
+  "title": "Everyone in one room, once",
+  "covers": [
+   "Planning Kick-off Meeting",
+   "Meeting Agenda"
+  ],
+  "guide_page": 40,
+  "where": "ESM, Kirchberg — B-2.04, the long room with the ceiling-tile camera",
+  "when": "09 Apr 2026, 09:30",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Twenty-one people, one room, 09:30 to 12:30. The agenda went out on the second of April with the Charter attached, and at 09:34 four of them are reading it for the first time. Legal are on video from the fourth floor, on the camera that has pointed at the ceiling tiles since the EFSF migration.",
+    "plain": "Twenty-one people are in one room, booked from 09:30 to 12:30. The agenda was sent on 2 April with the Project Charter attached. At 09:34, four people are reading it for the first time. Legal join by video from the fourth floor, on the camera that has pointed at the ceiling tiles since the EFSF migration.",
+    "g": [
+     [
+      "Meeting Agenda",
+      "the list of points, times and owners sent out before a meeting"
+     ],
+     [
+      "Planning Kick-off Meeting",
+      "the formal meeting that opens the Planning Phase for the whole project team"
+     ]
+    ],
+    "ref": [
+     40,
+     "Send out the Meeting Agenda in advance."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Notes or minutes?",
+    "plain": "Do you want me to take informal notes, or official minutes?"
+   },
+   {
+    "who": "you",
+    "text": "Minutes. And mark the actions while you hear them, because I will lose four of them by eleven.",
+    "plain": "Official minutes. Please write down each action item as you hear it. If you wait, I will forget about four of them by 11:00.",
+    "ref": [
+     40,
+     "Ensure a minute-taker is identified to make notes identifying action items."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Then I record who is here. Not who was invited. Finance and Control have sent a deputy and I do not have her name.",
+    "plain": "Then I will record the people who are actually present, not the people who were invited. Finance and Control sent a deputy, and I do not know her name."
+   },
+   {
+    "who": "you",
+    "text": "Names first. Each of you, one sentence on what CASTOR changes about your Tuesday.",
+    "plain": "We start with introductions. Please each say your name and one sentence about how CASTOR will change your normal working Tuesday.",
+    "ref": [
+     40,
+     "Introduce the meeting participants."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "impatient",
+    "text": "Twenty-one sentences.",
+    "plain": "That will be twenty-one sentences."
+   },
+   {
+    "who": "you",
+    "text": "Fifteen minutes. It is the cheapest fifteen minutes of the morning.",
+    "plain": "It will take fifteen minutes. It is the most useful fifteen minutes we will spend today."
+   },
+   {
+    "who": "narr",
+    "text": "It takes nineteen. A tester from IT says CASTOR will change nothing about his Tuesday, which turns out to be the most useful sentence anybody says before the break.",
+    "plain": "It takes nineteen minutes. A tester from the IT division says CASTOR will change nothing about his Tuesday. That turns out to be the most useful sentence anyone says before the break."
+   },
+   {
+    "who": "nightingale",
+    "text": "Fourteen years old. Fourteen hundred payment fields re-keyed by hand every quarter. Three working days to reconcile a disbursement. Two open audit findings with my signature on the response to both.",
+    "plain": "The LOS system is fourteen years old. Staff retype 1,400 payment fields by hand every three months. Checking the records after a payment takes three working days. There are two open audit findings, and I signed the reply to both."
+   },
+   {
+    "who": "nightingale",
+    "mood": "flat",
+    "text": "I am not here for a nicer system. I am here to stop writing those responses.",
+    "plain": "I do not want a nicer system. I want to stop writing replies to audit findings."
+   },
+   {
+    "who": "you",
+    "text": "Charter, line by line. Scope. SC1 to SC5. Eight point four million, three thousand one hundred person-days, twenty-six months, go-live the fifteenth of May 2028.",
+    "plain": "Now I go through the Project Charter line by line. The scope. The five success criteria. The budget of 8.4 million euro, the 3,100 person-days of effort, the 26 months, and the go-live date of 15 May 2028.",
+    "ref": [
+     40,
+     "Walk the participants through the Project Charter so they understand the project scope."
+    ]
+   },
+   {
+    "who": "curie",
+    "mood": "blunt",
+    "text": "Stop at SC1. Five working days down to one. Those five days are not idle. Somebody checks the drawdown schedule against the loan agreement, somebody else releases the instruction, and they are never the same person. So tell me who does the checking inside your one day.",
+    "plain": "Stop at SC1. It says five working days must become one. Those five days are not wasted. One person checks the drawdown schedule against the loan agreement. A different person releases the payment instruction. They are never the same person. So tell me who does that checking inside your single day.",
+    "g": [
+     [
+      "drawdown schedule",
+      "the agreed plan of when a borrower may take each part of a loan"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "I do not know yet.",
+    "plain": "I do not know the answer yet."
+   },
+   {
+    "who": "you",
+    "text": "It goes on the sheet as an assumption to be tested. Not as an argument I intend to win this morning.",
+    "plain": "I will write it down as an assumption that we must test. I will not treat it as an argument to win today.",
+    "ref": [
+     40,
+     "Discuss risks, constraints and assumptions."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Three boxes. Steering Committee, Business Implementation Group, Core Team. Everyone here is in one of them and I will tell you which before lunch.",
+    "plain": "There are three groups: the Project Steering Committee, the Business Implementation Group and the Project Core Team. Everyone in this room belongs to one of them, and I will say which one before lunch.",
+    "g": [
+     [
+      "Project Core Team",
+      "the specialists who build the deliverables, coordinated by the Project Manager"
+     ]
+    ],
+    "ref": [
+     40,
+     "Describe and discuss the project roles and responsibilities."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "On approach. We buy this platform. We do not build it.",
+    "plain": "About the approach. We will buy this platform. We will not build it ourselves."
+   },
+   {
+    "who": "hopper",
+    "mood": "dry",
+    "text": "You have said that four times since March.",
+    "plain": "You have said that four times since March."
+   },
+   {
+    "who": "leonardo",
+    "text": "And I will say it in September, when somebody in my own division proposes we build it. Minute it, Henry.",
+    "plain": "And I will say it again in September, when somebody from my own division suggests we build it. Henry, please record it in the minutes."
+   },
+   {
+    "who": "gantt",
+    "text": "Before the plans. The collateral register report — the two pages of lessons learned. One page is about business experts promised part-time.",
+    "plain": "One thing before we discuss the plans. There is a report from the collateral register project, with two pages of lessons learned. One whole page is about business experts who were promised part-time.",
+    "ref": [
+     40,
+     "At this early stage, past experiences, and especially Lessons Learned from previous similar projects, will significantly help the project team."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Which is why item eight is the list of plans this project actually needs. Whatever we settle on lands in the Handbook, and the Handbook is the thing you will be held to.",
+    "plain": "That is why item eight on the agenda is the list of plans this project really needs. Whatever we agree goes into the Project Handbook, and the Handbook is the document that will hold you to it.",
+    "ref": [
+     40,
+     "Discuss the project plans needed for the project. The final set of required project plans will be documented in the Project Handbook."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Then I want my half hour on the quarterly interest notices. Four hundred letters a quarter, merged in Word, checked twice, posted by a human being. Worst job in the division, and it reads the same loan data CASTOR will hold.",
+    "plain": "Then I want half an hour on the quarterly interest notices. We send 400 letters every three months. They are merged in Word, checked twice, and posted by a person. It is the worst job in the division, and it uses the same loan data that CASTOR will hold.",
+    "g": [
+     [
+      "interest accrual",
+      "interest building up day by day on a loan before it is actually paid"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "mood": "tired",
+    "text": "She is right about the letters. I have signed six hundred of them.",
+    "plain": "She is right about the letters. I have signed six hundred of them myself."
+   },
+   {
+    "who": "narr",
+    "text": "Somebody halfway down the table says it would be mad not to fix them while the platform is open. The room warms to the idea in about forty seconds.",
+    "plain": "Someone in the middle of the table says it would be foolish not to fix the letters while the platform is being built. Within about forty seconds, the room likes the idea."
+   },
+   {
+    "who": "nightingale",
+    "text": "Next to eight point four million it costs nothing.",
+    "plain": "Compared with 8.4 million euro, it would cost nothing."
+   },
+   {
+    "who": "narr",
+    "text": "It is 11:40. Twenty-one faces, and the ceiling tile, turn to you.",
+    "plain": "It is 11:40. Twenty-one people, and the video picture of the ceiling, are all looking at you."
+   }
+  ],
+  "choice": {
+   "prompt": "The brainstorm has produced a new deliverable and the room likes it. What do you do?",
+   "promptPlain": "The open discussion has produced a new deliverable, and the room wants it. What do you do?",
+   "options": [
+    {
+     "t": "Record it as a proposed change, keep it out of the baseline, and bring the discussion back inside the Charter.",
+     "tPlain": "Write it down as a proposed change. Keep it out of the approved plan. Bring the discussion back inside the Project Charter.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "text": "Written down, not signed off. Marie, if it survives the assessment you get your letters. If it does not, you will know who said no and why.",
+      "plain": "It is written down, but not approved. Marie, if it passes the assessment, you get your letters. If it does not, you will know who refused and for what reason."
+     },
+     "why": "The approach discussion may be a brainstorming session, but the guide bounds it: within the limits set by the Project Charter (p.40, step 7). The Charter's scope was accepted by the Project Steering Committee on 24 Mar 2026, so a kick-off cannot enlarge it. Page 41 then obliges you to summarise proposed changes in the Minutes of Meeting and to record them in the relevant log.",
+     "whyPlain": "The guide allows a brainstorm about the approach, but only inside the limits of the Project Charter (page 40, step 7). The Steering Committee accepted that scope on 24 March 2026, so this meeting cannot make the scope bigger. Page 41 then tells you to put proposed changes in the minutes and also in the correct log.",
+     "ref": [
+      40,
+      "Discuss the overall approach to the project. This discussion can be a brainstorming session within the limits set by the Project Charter."
+     ]
+    },
+    {
+     "t": "Add the interest notices to scope. The room agrees and the Charter is three weeks old.",
+     "tPlain": "Put the interest notices into the project scope. Everyone agrees, and the Charter is only three weeks old.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "text": "Then put it in writing, because what I took to Lorenzo's board on the twenty-fourth said something else.",
+      "plain": "Then write it down properly, because the document I took to Lorenzo's board on 24 March said something different."
+     },
+     "why": "Scope agreed in a kick-off is scope nobody has estimated. Project change management exists to bring transparency, accountability and traceability to changes made after the scope and plans are baselined (p.90); a room agreeing quickly at 11:40 supplies none of the three.",
+     "whyPlain": "Scope agreed in a kick-off meeting is scope that nobody has costed. The change process exists to make changes clear, owned and traceable after the scope and plans are approved (page 90). A room agreeing quickly at 11:40 gives you none of that.",
+     "ref": [
+      90,
+      "Project change management brings transparency, accountability and traceability to all project changes implemented after the project scope and project plans have been baselined."
+     ]
+    },
+    {
+     "t": "Rule the item out of order. The agenda is the agenda and the discussion has drifted.",
+     "tPlain": "Refuse to discuss it. The agenda is fixed and the discussion has gone off the subject.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "Understood. That is the last idea I bring into one of these rooms.",
+      "plain": "I understand. That is the last idea I will bring to a meeting like this."
+     },
+     "why": "Wrong in the other direction. Clarifying stakeholder expectations and identifying risks are stated aims of this meeting (p.40), and page 41 requires proposed changes to be minuted. You keep the timetable and lose the User Representative, who is a required participant precisely because she knows what the five days are for.",
+     "whyPlain": "This is wrong the other way. Two stated aims of this meeting are to clarify what stakeholders expect and to find risks (page 40), and page 41 says proposed changes must be minuted. You protect the timetable and lose the User Representative, who is required to attend exactly because she knows what those five days are for.",
+     "ref": [
+      40,
+      "identify project risks"
+     ]
+    },
+    {
+     "t": "Ask Florence to decide now. She is the Project Owner and she owns the benefits.",
+     "tPlain": "Ask Florence to decide immediately. She is the Project Owner and she owns the benefits.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "text": "I could. I would be deciding on a number that nobody in this room has estimated.",
+      "plain": "I could decide. But I would be deciding about a cost that nobody in this room has estimated."
+     },
+     "why": "The Project Owner does approve a great deal, including the Project Handbook. She does not approve scope in a room at 11:40 with no assessment behind it: the change plan requires the assessment step and names who may approve at each impact level (p.90, step 6).",
+     "whyPlain": "The Project Owner approves many things, including the Project Handbook. But she does not approve new scope at 11:40 with no assessment. The change plan requires an assessment first, and it names who may approve a change at each level of impact (page 90, step 6).",
+     "ref": [
+      90,
+      "Define who is responsible for approving changes at the various impact levels, and how this decision is communicated to the rest of the team."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for organising and running the Planning Kick-off Meeting.",
+    "k": "Knows the gate closed at 96% on 27 Mar and that no plan yet exists.",
+    "w": "Wants a minute-taker, the Charter walked, and no new deliverable voted in before lunch.",
+    "f": "Afraid that saying no to Curie today costs him her cooperation for two years."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the project's success and for the benefits.",
+    "k": "Knows both audit findings are still open and that Planning runs to 26 Jun.",
+    "w": "Wants the room to hear why this project exists, then wants her morning back.",
+    "f": "Afraid Planning becomes a paper exercise that delays the build by a quarter."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Accountable for the deliverables and for contractor performance.",
+    "k": "Knows the procurement timetable ends in a contract award on 18 Sep 2026.",
+    "w": "Wants buy-not-build said out loud, minuted, in front of his own architects.",
+    "f": "Afraid his division quietly starts building a platform he has promised to buy."
+   },
+   "hopper": {
+    "o": "Business Manager. Coordinates the Business Implementation Group and supports the PM.",
+    "k": "Knows which of her forty administrators can be released and which cannot.",
+    "w": "Wants every person in the room placed in a named group before lunch.",
+    "f": "Afraid the business side becomes an audience rather than half the project."
+   },
+   "curie": {
+    "o": "User Representative. Represents the users and signs off user-related documents.",
+    "k": "Knows exactly what the five working days in SC1 are actually spent on.",
+    "w": "Wants half an hour on the quarterly interest notices and a straight answer about SC1.",
+    "f": "Afraid the one-day target is met by deleting a control she depends on."
+   },
+   "gantt": {
+    "o": "Project Support Office. Takes the minutes and administers the project record.",
+    "k": "Knows the collateral register lessons learned and where the report is filed.",
+    "w": "Wants to know whether he is minuting, and the deputy's name for the attendance list.",
+    "f": "Afraid decisions are taken this morning that no document will show next year."
+   }
+  },
+  "unlock": [
+   17
+  ],
+  "note": "Guide check: section 6.1, p.40. The Planning Phase starts with an official Planning Kick-off Meeting whose aims are to ensure everyone understands the project scope, clarify the expectations of all key stakeholders, identify project risks and discuss the project plans. Required participants are the Project Core Team, the Business Implementation Group, the User Representatives, the Solution Provider, the Project Owner and the Business Manager; the Project Manager Assistant and Project Support Office are required if they are part of the project. Before the meeting: plan it, draft the agenda with the points to be discussed, send it in advance, ensure the required people attend. During it: introduce participants, identify a minute-taker, walk the Charter, outline the Planning Phase, describe roles, discuss the timeline, discuss the approach as a brainstorm within the limits set by the Charter, discuss the plans needed, discuss risks, constraints and assumptions, present the supporting tools, take any other business, summarise and state next steps. RASCI: AGB I, PSC A, PO C, BM S, BIG C, SP C, PM R, PCT C. Approver: the Meeting Agenda is not approved; the Project Steering Committee is Accountable for the meeting itself. Pages 40 and 41.",
+  "notePlain": "Rule: the Planning Phase starts with an official Planning Kick-off Meeting. Its aims are that everyone understands the scope, that stakeholder expectations are clear, that risks are found, and that the project plans are discussed. The core team, the business implementation group, the user representatives, the Solution Provider, the Project Owner and the Business Manager must attend. The support office and any project manager assistant attend too, if the project has them. Before the meeting you plan it, write the agenda, send it early, and make sure the right people come. In the meeting you introduce people, name a minute-taker, walk through the Charter, explain the Planning Phase, describe the roles, discuss the timeline, discuss the approach inside the limits of the Charter, agree which plans are needed, discuss risks and assumptions, show the tools, and close with a summary and next steps. RASCI: Project Manager Responsible, Steering Committee Accountable, Project Owner Consulted, Business Manager supports, and the rest are consulted or informed. Nobody approves the agenda. Pages 40 and 41."
+ },
+ {
+  "id": "s11",
+  "act": 2,
+  "actName": "Planning",
+  "title": "The minutes are not the record",
+  "covers": [
+   "Minutes of Meeting",
+   "Planning Kick-off Meeting"
+  ],
+  "guide_page": 41,
+  "where": "ESM, Kirchberg — Project Support Office, third floor",
+  "when": "10 Apr 2026, 08:20",
+  "cast": [
+   "you",
+   "gantt",
+   "hopper",
+   "nightingale"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Friday, twenty past eight. Rain on the glass, a tram sliding past below, and eleven pages of Gantt's handwriting on the table between you.",
+    "plain": "It is Friday at 08:20. Rain runs down the window and a tram passes below. Eleven pages of Gantt's handwritten notes lie on the table between you."
+   },
+   {
+    "who": "gantt",
+    "text": "Eleven pages. I can have a full transcript by Monday.",
+    "plain": "There are eleven pages. I can produce a complete written record by Monday."
+   },
+   {
+    "who": "you",
+    "text": "I do not want a transcript.",
+    "plain": "I do not want a full written record."
+   },
+   {
+    "who": "narr",
+    "text": "Gantt puts the pages down with the flat, careful movement of a man who spent an evening on them.",
+    "plain": "Gantt puts the pages down slowly and carefully. He clearly spent an evening writing them."
+   },
+   {
+    "who": "you",
+    "text": "Four things. What was raised. What was identified as a risk. What was decided. What somebody proposed to change. Everything else is texture, and I will read the texture in your notebook if I ever need it.",
+    "plain": "I need four things. The issues that were raised. The risks that were found. The decisions that were taken. The changes that were proposed. Everything else is background detail, and I can read your notebook if I ever need it.",
+    "g": [
+     [
+      "Minutes of Meeting",
+      "the short official record of a meeting: what was raised, decided and to be done"
+     ]
+    ],
+    "ref": [
+     41,
+     "The Minutes of Meeting (MoM) should include a summary of project issues raised, risks identified, decisions taken and changes proposed."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Then the deputy. Finance and Control. Ilona Vas, on the attendance grid, in full.",
+    "plain": "Then we must record the deputy. She came from Finance and Control. Her name is Ilona Vas, and it goes on the attendance list in full."
+   },
+   {
+    "who": "you",
+    "text": "In full. In two years somebody will ask whether Finance and Control were in the room when the same-day reconciliation criterion was explained.",
+    "plain": "Yes, in full. In two years somebody will ask whether Finance and Control were present when the same-day reconciliation target was explained."
+   },
+   {
+    "who": "hopper",
+    "text": "Three risks came out of that room and not one of them is an IT risk. Has anybody noticed that.",
+    "plain": "Three risks came out of that meeting. None of them is an IT risk. Has anyone noticed that?"
+   },
+   {
+    "who": "you",
+    "text": "Ratification of the Treaty reform is not complete, and we have promised to onboard the backstop in six weeks when it is. The parallel run in early 2028 sits next to an EFSF bond rollover. And Lending Operations cannot release its people for two years without something else giving.",
+    "plain": "First, the Treaty reform is not yet ratified, and we have promised to add the backstop instrument within six weeks once it is. Second, the parallel run in early 2028 falls close to an EFSF bond rollover. Third, Lending Operations cannot release its staff for two years unless something else is dropped.",
+    "g": [
+     [
+      "bond rollover",
+      "repaying a maturing bond by issuing a new one, so the funding continues"
+     ],
+     [
+      "Risk Log",
+      "the register of identified risks, with owner, score and planned response"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "mood": "pointed",
+    "text": "Write the third one with names in it. It sounds like weather until it says Marie Curie, forty days.",
+    "plain": "Write the third risk with names in it. Without names it sounds like bad weather. With them it says Marie Curie, forty days."
+   },
+   {
+    "who": "gantt",
+    "text": "Good. All three go in the minutes.",
+    "plain": "Good. All three risks go into the minutes."
+   },
+   {
+    "who": "you",
+    "text": "In the minutes and in the logs. The minutes summarise a morning. The Risk, Issue and Decision Logs are the registers, and they have been open since January.",
+    "plain": "They go in the minutes and in the logs. The minutes are a summary of one morning. The Risk Log, the Issue Log and the Decision Log are the real registers, and they have been open since January.",
+    "ref": [
+     41,
+     "Note that the issues, risks, decisions and project changes should also be recorded in the relevant logs."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And the interest notices? There is no Change Log.",
+    "plain": "And what about the interest notices? We do not have a Change Log."
+   },
+   {
+    "who": "you",
+    "text": "There is as of this week. Status Submitted, which is where every change starts, and from this morning Marie's letters are an entry with a number rather than an idea somebody had at a whiteboard.",
+    "plain": "We have one from this week. The status is Submitted, which is the first status of every change. From this morning, Marie's letters are a numbered entry, not just an idea from a whiteboard.",
+    "g": [
+     [
+      "Change Log",
+      "the register of requested changes, their assessment and the decision taken on each"
+     ]
+    ],
+    "ref": [
+     96,
+     "Submitted: This is the initial status. Use this while the requested change is still being specified."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence reads the draft standing up, coat still on, on her way to a Board of Directors briefing at nine.",
+    "plain": "Florence reads the draft while standing, still wearing her coat. She is on her way to a Board of Directors briefing at 09:00."
+   },
+   {
+    "who": "nightingale",
+    "text": "If I sign this, what have I approved?",
+    "plain": "If I sign this document, what am I approving?"
+   },
+   {
+    "who": "you",
+    "text": "Nothing. It records what happened.",
+    "plain": "Nothing. It only records what happened."
+   },
+   {
+    "who": "you",
+    "text": "What the room agreed the project needs — the list of plans, the tailoring, the escalation rules — becomes the Handbook. That is the one you approve, and I would like it in front of you before the end of the month.",
+    "plain": "What the room agreed the project needs — the list of plans, the tailoring decisions and the escalation rules — goes into the Project Handbook. That is the document you approve, and I would like you to have it before the end of the month.",
+    "ref": [
+     42,
+     "Use the minutes from the Planning Kick-off Meeting as a basis for defining the Project Handbook."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Then send it to everyone on the Charter's list, not only the people who turned up. Half my division learns what is happening from documents they were copied into.",
+    "plain": "Then send the minutes to everyone on the stakeholder list in the Charter, not only to those who attended. Half of my division finds out what is happening from documents they were copied into.",
+    "ref": [
+     41,
+     "Distribute the Minutes of Meeting (MoM) to the appropriate stakeholders (as identified in the Project Charter)."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "That is eighty-one addresses.",
+    "plain": "That is eighty-one email addresses."
+   },
+   {
+    "who": "nightingale",
+    "text": "Eighty-one.",
+    "plain": "Yes. Eighty-one."
+   },
+   {
+    "who": "narr",
+    "text": "She is gone before the door finishes closing. Gantt is already deleting the transcript he wrote on Thursday evening, page by page, without comment.",
+    "plain": "She leaves before the door has closed. Gantt is already deleting the full record he wrote on Thursday evening, page by page, and says nothing about it."
+   },
+   {
+    "who": "hopper",
+    "text": "Six actions, six owners, six dates. Four of them are yours.",
+    "plain": "There are six actions, six owners and six due dates. Four of the actions belong to you."
+   },
+   {
+    "who": "you",
+    "text": "Five. I have just taken the eighty-one addresses.",
+    "plain": "Five actions. I have just accepted the job of sending it to eighty-one people."
+   },
+   {
+    "who": "narr",
+    "text": "The Minutes of Meeting go out at 16:40, one working day after the meeting. Nobody replies until Tuesday, and the reply is from Legal, who could not see the screen.",
+    "plain": "The minutes are sent at 16:40, one working day after the meeting. Nobody replies until Tuesday. The only reply is from Legal, who could not see the screen during the meeting."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for the Minutes of Meeting and for their distribution.",
+    "k": "Knows the kick-off produced three risks, three decisions and one proposed change.",
+    "w": "Wants a four-part summary today, not a transcript on Monday.",
+    "f": "Afraid the proposed change survives only in Gantt's notebook and reappears as a promise."
+   },
+   "gantt": {
+    "o": "Project Support Office. Minute-taker for the kick-off; keeps the logs and the repository.",
+    "k": "Knows who was present, including the deputy nobody else can name.",
+    "w": "Wants his eleven pages to count for something after an evening spent on them.",
+    "f": "Afraid a summary drops the one sentence that matters in 2028."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the Project Manager and owns the client-side risks.",
+    "k": "Knows exactly how many days each of her administrators can give the project.",
+    "w": "Wants the staffing risk written with named people and real numbers of days.",
+    "f": "Afraid an abstract risk is easy for everyone to agree with and ignore."
+   },
+   "nightingale": {
+    "o": "Project Owner. Will approve the Project Handbook; approves nothing today.",
+    "k": "Knows the kick-off happened and has not yet read a word of the plans.",
+    "w": "Wants to know what her signature commits her to before she puts it anywhere.",
+    "f": "Afraid her division hears about its own project through forwarded email."
+   }
+  },
+  "unlock": [
+   18
+  ],
+  "note": "Guide check: section 6.1, p.41. After the Planning Kick-off Meeting the Minutes of Meeting are distributed to the appropriate stakeholders, as identified in the Project Charter — not merely to the attendance list. The Minutes must include a summary of project issues raised, risks identified, decisions taken and changes proposed. The guide then adds the rule beginners skip: those issues, risks, decisions and project changes should also be recorded in the relevant logs. The Minutes are a summary; the Risk, Issue, Decision and Change Logs are the registers. The Risk, Issue and Decision Logs are set up during Initiating, the Change Log typically during Planning (p.31), and a new change enters the Change Log with the initial status Submitted (p.96). The Planning Kick-off Minutes of Meeting are a named input to the Project Handbook (p.42). RASCI: none — PM² gives no RASCI row for the Minutes of Meeting artefact; the meeting has one, the document does not. Approver: nobody. Page 41.",
+  "notePlain": "Rule: after the Planning Kick-off Meeting the minutes go to the stakeholders named in the Project Charter, not only to the people who attended. The minutes must summarise four things: issues raised, risks found, decisions taken and changes proposed. The guide adds a rule that beginners forget: those same four things must also be written into the correct logs. The minutes are a summary. The Risk Log, Issue Log, Decision Log and Change Log are the real registers. The Risk, Issue and Decision Logs are opened during Initiating, and the Change Log during Planning (page 31). A new change enters the Change Log with the first status, Submitted (page 96). The Planning Kick-off minutes are a listed input to the Project Handbook (page 42). There is no RASCI row for the minutes and nobody approves them. Page 41."
+ },
+ {
+  "id": "s12",
+  "act": 2,
+  "actName": "Planning",
+  "title": "The book everyone will ignore, correctly",
+  "covers": [
+   "Project Handbook"
+  ],
+  "guide_page": 42,
+  "where": "ESM, Kirchberg — Florence Nightingale's office, Lending Operations",
+  "when": "23 Apr 2026, 14:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "gantt",
+   "tesla"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Forty-one pages, printed, because Florence does not read long documents on a screen. There is a sandwich on her desk that she has not opened since half past twelve.",
+    "plain": "The draft Project Handbook is 41 pages, printed, because Florence will not read long documents on a screen. A sandwich has been on her desk since 12:30 and she has not opened it."
+   },
+   {
+    "who": "nightingale",
+    "text": "Forty-one pages of what?",
+    "plain": "Forty-one pages about what?"
+   },
+   {
+    "who": "you",
+    "text": "How we run this. Not what we build.",
+    "plain": "How we will run this project. Not what we will build."
+   },
+   {
+    "who": "you",
+    "text": "Approach, the controlling processes, the rules, the escalation route, and who holds which role. The what is the Charter, and then the Work Plan in June.",
+    "plain": "It covers the approach, the control processes, the project rules, the escalation route, and who holds which role. What we build is in the Charter, and later in the Work Plan in June.",
+    "g": [
+     [
+      "Project Handbook",
+      "the document that says how a project will be run: approach, processes, rules, roles"
+     ]
+    ],
+    "ref": [
+     42,
+     "The Project Handbook summarises the project objectives and documents the selected approach for achieving the project goals."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Give me the one page I would read if I read one.",
+    "plain": "Tell me the single page I should read, if I only read one."
+   },
+   {
+    "who": "you",
+    "text": "Two point two. Three critical success factors. Lending Operations releases its people for the whole build. You are visibly the owner of this. SC1 to SC5 are still measurable in 2028.",
+    "plain": "Section 2.2. It lists three critical success factors. First, Lending Operations releases its staff for the whole build. Second, you are visibly the owner of the project. Third, the five success criteria can still be measured in 2028.",
+    "g": [
+     [
+      "Critical Success Factor",
+      "a condition that must hold or the project cannot succeed, whatever else goes well"
+     ]
+    ],
+    "ref": [
+     42,
+     "Identify Critical Success Factors (CSFs) and define important project management objectives."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "The first one is a promise about my staffing plan, not about your project.",
+    "plain": "The first one is a promise about my staffing plan. It is not about your project."
+   },
+   {
+    "who": "hopper",
+    "mood": "even",
+    "text": "Which is why it is up there and not in a wish list at the back.",
+    "plain": "That is exactly why it is at the front of the document and not in a list of hopes at the back."
+   },
+   {
+    "who": "narr",
+    "text": "Leonardo has been drawing on his copy since he sat down. He turns it round. The project lifecycle, redrawn, with the four phases as nested arcs and the gates as narrow points between them.",
+    "plain": "Since sitting down, Leonardo has been drawing on his copy. He turns it round to show it. He has redrawn the project lifecycle, with the four phases as curved shapes and the gates as narrow points between them."
+   },
+   {
+    "who": "leonardo",
+    "text": "Yours is a row of boxes. A gate is not a box, it is a narrowing.",
+    "plain": "Your version is a row of boxes. But a gate is not a box. It is a narrow point."
+   },
+   {
+    "who": "you",
+    "text": "It is a beautiful drawing and it is not going in the Handbook.",
+    "plain": "It is a beautiful drawing, and it will not go into the Handbook."
+   },
+   {
+    "who": "leonardo",
+    "text": "No. Probably not. Three point two, then. Explain the tailoring table, because I count six management plans and four documents.",
+    "plain": "No. Probably not. Then let us look at section 3.2. Explain the tailoring table. I count six management plans, but only four documents.",
+    "g": [
+     [
+      "tailoring",
+      "adjusting the method to the project: which plans are separate documents and which are short sections"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Requirements, issue, quality and communications each get their own document. Risk and change stay as sections 4.1 and 4.4, because a section is enough for them here and a separate plan would only be read by me.",
+    "plain": "The requirements, issue, quality and communications plans each get their own document. The risk and change plans stay as sections 4.1 and 4.4 of the Handbook. A section is enough for them on this project, and a separate document would only be read by me.",
+    "ref": [
+     43,
+     "When sufficient, a brief definition of each management process or plan can be provided in the Project Handbook."
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "That is a shortcut.",
+    "plain": "That is a shortcut."
+   },
+   {
+    "who": "you",
+    "text": "It is a decision, written where you can argue with it. You are arguing with it now, which is the point.",
+    "plain": "It is a decision, and it is written down where you can challenge it. You are challenging it right now, which is exactly the purpose.",
+    "ref": [
+     42,
+     "All Project Management Plans should be considered part of the Project Handbook."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Read three point five out. I want them to hear it before it matters rather than after.",
+    "plain": "Please read section 3.5 aloud. I want everyone to hear it before it becomes important, not afterwards."
+   },
+   {
+    "who": "you",
+    "text": "Very low and low, the Core Team decides. Medium, Grace and I decide at the status meeting. High and very high go to the Steering Committee. And it lives here once. Every plan points at it instead of copying it.",
+    "plain": "Very low and low impact: the Core Team decides. Medium impact: Grace and I decide at the status meeting. High and very high impact: the Steering Committee decides. The procedure is written here once. Every other plan refers to it instead of repeating it.",
+    "g": [
+     [
+      "escalation procedure",
+      "the agreed route for pushing a decision up to a higher level when needed"
+     ]
+    ],
+    "ref": [
+     44,
+     "An escalation procedure and tolerances should be defined (and tailored) in the Project Handbook. This should be referenced by the Management Plans to ensure that a consistent approach is applied."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Six point two. You have deleted the agile roles and you have not appointed an assistant.",
+    "plain": "Section 6.2. You have removed the agile roles and you have not appointed an assistant project manager."
+   },
+   {
+    "who": "you",
+    "text": "Both deviations, both written down with a reason next to them. Einstein sits on the Steering Committee on request rather than as a member, and that is written down too.",
+    "plain": "Both are deviations from the standard roles, and both are written down with a reason. Albert Einstein attends the Steering Committee when invited, rather than as a full member, and that is written down as well.",
+    "ref": [
+     43,
+     "Any deviations from the standard PM² Roles & Responsibilities should be justified and documented, and any new roles defined with their responsibilities clearly described."
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "I cannot configure a platform I have never seen. Nobody in this building has seen it.",
+    "plain": "I cannot configure a platform that I have never seen. Nobody in this building has seen it."
+   },
+   {
+    "who": "you",
+    "text": "No. So there is a Training Plan annexed. One line of it is yours: platform configuration, intermediate to advanced, coached by the contractor, finished before Release 1 in March 2027.",
+    "plain": "That is true. So a Training Plan is attached to the Handbook. One line of it is for you: platform configuration, intermediate to advanced level, taught by the contractor, completed before Release 1 in March 2027.",
+    "ref": [
+     44,
+     "A Training Plan can be annexed to the Project Handbook if personnel need to be trained in missing skills."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "And four point eleven says how they leave. Contractor staff released when the parallel run ends on the thirtieth of April 2028.",
+    "plain": "And section 4.11 says how people leave the project. The contractor's staff are released when the parallel run ends on 30 April 2028.",
+    "ref": [
+     44,
+     "Finally, the way resources will be released at the end of the project (or when their work is complete) must also be formalised here."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "It is a decent book. Who signs it?",
+    "plain": "It is a good document. Who signs it?"
+   },
+   {
+    "who": "narr",
+    "text": "Gantt has the blank PM² template open on his laptop, at section two point two, and he has been sitting on it for ten minutes. The guidance text reads: approved by the Project Steering Committee, as part of the overall Project Handbook approval.",
+    "plain": "Gantt has the empty PM2 template open on his laptop at section 2.2. He has been waiting ten minutes to mention it. The guidance text there says the objectives are approved by the Project Steering Committee, as part of the overall approval of the Project Handbook."
+   },
+   {
+    "who": "leonardo",
+    "text": "There. The committee. The Charter went to the committee and this is bigger than the Charter.",
+    "plain": "There you are. The committee. The Charter went to the committee, and this document is bigger than the Charter."
+   },
+   {
+    "who": "narr",
+    "text": "The printed copy sits between you and Florence, unsigned, with a sandwich next to it that is now four hours old.",
+    "plain": "The printed copy lies between you and Florence, still unsigned. Beside it is a sandwich that is now four hours old."
+   }
+  ],
+  "choice": {
+   "prompt": "The template's guidance text says the Steering Committee. Who approves the Project Handbook?",
+   "promptPlain": "The guidance text in the template says the Steering Committee. Who really approves the Project Handbook?",
+   "options": [
+    {
+     "t": "Florence signs it as Project Owner. The Steering Committee is informed. The template's guidance line is wrong and I will note why.",
+     "tPlain": "Florence signs it as Project Owner. The Steering Committee is only informed. The line in the template is wrong, and you will record why.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "text": "Then I will read forty-one pages properly, sitting down, and you will get them back on Monday with things crossed out.",
+      "plain": "Then I will read all 41 pages properly, sitting down. You will get them back on Monday with parts crossed out."
+     },
+     "why": "The RASCI on p.43 gives the Project Handbook PO = Accountable, PM = Responsible, BM = Supports, BIG and PCT = Consulted, and both the PSC and the SP only Informed. The guide's role chapter agrees: approving the Project Handbook is listed among the Project Owner's own responsibilities (p.25). The template's guidance paragraph is a known drafting slip; the RASCI table is the authority.",
+     "whyPlain": "The RASCI table on page 43 says the Project Handbook is Accountable to the Project Owner and Responsible to the Project Manager. The Business Manager supports. The business group and the core team are consulted. The Steering Committee and the Solution Provider are only informed. The roles chapter agrees: approving the Project Handbook is listed as one of the Project Owner's own duties (page 25). The sentence in the template is a known mistake. The RASCI table decides.",
+     "ref": [
+      25,
+      "Approves key project artefacts (Business Case, Project Charter, Project Handbook, Work Plan, Deliverables Acceptance Plan, Transition Plan, Business Implementation Plan)."
+     ]
+    },
+    {
+     "t": "Follow the template. Send it to the Steering Committee — it approved the Charter and it will approve the Work Plan.",
+     "tPlain": "Do what the template says. Send it to the Steering Committee, which approved the Charter and will approve the Work Plan.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "Good. Then it is the committee's book, not Florence's, and between meetings nobody owns a word of it.",
+      "plain": "Fine. Then it belongs to the committee and not to Florence. Between meetings, nobody owns any of it."
+     },
+     "why": "The commonest Planning trap, and the template invites it. The PSC row for the Project Handbook is I, not A (p.43). Routing it to the committee costs a month, blurs accountability, and teaches the team that the Handbook is ceremony rather than the Project Owner's own rule book. Where a template and the RASCI disagree, the RASCI wins and you record the deviation.",
+     "whyPlain": "This is the most common trap in the Planning Phase, and the template encourages it. On page 43 the Steering Committee's letter for the Handbook is I, for informed, not A. Sending it to the committee costs a month, makes accountability unclear, and teaches the team that the Handbook is only a ritual instead of the Project Owner's own rule book. When a template and the RASCI table disagree, follow the RASCI table and write down the difference.",
+     "ref": [
+      43,
+      "PM² suggests several Project Management Plans (artefacts) which outline the various project management processes."
+     ]
+    },
+    {
+     "t": "Send it to Lorenzo de' Medici's Corporate Investment Board — it fixes how €8.4 m will be spent.",
+     "tPlain": "Send it to Lorenzo de' Medici's Corporate Investment Board, because it decides how the 8.4 million euro will be spent.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "He will send it back with one line asking why he is reading it, and he will remember that you sent it.",
+      "plain": "He will return it with one sentence asking why he is reading it. And he will remember that you sent it to him."
+     },
+     "why": "The governance body is Informed on the Handbook (p.43). Across the whole Planning Phase the AGB is Accountable for exactly one artefact, the Outsourcing Plan (p.48) — which is the row that genuinely surprises people. Spending portfolio attention on the Handbook wastes the credit you will need in September.",
+     "whyPlain": "The governance body is only informed about the Handbook (page 43). In the whole Planning Phase it is accountable for one artefact only, the Outsourcing Plan (page 48). That is the row that really surprises people. Using senior attention on the Handbook wastes goodwill that you will need in September.",
+     "ref": [
+      48,
+      "The Outsourcing Plan defines the what and how for any outsourced products or services."
+     ]
+    },
+    {
+     "t": "Leonardo co-signs as Solution Provider. Half the Handbook describes processes his division will run.",
+     "tPlain": "Leonardo signs it too, as Solution Provider. Half the Handbook describes processes that his division will run.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "I would sign it happily. That is the problem. Then it is an IT document, and Lending Operations will read it as one.",
+      "plain": "I would happily sign it. That is the problem. It would then be an IT document, and Lending Operations would treat it as one."
+     },
+     "why": "The Solution Provider is Informed on the Handbook (p.43), even though he is accountable for the deliverables themselves. A co-signature invents a role PM² does not give and quietly moves ownership of the project's rules from the requestor side to the provider side.",
+     "whyPlain": "The Solution Provider is only informed about the Handbook (page 43), even though he is accountable for the deliverables. A second signature invents a role that PM2 does not have. It also quietly moves ownership of the project's rules from the business side to the IT side.",
+     "ref": [
+      43,
+      "Any deviations from the standard PM² Roles & Responsibilities should be justified and documented, and any new roles defined with their responsibilities clearly described."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for preparing the Project Handbook and securing its approval.",
+    "k": "Knows the RASCI says PO and that the template's guidance text says PSC.",
+    "w": "Wants Florence's signature this week and the tailoring table left alone.",
+    "f": "Afraid the template's wording sends the book to a committee and costs a month."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the Project Handbook and for realising the benefits.",
+    "k": "Knows the gate passed at 96%. Has not yet seen a resourced schedule.",
+    "w": "Wants the six management plans settled without another six meetings.",
+    "f": "Afraid Planning becomes a paper exercise that delays the build."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Informed on the Handbook; accountable for what gets built.",
+    "k": "Knows the Charter went to the Steering Committee and assumes this does too.",
+    "w": "Wants his lifecycle drawing adopted, and the tailoring table justified out loud.",
+    "f": "Afraid a document he does not sign still binds his architects for two years."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the Project Manager in defining the Handbook's key elements.",
+    "k": "Knows which sections of the Handbook her division will actually be judged against.",
+    "w": "Wants the escalation route read aloud now, while nobody is angry.",
+    "f": "Afraid the staffing commitment in 2.2 is agreed today and forgotten by autumn."
+   },
+   "gantt": {
+    "o": "Project Support Office. Holds the templates, the versions and the repository.",
+    "k": "Has found the guidance line in the template that contradicts the guide's RASCI.",
+    "w": "Wants the contradiction raised now rather than discovered at the gate.",
+    "f": "Afraid of being the man who let a wrong approver onto a signature page."
+   },
+   "tesla": {
+    "o": "Lead Solution Architect on the Core Team. Consulted in developing the Handbook.",
+    "k": "Knows he has never seen the platform he is expected to configure.",
+    "w": "Wants training committed in writing, with a date, before he agrees to anything.",
+    "f": "Afraid the tailoring decisions are convenience dressed up as judgement."
+   }
+  },
+  "unlock": [
+   4
+  ],
+  "note": "Guide check: section 6.2, pp.42–44. The Project Handbook summarises the project objectives and documents the selected approach: the critical success factors, the key controlling processes, the conflict resolution and escalation procedure, the policies and rules, the project mindsets, the governance roles and their responsibilities, the plans necessary for managing the project, and any methodology-tailoring decisions. All Project Management Plans are considered part of the Handbook; each may be a brief section here or a separate document, as the required level of detail dictates (p.43, §6.2.2). Deviations from the standard PM² Roles and Responsibilities must be justified and documented (§6.2.1). Section 6.2.5 adds the escalation procedure and tolerances, which the Management Plans reference rather than repeat, and the resource rules: how allocated people and equipment are used, the skills needed, a Training Plan annexed if skills are missing, and how resources are released. Inputs are the Business Case, the Project Charter and the Planning Kick-off Minutes of Meeting. RASCI: AGB I, PSC I, PO A, BM S, BIG C, SP I, PM R, PCT C. Approver: the Project Owner — the guide's role chapter lists the Project Handbook among the artefacts the Project Owner approves (p.25), and where the PM² template's guidance text says Project Steering Committee it is wrong. Pages 42, 43, 44 and 25.",
+  "notePlain": "Rule: the Project Handbook says how the project will be run. It holds the critical success factors, the main control processes, the conflict and escalation procedure, the rules, the roles and their duties, the list of plans the project needs, and any changes made to the PM2 method. All six management plans count as part of the Handbook. Each one can be a short section inside it, or a separate document, depending on how much detail is needed. Any change to the standard PM2 roles must be explained and written down. The escalation procedure and its tolerances live in the Handbook, and the other plans point to it instead of repeating it. The Handbook also says how people and equipment are used, what skills are needed, whether a Training Plan is attached, and how people leave the project. Its inputs are the Business Case, the Project Charter and the Planning Kick-off minutes. RASCI: Project Manager Responsible, Project Owner Accountable, Business Manager supports, core team and business group consulted, governance body, Steering Committee and Solution Provider informed. Approver: the Project Owner. The guide lists the Handbook among the artefacts the Project Owner approves (page 25). Where the PM2 template says the Steering Committee approves it, the template is wrong. Pages 42, 43, 44 and 25."
+ },
+ {
+  "id": "s13",
+  "act": 2,
+  "actName": "Planning",
+  "title": "Who is who, and who cares",
+  "covers": [
+   "Project Stakeholder Matrix"
+  ],
+  "guide_page": 44,
+  "where": "ESM, Kirchberg — Lending Operations, the open floor by the window",
+  "when": "07 May 2026, 10:15",
+  "cast": [
+   "you",
+   "hopper",
+   "brandeis",
+   "nightingale",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The open floor by the window, because every meeting room on this side of the building is taken until noon. Marie Curie is at her desk about eight metres away, on the phone to a paying agent.",
+    "plain": "You meet on the open floor by the window, because every meeting room on this side of the building is booked until midday. Marie Curie is at her desk about eight metres away, on the phone to a paying agent."
+   },
+   {
+    "who": "gantt",
+    "text": "Twenty-two rows. Teams, roles, support, operational, and one group at the bottom for anything domain-specific.",
+    "plain": "There are twenty-two rows. They are grouped as teams, roles, support, operational roles, and one group at the bottom for anything specific to this kind of project.",
+    "g": [
+     [
+      "Project Stakeholder Matrix",
+      "the list of every project stakeholder with their role, contact details and importance"
+     ]
+    ],
+    "ref": [
+     44,
+     "The template includes the standard project roles organised into the following groups: • Teams—e.g. Project Steering Committee (PSC). • Roles—e.g. Project Owner (PO), Solution Provider (SP), User Representatives (URs)."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Row nineteen has no name in it.",
+    "plain": "Row nineteen has no name in it."
+   },
+   {
+    "who": "you",
+    "text": "Contractor's Project Manager. Levallois Systems is not awarded until September, so the row exists and the name does not. If I delete the row I will forget the role.",
+    "plain": "That row is for the contractor's project manager. The contract with Levallois Systems is not awarded until September, so the row exists but the name does not. If I delete the row, I will forget the role."
+   },
+   {
+    "who": "brandeis",
+    "mood": "level",
+    "text": "Show me sheet two.",
+    "plain": "Show me the second sheet."
+   },
+   {
+    "who": "narr",
+    "text": "Sheet two is the Key Stakeholder Data Sheet. Mobile number, private email, preferred channel, and a free-text box headed Concerns and needs. It is on the shared drive, which is how Brandeis found it before anyone thought to show him.",
+    "plain": "Sheet two is the Key Stakeholder Data Sheet. It holds mobile numbers, private email addresses, preferred contact channel, and a free-text box titled Concerns and needs. It sits on the shared drive, which is how Brandeis found it before anyone thought to show it to him."
+   },
+   {
+    "who": "brandeis",
+    "text": "That box is an opinion about a colleague, held in a project folder, for twenty-six months, on a drive four divisions can open. Purpose, access, retention. In that order.",
+    "plain": "That box holds an opinion about a colleague. It stays in a project folder for twenty-six months, on a drive that four divisions can open. Tell me the purpose, then who can open it, then when it is deleted. In that order.",
+    "g": [
+     [
+      "retention period",
+      "how long a document may be kept before it must be deleted or archived"
+     ],
+     [
+      "Data Protection Coordinator",
+      "the person who advises the project on personal-data rules and how to follow them"
+     ]
+    ],
+    "ref": [
+     44,
+     "Note: Be careful to respect all applicable regulations on privacy and personal data rights when establishing and handling the Project Stakeholder Matrix."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Purpose is running the project. Access restricted to the Managing Layer. Retention ends at administrative closure, the twenty-eighth of July 2028.",
+    "plain": "The purpose is to run the project. Access is limited to the Managing Layer. The retention period ends at administrative closure, on 28 July 2028."
+   },
+   {
+    "who": "you",
+    "text": "And nothing goes in that box that I would not read aloud to the person it is about.",
+    "plain": "And I will write nothing in that box that I would not read out loud to the person it describes."
+   },
+   {
+    "who": "brandeis",
+    "text": "Then move it off the shared drive this morning and it is defensible. The matrix itself was never the problem.",
+    "plain": "Then move it off the shared drive this morning, and it can be defended. The main matrix was never the problem.",
+    "ref": [
+     101,
+     "As the document makes reference to people within your organisation, care should be used to keep the information confidential."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Now do the columns you have been avoiding.",
+    "plain": "Now let us do the columns you have been avoiding."
+   },
+   {
+    "who": "you",
+    "text": "Power, interest, influence. Interest is how much they care. Influence is what happens when they say no.",
+    "plain": "They are power, interest and influence. Interest is how much a person cares about the project. Influence is what happens when that person says no.",
+    "ref": [
+     101,
+     "Influence indicates the power the stakeholder has over the planning and implementation of activities. The higher a stakeholder's power of decision, the higher their influence."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Marie. High interest, negative.",
+    "plain": "Take Marie. High interest, and negative influence."
+   },
+   {
+    "who": "narr",
+    "text": "Eight metres away, Marie Curie is explaining to somebody in Frankfurt why a value date cannot be moved. She does not look up.",
+    "plain": "Eight metres away, Marie Curie is explaining to somebody in Frankfurt why a value date cannot be changed. She does not look up."
+   },
+   {
+    "who": "you",
+    "text": "Negative is not hostile. It is the word the technique uses. She is the person whose job this rewrites and nobody has given her a reason to believe us yet.",
+    "plain": "Negative does not mean hostile. It is simply the word the technique uses. Marie is the person whose job this project will change, and nobody has yet given her a reason to trust us.",
+    "ref": [
+     101,
+     "Interest is measured as the degree of enthusiasm displayed by the stakeholder in support of the project. Stakeholders can be positive, neutral or negative towards the project."
+    ]
+   },
+   {
+    "who": "hopper",
+    "mood": "quiet",
+    "text": "Leonardo is the one I would watch. High interest. Very important. Neutral.",
+    "plain": "Leonardo is the one I would watch. High interest, very important, and neutral."
+   },
+   {
+    "who": "hopper",
+    "text": "People keep reading neutral as supportive. It is not. It is a man who has not decided yet.",
+    "plain": "People keep treating neutral as supportive. It is not. It means a man who has not yet decided."
+   },
+   {
+    "who": "narr",
+    "text": "Florence has arrived without anyone noticing and is reading the screen over your shoulder, standing, which is how she reads everything.",
+    "plain": "Florence has arrived without anyone noticing. She is reading the screen over your shoulder, standing up, which is how she reads everything."
+   },
+   {
+    "who": "nightingale",
+    "text": "Lorenzo is medium interest? He chairs the board that funded us.",
+    "plain": "Lorenzo is listed as medium interest? He chairs the board that gave us the money."
+   },
+   {
+    "who": "you",
+    "text": "Medium interest, very important, neutral. He has eleven other projects and about forty minutes a year for this one. That combination tells me what to send him and how often, which is where the communications plan starts.",
+    "plain": "Medium interest, very important, neutral. He has eleven other projects and about forty minutes a year for this one. That combination tells me what to send him and how often. That is where the communications plan begins.",
+    "ref": [
+     95,
+     "Identify project stakeholder groups based on the Project Stakeholder Matrix."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "And my row says Positive.",
+    "plain": "And my row says Positive."
+   },
+   {
+    "who": "you",
+    "text": "Positive, very important, high interest.",
+    "plain": "Yes. Positive, very important, high interest."
+   },
+   {
+    "who": "nightingale",
+    "mood": "dry",
+    "text": "Optimistic of you. Ask me again in November.",
+    "plain": "That is optimistic. Ask me again in November."
+   },
+   {
+    "who": "nightingale",
+    "text": "It is not finished either. You have twenty-two rows and I can name six people in Finance and Control who are not on it, three of whom will be reconciling this thing at seven in the morning.",
+    "plain": "It is also not finished. You have twenty-two rows. I can name six people in Finance and Control who are missing, and three of them will be checking this system's records at seven in the morning.",
+    "g": [
+     [
+      "middle office",
+      "the unit that checks and controls deals after the front office agrees them"
+     ]
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Your afternoon is now spoken for, and Grace has already opened her calendar.",
+    "plain": "Your afternoon is now fully booked, and Grace has already opened her calendar."
+   }
+  ],
+  "choice": {
+   "prompt": "Twenty-two rows, six known gaps, and Grace still has the Business Implementation Group to stand up. How do you finish the matrix?",
+   "promptPlain": "You have twenty-two rows, six known gaps, and Grace still has to set up the Business Implementation Group. How do you finish the matrix?",
+   "options": [
+    {
+     "t": "Work through it with Grace — she knows the client side — then take it to Florence to approve.",
+     "tPlain": "Work through it together with Grace, who knows the business side, then send it to Florence for approval.",
+     "ok": true,
+     "reply": {
+      "who": "hopper",
+      "text": "Thursday, two hours, and I bring the divisional list. You will get names you would never have found and two you did not want.",
+      "plain": "Thursday, for two hours, and I will bring the list of my division. You will get names you would never have found, and two that you did not want."
+     },
+     "why": "The Project Manager prepares the Project Stakeholder Matrix and the Business Manager assists, particularly with the identification of stakeholders on the client side; other stakeholders are consulted (p.44). The RASCI on p.45 is PO = Accountable, PM = Responsible, BM = Supports — the same row as the Project Handbook, and the same approver.",
+     "whyPlain": "The Project Manager prepares the matrix. The Business Manager helps, especially with finding stakeholders on the business side. Other stakeholders are consulted (page 44). The RASCI on page 45 says Project Owner Accountable, Project Manager Responsible, Business Manager supports. It is the same row, and the same approver, as the Project Handbook.",
+     "ref": [
+      44,
+      "Business Manager (BM) Assists the Project Manager (PM), particularly with the identification of stakeholders on the client side."
+     ]
+    },
+    {
+     "t": "Finish it yourself tonight. You sat through the kick-off and you know who was in the room.",
+     "tPlain": "Finish it alone this evening. You were at the kick-off meeting and you know who attended.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "Then you will list the people who come to meetings. That is a different list from the people who can stop you.",
+      "plain": "Then you will list the people who attend meetings. That is a different list from the people who can stop you."
+     },
+     "why": "A matrix built from one head is a list of the visible. The Business Manager's assistance on client-side stakeholders is written into the artefact's key participants (p.44) because the Project Manager systematically cannot see the requestor side; the six Finance and Control names Florence just produced are the proof.",
+     "whyPlain": "A matrix written by one person is only a list of the people that person can see. The guide names the Business Manager as the helper for business-side stakeholders (page 44), because a Project Manager cannot see that side properly. The six missing Finance and Control names that Florence just listed prove it.",
+     "ref": [
+      45,
+      "Using the project's organisational structure, identify everyone who will have a role in the project."
+     ]
+    },
+    {
+     "t": "Ask HR for the divisional org charts and derive the matrix from the reporting lines.",
+     "tPlain": "Ask the HR department for the division's organisation charts and build the matrix from the reporting lines.",
+     "ok": false,
+     "reply": {
+      "who": "brandeis",
+      "text": "You would be taking staff data collected for one purpose and using it for another. Ask me before you ask them, not after.",
+      "plain": "You would take staff data that was collected for one purpose and use it for a different one. Ask me before you ask them, not afterwards."
+     },
+     "why": "Org charts give you hierarchy, not project roles: step 2 is to assign each person a specific role for the duration of the project, based on the standard PM² roles (p.45). It also walks straight into the note on p.44 about respecting privacy and personal data rules when establishing and handling the matrix.",
+     "whyPlain": "Organisation charts show hierarchy, not project roles. Step 2 says to give each person a specific role for the length of the project, based on the standard PM2 roles (page 45). It also breaks the warning on page 44 about respecting privacy and personal-data rules when building and handling the matrix.",
+     "ref": [
+      45,
+      "Assign each person a specific role for the duration of the project, based on the PM² standard Roles & Responsibilities."
+     ]
+    },
+    {
+     "t": "Send a blank template to all forty loan administrators and let people declare their own involvement.",
+     "tPlain": "Send an empty template to all forty loan administrators and let each person declare their own involvement.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "text": "You will get forty replies saying High, and I will spend a fortnight ranking my own staff against each other.",
+      "plain": "You will receive forty replies that all say High. Then I will spend two weeks ranking my own staff against each other."
+     },
+     "why": "Self-declaration produces a stakeholder list nobody owns. The matrix is Responsible to the Project Manager and Accountable to the Project Owner (p.45); crowd-sourcing the classification hands both away, and an interest and influence assessment that everyone scored themselves is worthless as an input to the Communications Management Plan.",
+     "whyPlain": "If people classify themselves, nobody owns the list. The matrix is Responsible to the Project Manager and Accountable to the Project Owner (page 45). Letting the crowd decide gives both away. An interest and influence rating that people gave themselves is useless as an input to the Communications Management Plan.",
+     "ref": [
+      95,
+      "When determining the strategy for each communication activity, consider the interests and influence of both internal and external organisations to the project."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for preparing the Project Stakeholder Matrix.",
+    "k": "Knows the Handbook is with Florence and that this matrix feeds the communications plan.",
+    "w": "Wants the matrix finished this week so the communications plan can start.",
+    "f": "Afraid a data protection objection stops an artefact he has already promised for June."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the PM, especially on client-side stakeholders.",
+    "k": "Knows every informal power line in Lending Operations and half of Finance and Control.",
+    "w": "Wants Leonardo's neutral rating taken seriously instead of read as support.",
+    "f": "Afraid the project mistakes attendance at meetings for actual influence."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Consults and advises; approves nothing.",
+    "k": "Knows sheet two is on a drive four divisions can open.",
+    "w": "Wants purpose, access and retention answered today, in that order.",
+    "f": "Afraid a free-text opinion box about named colleagues survives twenty-six months unexamined."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the Project Stakeholder Matrix as well as the Handbook.",
+    "k": "Has read the Handbook and knows six Finance and Control names that are missing.",
+    "w": "Wants the people who will actually run the system counted as stakeholders.",
+    "f": "Afraid the project talks only to the divisions that turn up to meetings."
+   },
+   "gantt": {
+    "o": "Project Support Office. Holds the template, the version and the storage location.",
+    "k": "Knows the five template groups and which of the twenty-two rows are still empty.",
+    "w": "Wants a version number on the file before anybody else circulates it.",
+    "f": "Afraid three different copies of sheet two are already in circulation."
+   }
+  },
+  "unlock": [
+   5
+  ],
+  "note": "Guide check: section 6.3, pp.44–45. The Project Stakeholder Matrix lists all key stakeholders with their contact details and clearly states their role or roles in the project, and may also classify or categorise them. The Project Manager prepares it; the Business Manager assists, particularly with identifying stakeholders on the client side; other stakeholders are consulted. Inputs are the Business Case, the Project Charter and the Planning Kick-off Minutes of Meeting. The two steps are to identify everyone who will have a role using the organisation's structure, and to assign each of them a specific project role for the project's duration, based on the standard PM² roles. The guide warns explicitly that all applicable regulations on privacy and personal data rights must be respected when establishing and handling the matrix. The classification technique behind the columns is the Stakeholder Interest/Influence Matrix (Appendix C.3, p.101): interest is the degree of enthusiasm the stakeholder shows — positive, neutral or negative — while influence is their power over the planning and implementation of activities, and it warns that the document names people and must be kept confidential. RASCI: AGB I, PSC I, PO A, BM S, BIG C, SP I, PM R, PCT C. Approver: the Project Owner. Pages 44, 45 and 101.",
+  "notePlain": "Rule: the Project Stakeholder Matrix lists every key stakeholder, their contact details and their role in the project. It may also group or rate them. The Project Manager writes it. The Business Manager helps, above all with finding the stakeholders on the business side. Other stakeholders are consulted. Its inputs are the Business Case, the Project Charter and the Planning Kick-off minutes. There are two steps: use the organisation structure to find everyone with a role, then give each person a specific project role for the whole project, based on the standard PM2 roles. The guide states clearly that privacy and personal-data rules must be respected when building and handling the matrix. The rating columns come from the Stakeholder Interest/Influence technique (page 101). Interest means how enthusiastic a person is: positive, neutral or negative. Influence means the power they hold over planning and doing the work. The guide also warns that the document names real people and must be kept confidential. RASCI: Project Manager Responsible, Project Owner Accountable, Business Manager supports, core team and business group consulted, and the rest informed. Approver: the Project Owner. Pages 44, 45 and 101."
+ },
+ {
+  "id": "s14",
+  "act": 2,
+  "actName": "Planning",
+  "title": "Describe the need, not the button",
+  "covers": [
+   "Requirements Management Plan",
+   "Project Change Management Plan"
+  ],
+  "guide_page": 89,
+  "where": "ESM, Kirchberg — Lending Operations workshop room",
+  "when": "21 May 2026, 09:00",
+  "cast": [
+   "you",
+   "lovelace",
+   "curie",
+   "hopper",
+   "tesla",
+   "nightingale"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Fourth workshop in three weeks. Cold coffee, a whiteboard nobody has cleaned properly, and two hundred and fourteen numbered lines on the screen.",
+    "plain": "This is the fourth workshop in three weeks. There is cold coffee, a whiteboard that nobody has cleaned properly, and 214 numbered lines on the screen."
+   },
+   {
+    "who": "curie",
+    "mood": "flat",
+    "text": "Requirement. Put a Refresh button at the top right of the disbursement queue.",
+    "plain": "Here is a requirement. Put a Refresh button in the top right corner of the disbursement queue screen."
+   },
+   {
+    "who": "lovelace",
+    "text": "That is a solution.",
+    "plain": "That is a solution, not a requirement."
+   },
+   {
+    "who": "curie",
+    "text": "It is a button.",
+    "plain": "It is a button."
+   },
+   {
+    "who": "lovelace",
+    "text": "It is a solution shaped like a button. Tell me the need.",
+    "plain": "It is a solution in the shape of a button. Tell me the need behind it."
+   },
+   {
+    "who": "curie",
+    "text": "I need to know that the queue in front of me is the queue that exists. At the moment I close the screen and open it again, twice, before I release anything.",
+    "plain": "I need to know that the queue I am looking at is the real one. At the moment I close the screen and reopen it twice before I release any payment."
+   },
+   {
+    "who": "lovelace",
+    "text": "That is a requirement. A loan administrator must be able to see the current state of the disbursement queue without leaving the screen.",
+    "plain": "That is a requirement. A loan administrator must be able to see the current state of the disbursement queue without leaving the screen."
+   },
+   {
+    "who": "lovelace",
+    "text": "Now the platform can satisfy it three ways and one of them costs nothing, because it is already in the product.",
+    "plain": "Now the platform can meet that need in three ways. One of them costs nothing, because the product already does it."
+   },
+   {
+    "who": "you",
+    "text": "Write both. The need is the requirement. The button goes in the notes as the thing that prompted it.",
+    "plain": "Write down both. The need is the requirement. The button goes in the notes as the thing that started the discussion.",
+    "g": [
+     [
+      "Requirements Management Plan",
+      "the document that says how requirements are gathered, prioritised, approved and traced"
+     ]
+    ],
+    "ref": [
+     89,
+     "Note that requirements themselves are documented and managed in separate artefact(s) (e.g. requirements matrix)."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And the priorities, because everything Marie says is critical at the moment she says it.",
+    "plain": "And the priorities, because everything Marie says sounds critical at the moment she says it."
+   },
+   {
+    "who": "you",
+    "text": "MoSCoW. Must, Should, Could, Won't. Won't is a decision, not a refusal — it means not this time, and it is written down so nobody re-argues it in 2027.",
+    "plain": "We use MoSCoW: Must have, Should have, Could have, Won't have. Won't is a decision, not a refusal. It means not in this project, and it is written down so that nobody argues about it again in 2027.",
+    "g": [
+     [
+      "MoSCoW",
+      "a way of ranking requirements as Must, Should, Could or Won't have"
+     ]
+    ],
+    "ref": [
+     89,
+     "Define the tools and techniques that will be used to identify, evaluate, prioritise and manage requirements (e.g. brainstorming sessions, prototyping, MoSCoW, etc.)."
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "As of this morning, ninety-six Must, seventy-one Should, thirty-nine Could, eight Won't.",
+    "plain": "As of this morning there are 96 Must, 71 Should, 39 Could and 8 Won't."
+   },
+   {
+    "who": "tesla",
+    "text": "Ninety-six Musts is not a prioritisation. It is a wish list with a ribbon on it.",
+    "plain": "Ninety-six Must requirements is not a prioritisation. It is a wish list with a ribbon on it."
+   },
+   {
+    "who": "lovelace",
+    "mood": "unbothered",
+    "text": "Then come to the review and challenge them one at a time. A Must is a requirement without which we do not go live on the fifteenth of May 2028. Say that sentence over all ninety-six and about twenty will move on their own.",
+    "plain": "Then come to the review and challenge them one by one. A Must is a requirement without which we cannot go live on 15 May 2028. Say that sentence over all 96 and about twenty will move down by themselves."
+   },
+   {
+    "who": "tesla",
+    "text": "I will come.",
+    "plain": "I will come."
+   },
+   {
+    "who": "you",
+    "text": "The states matter as much as the priorities. Specified, Proposed, Approved, Incorporated, Implemented, Validated. Approved is the line that changes everything, because after it those requirements are the scope.",
+    "plain": "The states matter as much as the priorities. They are Specified, Proposed, Approved, Incorporated, Implemented and Validated. Approved is the important line. After a requirement is approved, it is part of the agreed scope.",
+    "g": [
+     [
+      "requirements traceability matrix",
+      "a table linking each requirement to the deliverable and the test that proves it"
+     ]
+    ],
+    "ref": [
+     89,
+     "Define what a requirement is, and what the possible states of its lifecycle are."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "And when I find something in 2027 that all of us forgot?",
+    "plain": "And what happens when I find something in 2027 that we all forgot?"
+   },
+   {
+    "who": "you",
+    "text": "Then you have not found a requirement. You have found a change.",
+    "plain": "Then you have not found a requirement. You have found a change.",
+    "ref": [
+     89,
+     "Ensure that the requirements management process is aligned with the change management process, and that requirement changes are traced to the project's deliverables and activities."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence has been in the doorway for a minute and a half with her coat over one arm.",
+    "plain": "Florence has been standing in the doorway for a minute and a half, with her coat over one arm."
+   },
+   {
+    "who": "nightingale",
+    "text": "Somebody from a cabinet asked me in the lift this morning whether we could put backstop screens in.",
+    "plain": "This morning, somebody from a Board member's private office asked me in the lift whether we could add backstop screens."
+   },
+   {
+    "who": "hopper",
+    "text": "In the lift.",
+    "plain": "In the lift."
+   },
+   {
+    "who": "nightingale",
+    "text": "In the lift. So read me section four point four, because I am going to have to say it back to him.",
+    "plain": "Yes, in the lift. So read me section 4.4, because I will have to repeat it to him."
+   },
+   {
+    "who": "you",
+    "text": "Any deviation from the scope, schedule, cost or quality we baseline in June. Size and priority both scored one to five. Very low and low, Grace and I decide. Medium and above, the Steering Committee sits as the change control board.",
+    "plain": "A change is any deviation from the scope, schedule, cost or quality that we approve in June. Size and priority are each scored from 1 to 5. For very low and low, Grace and I decide. For medium and above, the Steering Committee acts as the change control board.",
+    "g": [
+     [
+      "Change Request Form",
+      "the form that turns a spoken request into an assessed, decided and recorded change"
+     ]
+    ],
+    "ref": [
+     90,
+     "Define who is responsible for approving changes at the various impact levels, and how this decision is communicated to the rest of the team."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And four outcomes, not two. Approve, reject, postpone, merge. Postponed is an honest answer, which is why nothing has to be smuggled in.",
+    "plain": "And there are four possible outcomes, not two. Approve, reject, postpone, or merge with another change. Postponed is an honest answer. That is why nothing has to be added secretly.",
+    "ref": [
+     96,
+     "Postponed: This status is set if the change is postponed indefinitely."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "He will hear that as no.",
+    "plain": "He will hear that as a refusal."
+   },
+   {
+    "who": "you",
+    "text": "Then let him hear it from a form with a number on it rather than from you in a lift.",
+    "plain": "Then let him hear it from a numbered form, instead of from you in a lift.",
+    "ref": [
+     90,
+     "Project change management brings transparency, accountability and traceability to all project changes implemented after the project scope and project plans have been baselined."
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for the Requirements and Change Management Plans; PO approves both.",
+    "k": "Knows 214 requirements exist and that the Change Log has one live entry.",
+    "w": "Wants the change route stated in front of witnesses before the first informal request lands.",
+    "f": "Afraid the first corridor request is granted before the plans are even approved."
+   },
+   "lovelace": {
+    "o": "Business Analyst on the Core Team. Supports the Requirements Management Plan; keeps the traceability matrix.",
+    "k": "Knows the exact MoSCoW split and which Musts will not survive a review.",
+    "w": "Wants users to state needs rather than designs, one requirement at a time.",
+    "f": "Afraid ninety-six Musts are baselined and every one of them becomes a promise."
+   },
+   "curie": {
+    "o": "User Representative. Signs off user-related documents and validates requirements later.",
+    "k": "Knows what the disbursement queue does wrong at eight in the morning.",
+    "w": "Wants a working queue screen, and does not much care what it is called.",
+    "f": "Afraid her requirement is rewritten into abstraction and quietly dropped."
+   },
+   "hopper": {
+    "o": "Business Manager. Consulted on both plans; names the User Representatives.",
+    "k": "Knows the priorities will be argued again the moment money is short.",
+    "w": "Wants a prioritisation that survives contact with a delivery date.",
+    "f": "Afraid her division is blamed for scope that nobody ever ranked."
+   },
+   "tesla": {
+    "o": "Lead Solution Architect. Will build against whatever is baselined in June.",
+    "k": "Knows a platform cannot be configured against ninety-six equal priorities.",
+    "w": "Wants the Must list cut before it becomes a contractual commitment.",
+    "f": "Afraid he is held to a wish list he was shown once and never agreed to."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the Requirements and Project Change Management Plans.",
+    "k": "Has approved the Handbook and has just been lobbied informally in a lift.",
+    "w": "Wants a sentence she can repeat upwards without sounding obstructive.",
+    "f": "Afraid a favour granted in a lift becomes eight weeks and three hundred thousand euro."
+   }
+  },
+  "unlock": [
+   11,
+   12
+  ],
+  "note": "Guide check: Appendix B.1 and B.2, pp.89–90. The Requirements Management Plan defines the requirements management approach, process steps, responsibilities, tools, techniques and artefacts; the requirements themselves are documented and managed in separate artefacts such as a requirements matrix. It defines what a requirement is and the possible states of its lifecycle, names the prioritisation techniques used — MoSCoW among them — and must be aligned with the change management process, with requirement changes traced to deliverables and activities. In the absence of a more specialised role, the Project Manager executes the process from initiation until all requirements are implemented and validated. RASCI: AGB I, PSC I, PO A, BM C, BIG C, SP I, PM R, PCT S — the only management plan where the Project Core Team supports. The Project Change Management Plan defines the activities, roles and responsibilities for identifying, documenting, assessing, approving, prioritising, implementing, controlling and communicating changes, and brings transparency, accountability and traceability to changes made after the scope and plans are baselined. It defines who approves at each impact level, and the Change Log documents every requested change and traces the related decisions and actions; its statuses include Submitted, Assessing, Waiting for approval, Approved, Rejected, Postponed, Merged and Implemented (p.96). RASCI: AGB I, PSC I, PO A, BM C, BIG I, SP I, PM R, PCT I. Approver of both: the Project Owner. Pages 89, 90 and 96.",
+  "notePlain": "Rule: the Requirements Management Plan says how requirements are handled. It covers the approach, the process steps, who does what, and the tools and documents used. The requirements themselves live in a separate document, such as a requirements matrix. The plan defines what counts as a requirement and the states it can be in. It names the ranking techniques used, including MoSCoW. It must fit the change process, and requirement changes must be traceable to deliverables and activities. If there is no specialist role, the Project Manager runs the process until every requirement is built and validated. In its RASCI the core team supports, which happens in no other management plan. The Project Change Management Plan says how changes are found, described, assessed, approved, ranked, built, controlled and communicated. It makes changes after the baseline clear, owned and traceable. It says who may approve a change at each level of impact. The Change Log records each requested change and its decisions. Its statuses are Submitted, Assessing, Waiting for approval, Approved, Rejected, Postponed, Merged and Implemented (page 96). RASCI for both plans: Project Manager Responsible, Project Owner Accountable, Business Manager consulted. Approver of both: the Project Owner. Pages 89, 90 and 96."
+ },
+ {
+  "id": "s15",
+  "act": 2,
+  "actName": "Planning",
+  "title": "Twelve out of twenty-five",
+  "covers": [
+   "Risk Management Plan",
+   "Issue Management Plan"
+  ],
+  "guide_page": 91,
+  "where": "ESM, Kirchberg — meeting room B-2.04, camera now fixed",
+  "when": "28 May 2026, 15:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Same room, new camera, no Legal. On the screen, a grid five squares by five, green in the bottom left and red in the top right.",
+    "plain": "It is the same room, with a new camera and nobody from Legal. On the screen there is a grid of five squares by five. It is green in the bottom left corner and red in the top right."
+   },
+   {
+    "who": "you",
+    "text": "Likelihood times impact, each scored one to five. So the answer is somewhere between one and twenty-five. Two or below green, three to sixteen yellow, twenty and above red.",
+    "plain": "You multiply likelihood by impact. Each is scored from 1 to 5. So the result is between 1 and 25. A score of 2 or less is green, 3 to 16 is yellow, and 20 or more is red.",
+    "g": [
+     [
+      "Risk Level",
+      "likelihood multiplied by impact, each scored one to five, giving a number from 1 to 25"
+     ]
+    ],
+    "ref": [
+     101,
+     "The two factors are then combined by multiplying their values, resulting in the Risk Level."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Invented by whom?",
+    "plain": "Who invented those numbers?"
+   },
+   {
+    "who": "you",
+    "text": "By this room, this afternoon, and then written into the plan so they are still the same numbers in 2028. Impact four means five to ten per cent of eight point four million, or several milestones moving.",
+    "plain": "By this room, this afternoon. Then they are written into the plan, so they are still the same numbers in 2028. Impact 4 means 5 to 10 per cent of the 8.4 million euro budget, or several milestones being delayed.",
+    "ref": [
+     91,
+     "Customise the scales used for assessing risks (i.e. likelihood, impact and overall risk level)."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "My risk appetite is zero. We are a crisis institution.",
+    "plain": "My risk appetite is zero. We are a crisis institution."
+   },
+   {
+    "who": "you",
+    "text": "Then we stop this afternoon, because the only project with no risk is the one nobody starts.",
+    "plain": "Then we stop this afternoon, because the only project with no risk is a project that nobody starts.",
+    "g": [
+     [
+      "risk appetite",
+      "the amount of risk the stakeholders agree in advance that they are willing to accept"
+     ]
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Nobody says anything for a while. Outside, a delivery lorry reverses into the bay below with a great deal of beeping.",
+    "plain": "For a while, nobody speaks. Outside, a delivery lorry reverses into the loading bay below, beeping loudly."
+   },
+   {
+    "who": "nightingale",
+    "text": "Risk level six or below. Nothing above one chance in four. Nothing where the loss could run past two per cent of the budget.",
+    "plain": "Then say: risk level 6 or below. Nothing with a likelihood above one in four. Nothing where the possible loss is more than 2 per cent of the budget.",
+    "ref": [
+     91,
+     "Determine (with the involvement of key stakeholders) the project's risk appetite (the amount of risk that stakeholders are prepared to accept)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "A hundred and sixty-eight thousand euro. That is now in the plan, and I will read it back to you in November.",
+    "plain": "That is 168,000 euro. It is now written in the plan, and I will read it back to you in November.",
+    "mood": "dry"
+   },
+   {
+    "who": "gantt",
+    "text": "Categories, so the log sorts by something other than date.",
+    "plain": "We also need categories, so the log can be sorted by something other than date."
+   },
+   {
+    "who": "you",
+    "text": "Six. Business. IT. People and organisation. External. Legal. Communication and information. The empty branches are the interesting ones, because they show where nobody has looked.",
+    "plain": "There are six categories: business, IT, people and organisation, external, legal, and communication and information. The empty ones are the interesting ones, because they show where nobody has looked yet."
+   },
+   {
+    "who": "hopper",
+    "mood": "pointed",
+    "text": "Nobody has looked at legal.",
+    "plain": "Nobody has looked at the legal category."
+   },
+   {
+    "who": "leonardo",
+    "text": "Then take one from me. The platform contractor loses its lead architect halfway through. It has happened on every implementation I have run.",
+    "plain": "Then take one from me. The platform contractor loses its lead architect halfway through the project. That has happened on every implementation I have managed."
+   },
+   {
+    "who": "you",
+    "text": "R-07. External, owner you. Likelihood three, impact four. Twelve. Yellow, above appetite, so we reduce it.",
+    "plain": "That is risk R-07. Category external, and you are the owner. Likelihood 3, impact 4, so risk level 12. That is yellow and above the agreed appetite, so we must reduce it.",
+    "g": [
+     [
+      "risk response",
+      "the chosen way of handling a risk: avoid it, transfer it, reduce it, or accept it"
+     ]
+    ],
+    "ref": [
+     91,
+     "Identify the applicable risk response strategies both for identified threats and opportunities (i.e. avoid, transfer/share, reduce, accept or exploit, enhance, share and accept respectively)."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "We have not signed a contract. There is no architect to lose.",
+    "plain": "We have not signed any contract yet. There is no architect to lose."
+   },
+   {
+    "who": "leonardo",
+    "text": "No. Ignore that. That is precisely when it is cheap.",
+    "plain": "No, ignore what I just said. This is exactly the moment when the response is cheap."
+   },
+   {
+    "who": "you",
+    "text": "A key-person clause in the tender documents, and Tesla shadowing the design authority from day one. Both of those are real work, so both of them will show up in the Work Plan with days against them.",
+    "plain": "We put a key-person clause in the tender documents, and Nikola Tesla shadows the design authority from the first day. Both of those are real work, so both will appear in the Work Plan with a number of days against them.",
+    "ref": [
+     91,
+     "Note that activities that need considerable effort should be included in the Project Work Plan."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Then take mine. The parallel run is January to April 2028 and there is an EFSF rollover inside that window. My people cannot do both, and I have already been told which one comes second.",
+    "plain": "Then take my risk. The parallel run is from January to April 2028, and there is an EFSF bond rollover in that period. My staff cannot do both. I have already been told which one will come second.",
+    "ref": [
+     91,
+     "Specify the escalation and communication procedures for risks that need special attention (i.e. which project stakeholders need to be informed if critical risks are triggered)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "R-11. Business, three and four, twelve again, and you own it. Escalation: six or below stays with me, eight to fifteen goes to Florence, sixteen and above to the Steering Committee. Red goes to Lorenzo's board as well.",
+    "plain": "That is R-11. Category business, likelihood 3, impact 4, risk level 12 again, and you are the owner. Escalation works like this: 6 or below stays with me, 8 to 15 goes to Florence, 16 and above goes to the Steering Committee. Red risks also go to Lorenzo's board."
+   },
+   {
+    "who": "nightingale",
+    "text": "And when one of them actually happens?",
+    "plain": "And what happens when one of these risks actually occurs?"
+   },
+   {
+    "who": "you",
+    "text": "Then it stops being a risk. A risk might happen. An issue has happened and needs a management action. It leaves one log and opens in another.",
+    "plain": "Then it is no longer a risk. A risk is something that might happen. An issue is something that has happened and needs a management action. It leaves the Risk Log and is opened in the Issue Log.",
+    "g": [
+     [
+      "issue",
+      "an unplanned event that has already happened and needs a management action"
+     ]
+    ],
+    "ref": [
+     92,
+     "Issues are defined as unplanned project-related events that require a project management action."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Do we log everything that goes wrong? Because things go wrong daily.",
+    "plain": "Do we log everything that goes wrong? Things go wrong every day."
+   },
+   {
+    "who": "you",
+    "text": "No. Only what cannot be sorted out easily and needs a management action. Urgency, impact and size, one to five each. Small ones close with Grace. Medium and above go to the Steering Committee, and the decision lands in the Decision Log with a name against it.",
+    "plain": "No. Only problems that cannot be solved easily and that need a management action. We score urgency, impact and size, each from 1 to 5. Small ones are closed by Grace and me. Medium and above go to the Steering Committee, and the decision goes into the Decision Log with a name next to it.",
+    "ref": [
+     92,
+     "Define which issues (depending on their category, urgency and impact) can be handled at the (Project) Management Layer and which ones need to be escalated."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "So the day my architect walks out, R-07 becomes an issue and the whole room can see we saw it coming.",
+    "plain": "So on the day my architect leaves, risk R-07 becomes an issue, and everyone can see that we expected it."
+   },
+   {
+    "who": "you",
+    "text": "And that we did something about it eighteen months earlier. That is what the yellow squares are for.",
+    "plain": "And that we acted on it eighteen months earlier. That is the purpose of the yellow squares."
+   },
+   {
+    "who": "nightingale",
+    "text": "Eighteen months. Put my appetite number in front of the Steering Committee in June. If I have to live with it I would rather five people watched me agree to it.",
+    "plain": "Eighteen months. Put my risk appetite figure in front of the Steering Committee in June. If I must live with it, I would prefer five people to watch me agree to it."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for the Risk and Issue Management Plans; PO approves both.",
+    "k": "Knows R-07 and R-11 are the two risks that will decide this project.",
+    "w": "Wants a number for the risk appetite rather than a principle nobody can apply.",
+    "f": "Afraid a zero-tolerance statement makes every honest risk politically expensive to log."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for both plans; the Steering Committee is only consulted on risk.",
+    "k": "Has approved the Handbook and now sees what her own appetite costs in euro.",
+    "w": "Wants her risk appetite recorded in front of the committee, not agreed in a side room.",
+    "f": "Afraid of owning a tolerance she will be quoted at when something goes wrong."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Owner of R-07, the contractor key-person risk.",
+    "k": "Knows the market for platform architects and has lived this failure before.",
+    "w": "Wants the key-person clause priced into the tender before September.",
+    "f": "Afraid the response is agreed today and quietly dropped from the tender pack."
+   },
+   "hopper": {
+    "o": "Business Manager. Consulted on both plans; owner of R-11.",
+    "k": "Knows the parallel run and the EFSF rollover collide in the first quarter of 2028.",
+    "w": "Wants the collision on the record now, while it is still two years away.",
+    "f": "Afraid her division is told in 2028 that nobody foresaw the clash."
+   },
+   "gantt": {
+    "o": "Project Support Office. Maintains the Risk, Issue and Decision Logs.",
+    "k": "Knows the log is unusable unless every entry carries a category.",
+    "w": "Wants a logging threshold so the register does not fill with daily noise.",
+    "f": "Afraid a log that records everything ends up recording nothing anyone reads."
+   }
+  },
+  "unlock": [
+   13,
+   14
+  ],
+  "note": "Guide check: Appendix B.3 and B.4, pp.91–92. The Risk Management Plan describes how risks are identified and assessed, the tools and techniques, the evaluation scales and tolerances, the roles and responsibilities, and how often risks are revisited; it also defines the risk monitoring and escalation process and the structure of the Risk Log. Step 5 requires the scales to be customised; step 6 requires the project's risk appetite — the amount of risk stakeholders are prepared to accept — to be determined with the involvement of key stakeholders; step 8 the escalation and communication procedure; step 9 the response strategies for threats and opportunities; step 10 that response actions needing considerable effort be included in the Project Work Plan. The arithmetic is Appendix C.4, p.101: likelihood and impact each on a 1-to-5 band, multiplied to give a Risk Level from 1 to 25, green at 2 or below, yellow from 3 to 16, red at 20 or above. RASCI: AGB I, PSC C, PO A, BM C, BIG I, SP I, PM R, PCT I — the only management plan where the Project Steering Committee is Consulted rather than Informed. The Issue Management Plan defines the activities, roles and responsibilities for identifying, assessing, assigning, resolving and controlling issues, which are unplanned project-related events that require a project management action; it sets which issues can be handled at the Management Layer and which must be escalated, and the related decisions are logged in the Decision Log. RASCI: AGB I, PSC I, PO A, BM C, BIG C, SP I, PM R, PCT C. Approver of both: the Project Owner. Pages 91, 92 and 101.",
+  "notePlain": "Rule: the Risk Management Plan says how risks are found and scored, which tools are used, what the scales and limits are, who does what, and how often risks are reviewed. It also sets the monitoring and escalation process and the shape of the Risk Log. You must set your own scales. You must agree the risk appetite with the key stakeholders: that is the amount of risk they accept in advance. You must say who is told when a critical risk is triggered. You must choose response strategies for threats and for opportunities. Any response action that needs real effort must go into the Project Work Plan. The maths is on page 101: likelihood and impact are each scored 1 to 5 and multiplied, giving a risk level from 1 to 25. Green is 2 or below, yellow is 3 to 16, red is 20 or above. In this plan alone, the Steering Committee is consulted rather than informed. The Issue Management Plan says how issues are found, scored, assigned, solved and controlled. An issue is an unplanned event that has already happened and needs a management action. The plan says which issues the Managing Layer can handle and which must go higher. Decisions go in the Decision Log. Approver of both plans: the Project Owner. Pages 91, 92 and 101."
+ },
+ {
+  "id": "s16",
+  "act": 2,
+  "actName": "Planning",
+  "title": "Where version numbers live",
+  "covers": [
+   "Quality Management Plan",
+   "Communications Management Plan"
+  ],
+  "guide_page": 93,
+  "where": "ESM, Kirchberg — Project Support Office, third floor",
+  "when": "09 Jun 2026, 11:00",
+  "cast": [
+   "you",
+   "deming",
+   "gantt",
+   "hopper",
+   "gutenberg",
+   "nightingale"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "June, and the building's air conditioning has taken its usual position on the matter. W. Edwards Deming arrives with a printed checklist, a pencil and no laptop.",
+    "plain": "It is June, and the building's air conditioning is not working well, as usual. W. Edwards Deming arrives with a printed checklist, a pencil and no laptop."
+   },
+   {
+    "who": "deming",
+    "text": "Before we start. I do not work for you, and I do not report to you. I report to the Steering Committee.",
+    "plain": "Before we begin: I do not work for you and I do not report to you. I report to the Project Steering Committee.",
+    "ref": [
+     28,
+     "Assigned by the Project Steering Committee (PSC) and working independently of the Project Manager (PM), the Project Quality Assurance (PQA) ensures the high quality of the project and its deliverables"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "I know. It is on my org chart in a different colour.",
+    "plain": "I know. It is shown in a different colour on my organisation chart."
+   },
+   {
+    "who": "deming",
+    "text": "Good. Objectives.",
+    "plain": "Good. Tell me the quality objectives."
+   },
+   {
+    "who": "you",
+    "text": "Taken from the success criteria, not invented in this room. Disbursement five working days to one. Reconciliation three days to same day. Two open audit findings to zero.",
+    "plain": "They come from the success criteria, not from this room. Payment time from five working days to one. Reconciliation from three days to the same day. Open audit findings from two to zero.",
+    "g": [
+     [
+      "quality assurance",
+      "checking that the agreed process is actually being followed"
+     ],
+     [
+      "quality control",
+      "checking that the thing produced is actually good enough"
+     ]
+    ],
+    "ref": [
+     93,
+     "Determine the quality management objectives and characteristics by reviewing project deliverables, success criteria, approach and other specific requirements"
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Those are objectives. Now give me metrics with tolerances, or they are slogans on a wall.",
+    "plain": "Those are objectives. Now give me measures with tolerances, or they are only slogans on a wall.",
+    "g": [
+     [
+      "tolerance",
+      "how far a measure may drift from target before somebody has to act"
+     ]
+    ],
+    "ref": [
+     93,
+     "Additionally, design metrics and acceptance tolerances for evaluating these activities."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Steering Committee monthly, tolerance one month. Every artefact reviewed once per phase, no tolerance.",
+    "plain": "The Steering Committee meets monthly, with a tolerance of one month. Every artefact is reviewed once per phase, with no tolerance."
+   },
+   {
+    "who": "hopper",
+    "text": "A month of tolerance on a monthly meeting is generous.",
+    "plain": "One month of tolerance on a monthly meeting is very generous."
+   },
+   {
+    "who": "deming",
+    "mood": "flat",
+    "text": "It is honest. Zero tolerance on something you will miss in August makes the whole document a lie by September.",
+    "plain": "It is honest. If you set zero tolerance on something you will miss in August, the whole document is untrue by September."
+   },
+   {
+    "who": "hopper",
+    "text": "Can I have the communications plan before Johannes gets his folder tree out? Most of it is my meetings.",
+    "plain": "Can we do the communications plan before Johannes shows his folder structure? Most of it is about my meetings."
+   },
+   {
+    "who": "you",
+    "text": "It is a table. Every meeting and every report, with audience, owner, frequency and medium. Status meeting Tuesdays. Core Team Thursdays. Steering Committee monthly, chaired by Florence, minuted by Grace.",
+    "plain": "It is a table. It lists every meeting and every report, with its audience, its owner, how often it happens and the medium used. The status meeting is on Tuesdays. The core team meets on Thursdays. The Steering Committee meets monthly, chaired by Florence, with minutes written by Grace.",
+    "ref": [
+     95,
+     "The Communications Management Plan defines and documents communication activities, their goals, content, format, frequency and audience."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Why not you?",
+    "plain": "Why do you not write the minutes?"
+   },
+   {
+    "who": "you",
+    "text": "Because I report into that meeting. The chair owns the record of the meeting she chairs, and it keeps the two of us apart on paper.",
+    "plain": "Because I report to that meeting. The person who chairs a meeting owns its record. It keeps our two roles separate on paper."
+   },
+   {
+    "who": "you",
+    "text": "And a strategy per stakeholder rather than one broadcast. Lorenzo gets the progress report twice a year and nothing else. Marie gets a conversation before every acceptance, which is not a document at all.",
+    "plain": "And each key stakeholder gets their own approach, instead of one message for everybody. Lorenzo receives the progress report twice a year and nothing else. Marie gets a conversation before every acceptance, which is not a document at all.",
+    "ref": [
+     95,
+     "It also defines how to communicate project status and the assignment of activities to the various stakeholders and includes a communication strategy for each key stakeholder, based on their interests, expectations and influence in the project."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "wry",
+    "text": "That one I sign, then. Like the Handbook. Unlike the quality plan, which apparently belongs to my own committee rather than to me.",
+    "plain": "So I sign that one, like the Handbook. But not the quality plan, which apparently belongs to my committee and not to me."
+   },
+   {
+    "who": "narr",
+    "text": "Johannes Gutenberg has been waiting since ten past eleven with a folder tree open on his tablet. He turns it round without being asked.",
+    "plain": "Johannes Gutenberg has been waiting since 11:10, with a folder structure open on his tablet. He turns it round without being asked."
+   },
+   {
+    "who": "gutenberg",
+    "text": "Twenty-six months from now, Internal Audit will ask which version of the interface specification the contractor was paid against. I would like to be able to answer.",
+    "plain": "In twenty-six months, Internal Audit will ask which version of the interface specification the contractor was paid for. I would like to be able to answer that question.",
+    "g": [
+     [
+      "configuration management",
+      "controlling versions and access so you can prove which version of a document was used"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Configuration items: the Charter, the Handbook, the Work Plan, the interface specifications, the contract deliverables, the release packages.",
+    "plain": "The configuration items are the Charter, the Handbook, the Work Plan, the interface specifications, the contract deliverables and the release packages.",
+    "ref": [
+     94,
+     "Define what will be considered to be a configuration item based on project deliverables and artefacts, and identify the attributes of such items."
+    ]
+   },
+   {
+    "who": "gutenberg",
+    "text": "Number, name, CASTOR, date, version. Fifteen dot Quality underscore Management underscore Plan dot CASTOR dot twenty-six dash zero six dash twenty twenty-six dot v one point zero.",
+    "plain": "The naming rule is: number, document name, CASTOR, date, version. For example: 15.Quality_Management_Plan.CASTOR.26-06-2026.v1.0.",
+    "ref": [
+     94,
+     "Describe the naming conventions to be used in project documentation, folders and emails."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Folders 01 Initiating through 05 Closing. And a subject-line tag, because people obey a subject line and ignore a policy.",
+    "plain": "The folders run from 01 Initiating to 05 Closing. There is also a tag for email subject lines, because people follow a subject line and ignore a written policy."
+   },
+   {
+    "who": "gutenberg",
+    "text": "Retention and sanitisation last. Agreed by Florence and Leonardo, implemented by me, reviewed by Brandeis.",
+    "plain": "Retention and deletion come last. Florence and Leonardo agree them, I put them into practice, and Brandeis reviews them.",
+    "ref": [
+     94,
+     "Define any procedures related to creating copies of project data, retention periods, storage devices and sanitisation/deletion of data (if required)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And a registry. There is no PM² template for that one, so Gantt builds a spreadsheet and we walk it at every milestone.",
+    "plain": "We also need a registry of these items. PM2 gives no template for it, so Gantt will build a spreadsheet, and we will go through it at every milestone."
+   },
+   {
+    "who": "deming",
+    "text": "All of which is sensible. My question is narrower.",
+    "plain": "All of that is sensible. My question is narrower."
+   },
+   {
+    "who": "deming",
+    "text": "Which document does it go in? I have seen this filed in three different places in three different projects, and one of those projects could not prove anything at closure.",
+    "plain": "Which document does it belong in? I have seen it filed in three different places in three different projects. One of those projects could prove nothing at closure."
+   },
+   {
+    "who": "narr",
+    "text": "Gantt has the change plan open in one window and the quality plan in the other, waiting, with the cursor blinking in neither.",
+    "plain": "Gantt has the change management plan open in one window and the quality management plan in the other. He is waiting, and the cursor is in neither of them."
+   }
+  ],
+  "choice": {
+   "prompt": "Where does the configuration management procedure belong?",
+   "promptPlain": "Which document holds the configuration management procedure?",
+   "options": [
+    {
+     "t": "In the Quality Management Plan, with the key points summarised in the Handbook — and the plan goes to the Steering Committee for approval.",
+     "tPlain": "Put it in the Quality Management Plan, with a short summary in the Handbook. The plan then goes to the Steering Committee for approval.",
+     "ok": true,
+     "reply": {
+      "who": "deming",
+      "text": "Correct, and now you know why I care about it. Configuration is how you prove at closure that what you accepted is what you paid for.",
+      "plain": "That is correct, and now you know why it matters to me. Configuration management is how you prove at the end that what you accepted is what you paid for."
+     },
+     "why": "Appendix B.5 states it plainly: a configuration management procedure is documented in the Quality Management Plan (p.93), with the detailed guidelines on p.94, and key information may also be summarised in the Project Handbook. Note the RASCI: the Quality Management Plan is PSC = Accountable, PM = Responsible — the one management plan the Project Owner does not approve — and step 15 says to present the planned activities and timetable to the Steering Committee for approval.",
+     "whyPlain": "Appendix B.5 says it directly: the configuration management procedure is written in the Quality Management Plan (page 93). The detailed guidance is on page 94, and the main points may also be summarised in the Project Handbook. Note the RASCI: for the Quality Management Plan the Steering Committee is Accountable and the Project Manager Responsible. It is the one management plan the Project Owner does not approve. Step 15 says to present the planned activities and timetable to the Steering Committee for approval.",
+     "ref": [
+      93,
+      "A configuration management procedure is also documented in the Quality Management Plan."
+     ]
+    },
+    {
+     "t": "In the Project Change Management Plan. Both of them are about controlling change to project artefacts.",
+     "tPlain": "Put it in the Project Change Management Plan. Both are about controlling changes to project documents.",
+     "ok": false,
+     "reply": {
+      "who": "gutenberg",
+      "text": "Then my version numbers become change requests, and you will receive a Change Request Form every time I correct a typing error.",
+      "plain": "Then my version numbers become change requests. You will get a Change Request Form every time I correct a typing mistake."
+     },
+     "why": "The most seductive wrong answer in the appendix. Project change management handles deviations from the baselined scope, schedule, cost and quality (p.90). Configuration management handles versions, access and traceability of artefacts and deliverables (p.93). Merging them either buries real changes in document admin or turns document admin into governance.",
+     "whyPlain": "This is the most tempting wrong answer in the appendix. Change management deals with deviations from the approved scope, schedule, cost and quality (page 90). Configuration management deals with versions, access and traceability of documents and deliverables (page 93). If you merge them, either real changes get lost in paperwork, or paperwork turns into governance.",
+     "ref": [
+      93,
+      "Configuration management helps project teams handle project artefacts and deliverables effectively (i.e. to ensure that the correct versions are delivered, to prevent unauthorised changes and to provide artefact traceability)."
+     ]
+    },
+    {
+     "t": "Give it a plan of its own. Take the PM² Configuration Management Plan template and tailor it.",
+     "tPlain": "Give it its own plan. Take the PM2 Configuration Management Plan template and adapt it.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "I looked for it in March. There is no such template. There is not even a template for the registry.",
+      "plain": "I looked for it in March. That template does not exist. There is not even a template for the registry."
+     },
+     "why": "PM² has no Configuration Management Plan and no configuration registry template; the procedure is a section of the Quality Management Plan and the registry is something you build yourself (p.94). Inventing a plan means inventing an approver for it too, and nothing in the guide tells you who that would be.",
+     "whyPlain": "PM2 has no Configuration Management Plan and no template for a configuration registry. The procedure is a part of the Quality Management Plan, and you build the registry yourself (page 94). If you invent a plan, you must also invent an approver for it, and the guide does not say who that would be.",
+     "ref": [
+      94,
+      "Depending on the project's complexity, a configuration management log can be used to control changes to the configuration items."
+     ]
+    },
+    {
+     "t": "Leave it to Johannes and the corporate document rules. It is administration, not a project process.",
+     "tPlain": "Leave it to Johannes and the organisation's document rules. It is administration, not a project process.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Then at the phase-exit review I have no evidence, and I will write that down in a sentence you will have to answer.",
+      "plain": "Then at the phase-exit review I will have no evidence, and I will write that down in a sentence you will have to answer."
+     },
+     "why": "Corporate rules do not tell you what a CASTOR configuration item is, or who may change the interface specification. Step 11 requires the project to define the quality and configuration procedures and the records showing they were carried out as planned, and step 13 that quality activities be traceable back to specific work in the Project Work Plan (p.93).",
+     "whyPlain": "Organisation-wide rules do not say what a CASTOR configuration item is, or who may change the interface specification. Step 11 says the project must define its quality and configuration procedures and the records that prove they were done. Step 13 says quality activities must be traceable to specific work in the Project Work Plan (page 93).",
+     "ref": [
+      93,
+      "Define the quality and configuration procedures and records which show that quality and configuration management activities have been carried out as planned."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for both plans; the PSC approves quality, the PO approves communications.",
+    "k": "Knows the risk and issue plans are drafted and that both of today's are due before the gate.",
+    "w": "Wants configuration filed once, in the right document, so closure is provable.",
+    "f": "Afraid a metric with no tolerance turns the first missed month into a finding."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Independent of the PM; assigned by and reporting to the PSC.",
+    "k": "Knows three projects that filed configuration in three different places, and how one ended.",
+    "w": "Wants metrics with tolerances he can test, and one named home for configuration.",
+    "f": "Afraid he arrives at the phase-exit review with no evidence to review."
+   },
+   "gantt": {
+    "o": "Project Support Office. Will build and hold the configuration registry.",
+    "k": "Knows PM² provides no template for the registry he is about to be given.",
+    "w": "Wants the decision made this morning so he can build the spreadsheet this afternoon.",
+    "f": "Afraid he ends up owning a process that no document describes."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the Communications Management Plan; minutes the PSC.",
+    "k": "Knows how many of the listed meetings are actually hers to run.",
+    "w": "Wants the communications table agreed before the folder discussion eats the hour.",
+    "f": "Afraid she is handed reporting duties that nobody costed into her week."
+   },
+   "gutenberg": {
+    "o": "Document Management Officer. Implements naming, versioning, retention and sanitisation.",
+    "k": "Knows exactly which question Internal Audit will ask in 2028, and why.",
+    "w": "Wants configuration items, naming and retention written into an approved plan.",
+    "f": "Afraid the project ships versions nobody can identify two years later."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the Communications Management Plan; only consulted on quality.",
+    "k": "Now knows the quality plan is her committee's, not hers, and finds that odd.",
+    "w": "Wants to understand what she is signing and what she is not.",
+    "f": "Afraid the reporting load quietly doubles between now and the gate."
+   }
+  },
+  "unlock": [
+   15,
+   16
+  ],
+  "note": "Guide check: Appendix B.5 and B.6, pp.93–95. The Quality Management Plan documents the project's quality requirements, the quality management approach, process and responsibilities, and the quality assurance and control activities. Step 3 takes the quality objectives from the deliverables, success criteria, approach and specific requirements; step 7 requires metrics and acceptance tolerances; step 8 decides whether an independent Project Quality Assurance role is needed; step 13 requires quality activities to be traceable back to work in the Project Work Plan; step 15 says to present the planned activities and timetable to the Project Steering Committee for approval. A configuration management procedure is also documented in the Quality Management Plan, with the detailed guidelines on p.94 — configuration items, naming conventions for documentation, folders and emails, folder structure and access rights, copies, retention periods and sanitisation — and key information on configuration management may also be summarised in the Project Handbook. RASCI: AGB I, PSC A, PO C, BM C, BIG C, SP C, PM R, PCT C. Approver: the Project Steering Committee — the one management plan the Project Owner does not approve. The Communications Management Plan defines communication activities, their goals, content, format, frequency and audience, and includes a communication strategy for each key stakeholder based on their interests, expectations and influence; the Project Stakeholder Matrix is a named input. RASCI: AGB I, PSC I, PO A, BM S, BIG C, SP I, PM R, PCT C. Approver: the Project Owner. Pages 93, 94, 95 and 28.",
+  "notePlain": "Rule: the Quality Management Plan holds the project's quality requirements, the quality approach, the process, who does what, and the assurance and control activities. The quality objectives come from the deliverables, the success criteria and the approach, not from opinion. Every activity needs a measure and a tolerance. The plan decides whether an independent quality assurance role is needed. Quality activities must be traceable to work in the Project Work Plan. The planned activities and timetable are presented to the Project Steering Committee for approval. The configuration management procedure is also written in this plan: what counts as a configuration item, the naming rules for documents, folders and emails, the folder structure and access rights, copies, retention periods and deletion. The main points may also be summarised in the Project Handbook. Approver: the Project Steering Committee. This is the one management plan the Project Owner does not approve. The Communications Management Plan describes each communication activity, its goal, content, format, frequency and audience, and gives a strategy for each key stakeholder based on their interest, expectations and influence. The Project Stakeholder Matrix is one of its inputs. Approver: the Project Owner. Pages 93, 94, 95 and 28."
+ },
+ {
+  "id": "s17",
+  "act": 2,
+  "actName": "Planning",
+  "title": "Seven boxes and everything inside them",
+  "covers": [
+   "Project Work Plan"
+  ],
+  "guide_page": 47,
+  "where": "ESM, Kirchberg — B-2.04, whiteboard wiped so often it has gone grey",
+  "when": "16 Jun 2026, 09:30",
+  "cast": [
+   "you",
+   "tesla",
+   "lovelace",
+   "gantt",
+   "hopper",
+   "leonardo"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Ten days to the baseline. The whiteboard has been wiped so many times it has gone grey, and somebody has written DO NOT ERASE across the top in a hand nobody recognises.",
+    "plain": "There are ten days left before the plan is baselined. The whiteboard has been wiped so often that it has turned grey. Someone has written DO NOT ERASE across the top, in handwriting nobody recognises."
+   },
+   {
+    "who": "you",
+    "text": "Deliverables first. What the project produces. The work falls out of that, not the other way round.",
+    "plain": "We start with the deliverables: what the project will produce. The work comes out of that, not the other way round.",
+    "g": [
+     [
+      "Work Breakdown Structure",
+      "the tree that splits a project into deliverables, work packages, activities and tasks"
+     ]
+    ],
+    "ref": [
+     102,
+     "You could say that the Deliverables Breakdown Structure (DBS) defines what the project will produce (as a whole and as parts), and the Work Breakdown Structure (WBS) defines the work needed to produce them."
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Configuration engine. Straight-through disbursement. A parallel run that proves both. A trained Lending Operations division. A decommissioned LOS.",
+    "plain": "The configuration engine. Straight-through disbursement. A parallel run that proves both work. A trained Lending Operations division. And LOS switched off.",
+    "g": [
+     [
+      "parallel run",
+      "running the old and new systems together on the same work, to compare the results"
+     ]
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "How far down do we go?",
+    "plain": "How far down should we break the work?"
+   },
+   {
+    "who": "you",
+    "text": "Deliverables, work packages, activities, tasks. Far enough that somebody can be handed a task and know when it is finished. Not so far that I am tracking half-days in 2028.",
+    "plain": "Deliverables, then work packages, then activities, then tasks. Deep enough that a person given a task knows when it is done. Not so deep that I am tracking half-days in 2028.",
+    "g": [
+     [
+      "work package",
+      "a block of project work small enough to estimate and give to one owner"
+     ]
+    ],
+    "ref": [
+     47,
+     "The objective of this section of the Project Work Plan is to break the project down into smaller and more manageable components such as deliverables, work packages, activities and tasks."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Seven boxes at the second level, and they stay on that board all week. One point one, project management and PSO support. One point two, procurement and award. One point three, Release 1. One point four, Release 2. One point five, the parallel run. One point six, transition and go-live. One point seven, business implementation.",
+    "plain": "There are seven boxes at the second level. They stay on that board all week. 1.1 is project management and support office work. 1.2 is procurement and contract award. 1.3 is Release 1. 1.4 is Release 2. 1.5 is the parallel run. 1.6 is transition and go-live. 1.7 is business implementation."
+   },
+   {
+    "who": "tesla",
+    "text": "Then under one point three. One point three point two, configure instrument templates. Under that, PCCL and ECCL. Then the loan facility. Then bank recapitalisation.",
+    "plain": "Then under 1.3 there is 1.3.2, configure the instrument templates. Under that come the PCCL and ECCL templates, then the loan facility template, then the bank recapitalisation template."
+   },
+   {
+    "who": "lovelace",
+    "text": "And the primary and secondary market facilities, which everyone forgets because we have not used them in years.",
+    "plain": "And the primary and secondary market support facilities, which everyone forgets because we have not used them for years."
+   },
+   {
+    "who": "leonardo",
+    "text": "Where is the backstop?",
+    "plain": "Where is the backstop instrument?"
+   },
+   {
+    "who": "you",
+    "text": "Nowhere. Out of scope at baseline, because the Treaty reform is not in force. It is a dependency in the Handbook and a requirement marked Won't. If ratification completes, that is a change with a form and a number.",
+    "plain": "It is not there. It is out of scope at baseline, because the Treaty reform is not yet in force. It is listed as a dependency in the Handbook and as a requirement marked Won't. If ratification is completed, it becomes a change, with a form and a number."
+   },
+   {
+    "who": "hopper",
+    "text": "One point seven. Say out loud what it is.",
+    "plain": "Now 1.7. Say clearly what it is."
+   },
+   {
+    "who": "you",
+    "text": "Retraining forty loan administrators and every business change around them. Two hundred and sixty days.",
+    "plain": "It is retraining forty loan administrators, and all the business changes around that. It is 260 days of effort."
+   },
+   {
+    "who": "hopper",
+    "mood": "level",
+    "text": "Two hundred and sixty days of my people's lives, and it is my plan, not yours.",
+    "plain": "That is 260 days of my staff's working lives. And it is my plan, not yours."
+   },
+   {
+    "who": "you",
+    "text": "It is your plan.",
+    "plain": "It is your plan."
+   },
+   {
+    "who": "narr",
+    "text": "That was apparently not the argument Grace had prepared. She stops, and starts again more slowly.",
+    "plain": "That was clearly not the argument Grace had prepared. She stops, then starts again more slowly."
+   },
+   {
+    "who": "hopper",
+    "text": "Then say which document, because in April you told Marie the training was in the Transition Plan.",
+    "plain": "Then tell me which document it is in, because in April you told Marie that the training was in the Transition Plan."
+   },
+   {
+    "who": "you",
+    "text": "I did, and I was wrong. Moving the old world to the new one — cutover, fallback, the day LOS goes read-only — that is the Transition Plan and I write it. The impact on your people, the retraining, the process redesign, that is the Business Implementation Plan and you write it.",
+    "plain": "I did say that, and I was wrong. Moving from the old system to the new one — the cutover, the fallback plan, the day LOS becomes read-only — is the Transition Plan, and I write it. The effect on your staff, the retraining and the redesign of processes is the Business Implementation Plan, and you write it.",
+    "g": [
+     [
+      "Business Implementation Plan",
+      "the plan for changing processes, people and culture so the new system is actually used"
+     ],
+     [
+      "Transition Plan",
+      "the plan for moving from the old way of working to the new one"
+     ]
+    ],
+    "ref": [
+     52,
+     "Business Manager (BM) Prepares the Business Implementation Plan."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And you assist.",
+    "plain": "And you help me with it."
+   },
+   {
+    "who": "you",
+    "text": "I assist, and I put your activities in the Work Plan. Both plans land there in the end, which is why it is one number and one line of money either way.",
+    "plain": "I help you, and I put your activities into the Project Work Plan. Both plans end up there. That is why it is one figure and one budget line, whichever plan describes the work.",
+    "ref": [
+     52,
+     "These activities become part of the Project Work Plan and are scheduled and controlled as part of the overall project."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Different approvers, though.",
+    "plain": "But they have different approvers."
+   },
+   {
+    "who": "you",
+    "text": "Different approvers. Florence signs hers. The Steering Committee signs mine.",
+    "plain": "Yes, different approvers. Florence approves the Business Implementation Plan. The Steering Committee approves the Transition Plan.",
+    "ref": [
+     51,
+     "A successful transition is an important prerequisite for achieving the planned project benefits. All transition activities become part of the Project Work Plan and are scheduled and controlled as part of the overall project."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "And the risk responses? The key-person clause. Tesla shadowing the architect.",
+    "plain": "And what about the risk responses? The key-person clause, and Tesla shadowing the architect."
+   },
+   {
+    "who": "you",
+    "text": "In. Anything that costs real days goes in the breakdown, wherever it came from. Risk responses, corrective actions, quality reviews, the phase-exit checklists. If it costs days and it is not in here, it is not in the budget.",
+    "plain": "They go in. Anything that costs real working days goes into the breakdown, whatever its source: risk responses, corrective actions, quality reviews, the phase-exit checklists. If it costs days and it is not in here, then it is not in the budget.",
+    "ref": [
+     46,
+     "The Project Work Plan should be baselined but also kept up-to-date during the life of the project and capture all project related work as identified during planning phase or emerged during the executing phase (e.g. risks, issues, corrective actions etc.)"
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "You have nothing under the parallel run except running it.",
+    "plain": "You have nothing under the parallel run except the act of running it."
+   },
+   {
+    "who": "you",
+    "text": "Then add it. Reconciliation evidence, the acceptance pack for Marie, and the fallback to LOS if the run fails. One point five point four. Write it down before somebody assumes it is free.",
+    "plain": "Then add it. Reconciliation evidence, the acceptance pack for Marie, and the fallback to LOS if the run fails. That is 1.5.4. Write it down before somebody assumes it costs nothing."
+   },
+   {
+    "who": "narr",
+    "text": "By four o'clock there are seven boxes, forty-one work packages and about a hundred and sixty tasks, and not one number against any of them.",
+    "plain": "By 16:00 there are seven boxes, forty-one work packages and about 160 tasks. There is not a single number against any of them."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for the Project Work Plan; coordinates the Work Breakdown.",
+    "k": "Knows he told Marie in April that the training sat in the Transition Plan.",
+    "w": "Wants a complete breakdown today so estimating can start tomorrow.",
+    "f": "Afraid work that costs real days is left out and therefore left unfunded."
+   },
+   "tesla": {
+    "o": "Lead Solution Architect. Assists the PM on the breakdown of the technical deliverables.",
+    "k": "Knows which instrument templates are hard and which are copies of each other.",
+    "w": "Wants the parallel run broken down properly instead of treated as one box.",
+    "f": "Afraid the deep technical work is invisible until it is late."
+   },
+   "lovelace": {
+    "o": "Business Analyst on the Core Team. Assists with the deliverables list and traceability.",
+    "k": "Knows which facilities have not been used for years and are therefore forgotten.",
+    "w": "Wants every deliverable named before anybody starts listing activities.",
+    "f": "Afraid an unused instrument is discovered in 2027 with no work package behind it."
+   },
+   "gantt": {
+    "o": "Project Support Office. Provides technical advice on scheduling and holds the identifiers.",
+    "k": "Knows the risk responses agreed on 28 May are not yet anywhere in the breakdown.",
+    "w": "Wants every agreed response action given an identifier today.",
+    "f": "Afraid decisions from May quietly evaporate between one artefact and the next."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for the Business Implementation Plan; PO is accountable for it.",
+    "k": "Knows 1.7 is 260 days of her own division's time and nobody has asked her yet.",
+    "w": "Wants ownership of the retraining plan settled today, in front of witnesses.",
+    "f": "Afraid business change is written by the project and handed to her to deliver."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Consulted on the Work Plan; accountable for the deliverables in it.",
+    "k": "Knows the Treaty reform is still unratified and the backstop cannot be scoped.",
+    "w": "Wants to know who signs what, because his division carries the effort either way.",
+    "f": "Afraid an out-of-scope instrument arrives as an assumption rather than a change."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 6.4.1, p.47. The Work Breakdown is the first of the Project Work Plan's three parts. It breaks the project into smaller, more manageable components — deliverables, work packages, activities and tasks — over multiple levels, each with progressively more detailed deliverables and work; its inputs are the Business Case, the Project Charter and the project requirements. Appendix C.6 (p.102) explains why deliverables come first: the Deliverables Breakdown Structure defines what the project will produce, and the Work Breakdown Structure defines the work needed to produce it. Page 46 requires the Project Work Plan to capture all project-related work identified in Planning or emerging in Executing, including risks, issues and corrective actions — so a risk response that costs real effort is a work package, not a footnote. Two plans meet here and are routinely confused. The Transition Plan covers moving from the pre-project to the post-project state: PM = Responsible, PSC = Accountable, and all transition activities become part of the Project Work Plan (p.51). The Business Implementation Plan covers the impact on processes, culture and people and the change-management activities around them: the Business Manager prepares it, the Project Manager only assists and updates the Work Plan to include its activities, RASCI BM = R, PO = A, PM = S (p.52). Different documents, different authors, different approvers — and both sets of activities are scheduled and controlled inside the one Project Work Plan. Pages 46, 47, 51, 52 and 102.",
+  "notePlain": "Rule: the Work Breakdown is the first of the three parts of the Project Work Plan. It splits the project into smaller pieces: deliverables, then work packages, then activities, then tasks. Each level shows more detail. Its inputs are the Business Case, the Project Charter and the project requirements. Page 102 explains why you list deliverables first: the deliverables structure says what the project will produce, and the work structure says what work produces it. Page 46 says the Work Plan must hold all project work, including work that comes from risks, issues and corrective actions. So a risk response that costs real effort is a work package, not a note. Two plans meet here and people often confuse them. The Transition Plan covers moving from the old state to the new one. The Project Manager writes it and the Steering Committee approves it, and all its activities go into the Work Plan. The Business Implementation Plan covers the effect on processes, culture and people, and the change work around them. The Business Manager writes it, the Project Owner approves it, and the Project Manager only assists and adds its activities to the Work Plan. Different documents, different authors, different approvers, and one Work Plan holding both sets of activities. Pages 46, 47, 51, 52 and 102."
+ },
+ {
+  "id": "s18",
+  "act": 2,
+  "actName": "Planning",
+  "title": "Three thousand one hundred days",
+  "covers": [
+   "Project Work Plan"
+  ],
+  "guide_page": 46,
+  "where": "ESM, Kirchberg — B-2.04, Project Steering Committee",
+  "when": "26 Jun 2026, 14:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "einstein"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Three days after National Day and the building is half empty. The Steering Committee is not. Florence in the chair, Grace taking the minutes, Albert Einstein present on request and saying nothing for the first eleven minutes.",
+    "plain": "It is three days after National Day and the building is half empty. The Steering Committee is not. Florence chairs it, Grace takes the minutes, and Albert Einstein attends on request. He says nothing for the first eleven minutes."
+   },
+   {
+    "who": "nightingale",
+    "text": "Item four. Ten days since the breakdown went on the wall. What changed?",
+    "plain": "Item four. Ten days have passed since the breakdown went on the wall. What has changed?"
+   },
+   {
+    "who": "you",
+    "text": "Every task has a resource or a resource profile against it. That is the step that turns effort into money. A task with nobody on it has an estimate and no price.",
+    "plain": "Every task now has a person or a resource profile assigned to it. That is the step that turns effort into money. A task with nobody assigned has an effort estimate but no cost.",
+    "g": [
+     [
+      "resource profile",
+      "a type of person rather than a named one, used to price work before people are hired"
+     ]
+    ],
+    "ref": [
+     47,
+     "After a task is assigned to a resource (or to a resource profile) it also becomes possible to calculate its cost."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "We have not chosen a contractor. Award is the eighteenth of September.",
+    "plain": "We have not chosen a contractor yet. The award is on 18 September."
+   },
+   {
+    "who": "you",
+    "text": "Which is why the contractor work is priced against a profile. Senior integration engineer, so many days, at the framework rate. When the team arrives the profile gets a name and either the number holds or I have a variance to explain in this room.",
+    "plain": "That is why the contractor work is priced against a profile: senior integration engineer, a number of days, at the rate in the framework contract. When the team arrives, the profile gets a real name. Then either the figure holds, or I explain the difference in this room.",
+    "g": [
+     [
+      "variance",
+      "the gap between what was planned and what actually happened, in time or money"
+     ]
+    ],
+    "ref": [
+     46,
+     "Develop the Effort & Cost Estimates: These outline expectations of the resources needed and the time required to complete each project task, within the constraints of resource availability and capabilities."
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "And the estimates came from where?",
+    "plain": "And where did the estimates come from?"
+   },
+   {
+    "who": "you",
+    "text": "From the people who will do the work, with Tesla and Ada on both sides of it, and from the two comparable migrations Gantt found in the archive. Not from me alone with a spreadsheet.",
+    "plain": "They came from the people who will do the work, with Tesla and Ada on both sides. They also came from two similar migrations that Gantt found in the archive. They did not come from me alone with a spreadsheet.",
+    "ref": [
+     102,
+     "This work is done in close cooperation with the task owners or other experts within the Project Core Team (PCT), to ensure more precise estimates and buy-in from the team members in charge of executing the work."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Seven rows go up on the screen. Three columns of numbers and one total that everybody in the room already knows.",
+    "plain": "Seven rows appear on the screen. There are three columns of numbers and one total that everyone in the room already knows."
+   },
+   {
+    "who": "you",
+    "text": "Project management, three hundred and forty days, five hundred and fifty thousand. Procurement, one hundred and sixty, two hundred and fifty thousand. Release 1, eight hundred and twenty, two point four million. Release 2, nine hundred and forty, two point eight million.",
+    "plain": "Project management: 340 days, 550,000 euro. Procurement: 160 days, 250,000 euro. Release 1: 820 days, 2.4 million. Release 2: 940 days, 2.8 million."
+   },
+   {
+    "who": "you",
+    "text": "Parallel run, three hundred and sixty, one point zero five million. Transition and go-live, two hundred and twenty, seven hundred and fifty thousand. Business implementation, two hundred and sixty, six hundred thousand.",
+    "plain": "Parallel run: 360 days, 1.05 million. Transition and go-live: 220 days, 750,000. Business implementation: 260 days, 600,000."
+   },
+   {
+    "who": "hopper",
+    "text": "Three thousand one hundred days. Eight point four million.",
+    "plain": "That is 3,100 days and 8.4 million euro."
+   },
+   {
+    "who": "nightingale",
+    "mood": "sceptical",
+    "text": "Which is exactly the Charter figure. That is either very good work or a number you worked backwards to.",
+    "plain": "That is exactly the figure in the Charter. Either that is very good work, or you calculated backwards from the answer."
+   },
+   {
+    "who": "you",
+    "text": "We met it by moving two hundred days out of Release 2 into the parallel run, and by cutting one point three point five entirely. Both are in the estimates section with a date on them. Ask me about any line.",
+    "plain": "We reached it by moving 200 days from Release 2 into the parallel run, and by removing work package 1.3.5 completely. Both changes are in the estimates section, with a date. Ask me about any line.",
+    "ref": [
+     46,
+     "It establishes a basis on which to estimate the project's duration, calculate the required resources, and schedule the work."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "One point five. Three hundred and sixty days for the parallel run. In those four months my team is also reconciling an EFSF rollover.",
+    "plain": "Take 1.5. It is 360 days for the parallel run. During those four months my team is also reconciling an EFSF bond rollover."
+   },
+   {
+    "who": "you",
+    "text": "That is R-11 and it is Grace's. The schedule shows the dependency rather than hiding it: the run cannot start before Release 2 is accepted, so if December slips, the run slides into the rollover and we are back in this room.",
+    "plain": "That is risk R-11, and Grace owns it. The schedule shows the dependency instead of hiding it. The parallel run cannot start before Release 2 is accepted. So if December is late, the run moves into the rollover period, and we come back to this room.",
+    "g": [
+     [
+      "dependency",
+      "a link that stops one task from starting until another one finishes"
+     ]
+    ],
+    "ref": [
+     47,
+     "The objective of this section of the Project Work Plan is to document the dependencies between tasks, pinpoint their start and end dates, and work out the overall project duration."
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "Show me the dependencies rather than the bars. Bars flatter everybody.",
+    "plain": "Show me the dependencies, not the bar chart. A bar chart makes everyone look good."
+   },
+   {
+    "who": "you",
+    "text": "Procurement waits on project management. Release 1 on the award. Release 2 on Release 1. The parallel run on Release 2. Transition on the parallel run. Business implementation runs alongside from Release 2, and that is the one place we have deliberately taken a risk.",
+    "plain": "Procurement waits for project management. Release 1 waits for the contract award. Release 2 waits for Release 1. The parallel run waits for Release 2. Transition waits for the parallel run. Business implementation runs at the same time from Release 2 onwards. That is the one place where we have deliberately accepted a risk.",
+    "ref": [
+     47,
+     "The Project Manager (PM) uses the schedule to authorise, coordinate and accept project work, and to monitor overall progress"
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "Then that is the line I would watch. Not the total.",
+    "plain": "Then that is the line I would watch, not the total."
+   },
+   {
+    "who": "leonardo",
+    "text": "And after today it is frozen.",
+    "plain": "And after today it is frozen."
+   },
+   {
+    "who": "you",
+    "text": "Baselined. Not frozen. The baseline is what we measure against, the file stays current for twenty-six months, and every approved change re-baselines it.",
+    "plain": "It is baselined, not frozen. The baseline is what we measure against. The file stays up to date for twenty-six months, and every approved change creates a new baseline.",
+    "ref": [
+     46,
+     "The Project Work Plan should be baselined but also kept up-to-date during the life of the project"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence turns the last page and does not sign it. She looks at you, then at the room, and puts the pen down on the table rather than in her hand.",
+    "plain": "Florence turns to the last page and does not sign. She looks at you, then at the room, and puts the pen down on the table instead of holding it."
+   },
+   {
+    "who": "nightingale",
+    "text": "This morning I signed the Handbook and the Stakeholder Matrix in my own office, on my own signature.",
+    "plain": "This morning I signed the Handbook and the Stakeholder Matrix in my own office, with my own signature."
+   },
+   {
+    "who": "nightingale",
+    "text": "So what is different about this one?",
+    "plain": "So what is different about this document?"
+   },
+   {
+    "who": "narr",
+    "text": "Grace's pen has stopped. Whatever you say next goes into the minutes as the answer, and Deming will read it at the gate on the third of July.",
+    "plain": "Grace has stopped writing. Whatever you say next will be recorded in the minutes as the answer. Deming will read it at the gate on 3 July."
+   }
+  ],
+  "choice": {
+   "prompt": "The Work Plan is on the table and the pen is not in Florence's hand. What do you do with it?",
+   "promptPlain": "The Work Plan is on the table and Florence is not holding the pen. What do you do?",
+   "options": [
+    {
+     "t": "Ask the Steering Committee to approve it now — all three parts complete, every work package costed.",
+     "tPlain": "Ask the Steering Committee to approve it now. All three parts are complete and every work package has a cost.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "text": "Then let the minutes show that the committee approves it. Grace, decision four. And the Quality Management Plan with it, since that one is also ours and not mine.",
+      "plain": "Then record in the minutes that the committee approves it. Grace, that is decision four. Approve the Quality Management Plan at the same time, because that one also belongs to the committee, not to me."
+     },
+     "why": "The RASCI on p.46 gives the Project Work Plan PSC = Accountable, PM = Responsible, PO only Consulted — unlike the Project Handbook and the Project Stakeholder Matrix, which are the Project Owner's (pp.43, 45). The guide's role chapter lists the Project Work Plan among the key artefacts the Project Steering Committee approves (p.25). Note that the Project Owner's own responsibility list on the same page also names the Work Plan; where the two lists collide, the artefact's RASCI table decides, and it says PSC.",
+     "whyPlain": "The RASCI table on page 46 says the Work Plan is Accountable to the Steering Committee and Responsible to the Project Manager. The Project Owner is only consulted. That is different from the Handbook and the Stakeholder Matrix, which belong to the Project Owner (pages 43 and 45). The roles chapter lists the Work Plan among the key artefacts the Steering Committee approves (page 25). Note that the Project Owner's own duty list on that same page also mentions the Work Plan. When the two lists disagree, the artefact's RASCI table decides, and it says the Steering Committee.",
+     "ref": [
+      25,
+      "Approves key project artefacts (e.g. Project Charter, Project Work Plan)."
+     ]
+    },
+    {
+     "t": "Baseline the schedule today and add the costs once the tender closes in September.",
+     "tPlain": "Baseline the schedule today. Add the costs later, after the tender closes in September.",
+     "ok": false,
+     "reply": {
+      "who": "einstein",
+      "text": "Then you are asking us to approve a calendar. We can all read a calendar without leaving our offices.",
+      "plain": "Then you are asking us to approve a calendar. We can each read a calendar without coming to a meeting."
+     },
+     "why": "The Work Plan has three parts and the estimates are the middle one. Once a task is assigned to a resource or a resource profile it becomes possible to calculate its cost, and those estimates are then an input to the schedule (p.47, §6.4.2 and §6.4.3). A schedule with no costs cannot serve as the baseline for controlling cost.",
+     "whyPlain": "The Work Plan has three parts, and the estimates are the middle one. Once a task has a person or a resource profile against it, you can work out its cost. Those estimates are then used to build the schedule (page 47). A schedule with no costs cannot be the baseline for controlling cost.",
+     "ref": [
+      47,
+      "Inputs • Project Charter • Project Work Plan (Work Breakdown, Effort & Cost Estimates)"
+     ]
+    },
+    {
+     "t": "Enter the €8.4 m as one line against the project and let procurement break it down after award.",
+     "tPlain": "Put the 8.4 million euro in as a single line for the whole project, and let procurement split it after the contract award.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "And when Release 1 runs over, which line do we say it came out of?",
+      "plain": "And when Release 1 costs more than planned, which line do we say the money came from?"
+     },
+     "why": "Effort and cost are estimated per work item, derived from the Work Breakdown, in close cooperation with the task owners (p.102, C.7). A single project-level figure gives you nothing to monitor against, so variance stays invisible until the money is spent.",
+     "whyPlain": "Effort and cost are estimated for each work item, based on the Work Breakdown, working closely with the task owners (page 102). One figure for the whole project gives you nothing to measure against. The difference between plan and reality stays hidden until the money is gone.",
+     "ref": [
+      102,
+      "The Effort and Cost Estimates technique derives from the Work Breakdown Structure (WBS): each work item (task) is estimated in terms of effort and cost."
+     ]
+    },
+    {
+     "t": "Take it to Florence for signature, the way the Handbook went. She is the Project Owner and she owns the benefits.",
+     "tPlain": "Take it to Florence to sign, as you did with the Handbook. She is the Project Owner and she owns the benefits.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "Convenient. Then the person who wants the benefits also signs off the effort my division has to find.",
+      "plain": "That is convenient. Then the person who wants the benefits also approves the effort that my division must supply."
+     },
+     "why": "This inverts the two rows people most often confuse. Project Handbook and Project Stakeholder Matrix: PO = Accountable, PSC = Informed (pp.43, 45). Project Work Plan: PSC = Accountable, PO = Consulted (p.46). The committee approves it because the plan commits the Solution Provider's people and the requestor's money in the same document, and the committee is the one body containing both sides.",
+     "whyPlain": "This turns around the two rows that people confuse most. For the Handbook and the Stakeholder Matrix, the Project Owner is Accountable and the Steering Committee is only informed (pages 43 and 45). For the Work Plan, the Steering Committee is Accountable and the Project Owner is only consulted (page 46). The committee approves it because the plan commits the Solution Provider's people and the business's money in one document, and the committee is the only body that contains both sides.",
+     "ref": [
+      46,
+      "The Project Work Plan further elaborates the project scope and identifies and organises the project work and deliverables needed to achieve the project goals."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for the Project Work Plan; coordinates all activity in developing it.",
+    "k": "Knows the total lands exactly on the Charter figure and that this will be questioned.",
+    "w": "Wants the committee's approval today so the gate on 3 July is a formality.",
+    "f": "Afraid the room reads a matched total as arithmetic performed backwards."
+   },
+   "nightingale": {
+    "o": "Project Owner and chair. Consulted on the Work Plan; she approved the Handbook this morning.",
+    "k": "Knows she has signed two artefacts today and is being asked not to sign a third.",
+    "w": "Wants the difference between her signature and her committee's said out loud.",
+    "f": "Afraid she is being managed around rather than asked."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Consulted on the Work Plan; his division supplies most of the effort.",
+    "k": "Knows no contractor is appointed and that the profiles carry the contractor's price.",
+    "w": "Wants the plan approved by a body that includes the provider side, not by the client alone.",
+    "f": "Afraid a baseline becomes a freeze and his architects lose room to design."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the Work Plan and minutes this committee.",
+    "k": "Knows 1.7 is hers and that R-11 now has her name against it in the plan.",
+    "w": "Wants the decision worded precisely, because she is the one writing it down.",
+    "f": "Afraid a cost line for her division is approved before her plan is written."
+   },
+   "curie": {
+    "o": "User Representative on the committee. Consulted; her acceptance role starts in Executing.",
+    "k": "Knows what four months of parallel running does to a team already short-staffed.",
+    "w": "Wants the collision between the parallel run and the rollover visible in the schedule.",
+    "f": "Afraid a dependency is agreed today and rediscovered as a surprise in 2028."
+   },
+   "einstein": {
+    "o": "Architecture Office. Attends the committee on request; advises, does not decide.",
+    "k": "Knows where estimates come from and which of them nobody has challenged.",
+    "w": "Wants the dependencies shown rather than a bar chart that flatters everybody.",
+    "f": "Afraid the one deliberate overlap is approved without anyone naming it as such."
+   }
+  },
+  "unlock": [
+   6
+  ],
+  "note": "Guide check: section 6.4, p.46. The Project Work Plan elaborates the project scope, identifies and organises the work and deliverables, and establishes the basis for estimating duration, calculating resources and scheduling the work; once scheduled it becomes the basis for monitoring progress and controlling the project. It has three parts in fixed order: Work Breakdown, then Effort and Cost Estimates, then Project Schedule. Section 6.4.2 gives the rule that catches beginners — after a task is assigned to a resource or to a resource profile it also becomes possible to calculate its cost — so estimating and costing are one movement, not two exercises months apart. Section 6.4.3 makes the schedule the instrument the Project Manager uses to authorise, coordinate and accept project work and to monitor overall progress. The plan must be baselined and kept up to date for the life of the project. RASCI: AGB I, PSC A, PO C, BM S/C, BIG C, SP C, PM R, PCT S/C. Approver: the Project Steering Committee — not the Project Owner, who is only Consulted. Watch the guide's own role lists on p.25: the Project Steering Committee approves key artefacts including the Project Work Plan, while the Project Owner's list also names the Work Plan. Where they collide the artefact's RASCI table decides, and it says PSC. With the Project Handbook and Project Stakeholder Matrix approved by the Project Owner, and the Project Work Plan and Quality Management Plan approved by the Project Steering Committee on 26 Jun 2026, CASTOR is one week from the Ready for Executing gate on 03 Jul 2026. Pages 46, 47, 25 and 102.",
+  "notePlain": "Rule: the Project Work Plan develops the scope, organises the work and the deliverables, and gives the basis for estimating time, working out resources and building the schedule. Once scheduled, it is what you monitor progress against. It has three parts, in this order: the Work Breakdown, then the Effort and Cost Estimates, then the Schedule. One rule catches beginners: as soon as a task is given to a person or a resource profile, you can calculate its cost. So estimating effort and costing it are one step, not two separate exercises. The schedule is the tool the Project Manager uses to authorise work, coordinate it, accept it and track progress. The plan must be baselined and kept up to date for the whole project. RASCI: Project Manager Responsible, Steering Committee Accountable, Project Owner only consulted, Business Manager and core team support or are consulted. Approver: the Project Steering Committee, not the Project Owner. Be careful with the role lists on page 25: the Steering Committee list names the Work Plan, and so does the Project Owner list. When they disagree, the artefact's RASCI table decides, and it says the Steering Committee. With the Handbook and the Stakeholder Matrix approved by the Project Owner, and the Work Plan and the Quality Management Plan approved by the Steering Committee on 26 June 2026, CASTOR is one week away from the Ready for Executing gate on 3 July 2026. Pages 46, 47, 25 and 102."
+ }
+]

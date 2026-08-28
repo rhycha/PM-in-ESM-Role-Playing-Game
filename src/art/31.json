@@ -1,0 +1,273 @@
+{
+ "n": 31,
+ "id": "business-implementation-checklist",
+ "name": "Business Implementation Checklist",
+ "template_missing": true,
+ "family": "Monitor & Control",
+ "one_liner": "The control that asks whether the organisation actually changed — not whether the system went live.",
+ "purpose": "The Business Implementation Checklist is the PM² control for Manage Business Implementation. It verifies that the Business Implementation Plan is complete and realistic, that all in-scope business implementation activities are in the Project Work Plan, that process redesign, communication, organisational change and training were executed, and that status and post-project recommendations were reported. Its template was not available in this extraction, so the structure below is reconstructed from guide section 9.12 and the Business Implementation Plan's own sections.",
+ "guide_page": 84,
+ "rasci": null,
+ "created_in": "Planning Phase — tailored from the Business Implementation Plan (setup output, guide p.53); run during Executing / Monitor & Control",
+ "approved_by": "Not formally approved — a control tool (guide p.69); the BM manages the activities it checks and the PO is Accountable",
+ "inputs": [
+  "Business Implementation Plan",
+  "Project Handbook",
+  "Project Work Plan",
+  "Transition Plan"
+ ],
+ "feeds": [
+  "Project Work Plan (updated)",
+  "Project Reports",
+  "Project-End Report (Post-Project Recommendations)"
+ ],
+ "gate": "RfC",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Tailored from the Business Implementation Plan as a setup output"
+  },
+  {
+   "phase": "Executing",
+   "what": "Run as change, communication and training activities are delivered"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "BM manages the activities; PM assists and updates the Work Plan"
+  },
+  {
+   "phase": "Closing",
+   "what": "Open items become Post-Project Recommendations in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Sheet header & scoring (PM² checklist house pattern)",
+   "meta": true,
+   "items": [
+    "Usage note — customise when planning business implementation, based on the BIP",
+    "% of Compliance (auto-calculated)",
+    "Columns: # · Description · Answer · Comments",
+    "Answer key: Yes / Yes, Partially / No / N/A",
+    "Total score row at the foot"
+   ]
+  },
+  {
+   "sec": "Plan completeness (guide 9.12, step 1)",
+   "items": [
+    "Is the Business Implementation Plan complete and realistic?",
+    "Was the impact on processes, people and culture analysed?",
+    "Is a communications strategy defined?",
+    "Were training needs of the organisation determined?",
+    "Were sources of resistance identified and key stakeholders' attitudes analysed?"
+   ]
+  },
+  {
+   "sec": "Activities in the Project Work Plan (step 2)",
+   "items": [
+    "Are all in-scope business implementation activities defined and scheduled?",
+    "Are the resources they require estimated?",
+    "Is the split between project activities and permanent-organisation activities agreed?",
+    "Are post-project change activities identified and described?"
+   ]
+  },
+  {
+   "sec": "Project-scope focus (step 3)",
+   "items": [
+    "Are the activities being tracked clearly under the project's budget and control?",
+    "Are activities outside the mandate passed to the permanent organisation?",
+    "Are follow-up projects proposed where the BIP recommends them?"
+   ]
+  },
+  {
+   "sec": "Execution — processes and change (step 4)",
+   "items": [
+    "Were affected business processes redesigned, adapted or updated?",
+    "Were the planned organisational change management activities implemented?",
+    "Are the new processes published and in use?"
+   ]
+  },
+  {
+   "sec": "Execution — communication, promotion, training, continuity (step 4)",
+   "items": [
+    "Were the communication activities defined in the BIP implemented?",
+    "Were project promotion activities carried out?",
+    "Were all training activities completed?",
+    "Are business continuity plans for business-critical systems managed?"
+   ]
+  },
+  {
+   "sec": "Reporting and handover (step 5)",
+   "items": [
+    "Was the status of business implementation activities reported?",
+    "Were changes to those activities reported?",
+    "Are benefits-tracking metrics and owners defined for after closure?",
+    "Are post-project recommendations captured for the Project-End Report?"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Usage note (top of sheet)",
+   "what": "Customise the checklist when planning business implementation, basing it on the Business Implementation Plan; it also helps identify the key controls for those activities.",
+   "who": "BM tailors · PM assists",
+   "castor": "Tailored 26 Jun 2026 with the BIP; run quarterly from Q3 2027 through cutover."
+  },
+  {
+   "f": "Answer",
+   "what": "One of four values per check — Yes, Yes Partially, No, N/A — scored to give a compliance figure, following the PM² checklist house pattern.",
+   "who": "BM answers · PM records",
+   "castor": "Training check answered 'Yes, Partially' in Feb 2028: 26 of 40 administrators trained."
+  },
+  {
+   "f": "Comments",
+   "what": "Justification for the answer given — the evidence behind each business implementation check.",
+   "who": "BM records",
+   "castor": "'Remaining 14 administrators scheduled across March and April 2028 cohorts.'"
+  },
+  {
+   "f": "% of Compliance",
+   "what": "Auto-calculated readiness score for business implementation, reported alongside transition readiness but measuring a different thing.",
+   "who": "Calculated · BM reports · PO accountable",
+   "castor": "Reported to Florence Nightingale monthly; distinct from the Transition Checklist score."
+  },
+  {
+   "f": "Plan completeness (guide 9.12, step 1)",
+   "what": "Checked in Planning and re-checked before execution: BIP complete and realistic, impact on processes, people and culture analysed, communications strategy defined, training needs determined, resistance identified.",
+   "who": "BM verifies · BIG consulted · PO accountable",
+   "castor": "Confirmed at the RfE gate, 03 Jul 2026, with impact on 40 loan administrators quantified."
+  },
+  {
+   "f": "Is the Business Implementation Plan complete and realistic?",
+   "what": "Guide step 1 verbatim — the first duty in Manage Business Implementation and the only check that questions the plan itself rather than its execution.",
+   "who": "BM answers · PO accountable",
+   "castor": "Re-answered after the SRF-backstop change request added a post-project onboarding activity."
+  },
+  {
+   "f": "Activities in the Project Work Plan (step 2)",
+   "what": "Checked while planning and re-planning: all in-scope business implementation activities are defined, scheduled and resourced in the Project Work Plan, with the project versus permanent-organisation split agreed.",
+   "who": "BM defines · PM schedules",
+   "castor": "Training, process republication and promotion activities carried into the Work Plan baselined 26 Jun 2026."
+  },
+  {
+   "f": "Project-scope focus (step 3)",
+   "what": "Checked continuously: attention stays on activities implemented during the project's duration and clearly under its budget and control; the rest is handed on.",
+   "who": "BM focuses · PM guards scope",
+   "castor": "Annual refresher training and control self-assessment explicitly excluded and passed to Lending Operations."
+  },
+  {
+   "f": "Execution — processes and change (step 4)",
+   "what": "Checked as change lands: affected business processes redesigned, adapted or updated, planned organisational change management activities implemented, new processes published and in use.",
+   "who": "BM executes · BIG performs",
+   "castor": "Disbursement procedure republished with system-enforced segregation of duties before 15 May 2028."
+  },
+  {
+   "f": "Execution — communication, promotion, training, continuity (step 4)",
+   "what": "Checked as delivery proceeds: BIP communication activities implemented, promotion carried out, all training activities completed, business continuity plans for business-critical systems managed.",
+   "who": "BM delivers · BIG supports",
+   "castor": "Three-day course plus shadowing completed for all 40 loan administrators by 30 Apr 2028."
+  },
+  {
+   "f": "Were all training activities completed?",
+   "what": "The check that owns training. The Transition Checklist merely asks whether training was given; here it is planned, resourced, delivered and verified by the Business Manager.",
+   "who": "BM owns · BIG delivers · PM assists",
+   "castor": "Grace Hopper closed this check 30 Apr 2028, unblocking the Transition Plan's cutover prerequisite."
+  },
+  {
+   "f": "Reporting and handover (step 5)",
+   "what": "Checked at reporting points and at closure: status and changes to business implementation activities reported, benefits-tracking metrics and owners defined, post-project recommendations captured.",
+   "who": "BM reports · PM updates Work Plan · PO endorses",
+   "castor": "SC1–SC5 tracking handed to Lending Operations for quarterly measurement from Q1 2029."
+  }
+ ],
+ "traps": [
+  "PM² provides this checklist, but the BM — not the PM — owns the activities it verifies.",
+  "It checks organisational change; the Transition Checklist checks the system cutover.",
+  "Checks legitimately stay open at closure — business implementation outlives the project.",
+  "PO is Accountable and PSC only Informed, mirroring the Business Implementation Plan's RASCI.",
+  "Listed among the six PM² checklists on guide p.69, so it is a real PM² artefact, not optional local practice."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Business Implementation Checklist, pre-cutover run, 30 Apr 2028 (Project CASTOR)",
+  "rows": [
+   [
+    "#",
+    "Check",
+    "Answer",
+    "Comment"
+   ],
+   [
+    "1",
+    "Is the Business Implementation Plan complete and realistic?",
+    "Yes",
+    "Updated after the SRF-backstop change request"
+   ],
+   [
+    "2",
+    "Impact on processes, people and culture analysed?",
+    "Yes",
+    "40 loan administrators; re-keying of ~1,400 fields/quarter removed"
+   ],
+   [
+    "5",
+    "Were sources of resistance identified and stakeholders' attitudes analysed?",
+    "Yes",
+    "Exception-handling role change raised by Marie Curie"
+   ],
+   [
+    "7",
+    "All in-scope activities defined, scheduled and resourced in the Work Plan?",
+    "Yes",
+    "Baselined 26 Jun 2026"
+   ],
+   [
+    "9",
+    "Split between project and permanent-organisation activities agreed?",
+    "Yes",
+    "Refresher training passed to Lending Operations"
+   ],
+   [
+    "12",
+    "Affected business processes redesigned, adapted or updated?",
+    "Yes",
+    "Disbursement procedure republished with enforced segregation of duties"
+   ],
+   [
+    "14",
+    "Communication activities defined in the BIP implemented?",
+    "Yes",
+    "Monthly Lending Operations briefings since Q3 2027"
+   ],
+   [
+    "15",
+    "Project promotion activities carried out?",
+    "Yes",
+    "Configuration-engine demo to the Corporate Investment Board, 26 Mar 2027"
+   ],
+   [
+    "16",
+    "Were all training activities completed?",
+    "Yes",
+    "All 40 loan administrators trained by 30 Apr 2028"
+   ],
+   [
+    "17",
+    "Business continuity plans for business-critical systems managed?",
+    "Yes",
+    "LOS fallback aligned with the Transition Plan rollback"
+   ],
+   [
+    "19",
+    "Benefits-tracking metrics and owners defined for after closure?",
+    "Yes",
+    "SC1–SC5, quarterly, Lending Operations, from Q1 2029"
+   ],
+   [
+    "20",
+    "Post-project recommendations captured for the Project-End Report?",
+    "Yes, Partially",
+    "SRF-backstop onboarding drafted; awaiting Treaty reform ratification"
+   ]
+  ]
+ }
+}

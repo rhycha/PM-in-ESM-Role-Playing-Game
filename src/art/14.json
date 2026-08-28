@@ -1,0 +1,410 @@
+{
+ "n": 14,
+ "id": "issue-management-plan",
+ "name": "Issue Management Plan",
+ "family": "Management Plan",
+ "one_liner": "How unplanned events that have already happened get logged, owned and resolved.",
+ "purpose": "Defines and documents the activities, roles and responsibilities related to identifying, assessing, assigning, resolving and controlling project issues — unplanned project-related events that require a project management action. The process helps the Project Manager act on anything with a potential impact on scope, time, cost, quality, risk or stakeholder satisfaction. An Issue Log records identification, evaluation, assignment and deadlines, while related decisions are recorded in a Decision Log.",
+ "guide_page": 92,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "C",
+   "BIG": "C",
+   "SP": "I",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Owner (PO)",
+ "inputs": [
+  "Project Charter",
+  "Project Handbook",
+  "Project Work Plan"
+ ],
+ "feeds": [
+  "Issue Log",
+  "Decision Log",
+  "Project Work Plan",
+  "Lessons Learned"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Issue and Decision Logs set up alongside the Risk Log"
+  },
+  {
+   "phase": "Planning",
+   "what": "Plan written and approved; scales and escalation tailored"
+  },
+  {
+   "phase": "Executing",
+   "what": "Issues raised, assigned and resolved; decisions logged"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Manage Issues and Decisions; weekly Status Meeting review"
+  },
+  {
+   "phase": "Closing",
+   "what": "Lessons learned consolidated into the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Cover & Settings (title, PO, PM, version, sensitivity)",
+    "Document Approver(s) and Reviewer(s)",
+    "Document History",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "What the Issue Management Plan covers",
+    "Definition of an issue",
+    "Decisions, decision owners and their tracking",
+    "Objectives: process, roles, methodology and tools"
+   ]
+  },
+  {
+   "sec": "2. Issue Management Objectives",
+   "items": [
+    "Issues affecting scope, time, cost, quality, risk or stakeholder satisfaction are acted upon",
+    "Relevant issues logged and followed up in the Issue Log",
+    "Decision Log brings visibility and accountability to decisions"
+   ]
+  },
+  {
+   "sec": "3. Issue Management Process Description",
+   "items": [
+    "Step 1: Issue Identification",
+    "Step 2: Issue Assessment and Action Recommendation",
+    "Step 3: Actions Implementation",
+    "Step 4: Issue Control",
+    "3.1 Issue Management Roles and Responsibilities (incl. RASCI)"
+   ]
+  },
+  {
+   "sec": "4. Tools and Techniques",
+   "items": [
+    "Techniques: Ishikawa diagram, Pareto diagram",
+    "Tools: Issue Log, Decision Log",
+    "Issue Log structure",
+    "Decision Log structure"
+   ]
+  },
+  {
+   "sec": "5. Issue Identification Activities",
+   "items": [
+    "Who raises issues and how they are recorded",
+    "Only issues needing a management action are logged",
+    "Untracked small actions go in the Issue Log",
+    "A risk that materialises creates an issue",
+    "Issues of significant size may lead to project change"
+   ]
+  },
+  {
+   "sec": "6. Issue Assessment and Action Recommendation Activities",
+   "items": [
+    "Assignment of the detailed analysis and root cause",
+    "Ishikawa (fishbone) method steps",
+    "Pareto method steps",
+    "Issues that originate project changes",
+    "6.1 Escalation",
+    "6.2 Decision"
+   ]
+  },
+  {
+   "sec": "7. Action Implementation activities",
+   "items": [
+    "Project Work Plan",
+    "Other documents and tools tracking remediation actions"
+   ]
+  },
+  {
+   "sec": "8. Issue Control Activities",
+   "items": [
+    "Weekly follow-up at Project Status Meetings",
+    "Closure must be verified; issues can be re-opened",
+    "Lessons Learned updated on closure",
+    "Monthly reporting to the PSC"
+   ]
+  },
+  {
+   "sec": "9. Related PM² Plans",
+   "items": [
+    "Project Handbook",
+    "Communications Management Plan",
+    "Risk Management Plan"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "Handbook, Risk Management Plan, Communications Plan, Issue Log, Decision Log",
+    "Source or link/location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1. Introduction",
+   "what": "States that the plan defines the activities, roles and responsibilities for identifying, assessing, assigning, resolving and controlling project issues, and for documenting decisions and their owners.",
+   "who": "PM drafts · PO approves",
+   "castor": "Issue and decision management for Project CASTOR, LOS renewal, 26 months."
+  },
+  {
+   "f": "Definition of an issue",
+   "what": "An unplanned, project-related event that has already happened and requires a project management action: the intervention of the PM or higher management. Anyone can raise one.",
+   "who": "PM defines · PO approves",
+   "castor": "Anything already blocking CASTOR delivery that the PCT cannot clear itself."
+  },
+  {
+   "f": "2. Issue Management Objectives",
+   "what": "Ensure that issues with a potential impact on project scope, time, cost, quality, risk or stakeholder satisfaction are assessed and acted upon, and logged in the Issue Log.",
+   "who": "PM drafts · PO approves",
+   "castor": "No issue of impact 3 or above may sit unassigned beyond one status meeting."
+  },
+  {
+   "f": "Decisions and the Decision Log",
+   "what": "Key decisions are logged in a Decision Log, which brings visibility to decisions and accountability for how and by whom they were taken and to whom they must be communicated.",
+   "who": "PM records · decision owner accountable",
+   "castor": "DEC-011 and DEC-012 both taken at the PSC of 12 Oct 2027."
+  },
+  {
+   "f": "Step 1: Issue Identification",
+   "what": "Any stakeholder can raise an issue through any channel. The PM registers it in the Issue Log; PCT members may register issues directly, subject to PM validation.",
+   "who": "Any stakeholder raises · PM validates",
+   "castor": "Gustave Eiffel notified the architect's resignation by email on 04 Oct 2027."
+  },
+  {
+   "f": "Typical sources of issues",
+   "what": "Disagreements on the interpretation of requirements; PCT unable to meet time, resource or quality goals; non-conformities found by the team or quality assurance; risks that occur; adverse external effects.",
+   "who": "PM screens · BM flags business issues",
+   "castor": "Non-conformities raised by W. Edwards Deming (PQA) go straight into the Issue Log."
+  },
+  {
+   "f": "Step 2: Issue Assessment and Action Recommendation",
+   "what": "Assess urgency and impact and set a resolution priority. The raiser makes an informal first assessment of category, impact, urgency and size; urgent issues reach the PM immediately.",
+   "who": "Raiser assesses informally · PM prioritises",
+   "castor": "ISS-012 flagged urgent by Gustave Eiffel; PM informed the same day."
+  },
+  {
+   "f": "Root cause analysis and recommendation",
+   "what": "The PM assigns detailed analysis to a stakeholder, who identifies the root cause, recommends a solution and details steps, effort and resources, all documented in the Issue Log.",
+   "who": "PM assigns · assignee analyses",
+   "castor": "Root cause of ISS-012: single point of design knowledge at the contractor."
+  },
+  {
+   "f": "Ishikawa and Pareto (issue analysis methods)",
+   "what": "Ishikawa: describe the symptoms, categorise potential causes, probe the explanations behind each to reach the root cause, then plan actions. Pareto: rank issue categories by frequency, tackle the most frequent.",
+   "who": "Assignee runs · PCT contributes",
+   "castor": "Fishbone on data-migration breaks; Pareto showed 62% of parallel-run defects were configuration."
+  },
+  {
+   "f": "Step 3: Actions Implementation",
+   "what": "Once issues are evaluated and remediation actions approved, the PM incorporates them into the Project Work Plan and updates related plans and logs: Decision Log, Resource Plan, Change Log.",
+   "who": "PM implements · issue owner delivers",
+   "castor": "ISS-012 handover became Work Plan tasks 6.2 and 6.3, three weeks of effort."
+  },
+  {
+   "f": "Step 4: Issue Control",
+   "what": "Monitor and control identified issues so they can be communicated to each decision layer for action approval or status update; the PM keeps the Issue Log current.",
+   "who": "PM controls · PSC oversees",
+   "castor": "Issue Log reviewed every Tuesday at the weekly Project Status Meeting."
+  },
+  {
+   "f": "3.1 Issue Management Roles and Responsibilities",
+   "what": "PSC consulted on remediation actions and informed monthly; PO accountable and approves major actions; BM and SP consulted on assessment; PM responsible; PCT consulted and resolves; BIG can raise issues.",
+   "who": "PM drafts · roles confirm",
+   "castor": "Leonardo da Vinci consulted on ISS-012; Grace Hopper owns business-side issues."
+  },
+  {
+   "f": "RASCI table",
+   "what": "Two rows: the Issue Management Plan (I, I, A, C, C, I, R, C) and the Manage Issues & Decisions process (I, I, A, S, C, I, R, C).",
+   "who": "PM completes · PO approves",
+   "castor": "BM shifts from Consulted on the plan to Supports when issues are managed."
+  },
+  {
+   "f": "4. Tools and Techniques",
+   "what": "Techniques used to analyse issues — Ishikawa diagram, Pareto diagram, root cause analysis — and the tools used to manage them: the Issue Log and the Decision Log.",
+   "who": "PM selects · PCT applies",
+   "castor": "PM² Issue Log and Decision Log used unchanged, held in the PSO project folder."
+  },
+  {
+   "f": "Issue Log (structure)",
+   "what": "Identification block (ID, category, title, description, status, identified by, date) plus assessment block (action details, urgency, impact, size, target date, issue owner, escalation, traceability).",
+   "who": "PM owns and updates",
+   "castor": "Issue categories mirror the risk categories, so risk-to-issue transfers keep their label."
+  },
+  {
+   "f": "Issue status values",
+   "what": "Open (identified, needs attention and if possible a resolution), Postponed (resolution deferred for other priorities), Resolved (all actions completed), Closed (all work completed and verified).",
+   "who": "PM sets · PM verifies closure",
+   "castor": "ISS-012 Open 05 Oct 2027, Resolved 02 Nov 2027, Closed 09 Nov 2027."
+  },
+  {
+   "f": "Urgency, Impact and Size scales",
+   "what": "Three separate 1–5 scales (5=Very high): Urgency is how fast a solution is needed, Impact the consequence of the issue, Size the effort to resolve it.",
+   "who": "Raiser proposes · PM confirms",
+   "castor": "ISS-012 scored Urgency 4, Impact 4, Size 3."
+  },
+  {
+   "f": "Decision Log (structure)",
+   "what": "Identification (ID, category, title, description, identified by, people present, comments), ownership (decision owner, decision date, escalation) and implementation (date of application, communicated to).",
+   "who": "PM records · decision owner accountable",
+   "castor": "DEC-012 records who attended the PSC and who must be told the outcome."
+  },
+  {
+   "f": "5. Issue Identification Activities",
+   "what": "Describes how issues are detected and recorded. Only issues that cannot be solved easily and that require a management action should be registered in the Issue Log.",
+   "who": "Any stakeholder · PM filters",
+   "castor": "Day-to-day defects stay in the test tracker; only escalated ones become issues."
+  },
+  {
+   "f": "Small actions logged as issues",
+   "what": "Any project activity — for example small meeting actions — that does not appear in the Project Work Plan should be logged, assigned and tracked using the Issue Log.",
+   "who": "PM logs · assignee delivers",
+   "castor": "Actions from the weekly status meeting tracked in the Issue Log, not in a side list."
+  },
+  {
+   "f": "Risk that materialises becomes an issue",
+   "what": "Any risk that materialises and requires action creates an issue, logged, assessed, assigned and tracked in the Issue Log; the risk itself is closed in the Risk Log.",
+   "who": "PM transfers · PSC informed",
+   "castor": "R-07 occurred on 04 Oct 2027 and became ISS-012; R-07 closed 26 Oct 2027."
+  },
+  {
+   "f": "Issues that lead to project change",
+   "what": "Issues of significant size may lead to a project change; those issues follow the project change management process and are also tracked through the Change Log.",
+   "who": "PM routes · PSC decides",
+   "castor": "ISS-012 replanning stayed inside baseline, so no Change Request was needed."
+  },
+  {
+   "f": "6.1 Escalation (issue escalation procedure)",
+   "what": "Very Low and Low size/impact remediation actions are approved at the Managing Layer (BM and PM); all others by the PSC; major issues reported yearly to the AGB.",
+   "who": "PM applies · PO owns the rule",
+   "castor": "ISS-012 escalated: impact 4 exceeded the Managing Layer's authority; AGB told yearly."
+  },
+  {
+   "f": "6.2 Decision",
+   "what": "Issues are tracked together with key decisions. Decisions at Managing, Directing or Steering Layer are documented in the Decision Log, cross-referring to related issues, risks or changes.",
+   "who": "PM documents · decision owner accountable",
+   "castor": "DEC-012 refers back to ISS-012 and to closed risk R-07."
+  },
+  {
+   "f": "7. Action Implementation activities",
+   "what": "States where remediation actions and their status are recorded and monitored — principally the Project Work Plan, plus any other tracking documents or tools used by the project.",
+   "who": "PM maintains",
+   "castor": "All remediation actions above two person-days become Work Plan tasks."
+  },
+  {
+   "f": "8. Issue Control Activities",
+   "what": "New or open issues are followed up weekly at Project Status Meetings and assigned to a responsible party; the PM then updates the Issue Log with the review results.",
+   "who": "PM controls · assignees report",
+   "castor": "Weekly Tuesday status meeting; monthly issue summary in the PSC pack."
+  },
+  {
+   "f": "Closure and re-opening",
+   "what": "An issue cannot be eliminated without an assessment that it is no longer occurring; the PM must verify closure and may re-open the issue if it recurs.",
+   "who": "PM verifies · issue owner evidences",
+   "castor": "ISS-018 (reconciliation acceptance) re-opened once before partial acceptance held."
+  },
+  {
+   "f": "Lessons Learned update",
+   "what": "When an issue is closed and validated by the PM, the person responsible for the resolution updates the project's Lessons Learned in the Issue Log.",
+   "who": "Resolver writes · PM validates",
+   "castor": "Lesson from ISS-012: require named deputies for every contractor key role."
+  },
+  {
+   "f": "9. Related PM² Plans",
+   "what": "Cross-references the Project Handbook (escalation and conflict resolution), the Communications Management Plan (reporting) and the Risk Management Plan (risks that may become issues).",
+   "who": "PM maintains cross-references",
+   "castor": "Handbook, Communications and Risk plans, all version 1.0 of 26 Jun 2026."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Lists related documents by title, version, date and location: Handbook, Risk Management Plan, Communications Management Plan, Issue Log, Decision Log and the project folder.",
+   "who": "PM lists · PSO keeps locations",
+   "castor": "24.Issue_Log.CASTOR.xlsx and 25.Decision_Log.CASTOR.xlsx in the PSO folder."
+  }
+ ],
+ "traps": [
+  "Issue = already happened. Risk = uncertain future event. Change = altering a baseline.",
+  "The plan defines the process; the Issue Log and Decision Log hold the instances.",
+  "Issue Log scores Urgency, Impact and Size — never likelihood; that belongs to risk.",
+  "Only issues needing a management action are logged, not every problem.",
+  "Issue and Decision Logs are set up in Initiating; this plan only defines their structure."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Issue Management Plan v1.0, 26 Jun 2026",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Approved by",
+    "Florence Nightingale, Project Owner — 26 Jun 2026"
+   ],
+   [
+    "Definition of an issue",
+    "An unplanned project-related event that has already happened and needs a management action"
+   ],
+   [
+    "Logging threshold",
+    "Only issues that cannot be solved easily and require a management action are logged"
+   ],
+   [
+    "Issue categories",
+    "Business · IT · People and organisation · External · Legal (mirrors the risk categories)"
+   ],
+   [
+    "Scales",
+    "Urgency, Impact and Size each 1=Very low to 5=Very high"
+   ],
+   [
+    "Managing Layer authority",
+    "Remediation actions of Very Low / Low size and impact — PM with Grace Hopper (BM)"
+   ],
+   [
+    "PSC authority",
+    "Medium, High and Very High size or impact; extraordinary PSC for urgent issues"
+   ],
+   [
+    "Review cadence",
+    "Weekly Project Status Meeting (Tuesdays); monthly issue status to the PSC"
+   ],
+   [
+    "ISS-012",
+    "05 Oct 2027 — Levallois's lead solution architect resigns; risk R-07 has materialised"
+   ],
+   [
+    "ISS-012 assessment",
+    "Urgency 4, Impact 4, Size 3; owner Leonardo da Vinci (SP); escalated Yes"
+   ],
+   [
+    "ISS-012 action",
+    "Key-person clause invoked; Nikola Tesla takes interim design authority; three-week handover"
+   ],
+   [
+    "DEC-012",
+    "PSC of 12 Oct 2027 — absorb the three-week slip in integration testing, hold Release 2 on 17 Dec 2027"
+   ],
+   [
+    "Lesson learned",
+    "Require a named deputy for every contractor key role in future outsourcing contracts"
+   ]
+  ]
+ }
+}

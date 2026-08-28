@@ -1,0 +1,301 @@
+{
+ "n": 12,
+ "id": "architecture-overview",
+ "name": "Architecture Overview",
+ "group": "Artefacts",
+ "one_liner": "The system's building blocks, key decisions, compliance — and the source of enablers.",
+ "purpose": "The Architecture Overview gives a high-level view of the software architecture to be developed: the major building blocks and how the architecture contributes to all the capabilities of the system. It formally documents the critical architectural decisions taken and how compliance concerns such as security, data protection and anti-fraud are addressed, and shows how the organisation's Reference Architecture is used. Its key aspect is enabling stakeholders to understand the system's structure and validate the implications of the chosen approach — and it is an invaluable source of the enablers that populate the Work Items List.",
+ "guide_page": 69,
+ "meta": [
+  [
+   "Artefact type",
+   "IT governance artefact — mandatory for projects with an information system (p.25)"
+  ],
+  [
+   "PM² equivalent",
+   "None — PM² core has no Architecture Overview; IT governance requires it"
+  ],
+  [
+   "Produced by",
+   "Architecture Owner (ArOw) — Responsible"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — as on every agile artefact row"
+  ],
+  [
+   "Pairs with",
+   "Operational Model — the same architecture seen from the operational side"
+  ],
+  [
+   "Feeds",
+   "Work Items List — enabler stories (pp.70, 76)"
+  ],
+  [
+   "Lifecycle",
+   "Initiating Created · Planning Updated · Executing Updated · Closing – (p.70)"
+  ],
+  [
+   "PrOw",
+   "Informed only — enough to understand key decisions and constraints"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "S",
+   "I",
+   "R",
+   "S"
+  ],
+  "A": "PM",
+  "R": "ArOw"
+ },
+ "diagram": [
+  {
+   "sec": "1. Major building blocks",
+   "items": [
+    "The blocks that constitute the information system",
+    "How the architecture contributes to all capabilities of the system",
+    "Interfaces that support interoperability",
+    "Dependencies on other information systems"
+   ]
+  },
+  {
+   "sec": "2. Critical architectural decisions",
+   "items": [
+    "Each decision formally documented",
+    "Why it was taken and what it constrains",
+    "Changes as development 'tests' the architecture are folded back in"
+   ]
+  },
+  {
+   "sec": "3. Compliance concerns",
+   "items": [
+    "Security",
+    "Data protection",
+    "Anti-fraud",
+    "Document management"
+   ]
+  },
+  {
+   "sec": "4. Reference Architecture and reuse",
+   "items": [
+    "How the IT Reference Architecture guidelines are applied",
+    "Consistency and efficiency across the IT landscape",
+    "Checklist of commonly used components and services",
+    "Reuse trade-off in cost, risk and functionality understood and accepted by stakeholders"
+   ]
+  },
+  {
+   "sec": "5. Models — several perspectives",
+   "items": [
+    "Class and package diagrams",
+    "Object diagrams",
+    "Component diagrams",
+    "Internal and external architecture standards and patterns"
+   ]
+  },
+  {
+   "sec": "6. Qualities of a solid architecture",
+   "items": [
+    "Consistent — parts in harmony, common partitioning and allocation",
+    "Loosely coupled — components independent",
+    "Generic — components work in various environments",
+    "Extensible — the architecture can be extended",
+    "Simple — 'as simple as possible but no simpler'"
+   ]
+  },
+  {
+   "sec": "7. Level of detail and upkeep",
+   "items": [
+    "High level with just enough detail at the initial stage",
+    "Refined as understanding of the solution improves",
+    "Lighter, referring to the existing architecture, where one is well defined",
+    "Extremely important for new approaches or technologies",
+    "Kept aligned with the Operational Model"
+   ]
+  },
+  {
+   "sec": "8. Source of enablement work",
+   "items": [
+    "The architecture picture generates Enablers for the Work Items List",
+    "ArOw helps the PrOw balance business and enabler work",
+    "Enabler items must be visible when the WIL is prioritised"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "High-level architecture view",
+   "what": "A high-level view of the software architecture to be developed, at the level the whole project organisation can read.",
+   "who": "ArOw Responsible · PM Accountable",
+   "pollux": "Four blocks: replica data layer, reconciliation service, reporting API, portal UI."
+  },
+  {
+   "f": "Major building blocks",
+   "what": "The blocks that make up the information system and what each contributes to the system's capabilities.",
+   "who": "ArOw Responsible · ATeM support",
+   "pollux": "Einstein's four blocks map one-to-one onto the four POLLUX releases' delivery order."
+  },
+  {
+   "f": "Contribution to capabilities",
+   "what": "A description of how the architecture contributes to all capabilities of the system — not just a component picture.",
+   "who": "ArOw Responsible",
+   "pollux": "Traceability of every figure to source is a capability of the data layer, not a feature."
+  },
+  {
+   "f": "Critical architectural decisions",
+   "what": "The decisions are formally documented — what was decided, and what it commits the solution to.",
+   "who": "ArOw Responsible · PM must understand them",
+   "pollux": "Decision AD-02: read-only replica of CASTOR data, never a live query against the lending platform."
+  },
+  {
+   "f": "Compliance concerns",
+   "what": "How security, data protection and anti-fraud concerns are addressed by the information system.",
+   "who": "ArOw Responsible · PM informs stakeholders",
+   "pollux": "Row-level filtering so a national authority can only ever see its own member state's exposure."
+  },
+  {
+   "f": "Reference Architecture",
+   "what": "Where one exists, documents how the system uses its guidelines to keep the IT landscape consistent and efficient.",
+   "who": "ArOw ensures compliance",
+   "pollux": "POLLUX reuses the CASTOR authentication and audit patterns rather than defining new ones."
+  },
+  {
+   "f": "Reusability checklist",
+   "what": "A checklist of commonly used components and services in the organisation, with the cost, risk and functionality trade-off accepted.",
+   "who": "ArOw Responsible · stakeholders accept",
+   "pollux": "Existing corporate charting library reused; the scenario engine is built, not bought."
+  },
+  {
+   "f": "Interoperability and dependencies",
+   "what": "What building blocks make up the system and what interfaces exist — crucial where systems depend on each other.",
+   "who": "ArOw Responsible · TeCo facilitates",
+   "pollux": "Nightly delta interface from the CASTOR lending platform is the single upstream dependency."
+  },
+  {
+   "f": "Understand the problem first",
+   "what": "Before defining a solution, be clear what problem is being solved; the Business Case and Project Charter supply that.",
+   "who": "ArOw Responsible",
+   "pollux": "Einstein reframes every enabler request as 'what problem is this actually solving'."
+  },
+  {
+   "f": "Use of models",
+   "what": "Several UML models rather than one — class and package, object, and component diagrams for different perspectives.",
+   "who": "ArOw Responsible · ATeM contribute",
+   "pollux": "Component diagram plus a package diagram per release, kept in the project workspace."
+  },
+  {
+   "f": "Solid architecture qualities",
+   "what": "Consistent, loosely coupled, generic, extensible and simple — 'as simple as possible but no simpler'.",
+   "who": "ArOw Responsible",
+   "pollux": "Reconciliation service kept independent so Finance's rules can change without touching the portal."
+  },
+  {
+   "f": "Just enough detail",
+   "what": "Detailed enough at the initial stage to convey the overall technical approach at a high level — no more.",
+   "who": "ArOw Responsible · PM Accountable",
+   "pollux": "Version 0.9 at the RfE gate is eleven pages; detail arrives with the enabler stories."
+  },
+  {
+   "f": "Keep updating it",
+   "what": "Refined as the project learns; decisions or changes forced by development are written back into the overview.",
+   "who": "ArOw Responsible",
+   "pollux": "Updated after Release 2 when reconciliation moved from the API into its own service."
+  },
+  {
+   "f": "Supported by the Operational Model",
+   "what": "Alignment between the two is required so the operational aspect and hosting requirements stay current.",
+   "who": "ArOw owns both",
+   "pollux": "Einstein maintains Architecture Overview and Operational Model as one review item each release."
+  },
+  {
+   "f": "Source of enabler work",
+   "what": "The architecture picture is an invaluable source of Enablers that populate the Work Items List.",
+   "who": "ArOw supplies · PrOw prioritises",
+   "pollux": "Enablers WIL-003, WIL-007 and WIL-045 all came straight out of the Architecture Overview."
+  },
+  {
+   "f": "Lighter where architecture exists",
+   "what": "In systems with an already well-defined architecture this artefact can be lighter and refer to the existing architecture.",
+   "who": "ArOw decides · PM Accountable",
+   "pollux": "POLLUX inherits CASTOR's platform architecture and references it instead of restating it."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "BM I · PM A · TeCo S · PrOw I · ArOw R · ATeM S. TeCo only supports here; PrOw is merely informed.",
+   "who": "PM Accountable · ArOw Responsible",
+   "pollux": "Einstein writes it; Lovelace fetches what he needs from the project level; Curie is told."
+  }
+ ],
+ "traps": [
+  "ArOw is Responsible — TeCo only Supports, unusually for an agile artefact.",
+  "PrOw is Informed, not Supporting: architecture is not prioritised by the Product Owner.",
+  "Architecture Overview is logical and software; the Operational Model is infrastructure.",
+  "Created in Initiating — unlike the Development Handbook and Work Plan, created in Planning.",
+  "It is a source of enabler stories, but it does not hold them — the WIL does."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Architecture Overview v0.9, baselined 27 Nov 2028",
+  "rows": [
+   [
+    "Element",
+    "Content"
+   ],
+   [
+    "Building block 1",
+    "Replica data layer — read-only copy of CASTOR lending data, nightly delta load"
+   ],
+   [
+    "Building block 2",
+    "Reconciliation service — matches exposure figures to the accounts"
+   ],
+   [
+    "Building block 3",
+    "Reporting API — versioned, serves every view the portal offers"
+   ],
+   [
+    "Building block 4",
+    "Portal UI — member state, instrument, maturity, scenario overlay"
+   ],
+   [
+    "Decision AD-02",
+    "No live queries against the lending platform; replica only"
+   ],
+   [
+    "Decision AD-05",
+    "Every displayed figure carries a traceable link to its source record (SC4)"
+   ],
+   [
+    "Compliance",
+    "Row-level access filter for national authorities — reviewed by Brandeis (DPC) and Turing (LISO)"
+   ],
+   [
+    "Reuse",
+    "CASTOR authentication and audit patterns; corporate charting library"
+   ],
+   [
+    "Enablers generated",
+    "WIL-003 replica load · WIL-007 audit trail · WIL-045 external access zone"
+   ],
+   [
+    "Responsible · Accountable",
+    "Albert Einstein (ArOw) · Project Manager (PM)"
+   ],
+   [
+    "Status",
+    "Created Initiating, updated at each release; v1.4 current at Release 3"
+   ]
+  ]
+ }
+}

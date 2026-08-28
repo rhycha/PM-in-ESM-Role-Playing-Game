@@ -1,0 +1,362 @@
+{
+ "n": 19,
+ "id": "project-status-report",
+ "name": "Project Status Report",
+ "family": "Report",
+ "one_liner": "The regular one-page dashboard of where the project stands, for the PSC.",
+ "purpose": "Produced by the Project Manager (PM) and regularly submitted to the Project Steering Committee (PSC) and other stakeholders as per the Communications Management Plan. It provides a summary of the project's performance rather than detailed task-level information, covering costs, scheduling, scope/changes, risks and issues. It reports the status of important milestones for the current reporting period and provides forecasts for future reporting periods.",
+ "guide_page": 59,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "S/C",
+   "BIG": "I/C",
+   "SP": "I/C",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Executing Phase (Project Reporting, §7.4) — repeated every reporting cycle",
+ "approved_by": "Project Owner (PO) is Accountable; the report is submitted to the Project Steering Committee (PSC)",
+ "inputs": [
+  "Project Handbook",
+  "Project Work Plan",
+  "Communications Management Plan",
+  "Project Logs (Risk, Issue, Decision, Change)",
+  "Project Checklists",
+  "Outputs of Monitor Project Performance",
+  "Contractor Status Report"
+ ],
+ "feeds": [
+  "Project Progress Report",
+  "Project-End Review Meeting",
+  "Project-End Report",
+  "Projects Archive"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Frequency and format fixed in Communications Management Plan"
+  },
+  {
+   "phase": "Executing",
+   "what": "Issued every reporting cycle to the PSC"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Consumes the logs; triggers control decisions"
+  },
+  {
+   "phase": "Closing",
+   "what": "Archived; feeds the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Cover & header",
+   "meta": true,
+   "items": [
+    "Organisation [Name] / Department [Name]",
+    "<Project Status Report>",
+    "Date / Doc. Version",
+    "<Project Name>",
+    "Reporting period: <dd/mm/yy> to <dd/mm/yy>"
+   ]
+  },
+  {
+   "sec": "Project identification band",
+   "items": [
+    "Phase: <Initiating/Planning/Executing/Closing>",
+    "Project Owner (PO): <Name>",
+    "Business Manager (BM): <Name>",
+    "Solution Provider (SP): <Name>",
+    "Project Manager (PM): <Name>",
+    "Overall Status: Green/Amber/Red"
+   ]
+  },
+  {
+   "sec": "Project Status Summary",
+   "items": [
+    "<Short description of current status>",
+    "<This place is reserved for progress report chart or EVM graph>"
+   ]
+  },
+  {
+   "sec": "Project Indicators — Schedule",
+   "items": [
+    "Schedule: Green/Amber/Red",
+    "Baselined delivery date: <xx/xx/xx>",
+    "Forecasted delivery date: <xx/xx/xx>",
+    "Variance: <+ xx months>"
+   ]
+  },
+  {
+   "sec": "Project Indicators — Cost",
+   "items": [
+    "Cost: Green/Amber/Red",
+    "Current Year — Allocated: <xx> workdays, <x.xxx,xx> €",
+    "Current Year — Spent: <xx> workdays, <x.xxx,xx> €",
+    "Current Year — Forecasted: <xx> workdays, <x.xxx,xx> €",
+    "Overall project — Allocated / Spent / Forecasted"
+   ]
+  },
+  {
+   "sec": "Milestones",
+   "items": [
+    "<xx/xx/xx>: <describe project milestone 1>",
+    "…up to five dated milestones"
+   ]
+  },
+  {
+   "sec": "Project Changes (input from Change Log)",
+   "items": [
+    "Status: Green/Amber/Red",
+    "Severe: <x>",
+    "<id xx>, category <xx>, status <xx> (×3)"
+   ]
+  },
+  {
+   "sec": "Top Risks (input from Risk Log)",
+   "items": [
+    "Status: Green/Amber/Red",
+    "Active: <x>",
+    "<id xx>, level <xx>, action <xx> (×3)"
+   ]
+  },
+  {
+   "sec": "Issues (input from Issue Log)",
+   "items": [
+    "Status: Green/Amber/Red",
+    "Urgent: <x>",
+    "<id xx>, size <xx>, severity <xx> (×3)"
+   ]
+  },
+  {
+   "sec": "Decisions (input from Decision Log)",
+   "items": [
+    "<xx/xx/xx>, <id xx>: <describe decision 1>",
+    "…up to five dated decisions"
+   ]
+  },
+  {
+   "sec": "Activities Performed and Planned",
+   "items": [
+    "Performed: <action>, status <ongoing / complete / pending> (×3)",
+    "Planned: <next planned key project action> (×3)"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Organisation [Name] / Department [Name]",
+   "what": "Cover block identifying the owning organisation and department; carries the logo and document title.",
+   "who": "PM fills once; PSO keeps the template",
+   "castor": "European Stability Mechanism — Lending Operations Division"
+  },
+  {
+   "f": "Date / Doc. Version",
+   "what": "Issue date and version of this status report, so the PSC knows which cut of the data it is reading.",
+   "who": "PM",
+   "castor": "Date: 03 Apr 2027 · Doc. Version: 1.0"
+  },
+  {
+   "f": "<Project Name>",
+   "what": "Project name in the page header, repeated on every page of the one-pager.",
+   "who": "PM",
+   "castor": "Project CASTOR — Renewal of the Lending Operations System (LOS)"
+  },
+  {
+   "f": "Reporting period: <dd/mm/yy> to <dd/mm/yy>",
+   "what": "The window the report covers; the frequency is the one agreed in the Communications Management Plan.",
+   "who": "PM; frequency agreed with PO/PSC",
+   "castor": "01/03/27 to 31/03/27 (monthly cycle)"
+  },
+  {
+   "f": "Phase",
+   "what": "Which of the four PM² phases the project is in: Initiating, Planning, Executing or Closing.",
+   "who": "PM",
+   "castor": "Executing"
+  },
+  {
+   "f": "Project Owner (PO) / Business Manager (BM) / Solution Provider (SP) / Project Manager (PM)",
+   "what": "The four named Directing- and Managing-Layer roles, so the reader knows who to call.",
+   "who": "PM; taken from Project Charter",
+   "castor": "PO Florence Nightingale · BM Grace Hopper · SP Leonardo da Vinci · PM (ESM PSO)"
+  },
+  {
+   "f": "Overall Status: Green/Amber/Red",
+   "what": "Single traffic light for the whole project, aggregating schedule, cost, changes, risks and issues.",
+   "who": "PM proposes · PO owns the call",
+   "castor": "Amber"
+  },
+  {
+   "f": "Project Status Summary — <Short description of current status>",
+   "what": "A few lines of narrative explaining what the traffic light means and what the PSC should notice.",
+   "who": "PM drafts · PO approves",
+   "castor": "Release 1 delivered on date with partial acceptance; two product templates deferred to Release 2."
+  },
+  {
+   "f": "<This place is reserved for progress report chart or EVM graph>",
+   "what": "Reserved space for a progress chart or an Earned Value graph; the template leaves the choice open.",
+   "who": "PM",
+   "castor": "Cumulative PV/EV/AC curve to 31 Mar 2027 (see Status Report EVM variant)"
+  },
+  {
+   "f": "Project Indicators — Schedule: Green/Amber/Red",
+   "what": "Traffic light for schedule alone, set from the gap between baselined and forecasted delivery.",
+   "who": "PM",
+   "castor": "Amber"
+  },
+  {
+   "f": "Baselined delivery date",
+   "what": "The delivery date in the baselined Project Work Plan — not the latest wish, the approved baseline.",
+   "who": "PM; from baselined Project Work Plan",
+   "castor": "15/05/28 (transition / go-live)"
+  },
+  {
+   "f": "Forecasted delivery date",
+   "what": "The date currently forecast from actual progress, so the PSC sees the drift early.",
+   "who": "PM",
+   "castor": "15/06/28"
+  },
+  {
+   "f": "Variance",
+   "what": "Difference between forecast and baseline, expressed in months, with sign.",
+   "who": "PM",
+   "castor": "+1 month"
+  },
+  {
+   "f": "Project Indicators — Cost: Green/Amber/Red",
+   "what": "Traffic light for cost alone, from consumption against allocation for the year and overall.",
+   "who": "PM · PO approves",
+   "castor": "Amber"
+  },
+  {
+   "f": "Current Year — Allocated / Spent / Forecasted",
+   "what": "This calendar year's allocation, consumption to date and full-year forecast, each in workdays and euro.",
+   "who": "PM with PSO/finance data",
+   "castor": "2027 allocated 1.395 workdays, 3.780.000,00 €; spent 537 wd, 1.456.000,00 €; forecast 1.550 wd, 4.200.000,00 €"
+  },
+  {
+   "f": "Overall project — Allocated / Spent / Forecasted",
+   "what": "Same three figures for the whole project life, so year-on-year drift is visible against the total budget.",
+   "who": "PM with PSO/finance data",
+   "castor": "Allocated 3.100 wd, 8.400.000,00 €; spent 1.188 wd, 3.220.000,00 €; forecast 3.444 wd, 9.333.000,00 €"
+  },
+  {
+   "f": "Milestones",
+   "what": "Up to five dated milestones for the current period and the near future, each one line.",
+   "who": "PM; from Project Work Plan",
+   "castor": "26/03/27 Release 1 — product configuration engine; 17/12/27 Release 2 — straight-through disbursement"
+  },
+  {
+   "f": "Project Changes (input from Change Log)",
+   "what": "Traffic light, count of severe changes, then up to three lines of id, category and status — copied from the Change Log.",
+   "who": "PM; source is the Change Log",
+   "castor": "Amber · Severe: 1 · CR-007, category Scope, status Postponed"
+  },
+  {
+   "f": "Top Risks (input from Risk Log)",
+   "what": "Traffic light, count of active risks, then up to three lines of id, risk level and response action.",
+   "who": "PM; source is the Risk Log",
+   "castor": "Amber · Active: 9 · R-07, level High, action retention and knowledge-transfer clause with Levallois"
+  },
+  {
+   "f": "Issues (input from Issue Log)",
+   "what": "Traffic light, count of urgent issues, then up to three lines of id, size and severity.",
+   "who": "PM; source is the Issue Log",
+   "castor": "Amber · Urgent: 2 · I-08, size Medium, severity High (two product templates deferred)"
+  },
+  {
+   "f": "Decisions (input from Decision Log)",
+   "what": "Up to five dated decisions with their log id and a one-line description — the audit trail of who decided what.",
+   "who": "PM; source is the Decision Log",
+   "castor": "26/03/27, D-021: PSC postpones CR-007 pending ESM Treaty reform ratification"
+  },
+  {
+   "f": "Activities Performed and Planned — Performed",
+   "what": "Up to three key actions carried out in the period, each with status ongoing, complete or pending.",
+   "who": "PM with PCT input",
+   "castor": "Release 1 delivered to acceptance, status complete; nine of eleven product templates configured, status ongoing"
+  },
+  {
+   "f": "Activities Performed and Planned — Planned",
+   "what": "Up to three key actions planned for the next reporting period; this is the forecast the PSC will hold you to.",
+   "who": "PM with PCT input",
+   "castor": "Table Release 2 recovery plan at the 23 Apr 2027 PSC; freeze data-migration specification by 30 Apr 2027"
+  }
+ ],
+ "traps": [
+  "It is a summary for the PSC, not task-level detail — no task lists, no WBS lines.",
+  "Status Report is frequent (1–2 months) and one page; Project Progress Report is fuller and periodic/yearly.",
+  "The Quality Review Report is a third report: PM produces it from the Quality Review Checklist.",
+  "PO is Accountable for Project Reporting; PM is Responsible. PSC is only Informed.",
+  "The Contractor Status Report is written by the contractor; the PM summarises it inside this report."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Status Report, Project CASTOR, reporting period 01/03/27 to 31/03/27",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Phase",
+    "Executing"
+   ],
+   [
+    "Overall Status",
+    "Amber"
+   ],
+   [
+    "Project Status Summary",
+    "Release 1 (product configuration engine) entered acceptance on 26 Mar 2027 on the baselined date. The PSC granted partial acceptance: nine of eleven product templates passed, two move to Release 2."
+   ],
+   [
+    "Schedule",
+    "Amber — baselined 15/05/28, forecasted 15/06/28, variance +1 month"
+   ],
+   [
+    "Cost (overall project)",
+    "Amber — allocated 3.100 wd / 8.400.000,00 €; spent 1.188 wd / 3.220.000,00 €; forecasted 3.444 wd / 9.333.000,00 €"
+   ],
+   [
+    "Cost (current year 2027)",
+    "allocated 1.395 wd / 3.780.000,00 €; spent 537 wd / 1.456.000,00 €; forecasted 1.550 wd / 4.200.000,00 €"
+   ],
+   [
+    "Milestones",
+    "26/03/27 Release 1 — product configuration engine (achieved, partial acceptance) · 17/12/27 Release 2 — straight-through disbursement · 08/01/28 parallel run with LOS starts · 15/05/28 transition / go-live · 22/06/28 RfC gate"
+   ],
+   [
+    "Project Changes (Change Log)",
+    "Amber · Severe: 1 · CR-007, category Scope, status Postponed · CR-005, category Requirements, status Approved · CR-006, category Schedule, status Implemented"
+   ],
+   [
+    "Top Risks (Risk Log)",
+    "Amber · Active: 9 · R-07, level High, action retention & knowledge-transfer clause with Levallois · R-03, level High, action keep backstop instrument-agnostic in the configuration engine · R-11, level Medium, action freeze data-migration spec by 30/04/27"
+   ],
+   [
+    "Issues (Issue Log)",
+    "Amber · Urgent: 2 · I-08, size Medium, severity High (two product templates deferred from Release 1) · I-09, size Small, severity Medium (data-migration spec not signed off by Finance & Control)"
+   ],
+   [
+    "Decisions (Decision Log)",
+    "05/03/27, D-018: data-migration specification owner assigned to Grace Hopper, freeze 30/04/27 · 12/03/27, D-019: verbal scope requests accepted only via a Change Request Form · 26/03/27, D-020: partial acceptance of Release 1 · 26/03/27, D-021: CR-007 postponed pending ESM Treaty reform ratification"
+   ],
+   [
+    "Activities Performed",
+    "Release 1 delivered to acceptance, status complete · nine of eleven product templates configured and tested, status ongoing · CR-007 impact assessment produced, status complete"
+   ],
+   [
+    "Activities Planned",
+    "Table the Release 2 recovery plan at the 23 Apr 2027 PSC · freeze the data-migration specification by 30 Apr 2027 · start straight-through disbursement build with Levallois"
+   ]
+  ]
+ }
+}

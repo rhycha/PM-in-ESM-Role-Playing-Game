@@ -1,0 +1,281 @@
+{
+ "n": 24,
+ "id": "product-owner",
+ "name": "Product Owner (PrOw)",
+ "group": "Roles",
+ "one_liner": "Single voice of the stakeholders; owns and prioritises the Work Items List.",
+ "purpose": "The Product Owner (PrOw) represents mainly client and end-user concerns and develops a deep understanding of stakeholder needs, which allows the role to capture and set priorities for the Work Items. The PrOw is the 'single voice of the stakeholders' inside the Agile Project Core Team (A-PCT) and should ideally sit in the same physical environment as the rest of the team. With PM²-Agile the PrOw also becomes the permanent point of contact between the requester and provider organisations.",
+ "guide_page": 62,
+ "meta": [
+  [
+   "Layer",
+   "Performing layer — core role of the Agile Project Core Team (A-PCT)"
+  ],
+  [
+   "Owns",
+   "The Work Items List and its priorities"
+  ],
+  [
+   "PM² counterpart",
+   "Closest to the Business Manager, but not the same role"
+  ]
+ ],
+ "rasci": {
+  "title": "PrOw in the guide's RAM (RASCI) tables",
+  "rows": [
+   [
+    "Artefact or ceremony",
+    "PrOw"
+   ],
+   [
+    "Work Items List",
+    "R"
+   ],
+   [
+    "Manage Work Items List (ceremony)",
+    "A/R"
+   ],
+   [
+    "Work Items List refinement",
+    "R"
+   ],
+   [
+    "Work Items List prioritisation",
+    "R/A"
+   ],
+   [
+    "Iteration Planning",
+    "S/A — accountable for the Iteration Goal"
+   ],
+   [
+    "Iteration Review",
+    "A/S — accepts or rejects demonstrated items"
+   ],
+   [
+    "Daily Stand-up",
+    "I — informed only if necessary"
+   ],
+   [
+    "Iteration Retrospective",
+    "I"
+   ],
+   [
+    "Release Plan / Development Work Plan",
+    "S"
+   ],
+   [
+    "Iteration Plan",
+    "C"
+   ],
+   [
+    "Architecture Overview / Operational Model",
+    "I"
+   ]
+  ],
+  "legend": [
+   [
+    "Letter",
+    "Meaning"
+   ],
+   [
+    "R",
+    "Responsible — does the work and leads those who support"
+   ],
+   [
+    "A",
+    "Accountable — authorises and approves; only one person"
+   ],
+   [
+    "S",
+    "Supports — works with the Responsible person to complete it"
+   ],
+   [
+    "C",
+    "Consulted — provides input to the activity"
+   ],
+   [
+    "I",
+    "Informed — kept up to date"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Owns",
+   "items": [
+    "The Work Items List — its definition, maintenance and priorities",
+    "The Iteration Goal proposed to the team",
+    "Acceptance or rejection of demonstrated items against acceptance criteria",
+    "Representation of the stakeholder community inside the team",
+    "The channel to stakeholders for domain clarifications"
+   ]
+  },
+  {
+   "sec": "Decides",
+   "items": [
+    "What is built next — the order of the Work Items List",
+    "Whether a demonstrated work item is accepted or rejected",
+    "The Iteration Goal, agreed with the A-PCT",
+    "Day-to-day business decisions, once empowered by the Business Manager"
+   ]
+  },
+  {
+   "sec": "Attends",
+   "items": [
+    "Manage / refine / prioritise the Work Items List — Responsible and Accountable",
+    "Iteration Planning — supports; accountable for the Iteration Goal",
+    "Iteration Review — accountable for the output; may conduct the demo",
+    "Daily Stand-up — informed of outcomes only if necessary",
+    "Refinement sessions with the User Representatives"
+   ]
+  },
+  {
+   "sec": "Does not do",
+   "items": [
+    "Facilitate the ceremonies — that is the Team Coordinator's job",
+    "Estimate on the team's behalf — ATeMs supply the estimates",
+    "Decide the architecture — that is the Architecture Owner's remit",
+    "Write the Release Plan — the TeCo is Responsible, the PrOw supports",
+    "Replace the Business Manager, the User Representatives or the BIG"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Continuously prioritises the WIL",
+   "what": "Prioritises the Work Items List to be addressed by the A-PCT, aligned with feedback from stakeholders and from the team.",
+   "who": "Determines priority together with the Business Manager",
+   "pollux": "Curie decides Release 1 ships read-only exposure by member state, nothing more."
+  },
+  {
+   "f": "Clarifies domain questions",
+   "what": "Answers the team's domain-related questions or ensures an open channel to the relevant stakeholders for clarification.",
+   "who": "ATeMs, ArOw, stakeholder community",
+   "pollux": "Settles whether a maturity bucket follows the accounts or the lending platform."
+  },
+  {
+   "f": "Facilitates requirements sessions",
+   "what": "Facilitates requirements gathering and modelling sessions, including Design Block workshops with the team.",
+   "who": "A-PCT, User Representatives, TeCo supports",
+   "pollux": "Runs the workshop where Risk, the Board and Finance state incompatible report needs."
+  },
+  {
+   "f": "Ensures stakeholders are represented",
+   "what": "Ensures the stakeholder community is represented; the PrOw is the single voice of the stakeholders in the team.",
+   "who": "User Representatives, BIG",
+   "pollux": "Represents Risk, Finance and the Board inside a team that meets none of them daily."
+  },
+  {
+   "f": "Facilitates demos",
+   "what": "Facilitates the presentation of the project's intermediate outputs to the stakeholder community.",
+   "who": "ATeMs may deliver or delegate the demo",
+   "pollux": "Demonstrates the reconciliation panel to national authorities before Release 2 closes."
+  },
+  {
+   "f": "Explains the agile approach",
+   "what": "Ensures stakeholders understand the benefits of the agile approach the A-PCT is following.",
+   "who": "Stakeholder community, BIG, managing layer",
+   "pollux": "Explains to Medici why a fixed scope was never available for POLLUX."
+  },
+  {
+   "f": "Collocation",
+   "what": "Should ideally work in the same physical environment as the rest of the Agile Project Core Team.",
+   "who": "A-PCT",
+   "pollux": "Curie sits with the team in Kirchberg rather than in Reporting."
+  },
+  {
+   "f": "Accountable for the Iteration Goal",
+   "what": "Proposes the Iteration Goal and is accountable for the goal agreed with the Agile Project Core Team.",
+   "who": "ATeMs are Responsible for Iteration Planning itself",
+   "pollux": "Sets the goal for iteration 1, starting 08 Jan 2029."
+  },
+  {
+   "f": "Accepts or rejects in the Review",
+   "what": "Provides feedback on demonstrated items, accepting or rejecting them according to the acceptance criteria.",
+   "who": "ATeMs run the ceremony; BM and BIG are consulted",
+   "pollux": "Rejects a story that meets acceptance criteria but fails the Definition of Done."
+  },
+  {
+   "f": "Permanent point of contact",
+   "what": "Becomes the permanent contact between requester and provider organisations, aligning scope and time-frame expectations.",
+   "who": "A-PCT, Business Manager, BIG",
+   "pollux": "Absorbs the quarterly requirement churn that used to reach the PM."
+  },
+  {
+   "f": "Liaison to User Representatives",
+   "what": "Acts as liaison between the User Representatives and the provider organisation through regular refinement sessions.",
+   "who": "URs, BIG, Business Manager",
+   "pollux": "Runs refinement with the analysts who assembled the eleven spreadsheets."
+  },
+  {
+   "f": "URs in the Iteration Review",
+   "what": "Ensures User Representatives participate actively in the Iteration Review to validate the team's iteration output.",
+   "who": "User Representatives, ATeMs",
+   "pollux": "Brings a Risk analyst to review the scenario overlay in Release 3."
+  },
+  {
+   "f": "Must be empowered",
+   "what": "Must be empowered by the Business Manager to take day-to-day decisions so the team never waits for a decision.",
+   "who": "Business Manager",
+   "pollux": "Hopper empowers Curie; without it POLLUX stalls every fortnight."
+  },
+  {
+   "f": "Must be aligned",
+   "what": "Must be aligned with the Business Manager and the BIG so the Work Items List reflects business strategy and vision.",
+   "who": "Business Manager, Business Implementation Group",
+   "pollux": "Conflict 3 — Curie and Hopper disagree over Release 2 content."
+  },
+  {
+   "f": "Balances business and enabler work",
+   "what": "Prioritises enabler items alongside business items; the Architecture Owner helps find the right balance.",
+   "who": "Architecture Owner",
+   "pollux": "Accepts Einstein's enabler stories into Release 1 instead of three enabler iterations."
+  },
+  {
+   "f": "Informed, not central, in the team's own ceremonies",
+   "what": "Is informed of Daily Stand-up and Retrospective outcomes only if necessary; those belong to the ATeMs.",
+   "who": "ATeMs, Team Coordinator",
+   "pollux": "Curie skips the stand-up; the team's process is Lovelace's ground."
+  }
+ ],
+ "traps": [
+  "PrOw is not the Business Manager; the BM empowers and aligns but does not prioritise.",
+  "PrOw is Responsible for the Work Items List; the Project Manager is Accountable.",
+  "PrOw supports Iteration Planning — the ATeMs are Responsible for running it.",
+  "Domain experts may join, but the PrOw remains the single voice of the stakeholders.",
+  "PrOw does not facilitate ceremonies; the Team Coordinator does."
+ ],
+ "pollux_excerpt": {
+  "title": "Marie Curie — Product Owner, Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Person",
+    "Marie Curie, Head of Reporting, Lending Operations"
+   ],
+   [
+    "Owns",
+    "The Work Items List and its priorities"
+   ],
+   [
+    "Decides",
+    "What gets built first, and whether an item is accepted"
+   ],
+   [
+    "Why this figure",
+    "She refused to sign for 998 of 1,000 loans on CASTOR"
+   ],
+   [
+    "Empowered by",
+    "Grace Hopper, Business Manager"
+   ],
+   [
+    "Live conflicts",
+    "Conflict 3 (versus the BM on Release 2), 5 (enabler work), 6 (Definition of Done)"
+   ]
+  ]
+ }
+}

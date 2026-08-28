@@ -1,0 +1,324 @@
+{
+ "n": 16,
+ "id": "work-items-list",
+ "name": "Work Items List",
+ "group": "Artefacts",
+ "one_liner": "The prioritised list of everything to be built: stories, enablers, bugs.",
+ "purpose": "As part of the Development Work Plan, the Work Items List (WIL) is the list of the work to be done during a project — typically defects, enabler stories and user stories — intended to be prioritised, effort-estimated and tracked in terms of progress. The Product Owner maintains it continuously throughout the entire project, revisiting it each iteration with the Business Manager and the Business Implementation Group and then discussing it with the A-PCT so relative estimates and dependencies can be set. A work item is not a contract between the team and the Product Owner but a pointer to something that needs to be implemented.",
+ "guide_page": 76,
+ "meta": [
+  [
+   "Artefact type",
+   "Agile-specific artefact — part of the Development Work Plan"
+  ],
+  [
+   "PM² equivalent",
+   "Held inside the Development Work Plan, which becomes the Project Work Plan"
+  ],
+  [
+   "Scrum equivalent",
+   "Product Backlog — 'the equivalent in PM²-Agile is the Work Items List' (glossary, p.105)"
+  ],
+  [
+   "Produced by",
+   "Product Owner (PrOw) — Responsible, maintains it throughout the project"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — for its alignment with the Project Charter's scope"
+  ],
+  [
+   "RASCI anomaly",
+   "The only agile row where BM = S and TeCo = C"
+  ],
+  [
+   "Contains",
+   "User stories · Enabler stories · Defects (bugs)"
+  ],
+  [
+   "Lifecycle",
+   "Planning Created · Executing Updated (p.77)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "S",
+   "A",
+   "C",
+   "R",
+   "S",
+   "S"
+  ],
+  "A": "PM",
+  "R": "PrOw"
+ },
+ "diagram": [
+  {
+   "sec": "1. What is in the list",
+   "items": [
+    "Defects (or bugs)",
+    "Enabler stories",
+    "User stories",
+    "Proposed work that may affect the information system in this or future projects"
+   ]
+  },
+  {
+   "sec": "2. What every work item carries",
+   "items": [
+    "A priority",
+    "An effort estimate — relative, in points",
+    "Progress tracking",
+    "A pointer to business rules, diagrams, UI specifications",
+    "It is a pointer, not a contract with the Product Owner"
+   ]
+  },
+  {
+   "sec": "3. User story versus enabler story",
+   "items": [
+    "User story — the business perspective of a story",
+    "Enabler story — the enablement perspective: architecture, infrastructure, evaluating options, legal compliance, non-functional requirements",
+    "Both are decomposed from features (business features and enabler features)",
+    "Enabler items must be considered when prioritising the WIL",
+    "ArOw helps the PrOw balance business against enabler work"
+   ]
+  },
+  {
+   "sec": "4. Where items come from",
+   "items": [
+    "The Features list in the Project Charter — the key generator",
+    "The Architecture Overview and the Operational Model — enablers",
+    "Release Planning, Iteration Review and Iteration Retrospective",
+    "The project logs — change requests, risks, issues, decisions"
+   ]
+  },
+  {
+   "sec": "5. Who does what to it",
+   "items": [
+    "PrOw — defines and maintains it, prioritised, and decides",
+    "BM — supplies business priorities, objectives and user needs (Supports)",
+    "ATeM — supply estimates and dependencies",
+    "ArOw — supplies enabler work items",
+    "TeCo — Consulted on its consistency and form, and by the PM on charter alignment"
+   ]
+  },
+  {
+   "sec": "6. The refinement cycle",
+   "items": [
+    "Revisited each iteration by PrOw, the Business Implementation Group and the BM",
+    "Outcome discussed with the rest of the A-PCT",
+    "Relative estimates defined and dependencies identified",
+    "More detail for items due next iteration, less for items further out"
+   ]
+  },
+  {
+   "sec": "7. The rules that matter",
+   "items": [
+    "It does not have to be complete for the team to start — but it must be prioritised",
+    "Without prioritisation the team risks working on unimportant items",
+    "The WIL is the main driver of the project",
+    "Everything must be prioritised and estimated at some point"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "User story",
+   "what": "A story written in user-focused language: a small vertical slice of system behaviour, implemented by the A-PCT inside one iteration.",
+   "who": "PrOw Responsible",
+   "pollux": "'As a Board Secretariat user I see total exposure by member state on one page' — 8 points."
+  },
+  {
+   "f": "Enabler story",
+   "what": "A story with an enablement perspective: architecture, infrastructure, evaluating options, legal compliance, continuous improvement and other non-functional work.",
+   "who": "ArOw supplies · PrOw prioritises",
+   "pollux": "WIL-003: read-only replica of the CASTOR lending platform with a nightly delta load — 20 points."
+  },
+  {
+   "f": "Defects (bugs)",
+   "what": "Bugs are work items too: they sit in the same list, prioritised and estimated alongside stories.",
+   "who": "ATeM raise · PrOw prioritises",
+   "pollux": "BUG-112: maturity bucket boundary rounds one day earlier than the accounts — 3 points."
+  },
+  {
+   "f": "Priority",
+   "what": "Every item is prioritised. Prioritisation, not completeness, is what lets the team start work.",
+   "who": "PrOw Responsible · BM Supports",
+   "pollux": "MoSCoW plus release tag; Curie re-ranks the top twenty items at every Release Planning."
+  },
+  {
+   "f": "Effort estimate",
+   "what": "Items are effort-estimated — relative estimates in points, given by the team, not by the Product Owner.",
+   "who": "ATeM Support · PrOw records",
+   "pollux": "Planning poker in the refinement session; Lamarr's 20-point replica estimate survived challenge."
+  },
+  {
+   "f": "Progress tracking",
+   "what": "Work items are tracked in terms of progress — they are the unit progress is measured in.",
+   "who": "TeCo reports · PM Accountable",
+   "pollux": "Delivered points per iteration feed both burndown charts and the Development Status Report."
+  },
+  {
+   "f": "A pointer, not a contract",
+   "what": "A work item is not a contract between the team and the PrOw but a pointer to something that needs implementing.",
+   "who": "PrOw and A-PCT jointly",
+   "pollux": "Each POLLUX story links to the reconciliation rules and the UI sketch rather than restating them."
+  },
+  {
+   "f": "Attached information",
+   "what": "Each item commonly refers to additional relevant information — business rules, diagrams, user interface specifications.",
+   "who": "PrOw with TeCo",
+   "pollux": "Reconciliation stories point to Finance's rule set; access stories point to the DPC's assessment."
+  },
+  {
+   "f": "Charter Features as generator",
+   "what": "The Features list defined in the Project Charter is the key generator of the work items that populate the WIL.",
+   "who": "PrOw decomposes · PM checks alignment",
+   "pollux": "Charter features F1–F4 decomposed into 61 user stories before the RfE gate."
+  },
+  {
+   "f": "Architecture as generator",
+   "what": "The Architecture Overview and Operational Model are an important source of the enabler stories supporting the business part.",
+   "who": "ArOw Supports",
+   "pollux": "Einstein's four building blocks produced 24 enabler stories, three of them Must for Release 1."
+  },
+  {
+   "f": "Ceremonies as generator",
+   "what": "Release Planning, Iteration Review and Iteration Retrospective continuously provide inputs and generate new work items.",
+   "who": "Whole A-PCT",
+   "pollux": "The review that exposed the missing data-protection check generated two new enabler stories."
+  },
+  {
+   "f": "Project logs as generator",
+   "what": "Change requests, risks, issues and decisions generate work items: a change request becomes stories, a risk mitigation becomes enablers.",
+   "who": "PM assigns · PrOw absorbs",
+   "pollux": "Risk R3 (single-point data-engineering knowledge) generated a pairing enabler in iteration 5."
+  },
+  {
+   "f": "PrOw maintains it",
+   "what": "Maintaining the WIL updated and prioritised is the Product Owner's responsibility, ensuring the team always works on the most relevant items.",
+   "who": "PrOw Responsible",
+   "pollux": "Curie owns it outright; nobody argues with her acceptance criteria."
+  },
+  {
+   "f": "BM's input",
+   "what": "As the Project Owner's representative in daily project life, the BM supports the PrOw with business priorities, objectives and user needs.",
+   "who": "BM Supports — unusually, S not I",
+   "pollux": "Hopper's Release 2 argument with Curie is settled by the guide: the PrOw decides the list."
+  },
+  {
+   "f": "TeCo consulted",
+   "what": "Consulted by team and PrOw to guarantee the list's consistency and form, and by the PM to verify alignment with the Charter.",
+   "who": "TeCo Consulted — the only agile C for TeCo",
+   "pollux": "Lovelace enforces the story template so items are workable, not prettier."
+  },
+  {
+   "f": "Iteration refinement",
+   "what": "Each iteration the PrOw, the Business Implementation Group and the BM revisit the list to keep it relevant.",
+   "who": "PrOw Responsible · BIG consulted",
+   "pollux": "Curie, Hopper and the Risk/Finance user representatives meet mid-iteration to refresh the top of the list."
+  },
+  {
+   "f": "Prioritised, not complete",
+   "what": "The WIL need not be complete for the A-PCT to start, but it must be prioritised or resources go to unimportant items.",
+   "who": "PrOw Responsible · PM Accountable",
+   "pollux": "Only Release 1 was detailed at the RfE gate; Release 4 was four unestimated headings."
+  },
+  {
+   "f": "Balance of business and enabler work",
+   "what": "Only business items and the architecture collapses; only enablers and users get nothing — the ArOw helps find the balance.",
+   "who": "ArOw Supports · PrOw decides",
+   "pollux": "Einstein wanted three enabler iterations first; the agreed rule is enablers ride in every release."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "BM S · PM A · TeCo C · PrOw R · ArOw S · ATeM S — the only agile row with BM = S and TeCo = C.",
+   "who": "PM Accountable · PrOw Responsible",
+   "pollux": "Curie responsible, Hopper supporting, Lovelace consulted, you accountable for charter alignment."
+  }
+ ],
+ "traps": [
+  "Only agile row where BM = S and TeCo = C — learn this row.",
+  "PrOw is Responsible for the WIL; TeCo is Responsible for the rest of the Work Plan.",
+  "The WIL holds stories; the Project Charter holds Features that generate them.",
+  "Enabler stories are work items in the same list, not a separate architecture backlog.",
+  "It need not be complete to start, but it must be prioritised."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Work Items List, top of the list at iteration 9 (Release 2)",
+  "rows": [
+   [
+    "ID · Type",
+    "Work item",
+    "Estimate · Priority · Release"
+   ],
+   [
+    "WIL-014 · User story",
+    "As a Board Secretariat user I see total exposure by member state on one page",
+    "8 pts · Must · R1"
+   ],
+   [
+    "WIL-021 · User story",
+    "As a Risk analyst I filter exposure by instrument and maturity bucket",
+    "13 pts · Must · R2"
+   ],
+   [
+    "WIL-033 · User story",
+    "As a Finance officer I reconcile portal totals to the accounts",
+    "13 pts · Must · R2"
+   ],
+   [
+    "WIL-052 · User story",
+    "As a national authority I see only my own member state's exposure",
+    "8 pts · Must · R3"
+   ],
+   [
+    "WIL-068 · User story",
+    "As a Risk analyst I overlay a stress scenario on current exposure",
+    "20 pts · Should · R3"
+   ],
+   [
+    "WIL-081 · User story",
+    "As an analyst I build and save my own report view",
+    "20 pts · Could · R4"
+   ],
+   [
+    "WIL-003 · Enabler",
+    "Read-only replica of the CASTOR lending platform, nightly delta load",
+    "20 pts · Must · R1"
+   ],
+   [
+    "WIL-007 · Enabler",
+    "Figure-level audit trail back to the source lending record (SC4)",
+    "13 pts · Must · R1"
+   ],
+   [
+    "WIL-045 · Enabler",
+    "External access zone and role model for national authorities",
+    "13 pts · Must · R3"
+   ],
+   [
+    "WIL-090 · Enabler",
+    "Accessibility conformance in the shared component library",
+    "5 pts · Must · R2"
+   ],
+   [
+    "BUG-112 · Defect",
+    "Maturity bucket boundary rounds one day earlier than the accounts",
+    "3 pts · High · R2"
+   ],
+   [
+    "Maintained by",
+    "Marie Curie (PrOw), refined each iteration with Grace Hopper (BM) and the BIG",
+    "PM accountable"
+   ]
+  ]
+ }
+}

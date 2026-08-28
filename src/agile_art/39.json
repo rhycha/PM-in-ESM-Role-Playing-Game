@@ -1,0 +1,199 @@
+{
+ "n": 39,
+ "id": "development",
+ "name": "Development",
+ "group": "Themes",
+ "one_liner": "Three practices: continuous integration, evolutionary design and test-driven development.",
+ "purpose": "The core of PM²-Agile lies in developing the information systems that are part of the project's solution: designing, developing, building and testing turn specifications into something tangible. The main goal is to ensure requirements are properly designed, implemented and made available through an iterative and incremental approach, while complying with architectural, infrastructural and governance constraints. To provide the necessary agility, PM²-Agile recommends three different but complementary practices.",
+ "guide_page": 37,
+ "meta": [
+  [
+   "Theme",
+   "4.11 — spans guide pages 37 and 38"
+  ],
+  [
+   "Three practices",
+   "Continuous Integration, Evolutionary Design, Test-Driven Development"
+  ],
+  [
+   "Constraint",
+   "Requirements must comply with architectural, infrastructural and governance constraints"
+  ]
+ ],
+ "rasci": null,
+ "diagram": [
+  {
+   "sec": "Three complementary practices",
+   "items": [
+    "Continuous Integration",
+    "Evolutionary Design",
+    "Test-Driven Development (TDD)"
+   ]
+  },
+  {
+   "sec": "Continuous Integration mechanics",
+   "items": [
+    "Team members integrate their work frequently — at least daily",
+    "Integration effort increases exponentially with time, so frequent integration reduces total effort",
+    "Developers unit-test changes in their validated workspaces before making them available",
+    "Changes from all developers are merged in an integration workspace and tested frequently",
+    "Issues are corrected while the change is still fresh in the developer's mind"
+   ]
+  },
+  {
+   "sec": "Evolutionary Design cycle",
+   "items": [
+    "Understand new requirement details",
+    "Identify design elements",
+    "Determine how elements collaborate to realise the scenario",
+    "Refine design decisions",
+    "Design internal elements",
+    "Communicate the design",
+    "Understand the architecture",
+    "Evaluate the design"
+   ]
+  },
+  {
+   "sec": "Test-Driven Development",
+   "items": [
+    "Test cases are created before the actual code",
+    "The tests work as guardrails — code must pass them to be considered acceptable",
+    "Reduces delivery time by decreasing time to integrate and stabilise builds",
+    "Improves productivity by finding and fixing errors close to where they are introduced",
+    "Guarantees new code is tested and existing code regression-tested prior to check-in"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "What development covers",
+   "what": "Designing, developing, building and testing turn specifications into something tangible and allow the system to take shape.",
+   "who": "Agile Team Members",
+   "pollux": "The portal itself, built by Lamarr, Babbage and Eiffel."
+  },
+  {
+   "f": "The main goal",
+   "what": "Ensure requirements are properly designed, implemented and made available through an iterative and incremental approach.",
+   "who": "A-PCT",
+   "pollux": "Delivered across four releases rather than one 2029 handover."
+  },
+  {
+   "f": "Constraints on requirements",
+   "what": "Requirements must comply with architectural, infrastructural and governance constraints and deliver the value the business stakeholders expect.",
+   "who": "ArOw, IT Governance, PrOw",
+   "pollux": "Hosting, data protection and ESM standards bind every story."
+  },
+  {
+   "f": "Continuous Integration",
+   "what": "Team members integrate their work frequently, at least daily, so integration issues are found and resolved earlier.",
+   "who": "All ATeMs",
+   "pollux": "In-house and seconded members integrate into the same mainline daily."
+  },
+  {
+   "f": "Why frequency matters",
+   "what": "The effort required to integrate a system increases exponentially with time, so frequent integration reduces the overall effort.",
+   "who": "ATeMs",
+   "pollux": "Prevents a merge crisis before each quarterly release."
+  },
+  {
+   "f": "CI activity one",
+   "what": "After making changes in their validated workspaces, developers perform unit tests before making the changes available to the team.",
+   "who": "Individual ATeM",
+   "pollux": "Nothing reaches the team untested, whoever employs the developer."
+  },
+  {
+   "f": "CI activity two",
+   "what": "Changes from all developers are merged in an integration workspace and tested frequently — at least daily, ideally on every change set.",
+   "who": "The team's integration workspace",
+   "pollux": "Keeps Eiffel's contract work and in-house work provably compatible."
+  },
+  {
+   "f": "What CI buys",
+   "what": "A higher-quality product and more predictable delivery schedules and activities, because problems are corrected while the change is fresh.",
+   "who": "A-PCT, PM",
+   "pollux": "Supports honest fortnightly reporting rather than late surprises."
+  },
+  {
+   "f": "Evolutionary Design",
+   "what": "Based on the assumption that design evolves over time; it minimises documentation while still guiding and communicating design decisions.",
+   "who": "ATeMs with the ArOw",
+   "pollux": "The data model grows with each release instead of being fixed upfront."
+  },
+  {
+   "f": "Each round of design",
+   "what": "During each round developers add, refine and refactor the solution rather than completing a design before implementation.",
+   "who": "ATeMs",
+   "pollux": "Babbage's engine is refined every iteration, not designed once."
+  },
+  {
+   "f": "The design steps",
+   "what": "Understand requirements, identify design elements, determine collaboration, refine decisions, design internals, communicate, understand the architecture, evaluate.",
+   "who": "ATeMs, ArOw",
+   "pollux": "Followed inside the iteration, not as a separate design phase."
+  },
+  {
+   "f": "Test-Driven Development",
+   "what": "An approach where test cases are created before the actual code, and the code must pass those tests to be considered acceptable.",
+   "who": "Developers among the ATeMs",
+   "pollux": "Exposure calculations are specified as tests before they are coded."
+  },
+  {
+   "f": "What TDD buys",
+   "what": "Reduces delivery time by decreasing time to integrate and stabilise builds, and improves productivity by fixing errors close to their introduction.",
+   "who": "ATeMs",
+   "pollux": "Keeps the two-week iteration from ending in a stabilisation scramble."
+  },
+  {
+   "f": "TDD and regression",
+   "what": "Increases overall quality by guaranteeing new code has been tested and existing code regression-tested prior to check-in.",
+   "who": "ATeMs",
+   "pollux": "Protects Release 1 behaviour while Release 2 work continues."
+  },
+  {
+   "f": "A change of habit",
+   "what": "TDD changes the way developers think: developer tests are not an afterthought but part of the everyday way of building software.",
+   "who": "Developers",
+   "pollux": "Eiffel's precision about 'done' extends to how tests get written."
+  }
+ ],
+ "traps": [
+  "Continuous Integration means integrating at least daily, ideally on every change set.",
+  "TDD writes the test first, and the code must pass it to be acceptable.",
+  "Evolutionary Design minimises documentation but still communicates design decisions.",
+  "The three practices are complementary — none of them replaces the others.",
+  "Integration effort grows exponentially with delay; that is why daily matters."
+ ],
+ "pollux_excerpt": {
+  "title": "Development on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Who develops",
+    "Hedy Lamarr, Charles Babbage, Gustave Eiffel"
+   ],
+   [
+    "Delivery model",
+    "In-house agile team with two seconded contractor members"
+   ],
+   [
+    "Effort",
+    "1,850 person-days over 18 months, budget €4.6 m"
+   ],
+   [
+    "Integration",
+    "Continuous — in-house and seconded work on one mainline"
+   ],
+   [
+    "Design",
+    "Evolutionary; the exposure data model grows across four releases"
+   ],
+   [
+    "Live risk",
+    "Babbage builds engines and famously never finished one"
+   ]
+  ]
+ }
+}

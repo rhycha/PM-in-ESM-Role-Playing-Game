@@ -1,0 +1,2282 @@
+[
+ {
+  "a": [
+   "R-07"
+  ],
+  "k": "id",
+  "s": "Risk R-07",
+  "d": "Risk Log entry 7: the project loses Levallois's lead solution architect, Nikola Tesla. Scored likelihood 4 x impact 5 = 20, red, owned by Leonardo da Vinci. It stops being a risk on 4 Oct 2027, when Tesla resigns, and becomes Issue I-14.",
+  "sc": null
+ },
+ {
+  "a": [
+   "R-03"
+  ],
+  "k": "id",
+  "s": "Risk R-03",
+  "d": "Risk Log entry 3: the ESM Treaty reform that would create the common backstop is not ratified, so the new instrument CASTOR is meant to onboard may never arrive. Scored 3 x 4 = 12.",
+  "sc": null
+ },
+ {
+  "a": [
+   "R-05"
+  ],
+  "k": "id",
+  "s": "Risk R-05",
+  "d": "Risk Log entry 5: the forty loan administrators are not free to attend retraining because of their day jobs. Scored 3 x 3 = 9. It comes true in 2028, when twelve of the forty are still untrained eight weeks before go-live.",
+  "sc": null
+ },
+ {
+  "a": [
+   "R-09"
+  ],
+  "k": "id",
+  "s": "Risk R-09",
+  "d": "Risk Log entry 9: the parallel run of old and new systems overlaps an EFSF bond rollover, the heaviest reconciliation of the year. Scored 4 x 3 = 12. It sat at status Assessing for months, and it is the risk behind the 27 Apr 2028 break.",
+  "sc": null
+ },
+ {
+  "a": [
+   "R-11"
+  ],
+  "k": "id",
+  "s": "Risk R-11",
+  "d": "Risk Log entry 11: Levallois's ready-made accelerators could cut onboarding of a new lending instrument from six weeks to four. It is an opportunity, not a threat, so filing it under strategy Reduce is a field error; the right strategy is Enhance.",
+  "sc": null
+ },
+ {
+  "a": [
+   "I-14"
+  ],
+  "k": "id",
+  "s": "Issue I-14",
+  "d": "Issue Log entry 14, opened on 5 Oct 2027: the lead solution architect has resigned, last working day 30 Nov 2027. It is what risk R-07 became when it happened. Scored urgency 5, impact 5, size 4. It closed on 28 Apr 2028, seven months later.",
+  "sc": null
+ },
+ {
+  "a": [
+   "D-11"
+  ],
+  "k": "id",
+  "s": "Decision D-11",
+  "d": "Decision Log entry 11, taken by the Project Steering Committee on 18 Oct 2027 and signed on 25 Oct: Levallois must name a replacement architect by 15 Nov and pay for the handover, and Tesla's last six weeks are knowledge capture only. A decision has no status column: it is taken, it applies, and after that it is simply true.",
+  "sc": null
+ },
+ {
+  "a": [
+   "D-09"
+  ],
+  "k": "id",
+  "s": "Decision D-09",
+  "d": "Decision Log entry 9, taken by the Steering Committee on 26 May 2027: the request for backstop screens (CR-014) is postponed, not accepted and not refused.",
+  "sc": null
+ },
+ {
+  "a": [
+   "CR-014"
+  ],
+  "k": "id",
+  "s": "Change Request 014",
+  "d": "Change Request Form 14: add screens for the common backstop instrument to Release 2. It arrived as a telephone call from a Board member's cabinet on 13 May 2027, was written up as a proper change, and was postponed by the Steering Committee. Estimated at 145 person-days and EUR 392,000 at 2027 prices.",
+  "sc": null
+ },
+ {
+  "a": [
+   "AC-01"
+  ],
+  "k": "id",
+  "s": "Acceptance criterion AC-01",
+  "d": "Acceptance criterion 1: a new lending instrument can be onboarded in six weeks. In Nov 2027 it had no traceable test coverage - the contractor simply asserted it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "AC-04"
+  ],
+  "k": "id",
+  "s": "Acceptance criterion AC-04",
+  "d": "Acceptance criterion 4: same-day reconciliation with zero unexplained breaks. It can only be proved against a real bond rollover, and the first one falls in April 2028 - the last week of the parallel run.",
+  "sc": null
+ },
+ {
+  "a": [
+   "SC1"
+  ],
+  "k": "id",
+  "s": "Success criterion SC1",
+  "d": "Success criterion 1 from the Business Case: cut the disbursement cycle, from instruction to value date, from 5 working days to 1 working day. Demonstrated after go-live.",
+  "sc": null
+ },
+ {
+  "a": [
+   "SC2"
+  ],
+  "k": "id",
+  "s": "Success criterion SC2",
+  "d": "Success criterion 2: cut post-disbursement reconciliation from 3 working days to the same day. This is the criterion Marie Curie's report failed to meet on 27 Apr 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "SC3"
+  ],
+  "k": "id",
+  "s": "Success criterion SC3",
+  "d": "Success criterion 3: onboard a new lending instrument in 6 weeks instead of 9 months. It is the only one of the five never proved, because the Treaty reform never entered into force and there was no new instrument to onboard.",
+  "sc": null
+ },
+ {
+  "a": [
+   "SC4"
+  ],
+  "k": "id",
+  "s": "Success criterion SC4",
+  "d": "Success criterion 4: reduce manual re-keying of payment instructions from about 1,400 fields per quarter to zero. Met from go-live on 15 May 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "SC5"
+  ],
+  "k": "id",
+  "s": "Success criterion SC5",
+  "d": "Success criterion 5: close both open Internal Audit findings on the old system - one on segregation of duties, one on the completeness of the audit trail. The closure letter arrived on 4 Jul 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "LOS"
+  ],
+  "k": "id",
+  "s": "LOS, the old system",
+  "d": "The Lending Operations System, built in the EFSF era and fourteen years old. CASTOR exists to replace it. It was switched off on 30 Jun 2028, but its loan records keep their own retention clock.",
+  "sc": null
+ },
+ {
+  "a": [
+   "EFSF"
+  ],
+  "k": "id",
+  "s": "EFSF",
+  "d": "The European Financial Stability Facility, the ESM's temporary predecessor. Its old bonds still mature and are refinanced, and some legacy loans sit in a pooled arrangement - which is exactly where the two unreconciled loans of 27 Apr 2028 live.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Release 1"
+  ],
+  "k": "id",
+  "s": "Release 1 - 26 Mar 2027",
+  "d": "The first delivery: the product configuration engine, the part that lets a new lending product be set up without new code. Accepted in March 2027 with a quality score of 0.82, amber.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Release 2"
+  ],
+  "k": "id",
+  "s": "Release 2 - 17 Dec 2027",
+  "d": "The second delivery: straight-through disbursement, from loan agreement to payment with no re-keying. Delivered on the exact date printed in the Business Case 21 months earlier.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four by five",
+   "likelihood four, impact five",
+   "risk level twenty"
+  ],
+  "k": "score",
+  "s": "20 = likelihood 4 x impact 5",
+  "d": "How R-07 is scored. In PM2 the risk level is likelihood multiplied by impact, each on a 1 to 5 scale, so the result runs from 1 to 25. Twenty is red and has to be escalated.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Sixteen is where that starts",
+   "Twenty is red"
+  ],
+  "k": "score",
+  "s": "Red band: 16 and above",
+  "d": "CASTOR's escalation rule. A risk level of 16 or more is red: it goes into the monthly pack for the Project Steering Committee and on to the Corporate Investment Board. Below that it stays with the Project Manager.",
+  "sc": null
+ },
+ {
+  "a": [
+   "The column stops at five"
+  ],
+  "k": "score",
+  "s": "Likelihood scale 1-5",
+  "d": "Likelihood and impact are each scored 1 to 5, where 5 means very high. There is no score for 'it has already happened' - that is the moment a risk has to become an issue instead.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three by four"
+  ],
+  "k": "score",
+  "s": "R-03: 12 = 3 x 4",
+  "d": "R-03's score: likelihood 3, impact 4, risk level 12. Yellow - above appetite but below the red escalation line of 16.",
+  "sc": [
+   "s37"
+  ]
+ },
+ {
+  "a": [
+   "three by three"
+  ],
+  "k": "score",
+  "s": "R-05: 9 = 3 x 3",
+  "d": "R-05's score: likelihood 3, impact 3, risk level 9.",
+  "sc": [
+   "s37"
+  ]
+ },
+ {
+  "a": [
+   "four by three"
+  ],
+  "k": "score",
+  "s": "R-09: 12 = 4 x 3",
+  "d": "R-09's score: likelihood 4, impact 3, risk level 12. It is still open and unchanged at the Release 2 acceptance in December 2027.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Urgency five, impact five, size four",
+   "Urgency five",
+   "Size four"
+  ],
+  "k": "score",
+  "s": "I-14: urgency 5, impact 5, size 4",
+  "d": "How an issue is scored. Unlike a risk it is not one multiplied number: urgency, impact and size are three separate values, and size means the effort needed to fix it, not how bad it is. Size 4 here is about forty person-days.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One hundred per cent"
+  ],
+  "k": "pct",
+  "s": "100% - not a valid likelihood",
+  "d": "Tesla's answer when asked for R-07's likelihood the day after he resigned. It is the joke that makes the point: once something has happened there is no probability left to estimate, so the entry belongs in the Issue Log, not the Risk Log.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nine open, three moved since August"
+  ],
+  "k": "count",
+  "s": "9 open risks, 3 changed",
+  "d": "The state of the Risk Log at the monthly reassessment of 28 Sep 2027: nine risks still open, three of them re-scored or re-worded since the August review.",
+  "sc": null
+ },
+ {
+  "a": [
+   "nought point eight two"
+  ],
+  "k": "score",
+  "s": "0.82 - amber",
+  "d": "The quality score of the Release 1 review, on a scale where 1.00 is full compliance. 0.82 is amber, and it came with two recommendations, one of which was still open six months later.",
+  "sc": null
+ },
+ {
+  "a": [
+   "sixty-eight per cent"
+  ],
+  "k": "pct",
+  "s": "68% on Risk - amber",
+  "d": "Release 1's sub-score for risk management in the quality review: 68 per cent, amber, on a single finding - the Steering Committee's approval of the R-07 response lived in the meeting minutes and was never copied into the Risk Log.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Ninety-seven per cent, status nought point nine",
+   "Ninety-seven per cent"
+  ],
+  "k": "pct",
+  "s": "97%, status 0.9",
+  "d": "The score of the Phase Exit Review Checklist, Executing sheet, at the Ready for Closing gate. It is a self-assessment the Project Manager fills in and Quality Assurance checks. It approves nothing by itself.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Six point seven per cent"
+  ],
+  "k": "pct",
+  "s": "6.7% over budget",
+  "d": "How far CASTOR ended over its approved budget: EUR 8.96 million spent against EUR 8.4 million baselined. Almost all of the overspend is data migration.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eight point four million",
+   "eight point four"
+  ],
+  "k": "money",
+  "s": "EUR 8.4 million",
+  "d": "The budget approved for CASTOR in the Business Case and Project Charter in March 2026. It is the number every later figure is measured against.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eight point nine six million",
+   "eight point nine six"
+  ],
+  "k": "money",
+  "s": "EUR 8.96 million",
+  "d": "What CASTOR actually cost: EUR 8.96 million against a budget of EUR 8.4 million, which is 6.7 per cent over. Paid from the administrative budget, not from the ESM's lending capacity.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three billion euro"
+  ],
+  "k": "money",
+  "s": "EUR 3 billion EFSF maturity",
+  "d": "An old EFSF bond of three billion euro that matured on 25 Apr 2028 and was refinanced two days later. It is the heaviest reconciliation the new platform will ever do, and it lands in the final week of the parallel run.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three hundred billion euro",
+   "close to three hundred billion"
+  ],
+  "k": "money",
+  "s": "About EUR 300 billion",
+  "d": "Roughly what the ESM and EFSF disbursed to five programme countries between 2011 and 2018 - all of it processed through the old LOS system that CASTOR replaced.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three hundred and ninety-two thousand"
+  ],
+  "k": "money",
+  "s": "EUR 392,000 (2027 prices)",
+  "d": "The estimated cost of CR-014, the postponed backstop screens, at 2027 prices. Recorded in the Change Log so a future project can re-estimate rather than re-open it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three thousand one hundred person-days",
+   "three thousand one hundred"
+  ],
+  "k": "effort",
+  "s": "3,100 person-days",
+  "d": "The effort approved for CASTOR in March 2026. A person-day is one person working for one day.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three thousand three hundred and seven person-days",
+   "three thousand three hundred and seven"
+  ],
+  "k": "effort",
+  "s": "3,307 person-days",
+  "d": "The effort CASTOR actually used: 3,307 person-days against 3,100 planned, about 207 days over. Nearly all of the extra went on data migration.",
+  "sc": null
+ },
+ {
+  "a": [
+   "fifteen person-days"
+  ],
+  "k": "effort",
+  "s": "15 person-days of handover",
+  "d": "The knowledge transfer built into the response to risk R-07: fifteen days of Tesla teaching other people what he knows, planned as task 4.7 for December 2026. Two of the three modules were done; the third never was.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Half a person-day"
+  ],
+  "k": "effort",
+  "s": "0.5 person-day",
+  "d": "Deming's estimate of the work needed to close a six-month-old audit finding: half a day of the Project Manager's time to copy an approved risk response from the minutes into the Risk Log.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Forty person-days"
+  ],
+  "k": "effort",
+  "s": "40 person-days",
+  "d": "The effort estimated to resolve issue I-14 - finding, bringing in and briefing a replacement architect. It is the 'size 4' on the issue entry, and Eiffel calls it optimistic.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-two person-days"
+  ],
+  "k": "effort",
+  "s": "22 person-days of rework",
+  "d": "The cost of the version mix-up: Levallois built break handling against version 0.9 of the interface specification when the signed version was 1.2. Twenty-two days plus a re-test, absorbed without moving 17 December.",
+  "sc": null
+ },
+ {
+  "a": [
+   "A hundred and forty-five person-days"
+  ],
+  "k": "effort",
+  "s": "145 person-days",
+  "d": "The effort estimated for CR-014, the backstop screens, before the change was postponed. Kept in the Change Log so the follow-up project starts from a figure instead of from nothing.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four days of work"
+  ],
+  "k": "effort",
+  "s": "4 days to fix the two breaks",
+  "d": "Levallois's estimate to force an intraday recomputation for the pooled loans and re-test it. Four days from 27 Apr 2028 puts the clean re-test on 3 May - inside the acceptance window, after the parallel run has ended.",
+  "sc": null
+ },
+ {
+  "a": [
+   "a hundred days"
+  ],
+  "k": "effort",
+  "s": "About 100 days saved",
+  "d": "What the Project Manager thinks the archived lessons will be worth to a future project that reads them - specifically Tesla's note that the migration was designed to run once and had to run four times.",
+  "sc": null
+ },
+ {
+  "a": [
+   "nine working days"
+  ],
+  "k": "effort",
+  "s": "9 working days of archiving",
+  "d": "How long step 1 of administrative closure actually took: reviewing, organising and archiving every CASTOR document. Nobody in the room calls it step 1, but that is what it is.",
+  "sc": null
+ },
+ {
+  "a": [
+   "thirty-five days"
+  ],
+  "k": "count",
+  "s": "35 days left on the project",
+  "d": "How long Tesla still has on CASTOR when the version mix-up he caused comes to light on 26 Oct 2027. His notice runs to 30 November.",
+  "sc": null
+ },
+ {
+  "a": [
+   "nought point nine of the interface spec",
+   "nought point nine"
+  ],
+  "k": "version",
+  "s": "Interface spec v0.9",
+  "d": "The draft version of the reconciliation interface specification that Tesla emailed to Levallois in March 2027. They built from it. It was never the approved document.",
+  "sc": [
+   "s40"
+  ]
+ },
+ {
+  "a": [
+   "one point two"
+  ],
+  "k": "version",
+  "s": "Interface spec v1.2",
+  "d": "The signed, approved version of the interface specification, accepted by Marie Curie in June 2027. Four rules changed between 0.9 and 1.2, and two of those four mattered.",
+  "sc": [
+   "s40"
+  ]
+ },
+ {
+  "a": [
+   "reconciliation spec final v2"
+  ],
+  "k": "version",
+  "s": "'reconciliation spec final v2'",
+  "d": "The file name the contractor was actually working from - an attachment with no version history and no named approver. The fix is that specifications travel by repository, never as attachments.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Version zero point nine"
+  ],
+  "k": "version",
+  "s": "Project-End Report v0.9",
+  "d": "The draft of the Project-End Report, still being argued over on 17 Jul 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "version one point zero"
+  ],
+  "k": "version",
+  "s": "Project-End Report v1.0",
+  "d": "The final Project-End Report, issued on 19 Jul 2028, reviewed by Quality Assurance on 22 Jul and approved by the Project Steering Committee on 25 Jul 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "status nought point nine"
+  ],
+  "k": "score",
+  "s": "Checklist status 0.9",
+  "d": "The status value carried alongside the 97 per cent score on the Executing sheet of the Phase Exit Review Checklist.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "task four point seven"
+  ],
+  "k": "section",
+  "s": "Work Plan task 4.7",
+  "d": "The line in the Project Work Plan that holds the fifteen days of knowledge transfer for risk R-07. Putting response actions into the Work Plan is a step projects routinely forget; doing the actions is a separate step again.",
+  "sc": null
+ },
+ {
+  "a": [
+   "page eighty"
+  ],
+  "k": "section",
+  "s": "PM2 Guide p.80",
+  "d": "The page of the PM2 Guide that says the Solution Provider - Leonardo - is Accountable for Manage Quality, and the Project Manager only Responsible. It surprises every Solution Provider who reads it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Page sixty-six"
+  ],
+  "k": "section",
+  "s": "PM2 Guide p.66",
+  "d": "The page that sets out who does what on the Project-End Report: Steering Committee Accountable, Project Manager Responsible, Project Owner only Consulted. It is the trap of the Closing Phase.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Guide page six",
+   "Chapter two"
+  ],
+  "k": "section",
+  "s": "PM2 Guide p.6, ch.2",
+  "d": "The page that says outputs create outcomes and outcomes create benefits, and that outcomes and benefits are often realised only after the project has closed. It is the sentence the whole ending of CASTOR rests on.",
+  "sc": null
+ },
+ {
+  "a": [
+   "section eight"
+  ],
+  "k": "section",
+  "s": "Project-End Report s.8",
+  "d": "Section 8 of the Project-End Report, Post-Project Recommendations. It is where follow-up work goes and where the project records how the intended benefits will be checked once the project no longer exists.",
+  "sc": null
+ },
+ {
+  "a": [
+   "section 2.1",
+   "2.1"
+  ],
+  "k": "section",
+  "s": "Project-End Report s.2.1",
+  "d": "The section of the Project-End Report that states how effective the project was against its Business Case - the four-of-five paragraph Florence Nightingale has to defend to the Board in October.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Section 3.3"
+  ],
+  "k": "section",
+  "s": "Project-End Report s.3.3",
+  "d": "The section of the Project-End Report covering change management - where a future project manager can read why CR-014 was postponed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "section 7"
+  ],
+  "k": "section",
+  "s": "Project-End Report s.7",
+  "d": "The Lessons Learned section of the Project-End Report.",
+  "sc": null
+ },
+ {
+  "a": [
+   "chapter eight"
+  ],
+  "k": "section",
+  "s": "PM2 Guide ch.8",
+  "d": "The chapter of the PM2 Guide that covers the Closing Phase: the Project-End Review Meeting, Lessons Learned, the Project-End Report and administrative closure.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twelve subjects"
+  ],
+  "k": "count",
+  "s": "12 mandated subjects",
+  "d": "The Project-End Report must cover twelve subjects: effectiveness; cost, schedule, scope and quality; risk; issues; change; communications; people and stakeholders; acceptance; business implementation and transition; team and contractor performance; lessons learned; post-project recommendations.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Check sixteen"
+  ],
+  "k": "section",
+  "s": "Business Implementation check 16",
+  "d": "The line on the Business Implementation Checklist that asks whether all planned training has been completed. It is run on 30 Apr 2028, and on 21 March the honest answer is still no.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Check twenty-four"
+  ],
+  "k": "section",
+  "s": "Transition Checklist check 24",
+  "d": "The line on the Transition Checklist that asks whether all the transition goals were achieved. The answer given at the gate is 'Yes, partially' - no missed value dates since cutover, but decommissioning the old system is still open.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-six checks plus the thirteen IT ones",
+   "Twenty-six checks",
+   "thirteen IT ones"
+  ],
+  "k": "count",
+  "s": "26 checks + 13 IT checks",
+  "d": "The size of the Transition Checklist: twenty-six general checks, plus thirteen extra IT-specific ones that only apply because CASTOR answered yes to the IT question.",
+  "sc": null
+ },
+ {
+  "a": [
+   "clause fourteen"
+  ],
+  "k": "section",
+  "s": "Contract clause 14",
+  "d": "The escrow clause in the Levallois contract: the platform configuration and source code are deposited with a third party, so the ESM can still get at them if the supplier disappears.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Item three of the Steering Committee"
+  ],
+  "k": "section",
+  "s": "PSC agenda item 3",
+  "d": "The agenda slot where issue I-14 is put to the Steering Committee on 18 Oct 2027, with eleven minutes allocated to it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Item nine"
+  ],
+  "k": "section",
+  "s": "Agenda item 9",
+  "d": "The item at the far end of the Project-End Review agenda where benefit measurement is discussed - the one that always gets reached last.",
+  "sc": [
+   "s46"
+  ]
+ },
+ {
+  "a": [
+   "Folders 01 Initiating to 05 Closing"
+  ],
+  "k": "id",
+  "s": "Archive folders 01-05",
+  "d": "The CASTOR archive structure, one folder per PM2 phase, set up in April 2026 and used unchanged for the whole project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "folder 05"
+  ],
+  "k": "id",
+  "s": "Archive folder 05 Closing",
+  "d": "The Closing folder of the archive, where the data deletion certificate for the parallel-run datasets is filed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "March 2026"
+  ],
+  "k": "date",
+  "s": "March 2026",
+  "d": "The month the Business Case and Project Charter were approved and the whole plan was fixed: EUR 8.4 million, 3,100 person-days, 26 months, go-live 15 May 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "June 2026"
+  ],
+  "k": "date",
+  "s": "June 2026",
+  "d": "The month risk R-07, loss of a key architect, was first written into the Risk Log - two years before it mattered. It is also the month the Project Handbook and Work Plan were baselined.",
+  "sc": [
+   "s48"
+  ]
+ },
+ {
+  "a": [
+   "April 2026"
+  ],
+  "k": "date",
+  "s": "April 2026",
+  "d": "The month the project archive folders were set up, at the start of Planning. They were still the same folders at closure.",
+  "sc": [
+   "s51"
+  ]
+ },
+ {
+  "a": [
+   "the nineteenth of May 2026"
+  ],
+  "k": "date",
+  "s": "19 May 2026",
+  "d": "The day, two years earlier and in the same Room Spaak, when Marie Curie invented an example to argue for her acceptance criteria: 998 loans right, two wrong. On 27 Apr 2028 it happened exactly that way.",
+  "sc": [
+   "s44"
+  ]
+ },
+ {
+  "a": [
+   "the eighteenth of September"
+  ],
+  "k": "date",
+  "s": "18 Sep 2026",
+  "d": "The date of the contract award to Levallois Systems - and so the date of the key-person clause bought as part of the response to risk R-07.",
+  "sc": [
+   "s37"
+  ]
+ },
+ {
+  "a": [
+   "September of last year"
+  ],
+  "k": "date",
+  "s": "September 2026",
+  "d": "When Lorenzo de' Medici signed the Levallois platform contract. He learns in November 2027 that the signature also made him Accountable for how the outsourcing is run.",
+  "sc": [
+   "s41"
+  ]
+ },
+ {
+  "a": [
+   "October last year"
+  ],
+  "k": "date",
+  "s": "October 2026",
+  "d": "When the Steering Committee approved the response to risk R-07. The approval went into the meeting minutes and was never copied into the Risk Log - which is the six-month-old quality finding.",
+  "sc": [
+   "s37"
+  ]
+ },
+ {
+  "a": [
+   "the eighteenth of December last year",
+   "the eighteenth of December"
+  ],
+  "k": "date",
+  "s": "18 Dec 2026",
+  "d": "The target date for finishing the fifteen days of knowledge transfer under risk R-07. By September 2027 it is nine months overdue and one of the three modules has never been handed over.",
+  "sc": [
+   "s37"
+  ]
+ },
+ {
+  "a": [
+   "the week of the fourteenth of February",
+   "the fourteenth of February"
+  ],
+  "k": "date",
+  "s": "week of 14 Feb 2027",
+  "d": "The week the last knowledge-transfer module - the product configuration engine - was finally scheduled for. It had already been dropped twice.",
+  "sc": [
+   "s37"
+  ]
+ },
+ {
+  "a": [
+   "the thirty-first of March"
+  ],
+  "k": "date",
+  "s": "31 Mar 2027",
+  "d": "The date R-07's score first reached 20 and stayed there. Six months later nothing about it has changed.",
+  "sc": [
+   "s37"
+  ]
+ },
+ {
+  "a": [
+   "the thirteenth of May 2027"
+  ],
+  "k": "date",
+  "s": "13 May 2027",
+  "d": "The day a Board member's cabinet telephoned to ask for backstop screens in Release 2. Two days of work went into it before anyone wrote it down, which is the lesson: a verbal scope request buys no estimating effort until it is on a form.",
+  "sc": [
+   "s48"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-sixth"
+  ],
+  "k": "date",
+  "s": "26 May 2027",
+  "d": "The Steering Committee meeting that turned the telephoned scope request into decision D-09: CR-014 postponed.",
+  "sc": [
+   "s48"
+  ]
+ },
+ {
+  "a": [
+   "May 2027"
+  ],
+  "k": "date",
+  "s": "May 2027",
+  "d": "The month two Status Reports were issued with no version number on them - found and fixed only at closure, fourteen months later.",
+  "sc": [
+   "s51"
+  ]
+ },
+ {
+  "a": [
+   "Eleventh in July, ninth in August, twelfth in September"
+  ],
+  "k": "date",
+  "s": "11 Jul, 9 Aug, 12 Sep 2027",
+  "d": "The dates Levallois's monthly status report actually arrived, against a contractual deadline of the 5th of each month. Four months running, and October's had still not come by the 26th.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Due by the fifth of the month",
+   "Due by the fifth",
+   "the fifth of the month"
+  ],
+  "k": "date",
+  "s": "5th of each month",
+  "d": "The contractual deadline for Levallois's monthly status report. It is late every single month, which is why it stays an open quality finding.",
+  "sc": [
+   "s40",
+   "s41"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-eighth of September 2027"
+  ],
+  "k": "date",
+  "s": "28 Sep 2027",
+  "d": "The date of the last monthly risk reassessment before Tesla resigns. On that day R-07 is still, in every sense the guide means, a risk.",
+  "sc": null
+ },
+ {
+  "a": [
+   "closed on the fifth"
+  ],
+  "k": "date",
+  "s": "5 Oct 2027",
+  "d": "The date risk R-07 was closed in the Risk Log - not because it went away, but because it happened. Issue I-14 was opened the same day, each entry naming the other.",
+  "sc": [
+   "s39"
+  ]
+ },
+ {
+  "a": [
+   "the eighteenth of October",
+   "the eighteenth"
+  ],
+  "k": "date",
+  "s": "18 Oct 2027",
+  "d": "The Steering Committee meeting where issue I-14 is put to the room. Whatever is on the screen that morning is what the committee will be told, and nothing else exists.",
+  "sc": [
+   "s38",
+   "s39"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-fifth of October",
+   "The twenty-fifth"
+  ],
+  "k": "date",
+  "s": "25 Oct 2027",
+  "d": "The date decision D-11 was signed - four hours after Levallois's written confirmation arrived from Stockholm. A decision has a date it is taken and a separate date it applies from.",
+  "sc": [
+   "s39"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-sixth"
+  ],
+  "k": "date",
+  "s": "26 Oct 2027",
+  "d": "The application date of decision D-11 - the day the decision starts to bite, one day after it was signed.",
+  "sc": [
+   "s39",
+   "s40"
+  ]
+ },
+ {
+  "a": [
+   "Today is the ninth",
+   "the ninth"
+  ],
+  "k": "date",
+  "s": "9 Nov 2027",
+  "d": "The day Levallois's account director rings the Project Manager directly, offering exactly the people the project needs - and the day October's status report is four days late.",
+  "sc": [
+   "s41"
+  ]
+ },
+ {
+  "a": [
+   "the fifteenth of November"
+  ],
+  "k": "date",
+  "s": "15 Nov 2027",
+  "d": "The deadline the Steering Committee set for Levallois to name a replacement architect. It is the target date on issue I-14 and the test of whether the contractual route works.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the fifteenth"
+  ],
+  "k": "date",
+  "s": "15 Nov 2027",
+  "d": "The deadline for naming the replacement architect. He is named at ten past four that afternoon, through Gustave Eiffel and not through the account director's back channel.",
+  "sc": [
+   "s41"
+  ]
+ },
+ {
+  "a": [
+   "the thirtieth of November"
+  ],
+  "k": "date",
+  "s": "30 Nov 2027",
+  "d": "Nikola Tesla's last working day. Everything he knows has to be out of his head by then, whatever else happens.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the thirtieth"
+  ],
+  "k": "date",
+  "s": "30 Nov 2027",
+  "d": "Tesla's last working day. It does not move, whoever is named on the fifteenth.",
+  "sc": [
+   "s41"
+  ]
+ },
+ {
+  "a": [
+   "the seventeenth of December"
+  ],
+  "k": "date",
+  "s": "17 Dec 2027",
+  "d": "The baselined date for Release 2, straight-through disbursement. It is printed in the Business Case from March 2026, and everything downstream - the parallel run, the cutover - sits behind it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eighth of January"
+  ],
+  "k": "date",
+  "s": "8 Jan 2028",
+  "d": "The start of the parallel run, when the old and new systems are run side by side on the same real work, and two of Grace Hopper's loan administrators go full time onto acceptance testing.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the thirtieth of April"
+  ],
+  "k": "date",
+  "s": "30 Apr 2028",
+  "d": "The end of the parallel run, and the deadline for having all forty loan administrators trained. Both were met.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the twenty-fifth of April"
+  ],
+  "k": "date",
+  "s": "25 Apr 2028",
+  "d": "The maturity date of the EUR 3 billion EFSF bond, with the refinancing settling two days later. It is the biggest reconciliation of the year and it falls in the last week of the parallel run.",
+  "sc": null
+ },
+ {
+  "a": [
+   "The twenty-seventh of April",
+   "the twenty-seventh"
+  ],
+  "k": "date",
+  "s": "27 Apr 2028",
+  "d": "The morning the refinancing settled and the new platform reconciled 998 loans out of 1,000. It is the day Marie Curie refused acceptance and partial acceptance was used instead.",
+  "sc": [
+   "s48"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-eighth of April"
+  ],
+  "k": "date",
+  "s": "28 Apr 2028",
+  "d": "The day issue I-14, the loss of the lead architect, was finally closed - seven months after it was opened, and quietly.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "the third of May"
+  ],
+  "k": "date",
+  "s": "3 May 2028",
+  "d": "The date fixed for the clean re-test of the two unreconciled loans: four days of work from 27 April, inside the acceptance window and after the parallel run has ended. The re-test passed and both positions closed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the fourteenth"
+  ],
+  "k": "date",
+  "s": "14 May 2028",
+  "d": "The day Florence Nightingale gives written approval to deploy, the Sunday before go-live.",
+  "sc": [
+   "s44"
+  ]
+ },
+ {
+  "a": [
+   "the fifth of May"
+  ],
+  "k": "date",
+  "s": "5 May 2028",
+  "d": "The date of the Project Owner's provisional acceptance, given before the transition. Provisional is the right state to be in at this point: final project acceptance belongs to the Closing Phase.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "the sixth of May"
+  ],
+  "k": "date",
+  "s": "6 May 2028",
+  "d": "The date the Local Information Security Officer and the Data Protection Coordinator signed off their parts of the transition.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "Saturday the thirteenth of May"
+  ],
+  "k": "date",
+  "s": "Sat 13 May 2028",
+  "d": "The cutover weekend: a full backup of the old system and a tested restore, four hours forty minutes, before anything was switched over.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "the fifteenth of May"
+  ],
+  "k": "date",
+  "s": "15 May 2028",
+  "d": "Go-live. The first disbursement instruction goes into the new platform at 06:10 and comes out the other side at 06:14. Ownership of the system transfers on this day.",
+  "sc": [
+   "s39",
+   "s43",
+   "s45",
+   "s46",
+   "s49"
+  ]
+ },
+ {
+  "a": [
+   "the fifteenth"
+  ],
+  "k": "date",
+  "s": "15 May 2028",
+  "d": "Cutover day. The old system stops being the system of record, and Levallois's two contractor accounts are revoked.",
+  "sc": [
+   "s44",
+   "s45",
+   "s51"
+  ]
+ },
+ {
+  "a": [
+   "the sixteenth"
+  ],
+  "k": "date",
+  "s": "16 May 2028",
+  "d": "The day the new support access rules went live, the morning after cutover.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "the nineteenth of May"
+  ],
+  "k": "date",
+  "s": "19 May 2028",
+  "d": "The date the documentation handover to the support organisation was completed.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-second of June"
+  ],
+  "k": "date",
+  "s": "22 Jun 2028",
+  "d": "The Ready for Closing gate - the third and last phase gate in PM2. The Steering Committee authorises the move to the Closing Phase. There is no gate after it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the thirtieth of June"
+  ],
+  "k": "date",
+  "s": "30 Jun 2028",
+  "d": "The last day the old system stays warm and a rollback is still possible, and the day it is decommissioned. After it, changing your mind stops being cheap.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eight days from now"
+  ],
+  "k": "date",
+  "s": "8 days to 30 Jun 2028",
+  "d": "How long is left of the rollback window when the Ready for Closing gate meets on 22 Jun 2028 - the last week in which anyone can still order the old system back.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "went out on the fifth"
+  ],
+  "k": "date",
+  "s": "5 Jul 2028",
+  "d": "The day the agenda and the whole document pack went out for the Project-End Review Meeting - a week before the meeting itself.",
+  "sc": [
+   "s46"
+  ]
+ },
+ {
+  "a": [
+   "closed on the fourth",
+   "came on the fourth"
+  ],
+  "k": "date",
+  "s": "4 Jul 2028",
+  "d": "The date Internal Audit's closure letter arrived, shutting both open findings on segregation of duties and on the audit trail. That is success criterion SC5 met.",
+  "sc": [
+   "s46",
+   "s49"
+  ]
+ },
+ {
+  "a": [
+   "the twelfth"
+  ],
+  "k": "date",
+  "s": "12 Jul 2028",
+  "d": "The date Levallois submitted its final invoice, inside the payment terms - the same day as the Project-End Review Meeting.",
+  "sc": [
+   "s51"
+  ]
+ },
+ {
+  "a": [
+   "the seventeenth of July"
+  ],
+  "k": "date",
+  "s": "17 Jul 2028",
+  "d": "The day the Project-End Report draft is argued over in Florence Nightingale's office - and the honest cut-off for what can be claimed about benefits.",
+  "sc": [
+   "s49"
+  ]
+ },
+ {
+  "a": [
+   "the seventeenth"
+  ],
+  "k": "date",
+  "s": "17 Jul 2028",
+  "d": "The deadline the Project Manager asks for to bring back the benefits section - and the day Ada Lovelace returns to Lending Operations.",
+  "sc": [
+   "s46",
+   "s51"
+  ]
+ },
+ {
+  "a": [
+   "the nineteenth"
+  ],
+  "k": "date",
+  "s": "19 Jul 2028",
+  "d": "The date the Project-End Report version 1.0 was issued.",
+  "sc": [
+   "s50"
+  ]
+ },
+ {
+  "a": [
+   "Reviewed on the twenty-second"
+  ],
+  "k": "date",
+  "s": "22 Jul 2028",
+  "d": "The date Quality Assurance reviewed the Project-End Report - a Saturday. Reviewed is not approved: they are two different rows in the responsibility table.",
+  "sc": [
+   "s50"
+  ]
+ },
+ {
+  "a": [
+   "twenty-fifth of July 2028"
+  ],
+  "k": "date",
+  "s": "25 Jul 2028",
+  "d": "The date the Project Steering Committee approved the Project-End Report version 1.0. This is an approval, not a gate.",
+  "sc": [
+   "s50"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-eighth of July"
+  ],
+  "k": "date",
+  "s": "28 Jul 2028",
+  "d": "Administrative closure: the day the Project Owner signs the Project Acceptance Note and the project formally ends. Project mode stops and operations mode begins.",
+  "sc": [
+   "s52"
+  ]
+ },
+ {
+  "a": [
+   "the thirty-first of July 2028"
+  ],
+  "k": "date",
+  "s": "31 Jul 2028",
+  "d": "The last day anything can be charged to CASTOR. After it the cost centre no longer exists.",
+  "sc": [
+   "s51"
+  ]
+ },
+ {
+  "a": [
+   "the thirty-first"
+  ],
+  "k": "date",
+  "s": "31 Jul 2028",
+  "d": "The date the cost centre closes, the Project Core Team is formally dissolved and Gustave Eiffel's contract ends. Dissolving the team is an act, not a feeling.",
+  "sc": [
+   "s47",
+   "s50",
+   "s51"
+  ]
+ },
+ {
+  "a": [
+   "the fifteenth of May 2029"
+  ],
+  "k": "date",
+  "s": "15 May 2029",
+  "d": "The end of Levallois's warranty, one year after go-live. A warranty that outlives the project is not an open project - it is a contract, and contracts belong to operations.",
+  "sc": [
+   "s51"
+  ]
+ },
+ {
+  "a": [
+   "the thirty-first of December"
+  ],
+  "k": "date",
+  "s": "31 Dec 2028",
+  "d": "Two of the 41 disbursements measured for SC1 fell on 31 December - the hardest day of the year to hit a one-working-day cycle, which is why Grace Hopper names it.",
+  "sc": [
+   "s52"
+  ]
+ },
+ {
+  "a": [
+   "the seventh"
+  ],
+  "k": "date",
+  "s": "7 Jan 2029",
+  "d": "The day the backstop onboarding project got its own project manager. On her second day she pulled CASTOR's Project-End Report out of the archive, which is the only thing the report was ever written for.",
+  "sc": [
+   "s52"
+  ]
+ },
+ {
+  "a": [
+   "Refresher training from 2029",
+   "the 2029 reporting year",
+   "full-year statement for 2029"
+  ],
+  "k": "date",
+  "s": "2029 - the benefit year",
+  "d": "The first full year in which CASTOR's benefits can actually be measured. The project ends in July 2028, so the numbers that say whether it was worth doing arrive after everyone has moved on. That is normal, not a failure.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the first quarter of 2029"
+  ],
+  "k": "date",
+  "s": "Q1 2029",
+  "d": "The point from which Lending Operations was to report on the five success criteria every quarter - work handed to the permanent organisation because there will be no project left to do it.",
+  "sc": [
+   "s43"
+  ]
+ },
+ {
+  "a": [
+   "from the third quarter of 2028",
+   "third quarter of 2028"
+  ],
+  "k": "date",
+  "s": "Q3 2028",
+  "d": "When Grace Hopper actually starts the quarterly benefit measurement - from the Division's own operational reporting, three months earlier than first planned.",
+  "sc": [
+   "s49"
+  ]
+ },
+ {
+  "a": [
+   "Third and fourth quarter of 2028"
+  ],
+  "k": "date",
+  "s": "Q3-Q4 2028",
+  "d": "The two quarters of live operation behind the first real benefit figures, read out in January 2029.",
+  "sc": [
+   "s52"
+  ]
+ },
+ {
+  "a": [
+   "first quarter of 2030",
+   "February 2030"
+  ],
+  "k": "date",
+  "s": "Q1 2030",
+  "d": "When the full-year 2029 benefit statement goes to the Corporate Investment Board - nineteen months after CASTOR's cost centre closed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "becoming a different department in 2030",
+   "a number Grace reads in 2030"
+  ],
+  "k": "date",
+  "s": "2030",
+  "d": "The year the first complete answer about CASTOR's value is read, in somebody else's report, on a floor the Project Manager no longer works on. It is also the year the department will still be changing.",
+  "sc": null
+ },
+ {
+  "a": [
+   "2031"
+  ],
+  "k": "date",
+  "s": "2031",
+  "d": "Three years after closure - the story's shorthand for the stranger who reads the archive. It is why versions, traceability columns and a complete record matter more than the people who wrote them.",
+  "sc": null
+ },
+ {
+  "a": [
+   "2027 prices"
+  ],
+  "k": "date",
+  "s": "priced in 2027",
+  "d": "The CR-014 estimate is in 2027 money, against a data model that has changed twice since - which is why the advice is to re-estimate the change, not re-open it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twenty-six months"
+  ],
+  "k": "count",
+  "s": "26 months",
+  "d": "CASTOR's approved duration, January 2026 to July 2028. Every approval in those twenty-six months opened a door; the last one closes one.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twenty-one months"
+  ],
+  "k": "count",
+  "s": "21 months",
+  "d": "How long before Release 2's delivery its date was fixed: the 17 December 2027 date was printed in the Business Case in March 2026 and never moved.",
+  "sc": null
+ },
+ {
+  "a": [
+   "seven months open"
+  ],
+  "k": "count",
+  "s": "7 months",
+  "d": "How long issue I-14 stayed open, from 5 Oct 2027 to 28 Apr 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "nineteen months"
+  ],
+  "k": "count",
+  "s": "19 months",
+  "d": "The gap between CASTOR's cost centre closing (31 Jul 2028) and the full-year 2029 benefit statement reaching the Corporate Investment Board (February 2030).",
+  "sc": null
+ },
+ {
+  "a": [
+   "two years and twenty-two days"
+  ],
+  "k": "count",
+  "s": "2 years and 22 days",
+  "d": "The time from the Ready for Executing gate on 3 Jul 2026 to the approval of the Project-End Report on 25 Jul 2028, in the same board room.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven days"
+  ],
+  "k": "count",
+  "s": "11 days",
+  "d": "How long it took to configure a new lending instrument in the test environment during the SC3 rehearsal - well inside the six-week target. But a test environment is not production, so SC3 is reported as demonstrated, not proven.",
+  "sc": [
+   "s45"
+  ]
+ },
+ {
+  "a": [
+   "Onboarding in six weeks",
+   "within six weeks of ratification",
+   "in six weeks"
+  ],
+  "k": "count",
+  "s": "6 weeks - SC3 target",
+  "d": "SC3's target for onboarding a new lending instrument, down from nine months on the old system. It can only be truly proved on a real new instrument, and the common backstop is still not ratified.",
+  "sc": [
+   "s41",
+   "s48",
+   "s49"
+  ]
+ },
+ {
+  "a": [
+   "six weeks down to four"
+  ],
+  "k": "count",
+  "s": "6 weeks down to 4",
+  "d": "The opportunity in risk R-11: Levallois's ready-made accelerators could beat the SC3 target and bring onboarding down from six weeks to four.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven minutes"
+  ],
+  "k": "count",
+  "s": "11 minutes",
+  "d": "The time allocated to issue I-14 on the Steering Committee agenda. A committee does not solve an issue in eleven minutes - it names who solves it, and by when.",
+  "sc": [
+   "s39"
+  ]
+ },
+ {
+  "a": [
+   "eight weeks until the platform goes live"
+  ],
+  "k": "count",
+  "s": "8 weeks to go-live",
+  "d": "How little time is left on 21 Mar 2028, with twelve of the forty loan administrators still untrained.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Seven years"
+  ],
+  "k": "count",
+  "s": "7-year retention",
+  "d": "How long CASTOR's project records must be kept in the project space, with a classification applied to all of them. Retention is a rule that outlives the project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Fourteen years"
+  ],
+  "k": "count",
+  "s": "14 years of loan records",
+  "d": "The old LOS system is switched off, but fourteen years of loan records keep their own retention clock - and from 28 Jul 2028 that clock belongs to Lending Operations, not to a project that no longer exists.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four hours forty"
+  ],
+  "k": "count",
+  "s": "4 h 40 min restore",
+  "d": "How long the tested restore of the old system took on the cutover weekend. You do not switch over until you have proved you can go back.",
+  "sc": null
+ },
+ {
+  "a": [
+   "forty administrators",
+   "forty names",
+   "forty people"
+  ],
+  "k": "count",
+  "s": "40 loan administrators",
+  "d": "The whole population whose jobs CASTOR changes. Retraining them is organisational change, so it lives in the Business Implementation Plan under Grace Hopper with Florence Nightingale accountable - not in the Transition Plan and not with the Project Manager.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twenty-eight of them"
+  ],
+  "k": "count",
+  "s": "28 of 40 trained",
+  "d": "The state of retraining eleven weeks into the parallel run: twenty-eight of the forty loan administrators ticked off on the grid behind Grace Hopper's desk.",
+  "sc": [
+   "s43"
+  ]
+ },
+ {
+  "a": [
+   "Twelve left",
+   "Twelve names"
+  ],
+  "k": "count",
+  "s": "12 still untrained",
+  "d": "The twelve administrators still to be trained on 21 Mar 2028, with eight weeks to go-live. All forty were trained by 30 April.",
+  "sc": [
+   "s43"
+  ]
+ },
+ {
+  "a": [
+   "Six of those are on rollover preparation",
+   "two are seconded to Finance and Control"
+  ],
+  "k": "count",
+  "s": "6 + 2 of the 12 blocked",
+  "d": "Why the last twelve are hard: six are locked to the April bond rollover and two are on secondment to Finance and Control until June. Only four of the twelve are actually free.",
+  "sc": [
+   "s43"
+  ]
+ },
+ {
+  "a": [
+   "four sessions of fifty minutes"
+  ],
+  "k": "count",
+  "s": "4 x 50-minute sessions",
+  "d": "Ada Lovelace's re-plan: break the long exception walkthrough into four short sessions that fit in the gaps around a settlement, instead of one afternoon nobody can spare.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two days a week"
+  ],
+  "k": "count",
+  "s": "2 days a week",
+  "d": "The project support offered to the Business Manager: Ada Lovelace's time, in the Work Plan with dates on it. Support means rooms, slots and people - not taking the work over.",
+  "sc": [
+   "s43"
+  ]
+ },
+ {
+  "a": [
+   "two seconded architects",
+   "two contractor testers"
+  ],
+  "k": "count",
+  "s": "4 contractor staff released",
+  "d": "Part of step 2 of administrative closure, releasing all resources: two architects and two testers go back onto the Levallois payroll.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two people in Europe"
+  ],
+  "k": "count",
+  "s": "2 people in Europe",
+  "d": "How many people Tesla claims can change a pricing rule in the product configuration engine without breaking a repayment schedule - and he is one of them. That is the whole of risk R-07 in one sentence.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nine hundred and ninety-eight"
+  ],
+  "k": "count",
+  "s": "998 of 1,000 loans",
+  "d": "How many loans reconciled on the morning of 27 Apr 2028, the first big rollover on the new platform. It is a very good number and it is not a thousand, which is Marie Curie's entire job in one sentence.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two do not",
+   "Two on the old EFSF pooling arrangement",
+   "two did not"
+  ],
+  "k": "count",
+  "s": "2 loans unreconciled",
+  "d": "The two loans that did not reconcile: legacy EFSF pooled loans where the funding-cost allocation from the rollover arrives a day late, so the platform and the treasury system disagree. Explained, but not resolved.",
+  "sc": null
+ },
+ {
+  "a": [
+   "tolerance zero unexplained breaks",
+   "tolerance zero"
+  ],
+  "k": "count",
+  "s": "Tolerance: 0 unexplained breaks",
+  "d": "AC-04's tolerance. The two breaks are explained but not resolved, and the rule only uses one of those two words - which is why the deliverable can be accepted in part but not in full.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three of the five acceptance criteria",
+   "Two are asserted"
+  ],
+  "k": "count",
+  "s": "3 of 5 evidenced, 2 asserted",
+  "d": "The state of Levallois's test evidence in November 2027: three of the five acceptance criteria have traceable coverage; AC-01 and AC-04 rest on the contractor's own word.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two acceptance criteria"
+  ],
+  "k": "count",
+  "s": "2 criteria still asserted",
+  "d": "At the Release 2 acceptance in December 2027, two acceptance criteria still rest on Levallois's own test evidence. Deming's point is not that this is forbidden - it is that it must be written down.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One platform and four supporting deliverables"
+  ],
+  "k": "count",
+  "s": "1 platform + 4 documents",
+  "d": "What Release 2 actually consists of: the platform itself plus release notes, User Manual, Operations Manual and training material. Each supporting deliverable goes to a different expert reviewer, not all to the User Representative.",
+  "sc": null
+ },
+ {
+  "a": [
+   "zero re-keyed fields"
+  ],
+  "k": "count",
+  "s": "0 re-keyed fields",
+  "d": "SC4 met: no payment instruction fields are typed in twice any more, down from about 1,400 a quarter.",
+  "sc": null
+ },
+ {
+  "a": [
+   "fourteen hundred a quarter"
+  ],
+  "k": "count",
+  "s": "~1,400 fields a quarter",
+  "d": "The baseline for SC4: how many payment-instruction fields staff re-typed by hand every quarter on the old system.",
+  "sc": null
+ },
+ {
+  "a": [
+   "one working day"
+  ],
+  "k": "count",
+  "s": "1 working day - SC1 target",
+  "d": "SC1's target for the disbursement cycle, from instruction to value date, down from five working days on the old system.",
+  "sc": null
+ },
+ {
+  "a": [
+   "same-day reconciliation"
+  ],
+  "k": "count",
+  "s": "Same day - SC2 target",
+  "d": "SC2's target: reconcile after disbursement on the same day, instead of the three working days the old system needed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "fourteen disbursements"
+  ],
+  "k": "count",
+  "s": "14 disbursements",
+  "d": "All the evidence there is for SC1 on 17 Jul 2028: fourteen disbursements in a quiet July. Enough to say what is true today, not enough to make a claim about a whole reporting year.",
+  "sc": null
+ },
+ {
+  "a": [
+   "forty-one disbursements"
+  ],
+  "k": "count",
+  "s": "41 disbursements",
+  "d": "The SC1 evidence six months on, from the Division's own operational reporting for Q3 and Q4 2028 - including two on 31 December.",
+  "sc": null
+ },
+ {
+  "a": [
+   "zero missed value dates"
+  ],
+  "k": "count",
+  "s": "0 missed value dates",
+  "d": "The transition result reported at the Ready for Closing gate: five weeks of live running with no payment missing its value date.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven changes approved",
+   "two postponed",
+   "one rejected"
+  ],
+  "k": "count",
+  "s": "11 approved, 2 postponed, 1 rejected",
+  "d": "The whole Change Log for CASTOR at the end: fourteen change requests, of which eleven were approved. None of them touched the Business Case, so the scope baseline never moved.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Forty-one entries"
+  ],
+  "k": "count",
+  "s": "41 lessons in the register",
+  "d": "The Lessons Learned register, written up week by week since Planning rather than remembered at the end. It is the raw material for the Lessons Learned session, not a substitute for it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Entry nineteen"
+  ],
+  "k": "count",
+  "s": "Register entry 19",
+  "d": "The register line that says the migration rehearsal effort was underestimated. What it does not say is that Ada Lovelace was told in November and assumed somebody else was handling it - which is the part only a conversation gets out.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-two"
+  ],
+  "k": "count",
+  "s": "Register entry 22",
+  "d": "Tesla's last entry in the Lessons Learned register, written in the week he left: the migration was designed to be run once, correctly; it was run four times; design it to be run twenty times.",
+  "sc": [
+   "s48"
+  ]
+ },
+ {
+  "a": [
+   "Eleven of this afternoon's lessons",
+   "Nine are new",
+   "Eight of the nine"
+  ],
+  "k": "count",
+  "s": "11 old, 9 new, 8 from argument",
+  "d": "The tally of the Lessons Learned session: eleven lessons were already written down, nine were new, and eight of those nine only exist because two people in the room contradicted each other. That is the argument for holding the session at all.",
+  "sc": null
+ },
+ {
+  "a": [
+   "six headings"
+  ],
+  "k": "count",
+  "s": "6 discussion headings",
+  "d": "Deming structures the Lessons Learned session under six headings - scope and planning, communication, change control, risk and issues, acceptance and transition, and the team - so that no area is quietly skipped.",
+  "sc": null
+ },
+ {
+  "a": [
+   "ran it four times",
+   "run twenty times",
+   "four times"
+  ],
+  "k": "count",
+  "s": "Ran 4 times, design for 20",
+  "d": "The migration was built on the assumption it would run once and be right. It ran four times. Tesla's lesson is to design it to run twenty times - the single most reusable sentence CASTOR leaves behind.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two days of everybody's life",
+   "It cost us two days"
+  ],
+  "k": "count",
+  "s": "2 days lost to a phone call",
+  "d": "What the verbal scope request of 13 May 2027 cost before anyone wrote it down. The lesson for strangers: a spoken scope request buys no estimating effort until it is on a Change Request Form.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three weeks of 2026"
+  ],
+  "k": "count",
+  "s": "3 weeks of argument",
+  "d": "How long the Planning row over whether retraining forty administrators belonged in the Transition Plan or the Business Implementation Plan took. It was worth it: after that it never once needed change control.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three weeks of handover"
+  ],
+  "k": "count",
+  "s": "3 weeks of paid handover",
+  "d": "What the key-person clause in the Levallois contract actually bought when their platform architect resigned in April 2027: a named replacement and three weeks of handover at the supplier's cost. It did not cover Tesla, who was a framework secondment.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twenty-six Status Reports"
+  ],
+  "k": "count",
+  "s": "26 Status Reports",
+  "d": "One project Status Report per month for the whole 26-month project, all archived at closure.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two Progress Reports"
+  ],
+  "k": "count",
+  "s": "2 Progress Reports",
+  "d": "The two longer progress reports produced across the project, as distinct from the monthly status reports.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four project-specific plans"
+  ],
+  "k": "count",
+  "s": "4 project-specific plans",
+  "d": "The plans written for this project alone - among them the Transition Plan, the Business Implementation Plan and the Outsourcing Plan.",
+  "sc": null
+ },
+ {
+  "a": [
+   "six management plans"
+  ],
+  "k": "count",
+  "s": "6 management plans",
+  "d": "The standing PM2 management plans - such as the Quality, Risk, Communications and Change Management Plans - as opposed to the plans written for this project alone.",
+  "sc": null
+ },
+ {
+  "a": [
+   "six checklists"
+  ],
+  "k": "count",
+  "s": "6 checklists",
+  "d": "The completed checklists in the archive, including the three Phase Exit Review Checklists, the Transition Checklist, the Deliverables Acceptance Checklist and the Business Implementation Checklist.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four logs"
+  ],
+  "k": "count",
+  "s": "4 logs",
+  "d": "The four PM2 logs that run through the whole project: the Risk Log, the Issue Log, the Decision Log and the Change Log.",
+  "sc": null
+ },
+ {
+  "a": [
+   "a hundred and ninety-one Minutes"
+  ],
+  "k": "count",
+  "s": "191 sets of Minutes",
+  "d": "Every meeting record produced by CASTOR over 26 months. The archive is the part of a project that outlives everyone who worked on it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two contractor accounts"
+  ],
+  "k": "count",
+  "s": "2 contractor accounts revoked",
+  "d": "Levallois's two system accounts, closed at cutover on 15 May 2028. A forgotten contractor account that outlives the contract is exactly what the security closure exists to prevent.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two decisions"
+  ],
+  "k": "count",
+  "s": "2 decisions in 26 months",
+  "d": "How often the Corporate Investment Board was actually asked to decide anything on CASTOR. Being Accountable is not the same as being on call.",
+  "sc": null
+ },
+ {
+  "a": [
+   "sixteen forty",
+   "twenty to five"
+  ],
+  "k": "time",
+  "s": "Mon 4 Oct 2027, 16:40",
+  "d": "The exact moment risk R-07 stopped being a risk: Tesla's resignation email, sent on the Monday afternoon. From that minute the Risk Log is the wrong place for it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "09:41"
+  ],
+  "k": "time",
+  "s": "09:41",
+  "d": "The time the Risk Log was saved on 28 Sep 2027, with R-07 at likelihood 4, impact 5, level 20, escalation yes, owner Leonardo da Vinci. Six days later it was overtaken by events.",
+  "sc": null
+ },
+ {
+  "a": [
+   "16:20"
+  ],
+  "k": "time",
+  "s": "16:20",
+  "d": "The time the Minutes of the 18 Oct 2027 Steering Committee went out. Nothing decided in the room exists until it is in the record.",
+  "sc": null
+ },
+ {
+  "a": [
+   "16:40"
+  ],
+  "k": "time",
+  "s": "16:40",
+  "d": "The time the formal written demand went to Levallois on 9 Nov 2027 - dated, copied to Stockholm, four paragraphs, none of them warm. Contract pressure in writing, through the contractor's project manager and not around him.",
+  "sc": [
+   "s41"
+  ]
+ },
+ {
+  "a": [
+   "12:04"
+  ],
+  "k": "time",
+  "s": "12:04",
+  "d": "The time October's Levallois status report finally arrived - four days after the contractual deadline of the fifth.",
+  "sc": null
+ },
+ {
+  "a": [
+   "ten past four"
+  ],
+  "k": "time",
+  "s": "16:10, 15 Nov 2027",
+  "d": "The moment the replacement architect was named, on the afternoon of the deadline. The contractual route worked, with about two hours to spare.",
+  "sc": null
+ },
+ {
+  "a": [
+   "14:00"
+  ],
+  "k": "time",
+  "s": "14:00",
+  "d": "The time Release 2 was deployed for acceptance, on the last Friday before the building emptied for Christmas 2027.",
+  "sc": null
+ },
+ {
+  "a": [
+   "17:40"
+  ],
+  "k": "time",
+  "s": "17:40",
+  "d": "The time the four Deliverables Acceptance Notes for Release 2 were signed, one per deliverable, each by the right reviewer.",
+  "sc": null
+ },
+ {
+  "a": [
+   "06:10",
+   "06:14"
+  ],
+  "k": "time",
+  "s": "06:10 - 06:14, 15 May 2028",
+  "d": "The first disbursement instruction through the new platform on go-live morning: in at 06:10, out the other side at 06:14. Four minutes, where the old system took five working days.",
+  "sc": null
+ },
+ {
+  "a": [
+   "six o'clock"
+  ],
+  "k": "time",
+  "s": "06:00 value-date cut-off",
+  "d": "The daily deadline before which a rollback to the old system could still be ordered - any morning up to 30 Jun 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "ten past six"
+  ],
+  "k": "time",
+  "s": "06:10, 27 Apr 2028",
+  "d": "The time the overnight reconciliation was checked and the two broken loans were found, on the one morning it mattered. Two loan administrators on acceptance duty since January found it. That is the process working, not failing.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Forty seconds"
+  ],
+  "k": "time",
+  "s": "40 seconds",
+  "d": "How long it now takes Marie Curie to release a disbursement: she types it once, the treasury system and the payment gateway already have it, and she is done before the coffee arrives. Nobody in the building will ever count those seconds again.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Kirchberg"
+  ],
+  "k": "place",
+  "s": "Kirchberg, Luxembourg City",
+  "d": "The plateau in Luxembourg City where the ESM has its headquarters. Every CASTOR scene happens in this building.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Room Spaak"
+  ],
+  "k": "place",
+  "s": "Room Spaak, fifth floor",
+  "d": "The fifth-floor meeting room where the Project Steering Committee meets - and where, on 19 May 2026, Marie Curie invented the 998-of-1,000 example that came true two years later.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the seventh floor",
+   "seventh floor"
+  ],
+  "k": "place",
+  "s": "Seventh floor - board room",
+  "d": "Where the senior governance sits: the board room and Lorenzo de' Medici's office. Someone from the seventh floor coming down to a project room instead of summoning people up is, in this building, a signal.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the fourth-floor corridor",
+   "the fourth floor",
+   "fourth floor"
+  ],
+  "k": "place",
+  "s": "Fourth floor - Lending Operations",
+  "d": "The floor where the loan administrators actually work - the people whose jobs CASTOR changes and who run the system after the project ends. It is also where Florence Nightingale's office is.",
+  "sc": null
+ },
+ {
+  "a": [
+   "The second floor",
+   "second floor"
+  ],
+  "k": "place",
+  "s": "Second floor - Project Support Office",
+  "d": "Henry Gantt's floor: schedules, minutes, versions and the archive. It is where the project is physically closed down, with a trolley full of folders.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Take it to five",
+   "Writing twenty in a spreadsheet",
+   "you left it at four"
+  ],
+  "k": "score",
+  "s": "Impact 4 or 5 on R-07",
+  "d": "The argument the whole scene turns on. At impact 4 the risk level is 16 and the room can still choose to do nothing; at impact 5 it is 20, red, and the project is obliged to escalate. Tesla wants 5 so that somebody upstairs forces the handover.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two of the three modules"
+  ],
+  "k": "count",
+  "s": "2 of 3 handover modules",
+  "d": "How much of the R-07 knowledge transfer actually happened. The missing third module is the product configuration engine - the one only two people in Europe can safely change.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nine months past its target date"
+  ],
+  "k": "count",
+  "s": "9 months overdue",
+  "d": "How late the response to risk R-07 is by September 2027. Having a response written down is not the same as having carried it out, and this is the step that quietly kills projects.",
+  "sc": null
+ },
+ {
+  "a": [
+   "design authority for eight weeks"
+  ],
+  "k": "count",
+  "s": "8 weeks of design authority",
+  "d": "The Architecture Office's offer of an in-house architect to cover the gap. Leonardo refused it: he will not put an ESM architect inside a design the ESM is buying from a supplier.",
+  "sc": [
+   "s39"
+  ]
+ },
+ {
+  "a": [
+   "Three costed options"
+  ],
+  "k": "count",
+  "s": "3 costed options",
+  "d": "The three prepared, priced options in the Steering Committee pack for issue I-14. Nobody opens the pack: the committee's job is to name an owner and a deadline, not to pick a solution.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two logs and a third line"
+  ],
+  "k": "count",
+  "s": "2 logs + 1 decision line",
+  "d": "What one resignation produced on paper: a closed entry in the Risk Log, a new entry in the Issue Log, and a line in the Decision Log. Each names the others, so the history survives the people.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three days compiling it"
+  ],
+  "k": "effort",
+  "s": "3 days to build the pack",
+  "d": "What Ada Lovelace expects the Quality Assurance evidence pack for the December acceptance to cost her - which is why she wants to know whose name goes on it first.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two senior test engineers"
+  ],
+  "k": "count",
+  "s": "2 test engineers offered",
+  "d": "Part of the account director's off-channel offer on 9 Nov 2027: a replacement architect by the 15th and two senior test engineers by month end, if the Project Manager will deal with him directly instead of with Gustave Eiffel.",
+  "sc": null
+ },
+ {
+  "a": [
+   "I sign four notes",
+   "four notes"
+  ],
+  "k": "count",
+  "s": "4 acceptance notes",
+  "d": "One signed Deliverables Acceptance Note per deliverable at the Release 2 acceptance - platform, release notes, User Manual, Operations Manual and training material each going to the right reviewer, not all to Marie Curie.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two of my colleagues"
+  ],
+  "k": "count",
+  "s": "2 colleagues losing work",
+  "d": "The human cost inside the success figures: two loan administrators whose most interesting hour of the day has been automated. In January 2029 one of them still minds very much, and that will never appear in a report.",
+  "sc": null
+ },
+ {
+  "a": [
+   "in May 2026"
+  ],
+  "k": "date",
+  "s": "May 2026",
+  "d": "When the Deliverables Acceptance Plan was written - the document that gave Marie Curie a defined route for refusing a deliverable two years later.",
+  "sc": [
+   "s44"
+  ]
+ },
+ {
+  "a": [
+   "It found one gap"
+  ],
+  "k": "count",
+  "s": "1 gap found",
+  "d": "What running the guide's generic transition list against CASTOR's own Transition Plan turned up: nobody had written down who starts the support contract clock, and the answer was nobody.",
+  "sc": null
+ },
+ {
+  "a": [
+   "all four reviews"
+  ],
+  "k": "count",
+  "s": "4 quality reviews",
+  "d": "The four scheduled quality reviews across the project, checked for compliance against the Quality Management Plan. At the Project-End Review, Deming has no reservation on any of them - the first clean statement he has made about CASTOR.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the five success criteria"
+  ],
+  "k": "count",
+  "s": "The 5 success criteria",
+  "d": "SC1 to SC5, the measurable targets set in the Business Case. Measuring them quarterly after go-live is not project work: it belongs to Lending Operations, because the project will not exist when the numbers arrive.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four of five met",
+   "Four out of five"
+  ],
+  "k": "count",
+  "s": "4 of 5 criteria met",
+  "d": "The closing scorecard: SC1, SC2, SC4 and SC5 met, SC3 demonstrated in a test environment but never proved in production. And met today is not the same as signed off, which takes a full year of operation.",
+  "sc": null
+ },
+ {
+  "a": [
+   "I have had it eight weeks",
+   "eight weeks after a go-live"
+  ],
+  "k": "count",
+  "s": "8 weeks live",
+  "d": "How long the platform has been in real use at the Project-End Review on 12 Jul 2028. Eight quiet summer weeks with no December and no crisis in them - which is why Marie Curie refuses to say whether it works until January.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Step one of Administrative Closure",
+   "Step five"
+  ],
+  "k": "section",
+  "s": "Closure steps 1-5",
+  "d": "Administrative closure has five steps: archive all records; release all resources; get the stakeholders' acceptance; get the Project Owner's final approval; and verify that every contractual obligation has been fulfilled.",
+  "sc": null
+ },
+ {
+  "a": [
+   "There are two more"
+  ],
+  "k": "count",
+  "s": "4 + 2 ethics principles",
+  "d": "The ethics appendix of the guide. Four principles say what you should be - independence, impartiality, objectivity, loyalty. Two more say what you should do: circumspection, thinking what a thing will cause, and responsibility, finding a way through. Both at once is integrity.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the four plans everyone forgets"
+  ],
+  "k": "count",
+  "s": "4 forgotten plans",
+  "d": "The project-specific plans discovered in Planning - among them the Outsourcing Plan, the Transition Plan and the Business Implementation Plan. Each is approved by a different person, and none of them by the Project Manager.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three phase gates exist",
+   "There is no gate after Closing",
+   "There is no fourth gate",
+   "the first gate",
+   "the second gate",
+   "the third gate"
+  ],
+  "k": "count",
+  "s": "3 phase gates, and only 3",
+  "d": "PM2 has exactly three gates: Ready for Planning at the end of Initiating, Ready for Executing at the end of Planning, Ready for Closing at the end of Executing. CASTOR passed the third on 22 Jun 2028. Nothing follows Closing - the last event is not permission to continue but permission to stop.",
+  "sc": null
+ },
+ {
+  "a": [
+   "half past one"
+  ],
+  "k": "time",
+  "s": "13:30, 12 Jul 2028",
+  "d": "The start of the Lessons Learned session, held the same afternoon as the Project-End Review Meeting - deliberately, because by Wednesday half the people in the room are on other projects.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Sixteen fifty"
+  ],
+  "k": "time",
+  "s": "16:50",
+  "d": "The time on 17 Jul 2028 when Florence Nightingale asks the last question about the Project-End Report - the one whose answer decides how the whole report gets written.",
+  "sc": null
+ }
+]

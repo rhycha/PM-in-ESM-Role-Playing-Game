@@ -1,0 +1,263 @@
+{
+ "n": 24,
+ "id": "issue-log",
+ "name": "Issue Log",
+ "family": "Log",
+ "one_liner": "Every unplanned event that has already happened, scored for urgency, impact and size, with an owner and a deadline.",
+ "purpose": "The Issue Log is the register used to capture and maintain information on all issues that are being formally managed, i.e. unplanned project-related events that have already happened and need the Project Manager's or higher management's intervention. It documents the identification, evaluation and assignment of issues and traces the key decisions and planned actions, showing who must resolve what by when. The Project Manager (PM) monitors it regularly, closes resolved issues and reports issue status to stakeholders.",
+ "guide_page": 98,
+ "rasci": null,
+ "created_in": "Initiating Phase (set up with the Risk and Decision Logs, p.31)",
+ "approved_by": "n/a - maintained by the Project Manager (PM); for Manage Issues and Decisions the PM is Responsible and the Project Owner (PO) Accountable (p.79)",
+ "inputs": [
+  "Issue Management Plan",
+  "Issue Management Process",
+  "Minutes of Meetings (MoMs)",
+  "Project Logs"
+ ],
+ "feeds": [
+  "Project Status Report",
+  "Decision Log",
+  "Change Log",
+  "Project Work Plan",
+  "Project-End Report"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Log set up alongside the Risk and Decision Logs"
+  },
+  {
+   "phase": "Planning",
+   "what": "Issue Management Plan tailors categories, scales and escalation rules"
+  },
+  {
+   "phase": "Executing",
+   "what": "Issues raised by anyone, assessed, assigned and resolved"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Largest issues escalated to the PSC; log reviewed at status meetings"
+  },
+  {
+   "phase": "Closing",
+   "what": "Issues closed and verified; feeds Lessons Learned and Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Issue Identification and Description",
+   "items": [
+    "ID",
+    "Category",
+    "Title",
+    "Description",
+    "Status",
+    "Identified By",
+    "Identification Date"
+   ]
+  },
+  {
+   "sec": "Issue Assessment and Action Description",
+   "items": [
+    "Action Details (effort & responsible)",
+    "Urgency",
+    "Impact",
+    "Size",
+    "Target Date",
+    "Issue Owner",
+    "Escalation",
+    "Traceability/Comments"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "ID",
+   "what": "The issue identifier. The template ships rows pre-numbered IL01-IL09; projects tailor the scheme in the Issue Management Plan.",
+   "who": "PM assigns when the issue is logged",
+   "castor": "I-11"
+  },
+  {
+   "f": "Category",
+   "what": "Area affected by the issue: business, IT, people & organisation, external or legal; the template suggests Business, Staffing, Contractor, Legal.",
+   "who": "PM, from the categories set in the Issue Management Plan",
+   "castor": "Contractor"
+  },
+  {
+   "f": "Title",
+   "what": "Short title for the issue.",
+   "who": "PM writes it",
+   "castor": "Levallois lead platform architect resigns, effective 30/04/27"
+  },
+  {
+   "f": "Description",
+   "what": "Description of the issue, how it came about (known risk, unknown risk, ...) and its impact on the project.",
+   "who": "Identifier drafts; PM completes the origin and impact",
+   "castor": "Materialisation of known risk R-07: Levallois's design authority left mid-Release 2, threatening the 17/12/27 date."
+  },
+  {
+   "f": "Status",
+   "what": "One of: Open, Postponed, Resolved, Closed. The glossary (p.129) lists only Open, Postponed and Resolved; Closed appears in Appendix B and the template.",
+   "who": "PM updates; closes only after work is verified",
+   "castor": "Open on 14/04/27"
+  },
+  {
+   "f": "Identified By",
+   "what": "The name of the person who identified the issue. Anyone can raise an issue.",
+   "who": "Whoever raises it",
+   "castor": "Gustave Eiffel, Contractor's Project Manager (Levallois Systems)"
+  },
+  {
+   "f": "Identification Date",
+   "what": "The date on which the issue was raised or identified, dd/mm/yy.",
+   "who": "PM records",
+   "castor": "14/04/27"
+  },
+  {
+   "f": "Action Details (effort & responsible)",
+   "what": "Recommended action and remediation plan: non-conformities and impact, scenario analysis with resources, timetable and cost, chosen action and assigned responsibilities.",
+   "who": "Issue owner defines; PCT executes",
+   "castor": "Levallois names a replacement architect by 22/05/27; 3-week paid handover at contractor's cost."
+  },
+  {
+   "f": "Urgency",
+   "what": "How urgent the issue is: 5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low. Scale customisable in the Issue Management Plan.",
+   "who": "PM scores with the issue owner",
+   "castor": "5"
+  },
+  {
+   "f": "Impact",
+   "what": "The issue's impact: 5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low. Kept separate from Urgency; no product is calculated.",
+   "who": "PM scores with the issue owner",
+   "castor": "4"
+  },
+  {
+   "f": "Size",
+   "what": "Effort needed to resolve the issue: 5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low. Size measures effort, not severity.",
+   "who": "PM scores with the PCT",
+   "castor": "3 - about 20 PD of re-planning and handover support"
+  },
+  {
+   "f": "Target Date",
+   "what": "The date on which the issue is expected to be resolved, dd/mm/yy.",
+   "who": "Issue owner commits; PM tracks",
+   "castor": "22/05/27"
+  },
+  {
+   "f": "Issue Owner",
+   "what": "The person accountable for resolving the issue; not necessarily the PM, and may sit in the Directing Layer.",
+   "who": "PM assigns; PSC endorses for escalated issues",
+   "castor": "Leonardo da Vinci (SP), with Gustave Eiffel (CPM) executing"
+  },
+  {
+   "f": "Escalation",
+   "what": "Should the issue be escalated to the Directing or Steering Layers? Yes or No; the largest and highest-impact issues are escalated.",
+   "who": "PM decides against the agreed threshold",
+   "castor": "Yes - escalated to the PSC on 26/04/27"
+  },
+  {
+   "f": "Traceability/Comments",
+   "what": "ID of the related risk, of the Project Work Plan tasks, and of related changes or decisions, plus any comments.",
+   "who": "PM maintains",
+   "castor": "Materialised risk R-07; decision D-08; impact on change CR-014"
+  }
+ ],
+ "traps": [
+  "An issue has already happened; a risk has not. R-07 became I-11.",
+  "Issue Log scores Urgency, Impact and Size separately - no RL = L x I product.",
+  "Issue statuses are Open, Postponed, Resolved, Closed - glossary p.129 omits Closed.",
+  "Issue Management Plan defines the process; the Issue Log holds the issues.",
+  "A scope request is a change, not an issue: route it to the Change Log."
+ ],
+ "castor_excerpt": {
+  "title": "Extract - Issue Log, as at 30 Apr 2027",
+  "rows": [
+   [
+    "ID",
+    "Issue",
+    "Status",
+    "Urgency",
+    "Impact",
+    "Size",
+    "Issue Owner",
+    "Esc.",
+    "Target Date",
+    "Traceability/Comments"
+   ],
+   [
+    "I-06",
+    "EFSF-era loan test data incomplete for the configuration engine",
+    "Resolved",
+    "3",
+    "3",
+    "2",
+    "Ada Lovelace (BA, PCT)",
+    "No",
+    "12/02/27",
+    "PWP 3.4"
+   ],
+   [
+    "I-08",
+    "Release 1 reconciliation still takes two days, SC2 target at risk",
+    "Open",
+    "4",
+    "4",
+    "3",
+    "Grace Hopper (BM)",
+    "No",
+    "30/06/27",
+    "SC2; change CR-009"
+   ],
+   [
+    "I-09",
+    "Levallois test environment unavailable three days a week",
+    "Resolved",
+    "4",
+    "3",
+    "2",
+    "Gustave Eiffel (CPM)",
+    "No",
+    "05/03/27",
+    "Contract SLA; Outsourcing Plan"
+   ],
+   [
+    "I-10",
+    "Audit-trail completeness finding cannot be closed before Release 2",
+    "Postponed",
+    "2",
+    "4",
+    "2",
+    "Grace Hopper (BM)",
+    "No",
+    "17/12/27",
+    "SC5; internal audit finding 2"
+   ],
+   [
+    "I-11",
+    "Levallois lead platform architect resigns, effective 30/04/27",
+    "Open",
+    "5",
+    "4",
+    "3",
+    "Leonardo da Vinci (SP)",
+    "Yes",
+    "22/05/27",
+    "Materialised risk R-07; decision D-08; affects CR-014"
+   ],
+   [
+    "I-14",
+    "Nikola Tesla resigns, effective 04/10/27 — no key-person clause covers a secondee",
+    "Open",
+    "5",
+    "4",
+    "3",
+    "Leonardo da Vinci (SP)",
+    "Yes",
+    "21/11/27",
+    "Second materialisation of R-07; decision D-11; Release 2 held at 17/12/27"
+   ]
+  ]
+ }
+}

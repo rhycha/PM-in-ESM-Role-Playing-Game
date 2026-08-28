@@ -1,0 +1,203 @@
+{
+ "n": 38,
+ "id": "compliance-and-security",
+ "name": "Compliance & Security",
+ "group": "Themes",
+ "one_liner": "Enterprise-aware: document management, data protection and security shape the architecture.",
+ "purpose": "The PM²-Agile model is enterprise-aware and considers the organisation's policies and communications related to information systems. It addresses three aspects — document management, data protection and security — and each of them feeds the Architecture Overview rather than sitting beside it. Data protection defaults to the General Data Protection Regulation, and security is handled through a dedicated practice built around a Security Plan inside a Security Certification Statement.",
+ "guide_page": 36,
+ "meta": [
+  [
+   "Theme",
+   "4.10 — spans guide pages 36 and 37"
+  ],
+  [
+   "Three aspects",
+   "Document management, data protection, security"
+  ],
+  [
+   "Default legislation",
+   "GDPR — Regulation (EU) 2016/679"
+  ]
+ ],
+ "rasci": null,
+ "diagram": [
+  {
+   "sec": "The three aspects",
+   "items": [
+    "Document management",
+    "Data protection",
+    "Security"
+   ]
+  },
+  {
+   "sec": "Document management",
+   "items": [
+    "Consider the organisation's defined procedures whatever the medium",
+    "Create a checklist based on those procedures to verify applicability to the project",
+    "Use that checklist when outlining the Architecture Overview",
+    "Guarantee as much interoperability as possible between systems and users"
+   ]
+  },
+  {
+   "sec": "Data protection",
+   "items": [
+    "Guidance defined as part of the software engineering practices",
+    "Aligned with the specific legislation; by default the GDPR, Regulation (EU) 2016/679",
+    "Specific data processing requirements must be documented",
+    "Requires close collaboration between several roles",
+    "The Architecture Overview must reflect these considerations"
+   ]
+  },
+  {
+   "sec": "Security",
+   "items": [
+    "A specific practice defined to address security when building the solution",
+    "A Security Plan documenting all security-related activities and required actions",
+    "The plan defines security requirements and a step-by-step management plan to meet them",
+    "Part of an encompassing Security Certification Statement",
+    "Plus a Security Test Plan and Report, and a Security Risk Assessment"
+   ]
+  },
+  {
+   "sec": "What the Security Certification Statement does",
+   "items": [
+    "Tests and evaluates the technical features of the system",
+    "Reviews the administrative, personnel and physical safeguards anticipated for its environment",
+    "Provides senior management's formal acceptance of all residual risks"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Enterprise-aware model",
+   "what": "PM²-Agile considers the organisation's policies and communications related to information systems when addressing compliance and security.",
+   "who": "Whole project organisation",
+   "pollux": "ESM policy binds the portal even though delivery is agile."
+  },
+  {
+   "f": "Document management procedures",
+   "what": "When the solution has a document management aspect, regardless of medium, the organisation's defined procedures must be considered.",
+   "who": "Document Management Officer, A-PCT",
+   "pollux": "Gutenberg (DMO) still has a say in how report packs are retained."
+  },
+  {
+   "f": "The checklist",
+   "what": "PM²-Agile recommends creating a checklist based on the defined procedures to verify whether document management considerations apply.",
+   "who": "A-PCT with the DMO",
+   "pollux": "Checked when the portal's export and archive behaviour is designed."
+  },
+  {
+   "f": "Where the checklist is used",
+   "what": "The checklist should be used when outlining the Architecture Overview, so compliance shapes the architecture.",
+   "who": "ArOw",
+   "pollux": "Einstein applies it before the Architecture Overview is baselined."
+  },
+  {
+   "f": "Interoperability",
+   "what": "Another key aspect of the document management approach is guaranteeing as much interoperability as possible between systems and users.",
+   "who": "ArOw, ATeMs",
+   "pollux": "Report outputs must be usable outside the portal by national authorities."
+  },
+  {
+   "f": "Data protection guidance",
+   "what": "Guidance on data protection should be defined as part of the software engineering practices and aligned with the specific legislation.",
+   "who": "Data Protection Coordinator, A-PCT",
+   "pollux": "Brandeis (DPC) shapes the practice, not just a sign-off at the end."
+  },
+  {
+   "f": "GDPR by default",
+   "what": "By default PM²-Agile focuses on the General Data Protection Regulation, Regulation (EU) 2016/679, on processing personal data of individuals.",
+   "who": "DPC, LISO, A-PCT",
+   "pollux": "Relevant once national-authority users are granted access in Release 3."
+  },
+  {
+   "f": "Documenting processing",
+   "what": "When developing a solution, specific data processing requirements must be documented.",
+   "who": "A-PCT with the DPC",
+   "pollux": "Who sees which member state's data, and on what basis."
+  },
+  {
+   "f": "Collaboration across roles",
+   "what": "Addressing data protection requires close collaboration between several roles to ensure the need to process personal data is properly managed.",
+   "who": "DPC, LISO, ArOw, PrOw",
+   "pollux": "Brandeis and Turing work with Einstein, not after him."
+  },
+  {
+   "f": "Reflected in the architecture",
+   "what": "The Architecture Overview must reflect all these data protection considerations when proposing the high-level architecture strategy.",
+   "who": "ArOw",
+   "pollux": "Access control appears in the architecture before Release 3 is planned."
+  },
+  {
+   "f": "A specific security practice",
+   "what": "Because security is critical, PM²-Agile recommends defining a specific practice to address it when building a solution.",
+   "who": "LISO, ArOw, A-PCT",
+   "pollux": "Turing (LISO) is named in the POLLUX cast for exactly this."
+  },
+  {
+   "f": "The Security Plan",
+   "what": "Documents all security-related activities and lists the actions ensuring the system is developed securely and has appropriate security features.",
+   "who": "LISO with the A-PCT",
+   "pollux": "Covers both the build environment and the portal's own controls."
+  },
+  {
+   "f": "What the Security Plan defines",
+   "what": "It defines the security requirements and provides a step-by-step management plan to meet those requirements.",
+   "who": "LISO, ArOw",
+   "pollux": "Requirements land as enabler stories in the Work Items List."
+  },
+  {
+   "f": "Security Certification Statement",
+   "what": "An encompassing statement that tests and evaluates technical features, reviews administrative, personnel and physical safeguards, and formally accepts residual risks.",
+   "who": "Senior management accepts residual risks",
+   "pollux": "Signed before national-authority access goes live."
+  },
+  {
+   "f": "Additional elements",
+   "what": "Additional elements of the Security Certification Statement are the Security Test Plan and Report and the Security Risk Assessment.",
+   "who": "LISO, ATeMs testing",
+   "pollux": "Produced alongside the team's own Test Plan."
+  }
+ ],
+ "traps": [
+  "PM²-Agile defaults to the GDPR, Regulation (EU) 2016/679, for data protection.",
+  "The document management checklist is used when outlining the Architecture Overview.",
+  "The Security Plan sits inside the Security Certification Statement, not beside it.",
+  "Residual risks are formally accepted by senior management, not by the team.",
+  "Compliance is enterprise-aware — organisation policies bind an agile team too."
+ ],
+ "pollux_excerpt": {
+  "title": "Compliance and security on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Data Protection Coordinator",
+    "Louis Brandeis — national-authority access raises real questions"
+   ],
+   [
+    "Local Information Security Officer",
+    "Alan Turing"
+   ],
+   [
+    "Document Management Officer",
+    "Johannes Gutenberg"
+   ],
+   [
+    "Trigger",
+    "Release 3 — scenario overlay and national-authority access, 27 Sep 2029"
+   ],
+   [
+    "Where it lands",
+    "The Architecture Overview and the Work Items List, as enabler items"
+   ],
+   [
+    "Live conflict",
+    "Conflict 6 — a data-protection check nobody ran keeps a story from Done"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "n": 33,
+ "id": "project-end-report",
+ "name": "Project-End Report",
+ "family": "Report",
+ "one_liner": "The project's own post-mortem: what worked, what didn't, and what the organisation should do next.",
+ "purpose": "Following the Project-End Review Meeting, the overall experience of the project is summarised in a report that documents best practices, Lessons Learned, pitfalls and solutions to problems. The report should be used as a knowledge base for future projects. The template adds that its goal is to capture overall stakeholder satisfaction, evaluate the project experience, and offer post-project recommendations.",
+ "guide_page": 66,
+ "rasci": {
+  "A": "PSC",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "A",
+   "PO": "C",
+   "BM": "S",
+   "BIG": "C",
+   "SP": "C",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Closing Phase — written after the Project-End Review Meeting",
+ "approved_by": "Project Steering Committee (PSC) is Accountable; the Project Owner (PO) gives final project approval at Administrative Closure",
+ "inputs": [
+  "Project-End Review Meeting Minutes (MoM)",
+  "Minutes of Meetings (MoMs) of various project meetings",
+  "Project Reports (Status, Progress, Quality Review)",
+  "Quality Assurance and Quality Control outputs",
+  "Project Logs and Checklists"
+ ],
+ "feeds": [
+  "Projects Archive / central knowledge database",
+  "Project Acceptance Note",
+  "Post-Project Recommendations to the permanent organisation",
+  "Future projects' planning"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Executing",
+   "what": "Improvement ideas captured as they arise, not at the end"
+  },
+  {
+   "phase": "Closing",
+   "what": "Written by the PM after the Project-End Review Meeting"
+  },
+  {
+   "phase": "Closing",
+   "what": "Approved by the PSC, then archived at Administrative Closure"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Front matter & Document Control",
+   "meta": true,
+   "items": [
+    "Cover: Organisation / Department / <Project End Report> / Date / Doc. Version",
+    "Settings table: Document Title, Project Title, Author, PO, PM, Version, Sensitivity, Date",
+    "Document Approver(s) and Reviewer(s): Name, Role, Action, Date",
+    "Document history: Revision, Date, Created by, Short Description of Changes",
+    "Configuration Management: Document Location",
+    "Notes for Templates (orange / blue / green text conventions)",
+    "TABLE OF CONTENTS"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Purpose: summarise and document key elements found during the project and discussed at the Project-End Review Meeting",
+    "Capture overall stakeholder satisfaction",
+    "Lessons Learned benefit the team and the permanent organisation",
+    "Instruction: delete or merge sections not relevant to your project"
+   ]
+  },
+  {
+   "sec": "2. Project Success",
+   "items": [
+    "2.1. Effectiveness",
+    "2.2. Project Evaluation (Cost-Schedule-Scope-Quality)"
+   ]
+  },
+  {
+   "sec": "3. Project Management Evaluation",
+   "items": [
+    "3.1. Overall",
+    "3.2. Risk Management",
+    "3.3. Stakeholder Management",
+    "3.4. Project Communications",
+    "3.5. Issues and Conflict Resolution",
+    "3.6. Deliverables Acceptance"
+   ]
+  },
+  {
+   "sec": "4. Project Transition",
+   "items": [
+    "Significant milestones of transition",
+    "Effectiveness of the activities planned and executed",
+    "Specific issues",
+    "Best practices and lessons learned"
+   ]
+  },
+  {
+   "sec": "5. Business Implementation",
+   "items": [
+    "Significant organisational change management impacts",
+    "Effectiveness of the business implementation activities",
+    "Specific issues",
+    "Best practices and lessons learned"
+   ]
+  },
+  {
+   "sec": "6. Governance and Team Evaluation",
+   "items": [
+    "6.1. Performance of the Participating Organisation",
+    "6.2. Performance of the Project Core Team"
+   ]
+  },
+  {
+   "sec": "7. Lessons Learned and Best Practices",
+   "items": [
+    "Lessons learned for the whole project",
+    "Recommended best practices",
+    "Next steps to implement improvement ideas",
+    "Organised in categories (technical, governance, project management, risk management…)"
+   ]
+  },
+  {
+   "sec": "8. Post Project Recommendations",
+   "items": [
+    "Suggestions for follow-up activities",
+    "Suggestions for follow-up projects",
+    "Follow-up on business implementation and organisational change",
+    "Verifying that the intended benefits will be realised"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID",
+    "Reference or Related Document",
+    "Source or Link/Location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Settings table (Document Title, Project Title, Document Author, Project Owner, Project Manager, Doc. Version, Sensitivity, Date)",
+   "what": "Document-control header naming the report, the project and the roles that own and write it.",
+   "who": "PM as Document Author",
+   "castor": "Project-End Report · Project CASTOR · PO Florence Nightingale · v1.0 · 19 Jul 2028"
+  },
+  {
+   "f": "Document Approver(s) and Reviewer(s)",
+   "what": "Name, role, action (Approve / Review) and date. All approvers are required and records of each must be maintained.",
+   "who": "PM lists · PSC approves",
+   "castor": "PSC — Approve, 25 Jul 2028; W. Edwards Deming (PQA) — Review, 22 Jul 2028"
+  },
+  {
+   "f": "Document history",
+   "what": "Revision, date, created by and a short description of changes, latest version first.",
+   "who": "PM",
+   "castor": "v1.0, 19 Jul 2028, PM — issued after the Project-End Review Meeting of 12 Jul 2028"
+  },
+  {
+   "f": "Guide-mandated subject list (§8.3 Guidelines)",
+   "what": "Effectiveness; cost/schedule/scope/quality; risk; issue; change; communications; HR and stakeholder management; deliverables acceptance; business implementation and transition; PCT and organisation performance; best practices and lessons learned; post-project recommendations.",
+   "who": "PM must cover all twelve",
+   "castor": "All twelve covered; §3.4 Communications and §5 Business Implementation merged for CASTOR"
+  },
+  {
+   "f": "1. Introduction",
+   "what": "States the report's purpose: summarise key elements found during the project and discussed at the Project-End Review Meeting, and capture overall stakeholder satisfaction.",
+   "who": "PM",
+   "castor": "Written after the Project-End Review Meeting of 12 Jul 2028, chaired by Florence Nightingale (PO)"
+  },
+  {
+   "f": "2.1. Effectiveness",
+   "what": "How effectively the product or service met the needs of the customer/client, the performing organisation, the requirements and the business as specified in the Business Case. Highlight specific performance metrics.",
+   "who": "PM drafts · BM and PO validate the business view",
+   "castor": "SC1 disbursement cycle 5 days → 1 day, met. SC2 same-day reconciliation, met. SC5 both audit findings closed."
+  },
+  {
+   "f": "2.2. Project Evaluation (Cost-Schedule-Scope-Quality)",
+   "what": "Effectiveness of managing the four core dimensions: scope stability, requirements management, change management conformity, significance of approved changes, baseline versus final schedule and budget, quality compliance.",
+   "who": "PM drafts · PSC challenges",
+   "castor": "Final €8,96 m vs €8,4 m baseline (+6,7%); 3.307 PD vs 3.100 PD; go-live 15 May 2028 as baselined"
+  },
+  {
+   "f": "2.2 — baseline vs final comparison",
+   "what": "Compare the baseline versions of the project schedule and budget with the final versions; describe, evaluate and explain discrepancies. Were the initial estimates accurate?",
+   "who": "PM with PSO/finance data",
+   "castor": "CPI bottomed at 0,90 on 31 Mar 2027 and closed at 0,94; the Q1 2027 forecast overrun of €0,93 m ended at €0,56 m"
+  },
+  {
+   "f": "3.1. Overall",
+   "what": "Overall effectiveness of project management; which aspects could have been done better; whether the level of tailoring and customisation of PM² and use of artefacts was effective.",
+   "who": "PM drafts · PQA and PSC review",
+   "castor": "Tailoring was right-sized; monthly Status Report plus yearly Progress Report matched the PSC's and the CIB's rhythm."
+  },
+  {
+   "f": "3.2. Risk Management",
+   "what": "Significant risks identified that occurred, significant risks that occurred but were not identified, and how effective the chosen response strategies and action plans were.",
+   "who": "PM with risk owners",
+   "castor": "R-07 loss of the Levallois architect occurred on 04 Oct 2027; the retention clause worked and it became issue I-12."
+  },
+  {
+   "f": "3.3. Stakeholder Management",
+   "what": "Key stakeholders not identified at project start, activities that were particularly effective, and activities that could have been done better or should be avoided.",
+   "who": "PM with BM",
+   "castor": "The Board of Directors cabinets were not on the original Stakeholder Matrix — the source of the CR-007 verbal request."
+  },
+  {
+   "f": "3.4. Project Communications",
+   "what": "Effectiveness of the Communications Management Plan: which communication activities were particularly effective and which should be avoided.",
+   "who": "PM",
+   "castor": "The one-page Status Report worked; the EVM variant needed a 20-minute briefing before the PSC could read it."
+  },
+  {
+   "f": "3.5. Issues and Conflict Resolution",
+   "what": "Significant issues and conflicts, effectiveness of the issue management process and of conflict resolution, and whether issues were resolved before change control was needed.",
+   "who": "PM with BM and SP",
+   "castor": "The Transition Plan versus Business Implementation Plan ownership conflict over retraining 40 loan administrators."
+  },
+  {
+   "f": "3.6. Deliverables Acceptance",
+   "what": "Significant deliverables, effectiveness of the acceptance plan for those deliverables, and specific issues encountered.",
+   "who": "PM with BM and UR",
+   "castor": "Marie Curie (UR) refused acceptance of the reconciliation report during the parallel run; partial acceptance was applied."
+  },
+  {
+   "f": "4. Project Transition",
+   "what": "Significant milestones of transition and how effective the planned and executed activities for those milestones were.",
+   "who": "PM with SP and PO",
+   "castor": "Parallel run with LOS 08 Jan – 30 Apr 2028; transition / go-live 15 May 2028; LOS decommissioned after go-live"
+  },
+  {
+   "f": "5. Business Implementation",
+   "what": "Significant organisational change management impacts and how effective the business implementation activities planned and executed for those impacts were.",
+   "who": "BM leads the content · PM writes",
+   "castor": "40 loan administrators retrained; the BIG under Grace Hopper ran the change, not the project team."
+  },
+  {
+   "f": "6.1. Performance of the Participating Organisation",
+   "what": "Significant responsibilities of the participating organisation and how effectively it accomplished them; specific issues.",
+   "who": "PM · SP contributes on the contractor",
+   "castor": "Levallois Systems delivered both releases on their baselined dates despite losing its lead architect."
+  },
+  {
+   "f": "6.2. Performance of the Project Core Team",
+   "what": "Significant responsibilities of the Project Core Team and how effectively it accomplished them; specific issues.",
+   "who": "PM · PCT contributes",
+   "castor": "Nikola Tesla (architect) and Ada Lovelace (BA) held requirements stable; the PCT was under-resourced on data migration."
+  },
+  {
+   "f": "7. Lessons Learned and Best Practices",
+   "what": "Lessons learned and recommended best practices for the whole project, organised in categories such as technical, governance, project management, risk management, with next steps to implement improvements.",
+   "who": "PM compiles from the Project-End Review Meeting · PCT and BM contribute",
+   "castor": "Governance: insist a verbal scope request becomes a Change Request Form before any estimating work starts."
+  },
+  {
+   "f": "8. Post Project Recommendations",
+   "what": "Improvement opportunities and recommendations for post-project work: extensions, maintenance, follow-up projects, follow-up business implementation, and verifying that intended benefits will be realised.",
+   "who": "PM · PO accepts the hand-over of benefit tracking",
+   "castor": "Benefits measurable only in 2029; benefit tracking for SC1–SC5 handed to Lending Operations Division."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Reference or append any relevant information by title, version, date and source or publishing organisation.",
+   "who": "PM · PSO archives",
+   "castor": "Project Handbook v1.3 · Project-End Review MoM 12 Jul 2028 · Project folder U:\\CASTOR\\"
+  }
+ ],
+ "traps": [
+  "PSC is Accountable here, not the PO — the PO is only Consulted. The PO's moment is Administrative Closure.",
+  "Written after the Project-End Review Meeting, not instead of it; the meeting's MoM is the main input.",
+  "Guide p.66 and summary table p.112 both print I A C S C C R C — no dashes.",
+  "Lessons Learned should be collected as they arise; leaving them to Closing loses them in long projects.",
+  "Benefits often cannot be measured at closure — handing benefit tracking to the permanent organisation is correct, not a failure."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project-End Report, Project CASTOR, issued 19 Jul 2028 after the Project-End Review Meeting of 12 Jul 2028",
+  "rows": [
+   [
+    "Section",
+    "Content"
+   ],
+   [
+    "2.1 Effectiveness",
+    "Four of five success criteria met at go-live: SC1 disbursement cycle time cut from 5 working days to 1; SC2 post-disbursement reconciliation same-day; SC4 manual re-keying down from ~1.400 fields per quarter to 0; SC5 both open internal-audit findings on LOS closed. SC3 (new instrument onboarding in 6 weeks) is demonstrated but not yet proven in production."
+   ],
+   [
+    "2.2 Project Evaluation",
+    "Cost: final €8,96 m against a baselined €8,4 m, +6,7%. Effort: 3.307 PD against 3.100 PD. Schedule: go-live achieved on the baselined date of 15 May 2028 after the +1 month forecast slip reported on 31 Mar 2027 was recovered. Scope: 11 approved changes, 2 postponed, 1 rejected; none altered the Business Case."
+   ],
+   [
+    "3.2 Risk Management",
+    "R-07 — loss of Levallois's key architect — was identified during Planning and materialised on 04 Oct 2027. It moved from the Risk Log to the Issue Log as I-12. The retention and knowledge-transfer clause negotiated at contract award on 18 Sep 2026 limited the loss to four weeks. R-03, non-ratification of the ESM Treaty reform, never materialised and was accepted throughout."
+   ],
+   [
+    "3.3 Stakeholder Management",
+    "The Board of Directors cabinets were not on the Project Stakeholder Matrix. The verbal request of 09 Mar 2027 that became CR-007 was the consequence. Lesson: map the cabinets as stakeholders from Initiating."
+   ],
+   [
+    "3.5 Issues and Conflict Resolution",
+    "The largest conflict was ownership of the retraining of 40 loan administrators — Transition Plan or Business Implementation Plan. It was settled in the Business Implementation Plan under the BM, and never needed change control."
+   ],
+   [
+    "3.6 Deliverables Acceptance",
+    "Marie Curie (UR) refused acceptance of the reconciliation report on 27 Apr 2028 when the parallel run overlapped an EFSF bond rollover. Partial acceptance was granted and full acceptance followed on 05 May 2028. The Deliverables Acceptance Plan handled this correctly."
+   ],
+   [
+    "4. Project Transition",
+    "Parallel run with LOS ran 08 Jan – 30 Apr 2028 with no disbursement failures. Transition to operations on 15 May 2028; LOS decommissioned 30 Jun 2028."
+   ],
+   [
+    "5. Business Implementation",
+    "40 loan administrators retrained by 30 Apr 2028 under the Business Implementation Group led by Grace Hopper. Two roles were redesigned; segregation of duties is now enforced by the platform rather than by procedure."
+   ],
+   [
+    "6.1 Participating Organisation",
+    "Levallois Systems delivered both releases on their baselined dates. Estimating on data migration was optimistic: WP4 closed at 85% budget performance."
+   ],
+   [
+    "7. Lessons Learned and Best Practices",
+    "Governance: a verbal scope request must become a Change Request Form before any estimating effort is spent — this saved 145 PD on CR-007. Project management: the monthly one-page Status Report kept the PSC out of task-level detail. Risk: contractual retention clauses are a usable risk response for key-person risk."
+   ],
+   [
+    "8. Post Project Recommendations",
+    "Benefits SC1–SC5 can only be measured over a full 2029 reporting year. Benefit tracking is handed to the Lending Operations Division under the PO. Follow-up project proposed: onboard the common backstop instrument within 6 weeks of the ESM Treaty reform entering into force, reusing the configuration engine and re-opening CR-007."
+   ]
+  ]
+ }
+}

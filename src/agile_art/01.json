@@ -1,0 +1,309 @@
+{
+ "n": 1,
+ "id": "the-model",
+ "name": "The PM²-Agile Model",
+ "group": "The Model",
+ "one_liner": "Agile and Lean practice tailored onto PM² governance; it replaces nothing.",
+ "purpose": "PM²-Agile is not a new Agile philosophy or approach: it tailors proven Agile and Lean practices and connects them to PM², so teams can apply Agile values while keeping enterprise awareness and compliance at the overall project level. It is framed by the PM² methodology, which supplies the governance model and the artefacts throughout the whole lifecycle. What changes is how the delivery work is organised, not whether the project is governed.",
+ "guide_page": 15,
+ "meta": [
+  [
+   "Guide reference",
+   "§3.3, pp. 15–16 (chapter 3 runs pp. 13–26)"
+  ],
+  [
+   "What it is",
+   "A tailoring of Agile & Lean onto PM², not a replacement for it"
+  ],
+  [
+   "What it changes",
+   "How delivery work is run; governance, phases and artefacts stay"
+  ],
+  [
+   "Elements provided",
+   "Seven — roles, lifecycle integration, themes, ceremonies, artefacts, glossary, tools"
+  ],
+  [
+   "Principles",
+   "12 PM²-Agile principles, adapted from the Agile Manifesto"
+  ],
+  [
+   "Ceremonies",
+   "Five — Iteration Planning, Daily Stand-up, Release Planning, Iteration Review, Iteration Retrospective"
+  ],
+  [
+   "Themes",
+   "14 areas of knowledge (chapter 4, pp. 27–40)"
+  ],
+  [
+   "Agile RASCI columns",
+   "BM · PM · TeCo · PrOw · ArOw · ATeM"
+  ]
+ ],
+ "rasci": null,
+ "diagram": [
+  {
+   "sec": "A. What PM² supplies and PM²-Agile keeps",
+   "items": [
+    "A project governance structure: directing, managing and performing layers",
+    "A serial four-phase lifecycle with clear project-approval milestones",
+    "Process guidelines, artefact templates and guidelines for using them",
+    "A set of effective mindsets (the 11 PM² Mindsets and the IAQs)",
+    "PM²-Agile does not replace any part of PM² — it expands it (p. 2)"
+   ]
+  },
+  {
+   "sec": "B. What PM²-Agile adds — the seven elements (p. 15)",
+   "items": [
+    "1. Roles & Responsibilities, as an extension to the PM² governance",
+    "2. Integration with the overall PM² project lifecycle",
+    "3. Core Themes",
+    "4. A key set of Ceremonies",
+    "5. A set of suggested Agile artefacts, extending the PM² artefacts",
+    "6. An Agile glossary",
+    "7. Agile Tools & Techniques"
+   ]
+  },
+  {
+   "sec": "C. Where the Agile team sits — the A-PCT",
+   "items": [
+    "PM²-Agile expands the Performing layer only (p. 61)",
+    "There is one project team and only one Project Core Team (PCT)",
+    "A PCT applying PM²-Agile is called the Agile PCT (A-PCT)",
+    "Four core roles: Team Coordinator, Product Owner, Architecture Owner, Agile Team Member",
+    "Agile roles are not people; the roles are fulfilled by people"
+   ]
+  },
+  {
+   "sec": "D. The rhythm — three cycle levels, one CIR beat",
+   "items": [
+    "Daily cycles → Iterations → Releases (Fig. 3.10, p. 19)",
+    "Every cycle follows the CIR rhythm: Coordinate, Implement, Review",
+    "Value is delivered and feedback collected at all three levels",
+    "Be serial in the large, and iterative in the small (driver, p. 23)"
+   ]
+  },
+  {
+   "sec": "E. The five ceremonies, mapped to CIR (p. 41)",
+   "items": [
+    "Coordinate → Iteration Planning · Daily Stand-up · Release Planning",
+    "Implement → no prescribed ceremony; engineering and co-creation techniques instead",
+    "Review → Iteration Review · Iteration Retrospective",
+    "Ceremonies are not a silver bullet: they need roles, artefacts, tools and mindsets around them"
+   ]
+  },
+  {
+   "sec": "F. The 14 Themes (chapter 4, pp. 27–40)",
+   "items": [
+    "Lean UX · Planning · Coordination and Reporting · Requirements",
+    "Estimation and Prioritisation · Risks · Quality · Evolution & Change",
+    "Architecture · Compliance & Security · Development",
+    "Software Configuration Management · Testing · Deployment & Transition"
+   ]
+  },
+  {
+   "sec": "G. Artefacts, in three groups (§3.5, p. 24; §7, p. 67)",
+   "items": [
+    "IT governance: Business Case, Project Charter, Architecture Overview, Operational Model — mandatory when the solution includes an information system",
+    "Agile-specific: Development Handbook, Development Work Plan (Work Items List + Release Plan + Iteration Plan), Test Plans, Deployment Plan",
+    "Coordination & reporting: Development Status Report, PM²-Agile Logs (incl. the Retrospectives Log)",
+    "Agile does not mean no documentation, but just enough — defined by the project and by corporate needs for transparency, traceability and control"
+   ]
+  },
+  {
+   "sec": "H. Tailoring & customisation (§3.6, pp. 25–26)",
+   "items": [
+    "PM²-Agile is not one-size-fits-all; tailor it and let it evolve each iteration or release",
+    "Tailoring changes process steps, artefact contents or the distribution of responsibilities",
+    "The Development Handbook documents how and why PM²-Agile was tailored",
+    "Responsibilities for review and approval are recorded in a RASCI table"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "PM²-Agile",
+   "what": "An offering that enables Agile practices in any PM² project by tailoring proven Agile and Lean practice and connecting it to PM².",
+   "who": "CoEPM² owns it · the A-PCT applies it",
+   "pollux": "POLLUX is delivered PM²-Agile; its predecessor CASTOR was delivered PM² core."
+  },
+  {
+   "f": "\"Does not replace PM²\"",
+   "what": "The governance layers, Business Case, Project Charter, phases and approval milestones all remain. Agile changes how the Executing work is delivered.",
+   "who": "PM keeps the PM² role",
+   "pollux": "Medici funds POLLUX because he still gets a Business Case, a Charter and gates."
+  },
+  {
+   "f": "Why choose PM²-Agile",
+   "what": "Chosen when requirements are genuinely uncertain and value arrives incrementally; PM² acknowledges uncertainty and endorses an enterprise-aware Agile approach.",
+   "who": "Argued in the Business Case · agreed with the AGB",
+   "pollux": "Nobody agrees what the exposure report should contain; each quarter the requirements change."
+  },
+  {
+   "f": "Enterprise awareness",
+   "what": "Twelfth principle: Agile practice must respect IT governance, enterprise architecture and interoperability, and collaborate with teams following other approaches.",
+   "who": "ArOw and PM guard it",
+   "pollux": "National-authority access pulls DPC Brandeis and LISO Turing into the Work Items List."
+  },
+  {
+   "f": "The 12 PM²-Agile Principles",
+   "what": "The Agile Manifesto principles adopted with modifications: early continuous delivery, welcome change, deliver value frequently, quality, simplicity, sustainable pace, enterprise awareness.",
+   "who": "Whole project team",
+   "pollux": "A new report view in one iteration instead of one quarter is principle one in practice."
+  },
+  {
+   "f": "PM²-Agile Mindsets",
+   "what": "Three shifts from the Manifesto: focus on solution delivery, on all project stakeholders, and on the organisational ecosystem and its improvement.",
+   "who": "PM and A-PCT",
+   "pollux": "Risk, the Board and Finance are all stakeholders; none of them is \"the customer\"."
+  },
+  {
+   "f": "Driver: no Agile projects",
+   "what": "\"There is no such thing as an Agile project. There are only PM²-Agile projects.\" Agile team members are members of the PM² Project Core Team.",
+   "who": "Stated to every stakeholder",
+   "pollux": "Gantt is told POLLUX is agile and assumes no schedule; there are three levels of plan."
+  },
+  {
+   "f": "Agile Project Core Team (A-PCT)",
+   "what": "The name for a Project Core Team applying PM²-Agile. There is one project team and only one PCT; PM²-Agile expands the performing layer.",
+   "who": "TeCo · PrOw · ArOw · ATeMs",
+   "pollux": "Lovelace, Curie, Einstein, plus Lamarr, Babbage and Eiffel building."
+  },
+  {
+   "f": "Team Coordinator (TeCo)",
+   "what": "Facilitator and team coach; creates and maintains the conditions for delivery, facilitates planning, estimation and decisions, reports progress to the PM.",
+   "who": "Facilitates; does not command",
+   "pollux": "Ada Lovelace, the CASTOR business analyst, promoted to Team Coordinator."
+  },
+  {
+   "f": "Product Owner (PrOw)",
+   "what": "The single voice of the stakeholders inside the A-PCT; continuously prioritises the Work Items List and clarifies domain questions.",
+   "who": "Owns and prioritises the WIL",
+   "pollux": "Marie Curie, Head of Reporting; nobody argues with her acceptance criteria."
+  },
+  {
+   "f": "Architecture Owner (ArOw)",
+   "what": "Solution architect responsible for the team's architecture decisions; guides rather than dictates, and is expected to deliver work like any other member.",
+   "who": "Also acts as an ATeM",
+   "pollux": "Albert Einstein, seconded from Enterprise Architecture; every enabler story starts with him."
+  },
+  {
+   "f": "Agile Team Member (ATeM)",
+   "what": "Builds the information system: analysis, design, programming, testing, planning and estimation. Cross-disciplinary generalists rather than narrow specialists.",
+   "who": "Decides how the work is done",
+   "pollux": "Hedy Lamarr, Charles Babbage and Gustave Eiffel, seconded lead from Levallois Systems."
+  },
+  {
+   "f": "Business Manager (BM)",
+   "what": "Unchanged PM² role: delegate of the Project Owner on the daily life of the project, collaborating with the PM and supporting the PrOw on priorities.",
+   "who": "Supports, never owns, the WIL",
+   "pollux": "Grace Hopper, Senior Loan Operations Officer, still the business's daily voice."
+  },
+  {
+   "f": "Project Manager (PM)",
+   "what": "Responsible for the whole project and its deliverables; informed of iteration goals and outcomes, accountable for the development plans and reports.",
+   "who": "Outside the A-PCT, not deleted",
+   "pollux": "You keep the PM² role; PM²-Agile does not delete it."
+  },
+  {
+   "f": "CIR rhythm",
+   "what": "Coordinate, Implement, Review — the beat every cycle follows, whatever its duration: daily cycles, iterations and releases alike.",
+   "who": "A-PCT",
+   "pollux": "Stand-up each morning, two-week iterations, roughly quarterly releases."
+  },
+  {
+   "f": "Themes",
+   "what": "Fourteen areas of knowledge where PM² concepts had to be adjusted for Agile values — from Lean UX and Planning through to Deployment & Transition.",
+   "who": "Tailored per project",
+   "pollux": "Compliance & Security is live: national-authority access, DPC and LISO reviews."
+  },
+  {
+   "f": "IT governance artefacts",
+   "what": "Business Case, Project Charter, Architecture Overview and Operational Model — mandatory for projects whose solution includes an information system.",
+   "who": "PM accountable · ArOw responsible for the last two",
+   "pollux": "Business Case and Charter approved 12 Oct 2028, before any iteration existed."
+  },
+  {
+   "f": "Development Handbook",
+   "what": "Records how and why PM²-Agile was tailored for this project: deviations, roles, tools, formats, review formality, and a RASCI for approvals.",
+   "who": "TeCo R · PM A",
+   "pollux": "Baselined 27 Nov 2028 with the Development Work Plan, before the RfE gate."
+  },
+  {
+   "f": "Development Work Plan",
+   "what": "Container of three levels of plan: the Work Items List, the Release Plan and the Iteration Plans. Becomes part of the Project Work Plan.",
+   "who": "TeCo R · PM A",
+   "pollux": "The answer to Gantt: agile POLLUX has a schedule, at three levels of detail."
+  },
+  {
+   "f": "RAM (RASCI)",
+   "what": "Responsible, Accountable, Supports, Consulted, Informed. Every PM²-Agile ceremony and artefact carries one, with columns BM, PM, TeCo, PrOw, ArOw, ATeM.",
+   "who": "Read per ceremony",
+   "pollux": "Recorded in the POLLUX Development Handbook so nobody re-argues who decides."
+  }
+ ],
+ "traps": [
+  "\"An Agile project\" is wrong wording — there are only PM²-Agile projects.",
+  "PM²-Agile is not Scrum; Scrum covers construction, not the whole project lifecycle.",
+  "Agile teams do document and do plan — just enough, at three levels.",
+  "Roles are not people: one person may hold two roles, and ArOw also builds.",
+  "Tailoring is recorded in the Development Handbook, not in the Project Charter."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX Development Handbook §2, tailoring decisions (baselined 27 Nov 2028)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Project",
+    "POLLUX — Member-State Exposure Reporting Portal, ESM (Luxembourg, Kirchberg)"
+   ],
+   [
+    "Delivery approach",
+    "PM²-Agile; PM² governance, phases and gates unchanged"
+   ],
+   [
+    "Rationale for agile",
+    "Requirement not knowable in advance; users cannot describe the report until they see it"
+   ],
+   [
+    "What is NOT tailored away",
+    "Business Case, Project Charter, Architecture Overview, Operational Model, the four phases"
+   ],
+   [
+    "A-PCT composition",
+    "TeCo Ada Lovelace · PrOw Marie Curie · ArOw Albert Einstein · ATeMs Lamarr, Babbage, Eiffel"
+   ],
+   [
+    "Iteration length",
+    "Two weeks, fixed for the whole project"
+   ],
+   [
+    "Release cadence",
+    "Roughly quarterly — four releases, 29 Mar 2029 to 20 Dec 2029"
+   ],
+   [
+    "Ceremonies adopted",
+    "All five, unmodified: Iteration Planning, Daily Stand-up, Release Planning, Iteration Review, Iteration Retrospective"
+   ],
+   [
+    "Development Work Plan",
+    "Work Items List (JIRA) + Release Plan + one Iteration Plan per iteration"
+   ],
+   [
+    "Compliance additions to the DoD",
+    "Accessibility check and data-protection screening (DPC Brandeis, LISO Turing)"
+   ],
+   [
+    "Budget / effort / duration",
+    "€4.6 m · 1,850 PD · 18 months"
+   ],
+   [
+    "Disclaimer",
+    "Fictional scenario; no real ESM project or staff is described"
+   ]
+  ]
+ }
+}

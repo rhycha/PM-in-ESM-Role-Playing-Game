@@ -1,0 +1,287 @@
+{
+ "n": 1,
+ "id": "project-initiation-request",
+ "name": "Project Initiation Request",
+ "family": "Initiating",
+ "one_liner": "The one-page ask: here is the problem, roughly this big, please let us write a Business Case.",
+ "purpose": "The Project Initiation Request is a project's starting point and formalises its initiation: it captures the current situation (problem, need or opportunity) and the desired outcomes so they can be explored further. It carries high-level effort, cost, timeframe and type of delivery, the expected impact and success criteria, the link to the organisation's strategic direction, and the first assumptions, constraints and risks. Approving it authorises work on a more elaborate Business Case — not the project.",
+ "guide_page": 32,
+ "rasci": {
+  "A": "PO",
+  "R": "BM",
+  "row": {
+   "AGB": "I",
+   "PSC": "n.a.",
+   "PO": "A/S",
+   "BM": "R",
+   "BIG": "S/C",
+   "SP": "I",
+   "PM": "n.a.",
+   "PCT": "n.a."
+  }
+ },
+ "created_in": "Initiating Phase",
+ "approved_by": "Project Owner (PO), or a higher-level Appropriate Governance Body (AGB) for a formal approval route",
+ "inputs": [
+  "A problem, a need or an opportunity expressed by the initiator",
+  "Initiating Meeting discussion",
+  "Lessons learned from similar past projects"
+ ],
+ "feeds": [
+  "Business Case",
+  "Project Charter"
+ ],
+ "gate": "RfP",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Drafted, submitted, approved; content copied into Business Case and Charter"
+  },
+  {
+   "phase": "Planning",
+   "what": "Lifecycle already ended — superseded, not maintained"
+  },
+  {
+   "phase": "Executing",
+   "what": "Historical record only; never re-baselined"
+  },
+  {
+   "phase": "Closing",
+   "what": "Archived as the project's origin document"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Settings: Document Title · Project Title · Document Author · Project Owner · Project Manager · Version · Sensitivity · Date",
+    "Document Approver(s) and Reviewer(s): Name · Role · Approve/Review · Date",
+    "Document history: Revision · Date · Created by · Short Description of Changes",
+    "Configuration Management: Document Location",
+    "Notes for Templates (orange = fill in, blue = guidance, green = customisable)"
+   ]
+  },
+  {
+   "sec": "Header grid — the parties",
+   "items": [
+    "Project Title",
+    "Initiator",
+    "Organisation / Unit",
+    "Project Owner (PO)",
+    "Solution Provider (SP)",
+    "Approving Authority"
+   ]
+  },
+  {
+   "sec": "Header grid — size & timing",
+   "items": [
+    "Date of Request",
+    "Estimated Effort (PDs)",
+    "Target Delivery Date",
+    "Type of Delivery: In-house / Outsourced / Mix / Not-known"
+   ]
+  },
+  {
+   "sec": "Why now — the situation",
+   "items": [
+    "Context / Situation (Business Need / Problem / Opportunity)",
+    "Legal Basis"
+   ]
+  },
+  {
+   "sec": "What changes — the intent",
+   "items": [
+    "Outcomes (high level)",
+    "Impact (high level)",
+    "Success Criteria"
+   ]
+  },
+  {
+   "sec": "What is still unknown",
+   "items": [
+    "Assumptions (high level)",
+    "Constraints (high level)",
+    "Risks (high level)"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Project Title",
+   "what": "Initial project title proposal — provisional, will be confirmed in the Business Case and Charter.",
+   "who": "Initiator drafts · PO confirms",
+   "castor": "Project CASTOR — Renewal of the Lending Operations System (LOS)"
+  },
+  {
+   "f": "Initiator",
+   "what": "Any person, usually from the business community, can define a project request; the person raising it is named here.",
+   "who": "Anyone · in practice the PO delegates to the BM",
+   "castor": "Grace Hopper, Senior Loan Operations Officer, for Lending Operations"
+  },
+  {
+   "f": "Organisation / Unit",
+   "what": "The organisation or unit requesting the project — the side that will own and benefit from the outputs.",
+   "who": "Initiator states",
+   "castor": "European Stability Mechanism — Lending Operations Division, Luxembourg (Kirchberg)"
+  },
+  {
+   "f": "Project Owner (PO)",
+   "what": "The organisation funding and mainly benefiting from the project's outputs nominates a person as owner of the project.",
+   "who": "Requesting organisation nominates",
+   "castor": "Florence Nightingale, Head of Lending Operations Division"
+  },
+  {
+   "f": "Date of Request",
+   "what": "The date the Project Initiation Request is completed — the project's formal starting point.",
+   "who": "Initiator enters",
+   "castor": "12 Jan 2026"
+  },
+  {
+   "f": "Solution Provider (SP)",
+   "what": "The organisation that will execute the project and be accountable for the deliverables nominates a person to act as supplier.",
+   "who": "Provider organisation nominates",
+   "castor": "Leonardo da Vinci, Head of IT & Digital Division"
+  },
+  {
+   "f": "Approving Authority",
+   "what": "The appropriate decision maker as specified in the organisation's governance structure — informal (PO) or formal (AGB).",
+   "who": "Set by governance rules",
+   "castor": "Corporate Investment Board (CIB), chaired by Lorenzo de' Medici, Deputy Managing Director"
+  },
+  {
+   "f": "Estimated Effort (PDs)",
+   "what": "High-level estimate in person-days; any other known costs should be mentioned here too.",
+   "who": "BM drafts · SP sanity-checks",
+   "castor": "3,100 PD; indicative cost €8.4 m"
+  },
+  {
+   "f": "Target Delivery Date",
+   "what": "The date the project delivery is needed by the business — a need, not yet a commitment.",
+   "who": "PO sets",
+   "castor": "15 May 2028 (transition / go-live); 26-month duration"
+  },
+  {
+   "f": "Type of Delivery",
+   "what": "Tick one: In-house, Outsourced, Mix, or Not-known — the first signal about procurement and the Outsourcing Plan.",
+   "who": "SP advises · PO agrees",
+   "castor": "Mix — in-house core team plus outsourced platform implementation"
+  },
+  {
+   "f": "Context / Situation (Business Need / Problem / Opportunity)",
+   "what": "Why a project should be initiated: the situation to be addressed as a need, a problem, an opportunity, or a combination.",
+   "who": "BM writes · BIG contributes",
+   "castor": "LOS is 14 years old; disbursement instructions re-keyed by hand across three systems; reconciliation takes three working days."
+  },
+  {
+   "f": "Legal Basis",
+   "what": "The legal basis, if any, plus the link to the organisation's strategic goals; can be a directive from senior management.",
+   "who": "BM writes · Legal consulted",
+   "castor": "No dedicated legal act; ESM lending mandate, plus two open Internal Audit findings on segregation of duties and audit-trail completeness."
+  },
+  {
+   "f": "Outcomes (high level)",
+   "what": "Main expected outcomes — the future or desired state after the change; measurable benefits must be linkable to them.",
+   "who": "PO owns · BM drafts",
+   "castor": "Straight-through processing from loan agreement to disbursement and repayment; instrument-agnostic product configuration; same-day reconciliation."
+  },
+  {
+   "f": "Impact (high level)",
+   "what": "Impact of the situation and/or solution internally (processes, people, culture) and on external stakeholders; kept high level.",
+   "who": "BM writes · BIG contributes",
+   "castor": "40 loan administrators change how they work; Finance & Control, Risk and Legal processes touched; no impact on beneficiary member states."
+  },
+  {
+   "f": "Success Criteria",
+   "what": "High-level criteria on which the proposed project can be judged a success or failure; may cover scope, schedule and costs.",
+   "who": "PO sets · BM records",
+   "castor": "SC1 disbursement cycle 5 working days → 1; SC3 new instrument onboarding 9 months → 6 weeks; SC5 open audit findings 2 → 0."
+  },
+  {
+   "f": "Assumptions (high level)",
+   "what": "Assumptions on business, technology, resources, environment, scope, expectations or schedule — treated as facts, still to be validated.",
+   "who": "BM drafts · SP validates",
+   "castor": "A configurable market platform can cover all ESM instruments by configuration; business experts released part-time from Lending Operations."
+  },
+  {
+   "f": "Constraints (high level)",
+   "what": "Key constraints on schedule, budget, resources or products to be used or acquired, including compliance and external constraints.",
+   "who": "BM drafts · SP and PO confirm",
+   "castor": "€8.4 m envelope and 26 months; no change freeze breaches during bond rollovers; procurement lead time before contract award."
+  },
+  {
+   "f": "Risks (high level)",
+   "what": "Initial risks identified at this stage, focused on the business risks rather than technical detail.",
+   "who": "BM drafts · PO owns business risk",
+   "castor": "Common-backstop ratification incomplete (Italy has not ratified), so backstop scope may shift; scarce LOS knowledge concentrated in few people."
+  }
+ ],
+ "traps": [
+  "Anyone may initiate it, but the BM is Responsible and the PO Accountable (A/S).",
+  "The PSC is n.a. here — it does not exist yet, so it cannot approve the request.",
+  "Approving the request authorises the Business Case, not the project.",
+  "Its lifecycle ends once the Business Case and Charter exist; those two stay live.",
+  "The PM is normally not yet assigned — the SP appoints the PM after the Business Case."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Initiation Request, Project CASTOR, 12 Jan 2026 (v1.0)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Project Title",
+    "Project CASTOR — Renewal of the Lending Operations System (LOS)"
+   ],
+   [
+    "Initiator",
+    "Grace Hopper, Senior Loan Operations Officer"
+   ],
+   [
+    "Organisation / Unit",
+    "European Stability Mechanism — Lending Operations Division"
+   ],
+   [
+    "Project Owner (PO)",
+    "Florence Nightingale, Head of Lending Operations Division"
+   ],
+   [
+    "Solution Provider (SP)",
+    "Leonardo da Vinci, Head of IT & Digital Division"
+   ],
+   [
+    "Date of Request",
+    "12 Jan 2026"
+   ],
+   [
+    "Approving Authority",
+    "Corporate Investment Board, chaired by Lorenzo de' Medici (Deputy Managing Director)"
+   ],
+   [
+    "Estimated Effort (PDs)",
+    "3,100 PD — indicative cost €8.4 m"
+   ],
+   [
+    "Target Delivery Date",
+    "15 May 2028"
+   ],
+   [
+    "Type of Delivery",
+    "Mix (in-house core team + outsourced platform implementation)"
+   ],
+   [
+    "Context / Situation",
+    "LOS dates from the EFSF era and is 14 years old. Disbursement instructions are re-keyed by hand between LOS, treasury and the payment gateway; reconciliation takes three working days."
+   ],
+   [
+    "Success Criteria",
+    "Disbursement cycle 5 working days → 1; reconciliation 3 days → same day; new instrument onboarding 9 months → 6 weeks; 2 open audit findings → 0."
+   ],
+   [
+    "Risks (high level)",
+    "Common-backstop ratification incomplete, so the backstop instrument is a planned rather than live capability."
+   ]
+  ]
+ }
+}

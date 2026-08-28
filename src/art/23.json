@@ -1,0 +1,256 @@
+{
+ "n": 23,
+ "id": "risk-log",
+ "name": "Risk Log",
+ "family": "Log",
+ "one_liner": "Every identified risk in Cause-Risk-Effect form, scored L x I, with an owner and a response strategy.",
+ "purpose": "The Risk Log is the central repository for all risks identified by the project, holding for each risk its likelihood, impact, risk level, response strategy and risk owner. It is used to document and communicate risks and the agreed risk-response actions and responsibilities, and is revised on the reassessment cycle fixed by the Risk Management Plan. Medium-to-high level risks are dealt with at a higher priority and reported regularly to the Project Steering Committee (PSC).",
+ "guide_page": 97,
+ "rasci": null,
+ "created_in": "Initiating Phase (set up with the Issue and Decision Logs, p.31)",
+ "approved_by": "n/a - maintained by the Project Manager (PM); for Manage Risk the PM is Responsible and the Project Owner (PO) Accountable (p.78)",
+ "inputs": [
+  "Risk Management Plan",
+  "Business Case and Project Charter",
+  "Risk Management Process",
+  "Project Handbook"
+ ],
+ "feeds": [
+  "Project Status Report",
+  "Project Work Plan",
+  "Project Logs",
+  "Project-End Report"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Log set up; first risks taken from the Business Case"
+  },
+  {
+   "phase": "Planning",
+   "what": "Risk Management Plan tailors scales, log structure and escalation thresholds"
+  },
+  {
+   "phase": "Executing",
+   "what": "New risks added at any point; owners implement response actions"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Reassessed on the agreed cycle; critical risks escalated to the PSC"
+  },
+  {
+   "phase": "Closing",
+   "what": "Residual risks handed over; log feeds the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Risk Identification and Description",
+   "items": [
+    "ID",
+    "Category",
+    "Title",
+    "Description",
+    "Status",
+    "Identified By",
+    "Identification Date"
+   ]
+  },
+  {
+   "sec": "Risk Assessment",
+   "items": [
+    "Likelihood (L)",
+    "Impact (I)",
+    "Risk Level (L*I)",
+    "Risk Owner",
+    "Escalation"
+   ]
+  },
+  {
+   "sec": "Risk Response",
+   "items": [
+    "Risk Response Strategy",
+    "Action Details (effort & responsible)",
+    "Target Date",
+    "Traceability/Comments"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "ID",
+   "what": "The risk identifier. The template ships rows pre-numbered RL01-RL07; projects normally tailor the scheme in the Risk Management Plan.",
+   "who": "PM assigns on registration",
+   "castor": "R-07"
+  },
+  {
+   "f": "Category",
+   "what": "Area affected by the risk: business, IT, people & organisation, external or legal; the template suggests Business, Staffing, Contractor, Legal.",
+   "who": "PM, from the categories set in the Risk Management Plan",
+   "castor": "Contractor"
+  },
+  {
+   "f": "Title",
+   "what": "A short title for the risk, readable in a status report line.",
+   "who": "PM writes it",
+   "castor": "Loss of Levallois's lead platform architect"
+  },
+  {
+   "f": "Description",
+   "what": "Structured Cause-Risk-Effect wording: 'Because of (CONDITION), it might be that (EVENT), which will lead to (IMPACT)', plus risk inter-dependencies.",
+   "who": "Identifier drafts; PM edits into Cause-Risk-Effect form",
+   "castor": "Because Levallois's design authority rests on a single architect, that architect might leave, delaying Release 2 (17/12/27)."
+  },
+  {
+   "f": "Status",
+   "what": "One of: Proposed, Assessing, Awaiting for Approval, Approved, Rejected, Closed. The guide prints 'Waiting for Approval'; the glossary prints 'investigating' for 'Assessing'.",
+   "who": "PM updates at each reassessment",
+   "castor": "Approved - accepted as a live risk on 16/10/26"
+  },
+  {
+   "f": "Identified By",
+   "what": "The name of the person who identified the risk. Anyone may identify a risk, at any point in the project.",
+   "who": "Whoever raises the risk",
+   "castor": "Nikola Tesla, solution architect (PCT)"
+  },
+  {
+   "f": "Identification Date",
+   "what": "The date on which the risk was identified, dd/mm/yy.",
+   "who": "PM records on registration",
+   "castor": "25/09/26, one week after contract award to Levallois Systems"
+  },
+  {
+   "f": "Likelihood (L)",
+   "what": "Numerical estimate of the probability that the risk occurs: 5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low.",
+   "who": "PM with the risk owner, at each reassessment",
+   "castor": "4 - raised from 3 after Release 1 (26/03/27)"
+  },
+  {
+   "f": "Impact (I)",
+   "what": "Numerical value for the severity of the risk's impact should it occur: 5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low.",
+   "who": "PM with the risk owner",
+   "castor": "5 - Release 2 and the go-live date would slip"
+  },
+  {
+   "f": "Risk Level (L*I)",
+   "what": "The product of the two previous columns: RL = L * I. Values run 1-25 and set the priority and escalation band.",
+   "who": "Calculated, not judged",
+   "castor": "20 (4 x 5) - top risk in the 31/03/27 Project Status Report"
+  },
+  {
+   "f": "Risk Owner",
+   "what": "The person accountable for managing and monitoring the risk. Need not be the PM, and is often outside the Managing Layer.",
+   "who": "PM proposes; PSC endorses for escalated risks",
+   "castor": "Leonardo da Vinci (SP), Head of IT & Digital Division"
+  },
+  {
+   "f": "Escalation",
+   "what": "Should the risk be escalated to the Directing or Steering Layers? Yes or No, per the thresholds in the Risk Management Plan.",
+   "who": "PM decides against the agreed threshold",
+   "castor": "Yes - RL 20 reported to the PSC on 31/03/27"
+  },
+  {
+   "f": "Risk Response Strategy",
+   "what": "Threats: Avoid, Reduce, Accept, Transfer/Share. Opportunities: Exploit, Enhance, Accept, Share. The template lists only the four threat strategies.",
+   "who": "Risk owner proposes; PM records",
+   "castor": "Reduce"
+  },
+  {
+   "f": "Action Details (effort & responsible)",
+   "what": "The response action's objective, scope, deliverables, person responsible and estimated effort. Actions needing significant effort also go in the Project Work Plan.",
+   "who": "Risk owner defines; action responsible executes",
+   "castor": "Key-person clause plus 3-week knowledge transfer; Nikola Tesla co-designs; 15 PD."
+  },
+  {
+   "f": "Target Date",
+   "what": "The date on which the risk response is expected to be implemented, dd/mm/yy.",
+   "who": "Risk owner commits; PM tracks",
+   "castor": "18/12/26"
+  },
+  {
+   "f": "Traceability/Comments",
+   "what": "IDs of the Project Work Plan tasks implementing the response, plus IDs of related changes, issues or decisions, and any comments.",
+   "who": "PM maintains",
+   "castor": "PWP task 4.7; materialised 14/04/27 and re-raised as Issue I-11"
+  }
+ ],
+ "traps": [
+  "RL = L x I, a product; never L + I and never an average.",
+  "Appendix B prints status 'Assessing'; the glossary prints 'investigating' - same step.",
+  "Risk may happen; issue already happened; change alters the baseline. R-07 became I-11.",
+  "Risk Management Plan defines the process; the Risk Log holds the risks.",
+  "Exploit, Enhance, Share are opportunity strategies; Avoid, Reduce, Transfer are threats."
+ ],
+ "castor_excerpt": {
+  "title": "Extract - Risk Log, as at 31 Mar 2027 (R-07 still a risk; it materialises 14 Apr 2027)",
+  "rows": [
+   [
+    "ID",
+    "Risk",
+    "Status",
+    "L",
+    "I",
+    "RL",
+    "Risk Owner",
+    "Strategy",
+    "Traceability/Comments"
+   ],
+   [
+    "R-03",
+    "Common backstop not ratified, so backstop requirements may still change",
+    "Approved",
+    "3",
+    "4",
+    "12",
+    "Florence Nightingale (PO)",
+    "Accept",
+    "Drives CR-014"
+   ],
+   [
+    "R-05",
+    "40 loan administrators unavailable for retraining before go-live",
+    "Approved",
+    "3",
+    "3",
+    "9",
+    "Grace Hopper (BM)",
+    "Reduce",
+    "Business Implementation Plan; D-05"
+   ],
+   [
+    "R-07",
+    "Loss of Levallois's lead platform architect delays Release 2",
+    "Approved",
+    "4",
+    "5",
+    "20",
+    "Leonardo da Vinci (SP)",
+    "Reduce",
+    "PWP 4.7; became I-11 (14/04/27, clause held) and I-14 (04/10/27, Tesla — clause did not)"
+   ],
+   [
+    "R-09",
+    "Parallel run 08/01-30/04/28 overlaps an EFSF bond rollover",
+    "Assessing",
+    "4",
+    "3",
+    "12",
+    "Grace Hopper (BM)",
+    "Reduce",
+    "Parallel run window"
+   ],
+   [
+    "R-11",
+    "OPPORTUNITY: Levallois accelerators could cut instrument onboarding below the 6-week SC3 target",
+    "Proposed",
+    "3",
+    "3",
+    "9",
+    "Nikola Tesla (PCT)",
+    "Enhance",
+    "Success criterion SC3"
+   ]
+  ]
+ }
+}

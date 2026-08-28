@@ -1,0 +1,309 @@
+{
+ "n": 6,
+ "id": "daily-stand-up",
+ "name": "Daily Stand-up",
+ "group": "Ceremonies",
+ "one_liner": "Sixty to ninety seconds each: alignment on the goal, blockers, confidence.",
+ "purpose": "The Daily Stand-up is the mechanism that keeps the A-PCT aligned towards its iteration goal and identifies potential obstacles. During it the Agile Team Members check the heartbeat of the project and get individual commitments from each other until the next checkpoint, usually twenty-four hours. It is neither a status update meeting nor a problem-solving meeting: issues raised are registered and discussed by the relevant team members immediately after the meeting.",
+ "guide_page": 45,
+ "meta": [
+  [
+   "Frequency",
+   "Daily — same time, same place"
+  ],
+  [
+   "Timebox",
+   "Sixty to ninety seconds per Agile Team Member"
+  ],
+  [
+   "Worked example",
+   "A team of ten ATeMs → maximum duration about fifteen minutes"
+  ],
+  [
+   "Checkpoint horizon",
+   "Until the next checkpoint, usually twenty-four hours"
+  ],
+  [
+   "Facilitated by",
+   "Team Coordinator (TeCo) — Supports"
+  ],
+  [
+   "Responsible / Accountable",
+   "ATeM Responsible and Accountable · ArOw also Responsible (acts as an ATeM here)"
+  ],
+  [
+   "Note in the RAM",
+   "The Business Manager is marked N/A — the only ceremony where a role is not applicable"
+  ],
+  [
+   "Main outputs",
+   "Individual commitments to the next checkpoint · the \"meet after\" list"
+  ],
+  [
+   "Guide reference",
+   "§5.2, pp. 45–47 (RAM p. 47; Appendix B.2 p. 95, under Executing)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "N/A",
+   "I",
+   "S",
+   "I",
+   "R",
+   "R/A"
+  ],
+  "A": "ATeM",
+  "R": "ATeM and ArOw"
+ },
+ "diagram": [
+  {
+   "sec": "What it is not (p. 45)",
+   "items": [
+    "Not a status update meeting",
+    "Not a problem-solving meeting",
+    "Issues raised are registered, then discussed by the relevant team members immediately after the meeting"
+   ]
+  },
+  {
+   "sec": "1. Each ATeM answers the four questions",
+   "items": [
+    "What was I working on since the last checkpoint towards the iteration goal?",
+    "What will I be working on until the next checkpoint towards the iteration goal?",
+    "What blockers do I have that may prevent us from achieving the iteration goal?",
+    "How confident am I that we will accomplish the iteration goal?",
+    "Every question is framed against the iteration goal — that is what makes it alignment and not reporting"
+   ]
+  },
+  {
+   "sec": "2. Running order",
+   "items": [
+    "The Stand-up starts spontaneously when an ATeM takes the initiative and starts sharing",
+    "As she finishes, the next team member should follow",
+    "The TeCo ensures each ATeM has the chance to speak and that the guidelines are respected",
+    "Each ATeM should spend a few minutes preparing their communication beforehand"
+   ]
+  },
+  {
+   "sec": "3. Emerging topics → the \"meet after\"",
+   "items": [
+    "As information is shared, topics may emerge that need deeper analysis — especially if the iteration goal is jeopardised",
+    "The TeCo notes which ATeMs should participate and registers them for a \"meet after\"",
+    "The Parking Lot: a pre-defined space on the Kanban board, one post-it per topic with one or two names, to make the pendencies visible"
+   ]
+  },
+  {
+   "sec": "4. Closing the Stand-up",
+   "items": [
+    "After everyone has shared, the TeCo reminds the participants of their \"meet after\" so they can make the necessary arrangements",
+    "It is the Agile Team Members' sole responsibility to organise the \"meet after\", not the Team Coordinator's",
+    "By the end, the team can see the future activities and who is involved"
+   ]
+  },
+  {
+   "sec": "Guidelines (p. 46)",
+   "items": [
+    "Same time, same place — it is part of the A-PCT's daily routine",
+    "Prepare communication, even though the meeting is short",
+    "Keep everyone focused; when focus drifts the TeCo guides the ATeM back on track",
+    "Use a Kanban board — physical or digital — to illustrate what is being said",
+    "Use common sense: do not interrupt, listen carefully, be honest and transparent"
+   ]
+  },
+  {
+   "sec": "Who is where in the room",
+   "items": [
+    "TeCo — supports, facilitates, consolidates the \"meet after\"",
+    "ATeM — responsible for execution; provides information on the work and its alignment with the team and the goal",
+    "ArOw — in this particular case, acts like a regular Agile Team Member",
+    "PrOw — informed of the outcomes only if necessary",
+    "PM — is informed about the outcomes of the Daily Stand-up",
+    "BM — N/A"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Purpose",
+   "what": "Keep the A-PCT aligned towards the iteration goal and identify potential obstacles; members check the project's heartbeat and take commitments from each other.",
+   "who": "ATeMs run it · TeCo facilitates",
+   "pollux": "09:30 every working day in the Kirchberg team room, standing."
+  },
+  {
+   "f": "Question 1 — since the last checkpoint",
+   "what": "\"What was I working on since the last checkpoint towards the iteration goal?\" Work is reported against the goal, not against a task list.",
+   "who": "Each ATeM",
+   "pollux": "Babbage: the nightly instrument reference sync, first of two 8-hour tasks."
+  },
+  {
+   "f": "Question 2 — until the next checkpoint",
+   "what": "\"What will I be working on until the next checkpoint towards the iteration goal?\" This is the individual commitment the others rely on.",
+   "who": "Each ATeM",
+   "pollux": "Lamarr: the drill-through API contract for WIL-127."
+  },
+  {
+   "f": "Question 3 — blockers",
+   "what": "\"What blockers do I have that may prevent us from achieving the iteration goal?\" Blockers are named, not solved, in the meeting.",
+   "who": "Each ATeM raises · A-PCT resolves after",
+   "pollux": "Babbage: the sync window still collides with the lending-platform batch."
+  },
+  {
+   "f": "Question 4 — confidence",
+   "what": "\"How confident am I that we will accomplish the iteration goal?\" The daily echo of the Vote of Confidence taken at Iteration Planning.",
+   "who": "Each ATeM",
+   "pollux": "Babbage answered 2 on 05 Apr — the earliest warning that WIL-127 would slip."
+  },
+  {
+   "f": "Checkpoint",
+   "what": "The interval between stand-ups against which commitments are made — usually twenty-four hours.",
+   "who": "A-PCT",
+   "pollux": "Daily; POLLUX has no Friday-only or three-times-a-week variant."
+  },
+  {
+   "f": "Duration rule",
+   "what": "Sixty to ninety seconds per ATeM as a rule of thumb; with ten ATeMs the maximum duration should be about fifteen minutes.",
+   "who": "TeCo keeps time",
+   "pollux": "Four speakers, so the stand-up closes inside eight minutes."
+  },
+  {
+   "f": "Not a status meeting",
+   "what": "The ceremony exists for peer alignment, not for reporting upwards. Status for the managing layer travels via the Development Status Report.",
+   "who": "TeCo protects it",
+   "pollux": "The PM's Release 2 status question was deferred to the status report."
+  },
+  {
+   "f": "Not a problem-solving meeting",
+   "what": "Issues raised are registered and then discussed by the relevant team members immediately after the meeting, not during it.",
+   "who": "TeCo registers · ATeMs resolve after",
+   "pollux": "The batch-window debate lasted ten seconds, then moved to the meet after."
+  },
+  {
+   "f": "Spontaneous start",
+   "what": "The Stand-up starts when an ATeM takes the initiative and starts sharing; as she finishes, the next member follows. No chairperson calls on people.",
+   "who": "ATeMs",
+   "pollux": "Eiffel usually opens; the order is never fixed."
+  },
+  {
+   "f": "The \"meet after\"",
+   "what": "A follow-up session for a topic needing deeper analysis. The TeCo notes who should attend and registers it, and reminds participants at the end.",
+   "who": "TeCo registers and reminds",
+   "pollux": "05 Apr: Babbage + Einstein, batch window, ten minutes at the board."
+  },
+  {
+   "f": "Who organises the \"meet after\"",
+   "what": "It is the Agile Team Members' sole responsibility to organise it — explicitly not the Team Coordinator's.",
+   "who": "ATeMs",
+   "pollux": "Lovelace names it and stops; Babbage books the room."
+  },
+  {
+   "f": "Parking Lot",
+   "what": "A pre-defined space on the Kanban board where the TeCo posts each pendency — topic plus one or two names — so future activities and owners are visible.",
+   "who": "TeCo maintains it",
+   "pollux": "Two post-its on 05 Apr: batch window, and Finance sign-off."
+  },
+  {
+   "f": "Kanban board",
+   "what": "The visual support for the Stand-up: each ATeM should materialise her communication using elements from the board wherever possible.",
+   "who": "ATeMs",
+   "pollux": "Iteration 7 board columns mirror the WIL states plus the Parking Lot."
+  },
+  {
+   "f": "Same time, same place",
+   "what": "Holding it in the same place and time consolidates the daily routine and lets participants organise their agendas around it.",
+   "who": "A-PCT agrees once",
+   "pollux": "09:30, team room B4 — unchanged since iteration 1."
+  },
+  {
+   "f": "ArOw's position",
+   "what": "In this particular ceremony the Architecture Owner acts like a regular Agile Team Member and carries an R in the RAM.",
+   "who": "ArOw — Responsible",
+   "pollux": "Einstein answers the four questions like everyone else."
+  },
+  {
+   "f": "PrOw's position",
+   "what": "The Product Owner is informed about the outcomes of the meeting only if necessary. Attendance is not the point of the ceremony.",
+   "who": "PrOw — Informed",
+   "pollux": "Curie attends about twice a week and never speaks first."
+  },
+  {
+   "f": "PM's position",
+   "what": "The Project Manager is informed about the outcomes of the Daily Stand-up. The ceremony is not a channel for the PM to collect updates.",
+   "who": "PM — Informed",
+   "pollux": "Conflict logged in iteration 7: the PM began attending and asking for updates."
+  },
+  {
+   "f": "BM marked N/A",
+   "what": "The RAM prints N/A for the Business Manager — the role has no part in this ceremony at all, which is different from being Informed.",
+   "who": "BM — N/A",
+   "pollux": "Hopper hears iteration progress at the Review, not at the stand-up."
+  }
+ ],
+ "traps": [
+  "The BM is N/A here, not I — the only N/A in the ceremony RAMs.",
+  "The ArOw is R in the Stand-up, unlike the S it holds elsewhere.",
+  "The \"meet after\" is organised by the ATeMs, never by the TeCo.",
+  "Fifteen minutes is a consequence of ten members, not a fixed timebox.",
+  "A PM collecting status turns the Stand-up into the thing the guide forbids."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX Daily Stand-up log, Thu 05 Apr 2029, 09:30, team room B4 (day 4 of Iteration 7)",
+  "rows": [
+   [
+    "Participant",
+    "Since / Next / Blocker / Confidence"
+   ],
+   [
+    "Hedy Lamarr (ATeM)",
+    "Batch-window spike finished · next the WIL-127 drill-through API contract · no blocker · confidence 3"
+   ],
+   [
+    "Charles Babbage (ATeM)",
+    "Nightly reference sync, task 1 of 2 · next the sync window test · blocked by the lending-platform batch · confidence 2"
+   ],
+   [
+    "Gustave Eiffel (ATeM)",
+    "Maturity bucket rules drafted with Finance · next the bucket edge cases · waiting on Finance sign-off · confidence 4"
+   ],
+   [
+    "Albert Einstein (ArOw, as ATeM)",
+    "Reviewed the enabler design · next pairing with Babbage on the sync · no blocker · confidence 3"
+   ],
+   [
+    "Duration",
+    "7 minutes 40 seconds — four speakers at 60–90 seconds each"
+   ],
+   [
+    "Meet after registered",
+    "Babbage + Einstein + Lovelace — batch window, 10 minutes, straight after, at the board"
+   ],
+   [
+    "Parking Lot post-its",
+    "\"Batch window — Babbage/Einstein\" · \"Finance sign-off — Eiffel\""
+   ],
+   [
+    "Organised by",
+    "Babbage booked the meet after; Lovelace only named it"
+   ],
+   [
+    "Incident noted by the TeCo",
+    "The Project Manager attended and asked for a Release 2 status update"
+   ],
+   [
+    "Resolution",
+    "Deferred to the Development Status Report; the Stand-up is not a status meeting"
+   ],
+   [
+    "Follow-up",
+    "Raised again at the Iteration 7 Retrospective as a process item"
+   ]
+  ]
+ }
+}

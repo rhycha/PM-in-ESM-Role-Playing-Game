@@ -1,0 +1,2596 @@
+[
+ {
+  "id": "s10",
+  "act": 2,
+  "actName": "Executing",
+  "title": "Four hours, nine days",
+  "covers": [
+   "Iteration Planning"
+  ],
+  "guide_page": 41,
+  "where": "ESM, Kirchberg — team room B4, third floor",
+  "when": "03 Apr 2029, 09:00",
+  "cast": [
+   "you",
+   "lovelace",
+   "curie",
+   "einstein",
+   "lamarr",
+   "babbage",
+   "eiffel"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Release 1 went to the Board Secretariat on the twenty-ninth of March. Exposure by member state, read-only, one page. In five days they opened it forty times and asked for four things it does not do.",
+    "plain": "Release 1 was given to the Board Secretariat on 29 March. It shows exposure by member state, read-only, on one page. In five days they opened it forty times and asked for four things it cannot do."
+   },
+   {
+    "who": "narr",
+    "text": "Easter Monday was yesterday. Six iterations of burndown are taped along the wall of B4, and under them the capacity sheet Lovelace collected on Friday afternoon, as she does every fortnight.",
+    "plain": "Yesterday was Easter Monday, a public holiday. Six burndown charts are taped along the wall of room B4. Under them is the capacity sheet that Lovelace collected on Friday afternoon, as she does every two weeks."
+   },
+   {
+    "who": "lovelace",
+    "text": "Four hours. Two for every week of the iteration, and I stop at one o'clock whatever state we are in.",
+    "plain": "This meeting is four hours. That is two hours for each week of the iteration. I will stop at 13:00, whatever state we are in.",
+    "g": [
+     [
+      "Iteration Planning",
+      "the ceremony that opens an iteration: capacity, goal, tasks, commitment, confidence"
+     ]
+    ],
+    "ref": [
+     42,
+     "PM²-Agile suggests planning two hours for each iteration week"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Nine working days, not ten. Hedy sixty-three, less the ten per cent, fifty-seven. Gustave the same. Charles fifty, he has the second Thursday. Albert twenty-five. One hundred and eighty-nine hours in the room.",
+    "plain": "This iteration has nine working days, not ten. Hedy has 63 hours, less the 10 per cent allowance, so 57. Gustave the same. Charles has 50, because he is away on the second Thursday. Albert has 25. That is 189 planned hours in total.",
+    "g": [
+     [
+      "capacity",
+      "the hours each team member can actually give the iteration, holidays and allowances already removed"
+     ]
+    ],
+    "ref": [
+     43,
+     "This exercise should also consider team members' holidays, public holidays and other events"
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "The Thursday was in the sheet in February.",
+    "plain": "My day of leave on Thursday was already in the sheet in February."
+   },
+   {
+    "who": "lovelace",
+    "text": "It was. And the ten per cent is not pessimism, Charles, it is the production support you did on the fourteenth of March and did not tell me about.",
+    "plain": "It was. And the 10 per cent allowance is not pessimism, Charles. It covers the production support work you did on 14 March and did not tell me about."
+   },
+   {
+    "who": "curie",
+    "text": "Goal. A Risk analyst breaks exposure down by instrument, for any member state, and every figure on that screen traces back to the lending platform.",
+    "plain": "Here is the goal. A Risk analyst can break exposure down by instrument, for any member state, and every figure on that screen can be traced back to the lending platform.",
+    "ref": [
+     43,
+     "Defining the Iteration Goal is the Product Owner's (PrOw) responsibility"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "The list was put in order on the twenty-seventh with Grace in the room. I am not reordering it here and neither is anyone else.",
+    "plain": "The Work Items List was put in priority order on 27 March, with Grace Hopper present. I am not going to reorder it in this meeting, and neither is anyone else.",
+    "ref": [
+     42,
+     "the WIL must always be prioritized to allow the Product Owner (PrOw) proposing an Iteration Goal that is relevant and aligned"
+    ]
+   },
+   {
+    "who": "lamarr",
+    "text": "One-one-eight first, then. Instrument view. Contract, query, the two aggregations, the front end, the test scenarios. Six tasks, and I want the query one.",
+    "plain": "Then we start with WIL-118, the instrument view. It needs a contract, a query, the two aggregations, the front end and the test scenarios. That is six tasks, and I want the query task."
+   },
+   {
+    "who": "babbage",
+    "text": "One-two-one. Nightly reference sync. Sixteen hours, and before anyone says it, yes, I know.",
+    "plain": "WIL-121, the nightly reference sync. It is sixteen hours of work, and before anyone says it, yes, I know."
+   },
+   {
+    "who": "eiffel",
+    "text": "Twelve.",
+    "plain": "The limit is twelve hours."
+   },
+   {
+    "who": "babbage",
+    "text": "Two tasks of eight. The load, then the reconciliation of the reference tables. It was always two things pretending to be one.",
+    "plain": "Then it becomes two tasks of eight hours each. First the load, then the reconciliation of the reference tables. It was always two pieces of work pretending to be one.",
+    "g": [
+     [
+      "task",
+      "one person's slice of a work item, estimated in hours and never larger than twelve"
+     ]
+    ],
+    "ref": [
+     43,
+     "The Agile team member (ATeM) estimates the task (should be no bigger than 12 hours)"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "I am at fifty-seven with the bucket edge cases and Finance still owes me their rule set. Put nothing else on me.",
+    "plain": "I have used all 57 of my hours on the maturity bucket edge cases, and Finance still owes me their rule set. Do not give me any more work."
+   },
+   {
+    "who": "lovelace",
+    "text": "Charles, the sync. Can anyone in this room take it if you are under water?",
+    "plain": "Charles, the sync task. If you cannot deliver it, can anyone else in this room take it?"
+   },
+   {
+    "who": "narr",
+    "text": "Nobody answers. Lamarr looks at the ceiling. Einstein turns his pen over twice and says nothing, which for Einstein is a whole sentence.",
+    "plain": "Nobody answers. Lamarr looks at the ceiling. Einstein turns his pen over twice and says nothing, which from Einstein means a lot.",
+    "ref": [
+     44,
+     "If an Agile team member (ATeM)  verifies the task cannot be delivered, other team members perform a check. If no other team member can perform the task, the team should stop progress."
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Then we stop adding. Five items on the board. Thirty-two points.",
+    "plain": "Then we stop adding work. There are five items on the board. That is 32 points."
+   },
+   {
+    "who": "curie",
+    "text": "Thirty-four is your average across six iterations. You are offering me thirty-two on nine days, which is you being brave.",
+    "plain": "Your average across six iterations is 34 points. You are offering me 32 points in nine days, which means you are being optimistic."
+   },
+   {
+    "who": "einstein",
+    "text": "One-two-one is not brave, it is arithmetic. Nothing traces to the platform until the reference tables sync nightly. Take that out and the goal is a screenshot.",
+    "plain": "WIL-121 is not optimism, it is necessity. Nothing can be traced back to the platform until the reference tables sync every night. Remove that item and the goal becomes only a picture."
+   },
+   {
+    "who": "lamarr",
+    "text": "Then the defect goes. One-three-one has been open since February and nobody has died of it.",
+    "plain": "Then the defect is the item to drop. WIL-131 has been open since February and it has harmed nobody."
+   },
+   {
+    "who": "curie",
+    "text": "The goal stands. One-three-one waits. Twenty-nine points, four items, and I will tell Grace on Thursday that the defect slipped again.",
+    "plain": "The goal stays as it is. WIL-131 waits. That is 29 points and four items. I will tell Grace Hopper on Thursday that the defect has slipped again.",
+    "g": [
+     [
+      "Commitment Agreement",
+      "the moment the team and the Product Owner agree what this iteration will actually deliver"
+     ]
+    ],
+    "ref": [
+     44,
+     "A discussion with the Product Owner (PrOw) allows the team to propose changes to the iteration goal to make it less ambitious and thus, achievable"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "I take the goal and the twenty-nine. Not a percentage, not a forecast for June. If Lorenzo wants June he can wait for the report.",
+    "plain": "I will record the goal and the 29 points. I will not record a percentage or a forecast for June. If Lorenzo de' Medici wants a June forecast, he can wait for the status report.",
+    "ref": [
+     45,
+     "Is informed about the Iteration Goal and the plan defined by the Agile Project Core Team (A-PCT) to achieve it"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "One minute to think about it. Then hands up together, on three, and nobody re-votes after they have seen the room.",
+    "plain": "Take one minute to decide. Then everyone raises a hand at the same time, on the count of three. Nobody changes their vote after seeing the others.",
+    "g": [
+     [
+      "Vote of Confidence",
+      "a simultaneous one-to-five hand vote on whether the agreed plan is believable"
+     ]
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Five hands. Eiffel four. Einstein four. Curie four. Babbage three, and he lowers it when the threes are called.",
+    "plain": "Five hands go up. Eiffel votes four. Einstein votes four. Curie votes four. Babbage votes three, and he lowers his hand when the threes are called."
+   },
+   {
+    "who": "narr",
+    "text": "Lamarr's hand is still up, two fingers, at eleven minutes past twelve.",
+    "plain": "Lamarr's hand is still raised, showing two fingers, at 12:11."
+   },
+   {
+    "who": "lamarr",
+    "text": "Two. The sync window sits inside the lending-platform batch, the batch is not ours, and I have said that in a corridor twice and never in a meeting.",
+    "plain": "I vote two. The sync window is inside the lending-platform batch window. That batch is not controlled by us. I have said this twice in a corridor and never in a meeting."
+   }
+  ],
+  "choice": {
+   "prompt": "Lamarr has voted two, and the plan on the board is otherwise agreed. What happens next?",
+   "promptPlain": "Lamarr has voted two. Everything else in the plan is agreed. What happens next?",
+   "options": [
+    {
+     "t": "She explains, the whole team changes the plan to answer her, and the vote is taken again until nobody is on one or two.",
+     "tPlain": "She explains her concern, the whole team changes the plan to answer it, and the vote is repeated until nobody votes one or two.",
+     "ok": true,
+     "reply": {
+      "who": "lovelace",
+      "text": "Eight hours on the batch window, owned by Hedy, before she touches the drill-through. Charles loses nothing. Hands again. Four, four, four, four, three. Twelve forty, and we are closed.",
+      "plain": "We add an eight-hour spike on the batch window, owned by Hedy, before she starts the drill-through work. Charles loses nothing. Vote again. Four, four, four, four, three. It is 12:40 and the planning is closed."
+     },
+     "why": "The Vote of Confidence is not a temperature check that the facilitator records and moves past. Members who rate one or two explain their concerns, and the entire Agile Project Core Team then performs the required adjustments to address them; the ceremony ends only when there are no more ones or twos (p.44). The adjustment is the point of the vote. An eight-hour spike bought with capacity the team already holds is exactly what the step is for, and it turns a corridor remark into a plan.",
+     "whyPlain": "The Vote of Confidence is not a mood check that the facilitator notes and passes over. People who vote one or two explain their concerns, and then the whole team makes the changes needed to answer them. The ceremony ends only when there are no ones or twos left (page 44). The change is the purpose of the vote. Spending eight hours the team already has on a spike is exactly what this step is for, and it turns a corridor remark into a plan.",
+     "ref": [
+      44,
+      "should explain their concerns and doubts"
+     ]
+    },
+    {
+     "t": "Record the concern in the Risk Log and close the planning. Four people out of five are comfortable and the timebox has ten minutes left.",
+     "tPlain": "Write the concern in the Risk Log and close the meeting. Four of five people are comfortable and only ten minutes of the timebox remain.",
+     "ok": false,
+     "reply": {
+      "who": "lamarr",
+      "text": "Then you have my objection in a document nobody opens, and on the eleventh I will be the one explaining why the item did not land. I would rather have the eight hours.",
+      "plain": "Then my objection sits in a document nobody reads. On 11 April I will be the person explaining why the item was not delivered. I would rather have the eight hours now."
+     },
+     "why": "Logging a concern is not adjusting for it. The guide's fifth step is explicit that after the ones and twos have spoken, the entire A-PCT performs the required adjustments to address those concerns, and the vote closes only when none remain (p.44). Carrying an unaddressed two into an iteration converts a known problem into a mid-iteration surprise, and the daily stand-up will surface it again on day four at a worse cost.",
+     "whyPlain": "Writing a concern down is not the same as acting on it. The guide's fifth step says that after the ones and twos have spoken, the whole team makes the changes needed to answer them, and the vote closes only when no ones or twos are left (page 44). Carrying an unanswered vote of two into the iteration turns a known problem into a surprise later. The daily stand-up will raise it again on day four, when it costs more.",
+     "ref": [
+      44,
+      "Once all the concerns are discussed and there are no more \"1's\" or \"2's\", the Vote of Confidence ends"
+     ]
+    },
+    {
+     "t": "Curie hears the concern and decides whether the plan changes. It is her goal and her list.",
+     "tPlain": "Curie listens to the concern and decides whether the plan changes. It is her goal and her list.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "It is my goal. It is not my plan. If I start deciding how Hedy spends her fifty-seven hours, then the twenty-nine points are mine too, and you can all go home.",
+      "plain": "The goal is mine. The plan is not. If I start deciding how Hedy spends her 57 hours, then the 29 points become my promise as well, and the rest of you are not needed."
+     },
+     "why": "The split is deliberate. The Product Owner proposes and is Accountable for the Iteration Goal; the Agile Team Members are Responsible for the Iteration Planning itself, and decide how the work will be done (p.45 RAM, p.64). PM²-Agile's self-organising team holds the plan, and the adjustment after a vote of confidence belongs to the whole A-PCT, not to the role that set the goal.",
+     "whyPlain": "The split is deliberate. The Product Owner proposes the Iteration Goal and is Accountable for it. The Agile Team Members are Responsible for the planning itself and decide how the work is done (page 45 and page 64). In PM²-Agile the team organises itself and owns the plan, so the change after a vote of confidence belongs to the whole team, not to the person who set the goal.",
+     "ref": [
+      45,
+      "Iteration Planning I I S S/A S R"
+     ]
+    },
+    {
+     "t": "Take the drill-through away from Lamarr and give her something she is confident about. The vote is about how people feel doing their own work.",
+     "tPlain": "Take the drill-through item away from Lamarr and give her work she feels confident about. The vote is about how people feel about their own work.",
+     "ok": false,
+     "reply": {
+      "who": "einstein",
+      "text": "She did not vote on her own comfort. She voted on whether we reach the goal. Move her and the batch window is still there, unowned, with nobody left who has looked at it.",
+      "plain": "She did not vote about her own comfort. She voted about whether the team reaches the goal. If you move her, the batch window problem is still there, still unowned, and nobody who has studied it remains."
+     },
+     "why": "The fourth stand-up question and the confidence vote are both framed against the iteration goal, not against individual comfort: the vote asks how confident members are in the proposed plan as a whole (pp.44, 46). Reassigning the dissenter removes the voice and keeps the risk. The guide's response to a low vote is an adjustment to the plan agreed by the whole team, then another vote.",
+     "whyPlain": "Both the fourth stand-up question and the confidence vote are about the iteration goal, not about personal comfort. The vote asks how confident each person is in the whole proposed plan (pages 44 and 46). Moving the person who disagrees removes the warning and keeps the risk. The guide answers a low vote with a change to the plan agreed by the whole team, followed by another vote.",
+     "ref": [
+      46,
+      "How confident am I that we will accomplish the iteration goal?"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Present at Iteration Planning as an ordinary participant, not as chair.",
+    "k": "Knows the goal and the twenty-nine points, and that neither is a forecast for June.",
+    "w": "Wants the commitment recorded as the team made it, without a percentage attached to it.",
+    "f": "Afraid a number said in this room reaches Medici as a promise about Release 2."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Facilitates the planning, holds the four hours, collects capacity in advance.",
+    "k": "Knows the ten per cent allowance is there because of unrecorded production support in March.",
+    "w": "Wants the vote to change the plan rather than decorate it.",
+    "f": "Afraid the corridor conversations never reach the room while there is still time."
+   },
+   "curie": {
+    "o": "Product Owner. Proposes the Iteration Goal and is accountable for it.",
+    "k": "Knows the list was ordered on the twenty-seventh with the Business Manager present.",
+    "w": "Wants the goal intact and the defect postponed rather than the goal watered down.",
+    "f": "Afraid of a demonstration that looks like traceability and is a screenshot."
+   },
+   "einstein": {
+    "o": "Architecture Owner, supporting the goal and defending the enabler that carries it.",
+    "k": "Knows nothing traces to the platform until the reference tables sync every night.",
+    "w": "Wants WIL-121 treated as a precondition, not as technical preference.",
+    "f": "Afraid the enabler is dropped in a trim and the traceability criterion fails in June."
+   },
+   "lamarr": {
+    "o": "Agile Team Member, developer. Owns the query task and the drill-through work.",
+    "k": "Knows the sync window sits inside a batch the project does not control.",
+    "w": "Wants the batch window looked at before she builds on top of it.",
+    "f": "Afraid of being the one explaining, on the eleventh, a problem she named in March."
+   },
+   "babbage": {
+    "o": "Agile Team Member, data engineer. Sole owner of the sync engine work.",
+    "k": "Knows sixteen hours was two tasks pretending to be one.",
+    "w": "Wants the load and the reference reconciliation counted separately and honestly.",
+    "f": "Afraid of being the single point of failure the stop rule has just exposed."
+   },
+   "eiffel": {
+    "o": "Agile Team Member, seconded lead from Levallois Systems. At his capacity ceiling.",
+    "k": "Knows Finance still owes the maturity rule set that his edge cases depend on.",
+    "w": "Wants the twelve-hour ceiling enforced and his queue left alone.",
+    "f": "Afraid of accepting work he cannot deliver and arguing about it in June."
+   }
+  },
+  "unlock": [
+   5,
+   26
+  ],
+  "note": "Guide check: section 5.1, pp.41-45. Iteration Planning is the first activity of the iteration and is sized at two hours for each iteration week — four hours for a two-week iteration. Its mandatory input is a prioritised Work Items List with acceptance criteria already defined; prioritising the list is Release Planning's job, not this ceremony's. The five steps are: determine the team's capacity in hours, allowing for holidays and an allowance for unplanned events; agree the Iteration Goal, which the Product Owner defines from the prioritised list; define the work to be done, decomposing items into tasks of no more than twelve hours, each taken by a named member, with the stop rule when nobody can take a task; the Commitment Agreement, in one of three scenarios; and the Vote of Confidence, one to five on a hand count, ending only when no one is on one or two. RASCI p.45: BM I, PM I, TeCo S, PrOw S/A, ArOw S, ATeM R. Approver: the Product Owner is accountable for the goal; the team is responsible for the plan. Pages 41-45.",
+  "notePlain": "Rule: Iteration Planning is the first thing the team does in an iteration, and it lasts about two hours for each week of the iteration. So a two-week iteration gets four hours (page 42). It needs a Work Items List that is already in priority order, with acceptance criteria written. Putting the list in order is done in Release Planning, not here. There are five steps. First, each person works out their capacity in hours, after holidays and an allowance for unplanned work (pages 43 and 45). Second, the Product Owner sets the Iteration Goal from the prioritised list. Third, the team breaks items into tasks of twelve hours or less, and each task is taken by one person; if nobody can take a task, the team stops adding work (pages 43 and 44). Fourth, the Commitment Agreement, where the goal may be made smaller. Fifth, the Vote of Confidence, a hand count from one to five, which ends only when nobody votes one or two. Who is who: the team members are Responsible, the Product Owner is Accountable for the goal, the Team Coordinator only Supports, and the Project Manager is only Informed. Pages 41 to 45."
+ },
+ {
+  "id": "s11",
+  "act": 2,
+  "actName": "Executing",
+  "title": "Nine thirty, standing",
+  "covers": [
+   "Daily Stand-up",
+   "Coordination and Reporting"
+  ],
+  "guide_page": 45,
+  "where": "ESM, Kirchberg — team room B4, at the board",
+  "when": "05 Apr 2029, 09:30",
+  "cast": [
+   "you",
+   "lovelace",
+   "eiffel",
+   "babbage",
+   "lamarr",
+   "einstein",
+   "curie"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Day four. Half past nine, room B4, the same wall, the same four speakers. Nobody has sat down at this meeting since the eleventh of January.",
+    "plain": "It is day four of the iteration. 09:30, room B4, the same wall and the same four speakers. Nobody has sat down at this meeting since 11 January.",
+    "ref": [
+     46,
+     "Same time, same place - The Daily Stand-up is part of the daily routine of the Agile Project Core Team (A-PCT)"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Curie is against the radiator with a coffee. She comes about twice a week and she has never spoken first.",
+    "plain": "Curie stands by the radiator with a coffee. She attends about twice a week and she has never spoken first."
+   },
+   {
+    "who": "eiffel",
+    "text": "Bucket rules drafted with Finance yesterday. Today the edge cases. Still waiting on their sign-off, which was promised Tuesday. Four.",
+    "plain": "Yesterday I drafted the maturity bucket rules with Finance. Today I will do the edge cases. I am still waiting for their sign-off, which was promised on Tuesday. My confidence is four."
+   },
+   {
+    "who": "babbage",
+    "text": "Sync, task one of two, done. Next is the window test. Blocked, and it is the same block. Two.",
+    "plain": "I finished the first of my two sync tasks. Next is the sync window test. I am blocked, and it is the same problem as before. My confidence is two.",
+    "g": [
+     [
+      "blocker",
+      "anything stopping work towards the iteration goal; named in the stand-up, solved outside it"
+     ]
+    ],
+    "ref": [
+     46,
+     "What blockers do I have that may prevent us to achieve the iteration goal?"
+    ]
+   },
+   {
+    "who": "lamarr",
+    "text": "Spike finished last night. It moves at month end and nobody told us because there is nobody whose job it is to tell us. Next, the drill-through contract. Three.",
+    "plain": "I finished the spike last night. The batch window moves at month end, and nobody told us, because it is nobody's job to tell us. Next I will do the drill-through contract. My confidence is three."
+   },
+   {
+    "who": "narr",
+    "text": "Ten seconds of argument about the batch. Lovelace writes two names on a yellow square and puts it in the corner of the board marked Parking Lot, and the argument stops.",
+    "plain": "There are ten seconds of argument about the batch. Lovelace writes two names on a yellow note and puts it in the corner of the board marked Parking Lot. The argument stops.",
+    "g": [
+     [
+      "Parking Lot",
+      "a corner of the board where topics raised in the stand-up wait, one note per topic"
+     ]
+    ],
+    "ref": [
+     45,
+     "Issues raised are registered and discussed by the relevant team members immediately after the meeting"
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "Reviewed the enabler design. Today I pair with Charles on the sync. No blocker. Three, and three because of his two, not because of mine.",
+    "plain": "I reviewed the enabler design. Today I will work with Charles on the sync. I have no blocker. My confidence is three, and it is three because of his two, not because of my own work."
+   },
+   {
+    "who": "you",
+    "text": "While everyone is here. The Steering Committee papers close on Monday and Lorenzo wants a Release 2 position. Can I go round the room, one line each, what is landing by June.",
+    "plain": "While everyone is here: the Steering Committee papers close on Monday and Lorenzo de' Medici wants a position on Release 2. Can I go around the room for one line each on what will be delivered by June?"
+   },
+   {
+    "who": "narr",
+    "text": "Seven minutes forty on the clock behind Lovelace's head. Eiffel looks at the door. Babbage, who was already halfway out of it, comes back.",
+    "plain": "The clock behind Lovelace shows seven minutes and forty seconds. Eiffel looks at the door. Babbage, who had already started to leave, comes back."
+   },
+   {
+    "who": "lovelace",
+    "text": "No.",
+    "plain": "No."
+   },
+   {
+    "who": "you",
+    "text": "Ada.",
+    "plain": "Ada."
+   },
+   {
+    "who": "lovelace",
+    "text": "You can have it at eleven, you can have it in writing, you can have my burndown, you can have me for an hour. Not here.",
+    "plain": "You can have it at 11:00. You can have it in writing. You can have my burndown chart. You can have an hour of my time. But not in this meeting.",
+    "ref": [
+     45,
+     "The Daily Stand-up is neither a status update meeting nor a problem-solving meeting"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Four people, sixty to ninety seconds each, four questions, all four about this iteration's goal. The moment it answers your question instead of theirs it is a different meeting with the same chairs.",
+    "plain": "There are four speakers, sixty to ninety seconds each, four questions, and all four questions are about this iteration's goal. As soon as it answers your question instead of theirs, it becomes a different meeting held in the same room.",
+    "g": [
+     [
+      "Team Coordinator (TeCo) boundary",
+      "the TeCo protects the ceremony's purpose; she does not run the team or assign its work"
+     ]
+    ],
+    "ref": [
+     46,
+     "How confident am I that we will accomplish the iteration goal?"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "On the last project this meeting existed. Fifteen minutes, eight people, and me asking each of them what they did yesterday. We called it a stand-up. It was a status round with a nicer name.",
+    "plain": "On the last project this meeting existed too. Fifteen minutes, eight people, and me asking each person what they did yesterday. We called it a stand-up. It was a status meeting with a nicer name."
+   },
+   {
+    "who": "lovelace",
+    "text": "On the last project you were running the meeting. I am not running this one and I am not a Scrum Master either, whatever your certificate says. Scrum stops at construction. You still have a Business Case, a Charter, four gates and a committee, and I touch none of them.",
+    "plain": "On the last project you were running the meeting. I am not running this one, and I am not a Scrum Master either, whatever your certificate says. Scrum only covers the construction work. You still have a Business Case, a Charter, four gates and a Steering Committee, and I have nothing to do with any of them.",
+    "ref": [
+     11,
+     "Scrum does not address activities for managing the complete project lifecycle"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "I have stood here forty times and asked for nothing. If I can manage it you can.",
+    "plain": "I have stood in this meeting forty times and asked for nothing. If I can do that, so can you."
+   },
+   {
+    "who": "babbage",
+    "text": "You would also have got a wrong answer. Ask me today what lands in June and I will say the reconciliation panel, because I want it to be true.",
+    "plain": "You would also have received a wrong answer. If you ask me today what will be delivered in June, I will say the reconciliation panel, because I want that to be true."
+   },
+   {
+    "who": "lovelace",
+    "text": "Charles and Albert, ten minutes, at the board, when we break. Hedy, if you want the batch owner's name it is in the spike note.",
+    "plain": "Charles and Albert, ten minutes at the board when we finish. Hedy, if you want the name of the batch owner it is in the spike note.",
+    "g": [
+     [
+      "meet after",
+      "the short session straight after the stand-up where the raised issue is actually worked"
+     ]
+    ],
+    "ref": [
+     46,
+     "notes which Agile Team Members (ATeM) should participate and registers them for a"
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "I will book B4 for quarter to. It is my block.",
+    "plain": "I will book room B4 for 09:45. It is my problem."
+   },
+   {
+    "who": "narr",
+    "text": "Lovelace does not book the room. She never has. She names the meeting and stops, and the person with the blocker goes and finds four walls.",
+    "plain": "Lovelace does not book the room. She never does. She names the meeting and stops there. The person with the blocker finds a room themselves.",
+    "ref": [
+     46,
+     "sole responsibility to organise the"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Eight minutes ten. The team goes. You are left with Lovelace, a board, and a question that is still due on Monday.",
+    "plain": "The stand-up lasted eight minutes and ten seconds. The team leaves. You are left with Lovelace, a board, and a question that is still due on Monday."
+   },
+   {
+    "who": "lovelace",
+    "text": "The report has the answer. Iteration burndown, release burndown, velocity, and the two items I know will not make June. It is written on Friday and you can have it Friday.",
+    "plain": "The status report has the answer. It contains the iteration burndown, the release burndown, the velocity, and the two items I already know will not be ready in June. I write it on Friday and you can have it on Friday."
+   },
+   {
+    "who": "you",
+    "text": "And when Lorenzo asks why the Project Manager cannot answer a question about his own project in the room where the work is discussed?",
+    "plain": "And when Lorenzo asks why the Project Manager cannot answer a question about his own project, in the room where the work is discussed?"
+   },
+   {
+    "who": "lovelace",
+    "text": "Say the four of them told each other the truth this morning at half past nine, and that is why your report is worth reading. That is not a slogan, that is the whole trade.",
+    "plain": "Say that the four of them told each other the truth this morning at 09:30, and that is why your report is worth reading. That is not a slogan. That is the whole exchange."
+   },
+   {
+    "who": "narr",
+    "text": "The yellow square in the corner of the board says batch window, Babbage, Einstein. Beside it, from Tuesday, one that says Finance sign-off, Eiffel. Nothing on the board says Release 2.",
+    "plain": "The yellow note in the corner of the board says: batch window, Babbage, Einstein. Next to it, from Tuesday, another says: Finance sign-off, Eiffel. Nothing on the board mentions Release 2."
+   }
+  ],
+  "choice": {
+   "prompt": "You still owe the Steering Committee a Release 2 position by Monday. What do you do with the stand-up?",
+   "promptPlain": "You still owe the Steering Committee a position on Release 2 by Monday. What do you do about the stand-up?",
+   "options": [
+    {
+     "t": "Leave it alone. Take the Development Status Report on Friday, and if that is too late, ask Lovelace for the burndown this afternoon.",
+     "tPlain": "Leave the stand-up alone. Take the Development Status Report on Friday. If that is too late, ask Lovelace for the burndown this afternoon.",
+     "ok": true,
+     "reply": {
+      "who": "lovelace",
+      "text": "Then you get a number that survives Monday. And you keep the one place where Charles says two out loud on day four instead of day nine.",
+      "plain": "Then you get a number that will survive Monday. And you keep the one meeting where Charles says his confidence is two on day four, instead of day nine."
+     },
+     "why": "The Daily Stand-up is neither a status update meeting nor a problem-solving meeting, and the Project Manager is Informed of its outcomes rather than a participant in a status round (pp.45, 47). Status has its own artefact: the Development Status Report, produced by the Team Coordinator, accountable to the Project Manager, carrying cost, schedule, scope, risks and both burndown charts, and folded into the Project Status Report (p.83). Coordination between the agile team and other stakeholders is exactly what PM²-Agile adjusts the format and frequency of reporting for.",
+     "whyPlain": "The Daily Stand-up is not a status meeting and not a problem-solving meeting, and the Project Manager is only Informed of what came out of it (pages 45 and 47). Status has its own document: the Development Status Report. The Team Coordinator writes it, the Project Manager is Accountable for it, and it carries cost, schedule, scope, risks and both burndown charts (page 83). PM²-Agile adjusts the format and frequency of reporting for exactly this kind of audience.",
+     "ref": [
+      47,
+      "Daily Stand-up N/A I S I R R/A"
+     ]
+    },
+    {
+     "t": "Ask for a status round at the end of the stand-up. It is five minutes, everyone is already standing, and the information is fresher than any report.",
+     "tPlain": "Ask for a status round at the end of the stand-up. It takes five minutes, everyone is already standing, and the information is fresher than any report.",
+     "ok": false,
+     "reply": {
+      "who": "eiffel",
+      "text": "Then I prepare for you, not for them. My sixty seconds becomes a defence, and I stop saying the word blocked, because blocked in front of you is a different word.",
+      "plain": "Then I prepare my update for you, not for them. My sixty seconds becomes a defence. I stop using the word blocked, because saying blocked in front of you means something different."
+     },
+     "why": "The guide states plainly that the ceremony is neither a status update meeting nor a problem-solving meeting; each member answers four questions, and all four are framed against the iteration goal (pp.45-46). A status round appended to it changes the audience, and with the audience the honesty. The RAM makes the point structurally: the ATeMs are Responsible and Accountable for the Stand-up, the PM is only Informed, and the Business Manager is the single N/A in the ceremony tables.",
+     "whyPlain": "The guide says clearly that this ceremony is not a status meeting and not a problem-solving meeting. Each member answers four questions, and all four are about the iteration goal (pages 45 and 46). Adding a status round changes who the audience is, and that changes how honest people are. The responsibility table makes the same point: the team members are Responsible and Accountable for the Stand-up, the Project Manager is only Informed, and the Business Manager is marked not applicable.",
+     "ref": [
+      45,
+      "The Daily Stand-up is neither a status update meeting nor a problem-solving meeting"
+     ]
+    },
+    {
+     "t": "Stay and settle the batch window now. Everyone who matters is in the room and it has been on the board since Tuesday.",
+     "tPlain": "Stay and settle the batch window problem now. Everyone needed is in the room, and it has been on the board since Tuesday.",
+     "ok": false,
+     "reply": {
+      "who": "lamarr",
+      "text": "Then three of us stand here for forty minutes while two of us talk. That is why the note has two names on it and not five.",
+      "plain": "Then three of us stand here for forty minutes while two people talk. That is why the note has two names on it and not five."
+     },
+     "why": "Issues raised in the Stand-up are registered and discussed by the relevant team members immediately after the meeting — the meet after — and the Team Coordinator names who should attend and then stops; organising it is the Agile Team Members' sole responsibility (pp.45-46). Solving inside the fifteen minutes taxes everyone who is not involved, and it is precisely the second thing the guide says the ceremony is not.",
+     "whyPlain": "Issues raised in the Stand-up are written down and then discussed by the people concerned straight after the meeting. That is the meet after. The Team Coordinator says who should attend and then stops; organising it is the team members' own responsibility (pages 45 and 46). Solving problems inside the fifteen minutes wastes the time of everyone not involved, and it is exactly the second thing the guide says this ceremony is not.",
+     "ref": [
+      46,
+      "sole responsibility to organise the"
+     ]
+    },
+    {
+     "t": "Agree a standing item: PM questions at the end, every morning, so the team knows it is coming and can prepare.",
+     "tPlain": "Agree a fixed item: the Project Manager's questions at the end, every morning, so the team knows it is coming and can prepare.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "You would be the fifth speaker and the only one who is not building anything. Ada would spend her fifteen minutes protecting the first four from the last one.",
+      "plain": "You would become the fifth speaker, and the only one who is not building anything. Ada would spend her fifteen minutes protecting the first four speakers from the last one."
+     },
+     "why": "The duration is a consequence of the number of Agile Team Members sharing — sixty to ninety seconds each, about fifteen minutes for a team of ten — not a container to be filled with other business (p.46). Making the PM a fixed agenda item is the status meeting arriving by instalments, and it inverts the RAM, where the PM is Informed and the ATeMs are Responsible and Accountable for the ceremony.",
+     "whyPlain": "The length of the meeting comes from the number of team members speaking, sixty to ninety seconds each, about fifteen minutes for a team of ten (page 46). It is not empty time to be filled with other business. Making the Project Manager a fixed agenda item is the status meeting arriving slowly, and it reverses the responsibility table, where the Project Manager is only Informed and the team is Responsible and Accountable.",
+     "ref": [
+      46,
+      "notes which Agile Team Members (ATeM) should participate and registers them for a"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Informed of the Stand-up's outcomes; owes the Steering Committee a Release 2 position.",
+    "k": "Now knows the ceremony has an owner and it is not the Project Manager.",
+    "w": "Wants a defensible June position by Monday without breaking the one honest meeting.",
+    "f": "Afraid of looking, to Medici, like a manager who cannot answer for his own project."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Facilitates the Stand-up, registers the meet after, does not organise it.",
+    "k": "Knows the report already answers the question the Project Manager asked in the room.",
+    "w": "Wants the fifteen minutes to keep belonging to the four people who build.",
+    "f": "Afraid that once it answers upward, nobody says two out loud again."
+   },
+   "eiffel": {
+    "o": "Agile Team Member. Waiting on a Finance sign-off promised for Tuesday.",
+    "k": "Knows what happens to a sixty-second update when a manager is scoring it.",
+    "w": "Wants the maturity rule set from Finance before his edge cases are worthless.",
+    "f": "Afraid of preparing his update for the wrong audience."
+   },
+   "babbage": {
+    "o": "Agile Team Member. Blocked on the sync window; books his own meet after.",
+    "k": "Knows his confidence is two and has now said so on the record, on day four.",
+    "w": "Wants ten minutes with Einstein and the batch owner's name.",
+    "f": "Afraid of giving an optimistic answer to a manager and being held to it in June."
+   },
+   "lamarr": {
+    "o": "Agile Team Member. Finished the spike; found the window moves at month end.",
+    "k": "Knows the batch window is owned outside the project and moves without notice.",
+    "w": "Wants the ownership problem named as a problem, not treated as her opinion.",
+    "f": "Afraid the drill-through is built on a schedule that shifts under it."
+   },
+   "einstein": {
+    "o": "Architecture Owner, standing as an ordinary Agile Team Member with no special standing.",
+    "k": "Knows his own confidence is governed by Babbage's, and says so.",
+    "w": "Wants to pair on the sync today rather than review it later.",
+    "f": "Afraid the enabler slips quietly while everyone reports individually green."
+   },
+   "curie": {
+    "o": "Product Owner. Attends about twice a week; informed of outcomes only if necessary.",
+    "k": "Knows she has stood there forty times and asked for nothing.",
+    "w": "Wants the discipline she keeps to be kept by the Project Manager too.",
+    "f": "Afraid that a status round makes the team perform rather than report."
+   }
+  },
+  "unlock": [
+   6,
+   23
+  ],
+  "note": "Guide check: section 5.2, pp.45-47. The Daily Stand-up keeps the A-PCT aligned towards the iteration goal and identifies obstacles; members take individual commitments from each other until the next checkpoint, usually twenty-four hours. The guide says outright that it is neither a status update meeting nor a problem-solving meeting: issues raised are registered and discussed by the relevant members immediately after. Each member answers four questions, all framed against the iteration goal, in sixty to ninety seconds; ten members means about fifteen minutes. Same time, same place. The Team Coordinator registers the meet after and reminds people of it, but organising it is the Agile Team Members' sole responsibility. The Parking Lot on the Kanban board makes pendencies visible. RASCI p.47: BM N/A, PM I, TeCo S, PrOw I, ArOw R, ATeM R/A — the only ceremony row where a role is N/A, and one of two where the ArOw is Responsible rather than Supporting. Status belongs to the Development Status Report (p.83). Pages 45-47.",
+  "notePlain": "Rule: the Daily Stand-up keeps the team aligned on the iteration goal and finds obstacles. Members promise each other what they will do before the next checkpoint, usually twenty-four hours later. The guide says plainly that it is not a status meeting and not a problem-solving meeting. Issues are written down and then discussed by the people concerned straight afterwards (page 45). Each person answers four questions, all about the iteration goal, in sixty to ninety seconds. A team of ten therefore takes about fifteen minutes (page 46). Same time, same place. The Team Coordinator names the meet after and reminds people, but the team members must organise it themselves (page 46). The Parking Lot on the board makes waiting topics visible (page 47). Who is who: the Business Manager is marked not applicable, the Project Manager and Product Owner are only Informed, the Team Coordinator Supports, and the team members are Responsible and Accountable. Status belongs in the Development Status Report instead. Pages 45 to 47."
+ },
+ {
+  "id": "s12",
+  "act": 2,
+  "actName": "Executing",
+  "title": "A checklist is not a gate",
+  "covers": [
+   "Development",
+   "Testing",
+   "Software Configuration Management",
+   "Quality"
+  ],
+  "guide_page": 37,
+  "where": "ESM, Kirchberg — team room B4, the build wall",
+  "when": "05 Apr 2029, 09:47",
+  "cast": [
+   "you",
+   "lovelace",
+   "babbage",
+   "einstein",
+   "lamarr",
+   "eiffel",
+   "brandeis"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The meet after takes eleven minutes and ends with a name, a telephone number in Infrastructure, and an agreement that Babbage will ring it himself.",
+    "plain": "The meet after lasts eleven minutes. It ends with a name, a telephone number in the Infrastructure team, and an agreement that Babbage will telephone them himself."
+   },
+   {
+    "who": "narr",
+    "text": "Behind them the build wall: a green strip, a red strip, and a counter that says three since the third of April.",
+    "plain": "Behind them is the build wall. There is a green strip, a red strip, and a counter showing three broken builds since 3 April."
+   },
+   {
+    "who": "lamarr",
+    "text": "Two of those three were mine and both were the reconciliation fixtures. Merged at half four, red at half five, green by six.",
+    "plain": "Two of those three broken builds were mine, and both were caused by the reconciliation test fixtures. I merged at 16:30, the build went red at 17:30, and it was green again by 18:00.",
+    "ref": [
+     37,
+     "With Continuous Integration, team members integrate their work frequently (at least daily)"
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "Which is the system working. I would rather see three reds in an iteration than one in September when eleven people are inside the same module.",
+    "plain": "That is the system working correctly. I would rather see three broken builds in one iteration than one in September, when eleven people are working inside the same module."
+   },
+   {
+    "who": "eiffel",
+    "text": "The reconciliation tests were written on the Tuesday before the code. Nine of them failed for two days on purpose. That is the part my own company still argues about.",
+    "plain": "The reconciliation tests were written on the Tuesday, before the code. Nine of them failed for two days on purpose. That is the part my own company still argues about.",
+    "g": [
+     [
+      "test-driven development",
+      "writing the test cases before the code, so the code must pass them to be acceptable"
+     ]
+    ],
+    "ref": [
+     38,
+     "Test-Driven Development (TDD) describes an approach to development in which test cases are created before the actual code"
+    ]
+   },
+   {
+    "who": "lamarr",
+    "text": "The full suite runs at two in the morning against the replica. Four hundred and ten scenarios. Nothing goes to pre-production on a red suite and that is not my rule, it is in the plan.",
+    "plain": "The full regression suite runs at 02:00 against the replica. There are 410 scenarios. Nothing goes to pre-production if the suite is red. That is not my personal rule; it is written in the Test Plan.",
+    "g": [
+     [
+      "regression suite",
+      "the whole set of existing tests, re-run to prove new work has broken nothing"
+     ]
+    ],
+    "ref": [
+     40,
+     "Run tests as frequently as possible. Ideally, all tests should be run against each build deployed to the mainline"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Whose plan? Deming asked me that in December and I have been asked it twice since.",
+    "plain": "Whose plan is it? Deming asked me that in December, and I have been asked the same question twice since then."
+   },
+   {
+    "who": "lamarr",
+    "text": "Mine. I drafted it, Albert argued the integration scope, Marie confirmed what acceptance looks like, and your name is on it as the person who is answerable for it.",
+    "plain": "It is mine. I drafted it, Albert argued about the integration scope, Marie confirmed what acceptance means, and your name is on it as the person who is Accountable for it.",
+    "ref": [
+     81,
+     "Responsible for drafting the Test Plan, while providing technical advice regarding the testing activities"
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "And the Finance control file is version four. Four, because they changed the maturity boundaries in February and did not think it was a change.",
+    "plain": "And the Finance control file is at version four. Version four, because they changed the maturity boundaries in February and did not think that was a change.",
+    "g": [
+     [
+      "control file",
+      "the file of agreed correct figures that the team's reconciliation tests are measured against"
+     ]
+    ],
+    "ref": [
+     38,
+     "Version Control - setup a set of procedures and tools to enable the creation and management of the multiple occurrences of each object"
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "Every rule set is an item with a version and an owner now. Which copy is current, who changed it, when. Two years of Internal Audit answered by a repository nobody has to remember to use.",
+    "plain": "Every rule set is now an item with a version and an owner. Which copy is current, who changed it, and when. Two years of Internal Audit questions are answered by a repository that nobody has to remember to use.",
+    "ref": [
+     38,
+     "Identify and manage all items that are part of configuration management"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Brandeis comes in without knocking, because the door was open, and stands in front of the wall reading it for a while before he says anything.",
+    "plain": "Brandeis comes in without knocking, because the door was open. He stands in front of the wall and reads it for a while before speaking."
+   },
+   {
+    "who": "brandeis",
+    "text": "One-two-seven. The drill-through. When a Risk analyst clicks a figure and reaches the source record, what is on that record?",
+    "plain": "WIL-127, the drill-through. When a Risk analyst clicks on a figure and reaches the source record, what is on that record?"
+   },
+   {
+    "who": "lamarr",
+    "text": "The position, the instrument, the value date, the source system, and the last amendment.",
+    "plain": "The position, the instrument, the value date, the source system, and the last amendment."
+   },
+   {
+    "who": "brandeis",
+    "text": "The last amendment by whom.",
+    "plain": "The last amendment made by whom?"
+   },
+   {
+    "who": "narr",
+    "text": "Nobody says anything for a moment. Einstein reaches past Lamarr and scrolls the record, and there it is, third from the bottom: a staff user identifier and a timestamp.",
+    "plain": "Nobody speaks for a moment. Einstein reaches past Lamarr and scrolls the record. There it is, third from the bottom: a staff user identifier and a time stamp."
+   },
+   {
+    "who": "brandeis",
+    "text": "In September a supervisor in Vilnius sees that. Which is a person, identifiable, crossing to a third party. It may be perfectly lawful. It is not lawful because you assumed it.",
+    "plain": "In September, a supervisor in Vilnius will see that. That is an identifiable person, and the data crosses to a third party. It may be perfectly lawful. But it is not lawful just because you assumed it was."
+   },
+   {
+    "who": "lovelace",
+    "text": "It is in the Definition of Done. Line seven, Annex D. Screening by the Data Protection Coordinator for any item that exposes a source record.",
+    "plain": "It is already in the Definition of Done. Line seven of Annex D. Screening by the Data Protection Coordinator for any item that exposes a source record."
+   },
+   {
+    "who": "brandeis",
+    "text": "Then show me where it runs.",
+    "plain": "Then show me where that screening runs."
+   },
+   {
+    "who": "narr",
+    "text": "Lamarr brings up the pipeline. Unit tests, coverage, static analysis, integration, the nightly suite. Nine gates, green all the way down. Line seven of Annex D is not among them and neither is line eight.",
+    "plain": "Lamarr opens the pipeline. Unit tests, coverage, static analysis, integration, and the nightly suite. Nine gates, all green. Line seven of Annex D is not one of them, and neither is line eight."
+   },
+   {
+    "who": "lamarr",
+    "text": "Seven and eight are manual. Your screening and the accessibility check. They are on the checklist.",
+    "plain": "Lines seven and eight are manual steps: your screening and the accessibility check. They are on the checklist."
+   },
+   {
+    "who": "brandeis",
+    "text": "A checklist is not a gate. A gate stops something. Who does it? Not which team. Which chair.",
+    "plain": "A checklist is not a gate. A gate stops something. Who performs it? Not which team. Which person."
+   },
+   {
+    "who": "narr",
+    "text": "Four builders, an architect and a coordinator look at a wall of nine green lights, and none of them says a name.",
+    "plain": "Four builders, an architect and a coordinator look at a wall showing nine green lights. None of them names a person."
+   },
+   {
+    "who": "eiffel",
+    "text": "In my contract, done has eleven conditions and a signature. Here it has nine that a machine checks and two that a good mood checks.",
+    "plain": "In my contract, done has eleven conditions and a signature. Here it has nine conditions that a machine checks and two that depend on someone's good mood.",
+    "ref": [
+     88,
+     "consists on a set of items that the Agile Team Members (ATeMs) check to determine if an implemented Work Item complies with the team's quality standards"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Noted, and I mean noted. It is not a planning question and it is not his question, it is ours. Bring it to the thirteenth, in the afternoon, with the data.",
+    "plain": "Noted, and I mean properly noted. This is not a planning question and it is not his question. It is ours. Bring it to the retrospective on 13 April, in the afternoon, with the data."
+   },
+   {
+    "who": "brandeis",
+    "text": "The eighth is fine. The item ships on the twenty-eighth of June and I would rather be early and irritating than late and correct.",
+    "plain": "The 13th is acceptable. The item is released on 28 June, and I would rather be early and annoying than late and right."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager, accountable for the Test Plan although the Agile Team Members write it.",
+    "k": "Knows the pipeline has nine automated gates and two manual conditions with no owner.",
+    "w": "Wants the Definition of Done to mean the same thing in June as in April.",
+    "f": "Afraid the two manual lines fail in front of stakeholders rather than in a build."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Routes the gap to the retrospective rather than to a manager.",
+    "k": "Knows line seven and line eight of Annex D exist and that nothing enforces them.",
+    "w": "Wants the team to own the fix, with data, on the thirteenth.",
+    "f": "Afraid a process gap gets solved by an instruction from outside the team."
+   },
+   "babbage": {
+    "o": "Agile Team Member. Owns the sync engine and the versioned Finance control file.",
+    "k": "Knows the February maturity change reached the team as a version, not as a surprise.",
+    "w": "Wants the batch owner on the telephone this morning and the window moved.",
+    "f": "Afraid of being the only person who understands the load."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Treats three broken builds as evidence the integration discipline works.",
+    "k": "Now knows the source record carries a staff user identifier.",
+    "w": "Wants integration problems found in April rather than in September.",
+    "f": "Afraid a compliance question becomes an architecture change after Release 2 ships."
+   },
+   "lamarr": {
+    "o": "Agile Team Member. Drafted and owns the Test Plan; built the pipeline gates.",
+    "k": "Knows exactly which two Definition of Done lines no machine checks.",
+    "w": "Wants the manual lines automated instead of argued about.",
+    "f": "Afraid of being the person who marked an item done that was not."
+   },
+   "eiffel": {
+    "o": "Agile Team Member, seconded. Writes tests before code and counts conditions.",
+    "k": "Knows his contract's eleven conditions and the team's eleven do not enforce alike.",
+    "w": "Wants done to mean one thing that survives an invoice dispute.",
+    "f": "Afraid of a disagreement in June about a definition agreed in November."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Screens items that expose source records; line seven of Annex D.",
+    "k": "Knows the drill-through exposes a staff identifier that reaches national authorities in September.",
+    "w": "Wants a named person and a gate, not a checklist line.",
+    "f": "Afraid of being asked in September about something he could have stopped in April."
+   }
+  },
+  "unlock": [
+   19
+  ],
+  "note": "Guide check: sections 4.11 to 4.13, pp.37-40, with the Definition of Done at p.88 and the Test Plan at p.81. Development rests on three complementary practices: Continuous Integration, where members integrate at least daily so integration issues are found and fixed while the change is fresh; Evolutionary Design; and Test-Driven Development, in which test cases are created before the code and act as guardrails. Testing is iterative and incremental — test early and test often, in every iteration, with tests run against each build deployed to the mainline. Software Configuration Management identifies every item, controls change, versions it, audits it and reports it, so that a specific version of the solution can be rebuilt and quality is maintained as the configuration evolves. The Definition of Done is the team's own agreed set of conditions for a Work Item to count as complete; it belongs to the Agile Team Members, not to a manager. RASCI p.81: Test Plan BM I, PM A, TeCo S, PrOw S, ArOw S, ATeM R — the only agile artefact row where an Agile Team Member is Responsible and the Team Coordinator merely Supports. Pages 37-40, 81, 88.",
+  "notePlain": "Rule: development in PM²-Agile uses three practices together. Continuous Integration means everyone merges their work at least once a day, so integration problems are found early and fixed while the change is still fresh (page 37). Evolutionary Design means the design grows and is refactored. Test-Driven Development means the test cases are written before the code, so the code must pass them (page 38). Testing is iterative: test early and test often, in every iteration, with tests run against each build sent to the mainline (pages 39 and 40). Software Configuration Management identifies every item, controls and versions changes, audits them and reports them, so any version can be rebuilt and quality is kept as things change (page 38). The Definition of Done is the team's own list of conditions for a work item to count as complete (page 88). Who is who on the Test Plan: the team members are Responsible, the Project Manager is Accountable, and the Team Coordinator only Supports. Pages 37 to 40, 81 and 88."
+ },
+ {
+  "id": "s13",
+  "act": 2,
+  "actName": "Executing",
+  "title": "Explain first, estimate after",
+  "covers": [
+   "Release Planning",
+   "Estimation and Prioritisation"
+  ],
+  "guide_page": 47,
+  "where": "ESM, Kirchberg — the long room, fourth floor",
+  "when": "09 Apr 2029, 10:00",
+  "cast": [
+   "you",
+   "curie",
+   "lovelace",
+   "lamarr",
+   "babbage",
+   "eiffel",
+   "einstein"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Last Wednesday afternoon, in this room, Hopper put a note from the Board Secretariat on the table and Curie rewrote four work items over two hours, with two analysts from Lending Operations arguing about what a single page means.",
+    "plain": "Last Wednesday afternoon, in this room, Hopper put a note from the Board Secretariat on the table. Curie rewrote four work items over two hours, while two analysts from Lending Operations argued about what a single page means.",
+    "g": [
+     [
+      "Business Implementation Group",
+      "the user representatives on the client side, consulted when the Work Items List changes"
+     ]
+    ],
+    "ref": [
+     49,
+     "Both the Product Owner (PrOw) and the Business Manager (BM) should align and share the same vision"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Two items added, one removed, four rewritten. Today the team sees them for the first time. Tomorrow, for an hour, they get put in order.",
+    "plain": "Two items were added, one was removed and four were rewritten. Today the team sees them for the first time. Tomorrow, for one hour, they are put into priority order."
+   },
+   {
+    "who": "lovelace",
+    "text": "Three sessions, three rooms, three sets of people. Wednesday was Marie and Grace. Today is Marie and you. Tomorrow is Marie and Grace again with Albert on the enablers.",
+    "plain": "There are three sessions, in three rooms, with three different groups. Wednesday was Marie and Grace. Today is Marie and the team. Tomorrow is Marie and Grace again, with Albert present for the enabler items.",
+    "g": [
+     [
+      "Release Planning",
+      "the three-part cycle where the business changes the Work Items List, the team sizes it, and priorities reset"
+     ]
+    ],
+    "ref": [
+     48,
+     "Experience shows that organising these steps as individual ceremonies yields better results than executing a single one"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Every iteration, this. Twenty-six times over the project.",
+    "plain": "This happens every iteration. That is twenty-six times over the project."
+   },
+   {
+    "who": "lovelace",
+    "text": "At least every iteration. When we scope national-authority access in the summer it will be weekly, because that context will not sit still for a fortnight.",
+    "plain": "At least once every iteration. When we scope national-authority access in the summer it will be weekly, because that subject will not stay stable for two weeks.",
+    "ref": [
+     48,
+     "recommends this sequence of steps to be performed at least once per iteration"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "You all had the six items on Friday. If you have not read them, say so now and I will read them out, slowly, and we will lose forty minutes.",
+    "plain": "You all received the six items on Friday. If you have not read them, say so now. I will read them out slowly, and we will lose forty minutes."
+   },
+   {
+    "who": "narr",
+    "text": "Nobody says so. Babbage has printed his, which is his way of saying it twice.",
+    "plain": "Nobody says they have not read them. Babbage has printed his copy, which is his way of making the point twice."
+   },
+   {
+    "who": "curie",
+    "text": "The reconciliation panel. As written in February: the panel shows each figure against the accounts and marks every difference. What changed is Finance. Their control file is quarterly, and I have been asking for monthly since January.",
+    "plain": "The reconciliation panel. As written in February, the panel shows each figure against the accounts and marks every difference. What has changed is Finance. Their control file comes quarterly, and I have been asking for a monthly one since January.",
+    "g": [
+     [
+      "reconciliation panel",
+      "the view that sets each portal figure against the accounts and flags every difference"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "So the acceptance criteria now include the day the file is not there. What the panel says, what it does not claim, and what Risk is allowed to conclude from it.",
+    "plain": "So the acceptance criteria now include the case where the file is missing. What the panel shows, what it does not claim, and what the Risk division may conclude from it.",
+    "ref": [
+     49,
+     "New items can be added, others removed or even updated. Whatever the case is, their goal and acceptance criteria must be clear"
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "Then it is not the same story. Twenty-one was a comparison. This is a comparison, a staleness rule, and a screen that admits it is out of date.",
+    "plain": "Then it is not the same work item. Twenty-one points was for a comparison. This is a comparison, plus a rule about stale data, plus a screen that admits it is out of date."
+   },
+   {
+    "who": "lovelace",
+    "text": "Nobody estimate yet. Talk about it first. Charles has just said something Hedy has not heard.",
+    "plain": "Nobody give an estimate yet. Discuss it first. Charles has just said something Hedy has not heard.",
+    "ref": [
+     51,
+     "Explain and discuss first, estimate after"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Eighteen minutes on staleness. Lamarr draws a state machine on the glass with four boxes. Two of the boxes turn out to be the same box.",
+    "plain": "They spend eighteen minutes on the staleness question. Lamarr draws a state machine on the glass with four boxes. Two of the boxes turn out to be the same box."
+   },
+   {
+    "who": "lamarr",
+    "text": "Thirty-four.",
+    "plain": "Thirty-four points."
+   },
+   {
+    "who": "eiffel",
+    "text": "Thirty-four.",
+    "plain": "Thirty-four points."
+   },
+   {
+    "who": "babbage",
+    "text": "Thirty-four, and I want it on the record that in February I said twenty-one and I was not wrong, I was answering a different question.",
+    "plain": "Thirty-four points. And I want it recorded that in February I said twenty-one. I was not wrong; I was answering a different question.",
+    "g": [
+     [
+      "relative estimate",
+      "the size of a work item in points, judged against other items, not in hours"
+     ]
+    ],
+    "ref": [
+     32,
+     "Relative Estimate gives a high-level estimate for the size of a work item, typically measured using a neutral unit such as points"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Points, not days. Nobody carry that thirty-four out of the room as five weeks.",
+    "plain": "These are points, not days. Nobody should take that thirty-four out of the room and call it five weeks."
+   },
+   {
+    "who": "curie",
+    "text": "The number I use is the same number they gave in February and the same scale. That is the whole value of it. If they estimated in days it would move every time somebody took leave.",
+    "plain": "The number I use is on the same scale as the one they gave in February. That is what makes it useful. If they estimated in days, the number would change every time somebody took leave."
+   },
+   {
+    "who": "einstein",
+    "text": "Three more items. The access filter, the audit trail on the drill-through, and moving the sync out of the batch. None of them appear on any screen and all three carry June.",
+    "plain": "There are three more items. The access filter, the audit trail on the drill-through, and moving the sync outside the batch window. None of them appear on a screen, and all three are needed for June.",
+    "ref": [
+     50,
+     "This is the case of technical items (enablers), where the Architecture Owner (ArOw) explains to the Product Owner (PrOw) how important they are"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Say the third one again in a sentence Grace can repeat tomorrow, because tomorrow she will be arguing for something else and I need to be able to say why this beat it.",
+    "plain": "Say the third one again in a sentence that Grace can repeat tomorrow. Tomorrow she will be arguing for something else, and I need to be able to explain why this came first."
+   },
+   {
+    "who": "einstein",
+    "text": "If the sync stays inside a batch we do not own, then twice a quarter the portal is confidently wrong, and nobody finds out until Finance reconciles.",
+    "plain": "If the sync stays inside a batch window we do not control, then twice a quarter the portal shows wrong figures with confidence, and nobody discovers it until Finance reconciles."
+   },
+   {
+    "who": "lovelace",
+    "text": "Two hundred and two points left in Release 2, at thirty-four a fortnight, with six iterations to the twenty-eighth of June. Somebody should be uncomfortable and it is not going to be me.",
+    "plain": "There are 202 points left in Release 2. At thirty-four points per two-week iteration, and six iterations before 28 June, somebody should be uncomfortable. It is not going to be me."
+   },
+   {
+    "who": "eiffel",
+    "text": "And the self-service builder in December is still one sentence in that list.",
+    "plain": "And the self-service report builder for December is still only one sentence in that list."
+   },
+   {
+    "who": "curie",
+    "text": "It stays one sentence until somebody has designed it. I will not spend your Monday morning sizing a thing that will be rewritten twice before October.",
+    "plain": "It stays one sentence until somebody has designed it. I will not spend your Monday morning estimating something that will be rewritten twice before October."
+   },
+   {
+    "who": "lovelace",
+    "text": "Six items discussed, five estimated, one back to Marie for the missing rule. And the output of this meeting is yours, not hers. She explained. You sized. You answer for the sizing.",
+    "plain": "Six items were discussed, five were estimated, and one goes back to Marie because a rule is missing. The output of this meeting belongs to the team, not to her. She explained; you gave the sizes; you are answerable for them.",
+    "ref": [
+     52,
+     "Work Items List (WIL) refinement I I S R I S/A"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And I read the outcome. I do not attend the argument.",
+    "plain": "And I am told the outcome. I do not take part in the discussion."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Informed of the refinement outputs; not a participant in the sizing.",
+    "k": "Knows the Release 2 remainder is 202 points against six iterations and a June date.",
+    "w": "Wants the point figures kept as points and not translated into weeks upstairs.",
+    "f": "Afraid a re-sized item reaches the Steering Committee as a slipped date without context."
+   },
+   "curie": {
+    "o": "Product Owner. Responsible for this activity; explains every changed item herself.",
+    "k": "Knows Finance's control file is quarterly and the acceptance criteria had to change for it.",
+    "w": "Wants one sentence about the sync enabler she can repeat to Hopper tomorrow.",
+    "f": "Afraid of losing the enabler argument tomorrow for want of a plain sentence."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Facilitates the session and keeps estimation behind discussion.",
+    "k": "Knows 202 points against six iterations is arithmetic somebody has to be uncomfortable about.",
+    "w": "Wants the three sessions kept apart and each one run with its own people.",
+    "f": "Afraid a combined ceremony turns sizing into negotiation with the business in the room."
+   },
+   "lamarr": {
+    "o": "Agile Team Member. Draws the staleness states; sizes with the others.",
+    "k": "Knows two of her four states are the same state, which is why the item grew.",
+    "w": "Wants the discussion finished before the number is said out loud.",
+    "f": "Afraid of a number given early and quoted for a quarter."
+   },
+   "babbage": {
+    "o": "Agile Team Member. Printed the items; sized the panel at thirty-four.",
+    "k": "Knows February's twenty-one answered a different question, not a wrong one.",
+    "w": "Wants the record to show the item changed, not that he mis-estimated.",
+    "f": "Afraid re-estimation is read upstairs as the team getting slower."
+   },
+   "eiffel": {
+    "o": "Agile Team Member. Counts the ceremonies and the sentences in the list.",
+    "k": "Knows Release 4 is still one sentence and that this is deliberate.",
+    "w": "Wants the long-term items left thin until they are designed.",
+    "f": "Afraid of an estimate on a December item being treated as a commitment."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Tables three enabler items and explains what each protects.",
+    "k": "Knows a sync inside a foreign batch makes the portal confidently wrong twice a quarter.",
+    "w": "Wants the sync enabler prioritised tomorrow, in Hopper's hearing.",
+    "f": "Afraid invisible work loses to visible work in a room with a June deadline."
+   }
+  },
+  "unlock": [
+   7
+  ],
+  "note": "Guide check: section 5.3, pp.47-52. Release Planning exists so the business can keep telling the team what has changed, and the team can tell the business how big the change is. It has three activities and the guide recommends running them as separate ceremonies: Manage the Work Items List, where the Product Owner and the Business Manager align and, with the Business Implementation Group, add, remove or rewrite items whose goal and acceptance criteria must be clear; Work Items List refinement, where the Product Owner explains the changes and the Agile Team Members return feasibility and relative estimates; and Work Items List prioritisation. The sequence runs at least once per iteration for a two-week iteration, and more often when the context is volatile. Estimation is relative, in points, and gets more accurate as the project progresses. Detail is graded: precise on the short term, concise on the medium and long term. RASCI p.52 for refinement: BM I, PM I, TeCo S, PrOw R, ArOw I, ATeM S/A — the Agile Team Members are Accountable for this step's output, which is unusual. Pages 47-52.",
+  "notePlain": "Rule: Release Planning lets the business keep telling the team what has changed, and lets the team tell the business how big that change is (page 47). It has three activities, and the guide says to run them as three separate meetings (page 48). First, Manage the Work Items List: the Product Owner and Business Manager agree, and with the user representatives they add, remove or rewrite items. Every item must have a clear goal and clear acceptance criteria (page 49). Second, refinement: the Product Owner explains the changes and the team gives feasibility and relative estimates (pages 49 and 50). Third, prioritisation. The whole sequence runs at least once per iteration, and more often when things change fast (page 48). Estimates are relative, in points, and they get better as the project goes on (pages 32 and 33). Give short-term items detail and long-term items only a sentence (page 52). Who is who in refinement: the Product Owner is Responsible, the team members are Accountable for the output, and the Project Manager is only Informed. Pages 47 to 52."
+ },
+ {
+  "id": "s14",
+  "act": 2,
+  "actName": "Executing",
+  "title": "Whose list it is",
+  "covers": [
+   "Release Planning",
+   "Product Owner (PrOw)",
+   "Architecture Owner (ArOw)"
+  ],
+  "guide_page": 50,
+  "where": "ESM, Kirchberg — the long room, fourth floor",
+  "when": "10 Apr 2029, 11:00",
+  "cast": [
+   "you",
+   "curie",
+   "hopper",
+   "einstein",
+   "lovelace"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "One hour. The list on the wall screen, the top thirty items in bold, two user representatives at the end of the table who have been in every one of these since January.",
+    "plain": "The meeting is one hour. The list is on the wall screen with the top thirty items in bold. Two user representatives sit at the end of the table. They have attended every one of these sessions since January."
+   },
+   {
+    "who": "hopper",
+    "text": "The scenario overlay goes into Release 2.",
+    "plain": "The scenario overlay must go into Release 2.",
+    "g": [
+     [
+      "scenario overlay",
+      "the view that re-runs exposure under stress assumptions, so Risk can see a bad case"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "No.",
+    "plain": "No."
+   },
+   {
+    "who": "hopper",
+    "text": "Marie, Risk has asked in three reviews running. Florence has the Governors on the nineteenth of June and she will be asked what happens to the numbers under stress. I would like to hand her something other than September.",
+    "plain": "Marie, the Risk division has asked in three reviews in a row. Florence meets the Governors on 19 June and will be asked what happens to the figures under stress. I would like to give her an answer other than September."
+   },
+   {
+    "who": "curie",
+    "text": "So would I. The panel goes first.",
+    "plain": "So would I. The reconciliation panel goes first."
+   },
+   {
+    "who": "hopper",
+    "text": "Give me the reason and not the ranking.",
+    "plain": "Give me the reason, not just the ranking."
+   },
+   {
+    "who": "curie",
+    "text": "Two open audit findings, both on whether the numbers can be tied to the accounts. Until the panel exists, every scenario we overlay is a stress test on a figure nobody has reconciled. Risk gets a beautiful graph of a number I cannot defend.",
+    "plain": "There are two open audit findings, both about whether the figures can be tied to the accounts. Until the panel exists, every scenario we show is a stress test on a figure nobody has reconciled. Risk would get a beautiful graph of a number I cannot defend.",
+    "ref": [
+     31,
+     "Features that deliver the highest business value with the shortest turn-around time will be delivered first"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Hopper does not answer immediately, which in Hopper means the argument has landed and she is looking for a way to keep both things.",
+    "plain": "Hopper does not answer at once. With Hopper, that means the argument has worked and she is looking for a way to keep both things."
+   },
+   {
+    "who": "hopper",
+    "text": "Then I will say it plainly. I am the Business Manager. She works for the business. If the business says the overlay is what June needs, on what authority does the list say no?",
+    "plain": "Then I will say it plainly. I am the Business Manager. She works for the business. If the business says the overlay is what June needs, what authority does the list have to say no?"
+   },
+   {
+    "who": "lovelace",
+    "text": "On yours. You gave it to her in November and it is written down.",
+    "plain": "On your authority. You gave it to her in November, and it is written down.",
+    "ref": [
+     52,
+     "Together with the Business Manager (BM), determines the priority of the Work Items List. Accountable for the output of this ceremony"
+    ],
+    "g": [
+     [
+      "empowerment",
+      "the Business Manager giving the Product Owner authority to take day-to-day decisions without waiting"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "You support the priority, Grace. You do not set it. If you set it we have two people ordering one list and the team gets whichever of us spoke to them last.",
+    "plain": "You support the priority, Grace. You do not set it. If you set it, then two people are ordering one list, and the team follows whichever of us spoke to them most recently.",
+    "g": [
+     [
+      "single voice of the stakeholders",
+      "one person carries the business's priorities into the team, so the team hears one order of work"
+     ]
+    ],
+    "ref": [
+     52,
+     "Supports the Product Owner (PrOw) determining the priorities of the Work Items List (WIL)"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And if the two of you could not agree at all, then Grace and I step in. That is the mechanism and it exists. It is not for use on a Tuesday when one of you has a better argument than the other.",
+    "plain": "And if you two could not agree at all, then Grace and I would step in. That mechanism exists. It is not for use on a Tuesday when one of you simply has the better argument.",
+    "ref": [
+     65,
+     "The Project Manager (PM), together with the Business Manager (BM), may need to intervene when the expectations are not aligned"
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "There is a version of this where you both get what you want and it costs Release 2 eight points.",
+    "plain": "There is a version of this where you both get what you want, and it costs Release 2 eight points."
+   },
+   {
+    "who": "hopper",
+    "text": "Go on.",
+    "plain": "Please continue."
+   },
+   {
+    "who": "einstein",
+    "text": "The overlay is a screen on top of a calculation service that does not exist. Build the service in Release 2 as an enabler. It shows nothing, Grace, nothing at all, and it means Release 3 can ship the overlay in its first iteration instead of its third.",
+    "plain": "The overlay is a screen built on top of a calculation service that does not exist. Build that service in Release 2 as an enabler item. It shows nothing at all, Grace. But it means Release 3 can deliver the overlay in its first iteration instead of its third.",
+    "ref": [
+     50,
+     "PM²-Agile recommends the presence of the Architecture Owner (ArOw) to help with the prioritisation"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "So in June I tell the Governors the machinery is built and the screen comes in July.",
+    "plain": "So in June I tell the Governors that the machinery is built and the screen arrives in July."
+   },
+   {
+    "who": "einstein",
+    "text": "In June you tell them it is built, because it will be, and I will demonstrate it to Marie from a log file with no screen at all, and she will accept it or she will not.",
+    "plain": "In June you tell them it is built, because it will be. I will demonstrate it to Marie from a log file, with no screen at all, and she will either accept it or she will not."
+   },
+   {
+    "who": "curie",
+    "text": "Panel first, service second, one-two-one stays where it is, overlay in Release 3. Grace, do you support that list.",
+    "plain": "The panel first, the calculation service second, WIL-121 stays where it is, and the overlay stays in Release 3. Grace, do you support that list?"
+   },
+   {
+    "who": "hopper",
+    "text": "I support that list. Under protest about the date, which I want in the minutes, because in June somebody will ask me why the overlay was not there and I intend to have been on the record.",
+    "plain": "I support that list. I object to the date, and I want that recorded in the minutes. In June somebody will ask me why the overlay was not delivered, and I want to have said this on the record."
+   },
+   {
+    "who": "lovelace",
+    "text": "Version six goes out tonight to the whole core team. Velocity assumption drops from thirty-four to thirty, because six iterations of evidence beats an assumption made in November.",
+    "plain": "Release Plan version six goes out tonight to the whole Project Core Team. The velocity assumption drops from thirty-four to thirty, because six iterations of evidence is better than an assumption made in November.",
+    "g": [
+     [
+      "velocity assumption",
+      "the points-per-iteration figure a Release Plan is built on, revised as evidence arrives"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And the Release 2 contents changed, so it goes to the Steering Committee with two paragraphs from me. Not for approval of Marie's ranking. For the fact that what they were promised in June is now a different set of things.",
+    "plain": "And because the contents of Release 2 have changed, it goes to the Steering Committee with two paragraphs from me. Not to approve Marie's ranking, but because what they were promised in June is now a different set of things.",
+    "ref": [
+     50,
+     "the modified release plan may need to be reviewed by the Project Steering Committee (PSC) to agree on the changes"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Two years ago I would have won that argument in the corridor afterwards.",
+    "plain": "Two years ago I would have won that argument in the corridor afterwards."
+   },
+   {
+    "who": "curie",
+    "text": "Two years ago you would have won it, and then Ada would have had two lists, and the second one would have been the real one.",
+    "plain": "Two years ago you would have won it. Then Ada would have had two lists, and the second one would have been the real one."
+   },
+   {
+    "who": "hopper",
+    "text": "Yes. Send me the sentence about the sync, Marie. The one Albert made you learn. I have Florence on Thursday.",
+    "plain": "Yes. Send me the sentence about the sync, Marie. The one Albert made you learn. I meet Florence on Thursday."
+   }
+  ],
+  "choice": {
+   "prompt": "Hopper represents the Project Owner and wants the scenario overlay in Release 2. Curie will not move it. How is it settled?",
+   "promptPlain": "Hopper represents the Project Owner and wants the scenario overlay in Release 2. Curie will not move it. How is this settled?",
+   "options": [
+    {
+     "t": "Curie settles it. She is Responsible and Accountable for prioritising the list; Hopper supports. Record the objection, revise the Release Plan, send the content change to the Steering Committee.",
+     "tPlain": "Curie settles it. She is Responsible and Accountable for putting the list in order; Hopper supports her. Record the objection, revise the Release Plan, and send the content change to the Steering Committee.",
+     "ok": true,
+     "reply": {
+      "who": "lovelace",
+      "text": "Then I have one list tonight and I can plan Monday against it. Grace's protest is in the minutes and the enabler is in Release 2, which is more than she came in with.",
+      "plain": "Then I have one list tonight and I can plan Monday's work against it. Grace's objection is in the minutes, and the enabler is in Release 2, which is more than she arrived with."
+     },
+     "why": "The RAM for Work Items List prioritisation gives the Product Owner both R and A; the Business Manager Supports, the Architecture Owner and the Agile Team Members are Consulted, and the Project Manager is Informed (p.52). The BM's real power sits earlier and elsewhere: she empowers the PrOw to take day-to-day decisions and aligns the list with business strategy. The PM and BM intervene only when expectations are not aligned or the PrOw and the team cannot reach consensus (p.65) — which is not a disagreement the PrOw has just decided.",
+     "whyPlain": "In the responsibility table for prioritisation, the Product Owner is both Responsible and Accountable. The Business Manager Supports, the Architecture Owner and team members are Consulted, and the Project Manager is only Informed (page 52). The Business Manager's real power is earlier: she empowers the Product Owner to take daily decisions and keeps the list aligned with business strategy. The Project Manager and Business Manager step in only when expectations do not match, or when the Product Owner and the team cannot agree (page 65). That is not what happened here.",
+     "ref": [
+      52,
+      "Work Items List (WIL) prioritisation C S I S R/A C C"
+     ]
+    },
+    {
+     "t": "You re-order it. You are Accountable for the Development Work Plan and the June date is a Charter milestone, so the Release Plan is yours to hold.",
+     "tPlain": "You reorder the list yourself. You are Accountable for the Development Work Plan, and the June date is a milestone in the Charter, so the Release Plan is yours to protect.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "You are accountable for the plan. The order inside it is the only thing I do that nobody else can. Take it and I am a very well-informed spectator with a job title.",
+      "plain": "You are Accountable for the plan. The order of items inside it is the one thing I do that nobody else can do. Take that away and I am a well-informed spectator with a job title."
+     },
+     "why": "The Project Manager is Accountable for the Work Items List as an artefact and Informed of the prioritisation ceremony — those are different things. The Product Owner is Responsible for the list and continuously prioritises it in alignment with feedback from the stakeholder community and the team (p.63, p.52). A Project Manager who re-orders the list has removed the single voice of the stakeholders and given the team two sources of priority, which is the failure mode the role exists to prevent.",
+     "whyPlain": "The Project Manager is Accountable for the Work Items List as a document, and only Informed about the prioritisation meeting. Those are two different things. The Product Owner is Responsible for the list and keeps it in order, using feedback from stakeholders and from the team (pages 52 and 63). A Project Manager who reorders the list removes the single business voice and gives the team two sources of priority. That is exactly the problem the role exists to prevent.",
+     "ref": [
+      52,
+      "Supports the Product Owner (PrOw) determining the priorities of the Work Items List (WIL)"
+     ]
+    },
+    {
+     "t": "Hopper settles it. She is the Business Manager, she is the delegate of the Project Owner, and the Product Owner works to the business she represents.",
+     "tPlain": "Hopper settles it. She is the Business Manager and the Project Owner's delegate, and the Product Owner works for the business she represents.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "Then the next time Risk telephones me directly I move it again, and Ada plans a fortnight against a list I changed on Wednesday without telling her. I have watched that project. I do not want to be in another one.",
+      "plain": "Then the next time Risk telephones me directly, I move it again. Ada plans two weeks of work against a list I changed on Wednesday without telling her. I have seen a project run that way. I do not want to be in another one."
+     },
+     "why": "PM²-Agile deliberately splits the two roles. The Business Manager empowers the Product Owner to take the day-to-day decisions that let the team progress without waiting, and aligns with her so the list reflects business strategy (p.65). Empowerment that is withdrawn whenever the Business Manager disagrees is not empowerment; the guide's own condition is that an empowered Product Owner, aligned with the BM and the BIG, is what allows the benefits of PM²-Agile to surface.",
+     "whyPlain": "PM²-Agile deliberately separates these two roles. The Business Manager empowers the Product Owner to take the daily decisions that let the team keep working without waiting, and stays aligned with her so the list matches business strategy (page 65). Power that is taken back whenever the Business Manager disagrees is not real empowerment. The guide says the benefits of PM²-Agile appear only when the Product Owner is empowered and aligned with the Business Manager and the user representatives.",
+     "ref": [
+      65,
+      "The Project Manager (PM), together with the Business Manager (BM), may need to intervene when the expectations are not aligned"
+     ]
+    },
+    {
+     "t": "Raise it as a change request and let the Steering Committee choose between the panel and the overlay for Release 2.",
+     "tPlain": "Raise it as a change request and let the Steering Committee choose between the panel and the overlay for Release 2.",
+     "ok": false,
+     "reply": {
+      "who": "you",
+      "text": "Then Lorenzo decides on Thursday week, Ada plans Monday on a list that may not survive, and the two people who understand the audit findings are in the room and not on the committee.",
+      "plain": "Then Lorenzo decides in ten days. Ada plans Monday's work against a list that may not survive. And the two people who understand the audit findings are in this room, not on that committee."
+     },
+     "why": "The order inside the list is not a governance decision; the revised Release Plan is generated here, shared with the whole Project Core Team, and only then, depending on impact, reviewed by the Project Steering Committee (p.50). Escalating the ranking itself inverts that: it stalls a fortnight of planning, and hands a judgement about audit findings and stakeholder value to a body that has neither the detail nor the daily contact the Product Owner has.",
+     "whyPlain": "The order of items in the list is not a governance decision. The revised Release Plan is produced here, shared with the whole Project Core Team, and only then, if the impact is large enough, reviewed by the Project Steering Committee (page 50). Escalating the ranking itself reverses that order. It stops two weeks of planning and gives a judgement about audit findings and business value to a committee that has neither the detail nor the daily contact the Product Owner has.",
+     "ref": [
+      50,
+      "the Product Owner (PrOw) and all other stakeholders adjust the release strategy for the final users' solution by prioritising the Work Items List (WIL)"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Informed of the prioritisation; carries the content change to the Steering Committee.",
+    "k": "Knows when the intervention mechanism applies, and that this was not it.",
+    "w": "Wants the June promise restated upward before somebody notices it changed.",
+    "f": "Afraid the committee reads a re-ordered release as a project losing control of scope."
+   },
+   "curie": {
+    "o": "Product Owner. Responsible and accountable for the priority of the Work Items List.",
+    "k": "Knows two audit findings make the panel worth more than the overlay in June.",
+    "w": "Wants one list, hers, that the team can plan a fortnight against.",
+    "f": "Afraid of a second list agreed in a corridor after this meeting ends."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the prioritisation; empowered the Product Owner in November.",
+    "k": "Knows Nightingale faces the Governors on the nineteenth of June with no scenario answer.",
+    "w": "Wants something for June and her objection recorded in the minutes.",
+    "f": "Afraid of being the person who promised Risk an overlay that arrives in September."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Consulted on the enabler items during prioritisation.",
+    "k": "Knows the overlay is a screen over a calculation service nobody has built.",
+    "w": "Wants the invisible service bought now so the visible screen is cheap later.",
+    "f": "Afraid enabler work only ever wins arguments when he is in the room."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Issues the revised Release Plan and the new velocity assumption.",
+    "k": "Knows six iterations of evidence say thirty, not the thirty-four assumed in November.",
+    "w": "Wants one agreed list tonight so Monday's planning has an input.",
+    "f": "Afraid of planning a fortnight against a ranking that is still being contested."
+   }
+  },
+  "unlock": [
+   24,
+   25
+  ],
+  "note": "Guide check: section 5.3.2.3 and 5.3.3.3, pp.50-52, with the role boundary at p.65. Work Items List prioritisation is the last step of the Release Planning cycle and the guide calls this simple activity the main outcome of Release Planning. The Product Owner, aligned with the Business Manager and other stakeholders, prioritises the items and reviews the content of the planned releases. Enablers get specific attention because, unimplemented, they can compromise the integrity and usability of the solution, and because neither the Product Owner nor the stakeholders are familiar with them, the guide recommends the Architecture Owner be present. A revised Release Plan is generated and shared with the whole Project Core Team, and depending on impact it may need Project Steering Committee review. RASCI p.52: BIG C, BM S, PM I, TeCo S, PrOw R/A, ArOw C, ATeM C. The Business Manager's authority is exercised by empowering and aligning with the Product Owner, not by overruling her; the PM and BM intervene only when expectations are misaligned or the PrOw and team cannot reach consensus (p.65). Pages 50-52, 65.",
+  "notePlain": "Rule: putting the Work Items List in priority order is the last step of Release Planning, and the guide calls this simple activity its main result (page 50). The Product Owner, working with the Business Manager and other stakeholders, sets the priorities and reviews what is in each planned release. Enabler items get special attention, because if they are not built they can damage the whole solution. Since the Product Owner and the business people do not know these items well, the guide says the Architecture Owner should be there to help (page 50). A new Release Plan comes out of the meeting and is shared with the whole Project Core Team. If the impact is large, the Project Steering Committee reviews it. Who is who: the Product Owner is Responsible and Accountable, the Business Manager Supports, the Architecture Owner and team members are Consulted, and the Project Manager is only Informed (page 52). The Business Manager uses her authority by empowering the Product Owner, not by overruling her. The Project Manager and Business Manager step in only when expectations do not match or the team cannot agree (page 65). Pages 50 to 52 and 65."
+ },
+ {
+  "id": "s15",
+  "act": 2,
+  "actName": "Executing",
+  "title": "Every criterion, out loud",
+  "covers": [
+   "Iteration Review",
+   "Definition of Done"
+  ],
+  "guide_page": 52,
+  "where": "ESM, Kirchberg — the long room, fourth floor, laptops down both sides",
+  "when": "13 Apr 2029, 10:00",
+  "cast": [
+   "you",
+   "eiffel",
+   "lamarr",
+   "babbage",
+   "einstein",
+   "curie",
+   "hopper",
+   "lovelace",
+   "brandeis"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Last day of the iteration. Two hours booked, ten to twelve. Eleven people, two of them user representatives from Lending Operations, and every one of them with a laptop open because today they drive it themselves.",
+    "plain": "It is the last day of the iteration. Two hours are booked, from 10:00 to 12:00. Eleven people are present, two of them user representatives from Lending Operations. Everyone has a laptop open, because today they will use the system themselves.",
+    "g": [
+     [
+      "hands-on demo",
+      "the stakeholders use the increment themselves instead of watching somebody drive it"
+     ]
+    ],
+    "ref": [
+     53,
+     "PM²-Agile recommends the Iteration Review as a closure ceremony meeting occurring on the last day of the iteration"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Twelve minutes and then you get your hands on it. Committed: twenty-nine points, four items, one spike. The goal was instrument breakdown for any member state with every figure traceable.",
+    "plain": "I will speak for twelve minutes and then you will use it yourselves. We committed to twenty-nine points, four items and one spike. The goal was an instrument breakdown for any member state, with every figure traceable.",
+    "ref": [
+     53,
+     "A brief ten to fifteen minute presentation to align the expectations on the contents of the Demo"
+    ],
+    "g": [
+     [
+      "align expectations",
+      "the ten-to-fifteen-minute opening of a review: committed, achieved, not achieved, new, dropped, difficulties"
+     ]
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Achieved and demonstrable: three items. Not achieved: one-two-seven, the drill-through, which is built and which I will show you anyway. New: two, both from Wednesday. Dropped: none.",
+    "plain": "Achieved and ready to demonstrate: three items. Not achieved: WIL-127, the drill-through, which is built and which I will still show you. New items: two, both from Wednesday. Dropped items: none."
+   },
+   {
+    "who": "eiffel",
+    "text": "Impediments. The nightly sync sits inside a batch we do not own and it moved at month end without telling us. Finance signed off the maturity rules a day late. Three broken builds, all mine and Hedy's, all green inside two hours.",
+    "plain": "Impediments. The nightly sync runs inside a batch window we do not control, and it moved at month end without warning. Finance approved the maturity rules one day late. There were three broken builds, all caused by me and Hedy, and all fixed within two hours."
+   },
+   {
+    "who": "hopper",
+    "text": "That is the third review running where the sync has been on that slide.",
+    "plain": "That is the third review in a row where the sync has appeared on that slide."
+   },
+   {
+    "who": "lovelace",
+    "text": "It is. Hold that until this afternoon.",
+    "plain": "It is. Please keep that point until this afternoon."
+   },
+   {
+    "who": "narr",
+    "text": "One-one-eight. Lamarr names the item, reads its four acceptance criteria off the card, and lists the six scenarios she is about to run. Then the two analysts run them instead.",
+    "plain": "WIL-118. Lamarr names the item, reads its four acceptance criteria from the card, and lists the six test scenarios she is about to run. Then the two analysts run them instead.",
+    "g": [
+     [
+      "acceptance criteria",
+      "the conditions written on a work item that decide whether it does what was agreed"
+     ]
+    ],
+    "ref": [
+     54,
+     "each test scenario should be properly identified, including the acceptance criteria (very important) that the scenario is targeted to validate"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Every click, she says which criterion it proves. Cyprus by instrument. Cyprus by instrument at a past value date. Cyprus by instrument where the instrument does not exist.",
+    "plain": "With every click, she says which criterion it proves. Cyprus by instrument. Cyprus by instrument at an earlier value date. Cyprus by instrument where the instrument does not exist.",
+    "g": [
+     [
+      "value date",
+      "the date a position is measured at, so a figure can be reproduced later"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Four of four. Done.",
+    "plain": "All four criteria met. Done."
+   },
+   {
+    "who": "babbage",
+    "text": "One-two-one. There is no screen. There is never going to be a screen. What there is, is this.",
+    "plain": "WIL-121. There is no screen for this item. There never will be. What there is, is this."
+   },
+   {
+    "who": "narr",
+    "text": "A log file. Twenty thousand reference rows, a timestamp, a count of differences resolved, and at the bottom the line that says the run finished at 04:12 having reconciled against the platform.",
+    "plain": "He shows a log file. Twenty thousand reference rows, a time stamp, a count of resolved differences, and at the bottom a line saying the run finished at 04:12 after reconciling against the platform."
+   },
+   {
+    "who": "hopper",
+    "text": "You are demonstrating a text file to a room of eleven people.",
+    "plain": "You are demonstrating a text file to a room of eleven people."
+   },
+   {
+    "who": "curie",
+    "text": "He is demonstrating the reason the last three minutes were not a lie. I want it demonstrated. I have accepted two invisible things this quarter and I will keep doing it.",
+    "plain": "He is demonstrating the reason why the last three minutes were not a lie. I want it demonstrated. I have accepted two invisible items this quarter, and I will continue to do so.",
+    "ref": [
+     56,
+     "Technical work should be demonstrated"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "One-two-four, the maturity buckets, against Finance's rule set, version four. Three criteria, three scenarios, accepted. Fifty minutes gone.",
+    "plain": "WIL-124, the maturity buckets, tested against Finance's rule set, version four. Three criteria, three scenarios, accepted. Fifty minutes have passed."
+   },
+   {
+    "who": "lamarr",
+    "text": "One-two-seven. Drill-through to source. Criteria: any figure, one click, the underlying record, and the record identifies the system it came from. Grace, use your first-quarter case.",
+    "plain": "WIL-127, drill-through to source. The criteria are: any figure, one click, the underlying record, and the record identifies the system it came from. Grace, please use your first-quarter case."
+   },
+   {
+    "who": "narr",
+    "text": "Hopper clicks a Portuguese figure she has argued about since 2027 and reaches the record behind it in under a second. Both analysts do it twice. One of them says, out loud and to nobody, that this is the thing.",
+    "plain": "Hopper clicks on a Portuguese figure she has argued about since 2027, and reaches the record behind it in under a second. Both analysts do it twice. One of them says out loud, to nobody in particular, that this is the thing."
+   },
+   {
+    "who": "curie",
+    "text": "Four of four. That is the one Risk has been asking for since—",
+    "plain": "All four criteria met. That is the one the Risk division has been asking for since—"
+   },
+   {
+    "who": "brandeis",
+    "text": "Did anyone run my screening.",
+    "plain": "Did anyone run my screening?"
+   },
+   {
+    "who": "narr",
+    "text": "Lamarr does not answer. Lovelace does not answer for her. Eight seconds, which in a demonstration room is a very long time.",
+    "plain": "Lamarr does not answer. Lovelace does not answer for her. Eight seconds pass, which in a demonstration room is a very long time."
+   },
+   {
+    "who": "lamarr",
+    "text": "No. And the accessibility check was not run either. Lines seven and eight.",
+    "plain": "No. And the accessibility check was not run either. Lines seven and eight of the Definition of Done."
+   },
+   {
+    "who": "you",
+    "text": "He asked for it on the fifth. In your team room, in front of four of you, and I was standing at the back of it.",
+    "plain": "He asked for it on 5 April. In your team room, in front of four of you, and I was standing at the back of the room."
+   },
+   {
+    "who": "lamarr",
+    "text": "You were. And nobody in that room said a name or a date, including me, and including you.",
+    "plain": "You were. And nobody in that room gave a name or a date, including me and including you."
+   },
+   {
+    "who": "hopper",
+    "text": "It does what the card says it does. I have just done it myself, twice, with a real case.",
+    "plain": "It does what the card says it does. I have just done it myself, twice, with a real case."
+   },
+   {
+    "who": "eiffel",
+    "text": "Grace, the card is what it must do. The other eleven lines are what we must have done to it. Those are two different lists and Annex D has both.",
+    "plain": "Grace, the card says what the item must do. The other eleven lines say what we must have done to it. Those are two different lists, and Annex D contains both.",
+    "ref": [
+     88,
+     "the development team has to agree on the conditions that must be satisfied for a given Work Item to be considered complete"
+    ]
+   },
+   {
+    "who": "brandeis",
+    "text": "And the second list is not a formality on this item. In September that record leaves the building and a supervisor in Vilnius reads a staff identifier off it.",
+    "plain": "And on this item, the second list is not a formality. In September that record leaves the building, and a supervisor in Vilnius will read a staff identifier from it."
+   },
+   {
+    "who": "narr",
+    "text": "Curie has the card in her hand. Four ticks on it in her own pen, from three minutes ago.",
+    "plain": "Curie is holding the card. It has four ticks on it, made in her own pen three minutes ago."
+   }
+  ],
+  "choice": {
+   "prompt": "WIL-127 met every acceptance criterion in front of the room. Two lines of the Definition of Done were never run. Is it Done?",
+   "promptPlain": "WIL-127 met every acceptance criterion in front of the room. Two lines of the Definition of Done were never run. Is it Done?",
+   "options": [
+    {
+     "t": "No. It is not Done. It goes back to the top of the Work Items List for iteration 8, and the reason recorded is the Definition of Done, not the criteria.",
+     "tPlain": "No, it is not Done. It goes back to the top of the Work Items List for iteration 8. The recorded reason is the Definition of Done, not the acceptance criteria.",
+     "ok": true,
+     "reply": {
+      "who": "curie",
+      "text": "Then I un-tick it, and I want the reason written properly, because in six weeks somebody will read the log and think Hedy built the wrong thing. She did not. We skipped two checks that are ours.",
+      "plain": "Then I remove the ticks, and I want the reason written correctly. In six weeks somebody will read the log and think Hedy built the wrong thing. She did not. We skipped two checks that are our own responsibility."
+     },
+     "why": "Acceptance criteria define the boundaries of a work item and confirm when it does what was agreed; the Definition of Done is the team's own agreed set of conditions for a Work Item to be considered complete, and it exists to bring quality into the development cycle rather than at the end of it (pp.39-40, p.88). The Iteration Review asks for confirmation that the item does what was agreed, and the wrap-up requires the reason for any rejection to be clear (pp.54-55). Recording it as a Definition of Done failure rather than a criteria failure is what makes the retrospective able to fix the right thing.",
+     "whyPlain": "Acceptance criteria say what a work item must do, and confirm when it does what was agreed (pages 39 and 40). The Definition of Done is the team's own list of conditions for an item to count as complete, and it exists to put quality inside the development cycle instead of at the end (page 88). At the Iteration Review the team asks for confirmation that the item does what was agreed, and in the wrap-up the reason for any rejection must be clear (pages 54 and 55). Recording this as a Definition of Done failure, not a criteria failure, lets the retrospective fix the right problem.",
+     "ref": [
+      54,
+      "If all the acceptance criteria are met, the Agile Team Members (ATeM) should ask for the confirmation that the item does exactly what was agreed to"
+     ]
+    },
+    {
+     "t": "Accept it as Done and raise the screening and the accessibility check as two new work items for iteration 8.",
+     "tPlain": "Accept it as Done, and add the screening and the accessibility check as two new work items for iteration 8.",
+     "ok": false,
+     "reply": {
+      "who": "brandeis",
+      "text": "Then done means built, and the two things that protect a person become items in a queue that Marie orders. I have watched that queue. It is a good queue. It is forty items long.",
+      "plain": "Then done means built, and the two things that protect a person become items in a queue that Marie puts in order. I have seen that queue. It is a good queue. It is forty items long."
+     },
+     "why": "This converts the Definition of Done into a wish list. The DoD is the set of items the Agile Team Members check to determine that a Work Item complies with the team's quality standards, and its purpose is to reduce the likelihood of defects later in the lifecycle (p.88). Splitting the conditions out into separately-prioritised items removes exactly that protection, and puts a compliance condition into competition with business value in the Work Items List.",
+     "whyPlain": "This turns the Definition of Done into a wish list. The Definition of Done is the set of checks the team makes to confirm that an item meets the team's quality standard, and its purpose is to reduce defects later on (page 88). Splitting those conditions out into separate items that are prioritised on their own removes that protection. It also puts a compliance check into competition with business value inside the Work Items List.",
+     "ref": [
+      88,
+      "consists on a set of items that the Agile Team Members (ATeMs) check to determine if an implemented Work Item complies with the team's quality standards"
+     ]
+    },
+    {
+     "t": "Accept it conditionally: Done for the purposes of the review, on the understanding that both checks run before Release 2 ships in June.",
+     "tPlain": "Accept it conditionally: Done for this review, on the understanding that both checks are run before Release 2 is released in June.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "text": "Conditionally done is done with a story attached, and stories fall off. Tell me now which of the four of you runs it and on what date, and if nobody can, it is not done.",
+      "plain": "Conditionally done means done with a story attached, and stories get lost. Tell me now which of the four of you will run it and on what date. If nobody can say, then it is not done."
+     },
+     "why": "The increment an iteration produces is meant to be stable and potentially shippable, and quality is built in during each timeboxed cycle rather than inspected at the end (p.19, p.34). A conditional acceptance defers the check to a release deadline, which is precisely when there is least room to act on what it finds — and the guide's whole quality argument is that timeboxed cycles and frequent demos exist to create space for collaborative improvement, not to postpone it.",
+     "whyPlain": "What an iteration produces should be stable and potentially shippable, and quality is built in during each fixed cycle rather than inspected at the end (pages 19 and 34). Conditional acceptance moves the check to the release deadline, which is exactly when there is least time to act on what it finds. The guide's argument about quality is that short cycles and frequent demonstrations create space to improve together, not a way to delay.",
+     "ref": [
+      34,
+      "PM²-Agile references two different but complementary quality types - the quality of the development process and the quality of the outputs of the process"
+     ]
+    },
+    {
+     "t": "Curie accepts. The acceptance criteria are her agreement with the business; the Definition of Done is an internal team convention that cannot bind her.",
+     "tPlain": "Curie accepts it. The acceptance criteria are her agreement with the business. The Definition of Done is an internal team rule that cannot bind her.",
+     "ok": false,
+     "reply": {
+      "who": "einstein",
+      "text": "Then we have two definitions of finished in one project, and the one that wins will be whichever is being quoted at the time. Gustave has been telling us that since November and he was talking about money.",
+      "plain": "Then the project has two definitions of finished, and the winner will be whichever one is being quoted at the time. Gustave has been saying this since November, and he was talking about money."
+     },
+     "why": "The two are complementary, not rival. Acceptance criteria develop the requirement into specific conditions of satisfaction and are used to confirm when a work item is completed; the Definition of Done is the team's quality standard applied to every item (pp.39-40, p.88). The Iteration Review exists precisely to collect feedback from the client to ensure the Work Items are Done according to that Definition of Done (p.21). A Product Owner who accepts against criteria alone is accepting something the guide does not call Done.",
+     "whyPlain": "The two things work together, they do not compete. Acceptance criteria turn a requirement into specific conditions and confirm when an item is complete (pages 39 and 40). The Definition of Done is the team's quality standard, applied to every item (page 88). The Iteration Review exists to collect feedback from the client so that work items are Done according to that Definition of Done (page 21). A Product Owner who accepts on criteria alone is accepting something the guide does not call Done.",
+     "ref": [
+      40,
+      "This includes the acceptance criteria that define the boundaries of a work item and are used to confirm when it's completed"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Informed about the outputs of the ceremony; no vote on acceptance.",
+    "k": "Knows the two unrun lines were named to the team on the fifth of April.",
+    "w": "Wants the rejection recorded for the right reason so the fix lands in the right place.",
+    "f": "Afraid a rejected item is read upstairs as a failed iteration rather than a working control."
+   },
+   "eiffel": {
+    "o": "Agile Team Member. Presented the twelve-minute alignment and holds the Annex D distinction.",
+    "k": "Knows the card and the Definition of Done are two lists, and can say why.",
+    "w": "Wants done to mean the same thing in this room as in his contract.",
+    "f": "Afraid of an invoice dispute in June about a word settled in November."
+   },
+   "lamarr": {
+    "o": "Agile Team Member. Built the drill-through; named the two checks nobody ran.",
+    "k": "Knows every acceptance criterion passed in front of eleven people.",
+    "w": "Wants the two manual lines made into gates so this cannot recur.",
+    "f": "Afraid of being the person whose best work of the quarter is marked not Done."
+   },
+   "babbage": {
+    "o": "Agile Team Member. Demonstrated an enabler from a log file, without a screen.",
+    "k": "Knows the sync ran at 04:12 and reconciled, and can show it.",
+    "w": "Wants invisible work seen and accepted explicitly, not assumed.",
+    "f": "Afraid the batch window appears on a third slide and still nothing changes."
+   },
+   "einstein": {
+    "o": "Architecture Owner, acting as an ordinary team member in the review.",
+    "k": "Knows two definitions of finished in one project is a defect in the project.",
+    "w": "Wants one definition that survives being quoted by either side.",
+    "f": "Afraid a compliance condition becomes negotiable once it costs a date."
+   },
+   "curie": {
+    "o": "Product Owner. Accountable for the output; accepts or rejects each demonstrated item.",
+    "k": "Knows she ticked four criteria three minutes before Brandeis asked his question.",
+    "w": "Wants the rejection written so nobody reads it as Lamarr building the wrong thing.",
+    "f": "Afraid of accepting something that fails in front of a national authority in September."
+   },
+   "hopper": {
+    "o": "Business Manager. Consulted on the demonstrated items; brought her own test case.",
+    "k": "Knows the drill-through works, because she used it herself with a 2027 argument.",
+    "w": "Wants the item counted, having watched it do exactly what was promised.",
+    "f": "Afraid of losing a delivered capability to a process condition nobody ran."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Supports the ceremony, holds its structure and its boundaries.",
+    "k": "Knows the sync has been on the impediment slide three reviews running.",
+    "w": "Wants a named person and a date, or the item is not done.",
+    "f": "Afraid conditional acceptance becomes the way this team closes iterations."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Line seven of the Definition of Done is his screening.",
+    "k": "Knows the source record carries a staff identifier that reaches Vilnius in September.",
+    "w": "Wants the screening run before the item is called finished, not after.",
+    "f": "Afraid the protective checks become items in a forty-item queue."
+   }
+  },
+  "unlock": [
+   8
+  ],
+  "note": "Guide check: section 5.4, pp.52-56, with the Definition of Done at p.88. The Iteration Review assesses whether the iteration goal was achieved, by demonstrating what was built; it is a closure ceremony on the last day of the iteration, 90 to 120 minutes for a two-week iteration. It has three moments. Align expectations: a ten to fifteen minute presentation by an Agile Team Member covering scope, achieved, not achieved, new and dropped items, and difficulties. Demo: single-point or hands-on, decided in advance, with the test scenarios agreed beforehand; for each item, describe it with its acceptance criteria, demonstrate each scenario naming the criterion it validates, then ask for confirmation that it is Done. Technical and enabler work must be demonstrated too, because it is invisible and the Product Owner must understand its impact. Then wrap-up and Work Items List review. Acceptance criteria and the Definition of Done are different instruments: the first is what the item must do, the second is the team's own quality standard for any item to count as complete. RASCI p.56: BIG C, BM C, PM I, TeCo S, PrOw A/S, ArOw R, ATeM R. Pages 52-56, 88.",
+  "notePlain": "Rule: the Iteration Review checks whether the iteration goal was reached, by showing what was built. It is a closing meeting on the last day of the iteration, and 90 to 120 minutes is good practice for a two-week iteration (page 53). It has three parts. First, align expectations: a ten to fifteen minute talk by a team member covering the goal and committed items, what was achieved, what was not, new and dropped items, and difficulties (pages 53 and 54). Second, the demonstration. The team decides in advance whether stakeholders watch or use it themselves, and which test scenarios are used. For each item: describe it with its acceptance criteria, demonstrate each scenario and name the criterion it proves, then ask for confirmation that it is Done (page 54). Technical and enabler work must be shown too, because it is invisible and the Product Owner needs to understand it (page 56). Third, the wrap-up. Acceptance criteria and the Definition of Done are different things. The first is what the item must do. The second is the team's own quality standard for any item to count as complete (page 88). Who is who: team members and the Architecture Owner are Responsible, the Product Owner is Accountable, the Business Manager and user representatives are Consulted, and the Project Manager is Informed. Pages 52 to 56 and 88."
+ },
+ {
+  "id": "s16",
+  "act": 2,
+  "actName": "Executing",
+  "title": "That is this afternoon",
+  "covers": [
+   "Iteration Review",
+   "Iteration Retrospective"
+  ],
+  "guide_page": 55,
+  "where": "ESM, Kirchberg — the long room, fourth floor, laptops closed",
+  "when": "13 Apr 2029, 11:50",
+  "cast": [
+   "you",
+   "lovelace",
+   "eiffel",
+   "lamarr",
+   "babbage",
+   "einstein",
+   "curie",
+   "hopper"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The analysts have gone back downstairs. Ten minutes left of the booked two hours and four items to close, which is how these always end.",
+    "plain": "The analysts have gone back downstairs. Ten minutes remain of the two booked hours, and four items still have to be closed. These meetings always end this way."
+   },
+   {
+    "who": "eiffel",
+    "text": "One-one-eight, accepted. One-two-one, accepted, and I want it in the note that Marie accepted an enabler off a log file, because in three months somebody will say we never demonstrated the invisible work.",
+    "plain": "WIL-118, accepted. WIL-121, accepted. I want it written in the note that Marie accepted an enabler item from a log file. In three months somebody will claim we never demonstrated the invisible work."
+   },
+   {
+    "who": "eiffel",
+    "text": "One-two-four, accepted against Finance rule set four. One-two-seven, not accepted. Reason?",
+    "plain": "WIL-124, accepted against Finance rule set version four. WIL-127, not accepted. What reason do I record?"
+   },
+   {
+    "who": "curie",
+    "text": "Definition of Done, lines seven and eight, not run. Not criteria not met. Write the words.",
+    "plain": "Definition of Done, lines seven and eight, not run. Not that the criteria were unmet. Write those exact words.",
+    "g": [
+     [
+      "wrap-up",
+      "the closing part of the review: each item accepted or rejected, and the list refreshed"
+     ]
+    ],
+    "ref": [
+     55,
+     "Was the Item Accepted or not? If not, it should be clear what was the reason"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "And does it go back to the top for the eighth, or does it wait?",
+    "plain": "And does it go back to the top of the list for iteration 8, or does it wait?"
+   },
+   {
+    "who": "curie",
+    "text": "Top. It is eight points of finished work with two checks missing. If I postpone it, in six weeks somebody re-estimates it as if it were new.",
+    "plain": "Top of the list. It is eight points of finished work with two checks missing. If I postpone it, in six weeks somebody will re-estimate it as if it were new work.",
+    "g": [
+     [
+      "top of the list",
+      "where a rejected item goes when it will be corrected in the very next iteration"
+     ]
+    ],
+    "ref": [
+     55,
+     "Should they return to the top of the Work Items List (WIL), ready to be included and corrected in the next iteration"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Then twenty-one of twenty-nine points accepted. Against a thirty-four average.",
+    "plain": "Then twenty-one of twenty-nine points were accepted, against an average of thirty-four."
+   },
+   {
+    "who": "lovelace",
+    "text": "New items. One-four-zero, Grace's single page for the Board. One-four-one, the bucket export the analyst asked for at ten past eleven and nobody wrote down until I did.",
+    "plain": "New items. WIL-140, Grace's single page for the Board. WIL-141, the bucket export that an analyst asked for at 11:10, which nobody wrote down until I did."
+   },
+   {
+    "who": "babbage",
+    "text": "I am not sizing the single page today. I do not know whether it is a view or a whole new aggregation and the difference is a fortnight.",
+    "plain": "I am not going to estimate the single page today. I do not know whether it is a view or a completely new aggregation, and the difference between them is two weeks."
+   },
+   {
+    "who": "lovelace",
+    "text": "Then it goes to Wednesday with Grace and the user representatives, and this list is finished without it. We size what iteration 8 will actually touch and no further.",
+    "plain": "Then it goes to Wednesday's session with Grace and the user representatives, and this list is complete without it. We estimate only what iteration 8 will actually work on."
+   },
+   {
+    "who": "hopper",
+    "text": "Twenty-one out of twenty-nine and a rejection. That is the worst iteration since February and I have to carry it upstairs.",
+    "plain": "Twenty-one points out of twenty-nine and one rejection. That is the worst iteration since February, and I have to report it upstairs."
+   },
+   {
+    "who": "curie",
+    "text": "You also watched two analysts use a thing that did not exist a fortnight ago, and one of them said the word finally. I will take that trade every quarter.",
+    "plain": "You also watched two analysts use something that did not exist two weeks ago, and one of them said the word finally. I would accept that exchange every quarter.",
+    "ref": [
+     55,
+     "The success of an Iteration Review is not solely linked to the number of Work Items approved"
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "Can we do the why now. Everyone is here, the sync has been on that slide three times, and I would rather say it once than say it twice.",
+    "plain": "Can we discuss why now? Everyone is here, the sync has been on that slide three times, and I would rather say it once than twice."
+   },
+   {
+    "who": "hopper",
+    "text": "I would like to hear it. I have sat through the bad half of this meeting. I can sit through the reason.",
+    "plain": "I would like to hear it. I have sat through the bad part of this meeting. I can sit through the explanation too."
+   },
+   {
+    "who": "narr",
+    "text": "Lamarr is already reaching for her laptop. Einstein has not moved. Lovelace is standing between the table and the door with the marker still in her hand.",
+    "plain": "Lamarr is already reaching for her laptop. Einstein has not moved. Lovelace stands between the table and the door, still holding the marker."
+   },
+   {
+    "who": "lovelace",
+    "text": "No.",
+    "plain": "No."
+   },
+   {
+    "who": "hopper",
+    "text": "Ada, I am the business. I am not the enemy of this team and I have never behaved like it.",
+    "plain": "Ada, I represent the business. I am not this team's enemy, and I have never behaved like one."
+   },
+   {
+    "who": "lovelace",
+    "text": "You are not the enemy. You are the person Charles is about to explain himself to instead of thinking out loud.",
+    "plain": "You are not the enemy. You are the person Charles will start explaining himself to, instead of thinking out loud."
+   },
+   {
+    "who": "lovelace",
+    "text": "This meeting looks at the thing we built. Two o'clock looks at us. Different question, different room, and the second one only works if nobody in it is being assessed by anybody in this one.",
+    "plain": "This meeting examines the thing we built. The meeting at 14:00 examines us. It is a different question and a different room. The second one only works if nobody in it is being judged by anybody in this one.",
+    "g": [
+     [
+      "team-only ceremony",
+      "a session with no stakeholders present, so the team can be honest about its own working"
+     ]
+    ],
+    "ref": [
+     57,
+     "the Iteration Retrospective meeting is focused on real problems that affect a team"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And what do I get.",
+    "plain": "And what do I receive?"
+   },
+   {
+    "who": "lovelace",
+    "text": "What we decide to do about it, in the list, on Monday, with names on it. Not what Charles said about himself at twenty past two.",
+    "plain": "What we decide to do about it: in the Work Items List, on Monday, with names attached. Not what Charles says about himself at 14:20.",
+    "ref": [
+     60,
+     "Iteration Retrospective I I S I R R/A"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Grace, I am not in it either. I get the outputs on Monday and that is the arrangement Florence approved in December.",
+    "plain": "Grace, I am not in it either. I receive the outputs on Monday. That is the arrangement Florence approved in December."
+   },
+   {
+    "who": "hopper",
+    "text": "Fine. Monday. And Marie, if the answer to why is that Risk keeps changing the question, I would rather hear that from you than read it in a list.",
+    "plain": "Very well. Monday. And Marie, if the answer to why is that Risk keeps changing the question, I would rather hear that from you than read it in a list."
+   },
+   {
+    "who": "lovelace",
+    "text": "Release Plan waits until after two o'clock. Whatever they choose this afternoon becomes work, and work changes what fits before June.",
+    "plain": "The Release Plan update waits until after 14:00. Whatever they choose this afternoon becomes work, and that work changes what fits before June.",
+    "ref": [
+     56,
+     "Update the Release Plan - After the Iteration Review is finished, new data related to the velocity"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Twelve twenty. The two hours ran over by twenty minutes and every one of them went on the wrap-up, which Lovelace has stopped apologising for.",
+    "plain": "It is 12:20. The two hours ran twenty minutes over, and all of that time was spent on the wrap-up. Lovelace has stopped apologising for that."
+   }
+  ],
+  "choice": {
+   "prompt": "Babbage wants the post-mortem now, and the Business Manager wants to hear it. What happens?",
+   "promptPlain": "Babbage wants to discuss what went wrong now, and the Business Manager wants to hear it. What happens?",
+   "options": [
+    {
+     "t": "It waits for this afternoon's retrospective, team only. The review closes on the item verdicts and the refreshed list.",
+     "tPlain": "It waits for this afternoon's retrospective, with the team only. The review closes with the verdicts on the items and the refreshed list.",
+     "ok": true,
+     "reply": {
+      "who": "einstein",
+      "text": "Good. Because what I am going to say at two o'clock is that I reviewed a design on Wednesday I should have reviewed on the Tuesday of planning, and I am not saying that with Grace writing it down.",
+      "plain": "Good. Because at 14:00 I am going to say that I reviewed a design on Wednesday which I should have reviewed on the Tuesday of the planning meeting. I will not say that with Grace writing it down."
+     },
+     "why": "The two ceremonies inspect different things: the Iteration Review assesses whether the iteration goal was achieved, with stakeholders present and Consulted; the Iteration Retrospective inspects the team's own way of working, and its RAM leaves the Business Manager, the Product Owner and the Project Manager merely Informed of the outputs, if necessary (pp.52-56, p.60). The guide is explicit that the retrospective needs an environment where members feel safe and comfortable sharing concrete data and identifying problems (p.58). What the business is owed is the actions, which go into the Work Items List and are therefore visible.",
+     "whyPlain": "The two ceremonies examine different things. The Iteration Review checks whether the iteration goal was reached, with stakeholders present and consulted. The Iteration Retrospective examines how the team works, and its responsibility table leaves the Business Manager, the Product Owner and the Project Manager only Informed of the outputs, if necessary (page 60). The guide says the retrospective needs an environment where people feel safe and comfortable sharing real data and naming problems (page 58). What the business is owed is the resulting actions, which go into the Work Items List where everyone can see them.",
+     "ref": [
+      58,
+      "Welcome - Establish an environment where everyone feels encouraged and comfortable participating and sharing opinions"
+     ]
+    },
+    {
+     "t": "Do it now while everyone is in the room. It saves a meeting and the stakeholders learn something about what the team is up against.",
+     "tPlain": "Do it now, while everyone is in the room. It saves a meeting and the stakeholders learn what the team is dealing with.",
+     "ok": false,
+     "reply": {
+      "who": "babbage",
+      "text": "Then I say the sync was hard and I say nothing about the two days I sat on it because I thought I could still make it. And the two days are the whole story.",
+      "plain": "Then I will say the sync was difficult, and I will say nothing about the two days I stayed quiet because I thought I could still finish it. Those two days are the whole story."
+     },
+     "why": "The retrospective's first step exists precisely to build the conditions for that admission: every member says how the iteration felt, silence is not permitted to become the norm, and the team's working agreements set the accepted behaviours (p.58). Held in front of the people who receive the delivery, the same session produces explanation rather than diagnosis. The guide also keeps the ceremonies apart in time and audience — the review is a closure ceremony with stakeholders, the retrospective is the team inspecting itself.",
+     "whyPlain": "The first step of the retrospective exists to create the conditions for that admission. Every member says how the iteration felt, silence is not allowed to become normal, and the team's working agreements set the accepted behaviour (page 58). Held in front of the people receiving the delivery, the same session produces excuses instead of diagnosis. The guide also keeps the two ceremonies apart in time and in audience: the review is a closing meeting with stakeholders, the retrospective is the team examining itself.",
+     "ref": [
+      58,
+      "When this exercise is not done or people are allowed to remain silent, it means that it's ok for them to keep silent for the rest of the retrospective"
+     ]
+    },
+    {
+     "t": "Invite Hopper to the retrospective as a guest. She is the business voice, she has been fair, and hiding the team's problems from her is how mistrust starts.",
+     "tPlain": "Invite Hopper to the retrospective as a guest. She is the business voice, she has been fair, and hiding the team's problems from her creates mistrust.",
+     "ok": false,
+     "reply": {
+      "who": "lamarr",
+      "text": "She has been fair. She also writes the note that goes to Florence. Both of those are true and the second one is the one I will be thinking about at ten past two.",
+      "plain": "She has been fair. She also writes the note that goes to Florence. Both things are true, and the second one is what I will be thinking about at 14:10."
+     },
+     "why": "The Iteration Retrospective is the Agile Team Members' ceremony: they are Responsible and Accountable for it, the Architecture Owner attends as an ordinary member, the Team Coordinator facilitates and contributes no content, and the Business Manager, Product Owner and Project Manager are Informed of the outputs only if necessary (p.60). Its value comes from solutions the team can implement without waiting for management approval (p.57); a stakeholder in the room converts that into a request for permission.",
+     "whyPlain": "The Iteration Retrospective belongs to the team members: they are Responsible and Accountable for it, the Architecture Owner attends as an ordinary member, the Team Coordinator facilitates without adding content, and the Business Manager, Product Owner and Project Manager are only Informed of the outputs, and only if necessary (page 60). Its value comes from the team choosing improvements it can make without waiting for management approval (page 57). A stakeholder in the room turns that into asking permission.",
+     "ref": [
+      57,
+      "finds solutions that can be implemented without having to wait for management's approval"
+     ]
+    },
+    {
+     "t": "Skip the retrospective this iteration and put the analysis into the Development Status Report, where the people who can act on it will read it.",
+     "tPlain": "Skip the retrospective this iteration and put the analysis into the Development Status Report, where the people who can act on it will read it.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "text": "Deming asked me in December to run it from iteration one and not from iteration six, when it is a rescue. Iteration seven is exactly the one you do not skip.",
+      "plain": "Deming asked me in December to run it from iteration one, not from iteration six when it has become a rescue. Iteration seven is exactly the one you must not skip."
+     },
+     "why": "Retrospection in PM²-Agile is frequent by design: it happens at the end of every iteration so the team evaluates itself continuously and folds improvements into the next cycle instead of waiting for the end of the project (p.57). Its outputs are not a report but committed work items with named owners, and the accumulated Retrospective Log later enriches the Lessons Learned. Writing the analysis upward instead hands the team's improvement to somebody else — the no man's-land the guide warns about.",
+     "whyPlain": "In PM²-Agile, looking back is frequent by design. It happens at the end of every iteration, so the team judges itself continuously and applies improvements in the next cycle instead of waiting until the project ends (page 57). Its outputs are not a report but committed work items with named owners, and the collected Retrospective Log later improves the Lessons Learned. Writing the analysis upward instead gives the team's improvement to someone else, which is the no man's land the guide warns about.",
+     "ref": [
+      60,
+      "the outputs must be recorded in a Retrospective Log"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Informed of both ceremonies' outputs; not in the room for either verdict.",
+    "k": "Knows the December arrangement holds and that it now costs the Business Manager something.",
+    "w": "Wants the boundary defended by the Team Coordinator rather than imposed by the Project Manager.",
+    "f": "Afraid that a bad iteration is the moment the arrangement quietly stops being kept."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Closes the review, holds the door, defers the Release Plan.",
+    "k": "Knows what Babbage will say at two o'clock and what he will not say at noon.",
+    "w": "Wants the afternoon to produce diagnosis rather than explanation.",
+    "f": "Afraid one exception makes the retrospective a meeting stakeholders attend."
+   },
+   "eiffel": {
+    "o": "Agile Team Member. Drives the wrap-up and dictates the verdicts for the record.",
+    "k": "Knows the enabler acceptance needs writing down or it will be denied later.",
+    "w": "Wants every verdict recorded with its actual reason.",
+    "f": "Afraid of a later claim that invisible work was never demonstrated."
+   },
+   "lamarr": {
+    "o": "Agile Team Member. Reaching for her laptop before the boundary is drawn.",
+    "k": "Knows exactly who writes the note that reaches the Project Owner.",
+    "w": "Wants to say the true thing this afternoon rather than the safe thing now.",
+    "f": "Afraid of a retrospective where she is choosing her words."
+   },
+   "babbage": {
+    "o": "Agile Team Member. Asked for the post-mortem in the wrong room, for good reasons.",
+    "k": "Knows the two days he sat on the problem are the actual story.",
+    "w": "Wants to say it once, properly, rather than twice, carefully.",
+    "f": "Afraid of admitting the two days in front of the person who writes upward."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Has a confession of his own scheduled for two o'clock.",
+    "k": "Knows he reviewed a design on Wednesday that belonged on the Tuesday of planning.",
+    "w": "Wants a room where a late review can be admitted without it becoming a finding.",
+    "f": "Afraid his own delay is discovered rather than volunteered."
+   },
+   "curie": {
+    "o": "Product Owner. Rejected an item and refused to let the reason be mis-recorded.",
+    "k": "Knows twenty-one accepted points bought a capability Risk has wanted since 2027.",
+    "w": "Wants the rejected item back at the top rather than re-estimated as new.",
+    "f": "Afraid the iteration is remembered as a failure rather than as a control working."
+   },
+   "hopper": {
+    "o": "Business Manager. Consulted at the review; informed of retrospective outputs only.",
+    "k": "Knows she must carry twenty-one of twenty-nine and a rejection upstairs.",
+    "w": "Wants the reason, and settles for the actions with names on them.",
+    "f": "Afraid of defending a bad fortnight without knowing what caused it."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 5.4.2.3, pp.55-56, against section 5.5, pp.57-60. The wrap-up consolidates the demo: for each item, was it accepted, and if not, the reason must be clear; is it new, or dropped; new items get clarification from the Product Owner and stakeholders so the team can give high-level estimates. Then the Work Items List review decides whether rejected items return to the top of the list for the next iteration or are postponed, and gives relative estimates to new items. If the analysis cannot be finished, the team focuses on items likely to be tackled next iteration and leaves the rest to the next iteration's Release Planning. The guide says the success of a review is not solely linked to the number of items approved; the best indicator is solid, relevant feedback. The Release Plan update, carrying the new velocity, is done by the Team Coordinator and may wait until after the retrospective, because the retrospective adds work items. The Iteration Retrospective is the team's own ceremony: BM I, PM I, TeCo S, PrOw I, ArOw R, ATeM R/A. Pages 55-57, 60.",
+  "notePlain": "Rule: the wrap-up closes the review. For each item: was it accepted, and if not, the reason must be clear. Is it a new item, or one being dropped? New items get explanation from the Product Owner and stakeholders so the team can give rough estimates (page 55). Then the list is refreshed: rejected items either go back to the top of the list for the next iteration or are postponed, and new items get relative estimates. If the team cannot finish the analysis, it does the items likely to be worked on next and leaves the rest for the next Release Planning (page 55). The guide says a review's success is not measured only by how many items were approved; the best sign is good, relevant feedback (page 55). The Release Plan update, with the new velocity, is done by the Team Coordinator and may wait until after the retrospective, because the retrospective creates new work items (page 56). The retrospective is the team's own meeting: the Business Manager, Product Owner and Project Manager are only Informed (page 60). Pages 55 to 57 and 60."
+ },
+ {
+  "id": "s17",
+  "act": 2,
+  "actName": "Executing",
+  "title": "Two hours with the door shut",
+  "covers": [
+   "Iteration Retrospective"
+  ],
+  "guide_page": 57,
+  "where": "ESM, Kirchberg — team room B4, the timeline wall",
+  "when": "13 Apr 2029, 14:00",
+  "cast": [
+   "you",
+   "lovelace",
+   "lamarr",
+   "babbage",
+   "eiffel",
+   "einstein"
+  ],
+  "lines": [
+   {
+    "who": "you",
+    "text": "The batch-window risk. I have written it up for the Risk Log at amber and I would rather you told me on Monday that I have it wrong.",
+    "plain": "Here is the batch-window risk. I have written it up for the Risk Log as amber. I would rather you told me on Monday that I have it wrong."
+   },
+   {
+    "who": "lovelace",
+    "text": "Monday. Go and have lunch.",
+    "plain": "Monday. Go and have lunch."
+   },
+   {
+    "who": "narr",
+    "text": "The door closes at two minutes past. Inside: five people, a timeline drawn across the whiteboard from the third of April to today, and a hundred and twenty minutes on the clock.",
+    "plain": "The door closes at 14:02. Inside are five people, a timeline drawn across the whiteboard from 3 April to today, and 120 minutes on the clock.",
+    "ref": [
+     60,
+     "Iteration Retrospective I I S I R R/A"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Two hours, which is the top of the range, and I booked it on Tuesday when I could already see what kind of fortnight this was. One sentence each. How did it feel. Charles.",
+    "plain": "Two hours, which is the maximum, and I booked it on Tuesday when I could already see what kind of two weeks this was. One sentence each. How did the iteration feel? Charles."
+   },
+   {
+    "who": "babbage",
+    "text": "I knew on day two and I said it too quietly.",
+    "plain": "I knew on day two, and I said it too quietly.",
+    "ref": [
+     58,
+     "can ask each Agile Team Member (ATeM) to point out, using one sentence, how they felt during the iteration"
+    ]
+   },
+   {
+    "who": "lamarr",
+    "text": "Tired of being right in corridors.",
+    "plain": "Tired of being right in corridors."
+   },
+   {
+    "who": "eiffel",
+    "text": "Uncomfortable. In a good way, mostly.",
+    "plain": "Uncomfortable, in a good way, mostly."
+   },
+   {
+    "who": "einstein",
+    "text": "Late. I reviewed a design on the Wednesday that belonged in the room on the Tuesday.",
+    "plain": "Late. I reviewed a design on the Wednesday which should have been reviewed in the room on the Tuesday."
+   },
+   {
+    "who": "lovelace",
+    "text": "And the agreement from iteration two, which I say every time and will keep saying. What is said in here stays with the five of us. The actions leave. The sentences do not. Data next, not opinions. What do you want on the wall?",
+    "plain": "And the agreement made in iteration two, which I repeat every time and will keep repeating. What is said in this room stays with the five of us. The actions leave the room. The sentences do not. Now the data, not opinions. What do you want on the wall?",
+    "g": [
+     [
+      "working agreements",
+      "the behaviour rules a team sets for itself, and reuses in every retrospective"
+     ]
+    ],
+    "ref": [
+     58,
+     "If the Agile Project Core Team (A-PCT) already has working agreements, they should be used"
+    ]
+   },
+   {
+    "who": "lamarr",
+    "text": "Velocity twenty-one against a thirty-four average. Three broken builds. Burndown flat from the ninth to the eleventh, which is the two days nobody wants to talk about.",
+    "plain": "Velocity twenty-one against an average of thirty-four. Three broken builds. The burndown chart flat from 9 to 11 April, which is the two days nobody wants to discuss.",
+    "g": [
+     [
+      "hard data",
+      "events and measurements the team puts up first, so everyone argues from the same picture"
+     ]
+    ],
+    "ref": [
+     58,
+     "Metrics can include burnup and burndown charts, velocity charts, percentage of broken builds, percentage of test coverage"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Events. Easter Monday. Finance a day late. The Project Manager asking for status at the stand-up on the fifth. Brandeis on the fifth as well, in the afternoon.",
+    "plain": "Events. Easter Monday. Finance one day late. The Project Manager asking for status at the stand-up on 5 April. Brandeis, also on 5 April, in the afternoon."
+   },
+   {
+    "who": "babbage",
+    "text": "Put test coverage up too. Eighty-one per cent, and it has not moved since February, and I do not know whether that is fine.",
+    "plain": "Add test coverage as well. Eighty-one per cent, and it has not changed since February. I do not know whether that is acceptable.",
+    "ref": [
+     59,
+     "it's always the Agile Team Members (ATeM) who decide which data they want to use"
+    ]
+   },
+   {
+    "who": "lamarr",
+    "text": "And a feeling on the timeline, at the third of April. I flagged the batch window at planning, it cost us the item anyway, and I have been carrying that all fortnight.",
+    "plain": "And put a feeling on the timeline at 3 April. I raised the batch window at the planning meeting, it still cost us the item, and I have been carrying that feeling for two weeks."
+   },
+   {
+    "who": "einstein",
+    "text": "Then the honest reading is two causes and they are not the same shape. One is a hole in our own process. The other is a thing outside this room that we never asked about.",
+    "plain": "Then the honest reading is that there are two causes, and they are not the same kind. One is a gap in our own process. The other is something outside this room that we never asked about."
+   },
+   {
+    "who": "eiffel",
+    "text": "Nine gates a machine checks. Two a human is supposed to remember. Nobody remembered, and the reason nobody remembered is that it was nobody's.",
+    "plain": "Nine gates are checked by a machine. Two are supposed to be remembered by a person. Nobody remembered, and the reason is that they belonged to nobody."
+   },
+   {
+    "who": "narr",
+    "text": "Seven proposals go on the wall in eleven minutes. Two of them are the same proposal written by two people who did not look up.",
+    "plain": "Seven proposals go on the wall in eleven minutes. Two of them are the same proposal, written by two people who did not look up."
+   },
+   {
+    "who": "lovelace",
+    "text": "Three. Not seven. Which three do you actually do while also delivering thirty points.",
+    "plain": "Choose three, not seven. Which three can you actually do while also delivering thirty points?"
+   },
+   {
+    "who": "lamarr",
+    "text": "The gates. I will do it. Both checks in the pipeline, and the accessibility one fails the build, not warns.",
+    "plain": "The gates. I will do it. Both checks go into the pipeline, and the accessibility check will fail the build, not just warn."
+   },
+   {
+    "who": "babbage",
+    "text": "The sync out of the batch window. Mine. I have the name and the number from Tuesday.",
+    "plain": "Moving the sync out of the batch window. That is mine. I have the name and the telephone number from Tuesday."
+   },
+   {
+    "who": "eiffel",
+    "text": "And pairing on the drill-through before the next review, so the last item of an iteration is not one person's item. That one is mine.",
+    "plain": "And pairing on the drill-through before the next review, so that the last item of an iteration is not one person's work. That one is mine."
+   },
+   {
+    "who": "einstein",
+    "text": "The fourth one on that wall says ask Enterprise Architecture to reschedule the batch.",
+    "plain": "The fourth proposal on that wall says: ask Enterprise Architecture to reschedule the batch."
+   },
+   {
+    "who": "lovelace",
+    "text": "Whose is it?",
+    "plain": "Whose action is that?"
+   },
+   {
+    "who": "narr",
+    "text": "Nobody claims it. Lovelace takes it off the wall and does not put it in the list, and nobody objects, because it has been taken off a wall in this room twice before.",
+    "plain": "Nobody claims it. Lovelace takes it off the wall and does not put it in the list. Nobody objects, because this has happened twice before in this room.",
+    "g": [
+     [
+      "no man's-land action",
+      "an improvement handed to somebody outside the team, which the team then cannot deliver"
+     ]
+    ],
+    "ref": [
+     60,
+     "Avoid the \"no man's-land\" responsibility"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "One-four-two, Hedy. One-four-three, Charles. One-four-four, Gustave. In the list tonight, with the names on them, so Marie ranks them against everything else and not in a folder called improvements.",
+    "plain": "WIL-142, Hedy. WIL-143, Charles. WIL-144, Gustave. They go into the Work Items List tonight, with names on them, so that Marie ranks them against everything else, and not in a folder called improvements.",
+    "ref": [
+     59,
+     "PM²-Agile recommends including them in the Work Items List (WIL)"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "At four minutes to four Babbage photographs the board. Entry seven of a log that will be twenty-six entries long when somebody opens it in February 2030 to write the lessons learned.",
+    "plain": "At 15:56, Babbage photographs the board. It becomes entry seven of a log that will hold twenty-six entries when somebody opens it in February 2030 to write the Lessons Learned.",
+    "g": [
+     [
+      "Retrospective Log",
+      "the running record of every retrospective, later the raw material for Lessons Learned"
+     ]
+    ],
+    "ref": [
+     57,
+     "is an invaluable source of information that will dramatically enrich the lessons learned"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "The board stays up. It is yours, not mine, and I am not filing it anywhere you cannot reach.",
+    "plain": "The board stays on the wall. It belongs to you, not to me, and I will not file it anywhere you cannot reach."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Hands over a risk entry at the door and leaves; informed on Monday.",
+    "k": "Knows the retrospective's outputs will arrive as work items with names on them.",
+    "w": "Wants the batch-window risk challenged by the people who met it.",
+    "f": "Afraid the one meeting he cannot attend is the one that matters most."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Fully dedicated facilitator; contributes no content of her own.",
+    "k": "Knows an unclaimed action has come off this wall twice before.",
+    "w": "Wants three owned actions rather than seven admirable ones.",
+    "f": "Afraid of a retrospective that produces sentiment and no work items."
+   },
+   "lamarr": {
+    "o": "Agile Team Member. Owns WIL-142, the two missing gates in the pipeline.",
+    "k": "Knows she flagged the batch window at planning and it cost the item anyway.",
+    "w": "Wants the accessibility check to fail a build rather than warn about it.",
+    "f": "Afraid of another fortnight of being right in corridors."
+   },
+   "babbage": {
+    "o": "Agile Team Member. Owns WIL-143, moving the sync out of the batch window.",
+    "k": "Knows he knew on day two and said it too quietly.",
+    "w": "Wants the window moved by a named person he has already telephoned.",
+    "f": "Afraid the two silent days repeat in a worse iteration."
+   },
+   "eiffel": {
+    "o": "Agile Team Member. Owns WIL-144, pairing on the last item of an iteration.",
+    "k": "Knows nine gates are automatic and two were nobody's.",
+    "w": "Wants no single-owner item arriving at a review untouched by anyone else.",
+    "f": "Afraid the seconded member is the one nobody pairs with."
+   },
+   "einstein": {
+    "o": "Architecture Owner, in the retrospective as an ordinary Agile Team Member.",
+    "k": "Knows his Wednesday design review belonged on the Tuesday of planning.",
+    "w": "Wants the two root causes separated rather than blended into bad luck.",
+    "f": "Afraid architectural lateness is forgiven because the architect names it himself."
+   }
+  },
+  "unlock": [
+   9
+  ],
+  "note": "Guide check: section 5.5, pp.57-60. The Iteration Retrospective happens at the end of every iteration, lasts 60 to 120 minutes depending on team size, iteration size and the level of stress, and follows five steps. Welcome, which the guide calls the most important: each member says in one sentence how the iteration felt, because if silence is allowed here it rules the rest of the meeting; the facilitator states the timebox and the rules, reusing the team's working agreements. Collect Hard Data: events and metrics — burndown, velocity, broken builds, test coverage — with feelings attached to the timeline; the Team Coordinator helps collect, but the Agile Team Members decide which data to use. Understand Data and Generate Ideas: root causes and alternatives. Prioritise and Choose: a few actions the team can commit to, added to the Work Items List so they are treated like any other item, each with a named member rather than the team. Closing: the learnings belong to the members, and everything is recorded in a Retrospective Log that later enriches the Lessons Learned. RASCI p.60: BM I, PM I, TeCo S, PrOw I, ArOw R, ATeM R/A. Pages 57-60.",
+  "notePlain": "Rule: the Iteration Retrospective happens at the end of every iteration and lasts 60 to 120 minutes, depending on the size of the team, the length of the iteration and how much stress there was (page 57). It has five steps. First, Welcome, which the guide calls the most important: each person says in one sentence how the iteration felt, because if silence is allowed here it will rule the whole meeting. The facilitator states the timebox and the rules, using the team's working agreements (page 58). Second, Collect Hard Data: events and measurements such as burndown, velocity, broken builds and test coverage, with feelings added to the timeline. The Team Coordinator helps collect it, but the team members choose which data to use (pages 58 and 59). Third, understand the data and generate ideas. Fourth, prioritise and choose a few actions the team can commit to, put them in the Work Items List, and give each one a named person, because a task given to the team gets nobody to do it (page 59). Fifth, close: the learnings belong to the team members, and everything is recorded in a Retrospective Log that later feeds the Lessons Learned (pages 59, 60 and 57). Pages 57 to 60."
+ },
+ {
+  "id": "s18",
+  "act": 2,
+  "actName": "Executing",
+  "title": "The line that stopped falling",
+  "covers": [
+   "Development Status Report",
+   "Coordination and Reporting"
+  ],
+  "guide_page": 83,
+  "where": "ESM, Kirchberg — second floor, project follow-up meeting",
+  "when": "17 Apr 2029, 15:00",
+  "cast": [
+   "you",
+   "lovelace",
+   "gantt",
+   "deming",
+   "nightingale",
+   "hopper"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Iteration 8 opened yesterday morning from the list frozen on the tenth. Twenty-nine points, four items, and one-two-seven at the top of them where Curie put it.",
+    "plain": "Iteration 8 started yesterday morning, using the list that was frozen on 10 April. Twenty-nine points, four items, and WIL-127 at the top, where Curie placed it."
+   },
+   {
+    "who": "narr",
+    "text": "This afternoon the follow-up meeting, which is not a ceremony and never has been. Six people, a projector nobody uses, and Gantt with two printed charts he did not have to ask anyone for.",
+    "plain": "This afternoon is the project follow-up meeting, which is not one of the ceremonies and never has been. Six people, a projector nobody uses, and Gantt holding two printed charts that he did not have to request from anyone."
+   },
+   {
+    "who": "lovelace",
+    "text": "Iteration 7 report. Twenty-one points accepted of twenty-nine, one item rejected on the Definition of Done, three broken builds, and the two-day flat spot from the ninth.",
+    "plain": "This is the iteration 7 report. Twenty-one of twenty-nine points accepted, one item rejected on the Definition of Done, three broken builds, and the two-day flat period from 9 April.",
+    "g": [
+     [
+      "Development Status Report",
+      "the team's iteration report, written by the Team Coordinator and folded into the Project Status Report"
+     ]
+    ],
+    "ref": [
+     84,
+     "Development Status Report I A R I I S"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And it becomes section four of mine, which goes to Lorenzo on Thursday with the Release 2 content change attached.",
+    "plain": "And it becomes section four of my Project Status Report, which goes to Lorenzo on Thursday with the Release 2 content change attached."
+   },
+   {
+    "who": "gantt",
+    "text": "Two charts and I have read them both, which I want noted, because in January I said I would not.",
+    "plain": "Two charts, and I have read both of them. I want that noted, because in January I said I would not."
+   },
+   {
+    "who": "gantt",
+    "text": "This one goes down to nothing every fortnight and starts again. This one has been going down since January and last fortnight it stopped.",
+    "plain": "This chart falls to zero every two weeks and then starts again. This other chart has been falling since January, and in the last two weeks it stopped falling."
+   },
+   {
+    "who": "lovelace",
+    "text": "The first one is hours inside an iteration. Hedy updates it after the stand-up, every day, and its only job is to let five people react on a Wednesday instead of finding out on a Friday.",
+    "plain": "The first chart shows hours inside one iteration. Hedy updates it every day after the stand-up. Its only purpose is to let five people react on a Wednesday instead of discovering the problem on a Friday.",
+    "g": [
+     [
+      "iteration burndown chart",
+      "remaining effort inside one iteration, updated daily so the team can react mid-iteration"
+     ]
+    ],
+    "ref": [
+     84,
+     "The iteration burndown chart is the primary tool for understanding the status of the current iteration"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "The second one is not hours at all. It is how much of Release 2 exists. And you are right, it stopped, because we accepted twenty-one points and two of the four things we finished were checks, not features.",
+    "plain": "The second chart does not show hours at all. It shows how much of Release 2 exists. And you are right, it stopped, because we accepted twenty-one points and two of the four things we finished were checks, not features.",
+    "g": [
+     [
+      "release burndown chart",
+      "how much functionality is left in a release, judged against what the team forecast"
+     ]
+    ],
+    "ref": [
+     84,
+     "Unlike the iteration burndown chart that tracks remaining effort in points or hours, the release burndown chart tracks functionality"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Then say the arithmetic out loud. I would rather hear it here than be told it in June.",
+    "plain": "Then say the arithmetic out loud. I would rather hear it here than be told it in June."
+   },
+   {
+    "who": "lovelace",
+    "text": "Two hundred and two points left on the ninth. Five iterations to the twenty-eighth of June. Thirty a fortnight, which is the revised figure and not November's thirty-four. One hundred and fifty against two hundred and two.",
+    "plain": "There were 202 points left on 9 April. There are five iterations before 28 June. The revised velocity is thirty points per iteration, not November's thirty-four. That gives 150 points against 202 needed."
+   },
+   {
+    "who": "hopper",
+    "text": "Fifty-two points of Release 2 do not exist in June.",
+    "plain": "So fifty-two points of Release 2 will not exist in June."
+   },
+   {
+    "who": "lovelace",
+    "text": "Not unless something goes out of it. And that is not my decision, it is not the Project Manager's, and it is not made by anybody working harder.",
+    "plain": "Not unless something is removed from it. That is not my decision, it is not the Project Manager's decision, and it is not solved by anybody working harder.",
+    "ref": [
+     84,
+     "changes can include reducing the project scope by removing work items from the iteration or the work items list"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Marie decides what leaves. Grace supports her. I hear about it. Yes, I have been paying attention since December.",
+    "plain": "Marie decides what is removed. Grace supports her. I am told about it. Yes, I have been paying attention since December."
+   },
+   {
+    "who": "deming",
+    "text": "Before the scope conversation. The handbook.",
+    "plain": "Before you discuss scope: the handbook."
+   },
+   {
+    "who": "lovelace",
+    "text": "Annex D, section eight, revision three, dated the sixteenth of April. Lines seven and eight are now pipeline gates. Accessibility fails a build. The data-protection screening blocks a merge on any item touching a source record.",
+    "plain": "Annex D, section eight, revision three, dated 16 April. Lines seven and eight are now gates in the pipeline. The accessibility check fails a build. The data-protection screening blocks a merge on any item that touches a source record."
+   },
+   {
+    "who": "deming",
+    "text": "Which came out of a retrospective, went into the list as a work item with a name on it, and changed a baselined document within three days. That is the whole loop and it is the first time I have seen it close on this project.",
+    "plain": "That came out of a retrospective, went into the Work Items List as a work item with a person's name on it, and changed a baselined document within three days. That is the complete loop, and it is the first time I have seen it close on this project."
+   },
+   {
+    "who": "gantt",
+    "text": "And in the pack on Thursday, what do I write? Because twenty-one and thirty-four means nothing to that committee and I am not going to explain story points to Lorenzo again.",
+    "plain": "And in Thursday's pack, what do I write? Twenty-one and thirty-four mean nothing to that committee, and I am not going to explain story points to Lorenzo again."
+   },
+   {
+    "who": "you",
+    "text": "Not points. Three rows. Release 2, due June, what it now contains. Under it the features, and under those the stories, and every story traceable up to a feature and a release.",
+    "plain": "Do not use points. Use three levels. Release 2, due in June, and what it now contains. Under that, the features. Under those, the stories. Every story links upward to a feature and to a release.",
+    "g": [
+     [
+      "traceability",
+      "every story linked to a feature and every feature to a release, so progress reads upward"
+     ]
+    ],
+    "ref": [
+     30,
+     "There should be three main groups of reporting and planning"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "So the committee reads deliveries, the business reads features, and the team reads stories, and it is one set of numbers underneath.",
+    "plain": "So the committee reads deliveries, the business reads features, and the team reads stories, and there is one set of figures underneath them all."
+   },
+   {
+    "who": "you",
+    "text": "One set. If the three ever disagree, one of us is writing fiction and it will usually be me.",
+    "plain": "One set of figures. If the three ever disagree, one of us is writing fiction, and it will usually be me.",
+    "ref": [
+     30,
+     "This traceability will allow more effective external coordination by providing the stakeholders with a clear vision of current project execution and delivery"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "The nineteenth of June. The Governors. I will be asked what the euro area's exposure reporting looks like now and I will have about forty seconds.",
+    "plain": "On 19 June I meet the Governors. I will be asked what the euro area's exposure reporting looks like now, and I will have about forty seconds."
+   },
+   {
+    "who": "hopper",
+    "text": "Say the panel. Every figure on the screen set against the accounts, differences marked, and a Risk analyst clicking through to the record it came from. Not the overlay. The overlay is September and I have written that down twice now.",
+    "plain": "Say the reconciliation panel. Every figure on the screen compared against the accounts, differences marked, and a Risk analyst able to click through to the source record. Do not mention the overlay. The overlay comes in September, and I have now written that down twice."
+   },
+   {
+    "who": "nightingale",
+    "text": "And when one of them asks me what happened in the fortnight that ended on the thirteenth of April, because one of them reads the annexes?",
+    "plain": "And when one of them asks what happened in the two weeks that ended on 13 April, because one of them does read the annexes?"
+   },
+   {
+    "who": "you",
+    "text": "That the team rejected its own work for failing its own quality rule, and then changed the pipeline so it cannot happen again. Twelve words. Nobody will ask a second question.",
+    "plain": "Say that the team rejected its own work because it failed the team's own quality rule, and then changed the pipeline so it cannot happen again. Twelve words. Nobody will ask a second question.",
+    "ref": [
+     29,
+     "By involving and educating these stakeholders in transparent Agile planning and progress tracking processes, the efficacy of the Agile process can be demonstrated"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Seventy-two days to the twenty-eighth of June. Five iterations, five planning sessions, five reviews, five retrospectives, fifty stand-ups, and a list that will be different on every one of those mornings.",
+    "plain": "There are seventy-two days until 28 June. That means five iterations, five planning sessions, five reviews, five retrospectives, fifty stand-ups, and a Work Items List that will be different on each of those mornings."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Accountable for the Development Status Report; folds it into the Project Status Report.",
+    "k": "Knows the June shortfall is fifty-two points and that scope, not effort, closes it.",
+    "w": "Wants the committee served in delivery units with the stories traceable underneath.",
+    "f": "Afraid three audiences get three sets of numbers and one of them is his."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Responsible for the report, the burndowns and the revised velocity.",
+    "k": "Knows thirty a fortnight against 202 points does not reach the twenty-eighth of June.",
+    "w": "Wants the scope conversation had now rather than discovered in June.",
+    "f": "Afraid a shortfall named in April is answered with overtime in May."
+   },
+   "gantt": {
+    "o": "Project Support Office. Writes Thursday's pack; reads the charts instead of telephoning.",
+    "k": "Now knows which chart is effort, which is functionality, and why one stopped.",
+    "w": "Wants a pack in delivery units that he can sign without translating story points.",
+    "f": "Afraid of presenting a committee number that the team's own boards contradict."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Watches whether improvement reaches a baselined document.",
+    "k": "Knows a retrospective action became a work item and changed Annex D in three days.",
+    "w": "Wants that loop to close every time, not once.",
+    "f": "Afraid the gates are removed the first time they cost a release date."
+   },
+   "nightingale": {
+    "o": "Project Owner. Faces the Governors on the nineteenth of June with forty seconds.",
+    "k": "Knows the Product Owner decides what leaves Release 2 and the Business Manager supports.",
+    "w": "Wants two defensible sentences: what exists in June, and what happened in April.",
+    "f": "Afraid of promising a scenario overlay that arrives in September."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the priority; has now written her objection down twice.",
+    "k": "Knows the overlay is September and that she has an enabler in June instead.",
+    "w": "Wants the Project Owner briefed on the panel and not on the overlay.",
+    "f": "Afraid of being asked in June why Risk still has no scenario view."
+   }
+  },
+  "unlock": [
+   21
+  ],
+  "note": "Guide check: section 7.3.1, pp.83-85, with section 4.3, pp.29-30. The Development Status Report documents the status of the Agile Project Core Team towards the development goals and is incorporated at project reporting level, carrying cost, schedule, scope, risks, issues, changes and forecasts; it can follow each iteration and each release. Its key element is the burndown chart at two levels. The iteration burndown chart tracks remaining effort in points or hours, is the primary tool for understanding the current iteration and should be updated frequently, preferably daily, so the team can react — by reducing scope, reducing the ambition of a work item, or finding a better approach. The release burndown chart tracks functionality rather than effort, and shows whether the team is delivering what it forecast. On coordination, PM²-Agile adjusts type, format, granularity, language and frequency of information for non-agile audiences, and identifies three groups of reporting and planning units — delivery units, functional units and work units — which should be linked so stakeholders get a clear view of execution and delivery. RASCI p.84: BM I, PM A, TeCo R, PrOw I, ArOw I, ATeM S. Pages 29-30, 83-85.",
+  "notePlain": "Rule: the Development Status Report says how the team is progressing towards the development goals, and it becomes part of the project's own reporting. It carries cost, schedule, scope, risks, issues, changes and forecasts, and it can follow each iteration and each release (page 83). Its key element is the burndown chart, at two levels. The iteration burndown chart shows remaining effort in points or hours. It is the main tool for understanding the current iteration and should be updated often, preferably daily, so the team can react by cutting scope, reducing the ambition of an item, or finding a better approach (page 84). The release burndown chart shows functionality left, not effort, and whether the team is delivering what it forecast (page 84). For coordination, PM²-Agile changes the type, format, detail, language and frequency of information for audiences that do not work in an agile way, and names three groups of reporting units: delivery units, functional units and work units. These should be linked together so stakeholders get a clear view (pages 29 and 30). Who is who: the Team Coordinator is Responsible, the Project Manager is Accountable, and the Product Owner is only Informed. Pages 29 to 30 and 83 to 85."
+ }
+]

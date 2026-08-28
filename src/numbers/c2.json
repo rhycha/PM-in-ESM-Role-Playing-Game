@@ -1,0 +1,1857 @@
+[
+  {
+    "a": [
+      "eight point four million",
+      "eight point four"
+    ],
+    "k": "money",
+    "s": "€8.4 million",
+    "d": "The whole approved budget for CASTOR. It was fixed in the Business Case, copied into the Project Charter, and it covers the platform licence, the implementation, the data migration, testing and business implementation. Every figure in the Work Plan has to add up to it.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three thousand one hundred person-days",
+      "three thousand one hundred"
+    ],
+    "k": "effort",
+    "s": "3,100 person-days",
+    "d": "The total effort approved for CASTOR: 3,100 days of one person's work. A person-day (PD) is one person working for one day. It is split across the seven work packages of the Project Work Plan.",
+    "sc": null
+  },
+  {
+    "a": [
+      "twenty-six months"
+    ],
+    "k": "count",
+    "s": "26 months",
+    "d": "The approved length of the project, from the Project Initiation Request in January 2026 to administrative closure in July 2028. Like the budget and the effort, it is a Charter figure and cannot move without going back to the governance body.",
+    "sc": null
+  },
+  {
+    "a": [
+      "seven work packages"
+    ],
+    "k": "count",
+    "s": "7 work packages",
+    "d": "The Project Work Plan is broken into seven big blocks of work: project management, procurement, Release 1, Release 2, the parallel run, transition and go-live, and business implementation. Together they hold all 3,100 person-days and all €8.4 million.",
+    "sc": null
+  },
+  {
+    "a": [
+      "four hundred and eighty person-days"
+    ],
+    "k": "effort",
+    "s": "480 PD — data migration",
+    "d": "The effort planned for moving fourteen years of data out of the old LOS system into the new platform. Leonardo points out in July 2026 that it has an owner but nobody named to check the work, and in March 2027 it is the package where the days actually went.",
+    "sc": null
+  },
+  {
+    "a": [
+      "twenty-five person-days"
+    ],
+    "k": "effort",
+    "s": "25 PD — acceptance testing",
+    "d": "The time Grace Hopper's Lending Operations staff will spend testing and accepting deliverables. It is real work taken from the day job, so it has to sit in the Project Work Plan with a name against it, not be assumed to be free.",
+    "sc": null
+  },
+  {
+    "a": [
+      "sixty person-days"
+    ],
+    "k": "effort",
+    "s": "60 PD — trainer time",
+    "d": "The trainer effort in the Business Implementation Plan: 60 days of somebody's time to run three days of classroom plus shadowing for forty loan administrators. The Business Implementation Group delivers it.",
+    "sc": null
+  },
+  {
+    "a": [
+      "one hundred and forty-five person-days",
+      "one hundred and forty-five"
+    ],
+    "k": "effort",
+    "s": "145 PD — backstop change",
+    "d": "The estimated effort to add the common backstop instrument to Release 2, worked out overnight by Ada Lovelace and Nikola Tesla. It is the size figure that turns a friendly phone call into a costed Change Request.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ninety-six levallois, forty-nine ours",
+      "ninety-six",
+      "forty-nine"
+    ],
+    "k": "effort",
+    "s": "96 PD supplier + 49 PD internal",
+    "d": "How the 145 person-days for the backstop change split: 96 days bought from the contractor Levallois Systems and 49 days from ESM's own people. The internal half is the half that cannot simply be paid for.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three hundred and ninety-two thousand euro",
+      "three hundred and ninety-two thousand"
+    ],
+    "k": "money",
+    "s": "€392,000",
+    "d": "The money cost of the backstop scope request in May 2027. Against a total budget of €8.4 million that is not huge, but it arrives when the project is already forecasting an overrun.",
+    "sc": null
+  },
+  {
+    "a": [
+      "comes back at nine"
+    ],
+    "k": "money",
+    "s": "€9 million tender result",
+    "d": "Lorenzo de' Medici asks what happens if the open tender comes back priced at €9 million instead of the approved €8.4 million. The answer is that it goes back to his Corporate Investment Board, because only the governance body can change the approved budget.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ten per cent held back",
+      "ten per cent"
+    ],
+    "k": "pct",
+    "s": "10% retention",
+    "d": "One tenth of the contractor's money is kept back until the last deliverable is finally accepted. Leonardo warns that holding it against a reconciliation figure ESM only half controls will make bidders add a caveat that costs more than the retention is worth.",
+    "sc": null
+  },
+  {
+    "a": [
+      "sc1",
+      "five working days to one"
+    ],
+    "k": "id",
+    "s": "SC1 — 5 days down to 1",
+    "d": "Success criterion 1 of five in the Business Case: the time from a disbursement instruction to the value date drops from 5 working days to 1. It is the number Florence Nightingale cares about most.",
+    "sc": null
+  },
+  {
+    "a": [
+      "sc2"
+    ],
+    "k": "id",
+    "s": "SC2 — same-day reconciliation",
+    "d": "Success criterion 2: checking payments after disbursement must take the same day instead of three working days. In April 2027 the real run still takes two days, which is why the task counted as complete was never really verified.",
+    "sc": null
+  },
+  {
+    "a": [
+      "sc3"
+    ],
+    "k": "id",
+    "s": "SC3 — 9 months down to 6 weeks",
+    "d": "Success criterion 3: setting up a brand-new lending instrument must take six weeks instead of nine months. It comes from the Charter, not from a supplier demonstration, which is why the target does not move when Levallois does it in forty minutes on stage.",
+    "sc": null
+  },
+  {
+    "a": [
+      "sc4"
+    ],
+    "k": "id",
+    "s": "SC4 — 1,400 fields down to 0",
+    "d": "Success criterion 4: no more typing payment details in by hand. Today about 1,400 fields a quarter are re-keyed between systems; the target is zero.",
+    "sc": null
+  },
+  {
+    "a": [
+      "sc5"
+    ],
+    "k": "id",
+    "s": "SC5 — 2 audit findings to 0",
+    "d": "Success criterion 5: the two open Internal Audit findings against the old LOS system (on segregation of duties and on the audit trail) must both be closed. It is the last of the five criteria SC1 to SC5.",
+    "sc": null
+  },
+  {
+    "a": [
+      "fourteen hundred payment fields a quarter",
+      "fourteen hundred fields a quarter",
+      "fourteen hundred"
+    ],
+    "k": "count",
+    "s": "~1,400 fields per quarter",
+    "d": "How many payment details the forty loan administrators currently re-type by hand every three months, moving instructions between LOS, the treasury system and the payment gateway. Success criterion SC4 takes this to zero.",
+    "sc": null
+  },
+  {
+    "a": [
+      "nine months"
+    ],
+    "k": "count",
+    "s": "9 months (SC3 baseline)",
+    "d": "How long it takes today to get a new lending instrument running on the old system. Success criterion SC3 cuts it to six weeks.",
+    "sc": null
+  },
+  {
+    "a": [
+      "six weeks"
+    ],
+    "k": "count",
+    "s": "6 weeks (SC3 target)",
+    "d": "The promised time to set up a new lending instrument on the new platform, and the same promise applied to the common backstop once the Treaty reform is ratified. It is written as a recommendation, not a commitment, because the reform is not in force.",
+    "sc": [
+      "s20",
+      "s25"
+    ]
+  },
+  {
+    "a": [
+      "six weeks"
+    ],
+    "k": "count",
+    "s": "6 weeks of delay",
+    "d": "The schedule impact of the backstop scope request: Release 2 would move six weeks, from 17 Dec 2027 to 28 Jan 2028. That pushes it into the parallel run, which is why the request has to be escalated and not just absorbed.",
+    "sc": [
+      "s36"
+    ]
+  },
+  {
+    "a": [
+      "the twenty-fourth of march"
+    ],
+    "k": "date",
+    "s": "24 Mar 2026",
+    "d": "The day the Business Case and the Project Charter were approved, and with them Option C. Florence uses the date to close the argument about whether the platform is bought or built.",
+    "sc": null
+  },
+  {
+    "a": [
+      "option c"
+    ],
+    "k": "id",
+    "s": "Option C — buy, do not build",
+    "d": "The recommended option out of three in the Business Case: buy a configurable lending platform rather than build one in-house. It was signed off on 24 Mar 2026, which is why re-pricing a build option is out of order.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the ninth of june"
+    ],
+    "k": "date",
+    "s": "9 Jun 2026",
+    "d": "The day the Quality Management Plan was approved. Deming uses it to stop three rules (configuration procedure, defect severity, test evidence) being copied into a second document: two versions of a rule is no rule.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the twenty-fourth of june"
+    ],
+    "k": "date",
+    "s": "24 Jun 2026",
+    "d": "The day Lorenzo de' Medici's Corporate Investment Board approved the Outsourcing Plan. At the gate nine days later the matching checklist line can only be answered \"yes, partially\", because there is still no tender and no contractor.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the twenty-sixth of june",
+      "twenty-sixth of june"
+    ],
+    "k": "date",
+    "s": "26 Jun 2026",
+    "d": "The day the Project Handbook and the Project Work Plan were baselined and the four project plans were put to the Steering Committee. Baselined means this is now the fixed version everything is measured against.",
+    "sc": null
+  },
+  {
+    "a": [
+      "eighteen forty"
+    ],
+    "k": "time",
+    "s": "18:40 on 26 Jun 2026",
+    "d": "The time of evening the Handbook and Work Plan were finally baselined, with the building almost empty. Seven days later the same people meet for the Ready for Executing gate.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the twenty-sixth"
+    ],
+    "k": "date",
+    "s": "26 Jun 2026",
+    "d": "The Project Steering Committee meeting where all four project plans are seen together and the Handbook and Work Plan are baselined. It is the deadline that makes Grace Hopper's unwritten Business Implementation Plan a problem.",
+    "sc": [
+      "s24",
+      "s25"
+    ]
+  },
+  {
+    "a": [
+      "the third"
+    ],
+    "k": "date",
+    "s": "3 Jul 2026",
+    "d": "The day the kick-off agenda went out with the Handbook and the Work Plan — the same day as the Ready for Executing gate. Nobody commented on it, which is why the Project Manager, not the Project Owner, runs the meeting.",
+    "sc": [
+      "s27"
+    ]
+  },
+  {
+    "a": [
+      "the third of july"
+    ],
+    "k": "date",
+    "s": "3 Jul 2026",
+    "d": "The Ready for Executing (RfE) phase gate: the point where the Steering Committee agreed Planning was finished and Executing could start. The Stakeholders Checklist was signed at 90 per cent on that day.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the ninth of september"
+    ],
+    "k": "date",
+    "s": "9 Sep 2026",
+    "d": "The first meeting of the tender evaluation panel, which scores the three bids against the criteria fixed in advance. Nikola Tesla cannot sit on it because his employer is one of the bidders.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the eighteenth of september"
+    ],
+    "k": "date",
+    "s": "18 Sep 2026",
+    "d": "The day the implementation contract is awarded to Levallois Systems. It is a hard hinge: anything that must be part of the contract — the acceptance process, the runbook, the named deliverables — has to be finished before it.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the fifteenth of october"
+    ],
+    "k": "date",
+    "s": "15 Oct 2026",
+    "d": "The date Grace Hopper commits to, to give Marie Curie three hours on the open reconciliation requirements. It turns checklist row ten from \"not started\" into an action with a name and a date.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three hours"
+    ],
+    "k": "count",
+    "s": "3 hours of Hopper's time",
+    "d": "The working session Grace owes Marie on reconciliation requirements before 15 Oct 2026. Marie's point is that booking a slot is not the same as bringing the two-day reconciliation data to it.",
+    "sc": [
+      "s29"
+    ]
+  },
+  {
+    "a": [
+      "the ninth of november"
+    ],
+    "k": "date",
+    "s": "9 Nov 2026",
+    "d": "The date in the Project Work Plan for Nikola Tesla's configuration engine task. He is ahead of a different plan of his own, which is the whole coordination problem of the scene.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the fifth"
+    ],
+    "k": "date",
+    "s": "5 Nov 2026",
+    "d": "The interim check: six instruments configured and loaded into the test environment so Ada Lovelace can run her test pack against them. Passing closes the task; failing means the same conversation the next day with less time left.",
+    "sc": [
+      "s30"
+    ]
+  },
+  {
+    "a": [
+      "the sixth"
+    ],
+    "k": "date",
+    "s": "6 Nov 2026",
+    "d": "The last day Nikola Tesla is booked to the contractor's task 4.2, so Gustave Eiffel needs to know before then what Tesla is actually working on. It is also the fallback day if the interim check on the fifth fails.",
+    "sc": [
+      "s30"
+    ]
+  },
+  {
+    "a": [
+      "the eleventh"
+    ],
+    "k": "date",
+    "s": "11 Nov 2026",
+    "d": "A Greek loan repayment sits on this date in the live production calendar, so nothing can be rehearsed that day. Real disbursement dates outrank project dates every time.",
+    "sc": [
+      "s30"
+    ]
+  },
+  {
+    "a": [
+      "the seventeenth"
+    ],
+    "k": "date",
+    "s": "17 Nov 2026",
+    "d": "The agreed date for the data migration dry run, moved out of the second week of November because of quarter-end and the Greek repayment on the eleventh.",
+    "sc": [
+      "s30"
+    ]
+  },
+  {
+    "a": [
+      "second week of november"
+    ],
+    "k": "date",
+    "s": "2nd week of Nov 2026",
+    "d": "When the Project Manager first wants Grace Hopper's two business experts — and exactly when Lending Operations has its quarter-end. The clash is why the migration dry run moves to the seventeenth.",
+    "sc": null
+  },
+  {
+    "a": [
+      "twenty-sixth of march 2027",
+      "the twenty-sixth of march",
+      "twenty-sixth of march"
+    ],
+    "k": "date",
+    "s": "26 Mar 2027",
+    "d": "The baselined delivery date for Release 1, the product configuration engine. It was met, with nine of the eleven instrument templates working.",
+    "sc": null
+  },
+  {
+    "a": [
+      "release 1",
+      "release one"
+    ],
+    "k": "id",
+    "s": "Release 1 — 26 Mar 2027",
+    "d": "The first of two releases: the product configuration engine, which lets the business set up lending instruments without new code. It landed on its date but delivered nine templates of eleven.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the twenty-sixth"
+    ],
+    "k": "date",
+    "s": "26 Mar 2027",
+    "d": "The day Release 1 was delivered, exactly on the date baselined nine months earlier. Gustave Eiffel is careful to say his own nine templates were all delivered that day.",
+    "sc": [
+      "s33"
+    ]
+  },
+  {
+    "a": [
+      "the twenty-sixth"
+    ],
+    "k": "date",
+    "s": "26 Mar 2027",
+    "d": "The Steering Committee meeting that decided change request CR-007 — the same backstop request, made in March through Florence — and postponed it. Postponed is not yes and it is not no, which is why the request comes back in May.",
+    "sc": [
+      "s36"
+    ]
+  },
+  {
+    "a": [
+      "the fifth"
+    ],
+    "k": "date",
+    "s": "5 Apr 2027",
+    "d": "The contractual date each month for Gustave Eiffel's Contractor Status Report. In April it arrived on the sixth, one day late, and he says so in the report himself.",
+    "sc": [
+      "s34"
+    ]
+  },
+  {
+    "a": [
+      "the sixth"
+    ],
+    "k": "date",
+    "s": "6 Apr 2027",
+    "d": "The day the contractor's monthly status report actually arrived, one day after the contractual fifth. It does not go to the Steering Committee; it is summarised in four lines inside the Project Manager's status report.",
+    "sc": [
+      "s34"
+    ]
+  },
+  {
+    "a": [
+      "eleventh of april",
+      "the eleventh"
+    ],
+    "k": "date",
+    "s": "11 Apr 2027",
+    "d": "The first reconciliation run on live data with Release 1 in read-only mode. 1,106 lines matched and 294 went to the exception queue, so the run took two days, not the same day SC2 promises.",
+    "sc": [
+      "s35"
+    ]
+  },
+  {
+    "a": [
+      "the fourteenth"
+    ],
+    "k": "date",
+    "s": "14 Apr 2027",
+    "d": "The day the Quality Review Report goes out. It is a separate report from the one-page status report, with ten areas, one overall figure and two recommendations.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the twenty-third"
+    ],
+    "k": "date",
+    "s": "23 Apr 2027",
+    "d": "The next Project Steering Committee meeting, and the deadline for a real recovery plan on the schedule and cost overrun. Until then the project has an intention, not a plan.",
+    "sc": [
+      "s33",
+      "s34"
+    ]
+  },
+  {
+    "a": [
+      "second week of april"
+    ],
+    "k": "date",
+    "s": "2nd week of Apr 2027",
+    "d": "Another Greek repayment week in the live calendar, which is why the data migration dry run has now been moved twice.",
+    "sc": null
+  },
+  {
+    "a": [
+      "seventeenth of december 2027",
+      "the seventeenth of december",
+      "seventeenth of december"
+    ],
+    "k": "date",
+    "s": "17 Dec 2027",
+    "d": "The baselined date for Release 2, straight-through disbursement. Release 2 being accepted is a prerequisite for starting the parallel run three weeks later.",
+    "sc": null
+  },
+  {
+    "a": [
+      "release 2",
+      "release two"
+    ],
+    "k": "id",
+    "s": "Release 2 — 17 Dec 2027",
+    "d": "The second and last release: straight-through disbursement, meaning an instruction runs from loan agreement to payment without being re-typed. Everything after it — parallel run, cutover, go-live — depends on it being accepted on time.",
+    "sc": null
+  },
+  {
+    "a": [
+      "october 2027"
+    ],
+    "k": "date",
+    "s": "Oct 2027",
+    "d": "Nikola Tesla's proposal: convert the nine old EFSF legacy loan portfolios and run them against LOS here, before Release 2, while breaking things is still cheap. The original plan had them in the last week of the parallel run, where a failure would have cost the go-live date.",
+    "sc": null
+  },
+  {
+    "a": [
+      "eighth of january to the thirtieth of april 2028",
+      "eighth of january"
+    ],
+    "k": "date",
+    "s": "8 Jan – 30 Apr 2028",
+    "d": "The parallel run: four months in which every instruction is processed by both the old LOS and the new platform and the results are compared. If they disagree, LOS wins and the reason is written down.",
+    "sc": [
+      "s23"
+    ]
+  },
+  {
+    "a": [
+      "the eighth"
+    ],
+    "k": "date",
+    "s": "8 Jan 2028",
+    "d": "The day the parallel run starts. A six-week slip on Release 2 would push delivery to 28 Jan, i.e. three weeks after the run has already begun — which is why the change cannot simply be absorbed.",
+    "sc": [
+      "s36"
+    ]
+  },
+  {
+    "a": [
+      "the twenty-eighth of january"
+    ],
+    "k": "date",
+    "s": "28 Jan 2028",
+    "d": "Where Release 2 would land if the backstop change were approved: six weeks later than 17 Dec 2027, and inside the parallel run.",
+    "sc": null
+  },
+  {
+    "a": [
+      "january to april 2028"
+    ],
+    "k": "date",
+    "s": "Jan – Apr 2028",
+    "d": "The training window in the Business Implementation Plan: forty loan administrators go through three days of classroom plus shadowing, in cohorts, during the parallel run.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the thirtieth of april"
+    ],
+    "k": "date",
+    "s": "30 Apr 2028",
+    "d": "Two things end on this day: the parallel run, and the training of all forty loan administrators. Completed training is a prerequisite for cutover, so if it slips, go-live slips.",
+    "sc": [
+      "s23"
+    ]
+  },
+  {
+    "a": [
+      "the fifteenth of may 2028",
+      "the fifteenth of may"
+    ],
+    "k": "date",
+    "s": "15 May 2028",
+    "d": "Cutover and go-live: the day the new platform becomes the real system and responsibility passes from the Solution Provider to the Project Owner. Florence tells forty people out loud that it is not a target, it is the date.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the fifteenth"
+    ],
+    "k": "date",
+    "s": "15 May 2028",
+    "d": "Cutover day. The formal transfer of responsibility for the platform from Leonardo's IT division to Florence's Lending Operations is signed on this date, not the day after.",
+    "sc": [
+      "s23"
+    ]
+  },
+  {
+    "a": [
+      "the sixteenth of may",
+      "the sixteenth"
+    ],
+    "k": "date",
+    "s": "16 May 2028",
+    "d": "The day after cutover, when the old LOS goes read-only — it can still be looked at but nothing new can be entered. It is also the first day the platform is no longer Leonardo's.",
+    "sc": [
+      "s23"
+    ]
+  },
+  {
+    "a": [
+      "the fifteenth of june"
+    ],
+    "k": "date",
+    "s": "15 Jun 2028 (forecast)",
+    "d": "The forecast go-live date if the March 2027 trend continues: one month later than the baselined 15 May 2028. A forecast is not a new baseline — only the governance body can move that.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the thirtieth of june"
+    ],
+    "k": "date",
+    "s": "30 Jun 2028",
+    "d": "The old LOS is kept \"warm\" — switched on and usable — until this date, so the project can still fall back to it. Only Florence can order the fallback, and only before the six o'clock cut-off.",
+    "sc": [
+      "s23"
+    ]
+  },
+  {
+    "a": [
+      "july 2028"
+    ],
+    "k": "date",
+    "s": "Jul 2028",
+    "d": "When the project ends: the Project-End Review is 12 July and administrative closure is 28 July 2028. The benefits cannot be measured until 2029, so the project closes before it can prove anything.",
+    "sc": null
+  },
+  {
+    "a": [
+      "march 2028"
+    ],
+    "k": "date",
+    "s": "Mar 2028",
+    "d": "One of only two people who have ever reconciled an EFSF-era portfolio by hand retires this month — during the parallel run. Deming insists that is a risk with a date on it, not a staffing detail.",
+    "sc": null
+  },
+  {
+    "a": [
+      "march 2027 and december 2027"
+    ],
+    "k": "date",
+    "s": "Mar 2027 & Dec 2027",
+    "d": "Acceptance happens once per release, on the two release dates, rather than all at once in 2028. Acceptance activities do not have to wait for the end of the Executing Phase.",
+    "sc": null
+  },
+  {
+    "a": [
+      "first quarter of 2029",
+      "2029"
+    ],
+    "k": "date",
+    "s": "Q1 2029 onwards",
+    "d": "When Lending Operations starts measuring SC1 to SC5 quarterly, plus an annual refresher and a control self-assessment. The project has closed by then, so the measuring belongs to the permanent organisation, not to CASTOR.",
+    "sc": [
+      "s25"
+    ]
+  },
+  {
+    "a": [
+      "2019"
+    ],
+    "k": "date",
+    "s": "2019",
+    "d": "The last big change to the LOS interface, and the project everyone still remembers badly: acceptance forms went missing, Marie signed \"with reservations, see attached\" with no attachment, and the two people who built the workaround are still the two everybody asks.",
+    "sc": null
+  },
+  {
+    "a": [
+      "2014"
+    ],
+    "k": "date",
+    "s": "2014",
+    "d": "The year about three hundred old EFSF loan references were re-issued with a different check digit. That is why the reconciliation matching key fails on those loans in April 2027 — it is a data problem, not a software defect.",
+    "sc": null
+  },
+  {
+    "a": [
+      "2025"
+    ],
+    "k": "date",
+    "s": "2025",
+    "d": "Some requirements were gathered before CASTOR existed and before this Project Manager arrived. They are still the Project Manager's to manage: nobody may call a requirement unmanaged because of who held the pen.",
+    "sc": null
+  },
+  {
+    "a": [
+      "second half of 2027"
+    ],
+    "k": "date",
+    "s": "H2 2027",
+    "d": "The period where test resourcing is still weak at the gate: two people named and one place filled only by a job profile, not a person. It is the second of the two checklist answers that are not a clean \"yes\".",
+    "sc": null
+  },
+  {
+    "a": [
+      "four o'clock cut-off"
+    ],
+    "k": "time",
+    "s": "16:00 daily cut-off",
+    "d": "During the parallel run, every instruction goes through both systems and the two results must be compared before four in the afternoon. If they disagree, the old LOS result is the one used.",
+    "sc": [
+      "s23"
+    ]
+  },
+  {
+    "a": [
+      "six o'clock value-date cut-off",
+      "six o'clock",
+      "six in the morning"
+    ],
+    "k": "time",
+    "s": "06:00 fallback deadline",
+    "d": "Six in the morning, not the evening: the daily value-date cut-off. After it, payments for the day are locked in, so a rollback to the old system can only be ordered before it.",
+    "sc": [
+      "s23"
+    ]
+  },
+  {
+    "a": [
+      "ten past three"
+    ],
+    "k": "time",
+    "s": "03:10 batch run",
+    "d": "Gustave Eiffel's proof that the contractor met its service levels on 11 April 2027: the environment was up and the batch ran on time. His point is that the failure is not his — but somebody still owns the two-day result.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ten past eight"
+    ],
+    "k": "time",
+    "s": "08:10 phone call",
+    "d": "The time a Board member's cabinet rang the Project Manager directly with a scope request. Florence reads the hour as deliberate: it is how somebody makes a request they would rather nobody wrote down.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the fifth of each month"
+    ],
+    "k": "date",
+    "s": "5th of each month",
+    "d": "The contractual deadline for the Contractor Status Report from Levallois Systems. It is the contractor's own commitment, and Eiffel flags it himself when he misses it by a day.",
+    "sc": null
+  },
+  {
+    "a": [
+      "two working days"
+    ],
+    "k": "count",
+    "s": "2 working days",
+    "d": "How long Gantt has to issue the minutes after a meeting. Anything raised in the meeting as a risk, an issue, a decision or a change must also be copied into the matching log, not just written in the minutes.",
+    "sc": null
+  },
+  {
+    "a": [
+      "five working days",
+      "on the sixth day",
+      "the sixth day"
+    ],
+    "k": "count",
+    "s": "5 days, then escalate",
+    "d": "The agreed conflict rule: a disagreement is worked in writing where it happens, for five working days, with Grace and the Project Manager copied. On day six it goes up the escalation route in Handbook section 3.5.",
+    "sc": [
+      "s27"
+    ]
+  },
+  {
+    "a": [
+      "ninety minutes"
+    ],
+    "k": "count",
+    "s": "90 minutes",
+    "d": "The length of the Executing Kick-off Meeting. Florence chairs the last two minutes; the Project Manager runs the other eighty-eight, because the agenda went out a week earlier and nobody objected.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ninety days"
+    ],
+    "k": "count",
+    "s": "90 days of supplier support",
+    "d": "After go-live, Levallois stays available for ninety days — often called hypercare. After that Leonardo's division is alone with the platform, which is why he wants the operations runbook named as a contract deliverable.",
+    "sc": null
+  },
+  {
+    "a": [
+      "forty-three checks"
+    ],
+    "k": "count",
+    "s": "43 checks",
+    "d": "The Planning sheet of the Phase Exit Review Checklist has forty-three questions about whether the Planning Phase did its job. None of them asks whether the system will actually work — that is what the next two years are for.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ninety-eight per cent"
+    ],
+    "k": "pct",
+    "s": "98% compliance",
+    "d": "The score on the Ready for Executing checklist: 98 per cent of the forty-three checks answered yes. It is a status indicator, not permission to proceed — only the Steering Committee gives that.",
+    "sc": null
+  },
+  {
+    "a": [
+      "zero point nine"
+    ],
+    "k": "score",
+    "s": "Status 0.9",
+    "d": "The checklist template's own overall status figure, on a scale from 0 to 1. Anything above 0.8 counts as good on that scale, and it means nothing more than that.",
+    "sc": null
+  },
+  {
+    "a": [
+      "eighty per cent"
+    ],
+    "k": "pct",
+    "s": "80% threshold",
+    "d": "The line on the checklist template's scale above which a phase is judged ready. CASTOR is above it — but two of the answers are still not a clean yes, and the Project Manager says so out loud.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ninety per cent"
+    ],
+    "k": "pct",
+    "s": "90% — Stakeholders Checklist",
+    "d": "The Stakeholders Checklist for the Planning Phase scored 90 per cent at the gate on 3 Jul 2026. The Project Manager's point is that the useful information is the missing ten per cent, not the ninety.",
+    "sc": [
+      "s29"
+    ]
+  },
+  {
+    "a": [
+      "row seven"
+    ],
+    "k": "id",
+    "s": "Row 7 — partially",
+    "d": "The checklist line asking whether key stakeholders were told about the change process and the Change Log. The answer is \"yes, partially\": the Board members' cabinets were never briefed, so verbal scope requests keep arriving straight at the Project Manager.",
+    "sc": null
+  },
+  {
+    "a": [
+      "row ten"
+    ],
+    "k": "id",
+    "s": "Row 10 — not started",
+    "d": "The checklist line on reconciliation requirements, still open with Marie Curie. Marie insists this is not \"partially\" but \"not started\", which is a different and worse answer.",
+    "sc": null
+  },
+  {
+    "a": [
+      "row twelve"
+    ],
+    "k": "id",
+    "s": "Row 12 — no",
+    "d": "The checklist line on the formal announcement to the user groups: not made. It is Florence's line, and it stays a no until Grace's Business Implementation Plan says who retrains the forty administrators and in whose time.",
+    "sc": null
+  },
+  {
+    "a": [
+      "row thirteen"
+    ],
+    "k": "id",
+    "s": "Row 13 — yes, with a gap",
+    "d": "The checklist line asking whether the stakeholders stay the same next phase. It says yes, then adds that contractor roles will be added at contract award — which is how Gustave Eiffel finds his own name missing from the distribution list.",
+    "sc": null
+  },
+  {
+    "a": [
+      "yes, partially",
+      "partially",
+      "not started"
+    ],
+    "k": "score",
+    "s": "Checklist answers",
+    "d": "Checklist lines are answered yes, partially, not started or no. At a phase gate none of these blocks the project by itself: each non-yes has to become an action with a name and a date, reviewed again at the next gate. It is a list of actions, not a school report.",
+    "sc": [
+      "s26",
+      "s29"
+    ]
+  },
+  {
+    "a": [
+      "nineteen lines",
+      "four planning, six executing"
+    ],
+    "k": "count",
+    "s": "19-line acceptance checklist",
+    "d": "The Deliverables Acceptance Checklist has nineteen lines: four on planning, six on executing, two on coordination, five on the quality of deliverables and two on communication. It only asks whether things happened; the standards themselves live in the plans.",
+    "sc": null
+  },
+  {
+    "a": [
+      "nineteen of these should exist",
+      "eleven are in the folder"
+    ],
+    "k": "count",
+    "s": "19 forms, 11 found",
+    "d": "Of the nineteen signed acceptance forms from the 2019 interface change, eleven are filed, four sit in somebody's mailbox and four cannot be found at all. It is the argument for putting signed forms straight into the repository with a version number and a retention period.",
+    "sc": null
+  },
+  {
+    "a": [
+      "check eight"
+    ],
+    "k": "id",
+    "s": "Check 8 — provisional acceptance",
+    "d": "The checklist line about accepting a deliverable provisionally with \"a limited number of minor issues\". Marie's objection is that \"limited\" is not a number, so the plan fixes it: two minor issues is provisional acceptance.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three is a rejection"
+    ],
+    "k": "count",
+    "s": "2 issues OK, 3 = rejection",
+    "d": "The rule written into the Deliverables Acceptance Plan, not the checklist: up to two minor issues means provisional acceptance with a named owner and date for each. A third one makes it a rejection, which becomes an issue with a resolution plan.",
+    "sc": null
+  },
+  {
+    "a": [
+      "step seven"
+    ],
+    "k": "section",
+    "s": "Step 7 of section 6.6",
+    "d": "The step that says the acceptance process must be written into the contract for any outsourced work. Because the contract is signed on 18 Sep 2026, that single clause forces the whole plan to be finished before the tender rather than before go-live.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ninety per cent complete"
+    ],
+    "k": "pct",
+    "s": "\"90% complete\" — banned",
+    "d": "Ada Lovelace's example of a meaningless number: it usually means a developer felt good on a Thursday, not that nine tenths of the work is done. CASTOR bans percentages of completion for tasks.",
+    "sc": [
+      "s28"
+    ]
+  },
+  {
+    "a": [
+      "zero or at a hundred"
+    ],
+    "k": "score",
+    "s": "0% or 100%, nothing between",
+    "d": "The replacement rule for task progress: a task is either not done or done, and it only reaches done when somebody who did not build it says so. Named verifiers are set task by task in July, long before there is anything to verify.",
+    "sc": null
+  },
+  {
+    "a": [
+      "four things every second Tuesday",
+      "second tuesday"
+    ],
+    "k": "count",
+    "s": "4 reports, every 2nd Tuesday",
+    "d": "The fixed monitoring pack: critical-path tasks, deliverables finished and verified, days burned against days planned, and the state of the four logs. Same shape every time, and nobody types the same number into two systems.",
+    "sc": [
+      "s28"
+    ]
+  },
+  {
+    "a": [
+      "the fifth thing"
+    ],
+    "k": "count",
+    "s": "5th item — people",
+    "d": "Grace's addition to Gantt's four: how the people are. It is not a column on a form, so the Project Manager collects it by walking around — half of what a project manager needs never arrives at a scheduled meeting.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ninety-three per cent",
+      "the ninety-three",
+      "inside the seven"
+    ],
+    "k": "pct",
+    "s": "93% — data migration",
+    "d": "What the March 2027 report said about data migration progress. The failure was not in the missing 7 per cent: it was inside the 93, in a task marked complete that was never checked against success criterion SC2.",
+    "sc": [
+      "s35"
+    ]
+  },
+  {
+    "a": [
+      "section three point one"
+    ],
+    "k": "section",
+    "s": "Procurement code §3.1",
+    "d": "The two paragraphs of ESM's own procurement rules that force an open tender when the existing framework contract does not cover what is being bought. It is what turns \"four months\" into a fixed part of the schedule.",
+    "sc": null
+  },
+  {
+    "a": [
+      "section three point five"
+    ],
+    "k": "section",
+    "s": "Handbook §3.5 — escalation",
+    "d": "The part of the Project Handbook that says where a disagreement goes when five working days have not settled it. It is not open for discussion at kick-off, because Florence approved it in June.",
+    "sc": null
+  },
+  {
+    "a": [
+      "handbook, section five",
+      "section five"
+    ],
+    "k": "section",
+    "s": "Handbook §5",
+    "d": "The section of the Project Handbook that says the contractor and the team report once, and that the Project Support Office reshapes the data for other audiences. It has been in writing since June and read by nobody, which is why the meeting is happening at all.",
+    "sc": null
+  },
+  {
+    "a": [
+      "section four"
+    ],
+    "k": "section",
+    "s": "Acceptance Plan §4",
+    "d": "The part of the Deliverables Acceptance Plan holding the acceptance criteria AC-01 to AC-05, each with a measurement, a tolerance and a named approver.",
+    "sc": [
+      "s21"
+    ]
+  },
+  {
+    "a": [
+      "section three. impact on people",
+      "section three"
+    ],
+    "k": "section",
+    "s": "Business Impl. Plan §3",
+    "d": "The section of the Business Implementation Plan on what happens to people: forty loan administrators stop re-keying about 1,400 payment fields a quarter, and two posts move to exception handling and control testing.",
+    "sc": [
+      "s25"
+    ]
+  },
+  {
+    "a": [
+      "section four is culture",
+      "section four"
+    ],
+    "k": "section",
+    "s": "Business Impl. Plan §4",
+    "d": "The two paragraphs on culture and where resistance will come from. The two people who built the 2019 workaround are the two everyone else asks for help; if they are against the new system in January 2028, the platform's abilities will not matter.",
+    "sc": [
+      "s25"
+    ]
+  },
+  {
+    "a": [
+      "guide page forty-eight",
+      "page forty-eight"
+    ],
+    "k": "section",
+    "s": "PM² Guide p.48",
+    "d": "The page holding the Outsourcing Plan's responsibility table. It is the odd one out: the governance body is Accountable, the Steering Committee and Project Owner are only Consulted, the Solution Provider merely Supports, and the Project Manager writes it.",
+    "sc": null
+  },
+  {
+    "a": [
+      "quality management plan page four",
+      "page four"
+    ],
+    "k": "section",
+    "s": "Quality Mgmt Plan p.4",
+    "d": "Where the rule \"peer review before merge\" is written. Deming's three questions for it are always the same: is the control there, is it being used, and does it work.",
+    "sc": null
+  },
+  {
+    "a": [
+      "page two, first paragraph"
+    ],
+    "k": "section",
+    "s": "Outsourcing Plan p.2 ¶1",
+    "d": "Where the one sentence Leonardo demands already sits: the platform is bought, not built. Four earlier drafts said it too, which is why he wants it somewhere nobody can reopen.",
+    "sc": null
+  },
+  {
+    "a": [
+      "draft zero point three",
+      "zero point three"
+    ],
+    "k": "version",
+    "s": "Outsourcing Plan v0.3",
+    "d": "The working draft of the Outsourcing Plan, finished on a Thursday in April 2026. A version below 1.0 means it is not yet approved; this one goes to Lorenzo's Corporate Investment Board, not to the Steering Committee.",
+    "sc": null
+  },
+  {
+    "a": [
+      "version one point zero",
+      "one point zero"
+    ],
+    "k": "version",
+    "s": "Work Plan v1.0",
+    "d": "The approved baseline of the Project Work Plan, dated 26 Jun 2026. There is exactly one copy and it does not move; everything on anyone else's drive is only a photograph of it.",
+    "sc": null
+  },
+  {
+    "a": [
+      "task 4.2"
+    ],
+    "k": "id",
+    "s": "Contractor task 4.2",
+    "d": "The line in the contractor's own plan that Nikola Tesla is booked to until 6 Nov 2026. Gustave Eiffel signs timesheets against it, so he needs to know before he signs if Tesla is working on something else.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three million one hundred and fifty thousand"
+    ],
+    "k": "money",
+    "s": "PV €3,150,000",
+    "d": "Planned value: the money's worth of work the plan said would be finished by 31 Mar 2027. It is the yardstick the other two numbers are compared against.",
+    "sc": null
+  },
+  {
+    "a": [
+      "two million eight hundred and ninety-eight",
+      "two point nine million",
+      "two point nine"
+    ],
+    "k": "money",
+    "s": "EV €2,898,000",
+    "d": "Earned value: the money's worth of work actually finished by 31 Mar 2027. It is €252,000 less than the plan expected.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three million two hundred and twenty",
+      "three point two two million",
+      "three point two two"
+    ],
+    "k": "money",
+    "s": "AC €3,220,000",
+    "d": "Actual cost: the money really spent by 31 Mar 2027. Spending €3.22 million to buy €2.9 million of work is what makes this an amber report.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ninety cents of value for every euro",
+      "ninety cents",
+      "cost performance at ninety"
+    ],
+    "k": "score",
+    "s": "Cost performance 0.90",
+    "d": "For every euro spent, the project has bought ninety cents of finished work. It is earned value divided by actual cost, and it is the number that drives the forecast overrun.",
+    "sc": null
+  },
+  {
+    "a": [
+      "two hundred and fifty-two thousand"
+    ],
+    "k": "money",
+    "s": "Schedule variance −€252,000",
+    "d": "The schedule gap: work worth €252,000 that the plan said would be finished by tonight and is not. It is about lateness, not about money leaving the account.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three hundred and twenty-two thousand"
+    ],
+    "k": "money",
+    "s": "Cost variance −€322,000",
+    "d": "The cost gap: €322,000 more spent than the finished work is worth. This one is real money out of the door, which is why the two numbers must never be added together.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three hundred thousand"
+    ],
+    "k": "money",
+    "s": "€300,000 (rounded)",
+    "d": "Florence's rough way of asking about the overrun. The answer is that there is no single €300,000: there are two separate numbers, €252,000 of lateness and €322,000 of overspend.",
+    "sc": [
+      "s33"
+    ]
+  },
+  {
+    "a": [
+      "nine point three three",
+      "9,3"
+    ],
+    "k": "money",
+    "s": "Forecast €9.33 million",
+    "d": "The forecast final cost if the project keeps buying ninety cents of work per euro: €8.4 million divided by 0.90. It is a forecast, not a new budget.",
+    "sc": null
+  },
+  {
+    "a": [
+      "nine hundred and thirty-three thousand"
+    ],
+    "k": "money",
+    "s": "€933,000 over budget",
+    "d": "The gap between the forecast €9.33 million and the approved €8.4 million. Florence's point is that an overrun that size is not a variance, it is the size of a small project on its own.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ten working days"
+    ],
+    "k": "count",
+    "s": "10 working days",
+    "d": "The threshold written in the Project Handbook: any schedule slip bigger than ten working days must go to the Steering Committee. A one-month forecast slip clears it easily, so the escalation is automatic, not a choice.",
+    "sc": null
+  },
+  {
+    "a": [
+      "nine templates of eleven",
+      "nine templates of nine",
+      "nine templates"
+    ],
+    "k": "count",
+    "s": "9 of 11 templates",
+    "d": "Release 1 delivered nine of the eleven instrument templates. The two missing are PMSF and the secondary market facility, which nobody disburses on this year — and Eiffel is careful to say all nine of his own were delivered on the date.",
+    "sc": null
+  },
+  {
+    "a": [
+      "r-07",
+      "likelihood four, impact five",
+      "sitting at twenty"
+    ],
+    "k": "id",
+    "s": "R-07 = 20 (4 × 5)",
+    "d": "Risk 7 in the Risk Log: losing Levallois's lead solution architect, Nikola Tesla. Likelihood 4 times impact 5 gives 20, on a scale where 20 and above is red and must be escalated. It was first scored 12 in May 2026 and has been rising since.",
+    "sc": null
+  },
+  {
+    "a": [
+      "r-13"
+    ],
+    "k": "id",
+    "s": "Risk R-13",
+    "d": "The Risk Log entry saying reconciliation may not reach same-day. On 11 Apr 2027 it stops being a risk because it has already happened: a thing that has happened has no likelihood left to score, so it closes with the reason written in and moves to the Issue Log.",
+    "sc": null
+  },
+  {
+    "a": [
+      "cr-007"
+    ],
+    "k": "id",
+    "s": "Change request CR-007",
+    "d": "The March 2027 request to add common-backstop screens, made through Florence and postponed by the Steering Committee on the twenty-sixth. Postponed is neither yes nor no, which is why the same request comes back by telephone in May.",
+    "sc": null
+  },
+  {
+    "a": [
+      "cr-009"
+    ],
+    "k": "id",
+    "s": "Change request CR-009",
+    "d": "An open change request covering the audit-trail export. It uses the same old EFSF loan reference key as the failing reconciliation, so fixing one touches the other.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ac-01 to ac-05",
+      "ac-05"
+    ],
+    "k": "id",
+    "s": "AC-01 … AC-05",
+    "d": "The five acceptance criteria in the Deliverables Acceptance Plan, one per success criterion. Each has a measurement, a tolerance and a named approver, and all five are written in May 2026 — before there is a platform, a contractor or a design.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ac-04"
+    ],
+    "k": "id",
+    "s": "AC-04 — reconciliation",
+    "d": "The acceptance criterion for reconciliation: same day, with a tolerance of zero unexplained breaks. \"Unexplained\" means not closed in the reconciliation log by the next value date — a break with an explanation is still a break, but it does not fail the criterion.",
+    "sc": null
+  },
+  {
+    "a": [
+      "requirement one hundred and four",
+      "one hundred and four"
+    ],
+    "k": "id",
+    "s": "Requirement 104",
+    "d": "The requirement the loan administrators wrote as a screen: six instruments in a fixed order, PCCL above ECCL, field eleven characters wide. Ada rewrites it as a need rather than a solution, so it does not expire the moment a seventh instrument appears.",
+    "sc": null
+  },
+  {
+    "a": [
+      "two hundred and twelve"
+    ],
+    "k": "count",
+    "s": "212 requirements",
+    "d": "The full requirement list for CASTOR in January 2027. The Project Manager's job is to weigh the whole list against the money and the dates and say which ones do not fit.",
+    "sc": null
+  },
+  {
+    "a": [
+      "nine of the fourteen",
+      "fourteen"
+    ],
+    "k": "count",
+    "s": "14 requirements for SC1",
+    "d": "Of the 212 requirements, fourteen are the ones that actually deliver success criterion SC1 — and nine of those fourteen are about the value-date cut-off, not about screens at all.",
+    "sc": [
+      "s32"
+    ]
+  },
+  {
+    "a": [
+      "eleven characters wide"
+    ],
+    "k": "count",
+    "s": "11-character field",
+    "d": "A detail from the users' own drawing of the screen. It is exactly the kind of solution detail a requirement should not fix, because it locks the build to today's layout.",
+    "sc": null
+  },
+  {
+    "a": [
+      "nine days if the order is configurable",
+      "nine days",
+      "two days if the list is fixed"
+    ],
+    "k": "effort",
+    "s": "9 PD vs 2 PD",
+    "d": "Tesla's estimate for requirement 104: nine days if the business can reorder the instrument list without new code, two days if the order is hard-coded. The project takes the nine, because the two-day version has to be rebuilt in 2029.",
+    "sc": [
+      "s32"
+    ]
+  },
+  {
+    "a": [
+      "six instruments",
+      "the six instruments"
+    ],
+    "k": "count",
+    "s": "6 lending instruments",
+    "d": "The instruments ESM lends through today: the stability support loan, bank recapitalisation, the two precautionary lines PCCL and ECCL, and the two market support facilities PMSF and SMSF. All six must be configured in the new platform.",
+    "sc": null
+  },
+  {
+    "a": [
+      "seventh instrument",
+      "the seventh"
+    ],
+    "k": "count",
+    "s": "The 7th instrument",
+    "d": "The instrument that does not exist yet: the common backstop to the Single Resolution Fund, which only becomes real if the ESM Treaty reform is ratified. Designing for it now is the whole argument about configurable versus hard-coded.",
+    "sc": [
+      "s30",
+      "s32"
+    ]
+  },
+  {
+    "a": [
+      "pccl"
+    ],
+    "k": "id",
+    "s": "PCCL",
+    "d": "Precautionary Conditioned Credit Line: a credit line offered to a member state whose finances are fundamentally sound, as insurance rather than a rescue. One of the six instruments the platform must configure.",
+    "sc": null
+  },
+  {
+    "a": [
+      "eccl"
+    ],
+    "k": "id",
+    "s": "ECCL",
+    "d": "Enhanced Conditions Credit Line: the precautionary credit line for a member state that does not fully meet the PCCL conditions and must accept extra corrective measures. It sits just below PCCL in the users' instrument list.",
+    "sc": null
+  },
+  {
+    "a": [
+      "pmsf"
+    ],
+    "k": "id",
+    "s": "PMSF",
+    "d": "Primary Market Support Facility: the tool that lets ESM buy a member state's bonds directly at issue. It is one of the two templates Release 1 did not deliver — acceptable only because nothing is disbursed on it this year.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the secondary market facility",
+      "secondary market facility"
+    ],
+    "k": "id",
+    "s": "SMSF",
+    "d": "The Secondary Market Support Facility, which lets ESM buy an existing bond on the open market. The second of the two instrument templates missing from Release 1.",
+    "sc": null
+  },
+  {
+    "a": [
+      "forty loan administrators",
+      "forty administrators",
+      "marie's forty",
+      "the forty of us",
+      "forty people",
+      "forty desks",
+      "the forty"
+    ],
+    "k": "count",
+    "s": "40 loan administrators",
+    "d": "The Lending Operations staff whose daily work the new system changes: they do the re-keying today, they run the parallel run, and they all have to be trained before cutover. Nobody has yet told them anything official, which is why a rumour is doing the work instead.",
+    "sc": null
+  },
+  {
+    "a": [
+      "twenty-two of them occupied",
+      "twenty-two occupied desks"
+    ],
+    "k": "count",
+    "s": "22 of 40 desks occupied",
+    "d": "What the sixth floor actually looks like in June 2026: forty desks and only twenty-two people at them. It is the quiet reason the promise that \"two posts refocus\" is heard as a promise about jobs.",
+    "sc": null
+  },
+  {
+    "a": [
+      "two posts"
+    ],
+    "k": "count",
+    "s": "2 posts refocused",
+    "d": "The Business Implementation Plan's careful wording for what happens to people when re-keying stops: two posts move to exception handling and control testing. Marie makes Grace say the harder version out loud — the second pair of eyes stops being a person and becomes the system refusing.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three days classroom"
+    ],
+    "k": "count",
+    "s": "3 days classroom + shadowing",
+    "d": "The training design in the Business Implementation Plan: three days in a classroom, then shadowing an experienced colleague, delivered in cohorts between January and April 2028.",
+    "sc": null
+  },
+  {
+    "a": [
+      "eighteen months out"
+    ],
+    "k": "count",
+    "s": "18 months ahead",
+    "d": "How far in advance Grace has to book the two training rooms for the 2028 cohorts. It is a small detail that shows business implementation work is real work with real lead times.",
+    "sc": [
+      "s25"
+    ]
+  },
+  {
+    "a": [
+      "eighteen months"
+    ],
+    "k": "count",
+    "s": "18 months",
+    "d": "Ada Lovelace's horizon for rewriting the acceptance tests when a seventh instrument finally arrives. Her point is that rewriting them then is the job, not a failure of the first version.",
+    "sc": [
+      "s30"
+    ]
+  },
+  {
+    "a": [
+      "nineteen people"
+    ],
+    "k": "count",
+    "s": "19 attendees",
+    "d": "How many people came to the Executing Kick-off Meeting — partly because Schuman is the only room on the floor with working air conditioning. The empty back row is for the contractor, who has not been chosen yet.",
+    "sc": null
+  },
+  {
+    "a": [
+      "room werner",
+      "werner"
+    ],
+    "k": "place",
+    "s": "Room Werner, 4th floor",
+    "d": "The small fourth-floor meeting room with one window and a crooked blind, used for the working sessions rather than the ceremonial ones. Most of the difficult conversations in this project happen here.",
+    "sc": null
+  },
+  {
+    "a": [
+      "schuman"
+    ],
+    "k": "place",
+    "s": "Conference room Schuman",
+    "d": "The big seventh-floor conference room used for the kick-off meetings, and the only one on the floor whose air conditioning works.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the seventh floor"
+    ],
+    "k": "place",
+    "s": "7th floor — board room",
+    "d": "Where the senior committees meet: the board room and Lorenzo de' Medici's floor. It is the floor Medici means when he says that after a bad award nobody asks the project, they ask this floor, with the auditors in the room.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the sixth floor",
+      "sixth-floor kitchen",
+      "sixth floor"
+    ],
+    "k": "place",
+    "s": "6th floor — Lending Ops",
+    "d": "The Lending Operations Division: forty desks, its own coffee, and the forty loan administrators whose jobs the project changes. It is also where the rumour about the jobs started.",
+    "sc": null
+  },
+  {
+    "a": [
+      "nine loans"
+    ],
+    "k": "count",
+    "s": "9 legacy EFSF loans",
+    "d": "The old EFSF legacy portfolios: nine closed loans carrying the oldest repayment schedules ESM holds. Tesla predicts they will break the data converter, so they are moved forward to October 2027 where a failure is still cheap.",
+    "sc": null
+  },
+  {
+    "a": [
+      "four clean parallel-run weeks"
+    ],
+    "k": "count",
+    "s": "4 clean weeks required",
+    "d": "One of the conditions that must be met before cutover: four consecutive weeks in which the old and new systems agree. Prerequisites like this are what stop go-live being a matter of opinion on the day.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three weekends in may"
+    ],
+    "k": "count",
+    "s": "3 possible weekends",
+    "d": "The cutover weekend must avoid an EFSF bond rollover and the Finance month-end close. Once both are marked on the 2028 disbursement calendar, only three weekends in May are left.",
+    "sc": null
+  },
+  {
+    "a": [
+      "seven years"
+    ],
+    "k": "count",
+    "s": "7-year backup retention",
+    "d": "Louis Brandeis's warning about borrower names, telephone numbers and bank details: a backup kept for seven years is seven years of personal data being kept. The retention rule belongs next to the migration, not hidden in an annex.",
+    "sc": null
+  },
+  {
+    "a": [
+      "fourteen years of los data",
+      "fourteen years of migration",
+      "fourteen-year-old system",
+      "fourteen years"
+    ],
+    "k": "count",
+    "s": "14 years of LOS data",
+    "d": "The old Lending Operations System is fourteen years old, built in the EFSF era, and every year of its data has to be moved to the new platform. That migration is its own work package of 480 person-days.",
+    "sc": null
+  },
+  {
+    "a": [
+      "four months"
+    ],
+    "k": "count",
+    "s": "4 months of open tender",
+    "d": "How long an open tender takes under the procurement code. The framework contract covers staff and infrastructure but not a licensed platform with implementation and migration, so there is no shortcut — and the four months are already in the schedule.",
+    "sc": [
+      "s20"
+    ]
+  },
+  {
+    "a": [
+      "four months of parallel running",
+      "four months of doing everything twice",
+      "the four months",
+      "four months"
+    ],
+    "k": "count",
+    "s": "4-month parallel run",
+    "d": "8 Jan to 30 Apr 2028: four months in which both the old and the new system process every instruction and both have to be right. It is done on a live disbursement calendar, on top of the day job.",
+    "sc": [
+      "s21",
+      "s23",
+      "s36"
+    ]
+  },
+  {
+    "a": [
+      "one page"
+    ],
+    "k": "count",
+    "s": "1-page Status Report",
+    "d": "The Project Status Report: overall status, summary, schedule, cost, milestones, changes, risks, issues, decisions, what was done and what is next — all on a single sheet. It summarises performance; it does not list tasks.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three of the five"
+    ],
+    "k": "count",
+    "s": "3 of 5 report types",
+    "d": "PM² names five reports: status, progress, quality review, contractor status, and ad hoc. Three of them are on the table this morning; the annual Progress Report and a custom report for the administrators are the other two.",
+    "sc": null
+  },
+  {
+    "a": [
+      "four lines"
+    ],
+    "k": "count",
+    "s": "4 lines",
+    "d": "How much of the contractor's monthly report reaches the Steering Committee: four lines inside the Project Manager's own status page, under the Project Manager's name. The contractor does not report to the Committee directly.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the fourth is the progress report"
+    ],
+    "k": "id",
+    "s": "Progress Report — January",
+    "d": "The fuller, yearly report, written in January. It is the one the Board reads when it decides next year's money, so it carries more than the fortnightly picture.",
+    "sc": null
+  },
+  {
+    "a": [
+      "half a page, once a quarter"
+    ],
+    "k": "count",
+    "s": "½ page per quarter",
+    "d": "Grace's proposed ad hoc report, written for the forty loan administrators rather than for the Committee. The formal status page has no sentence in it about them, so they will not read it.",
+    "sc": null
+  },
+  {
+    "a": [
+      "ten areas",
+      "ten area names"
+    ],
+    "k": "count",
+    "s": "10 quality areas",
+    "d": "The Quality Review Checklist covers ten areas: scope, schedule, cost, quality, risk, issues and decisions, communication, project organisation, outsourcing and client satisfaction. Each gets a percentage, then one figure overall, then recommendations with days against them.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three questions"
+    ],
+    "k": "count",
+    "s": "Deming's 3 questions",
+    "d": "The same three questions asked of every control: is the control there, is it being used, and does it work. That is what quality assurance means — evidence about the process, not an opinion about the person.",
+    "sc": null
+  },
+  {
+    "a": [
+      "two hundred and fourteen merges",
+      "two hundred and fourteen",
+      "two hundred and nine"
+    ],
+    "k": "count",
+    "s": "214 merges, 209 reviewed",
+    "d": "The evidence Tesla exports in ninety seconds when asked to prove peer review happens. Four people's opinions were not evidence; a list with a reviewer's name against each merge is.",
+    "sc": [
+      "s31"
+    ]
+  },
+  {
+    "a": [
+      "five out of two hundred and fourteen"
+    ],
+    "k": "count",
+    "s": "5 merges unreviewed",
+    "d": "The five merges with no reviewer recorded. Five is not a scandal, but five with no reason written down is a non-conformity; write a reason against each and it becomes a note instead.",
+    "sc": null
+  },
+  {
+    "a": [
+      "one row in the whole method",
+      "one row"
+    ],
+    "k": "count",
+    "s": "The single PM-Accountable row",
+    "d": "Quality Assurance is the one activity in PM² where the Project Manager is Accountable and the Project Core Team is Responsible. The quality of the product stays with the Solution Provider; whether the project's own controls exist and work is the Project Manager's to answer for.",
+    "sc": [
+      "s31"
+    ]
+  },
+  {
+    "a": [
+      "four hours a month",
+      "four hours"
+    ],
+    "k": "effort",
+    "s": "4 hours a month",
+    "d": "The evidence-gathering time Grace's people will spend on quality assurance — hours, not days. It only stays four hours if it is written into the Project Work Plan; otherwise somebody has to find the time from nowhere.",
+    "sc": [
+      "s31"
+    ]
+  },
+  {
+    "a": [
+      "four hours"
+    ],
+    "k": "effort",
+    "s": "4 hours Grace does not have",
+    "d": "The time Grace Hopper needs to write the Business Implementation Plan properly, and cannot find in a month-end week. The Project Manager could write it in two evenings but is not allowed to: it is the one plan outside the Project Manager's remit.",
+    "sc": [
+      "s24"
+    ]
+  },
+  {
+    "a": [
+      "four days"
+    ],
+    "k": "count",
+    "s": "4-day workshop",
+    "d": "The migration dry-run workshop, and the Project Manager's promise that an invitation saying four days will mean four days of Grace's people's time and no more.",
+    "sc": [
+      "s30"
+    ]
+  },
+  {
+    "a": [
+      "four days"
+    ],
+    "k": "effort",
+    "s": "4 days for \"just the hooks\"",
+    "d": "Grace's estimate for putting only the connection points for the backstop into Release 2. The Project Manager's answer is that four days now is four days off the parallel run in December, and by then nobody will remember why.",
+    "sc": [
+      "s36"
+    ]
+  },
+  {
+    "a": [
+      "two-day reconciliation"
+    ],
+    "k": "count",
+    "s": "2-day reconciliation",
+    "d": "The reconciliation as it actually runs today, against a same-day target. Marie wants the real data brought to the meeting, because she suspects most of the delay is the old loan references, not the software.",
+    "sc": [
+      "s29"
+    ]
+  },
+  {
+    "a": [
+      "two days"
+    ],
+    "k": "count",
+    "s": "2 days, not same day",
+    "d": "The exception queue from 11 Apr 2027 was only worked the next morning, so reconciliation took two days — exactly what it took before the project started. Whatever the cause, the criterion says same day, and somebody owns that sentence.",
+    "sc": [
+      "s35"
+    ]
+  },
+  {
+    "a": [
+      "one thousand one hundred and six lines matched",
+      "one thousand one hundred and six"
+    ],
+    "k": "count",
+    "s": "1,106 lines matched",
+    "d": "The good half of the first live reconciliation run on 11 Apr 2027: 1,106 payment lines matched automatically between the new platform and the old records.",
+    "sc": null
+  },
+  {
+    "a": [
+      "two hundred and ninety-four"
+    ],
+    "k": "count",
+    "s": "294 exceptions",
+    "d": "The lines that did not match on 11 Apr 2027 and went to a queue for a human to look at. About three hundred old EFSF loan references re-issued in 2014 are the likely cause.",
+    "sc": null
+  },
+  {
+    "a": [
+      "three hundred check digits",
+      "three hundred rows",
+      "about three hundred of those"
+    ],
+    "k": "count",
+    "s": "~300 loan references",
+    "d": "The old EFSF loan references re-issued in 2014 with a different check digit, which is why the matching key fails. By Friday the project must say whether the fix is 300 rows of data, a matching rule, or both — then cost it, then let somebody decide.",
+    "sc": [
+      "s35"
+    ]
+  },
+  {
+    "a": [
+      "two screens"
+    ],
+    "k": "count",
+    "s": "\"Two screens\"",
+    "d": "How the caller from a Board member's cabinet described the backstop request, using the word small three times. Tesla's reply is that it is not two screens: it is a whole product in the configuration engine, with drawdown, monitoring and repayment.",
+    "sc": null
+  },
+  {
+    "a": [
+      "item one",
+      "item four",
+      "items five and six",
+      "item six",
+      "item seven",
+      "item eight"
+    ],
+    "k": "section",
+    "s": "Kick-off agenda, items 1–8",
+    "d": "The Executing Kick-off agenda: 1 Handbook and Work Plan, 2–3 minutes and communications, 4 conflict resolution and the escalation procedure, 5 Stakeholder Matrix, 6 risk, issue, change and quality assurance, 7 what is expected of the Core Team, 8 the team's ground rules.",
+    "sc": [
+      "s27"
+    ]
+  },
+  {
+    "a": [
+      "eleven vendor presentations"
+    ],
+    "k": "count",
+    "s": "11 vendor demos",
+    "d": "The market research Leonardo did in Amsterdam. Deming's objection: knowing what one impressive supplier can do is exactly how evaluation criteria get written around that supplier, so the tender has a winner before it opens and everybody else pays to lose.",
+    "sc": null
+  },
+  {
+    "a": [
+      "forty minutes"
+    ],
+    "k": "count",
+    "s": "40-minute demo",
+    "d": "How long Levallois Systems took to configure a new instrument live on stage — with a prepared instrument, a demonstration dataset and no reconciliation. The Charter's six-week target does not move because a sales engineer was quick.",
+    "sc": [
+      "s20"
+    ]
+  },
+  {
+    "a": [
+      "four years of work"
+    ],
+    "k": "count",
+    "s": "4 years of framework use",
+    "d": "How long ESM has been buying through its existing framework contract. It still does not cover this purchase: the framework covers extra staff and infrastructure, not a licensed platform with implementation and fourteen years of migration.",
+    "sc": null
+  },
+  {
+    "a": [
+      "the two interfaces"
+    ],
+    "k": "count",
+    "s": "2 interfaces kept in-house",
+    "d": "The connections to the treasury system and the payment messaging gateway. With requirements, testing and anything touching the audit trail, they stay inside ESM; the licence, implementation, migration and both releases are bought outside.",
+    "sc": null
+  },
+  {
+    "a": [
+      "four drafts"
+    ],
+    "k": "count",
+    "s": "4 drafts",
+    "d": "Four versions of the Outsourcing Plan have already said the platform is bought and not built — and somebody still asked the architects to price a build option. Leonardo's complaint is that saying it is not the same as closing it.",
+    "sc": null
+  }
+]

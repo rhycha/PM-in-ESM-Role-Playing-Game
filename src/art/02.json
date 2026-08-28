@@ -1,0 +1,376 @@
+{
+ "n": 2,
+ "id": "business-case",
+ "name": "Business Case",
+ "family": "Initiating",
+ "one_liner": "The why and the how-much — several options analysed, one recommended, the money justified.",
+ "purpose": "The Business Case captures the reasoning behind the project, describes its alignment with the organisation's strategic objectives, justifies the investment in time and effort, and sets out the budgetary needs. For larger strategic projects it also carries an impact and risk assessment and a fuller cost-benefit analysis. It gives decision-makers what they need to judge whether the project is worth doing, and stays a living document, re-examined at critical milestones.",
+ "guide_page": 34,
+ "rasci": {
+  "A": "PO",
+  "R": "BM",
+  "row": {
+   "AGB": "I",
+   "PSC": "C",
+   "PO": "A",
+   "BM": "R",
+   "BIG": "C",
+   "SP": "S",
+   "PM": "S",
+   "PCT": "n.a."
+  }
+ },
+ "created_in": "Initiating Phase",
+ "approved_by": "A preliminary Project Steering Committee (PSC), or a higher-level Appropriate Governance Body (AGB) for corporate approval; the PO is accountable and sends it upward",
+ "inputs": [
+  "Project Initiation Request"
+ ],
+ "feeds": [
+  "Project Charter",
+  "Business Implementation Plan",
+  "Project Reports",
+  "Project-End Report"
+ ],
+ "gate": "RfP",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Drafted by BM from the request; options analysed; approved"
+  },
+  {
+   "phase": "Planning",
+   "what": "Benefits carried into the Business Implementation Plan"
+  },
+  {
+   "phase": "Executing",
+   "what": "Re-examined at critical milestones — still worth doing?"
+  },
+  {
+   "phase": "Closing",
+   "what": "Benefits achieved and forecast reported in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Settings: Document Title · Project Title · Author · Project Owner · Project Manager · Version · Sensitivity · Date",
+    "Document Approver(s) and Reviewer(s)",
+    "Document history",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Project Initiation Request Information",
+   "items": [
+    "Project Title",
+    "Initiator · Organisation / Unit",
+    "Date of Request · Target Delivery Date",
+    "Type of Delivery: In-house / Outsourced / Mix / Not-known"
+   ]
+  },
+  {
+   "sec": "2. Context",
+   "items": [
+    "2.1 Current Situation Description and Urgency",
+    "2.2 Current Situation Impact",
+    "2.2.1 Current Impact on Processes and the Organization (+ process-category grid and impacted-process table)",
+    "2.2.2 Impact on Stakeholders and Users",
+    "2.3 Interrelations and Interdependencies"
+   ]
+  },
+  {
+   "sec": "3. Expected Outcomes",
+   "items": [
+    "Desired outcomes: organisation, human resources, assets, reputation",
+    "The high-level outcomes from the Project Initiation Request, developed"
+   ]
+  },
+  {
+   "sec": "4. Possible Alternatives",
+   "items": [
+    "4.1 Alternative A: Do nothing",
+    "4.2 Alternative B: <Solution Title>",
+    "4.3 Alternative C: <Solution Title>",
+    "4.4 Chosen alternative: <Solution Title>",
+    "Each one: General Description · SWOT Analysis · Qualitative Assessment"
+   ]
+  },
+  {
+   "sec": "5. Solution Description (5.1–5.6)",
+   "items": [
+    "5.1 Legal Basis",
+    "5.2 Benefits",
+    "5.3 Success Criteria",
+    "5.4 Scope",
+    "5.5 Solution Impact (per impacted process)",
+    "5.6 Deliverables"
+   ]
+  },
+  {
+   "sec": "5. Solution Description (5.7–5.12)",
+   "items": [
+    "5.7 Assumptions",
+    "5.8 Constraints",
+    "5.9 Risks",
+    "5.10 Costs, Effort and Funding Source (5-year TCO: solution + business implementation)",
+    "5.11 Roadmap",
+    "5.12 Synergies and Interdependencies"
+   ]
+  },
+  {
+   "sec": "6. Governance",
+   "items": [
+    "6.1 Project Owner (PO)",
+    "6.2 Solution Provider (SP)",
+    "6.3 Approving Authority",
+    "Signature of the approving authority ……… Date ………"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID · Reference or Related Document · Source or Link/Location",
+    "Project folder location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1 Project Initiation Request Information",
+   "what": "Carries over the request's header block unchanged: title, initiator, unit, date of request, target delivery date, type of delivery.",
+   "who": "BM copies from the request",
+   "castor": "Project CASTOR; Grace Hopper, Lending Operations; requested 12 Jan 2026; delivery 15 May 2028; Mix"
+  },
+  {
+   "f": "2.1 Current Situation Description and Urgency",
+   "what": "Details the high-level situation from the request, plus why addressing it is urgent — urgency is not the same as impact.",
+   "who": "BM writes · BIG contributes",
+   "castor": "14-year-old LOS; each new instrument needs bespoke code, so the ESM cannot onboard the common backstop at Treaty-reform speed."
+  },
+  {
+   "f": "2.2.1 Current Impact on Processes and the Organization",
+   "what": "Impact of the situation on strategy, business processes, people and the IT landscape; which processes are hit and how hard.",
+   "who": "BM writes · process owners consulted",
+   "castor": "Disbursement, reconciliation and instrument set-up processes; three-day reconciliation blocks month-end reporting."
+  },
+  {
+   "f": "Process category grid (Yes/No)",
+   "what": "Tick which of the listed process categories are affected: Financial Management, Procurement, IT, Audit, Document Management, Human Resources, Other, etc.",
+   "who": "BM ticks · PQA reviews",
+   "castor": "Financial Management: Yes · IT: Yes · Audit: Yes · Document Management: Yes · Procurement: Yes"
+  },
+  {
+   "f": "Impacted process table",
+   "what": "One row per process: Category, Domain, Sub-domain, Macro Process, Process, situation/impact description, and impact to owners and users (minor/moderate/significant).",
+   "who": "BM fills · BIG validates",
+   "castor": "Financial Management › Lending Operations › Disbursement execution — impact to owners and users: significant"
+  },
+  {
+   "f": "2.2.2 Impact on Stakeholders and Users",
+   "what": "The people view: who is affected, the user population, and for an IS project their current working environment and the systems they use.",
+   "who": "BM writes · UR consulted",
+   "castor": "40 loan administrators plus Finance & Control, Risk and Legal; today they work across LOS, the treasury system and the payment gateway."
+  },
+  {
+   "f": "2.3 Interrelations and Interdependencies",
+   "what": "Relates the situation to other problems, opportunities and needs inside and outside the organisation, placing it in the wider context.",
+   "who": "BM writes · SP contributes",
+   "castor": "Dependent on the ESM Treaty reform ratification for the common backstop; interfaces with treasury and payment messaging."
+  },
+  {
+   "f": "3 Expected Outcomes",
+   "what": "From the business point of view: desired outcomes in organisation, human resources, assets and reputation — the change the solution produces.",
+   "who": "PO owns · BM writes",
+   "castor": "Straight-through processing from loan agreement to disbursement to repayment schedule, with a complete audit trail."
+  },
+  {
+   "f": "4 Possible Alternatives (rule)",
+   "what": "Analyse the available options; the first is always Do nothing; minimum two, three or four is more convincing; one must be clearly chosen.",
+   "who": "BM leads · SP and PM support",
+   "castor": "Three analysed: A Do nothing; B extend and re-platform LOS in-house; C configure a market platform with an integrator."
+  },
+  {
+   "f": "4.1 Alternative A: Do nothing",
+   "what": "What happens if the current solution is kept and the problem is not solved — general description, SWOT and qualitative assessment.",
+   "who": "BM writes",
+   "castor": "Keep LOS: no spend, but two audit findings stay open and backstop onboarding stays at nine months. Not viable."
+  },
+  {
+   "f": "4.2 / 4.3 Alternatives B and C",
+   "what": "Each alternative gets a general description, a SWOT (strengths, weaknesses, opportunities, threats) and a qualitative viability assessment.",
+   "who": "BM writes · SP assesses feasibility",
+   "castor": "B: extend LOS in-house — keeps knowledge, but bespoke code per instrument remains. C: buy and configure a market platform."
+  },
+  {
+   "f": "4.4 Chosen alternative",
+   "what": "The recommended alternative, restated after all options, with a final summary proving its benefit outweighs its cost.",
+   "who": "BM recommends · PO endorses",
+   "castor": "Alternative C — configurable lending operations platform, implemented as a Mix: in-house core team plus an integrator."
+  },
+  {
+   "f": "5.1 Legal Basis",
+   "what": "Legal basis of the proposed solution and the link to the organisation's strategic goals; may be a senior-management directive.",
+   "who": "BM writes · Legal consulted",
+   "castor": "ESM lending mandate; closure of two open Internal Audit findings on LOS."
+  },
+  {
+   "f": "5.2 Benefits",
+   "what": "The measurable improvement resulting from the expected outcomes, as perceived as an advantage by one or more stakeholders.",
+   "who": "PO owns · BM quantifies",
+   "castor": "~1,400 manually re-keyed payment fields per quarter eliminated; reconciliation effort released in Finance & Control."
+  },
+  {
+   "f": "5.3 Success Criteria",
+   "what": "Measurable criteria by which the project as a whole is judged; critical criteria are those without which it cannot be a success.",
+   "who": "PO sets · BM records",
+   "castor": "SC1 5→1 day; SC2 3 days→same day; SC3 9 months→6 weeks; SC4 1,400 fields→0; SC5 2 findings→0"
+  },
+  {
+   "f": "5.4 Scope",
+   "what": "High-level scope of the proposed solution — the boundaries: which outputs, processes and organisations are in, and for whom.",
+   "who": "BM drafts · PO agrees",
+   "castor": "Lending operations from loan agreement to repayment schedule, ESM only; treasury and payment gateway by interface, not replacement."
+  },
+  {
+   "f": "5.5 Solution Impact",
+   "what": "For each process analysed in 2.2.1, how the proposed solution addresses the impact identified there.",
+   "who": "BM writes · process owners confirm",
+   "castor": "Disbursement execution: manual re-keying replaced by straight-through processing with maker-checker segregation."
+  },
+  {
+   "f": "5.6 Deliverables",
+   "what": "The most important deliverables of the proposed solution: a system, a process, a policy, a service, trained staff, and so on.",
+   "who": "SP proposes · BM agrees",
+   "castor": "Product configuration engine (R1, 26 Mar 2027); straight-through disbursement (R2, 17 Dec 2027); 40 staff trained."
+  },
+  {
+   "f": "5.7 Assumptions",
+   "what": "Key assumptions on business, technology, resources, organisational environment, scope, expectations or schedules.",
+   "who": "BM drafts · SP validates",
+   "castor": "All ESM instruments can be expressed by configuration; the parallel run can share the 2028 bond-rollover calendar."
+  },
+  {
+   "f": "5.8 Constraints",
+   "what": "Key constraints imposed on schedule, budget, resources or the products to be used or acquired.",
+   "who": "BM drafts · PO and SP confirm",
+   "castor": "€8.4 m and 26 months; disbursements must not be interrupted; procurement precedes any implementation work."
+  },
+  {
+   "f": "5.9 Risks",
+   "what": "Key risks of the proposed solution identified so far, each with a high-level mitigation strategy where one exists.",
+   "who": "BM drafts · PO owns business risk",
+   "castor": "Common-backstop ratification incomplete — build the instrument as configuration, not as fixed screens; vendor key-person risk."
+  },
+  {
+   "f": "5.10 Solution Implementation Costs (5-year TCO)",
+   "what": "Five-year table by year: Solution Development, Solution Maintenance, Support, Training, Infrastructure, TOTAL — staff in FTE, other costs in k€.",
+   "who": "SP costs · BM consolidates",
+   "castor": "Delivery €8.4 m / 3,100 PD across 2026–2028, with maintenance, support and licence running to 2030."
+  },
+  {
+   "f": "5.10 Business Implementation Costs (5-year TCO)",
+   "what": "Separate five-year table for the business side: Change management, Start-up costs, Coordination, Training, TOTAL.",
+   "who": "BM costs · PO approves",
+   "castor": "Retraining 40 loan administrators, parallel-run coordination and change management on the Lending Operations side."
+  },
+  {
+   "f": "5.11 Roadmap",
+   "what": "Expected start and delivery dates plus the major milestones that break the project into smaller manageable parts.",
+   "who": "BM drafts · SP and PM support",
+   "castor": "Start Mar 2026 · R1 26 Mar 2027 · R2 17 Dec 2027 · parallel run 08 Jan–30 Apr 2028 · go-live 15 May 2028"
+  },
+  {
+   "f": "5.12 Synergies and Interdependencies",
+   "what": "Existing services and components to re-use, new common services requested with timing, and components this project will make re-usable.",
+   "who": "SP leads · Architecture Office consulted",
+   "castor": "Re-uses the corporate payment messaging gateway and identity service; the product configuration engine is offered for re-use."
+  },
+  {
+   "f": "6.1 Project Owner (PO)",
+   "what": "Names the person nominated by the organisation funding and mainly benefiting from the project, as defined in PM² roles and responsibilities.",
+   "who": "Requesting organisation nominates",
+   "castor": "Florence Nightingale, Head of Lending Operations Division"
+  },
+  {
+   "f": "6.2 Solution Provider (SP)",
+   "what": "Names the person acting as supplier for the organisation that will execute the project and be accountable for the deliverables.",
+   "who": "Provider organisation nominates",
+   "castor": "Leonardo da Vinci, Head of IT & Digital Division"
+  },
+  {
+   "f": "6.3 Approving Authority + signature",
+   "what": "The appropriate decision maker in the governance structure — usually the chairman of a steering committee, the PO, or the PO's superior; signs and dates.",
+   "who": "PO submits · Approving Authority signs",
+   "castor": "Corporate Investment Board, chaired by Lorenzo de' Medici — signed 24 Mar 2026"
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Each reference by title, version, date and source or location, plus the project folder; the Project Initiation Request is the first entry.",
+   "who": "BM maintains",
+   "castor": "01.Project_Initiation_Request.CASTOR.12-01-2026.V1.0.docx; CASTOR project folder"
+  }
+ ],
+ "traps": [
+  "PO is Accountable, BM Responsible; the PM only Supports and may not yet exist.",
+  "The PSC is only Consulted here — it is Accountable for the Charter, not the Business Case.",
+  "Approval sits with a preliminary PSC or the AGB; the PO evaluates and sends it upward.",
+  "Alternative A is always 'Do nothing' — a Business Case with one option is not a Business Case.",
+  "It is a living document, re-examined at milestones; it is not filed away after the RfP gate."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Business Case v1.0, Project CASTOR, approved 24 Mar 2026",
+  "rows": [
+   [
+    "Section",
+    "Content"
+   ],
+   [
+    "2.1 Current Situation and Urgency",
+    "LOS was built in the EFSF era and is 14 years old. Every new instrument requires bespoke code, so the ESM could not onboard the common backstop within weeks of the Treaty reform entering into force."
+   ],
+   [
+    "3 Expected Outcomes",
+    "Straight-through processing from loan agreement to disbursement to repayment schedule; instrument-agnostic product configuration; same-day reconciliation; complete audit trail."
+   ],
+   [
+    "4.1 Alternative A — Do nothing",
+    "Keep LOS. No investment, but the two open Internal Audit findings remain and instrument onboarding stays at nine months. Not viable."
+   ],
+   [
+    "4.2 Alternative B — Extend LOS in-house",
+    "Re-platform and extend the existing code base. Retains in-house knowledge; bespoke code per instrument persists. Viable but does not meet SC3."
+   ],
+   [
+    "4.4 Chosen alternative — Alternative C",
+    "Configure a market lending-operations platform, delivered as a Mix: in-house core team plus outsourced implementation."
+   ],
+   [
+    "5.3 Success Criteria",
+    "SC1 disbursement cycle 5 → 1 working day · SC2 reconciliation 3 days → same day · SC3 onboarding 9 months → 6 weeks · SC4 1,400 re-keyed fields/quarter → 0 · SC5 open audit findings 2 → 0"
+   ],
+   [
+    "5.10 Costs, Effort and Funding",
+    "€8.4 m delivery budget, 3,100 PD, 26 months; five-year TCO adds platform licence, maintenance, support and training."
+   ],
+   [
+    "5.11 Roadmap",
+    "Release 1 product configuration engine 26 Mar 2027 · Release 2 straight-through disbursement 17 Dec 2027 · parallel run 08 Jan–30 Apr 2028 · go-live 15 May 2028"
+   ],
+   [
+    "5.9 Risks",
+    "Common-backstop ratification incomplete (Italy has not ratified): the backstop remains a planned capability, so it is delivered as configuration rather than fixed functionality."
+   ],
+   [
+    "6.1 / 6.2 Governance",
+    "Project Owner: Florence Nightingale (Head of Lending Operations). Solution Provider: Leonardo da Vinci (Head of IT & Digital)."
+   ],
+   [
+    "6.3 Approving Authority",
+    "Corporate Investment Board, chaired by Lorenzo de' Medici, Deputy Managing Director — approved 24 Mar 2026"
+   ]
+  ]
+ }
+}

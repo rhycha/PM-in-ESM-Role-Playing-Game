@@ -1,0 +1,259 @@
+{
+ "n": 25,
+ "id": "architecture-owner",
+ "name": "Architecture Owner (ArOw)",
+ "group": "Roles",
+ "one_liner": "Solution architect who guides architecture collaboratively and still delivers like any member.",
+ "purpose": "The Architecture Owner (ArOw) is the solution architect responsible for the Agile Project Core Team's architecture decisions, facilitating the creation and evolution of the overall solution design while considering existing or planned investments in other information systems. Because architecture can generate critical project risks, the ArOw must ensure the team mitigates them. Although typically the senior developer on the team, it is not a hierarchical position to which other members report.",
+ "guide_page": 63,
+ "meta": [
+  [
+   "Layer",
+   "Performing layer — core role of the Agile Project Core Team (A-PCT)"
+  ],
+  [
+   "Responsible for",
+   "The Architecture Overview and the Operational Model"
+  ],
+  [
+   "Not",
+   "A hierarchical position — nobody on the team reports to the ArOw"
+  ]
+ ],
+ "rasci": {
+  "title": "ArOw in the guide's RAM (RASCI) tables",
+  "rows": [
+   [
+    "Artefact or ceremony",
+    "ArOw"
+   ],
+   [
+    "Architecture Overview",
+    "R"
+   ],
+   [
+    "Operational Model",
+    "R"
+   ],
+   [
+    "Daily Stand-up",
+    "R — acts as a regular ATeM"
+   ],
+   [
+    "Iteration Review",
+    "R — acts as a regular ATeM"
+   ],
+   [
+    "Iteration Retrospective",
+    "R — acts as a regular ATeM"
+   ],
+   [
+    "Work Items List prioritisation",
+    "C — consulted on enabler items"
+   ],
+   [
+    "Iteration Planning",
+    "S"
+   ],
+   [
+    "Development Handbook / Work Plan / Release Plan / Iteration Plan",
+    "S"
+   ],
+   [
+    "Test Plan / Deployment Plan",
+    "S"
+   ]
+  ],
+  "legend": [
+   [
+    "Letter",
+    "Meaning"
+   ],
+   [
+    "R",
+    "Responsible — does the work and leads those who support"
+   ],
+   [
+    "A",
+    "Accountable — authorises and approves; only one person"
+   ],
+   [
+    "S",
+    "Supports — works with the Responsible person to complete it"
+   ],
+   [
+    "C",
+    "Consulted — provides input to the activity"
+   ],
+   [
+    "I",
+    "Informed — kept up to date"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Owns",
+   "items": [
+    "Guidance of the creation and evolution of the information system's architecture",
+    "The Architecture Overview and the Operational Model (Responsible)",
+    "The initial architecture envisioning effort at the start of the project",
+    "Alignment with Architecture Office guidelines and enterprise architecture principles",
+    "A culture of reuse and interoperability inside the A-PCT"
+   ]
+  },
+  {
+   "sec": "Decides",
+   "items": [
+    "Conducts the technical discussions — but is not solely responsible for the architecture",
+    "Which architectural risks the Team Coordinator and Project Manager must hear about",
+    "Signs off and delivers work like any other team member"
+   ]
+  },
+  {
+   "sec": "Attends",
+   "items": [
+    "Daily Stand-up, Iteration Review and Retrospective — as a regular Agile Team Member",
+    "Iteration Planning — supports the PrOw when enablement work is involved",
+    "Work Items List prioritisation — consulted so enabler items are clarified",
+    "Work Items List refinement — contributes as an Agile Team Member"
+   ]
+  },
+  {
+   "sec": "Does not do",
+   "items": [
+    "Dictate the architectural direction — it favours a collaborative, team-based approach",
+    "Hold sole responsibility for the architecture",
+    "Line-manage anyone: other team members do not report to the ArOw",
+    "Skip delivery work — the ArOw signs off and delivers like any member",
+    "Set the Work Items List priorities — it advises the Product Owner"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Guides the architecture",
+   "what": "Guides the creation and evolution of the architecture of the information system across the project lifecycle.",
+   "who": "A-PCT, Architecture Office",
+   "pollux": "Einstein guides how the portal reads the CASTOR lending platform."
+  },
+  {
+   "f": "Collaborative, not directive",
+   "what": "Favours a collaborative, team-based approach while avoiding dictating the architectural direction.",
+   "who": "ATeMs",
+   "pollux": "Reframes each enabler story by asking what problem is actually being solved."
+  },
+  {
+   "f": "Conducts technical discussions",
+   "what": "Conducts the technical discussions but is not solely responsible for the architecture that results.",
+   "who": "ATeMs, Technical Experts",
+   "pollux": "Chairs the debate on traceability that closes success criterion SC4."
+  },
+  {
+   "f": "Architecture envisioning",
+   "what": "Leads the initial architecture envisioning and supports initial requirements envisioning, especially non-functional requirements.",
+   "who": "Product Owner, ATeMs",
+   "pollux": "Runs envisioning before iteration 1 begins on 08 Jan 2029."
+  },
+  {
+   "f": "Alignment with the Architecture Office",
+   "what": "Ensures the architecture aligns with Architecture Office guidelines and supports established enterprise architecture principles.",
+   "who": "Architecture Office (AO)",
+   "pollux": "Seconded from Enterprise Architecture, so alignment is built into the seat."
+  },
+  {
+   "f": "Leverages existing investments",
+   "what": "Leverages existing and planned IT investments by continuously promoting reuse and interoperability inside the team.",
+   "who": "A-PCT, wider organisation",
+   "pollux": "Reuses CASTOR platform components rather than rebuilding exposure logic."
+  },
+  {
+   "f": "Contributes reusable assets",
+   "what": "Contributes to the organisation's set of reusable IT assets, considering the overall domain and the IT strategy.",
+   "who": "Architecture Office, other projects",
+   "pollux": "Publishes the exposure data contract for later ESM reporting projects."
+  },
+  {
+   "f": "Flags architectural risks",
+   "what": "Informs the Team Coordinator and Project Manager of the main architectural risks and helps define a suitable risk strategy.",
+   "who": "Team Coordinator, Project Manager",
+   "pollux": "Raises the risk that Babbage's engine is never finished — a live POLLUX risk."
+  },
+  {
+   "f": "Seniority without hierarchy",
+   "what": "Typically the senior developer, sometimes called technical, software or solution architect; not a position others report to.",
+   "who": "A-PCT",
+   "pollux": "Einstein has no authority over Lamarr, Babbage or Eiffel."
+  },
+  {
+   "f": "Delivers like any member",
+   "what": "Has a strong technical background and business domain understanding, and is expected to sign off and deliver work.",
+   "who": "A-PCT",
+   "pollux": "Takes enabler stories into iterations and finishes them himself."
+  },
+  {
+   "f": "Architecture Overview",
+   "what": "Responsible for creating it and ensuring compliance with the organisation's IT architecture standards and Reference Architecture.",
+   "who": "PM accountable; TeCo and ATeMs support; PrOw informed",
+   "pollux": "Documents the portal's building blocks; you stay accountable for it."
+  },
+  {
+   "f": "Operational Model",
+   "what": "Responsible for preparing it and for compliance with architecture, hosting guidelines and infrastructure standards.",
+   "who": "PM accountable; ATeMs support",
+   "pollux": "Describes the data-centre hosting behind the national-authority access."
+  },
+  {
+   "f": "Balances business and enabler items",
+   "what": "Helps the Product Owner find the right balance between business items and enabler items in the Work Items List.",
+   "who": "Product Owner",
+   "pollux": "Conflict 5 — Einstein wants three enabler iterations, Curie wants Release 1 value."
+  },
+  {
+   "f": "Acts as an ATeM in ceremonies",
+   "what": "In the Daily Stand-up, Iteration Review and Retrospective the Architecture Owner acts like a regular Agile Team Member.",
+   "who": "Team Coordinator facilitates",
+   "pollux": "Stands up with the team every morning, with no special standing."
+  }
+ ],
+ "traps": [
+  "ArOw is not the Architecture Office; it aligns the team with the AO's guidelines.",
+  "ArOw is not a manager — no team member reports to the Architecture Owner.",
+  "ArOw is Responsible for the Architecture Overview; the Project Manager is Accountable.",
+  "In stand-up, review and retrospective the ArOw is just another Agile Team Member.",
+  "Architecture risks go to the TeCo and PM, not only into the team's board."
+ ],
+ "pollux_excerpt": {
+  "title": "Albert Einstein — Architecture Owner, Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Person",
+    "Albert Einstein, seconded from Enterprise Architecture"
+   ],
+   [
+    "Responsible for",
+    "Architecture Overview and Operational Model"
+   ],
+   [
+    "Why this figure",
+    "He reframes: every enabler story starts with what problem is actually being solved"
+   ],
+   [
+    "Works with",
+    "Marie Curie on the business-versus-enabler balance"
+   ],
+   [
+    "Live conflict",
+    "Conflict 5 — three iterations of enabler work versus business value in Release 1"
+   ],
+   [
+    "Also",
+    "Acts as a regular ATeM in stand-up, review and retrospective"
+   ]
+  ]
+ }
+}

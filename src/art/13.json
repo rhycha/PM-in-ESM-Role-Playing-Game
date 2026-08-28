@@ -1,0 +1,415 @@
+{
+ "n": 13,
+ "id": "risk-management-plan",
+ "name": "Risk Management Plan",
+ "family": "Management Plan",
+ "one_liner": "How this project will identify, assess and respond to risk.",
+ "purpose": "Defines and documents the Risk Management Process for the project: how risks will be identified and assessed, what tools and techniques can be used, what the evaluation scales and tolerances are, the relevant roles and responsibilities, and how often risks need to be revisited. It also defines the risk monitoring and escalation process and the structure of the Risk Log. Risk management brings visibility to risks and accountability as to how they are handled.",
+ "guide_page": 91,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "C",
+   "PO": "A",
+   "BM": "C",
+   "BIG": "I",
+   "SP": "I",
+   "PM": "R",
+   "PCT": "I"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Owner (PO)",
+ "inputs": [
+  "Business Case",
+  "Project Charter",
+  "Project Handbook",
+  "Project Work Plan"
+ ],
+ "feeds": [
+  "Risk Log",
+  "Project Work Plan",
+  "Project Status Report",
+  "Project Progress Report"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Risk Log set up; Business Case and Charter risks seed it"
+  },
+  {
+   "phase": "Planning",
+   "what": "Plan written, scales and appetite agreed, PO approves"
+  },
+  {
+   "phase": "Executing",
+   "what": "Risk responses implemented; Risk Log updated weekly"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Manage Risks; red risks escalated to the PSC"
+  },
+  {
+   "phase": "Closing",
+   "what": "Residual risks handed over in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Cover & Settings (title, PO, PM, version, sensitivity)",
+    "Document Approver(s) and Reviewer(s)",
+    "Document History",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "What the Risk Management Plan is",
+    "Outline the risk approach and process",
+    "Identify roles and responsibilities",
+    "Specify methodology, standards, tools and techniques"
+   ]
+  },
+  {
+   "sec": "2. Risk Management Objectives",
+   "items": [
+    "Risks identified, assessed, approved and reported",
+    "All major risks reported to the Steering Layer",
+    "Responses in line with risk appetite and thresholds",
+    "All risks monitored and under control",
+    "Response actions implemented effectively"
+   ]
+  },
+  {
+   "sec": "3. Risk Management Process Description",
+   "items": [
+    "Step 1: Risk Identification",
+    "Step 2: Risk Assessment",
+    "Step 3: Risk Response Development",
+    "Step 4: Risk Control",
+    "3.1 Risk Management Roles and Responsibilities (incl. RASCI)"
+   ]
+  },
+  {
+   "sec": "4. Tools & Techniques",
+   "items": [
+    "Techniques: desk reviews, questionnaires, interviews, brainstorming, workshops, risk checklists, assumption analysis",
+    "Tools: Risk Management Plan, Risk Log, Likelihood/Impact Matrix",
+    "4.1 Risk Log structure",
+    "4.2 Risk Likelihood/Impact Matrix"
+   ]
+  },
+  {
+   "sec": "5. Risk Identification Activities",
+   "items": [
+    "Starting points: Business Case and Project Charter risks",
+    "Identification activities used",
+    "Risk categories (Business, IT, People & organisation, External, Legal, Communication & Information)",
+    "Risk Log as the register"
+   ]
+  },
+  {
+   "sec": "6. Risks Assessment Approach",
+   "items": [
+    "Use of the Likelihood/Impact Matrix, scale 1–5",
+    "Likelihood scale definitions",
+    "Impact scale definitions",
+    "Risk level thresholds (green / yellow / red)",
+    "Project risk appetite statement",
+    "6.1 Escalation by risk level"
+   ]
+  },
+  {
+   "sec": "7. Risk Response Strategies",
+   "items": [
+    "Avoid",
+    "Reduce",
+    "Accept (passive or active with contingency)",
+    "Transfer/Share",
+    "Scenario-to-strategy table"
+   ]
+  },
+  {
+   "sec": "8. Risk Control Activities",
+   "items": [
+    "What triggers a Risk Log update",
+    "Frequency of revisiting the Risk Log",
+    "Pre-PSC status collection procedure",
+    "Risk communication items"
+   ]
+  },
+  {
+   "sec": "9. Related PM² Plans",
+   "items": [
+    "Project Handbook",
+    "Communications Management Plan",
+    "Issue Management Plan"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "Handbook, Issue Management Plan, Communications Plan, Risk Log",
+    "Source or link/location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1. Introduction",
+   "what": "States what the plan does: outline the risk approach and process, identify risk roles and responsibilities, and specify the methodology, standards, tools and techniques supporting risk management.",
+   "who": "PM drafts · PO approves",
+   "castor": "Risk approach for Project CASTOR — €8.4 m, 26 months, mixed in-house and outsourced."
+  },
+  {
+   "f": "2. Risk Management Objectives",
+   "what": "Five objectives: risks identified, assessed, approved and reported; major risks reported to the Steering Layer; responses in line with risk appetite and thresholds; all risks controlled; actions effective.",
+   "who": "PM drafts · PO approves",
+   "castor": "No red risk may stay open without an approved response and a named owner."
+  },
+  {
+   "f": "3. Risk Management Process Description",
+   "what": "A four-step process — identification, assessment, response development, control — covering risks that may affect execution and the achievement of project objectives. Tailor or delete steps as needed.",
+   "who": "PM executes throughout the lifecycle",
+   "castor": "Four steps kept unchanged; run weekly from the Executing Kick-off of 10 Jul 2026."
+  },
+  {
+   "f": "Step 1: Risk Identification",
+   "what": "Identify and document risks that can impact project objectives, using techniques focused on past trends or future exposure, bottom-up or top-down. New risks may arise at any point.",
+   "who": "Anyone identifies · PM logs",
+   "castor": "Initial 24-risk list built at the Planning Kick-off of 09 Apr 2026."
+  },
+  {
+   "f": "Risk categories (risk typology)",
+   "what": "Template default categories: Business; IT; People and organisation; External; Legal; Communication and Information. An organisational Risk Typology is used as reference where one exists.",
+   "who": "PM defines · PO approves",
+   "castor": "All six kept; External covers Levallois Systems, Legal covers Treaty ratification."
+  },
+  {
+   "f": "Risk Breakdown Structure (RBS)",
+   "what": "The guide lists the Risk Breakdown Structure among identification tools: a hierarchical decomposition of risk sources by category, the risk equivalent of a WBS. The template uses flat categories.",
+   "who": "PM builds · PCT populates",
+   "castor": "Two-level RBS: six categories, then sources — supplier, treaty, data migration, staffing."
+  },
+  {
+   "f": "Step 2: Risk Assessment",
+   "what": "Assess the likelihood of each risk and the severity of its impact on project objectives. This assessment is necessary before any risk response can be planned; medium-to-high risks get priority.",
+   "who": "PM assesses · PCT and BM consulted",
+   "castor": "Assessment refreshed at every milestone, starting at the RfE gate of 03 Jul 2026."
+  },
+  {
+   "f": "Risk Level (RL = L × I)",
+   "what": "The risk level is the product of likelihood and impact, each scored 1–5, giving a relative scale of 1 to 25. RL drives prioritisation and the choice of response strategy.",
+   "who": "PM calculates · PO approves scales",
+   "castor": "R-07: likelihood 3 × impact 4 = risk level 12."
+  },
+  {
+   "f": "Likelihood scale",
+   "what": "Very low: under 5% chance. Low: 5–10%. Medium: 10–25%. High: 25–50%. Very high: over 50%. Percentages are indicative and must be customised per project.",
+   "who": "PM proposes · PO approves",
+   "castor": "Default percentages kept; assessors must cite the evidence behind each band."
+  },
+  {
+   "f": "Impact scale",
+   "what": "Graded by share of project budget affected plus baselines, milestones, stakeholders, reputation and capacity to react: Very low under 1%, Low 1–2%, Medium 2–5%, High 5–10%, Very high over 10%.",
+   "who": "PM proposes · PO approves",
+   "castor": "On €8.4 m: High = €420k–€840k affected, or several milestones lost."
+  },
+  {
+   "f": "Risk level thresholds (colour bands)",
+   "what": "Green: risk level 2 or less. Yellow: risk level 3 to 16. Red: risk level 20 or above. Bands are indicative and must be customised for the project.",
+   "who": "PM proposes · PSC endorses · PO approves",
+   "castor": "Bands kept as printed; red risks trigger an extraordinary PSC within five working days."
+  },
+  {
+   "f": "Risk appetite, tolerance and threshold",
+   "what": "Appetite: level of risk the organisation will accept pursuing its objectives. Threshold: negotiated quantified impact limit beyond which risk is not tolerated. Tolerance: stakeholders' willingness, variable per person.",
+   "who": "Key stakeholders determine · PSC states · PO approves",
+   "castor": "PSC, 26 Jun 2026: appetite risk level ≤ 6, likelihood under 25%, loss under €168,000."
+  },
+  {
+   "f": "Step 3: Risk Response Development",
+   "what": "Select the best response strategy and plan the actions that control the risk. Selection considers risk level, risk type, effect on objectives, and a cost/benefit analysis of the strategy.",
+   "who": "PM proposes · risk owner executes",
+   "castor": "Reduce chosen for R-07 after costing a full second architect at €190k."
+  },
+  {
+   "f": "Risk response strategies",
+   "what": "For threats: Avoid, Reduce, Transfer/Share, Accept. Acceptance is passive (monitor only) or active (develop a contingency plan). The guide adds Exploit, Enhance, Share, Accept for opportunities.",
+   "who": "PM selects · PO approves",
+   "castor": "R-07 Reduce; the Treaty-ratification risk accepted actively with a contingency plan."
+  },
+  {
+   "f": "Scenario-to-strategy table",
+   "what": "Very high impact with high or very high likelihood: avoid or reduce immediately. Very high impact, very low likelihood: transfer/share. Low likelihood with very low impact: accept. All others: reduce.",
+   "who": "PM applies · PO approves the table",
+   "castor": "Table used unchanged; deviations must be justified in the PSC minutes."
+  },
+  {
+   "f": "Risk owner and response actions",
+   "what": "Each risk gets an owner accountable for implementing its response. Actions state activities, milestones, deliverables, target resolution date, resources and dependencies; the costliest ones enter the Project Work Plan.",
+   "who": "PM assigns · risk owner delivers",
+   "castor": "R-07 owner Leonardo da Vinci (SP); its two actions are Work Plan tasks 4.6 and 4.7."
+  },
+  {
+   "f": "Step 4: Risk Control",
+   "what": "Monitor implementation of response activities while scanning the environment for new risks and for changes in likelihood or impact of existing ones; update the Risk Log accordingly.",
+   "who": "PM controls · risk owners report",
+   "castor": "Risk Log revisited at every Project Follow-up Meeting and at each milestone review."
+  },
+  {
+   "f": "3.1 Risk Management Roles and Responsibilities",
+   "what": "PM identifies, assesses and monitors risks; new risks and changes are approved by the PO and reported to the PSC. A Risk Management Team may be appointed if needed.",
+   "who": "PM responsible · PO accountable",
+   "castor": "Florence Nightingale approves new risks; no Risk Management Team — the PM plus Henry Gantt (PSO)."
+  },
+  {
+   "f": "RASCI table",
+   "what": "Two rows: the Risk Management Plan (I, C, A, C, I, I, R, I) and the Manage Risks process (I, C, A, S/C, C, I, R, C).",
+   "who": "PM completes · PO approves",
+   "castor": "PSC is Consulted, not merely Informed — unusual for a management plan."
+  },
+  {
+   "f": "4. Tools & Techniques",
+   "what": "Techniques: desk reviews, questionnaires, interviews, brainstorming, workshops, risk checklists, assumption analysis. Tools: the Risk Management Plan, the Risk Log and the Likelihood/Impact Matrix.",
+   "who": "PM selects · PCT applies",
+   "castor": "Assumption analysis added specifically for the Treaty-ratification assumption."
+  },
+  {
+   "f": "4.1 Risk Log (structure)",
+   "what": "Three blocks: identification and description (ID, category, title, description, status, identified by, date); assessment (L, I, RL, owner, escalation); response (strategy, action details, target date, traceability).",
+   "who": "PM owns and updates",
+   "castor": "PM² Risk Log used unchanged; 31 risks open at the RfE gate."
+  },
+  {
+   "f": "Risk status values",
+   "what": "Proposed (initial), Assessing, Waiting for Approval, Approved (risk possibility accepted), Rejected (not relevant), Closed (managed and no longer a risk to the project).",
+   "who": "PM sets · PO approves",
+   "castor": "R-07 closed on 26 Oct 2027 — it had materialised and moved to the Issue Log."
+  },
+  {
+   "f": "4.2 Risk Likelihood/Impact Matrix",
+   "what": "A 5×5 qualitative matrix combining likelihood and impact; cells are coloured by risk level band and each band suggests a response strategy. It supplements, not replaces, the Risk Log.",
+   "who": "PM maintains · PSC reviews",
+   "castor": "Matrix printed in every monthly PSC pack with each open risk plotted."
+  },
+  {
+   "f": "5. Risk Identification Activities",
+   "what": "Names the concrete identification activities for this project — desk reviews, interviews, team brainstorming, PSC meetings, user workshops, questionnaires, risk checklists, assumptions analysis — and the risk categories used.",
+   "who": "PM organises · all stakeholders contribute",
+   "castor": "Business Case and Charter risks are the starting point, extended by user workshops."
+  },
+  {
+   "f": "6. Risks Assessment Approach",
+   "what": "Describes the assessment activities and tools, the likelihood and impact scale definitions, the risk level thresholds, and names the person who approves them.",
+   "who": "PM describes · PO approves thresholds",
+   "castor": "Thresholds proposed by the PM, endorsed by the PSC, approved by Florence Nightingale."
+  },
+  {
+   "f": "6.1 Escalation (risk escalation procedure)",
+   "what": "Risk level bands decide the approval layer: low levels at the Managing Layer, mid levels by the Project Owner, high levels by the PSC and other governance bodies.",
+   "who": "PM applies · PO owns the rule",
+   "castor": "RL ≤ 6 Managing Layer · RL 8–15 Florence Nightingale · RL ≥ 16 the PSC."
+  },
+  {
+   "f": "8. Risk Control Activities (frequency)",
+   "what": "Sets the type and frequency of control: the Risk Log is updated at least weekly after the Project Follow-up Meeting, with a status collection procedure before every PSC.",
+   "who": "PM controls · risk owners supply status",
+   "castor": "Weekly Risk Log update; deep review at Release 1, Release 2 and go-live."
+  },
+  {
+   "f": "Risk communication items",
+   "what": "Weekly collection of new or changed risks; monthly PSC report on major risks; approval requests to the PO; yearly Project Progress Report; PSC told when a risk becomes an issue.",
+   "who": "PM communicates · per Communications Plan",
+   "castor": "PSC of 12 Oct 2027 formally told that R-07 had become issue ISS-012."
+  },
+  {
+   "f": "9. Related PM² Plans",
+   "what": "Cross-references the Project Handbook (high-level approach and escalation), the Communications Management Plan (who is told what, when) and the Issue Management Plan (risks that have occurred).",
+   "who": "PM maintains cross-references",
+   "castor": "Handbook, Communications and Issue plans, all version 1.0 of 26 Jun 2026."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Lists related documents by title, version, date and location: Handbook, Issue Management Plan, Communications Management Plan, Risk Log and the project folder.",
+   "who": "PM lists · PSO keeps locations",
+   "castor": "23.Risk_Log.CASTOR.xlsx in the ESM PSO project folder."
+  }
+ ],
+ "traps": [
+  "RL = L × I on 1–5 scales: green ≤ 2, yellow 3–16, red ≥ 20.",
+  "Appetite is what you accept; threshold is a quantified limit; tolerance is personal sensitivity.",
+  "A risk that materialises becomes an issue and moves to the Issue Log.",
+  "The plan sets the scales and process; the Risk Log holds the actual risks.",
+  "Risk Management Plan is the only Management Plan where PSC = C, not I."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Risk Management Plan v1.0, 26 Jun 2026",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Approved by",
+    "Florence Nightingale, Project Owner — 26 Jun 2026 (PSC consulted)"
+   ],
+   [
+    "Risk level formula",
+    "RL = Likelihood × Impact, each scored 1–5, giving 1–25"
+   ],
+   [
+    "Colour bands",
+    "Green RL ≤ 2 · Yellow RL 3–16 · Red RL ≥ 20"
+   ],
+   [
+    "Risk appetite (PSC, 26 Jun 2026)",
+    "Risk level ≤ 6, likelihood under 25%, potential loss under €168,000 (2% of €8.4 m)"
+   ],
+   [
+    "Impact = High means",
+    "5–10% of the €8.4 m budget, i.e. €420k–€840k, or several milestones affected"
+   ],
+   [
+    "Risk categories",
+    "Business · IT · People and organisation · External · Legal · Communication and Information"
+   ],
+   [
+    "Escalation",
+    "RL ≤ 6 Managing Layer · RL 8–15 Project Owner · RL ≥ 16 PSC · red also to the Corporate Investment Board"
+   ],
+   [
+    "Reassessment frequency",
+    "Risk Log updated weekly after the Project Follow-up Meeting; deep review at each milestone"
+   ],
+   [
+    "Reporting",
+    "Risks RL ≥ 16 in the monthly PSC pack; full risk list in the yearly Project Progress Report"
+   ],
+   [
+    "R-07",
+    "Levallois's lead solution architect leaves — category External, owner Leonardo da Vinci (SP)"
+   ],
+   [
+    "R-07 assessment",
+    "Likelihood 3, Impact 4, Risk Level 12 (Yellow) → strategy Reduce"
+   ],
+   [
+    "R-07 response actions",
+    "Key-person clause in the 18 Sep 2026 contract; Nikola Tesla shadows the design authority"
+   ],
+   [
+    "R-11",
+    "Parallel run overlaps an EFSF bond rollover — Business, L 3, I 4, RL 12, owner Grace Hopper"
+   ]
+  ]
+ }
+}

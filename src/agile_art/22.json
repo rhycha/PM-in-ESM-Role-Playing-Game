@@ -1,0 +1,312 @@
+{
+ "n": 22,
+ "id": "project-logs-and-reports",
+ "name": "Project Logs and Project Reports",
+ "group": "Artefacts",
+ "one_liner": "Domain-specific risks, issues, decisions and changes — logged, then reported upward.",
+ "purpose": "To enable overall monitoring of project performance during Executing, the A-PCT documents and manages its domain-specific risks, issues, decisions and changes, using the PM² management plans and artefacts as the starting point. Managing these logs lets the Project Core Team spot items that affect overall project performance, supports the PM's reporting and forecasting, and gives the PM the coordination tool for assigning items back to the A-PCT. The development aspect then contributes its status and progress information to the project's reports: the Project Status Report carries the Development Status Report, and the Project Progress Report gives a high-level overview of the whole project.",
+ "guide_page": 85,
+ "meta": [
+  [
+   "Artefact type",
+   "Coordination & reporting artefacts (guide sections 7.3.2 and 7.3.3)"
+  ],
+  [
+   "PM² equivalent",
+   "The PM² logs themselves — Risk Log, Issue Log, Decision Log, Change Log"
+  ],
+  [
+   "Agile-only logs",
+   "Testing Log and Retrospectives Log"
+  ],
+  [
+   "Produced by",
+   "Team Coordinator (TeCo) — Responsible (Appendix B.2 rows, p.95)"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — as on every agile artefact row"
+  ],
+  [
+   "No RAM on the page",
+   "Section 7.3.2 prints no RAM table; the row shown is Appendix B.2's Retrospectives Log"
+  ],
+  [
+   "Testing Logs row",
+   "BM I · PM A · TeCo R · PrOw I · ArOw S · ATeM S (p.95)"
+  ],
+  [
+   "Progress Report frequency",
+   "Bi-monthly or quarterly for PM²-Agile projects, not yearly"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "I",
+   "I",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "Why the A-PCT keeps logs",
+   "items": [
+    "Document and manage domain-specific risks, issues, decisions and changes",
+    "Identify items that may impact overall project performance",
+    "Support the PM in reporting and forecasting project evolution",
+    "Give the PM a coordination tool to assign items to the A-PCT"
+   ]
+  },
+  {
+   "sec": "Risks",
+   "items": [
+    "Risk Management Plan",
+    "Risk Log"
+   ]
+  },
+  {
+   "sec": "Issues",
+   "items": [
+    "Issues Management Plan",
+    "Issue Log"
+   ]
+  },
+  {
+   "sec": "Decisions",
+   "items": [
+    "Decision Log",
+    "The only row in the guide's table with no management plan beside it"
+   ]
+  },
+  {
+   "sec": "Changes",
+   "items": [
+    "Project Change Management Plan",
+    "Change Log",
+    "Change Request Form"
+   ]
+  },
+  {
+   "sec": "Testing Log",
+   "items": [
+    "Test Plans",
+    "Deliverables Acceptance Plan"
+   ]
+  },
+  {
+   "sec": "Retrospectives Log",
+   "items": [
+    "Project-End Report",
+    "The repository of every Iteration Retrospective's outputs",
+    "Enriches the Lessons Learned and post-project recommendations at project end"
+   ]
+  },
+  {
+   "sec": "Project Status Report",
+   "items": [
+    "Carries the development feedback to the Managing Layer",
+    "In the section related to the Development Status Report",
+    "Translates domain-specific metrics into project-level status"
+   ]
+  },
+  {
+   "sec": "Project Progress Report",
+   "items": [
+    "Project Overview — stakeholders, milestones and deliverables, project plan, budget and costs",
+    "Project Details — scope changes, major risks/issues and actions taken, achievements",
+    "Frequent for agile projects: bi-monthly or quarterly, not yearly",
+    "Communicates what has evolved since the initial Charter and why",
+    "Ad hoc status reporting, with an updated Project Charter, when scope shifts"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Purpose of the logs",
+   "what": "Enable overall monitoring of project performance during Executing by managing domain-specific risks, issues, decisions and changes.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Agile-layer logs reviewed each iteration; escalations reach the project logs the same week."
+  },
+  {
+   "f": "Risk Log",
+   "what": "Domain-specific risks, managed against the PM² Risk Management Plan; the log is a PM² artefact reused.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "R3: data-engineering knowledge concentrated in Babbage — mitigated by pairing from iteration 5."
+  },
+  {
+   "f": "Issue Log",
+   "what": "Domain-specific issues, managed against the PM² Issues Management Plan.",
+   "who": "TeCo Responsible",
+   "pollux": "I-14: Finance control file two days late in iteration 9; deadline formally agreed afterwards."
+  },
+  {
+   "f": "Decision Log",
+   "what": "Decisions taken in the development domain, recorded so the project can see why the solution is what it is.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "D-07: when Curie and Hopper disagreed on Release 2 scope, the PrOw's prioritisation stood."
+  },
+  {
+   "f": "Change Log and Change Request Form",
+   "what": "Changes managed against the Project Change Management Plan, with the Change Log and Change Request Form.",
+   "who": "PM Accountable · TeCo Responsible",
+   "pollux": "CR-03 moved the scenario overlay into Release 3; the WIL re-prioritisation alone needed no CR."
+  },
+  {
+   "f": "Testing Log",
+   "what": "The agile testing record, referenced to the Test Plans and the Deliverables Acceptance Plan.",
+   "who": "TeCo R · ArOw and ATeM S (p.95)",
+   "pollux": "Per-release testing log; Release 2 closed with zero reconciliation differences."
+  },
+  {
+   "f": "Retrospectives Log",
+   "what": "The repository of Iteration Retrospective outputs, referenced to the Project-End Report.",
+   "who": "TeCo Responsible · PrOw and ArOw Informed",
+   "pollux": "Thirty-nine retrospectives logged; they enrich, not replace, the POLLUX Lessons Learned."
+  },
+  {
+   "f": "Logs generate work items",
+   "what": "Managing the logs generates work items: a change request becomes stories, a risk mitigation becomes enabler stories.",
+   "who": "PM assigns · PrOw absorbs into the WIL",
+   "pollux": "The pairing mitigation for R3 entered the WIL as an enabler in iteration 5."
+  },
+  {
+   "f": "Coordination tool",
+   "what": "The logs are how the PM assigns items to the A-PCT to be further evaluated and managed.",
+   "who": "PM Accountable",
+   "pollux": "You assign the DPC's access questions to Einstein through the risk log, not by email."
+  },
+  {
+   "f": "Starting point",
+   "what": "The PM² management plans and associated artefacts are the starting point for managing domain-specific items.",
+   "who": "PM and TeCo",
+   "pollux": "POLLUX reuses the CASTOR log templates unchanged; only the owners differ."
+  },
+  {
+   "f": "Project Status Report",
+   "what": "The development aspect reaches the Managing Layer through the Project Status Report's Development Status Report section.",
+   "who": "PM Accountable · TeCo supplies content",
+   "pollux": "Monthly Project Status Report carries Lovelace's iteration figures verbatim."
+  },
+  {
+   "f": "Translating the metrics",
+   "what": "The goal is to translate domain-specific information and metrics into project-level status and reports.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Velocity and burndown become 'Release 2 delivered on date, €2.1 m consumed' at project level."
+  },
+  {
+   "f": "Project Progress Report",
+   "what": "For PM²-Agile projects it is a frequent reporting tool — bi-monthly or quarterly rather than yearly for multi-annual projects.",
+   "who": "PM Responsible at project level",
+   "pollux": "Quarterly for POLLUX, aligned with the release rhythm rather than the calendar year."
+  },
+  {
+   "f": "Why more frequent",
+   "what": "Frequency lets the PCT and the project better capture and manage significant scope changes.",
+   "who": "PM Accountable",
+   "pollux": "Two significant scope moves in 2029 were both reported in the quarter they happened."
+  },
+  {
+   "f": "Project Overview section",
+   "what": "Project stakeholders, milestones and deliverables, project plan, budget and costs — the same as in PM².",
+   "who": "PM Responsible",
+   "pollux": "Milestones from the Charter; costs against the €4.6 m envelope."
+  },
+  {
+   "f": "Project Details section",
+   "what": "Scope changes, major risks and issues with the actions taken, and achievements.",
+   "who": "PM Responsible · TeCo supplies development content",
+   "pollux": "Achievement for Q2 2029: eleven spreadsheets down to four (SC3 progress)."
+  },
+  {
+   "f": "Updated Project Charter",
+   "what": "Together with updates to the initial Charter it shows what has evolved and the reasons behind the changes.",
+   "who": "PM Responsible",
+   "pollux": "Charter v1.3 accompanied the Q3 2029 progress report after the scenario overlay moved."
+  },
+  {
+   "f": "Ad hoc reporting",
+   "what": "Ad hoc status reporting, including an updated Charter, may be needed depending on complexity and the impact of scope changes.",
+   "who": "PM Accountable",
+   "pollux": "One ad hoc report when national-authority access needed a confirmed legal basis."
+  },
+  {
+   "f": "RAM (RASCI) rows",
+   "what": "Section 7.3.2 prints no RAM. Appendix B.2: Retrospectives Log I A R I I S; Testing Logs I A R I S S.",
+   "who": "PM Accountable · TeCo Responsible",
+   "pollux": "Lovelace keeps both logs; Curie and Einstein are informed, not consulted."
+  }
+ ],
+ "traps": [
+  "Section 7.3.2 has no RAM table — the rows come from Appendix B.2 (p.95).",
+  "Retrospectives Log feeds the Project-End Report, not the Development Status Report.",
+  "Testing Log references the Test Plans and the Deliverables Acceptance Plan.",
+  "Retrospectives do not replace Lessons Learned; Closing still happens in PM²-Agile.",
+  "Progress Report is bi-monthly or quarterly here, not the PM² yearly cadence."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX logs and reports, Q2 2029",
+  "rows": [
+   [
+    "Log / report",
+    "Entry"
+   ],
+   [
+    "Risk Log R3",
+    "Data-engineering knowledge concentrated in one member — pairing from iteration 5, level reduced"
+   ],
+   [
+    "Issue Log I-14",
+    "Finance control file two days late in iteration 9; format and deadline now agreed"
+   ],
+   [
+    "Decision Log D-07",
+    "Release 2 scope disagreement: the Product Owner's prioritisation stands"
+   ],
+   [
+    "Change Log CR-03",
+    "Scenario overlay moved from Release 4 into Release 3 at Risk's request"
+   ],
+   [
+    "Testing Log",
+    "Release 2 closed with zero reconciliation differences, no open high-severity defects"
+   ],
+   [
+    "Retrospectives Log",
+    "Retro 6 added the data-protection check to the Definition of Done"
+   ],
+   [
+    "Project Status Report",
+    "Monthly; development section supplied verbatim from the Development Status Report"
+   ],
+   [
+    "Project Progress Report",
+    "Quarterly; Q2 achievement — spreadsheets in the reporting chain 11 → 4"
+   ],
+   [
+    "Charter update",
+    "v1.3 issued with the Q3 report after the scenario overlay moved"
+   ],
+   [
+    "Responsible · Accountable",
+    "Ada Lovelace (TeCo) · Project Manager (PM)"
+   ],
+   [
+    "Informed",
+    "Marie Curie (PrOw), Albert Einstein (ArOw), Grace Hopper (BM)"
+   ]
+  ]
+ }
+}

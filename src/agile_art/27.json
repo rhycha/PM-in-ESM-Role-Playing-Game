@@ -1,0 +1,265 @@
+{
+ "n": 27,
+ "id": "project-manager-agile",
+ "name": "Project Manager (PM) in a PM²-Agile Project",
+ "group": "Roles",
+ "one_liner": "Still runs the project; hands facilitation to TeCo and priorities to PrOw.",
+ "purpose": "When PM²-Agile is introduced within PM², the new roles take on some responsibilities usually assigned to the Project Manager, but the PM role is not removed. Methodology compliance becomes shared with the Team Coordinator, team and progress management passes to the self-organising A-PCT, and the Product Owner becomes the permanent point of contact for business stakeholders. The PM remains responsible for the whole project and stays Accountable in every PM²-Agile artefact RAM.",
+ "guide_page": 64,
+ "meta": [
+  [
+   "Layer",
+   "Managing layer — unchanged by PM²-Agile"
+  ],
+  [
+   "Accountable for",
+   "Every PM²-Agile artefact in the guide's RAM tables"
+  ],
+  [
+   "Shares with the TeCo",
+   "Methodology compliance — Project Handbook versus Development Handbook"
+  ]
+ ],
+ "rasci": {
+  "title": "PM in the guide's RAM (RASCI) tables",
+  "rows": [
+   [
+    "Artefact or ceremony",
+    "PM"
+   ],
+   [
+    "Project Charter",
+    "R"
+   ],
+   [
+    "Business Case",
+    "S"
+   ],
+   [
+    "Architecture Overview / Operational Model",
+    "A"
+   ],
+   [
+    "Development Handbook / Development Work Plan",
+    "A"
+   ],
+   [
+    "Work Items List / Release Plan / Iteration Plan",
+    "A"
+   ],
+   [
+    "Test Plan / Deployment Plan",
+    "A"
+   ],
+   [
+    "Development Status Report",
+    "A"
+   ],
+   [
+    "Iteration Planning / Daily Stand-up / Review / Retrospective",
+    "I"
+   ],
+   [
+    "Manage / refine / prioritise the Work Items List",
+    "I"
+   ]
+  ],
+  "legend": [
+   [
+    "Letter",
+    "Meaning"
+   ],
+   [
+    "R",
+    "Responsible — does the work and leads those who support"
+   ],
+   [
+    "A",
+    "Accountable — authorises and approves; only one person"
+   ],
+   [
+    "S",
+    "Supports — works with the Responsible person to complete it"
+   ],
+   [
+    "C",
+    "Consulted — provides input to the activity"
+   ],
+   [
+    "I",
+    "Informed — kept up to date"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Owns",
+   "items": [
+    "The whole project and its deliverables — the PM² role is not deleted",
+    "The Project Charter (Responsible) and the Project Handbook",
+    "Accountability for every A-PCT artefact: handbook, work plan, WIL, plans, reports",
+    "The Project Status Report, fed from the Development Status Report",
+    "Escalated impediments raised by the team via the Team Coordinator"
+   ]
+  },
+  {
+   "sec": "Decides",
+   "items": [
+    "Whether development plans align with the Project Charter and project milestones",
+    "When to intervene, with the Business Manager, on misaligned expectations",
+    "Approves and authorises the A-PCT's artefacts as the Accountable role"
+   ]
+  },
+  {
+   "sec": "Attends",
+   "items": [
+    "Iteration Planning, Review and Retrospective — as a regular Agile Team Member",
+    "Informed of the Iteration Goal and of Daily Stand-up outcomes",
+    "Informed of the outputs of every Work Items List ceremony",
+    "Project follow-up meetings, demos and deliverables acceptance events"
+   ]
+  },
+  {
+   "sec": "Does not do",
+   "items": [
+    "Facilitate the ceremonies — the TeCo facilitates while the PM participates",
+    "Assign and monitor each team member's work until it is complete",
+    "Turn the Daily Stand-up into a status update meeting",
+    "Set or reorder the Work Items List — the PrOw prioritises it",
+    "Hold methodology compliance alone — it is shared with the Team Coordinator"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Methodology compliance (shared)",
+   "what": "The PM educates the team on PM² per the Project Handbook; the TeCo guarantees agile values per the Development Handbook.",
+   "who": "Team Coordinator",
+   "pollux": "You keep PM² compliance; Lovelace keeps the agile practice honest."
+  },
+  {
+   "f": "Participates as an ATeM",
+   "what": "Participates in Iteration Planning, Review and Retrospective as a regular Agile Team Member while the TeCo facilitates.",
+   "who": "Team Coordinator facilitates",
+   "pollux": "You attend the review as one voice among several, not as chair."
+  },
+  {
+   "f": "Team and progress management",
+   "what": "PM² makes the PM ensure efficient use of resources; in PM²-Agile the self-organising A-PCT manages its own work.",
+   "who": "A-PCT via the Development Work Plan",
+   "pollux": "You stop assigning tasks; the team plans each two-week iteration itself."
+  },
+  {
+   "f": "Focus on impediments",
+   "what": "The change frees the PM to focus on the problems and impediments the A-PCT identifies via the Team Coordinator.",
+   "who": "Team Coordinator",
+   "pollux": "You unblock the national-authority access decision, not the sprint board."
+  },
+  {
+   "f": "Business stakeholder expectations",
+   "what": "The PrOw becomes the permanent contact between requester and provider and aligns scope and time-frame expectations.",
+   "who": "PrOw, A-PCT, Business Manager, BIG",
+   "pollux": "Curie handles the quarterly requirement churn from Risk, Finance and the Board."
+  },
+  {
+   "f": "Intervention rule",
+   "what": "The PM, together with the Business Manager, may intervene when expectations are misaligned or the PrOw and the team cannot reach consensus.",
+   "who": "Business Manager, Product Owner",
+   "pollux": "Conflict 3 — you and Hopper step in over Release 2 scope only if consensus fails."
+  },
+  {
+   "f": "Accountable for the Development Handbook",
+   "what": "Must be aware how the A-PCT plans to manage development and ensure the Project Handbook captures the relevant information.",
+   "who": "TeCo is Responsible",
+   "pollux": "You approve the handbook baselined 27 Nov 2028 before the RfE gate."
+  },
+  {
+   "f": "Accountable for the Development Work Plan",
+   "what": "Must know how the team plans to deliver and how that aligns with the overall project milestones.",
+   "who": "TeCo Responsible; PrOw owns the WIL part",
+   "pollux": "You show Gantt that WIL, Release Plan and Iteration Plan are the schedule."
+  },
+  {
+   "f": "Accountable for the Work Items List",
+   "what": "Must be aware how the WIL, as part of the Development Work Plan, aligns with the scope defined in the Project Charter.",
+   "who": "PrOw is Responsible; TeCo consulted for consistency",
+   "pollux": "You check Curie's list still delivers success criteria SC1 to SC5."
+  },
+  {
+   "f": "Accountable for the Release Plan",
+   "what": "Accountable for alignment between the delivery strategy in the Release Plan and the project vision and milestones.",
+   "who": "TeCo Responsible; PrOw supports",
+   "pollux": "You hold the four releases against the 20 Dec 2029 final release date."
+  },
+  {
+   "f": "Accountable for the Iteration Plan",
+   "what": "Accountable for ensuring the iteration goal aligns with the Release Plan strategy and the Project Charter.",
+   "who": "TeCo Responsible; PrOw consulted",
+   "pollux": "You confirm iteration 1 on 08 Jan 2029 serves Release 1 in March."
+  },
+  {
+   "f": "Accountable for architecture artefacts",
+   "what": "Understands the essential architectural decisions and constraints and relays infrastructure needs to hosting services.",
+   "who": "ArOw Responsible for both artefacts",
+   "pollux": "You carry Einstein's hosting constraints to ESM IT for the portal."
+  },
+  {
+   "f": "Accountable for testing and deployment",
+   "what": "Accountable for the team's testing approach and its alignment with deliverables' acceptance, and for the deployment approach.",
+   "who": "ATeMs draft the Test Plan; TeCo the Deployment Plan",
+   "pollux": "You align testing with acceptance ahead of transition on 31 Jan 2030."
+  },
+  {
+   "f": "Accountable for the Development Status Report",
+   "what": "Must be aware how the A-PCT is progressing and ensure the Project Status Report captures the relevant information.",
+   "who": "TeCo Responsible; PrOw informed",
+   "pollux": "Lovelace's report feeds your Project Status Report to the steering layer."
+  },
+  {
+   "f": "Responsible for the Project Charter",
+   "what": "In PM², the PM is Responsible for the Project Charter, with the PSC accountable and the BM supporting.",
+   "who": "PSC, PO, BM, SP",
+   "pollux": "You wrote the charter approved on 12 Oct 2028, before the RfP gate."
+  }
+ ],
+ "traps": [
+  "PM²-Agile does not delete the PM; the TeCo is not a renamed Project Manager.",
+  "The PM attends ceremonies as a regular ATeM — the TeCo facilitates them.",
+  "The Daily Stand-up is not a status meeting; the PM is merely informed.",
+  "The PM is Accountable for the Work Items List even though the PrOw is Responsible.",
+  "The PM no longer assigns and monitors individual work; the team self-organises."
+ ],
+ "pollux_excerpt": {
+  "title": "You — Project Manager, Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Person",
+    "You, Project Manager, ESM Project Support Office"
+   ],
+   [
+    "Status",
+    "You keep the PM² role — PM²-Agile does not delete it"
+   ],
+   [
+    "Accountable for",
+    "Development Handbook, Development Work Plan, WIL, Release and Iteration Plans, Test and Deployment Plans, Development Status Report"
+   ],
+   [
+    "Responsible for",
+    "The Project Charter, approved 12 Oct 2028"
+   ],
+   [
+    "Gates you still hold",
+    "RfP 16 Oct 2028, RfE 04 Dec 2028, RfC 14 Feb 2030"
+   ],
+   [
+    "Live conflict",
+    "Conflict 4 — you start attending the Daily Stand-up asking for updates"
+   ]
+  ]
+ }
+}

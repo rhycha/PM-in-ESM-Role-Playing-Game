@@ -1,0 +1,299 @@
+{
+ "n": 14,
+ "id": "development-handbook",
+ "name": "Development Handbook",
+ "group": "Artefacts",
+ "one_liner": "How this team works — the Project Handbook's development extension.",
+ "purpose": "The Development Handbook documents the selected approach for developing the information system and how the domain-specific aspect of the project relates to the overall project level. It is an extension of the Project Handbook and must be aligned with the key controlling processes, project policies, rules and management approach described there — it is identified as a separate artefact but need not be a separate information carrier. Together with the Development Work Plan it forms the basis for managing the project's development activities, and it is a living document that absorbs whatever Iteration Reviews and Retrospectives change.",
+ "guide_page": 72,
+ "meta": [
+  [
+   "Artefact type",
+   "Agile-specific artefact"
+  ],
+  [
+   "PM² equivalent",
+   "Project Handbook — the Development Handbook extends it and becomes part of it"
+  ],
+  [
+   "Produced by",
+   "Team Coordinator (TeCo) — Responsible"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — as on every agile artefact row"
+  ],
+  [
+   "Information carrier",
+   "May be its own document or embedded in the Project Handbook"
+  ],
+  [
+   "Pairs with",
+   "Development Work Plan — the two together manage development activities"
+  ],
+  [
+   "Records",
+   "Tailoring: how and why PM²-Agile was tailored for this project (p.25)"
+  ],
+  [
+   "Lifecycle",
+   "Planning Created · Executing Updated · closed and archived in Closing (pp.72, 74)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "S",
+   "S",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "The three areas it extends",
+   "items": [
+    "Roles & responsibilities",
+    "Project management plans",
+    "Domain-specific artefacts"
+   ]
+  },
+  {
+   "sec": "1. Roles & responsibilities",
+   "items": [
+    "Deviations from the standard PM²-Agile roles",
+    "Deviations from the standard RASCI table of responsibilities",
+    "The new A-PCT roles added to the PM² project organisation",
+    "How agile roles reorganise the responsibilities of existing PM² roles"
+   ]
+  },
+  {
+   "sec": "2. Project management plans",
+   "items": [
+    "Domain-specific risks that must be visible at project level",
+    "Requirements Management — stories as the working units that drive progress",
+    "Change Management adjusted for 'stakeholder collaboration over contract negotiation'",
+    "Resource Management and Communications Management adjusted accordingly"
+   ]
+  },
+  {
+   "sec": "3. Domain-specific artefacts",
+   "items": [
+    "Which agile-specific artefacts will be used",
+    "Tailoring considerations for each",
+    "Tools used to implement the Development Work Plan",
+    "Medium and format used for each artefact"
+   ]
+  },
+  {
+   "sec": "Lifecycle and rhythm",
+   "items": [
+    "The CIR rhythm — Coordinate, Implement, Review",
+    "Frequent releases and iterations",
+    "Standard phase boundaries allowed to overlap and flex"
+   ]
+  },
+  {
+   "sec": "Progress measurement",
+   "items": [
+    "Agile progress is measured differently from standard PM²",
+    "References to relevant tools such as Agile Estimating",
+    "Which metrics and reports are used, and how often"
+   ]
+  },
+  {
+   "sec": "The tailoring record (p.25)",
+   "items": [
+    "Rationale for tailoring and deviations",
+    "Variations from standard practice — artefacts, tools and techniques added or removed",
+    "Which development-specific reviews are performed and how formal they are",
+    "Procedures for progress reporting, measurement, requirements and change requests",
+    "Configuration strategy for development-specific assets",
+    "Responsibilities for review and approval — a RASCI table"
+   ]
+  },
+  {
+   "sec": "A living artefact",
+   "items": [
+    "Changes from Iteration Retrospectives and Reviews are documented here",
+    "Essential reference for the project-end review meeting",
+    "Properly closed and archived during the Closing phase"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Selected development approach",
+   "what": "Documents the approach chosen for developing the information system as part of the overall solution.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Two-week iterations, quarterly releases, continuous delivery pipeline into pre-production."
+  },
+  {
+   "f": "Relation to the project level",
+   "what": "How the domain-specific aspect of the project relates to the overall project — the bridge to the managing layer.",
+   "who": "TeCo drafts with the PM",
+   "pollux": "Iteration Review outputs feed the monthly Project Status Report; gates stay at project level."
+  },
+  {
+   "f": "Extension of the Project Handbook",
+   "what": "An extension aligned with the Project Handbook's key controlling processes, policies, rules and management approach.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "POLLUX keeps one container: the Development Handbook is an annex to the Project Handbook."
+  },
+  {
+   "f": "Separate artefact, not separate carrier",
+   "what": "Identified as a separate artefact but need not be a separate document; a single container and synchronised configuration management are allowed.",
+   "who": "TeCo decides with PM",
+   "pollux": "Gantt (PSO) maintains both under one configuration item so versions cannot diverge."
+  },
+  {
+   "f": "Roles & responsibilities deviations",
+   "what": "Documents any deviation from the standard PM²-Agile roles and from the standard RASCI table.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Eiffel, seconded, may act as TeCo for one iteration when Lovelace is absent."
+  },
+  {
+   "f": "New agile roles",
+   "what": "The A-PCT adds roles to the PM² organisation; some reorganise existing PM² roles' responsibilities, and this must be clear.",
+   "who": "TeCo documents · PM ensures clarity",
+   "pollux": "Curie (PrOw) now prioritises what CASTOR's Business Manager alone used to decide."
+  },
+  {
+   "f": "Project management plans",
+   "what": "Ensures domain-specific information reaches the PM² management plans — for example, risks needing visibility at project level.",
+   "who": "TeCo with PM",
+   "pollux": "Architecture risks are logged in the agile layer and escalated to the project Risk Log weekly."
+  },
+  {
+   "f": "Requirements Management change",
+   "what": "Agile planning uses a completely different requirements approach: stories are the working units that drive progress.",
+   "who": "TeCo documents · PrOw practises",
+   "pollux": "Stories replace the CASTOR requirements specification; acceptance criteria attach to each story."
+  },
+  {
+   "f": "Change Management adjustment",
+   "what": "Because agile favours stakeholder collaboration over contract negotiation, the change process must be adjusted to reflect that agility.",
+   "who": "TeCo documents · PM Accountable",
+   "pollux": "Re-prioritising the WIL is not a change request; moving a gate or the budget is."
+  },
+  {
+   "f": "Progress measurement",
+   "what": "Describe clearly how progress is measured, since agile planning differs in essence from traditional approaches.",
+   "who": "TeCo Responsible",
+   "pollux": "Progress measured as delivered story points and completed features, never as documents produced."
+  },
+  {
+   "f": "Domain-specific artefacts and tailoring",
+   "what": "Identifies which agile artefacts will be used and records tailoring — including the tools implementing the Development Work Plan.",
+   "who": "TeCo Responsible · ATeM advise",
+   "pollux": "WIL, Release Plan and Iteration Plans all live in one tool; no separate documents produced."
+  },
+  {
+   "f": "Adjusted lifecycle (CIR)",
+   "what": "PM²-Agile introduces the Coordinate–Implement–Review rhythm, letting standard phase boundaries overlap and become more flexible.",
+   "who": "TeCo documents · PM explains upward",
+   "pollux": "Planning-phase work continued into iteration 1 while the Release 1 scope was still settling."
+  },
+  {
+   "f": "Definition of tools and techniques",
+   "what": "Which tools and techniques the team uses, from estimating to reviews, and the level of formality of each review.",
+   "who": "ATeM advise · TeCo records",
+   "pollux": "Planning poker for relative estimates; Definition of Done includes accessibility and a data-protection check."
+  },
+  {
+   "f": "Rationale for tailoring",
+   "what": "Why PM²-Agile was tailored this way, so the deviation is a decision on record and not drift.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Iterations fixed at two weeks to match SC2's promise of a new report view per iteration."
+  },
+  {
+   "f": "Living artefact",
+   "what": "Changes or improvements coming out of Iteration Retrospectives or Reviews are documented here as they happen.",
+   "who": "TeCo Responsible · whole A-PCT supports",
+   "pollux": "After retro 6 the Definition of Done gained the data-protection check that had been silently skipped."
+  },
+  {
+   "f": "Closing use",
+   "what": "In Closing it is an essential point of reference for the project-end review meeting, then properly closed and archived.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Handbook v9 plus the Retrospectives Log form the input to the POLLUX project-end review."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "BM I · PM A · TeCo R · PrOw S · ArOw S · ATeM S — the guide's own worked RASCI example (p.66).",
+   "who": "PM Accountable · TeCo Responsible",
+   "pollux": "Lovelace writes it; Curie, Einstein and the developers support; Hopper is informed when it is complete."
+  }
+ ],
+ "traps": [
+  "Development Handbook extends the Project Handbook — it does not replace it.",
+  "It is created in Planning, not Initiating like the governance artefacts.",
+  "Handbook = how the team works; Development Work Plan = what and when.",
+  "TeCo is Responsible, not the PM — the PM is Accountable.",
+  "Separate artefact does not mean separate document: one carrier is allowed."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Development Handbook v1.0, baselined 27 Nov 2028",
+  "rows": [
+   [
+    "Section",
+    "Content"
+   ],
+   [
+    "Carrier",
+    "Annex to the POLLUX Project Handbook; single configuration item"
+   ],
+   [
+    "Iteration length",
+    "Two weeks, fixed — chosen to satisfy SC2 (new report view per iteration)"
+   ],
+   [
+    "Ceremonies",
+    "Daily Stand-up each morning; Review and Retrospective on the last day; Release Planning each iteration"
+   ],
+   [
+    "Roles deviation",
+    "Eiffel (seconded) may act as TeCo for one iteration in Lovelace's absence"
+   ],
+   [
+    "Progress measurement",
+    "Delivered story points and completed features; no earned value at team level"
+   ],
+   [
+    "Definition of Done",
+    "Code reviewed · tests green · accessibility checked · data-protection check signed"
+   ],
+   [
+    "Change management",
+    "WIL re-prioritisation is not a change request; gate or budget impact is"
+   ],
+   [
+    "Artefacts and tools",
+    "WIL, Release Plan and Iteration Plans held in one tool; no parallel documents"
+   ],
+   [
+    "Updates so far",
+    "v1.4 after retro 6 added the data-protection check to the Definition of Done"
+   ],
+   [
+    "Responsible · Accountable",
+    "Ada Lovelace (TeCo) · Project Manager (PM)"
+   ],
+   [
+    "Informed",
+    "Grace Hopper (BM), when each version is complete"
+   ]
+  ]
+ }
+}

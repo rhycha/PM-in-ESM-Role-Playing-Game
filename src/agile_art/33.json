@@ -1,0 +1,224 @@
+{
+ "n": 33,
+ "id": "estimation-and-prioritisation",
+ "name": "Estimation and Prioritisation",
+ "group": "Themes",
+ "one_liner": "Relative points and velocity to size the work; MoSCoW to decide what survives.",
+ "purpose": "Agile estimating incorporates the notion of just enough upfront detail, balancing estimation effort against available information and the accuracy needed. PM²-Agile estimation rests on three concepts — Relative Estimate, Velocity and Absolute Estimate — because humans are better at making relative estimations. Work Items are then prioritised according to delivery value and contribution to project goals, with techniques such as MoSCoW enabling contingency management.",
+ "guide_page": 32,
+ "meta": [
+  [
+   "Theme",
+   "4.5"
+  ],
+  [
+   "Three concepts",
+   "Relative Estimate, Velocity, Absolute Estimate"
+  ],
+  [
+   "MoSCoW effort split",
+   "60% Must have, 20% Should have, 20% Could have"
+  ]
+ ],
+ "rasci": {
+  "title": "RAM (RASCI) — Work Items List prioritisation (ceremony)",
+  "rows": [
+   [
+    "Role",
+    "Letter"
+   ],
+   [
+    "BIG",
+    "C"
+   ],
+   [
+    "BM",
+    "S"
+   ],
+   [
+    "PM",
+    "I"
+   ],
+   [
+    "TeCo",
+    "S"
+   ],
+   [
+    "PrOw",
+    "R/A"
+   ],
+   [
+    "ArOw",
+    "C"
+   ],
+   [
+    "ATeM",
+    "C"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Three estimation concepts",
+   "items": [
+    "Relative Estimate — high-level size of a work item, typically measured in points",
+    "Velocity — the number of points the A-PCT can deliver within an iteration",
+    "Absolute Estimate — translates the size in points into effort, typically in Actual Hours"
+   ]
+  },
+  {
+   "sec": "MoSCoW",
+   "items": [
+    "Must have — the minimum usable subset that must be delivered",
+    "Should have — important but not vital this time",
+    "Could have — desirable if capacity allows",
+    "Won't have this time — explicitly excluded from this delivery",
+    "Suggested effort split: 60% Must, 20% Should, 20% Could"
+   ]
+  },
+  {
+   "sec": "Why relative estimates come first",
+   "items": [
+    "Humans are better at making relative estimations than absolute ones",
+    "Points size work items in relation to other work items, not in person-days",
+    "Relative estimates get more accurate as problem and solution become clearer",
+    "Planning Poker is the recommended relative-estimation technique"
+   ]
+  },
+  {
+   "sec": "How contingency works",
+   "items": [
+    "Priority is negotiated against the team's estimates",
+    "MoSCoW empowers the team to define the minimum usable subset or MVP",
+    "When Should and Could items cannot be tackled in time, contingency is applied",
+    "What ships is still the agreed most relevant features — the Must haves"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Just enough upfront detail",
+   "what": "Agile estimating balances estimation effort against the information available and the accuracy expected of the estimate.",
+   "who": "A-PCT, TeCo facilitating",
+   "pollux": "The team sizes the next items, not all 1,850 person-days upfront."
+  },
+  {
+   "f": "Relative Estimate",
+   "what": "A high-level estimate of a work item's size, typically measured using a neutral unit such as points.",
+   "who": "ATeMs estimate; PrOw explains items",
+   "pollux": "Items are sized against each other, not in Levallois Systems day rates."
+  },
+  {
+   "f": "Velocity",
+   "what": "Measures the number of points the Agile Project Core Team can deliver within an iteration.",
+   "who": "A-PCT; TeCo reports it",
+   "pollux": "Measured per two-week iteration and reported to you by Lovelace."
+  },
+  {
+   "f": "Absolute Estimate",
+   "what": "Translates a work item's size in points into an objective, detailed estimate of effort, typically in Actual Hours.",
+   "who": "ATeMs",
+   "pollux": "Used where the seconded contract needs hours rather than points."
+  },
+  {
+   "f": "Why relative works",
+   "what": "Relative estimates rest on the fact that humans are better at making relative estimations than absolute ones.",
+   "who": "A-PCT",
+   "pollux": "Lamarr compares a new view to one already built rather than guessing hours."
+  },
+  {
+   "f": "Accuracy over time",
+   "what": "Relative estimates tend to become more accurate as the project progresses and problem and solution become clearer.",
+   "who": "A-PCT",
+   "pollux": "Estimates in Release 3 are better than those in iteration 1."
+  },
+  {
+   "f": "Velocity for planning",
+   "what": "Team velocity is important to track for planning regular iterations and for measuring team performance.",
+   "who": "TeCo, PM",
+   "pollux": "Feeds the Development Status Report and the four release dates."
+  },
+  {
+   "f": "Planning Poker",
+   "what": "The guide points to Planning Poker as the point-based relative estimating technique, detailed in the Tools and Techniques publication.",
+   "who": "A-PCT in a workshop setting",
+   "pollux": "Used in refinement sessions Curie shares in advance."
+  },
+  {
+   "f": "Basis of prioritisation",
+   "what": "Work Items are prioritised according to their delivery value and their contribution toward achieving project goals.",
+   "who": "PrOw, supported by BM",
+   "pollux": "Items serving criteria SC1 to SC5 outrank convenience features."
+  },
+  {
+   "f": "Negotiating priority",
+   "what": "Agreeing and negotiating each work item's priority, considering the team's estimates, enables contingency management for the project.",
+   "who": "PrOw, BM, A-PCT",
+   "pollux": "Curie negotiates Release 2 content against what the team can size."
+  },
+  {
+   "f": "MoSCoW",
+   "what": "Must have, Should have, Could have and Won't have this time; it empowers the team to decide collaboratively what the minimum usable subset is.",
+   "who": "Team and stakeholders",
+   "pollux": "Read-only exposure is a Must; the scenario overlay is not, in Release 1."
+  },
+  {
+   "f": "The 60/20/20 split",
+   "what": "Some methodologies suggest assigning 60% of total effort to Must have, 20% to Should have and 20% to Could have requirements.",
+   "who": "PrOw with the team",
+   "pollux": "Leaves 40% of each release's effort as usable contingency."
+  },
+  {
+   "f": "How contingency is applied",
+   "what": "When Should and Could items cannot be tackled in the time frame, contingency is applied by still delivering the agreed Must have requirements.",
+   "who": "PrOw, BM, stakeholders",
+   "pollux": "A slipping release still ships the exposure view the Board needs."
+  },
+  {
+   "f": "Continuous activity",
+   "what": "Both estimating and prioritising should happen continuously throughout the project so the plan adapts as it progresses.",
+   "who": "PrOw, ATeMs, TeCo",
+   "pollux": "Refinement and prioritisation recur inside every two-week iteration."
+  }
+ ],
+ "traps": [
+  "The suggested MoSCoW split is 60% Must, 20% Should, 20% Could — Won't gets none.",
+  "Velocity counts points per iteration; only Absolute Estimates use Actual Hours.",
+  "Contingency comes from dropping Should and Could items, not from adding time.",
+  "Estimating and prioritising are continuous, not a single upfront exercise.",
+  "The glossary spells the W as 'Want to have (but won't have this time)'."
+ ],
+ "pollux_excerpt": {
+  "title": "Estimation and prioritisation on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Who prioritises",
+    "Marie Curie (PrOw), Responsible and Accountable"
+   ],
+   [
+    "Who supports",
+    "Grace Hopper (BM), determining priorities with her"
+   ],
+   [
+    "Who estimates",
+    "Lamarr, Babbage and Eiffel, in relative points"
+   ],
+   [
+    "Must have, Release 1",
+    "Exposure by member state, read-only, 29 Mar 2029"
+   ],
+   [
+    "Won't have this time",
+    "The self-service report builder, deferred to Release 4"
+   ],
+   [
+    "Live conflict",
+    "Conflict 3 — Release 2 content, PrOw decides, BM supports"
+   ]
+  ]
+ }
+}

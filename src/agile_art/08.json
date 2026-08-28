@@ -1,0 +1,326 @@
+{
+ "n": 8,
+ "id": "iteration-review",
+ "name": "Iteration Review",
+ "group": "Ceremonies",
+ "one_liner": "Align expectations, demo the work, wrap up and refresh the Work Items List.",
+ "purpose": "The Iteration Review's primary purpose is to assess whether the iteration goal was achieved, which is done with a practical demo of what the Agile Team Members built. It lets the Product Owner and other stakeholders give feedback and helps the team understand whether it is going in the right direction. It is a closure ceremony held on the last day of the iteration, and it ends with a refined, prioritised Work Items List ready for the next Iteration Planning.",
+ "guide_page": 52,
+ "meta": [
+  [
+   "Frequency",
+   "Once per iteration — a closure ceremony on the last day of the iteration"
+  ],
+  [
+   "Timebox",
+   "90 to 120 minutes for a two-week iteration (no established fixed duration)"
+  ],
+  [
+   "Three moments",
+   "Align/Review Expectations · Demo · Wrap-up + Work Items List review"
+  ],
+  [
+   "First moment length",
+   "A 10–15 minute presentation given by an Agile Team Member"
+  ],
+  [
+   "Facilitated by",
+   "TeCo supports; the ATeM is responsible for setup and execution"
+  ],
+  [
+   "Responsible / Accountable",
+   "ATeM and ArOw Responsible · PrOw Accountable for the output"
+  ],
+  [
+   "Also in the RAM (p. 56)",
+   "BIG Consulted · BM Consulted · PM Informed"
+  ],
+  [
+   "Main outputs",
+   "Accepted or rejected items, and a refined, prioritised WIL for the next Iteration Planning"
+  ],
+  [
+   "Guide reference",
+   "§5.4, pp. 52–56 (RAM p. 56; Appendix B.2 p. 95, under Executing)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "C",
+   "I",
+   "S",
+   "A/S",
+   "R",
+   "R"
+  ],
+  "A": "PrOw",
+  "R": "ATeM and ArOw"
+ },
+ "diagram": [
+  {
+   "sec": "1. Align / Review Expectations — 10 to 15 minutes (§5.4.2.1)",
+   "items": [
+    "Presented by one of the Agile Team Members, to align expectations on the contents of the demo",
+    "Includes a comparison of what was promised versus what was delivered",
+    "Scope — the iteration goal and the Work Items the A-PCT committed to at the iteration's start",
+    "Achieved — the items the team believes it has completed and will demonstrate",
+    "Not Achieved — the items the team could not deliver",
+    "New / Dropped items — imperative to communicate, especially new items added to the WIL",
+    "Difficulties / Impediments / Risks — quickly identified, with how they affected the team and the Work Items"
+   ]
+  },
+  {
+   "sec": "2. Demo the Solution (§5.4.2.2) — decided in advance",
+   "items": [
+    "Single point demo or hands-on demo: PM²-Agile suggests neither; it depends on the stakeholders' will and commitment",
+    "Hands-on is optimal for delivery but takes more effort to facilitate",
+    "Who conducts it: the PrOw is a good candidate, but an ATeM conducting frees the PrOw to assist the stakeholders",
+    "Which test scenarios: the ATeMs' test cases are used; stakeholder scenarios are allowed if aligned with the acceptance criteria, and must be agreed beforehand"
+   ]
+  },
+  {
+   "sec": "2b. The per-item demo loop — repeated for every item",
+   "items": [
+    "1. Identify and describe the item: its description, its acceptance criteria, and the test cases that will be executed",
+    "2. Demo the item: identify each test scenario and, importantly, the acceptance criterion it is targeted to validate",
+    "3. Ask for confirmation: if all acceptance criteria are met, ask the stakeholders to mark the item DONE",
+    "If some acceptance criteria are not met, or new things appear, note them and discuss them in the wrap-up"
+   ]
+  },
+  {
+   "sec": "3. Wrap-up + Work Items List review (§5.4.2.3)",
+   "items": [
+    "An ATeM, or even the TeCo, goes through each demonstrated item",
+    "Was the item accepted or not? If not, the reason must be clear — acceptance criteria not verified, bug found, etc.",
+    "Is it a new item? Is it an item that will be dropped from the WIL?",
+    "For new items, clarification is requested from the PrOw and stakeholders so the ATeMs can give high-level estimates",
+    "Then the WIL refinement: do rejected items return to the top of the WIL for the next iteration, or are they postponed?",
+    "New items get relative estimates wherever possible, so the PrOw can prioritise them",
+    "If the analysis cannot be finished, focus on the items likely to be tackled next iteration; the rest goes to the next iteration's Release Planning",
+    "End state: a properly refined and prioritised WIL the team is comfortable using for the next Iteration Planning — at the meeting or a couple of hours after"
+   ]
+  },
+  {
+   "sec": "Guidelines (pp. 55–56)",
+   "items": [
+    "Expose the Work Items to the PrOw in advance, during the iteration, so nothing at the review is a surprise",
+    "Technical work must be demonstrated too — enabler items are invisible, and the PrOw must see their impact",
+    "Keep the demo short and to the point: it is not a playground for random testing",
+    "Build test cases targeting the acceptance criteria",
+    "Embrace change — but constant direction changes signal a systemic problem the TeCo must investigate",
+    "Update the Release Plan with the new velocity data: done by the TeCo, communicated to the PrOw, and it may wait until after the Retrospective"
+   ]
+  },
+  {
+   "sec": "Success indicator (p. 55)",
+   "items": [
+    "The success of an Iteration Review is not solely linked to the number of Work Items approved",
+    "The best indicator is that the team collected solid, relevant feedback that guides it towards the business stakeholders' needs"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Purpose",
+   "what": "Assess whether the iteration goal was achieved, by demonstrating what was built, so the PrOw and stakeholders can give feedback and confirm direction.",
+   "who": "ATeM R · PrOw A",
+   "pollux": "Fri 13 Apr 2029, 10:00–12:00, against the instrument-view goal."
+  },
+  {
+   "f": "Placement",
+   "what": "A closure ceremony occurring on the last day of the iteration, connecting the planning and reviewing activities of one iteration cycle.",
+   "who": "TeCo schedules",
+   "pollux": "Always the last Friday morning; the retrospective follows the same afternoon."
+  },
+  {
+   "f": "Duration",
+   "what": "No established duration; the A-PCT should strive for objectivity. Based on field experience and a two-week iteration, 90 to 120 minutes is good practice.",
+   "who": "TeCo keeps the timebox",
+   "pollux": "Two hours booked; the wrap-up used every minute of it."
+  },
+  {
+   "f": "Moment 1 — Align Expectations",
+   "what": "A 10–15 minute presentation by an ATeM covering scope, achieved, not achieved, new/dropped items and difficulties, comparing promised against delivered.",
+   "who": "ATeM presents",
+   "pollux": "Eiffel presented: 29 points committed, 21 demonstrable, one item at risk."
+  },
+  {
+   "f": "Moment 2 — Demo",
+   "what": "The core of the ceremony: the ATeMs expose the iteration's achievements to the business stakeholders, following the agreed facilitation plan.",
+   "who": "ATeM or PrOw conducts",
+   "pollux": "Lamarr demoed; Curie sat with Hopper and the BIG reps to field questions."
+  },
+  {
+   "f": "Moment 3 — Wrap-up + WIL review",
+   "what": "Consolidate conclusions per item, capture new and dropped items, then refine the WIL so it is ready for the next Iteration Planning.",
+   "who": "ATeM drives · TeCo may facilitate",
+   "pollux": "Ran to 12:20; two new items left unestimated until the next Release Planning."
+  },
+  {
+   "f": "Single point vs hands-on demo",
+   "what": "Single point: the PrOw or an ATeM drives. Hands-on: stakeholders use the solution themselves. PM²-Agile prefers neither; it depends on stakeholder commitment.",
+   "who": "Agreed in advance by the A-PCT",
+   "pollux": "Hands-on for the instrument view; the BIG analysts drove it themselves."
+  },
+  {
+   "f": "Who conducts the demo",
+   "what": "The PrOw is a good candidate because stakeholders are comfortable with her; an ATeM conducting frees the PrOw to assist stakeholders during the session.",
+   "who": "PrOw or ATeM",
+   "pollux": "An ATeM demoed so Curie could stay with the stakeholders."
+  },
+  {
+   "f": "Test scenarios",
+   "what": "The ATeMs' development test cases are used; stakeholders may bring their own if they align with the stories' acceptance criteria, and it must be agreed beforehand.",
+   "who": "ATeM prepares · stakeholders may add",
+   "pollux": "Hopper brought a Q1-2029 exposure case; agreed the Monday before."
+  },
+  {
+   "f": "Per-item step 1 — describe",
+   "what": "The person conducting introduces the work item: its description, its acceptance criteria, and the test cases that will be executed.",
+   "who": "Demo conductor",
+   "pollux": "Each of WIL-118, 121, 124 and 127 introduced by criteria, not by screen."
+  },
+  {
+   "f": "Per-item step 2 — demo",
+   "what": "Each test scenario is identified along with the acceptance criterion it is targeted to validate, so stakeholders see why the test matters.",
+   "who": "Demo conductor",
+   "pollux": "Every drill-through click named the SC4 traceability criterion it proved."
+  },
+  {
+   "f": "Per-item step 3 — confirm",
+   "what": "If all acceptance criteria are met, ask for confirmation that the item does what was agreed — that is, mark it DONE. Otherwise note it for the wrap-up.",
+   "who": "ATeM asks · PrOw accepts or rejects",
+   "pollux": "Three items confirmed; WIL-127 held back at the wrap-up."
+  },
+  {
+   "f": "Definition of Done vs acceptance criteria",
+   "what": "Acceptance criteria are per item and evaluated in the demo; the Definition of Done is the team's own standard. Meeting the criteria alone does not make an item Done.",
+   "who": "A-PCT owns the DoD · PrOw accepts",
+   "pollux": "WIL-127 passed its criteria but skipped the accessibility and data-protection checks."
+  },
+  {
+   "f": "Technical work is demonstrated",
+   "what": "Enabler items must also be demonstrated: they are invisible and their criteria were written by ATeMs, but the PrOw must understand their impact.",
+   "who": "ATeM demonstrates · PrOw learns",
+   "pollux": "Babbage demoed the nightly sync log — Curie accepted the enabler explicitly."
+  },
+  {
+   "f": "Wrap-up checks",
+   "what": "Per item: accepted or not, and why not; is it a new item; is it dropped from the WIL. New items get clarification from the PrOw so estimates can follow.",
+   "who": "ATeM or TeCo drives",
+   "pollux": "One rejection, two new items, nothing dropped on 13 Apr."
+  },
+  {
+   "f": "Rejected items",
+   "what": "The team decides whether items that missed their acceptance criteria return to the top of the WIL for the next iteration, or are postponed to a future one.",
+   "who": "PrOw decides on the WIL",
+   "pollux": "WIL-127 returned to the top of the WIL for iteration 8."
+  },
+  {
+   "f": "Unfinished analysis",
+   "what": "If the ATeMs cannot finish estimating during the meeting, they focus on items likely to be tackled next iteration; the rest waits for the next Release Planning.",
+   "who": "ATeM · PrOw",
+   "pollux": "The Board's single-page view was left for the 18 Apr Manage-the-WIL session."
+  },
+  {
+   "f": "Release Plan update",
+   "what": "New velocity data generated by the review is reflected in the Release Plan by the TeCo and communicated to the PrOw; it may wait until after the Retrospective.",
+   "who": "TeCo updates · PrOw informed",
+   "pollux": "Lovelace waited for the retrospective, then issued Release Plan v6."
+  },
+  {
+   "f": "Success indicator",
+   "what": "Not the number of Work Items approved, but whether the team collected solid and relevant feedback guiding it towards the business stakeholders' needs.",
+   "who": "A-PCT",
+   "pollux": "21 of 29 points accepted, yet the review is judged a good one."
+  },
+  {
+   "f": "Embrace change",
+   "what": "Changes surfacing at the review are normal and welcome — they show engaged business. Constant direction changes signal a systemic problem the TeCo investigates.",
+   "who": "TeCo watches the pattern",
+   "pollux": "Third consecutive review where Risk restated the scenario requirement."
+  },
+  {
+   "f": "Who is Consulted",
+   "what": "The Business Manager and the Business Implementation Group are Consulted about the demonstrated items and about new or deleted work items.",
+   "who": "BM C · BIG C · PM I",
+   "pollux": "Hopper and two user representatives attended; the PM read the outcome."
+  }
+ ],
+ "traps": [
+  "The Review inspects the solution; the Retrospective inspects the team and process.",
+  "Do not discuss what went wrong with the team in front of stakeholders — that is the Retrospective.",
+  "Acceptance criteria met does not mean Done: the Definition of Done still applies.",
+  "Enabler and technical items must be demonstrated too, not silently marked complete.",
+  "The review's output includes a refined, prioritised WIL, not just verdicts."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX Iteration 7 Review, Fri 13 Apr 2029, 10:00–12:20, Kirchberg",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Iteration goal under review",
+    "A Risk analyst can break exposure down by instrument for any member state, traceable to the lending platform"
+   ],
+   [
+    "Align Expectations (12 min, by Eiffel)",
+    "Committed 29 points, four items and one spike; three items ready to demo"
+   ],
+   [
+    "Attending",
+    "Curie (PrOw, A) · Hopper (BM, C) · two BIG user representatives (C) · Lovelace (TeCo, S) · ATeMs and Einstein (R)"
+   ],
+   [
+    "Demo format",
+    "Hands-on; the BIG analysts drove the instrument view themselves"
+   ],
+   [
+    "WIL-118 instrument view",
+    "All acceptance criteria met — confirmed DONE"
+   ],
+   [
+    "WIL-121 nightly sync (enabler)",
+    "Demonstrated from the sync log, not the UI — confirmed DONE"
+   ],
+   [
+    "WIL-124 maturity buckets",
+    "All criteria met against Finance's rules — confirmed DONE"
+   ],
+   [
+    "WIL-127 drill-through to source",
+    "Acceptance criteria met in the demo, but the accessibility check and the DPC screening in the Definition of Done were never run — NOT Done"
+   ],
+   [
+    "New items",
+    "WIL-140 single-page Board view (Hopper) · WIL-141 bucket export; estimates deferred"
+   ],
+   [
+    "Velocity",
+    "21 points accepted against a 34-point average"
+   ],
+   [
+    "Wrap-up decision",
+    "WIL-127 returns to the top of the Work Items List for iteration 8"
+   ],
+   [
+    "Boundary held by the TeCo",
+    "The team tried to open why the iteration went badly; Lovelace moved it to the afternoon retrospective"
+   ],
+   [
+    "Release Plan",
+    "Update deferred until after the retrospective, then issued as v6"
+   ]
+  ]
+ }
+}

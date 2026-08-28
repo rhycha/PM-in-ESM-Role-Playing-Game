@@ -1,0 +1,302 @@
+{
+ "n": 18,
+ "id": "minutes-of-meeting",
+ "name": "Minutes of Meeting",
+ "family": "Meeting Artefact",
+ "one_liner": "What was discussed, who was actually there, what was decided and who does what by when — then copied into the logs.",
+ "purpose": "Minutes of Meeting (MoM) provide a summary of what was discussed in a meeting, including project issues, decisions taken and risks identified, and can be used as an input into subsequent meetings. The guide requires the MoM to be distributed to the stakeholders identified for that meeting and to include a summary of project issues raised, risks identified, decisions taken and changes proposed — and states explicitly that those issues, risks, decisions and project changes must also be recorded in the relevant logs.",
+ "guide_page": 41,
+ "rasci": null,
+ "created_in": "Any phase — after every project meeting",
+ "approved_by": "Not approved — issued by the designated minute-taker and distributed to the meeting's distribution list",
+ "inputs": [
+  "Meeting Agenda",
+  "The meeting itself and the minute-taker's notes",
+  "Previous Minutes of Meeting",
+  "Project Logs and Project Reports"
+ ],
+ "feeds": [
+  "Risk Log",
+  "Issue Log",
+  "Decision Log",
+  "Change Log",
+  "Project Work Plan (significant actions)",
+  "Project Handbook (from the Planning Kick-off MoM)"
+ ],
+ "gate": "None — but the Planning Kick-off MoM is a named input to the Project Handbook",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Minutes of the Initiating Meeting and Charter workshops"
+  },
+  {
+   "phase": "Planning",
+   "what": "Planning Kick-off MoM becomes the basis of the Project Handbook"
+  },
+  {
+   "phase": "Executing",
+   "what": "Status, PCT, Change Control and PSC minutes feed the logs"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Input to Manage Issues and Decisions and to Information Distribution"
+  },
+  {
+   "phase": "Closing",
+   "what": "Project-End Review MoM feeds the Project-End Report; all MoMs archived"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Header",
+   "meta": true,
+   "items": [
+    "Organisation [Name] · Department [Name]",
+    "Document title: Minutes of Meeting",
+    "Date · Doc. Version",
+    "Logo block"
+   ]
+  },
+  {
+   "sec": "Meeting identification grid",
+   "items": [
+    "Meeting Title",
+    "Meeting Date/Time",
+    "Meeting Type",
+    "Meeting Location",
+    "Meeting Coordinator",
+    "Issue Date"
+   ]
+  },
+  {
+   "sec": "Attendees",
+   "items": [
+    "Attendee Name",
+    "Initials",
+    "Present (yes/no)",
+    "Organisation / Email"
+   ]
+  },
+  {
+   "sec": "Meeting Agenda (summary)",
+   "items": [
+    "Summary of the meeting agenda",
+    "Meeting objectives and agenda items as actually covered"
+   ]
+  },
+  {
+   "sec": "Meeting Summary",
+   "items": [
+    "Points discussed",
+    "Outcomes of the meeting",
+    "Issues raised · risks identified · changes proposed"
+   ]
+  },
+  {
+   "sec": "Decisions taken",
+   "items": [
+    "Decision Id",
+    "Description",
+    "Date of Decision Taken",
+    "Decision Owner (initials)"
+   ]
+  },
+  {
+   "sec": "Actions / ToDo Items",
+   "items": [
+    "Action Id",
+    "Creation Date",
+    "Description",
+    "Status: Open · In Progress · Closed · On Hold",
+    "Target Resolution Date",
+    "Owner (initials)"
+   ]
+  },
+  {
+   "sec": "Proposed Agenda for Next Meeting",
+   "items": [
+    "Proposed Next Meeting Date",
+    "Potential agenda items for the next meeting"
+   ]
+  },
+  {
+   "sec": "Related Documents",
+   "items": [
+    "Document name",
+    "Location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Meeting Title / Meeting Type",
+   "what": "Which meeting these are the minutes of, matching a meeting type in the Communications Management Plan so the distribution list and media are already fixed.",
+   "who": "Minute-taker fills",
+   "castor": "Project CASTOR — Project Steering Committee Meeting; monthly PSC per the Communications Management Plan."
+  },
+  {
+   "f": "Meeting Date/Time",
+   "what": "When the meeting actually took place — the anchor date for every decision and action recorded below.",
+   "who": "Minute-taker fills",
+   "castor": "15 Oct 2026, 14:00–15:30, during the Executing Phase, after contract award on 18 Sep 2026."
+  },
+  {
+   "f": "Meeting Location",
+   "what": "Where the meeting was held, including remote participation, which matters when quorum or contractor attendance is questioned later.",
+   "who": "Minute-taker fills",
+   "castor": "ESM, Luxembourg City (Kirchberg), with video for Levallois Systems participants."
+  },
+  {
+   "f": "Meeting Coordinator",
+   "what": "Who chaired. For the PSC Meeting this is the Project Owner, who may delegate; the minute-taker is a different person, named in the plan.",
+   "who": "PO chairs the PSC · BM takes the minutes",
+   "castor": "Chair Florence Nightingale (PO); minutes taken by Grace Hopper (BM), as the plan specifies."
+  },
+  {
+   "f": "Issue Date",
+   "what": "When the minutes were issued. Minutes are distributed promptly after the meeting; late minutes are a quality finding in the Quality Review Checklist.",
+   "who": "Minute-taker issues",
+   "castor": "16 Oct 2026 — published the next working day, within the two-day CASTOR target."
+  },
+  {
+   "f": "Attendee Name / Initials",
+   "what": "Everyone on the attendee list, with the initials used in the decision and action tables so ownership is unambiguous.",
+   "who": "Minute-taker fills from the agenda's invitee list",
+   "castor": "ÉM, RT, KB, PM, AF (Marie Curie, UR), IS (Albert Einstein, AO), BI (Gustave Eiffel, CPM)."
+  },
+  {
+   "f": "Present",
+   "what": "Whether each listed attendee was actually there. This column is the difference between the agenda's invitation list and a record of who is bound by the decisions.",
+   "who": "Minute-taker records",
+   "castor": "W. Edwards Deming (PQA) absent, represented by Henry Gantt (PSO); all PSC members present."
+  },
+  {
+   "f": "Meeting Agenda (summary)",
+   "what": "A summary of the meeting agenda — objectives and agenda items — so the minutes stand alone without the agenda document attached.",
+   "who": "Minute-taker summarises",
+   "castor": "Debriefing, problems and actions, status against scope/budget/finish date, formal approvals, AOB."
+  },
+  {
+   "f": "Meeting Summary",
+   "what": "Points discussed and outcomes. Must summarise project issues raised, risks identified, decisions taken and changes proposed — the four things the guide names explicitly.",
+   "who": "Minute-taker writes · chair approves",
+   "castor": "Verbal request from a Board of Directors member's cabinet to add SRF-backstop screens to Release 1."
+  },
+  {
+   "f": "Decisions taken — Decision Id",
+   "what": "A stable identifier per decision so it can be cross-referenced from the Decision Log, from issues and from change records.",
+   "who": "Minute-taker allocates · PM maintains the Decision Log",
+   "castor": "D-014 and D-015, both carried into the CASTOR Decision Log on 16 Oct 2026."
+  },
+  {
+   "f": "Decisions taken — Description",
+   "what": "What was decided, in enough detail to be actionable and auditable later; escalated decisions state which body took them.",
+   "who": "Minute-taker writes",
+   "castor": "Request not to be actioned verbally; PM to raise a Change Request; Release 1 scope unchanged pending assessment."
+  },
+  {
+   "f": "Decisions taken — Date of Decision Taken / Decision Owner",
+   "what": "When the decision was made and who owns it. The owner is recorded by initials and is accountable for the decision holding.",
+   "who": "Chair owns PSC decisions",
+   "castor": "15/10/26 · ÉM — Florence Nightingale owns both decisions as chair of the PSC."
+  },
+  {
+   "f": "Actions / ToDo Items — Action Id, Creation Date, Description",
+   "what": "Each action with its identifier, creation date and what must be done. Significant actions are also added to the Project Work Plan, not just to the minutes.",
+   "who": "Minute-taker records · PM consolidates",
+   "castor": "A-031: raise Change Request CR-011 in the Change Log with status Submitted, created 15/10/26."
+  },
+  {
+   "f": "Actions / ToDo Items — Status",
+   "what": "Open, In Progress, Closed or On Hold. The status list is fixed by the template, and open items are carried forward into the next meeting's minutes.",
+   "who": "Owner updates · minute-taker carries forward",
+   "castor": "A-031, A-032 and A-033 all Open at issue; A-031 closed on 21 Oct 2026 when CR-011 was logged."
+  },
+  {
+   "f": "Actions / ToDo Items — Target Resolution Date / Owner",
+   "what": "Deadline and owner initials. Late items must be followed up — the Quality Review Checklist asks whether follow-up on late items happens at all.",
+   "who": "Owner commits in the meeting",
+   "castor": "A-032 impact assessment by Nikola Tesla, due 05/11/26; A-033 legal check by KB, due 29/10/26."
+  },
+  {
+   "f": "Proposed Agenda for Next Meeting / Proposed Next Meeting Date",
+   "what": "Potential agenda items and the date of the next meeting, making the MoM an input into the following meeting rather than a dead record.",
+   "who": "Chair and minute-taker agree",
+   "castor": "19 Nov 2026 — CR-011 impact assessment and PSC decision on the SRF-backstop screens."
+  },
+  {
+   "f": "Related Documents / Location",
+   "what": "Documents referenced during the meeting and where they are stored, so readers of the minutes can reach the evidence.",
+   "who": "Minute-taker lists · PSO stores",
+   "castor": "Change Log, Decision Log and Risk Log in 04 Monitor & Control of the CASTOR repository."
+  }
+ ],
+ "traps": [
+  "MoM items — issues, risks, decisions, changes — must also be recorded in the relevant logs.",
+  "The MoM is a summary, not a register; the Decision Log and Change Log are the registers.",
+  "PSC minutes are taken by the BM, not the PM; the PO chairs.",
+  "A verbal scope request becomes a Change Request, a Change Log entry and a PSC decision — never a favour.",
+  "The Planning Kick-off MoM is a named input to the Project Handbook, not just a courtesy record."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — 18.Minutes_of_Meeting.CASTOR.15-10-2026.v1.0 · Project Steering Committee Meeting · issued 16 Oct 2026 by Grace Hopper (BM)",
+  "rows": [
+   [
+    "Item",
+    "Content"
+   ],
+   [
+    "Meeting Title / Type",
+    "Project CASTOR — Project Steering Committee Meeting (monthly), 15 Oct 2026, 14:00–15:30, ESM Kirchberg + video"
+   ],
+   [
+    "Chair · Minutes by",
+    "Florence Nightingale (PO) · Grace Hopper (BM)"
+   ],
+   [
+    "Present",
+    "ÉM Florence Nightingale (PO) · RT Leonardo da Vinci (SP) · KB Grace Hopper (BM) · PM · AF Marie Curie (UR) · IS Albert Einstein (AO) · BI Gustave Eiffel (CPM, item 4 only)"
+   ],
+   [
+    "Not present",
+    "W. Edwards Deming (PQA) — represented by Henry Gantt (PSO)"
+   ],
+   [
+    "Summary — item 3",
+    "A request reached the PM verbally, via a Board of Directors member's cabinet, to add SRF-backstop screens to Release 1 (26 Mar 2027). The common backstop is not yet in force — ratification is incomplete."
+   ],
+   [
+    "Summary — item 4",
+    "Levallois Systems status since contract award of 18 Sep 2026; monthly Contractor Status Report arriving late."
+   ],
+   [
+    "Decision D-014",
+    "The verbal request will not be actioned as a favour. The PM raises a Change Request; the PSC decides once impact is assessed. 15/10/26 · ÉM"
+   ],
+   [
+    "Decision D-015",
+    "Release 1 scope and date (26 Mar 2027) remain unchanged pending the assessment of CR-011. 15/10/26 · ÉM"
+   ],
+   [
+    "Action A-031",
+    "Raise CR-011 'SRF-backstop screens in Release 1' in the Change Log, status Submitted. Created 15/10/26 · Open · due 22/10/26 · PM"
+   ],
+   [
+    "Action A-032",
+    "Assess CR-011: effort in PD, cost against the €8.4 m budget, impact on the Release 1 date. Created 15/10/26 · Open · due 05/11/26 · JW"
+   ],
+   [
+    "Action A-033",
+    "Confirm with Legal that the backstop instrument is not yet in force, so the requirement is contingent. Created 15/10/26 · Open · due 29/10/26 · KB"
+   ],
+   [
+    "Also recorded in the logs",
+    "CR-011 → Change Log · D-014 and D-015 → Decision Log · new risk 'scope arriving through informal channels' → Risk Log"
+   ],
+   [
+    "Proposed next meeting",
+    "19 Nov 2026 — CR-011 impact assessment and PSC decision"
+   ]
+  ]
+ }
+}

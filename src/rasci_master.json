@@ -1,0 +1,610 @@
+[
+ {
+  "sect": "Initiating",
+  "name": "Project Initiation Request",
+  "row": [
+   "I",
+   "n.a.",
+   "A/S",
+   "R",
+   "S/C",
+   "I",
+   "n.a.",
+   "n.a."
+  ],
+  "A": "PO",
+  "R": "BM"
+ },
+ {
+  "sect": "Initiating",
+  "name": "Business Case",
+  "row": [
+   "I",
+   "C",
+   "A",
+   "R",
+   "C",
+   "S",
+   "S",
+   "n.a."
+  ],
+  "A": "PO",
+  "R": "BM"
+ },
+ {
+  "sect": "Initiating",
+  "name": "Project Charter",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "S",
+   "C",
+   "S",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Planning",
+  "name": "Planning Kick-off Meeting",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "S",
+   "C",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Planning",
+  "name": "Project Handbook",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "S",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Planning",
+  "name": "Project Stakeholder Matrix",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "S",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Planning",
+  "name": "Project Work Plan",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "S/C",
+   "C",
+   "C",
+   "R",
+   "S/C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Planning",
+  "name": "Outsourcing Plan",
+  "row": [
+   "A",
+   "C",
+   "C",
+   "C",
+   "I",
+   "S",
+   "R",
+   "I"
+  ],
+  "A": "AGB",
+  "R": "PM"
+ },
+ {
+  "sect": "Planning",
+  "name": "Deliverables Acceptance Plan",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "S",
+   "I",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Planning",
+  "name": "Transition Plan",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "C",
+   "C",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Planning",
+  "name": "Business Implementation Plan",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "R",
+   "C",
+   "I",
+   "S",
+   "I"
+  ],
+  "A": "PO",
+  "R": "BM"
+ },
+ {
+  "sect": "Management Plans",
+  "name": "Requirements Management Plan",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "C",
+   "C",
+   "I",
+   "R",
+   "S"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Management Plans",
+  "name": "Project Change Management Plan",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "C",
+   "I",
+   "I",
+   "R",
+   "I"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Management Plans",
+  "name": "Risk Management Plan",
+  "row": [
+   "I",
+   "C",
+   "A",
+   "C",
+   "I",
+   "I",
+   "R",
+   "I"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Management Plans",
+  "name": "Issue Management Plan",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "C",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Management Plans",
+  "name": "Quality Management Plan",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "C",
+   "C",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Management Plans",
+  "name": "Communications Management Plan",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "S",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Executing",
+  "name": "Executing Kick-off Meeting",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "S/C",
+   "C",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Executing",
+  "name": "Project Coordination",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "S",
+   "I",
+   "I",
+   "R",
+   "I"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Executing",
+  "name": "Quality Assurance",
+  "row": [
+   "I",
+   "I",
+   "I",
+   "S",
+   "C",
+   "I",
+   "A",
+   "R"
+  ],
+  "A": "PM",
+  "R": "PCT"
+ },
+ {
+  "sect": "Executing",
+  "name": "Project Reporting",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "S/C",
+   "I/C",
+   "I/C",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Executing",
+  "name": "Information Distribution",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "C",
+   "I",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Monitor Project Performance",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "C",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Control Schedule",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "C",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Control Cost",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "C",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Stakeholders",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "S/C",
+   "I",
+   "C",
+   "R",
+   "I"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Requirements",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "C",
+   "C",
+   "I",
+   "R",
+   "S"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Project Changes",
+  "row": [
+   "I",
+   "C",
+   "A",
+   "S",
+   "I",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Risks",
+  "row": [
+   "I",
+   "C",
+   "A",
+   "S/C",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Issues & Decisions",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "S",
+   "C",
+   "I",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Quality",
+  "row": [
+   "I",
+   "I",
+   "I",
+   "S/C",
+   "C",
+   "A",
+   "R",
+   "C"
+  ],
+  "A": "SP",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Deliverables Acceptance",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "S",
+   "C",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PO",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Business Implementation",
+  "row": [
+   "I",
+   "I",
+   "A",
+   "R",
+   "C",
+   "I",
+   "S",
+   "I"
+  ],
+  "A": "PO",
+  "R": "BM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Transition",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "C",
+   "C",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Monitor & Control",
+  "name": "Manage Outsourcing",
+  "row": [
+   "A",
+   "C",
+   "C",
+   "C",
+   "I",
+   "S",
+   "R",
+   "I"
+  ],
+  "A": "AGB",
+  "R": "PM"
+ },
+ {
+  "sect": "Closing",
+  "name": "Project-End Review Meeting",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "S",
+   "C",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Closing",
+  "name": "Project-End Report",
+  "row": [
+   "I",
+   "A",
+   "C",
+   "S",
+   "C",
+   "C",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ {
+  "sect": "Closing",
+  "name": "Administrative Closure",
+  "row": [
+   "I",
+   "C",
+   "A",
+   "C",
+   "I",
+   "C",
+   "R",
+   "I"
+  ],
+  "A": "PO",
+  "R": "PM"
+ }
+]

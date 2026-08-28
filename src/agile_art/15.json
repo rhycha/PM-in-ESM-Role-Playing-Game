@@ -1,0 +1,284 @@
+{
+ "n": 15,
+ "id": "development-work-plan",
+ "name": "Development Work Plan",
+ "group": "Artefacts",
+ "one_liner": "The container of three plans: what to build, when, and how.",
+ "purpose": "The Development Work Plan gathers the information needed to manage the development aspect of the project — a container of different perspectives on what needs to be done and how the development goals will be achieved. It includes the Work Items List, the corresponding Release Plan and the supporting Iteration Plans, and these three elements let the A-PCT set and manage the expectations of the rest of the project organisation. It is a living artefact, kept current with new detail, progress and changing business priorities, and it becomes part of the Project Work Plan.",
+ "guide_page": 74,
+ "meta": [
+  [
+   "Artefact type",
+   "Agile-specific artefact"
+  ],
+  [
+   "Consists of",
+   "Work Items List + Release Plan + Iteration Plan"
+  ],
+  [
+   "PM² equivalent",
+   "Project Work Plan — the Development Work Plan becomes part of it"
+  ],
+  [
+   "Produced by",
+   "Team Coordinator (TeCo) — Responsible, in particular for the Release Plan"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — as on every agile artefact row"
+  ],
+  [
+   "WIL owner",
+   "Product Owner (PrOw) is Responsible for the Work Items List inside it"
+  ],
+  [
+   "Media",
+   "MS Office documents, Atlassian JIRA, IBM Rational Team Concert — tool choice recorded in the Development Handbook"
+  ],
+  [
+   "Lifecycle",
+   "Planning Created · Executing Updated (p.75)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "S",
+   "S",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "1. Work Items List",
+   "items": [
+    "User stories",
+    "Enabler stories",
+    "Defects (bugs)",
+    "Proposed work affecting this or future information systems",
+    "All prioritised and estimated at some point",
+    "The main driver of the project"
+   ]
+  },
+  {
+   "sec": "2. Schedules — two levels of detail",
+   "items": [
+    "Release level schedule = the Release Plan",
+    "Iteration level schedule = the Iteration Plan",
+    "Both derive from the same prioritised Work Items List"
+   ]
+  },
+  {
+   "sec": "Release level — what and when",
+   "items": [
+    "What needs to be done and when it will be released",
+    "Main goals and major features per release",
+    "Visibility of risks, issues, decisions, changes, constraints, assumptions"
+   ]
+  },
+  {
+   "sec": "Iteration level — how",
+   "items": [
+    "How the A-PCT will do the work",
+    "The iteration goal and the work items chosen",
+    "Work items decomposed into tasks"
+   ]
+  },
+  {
+   "sec": "Alignment upward",
+   "items": [
+    "Becomes part of the Project Work Plan",
+    "Aligned with the important project milestones defined by PM and PCT",
+    "Sets and manages the expectations of the other project organisation members"
+   ]
+  },
+  {
+   "sec": "Living artefact",
+   "items": [
+    "New information and detail incorporated as they appear",
+    "Work progress status kept current",
+    "Updated for changing business priorities and needs",
+    "Changes in the Work Items List or in the contents of the Release Plan"
+   ]
+  },
+  {
+   "sec": "Format and media",
+   "items": [
+    "MS Office-based documentation",
+    "Applications such as Atlassian JIRA",
+    "IBM Rational Team Concert",
+    "The choice is a tailoring decision recorded in the Development Handbook"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Work Items List",
+   "what": "All items to be addressed in the IT-domain aspect — user stories, enabler stories, bugs — prioritised and estimated.",
+   "who": "PrOw Responsible · PM Accountable",
+   "pollux": "Curie's list: 96 open items at the RfE gate, every one estimated in points and MoSCoW-ranked."
+  },
+  {
+   "f": "Release Plan",
+   "what": "The release-level schedule. Its focus is primarily on what needs to be done and when.",
+   "who": "TeCo Responsible · PrOw supports",
+   "pollux": "Four releases: 29 Mar, 28 Jun, 27 Sep and 20 Dec 2029."
+  },
+  {
+   "f": "Iteration Plan",
+   "what": "The iteration-level schedule. Its focus is on how the work will be done by the A-PCT.",
+   "who": "TeCo Responsible · ATeM critical contributors",
+   "pollux": "One plan per two-week iteration; iteration 1 opened 08 Jan 2029."
+  },
+  {
+   "f": "What versus how",
+   "what": "Release Plan answers what and when; Iteration Plan answers how. The examinable distinction between the two schedules.",
+   "who": "TeCo owns both schedules",
+   "pollux": "Release 2 says 'reconciliation panel by 28 Jun'; iteration 9 says how the panel gets built."
+  },
+  {
+   "f": "Container, not a document",
+   "what": "Viewed as a container of different perspectives on what needs to be done and how the goals will be achieved.",
+   "who": "TeCo Responsible",
+   "pollux": "POLLUX keeps no Work Plan document — the three views are queries over one tool."
+  },
+  {
+   "f": "Three elements set expectations",
+   "what": "The three elements together let the A-PCT set and manage the expectations of the rest of the project organisation.",
+   "who": "A-PCT collectively · PM Accountable",
+   "pollux": "Gantt's 'agile means no schedule' objection answered by showing all three levels at once."
+  },
+  {
+   "f": "Becomes the Project Work Plan",
+   "what": "The Development Work Plan becomes part of the Project Work Plan, and must align with it.",
+   "who": "PM Accountable · TeCo Responsible",
+   "pollux": "Release dates appear unchanged in the POLLUX Project Work Plan and the Charter milestones."
+  },
+  {
+   "f": "Alignment with project milestones",
+   "what": "Aligned with the important project milestones as defined by the Project Manager and the whole Project Core Team.",
+   "who": "PM and PCT define milestones",
+   "pollux": "Transition into service 31 Jan 2030 constrains Release 4 to 20 Dec 2029."
+  },
+  {
+   "f": "Living artefact",
+   "what": "Kept current by incorporating new information, detail and work progress status as they become available.",
+   "who": "TeCo Responsible",
+   "pollux": "Re-baselined after every Release Planning; v2.0 dated 27 Nov 2028, v6.2 during Release 3."
+  },
+  {
+   "f": "Changing priorities",
+   "what": "Updated as often as necessary to capture changing business priorities — changes in the WIL or in the Release Plan's contents.",
+   "who": "PrOw drives changes · TeCo records",
+   "pollux": "Scenario overlay moved from Release 4 to Release 3 after Risk's Q2 2029 request."
+  },
+  {
+   "f": "Estimation rule",
+   "what": "All work items need to be prioritised and estimated at some point, because the WIL is the main driver of the project.",
+   "who": "ATeM estimate · PrOw prioritises",
+   "pollux": "Relative estimates in points from planning poker; absolute hours only for iteration tasks."
+  },
+  {
+   "f": "Team Coordinator's part",
+   "what": "TeCo collects data on all activities defining the Development Work Plan in general, and the Release Plan in particular.",
+   "who": "TeCo Responsible",
+   "pollux": "Lovelace runs Release Planning and keeps the release-level view current."
+  },
+  {
+   "f": "Architecture Owner's part",
+   "what": "Provides technical advice and constraints per iteration, and helps the PrOw prioritise the WIL and organise the release plans.",
+   "who": "ArOw Supports",
+   "pollux": "Einstein negotiates enabler share per release: never zero, never three iterations in a row."
+  },
+  {
+   "f": "Agile Team Members' part",
+   "what": "Actively support the whole plan and play a critical role in the definition of the Iteration Plans.",
+   "who": "ATeM Support",
+   "pollux": "Lamarr, Babbage and Eiffel size the iteration and decide task breakdown themselves."
+  },
+  {
+   "f": "Project Manager's part",
+   "what": "As accountable, must know how the A-PCT plans to deliver and how that aligns with overall project milestones.",
+   "who": "PM Accountable",
+   "pollux": "You review the plan at each release boundary and carry it into the Project Work Plan."
+  },
+  {
+   "f": "Format and media",
+   "what": "Can be documented in varied formats and media — MS Office documentation or tools such as JIRA or Rational Team Concert.",
+   "who": "TeCo · tailoring in the Development Handbook",
+   "pollux": "One tool holds WIL, releases and iterations; exports feed the Project Work Plan."
+  }
+ ],
+ "traps": [
+  "Development Work Plan becomes part of the Project Work Plan — it does not replace it.",
+  "It is three things: Work Items List, Release Plan, Iteration Plan.",
+  "TeCo is Responsible overall, but the PrOw is Responsible for the WIL.",
+  "Release Plan = what and when; Iteration Plan = how. Do not swap them.",
+  "Created in Planning, updated in Executing — never in Initiating."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Development Work Plan v2.0, baselined 27 Nov 2028",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Consists of",
+    "Work Items List + Release Plan + Iteration Plans"
+   ],
+   [
+    "Work Items List",
+    "96 open items: 61 user stories, 24 enabler stories, 11 defects"
+   ],
+   [
+    "Iteration length",
+    "Two weeks"
+   ],
+   [
+    "Releases",
+    "4 — 29 Mar, 28 Jun, 27 Sep, 20 Dec 2029"
+   ],
+   [
+    "Assumed velocity",
+    "34 points per iteration after iteration 3 (first three ramp up)"
+   ],
+   [
+    "Tooling",
+    "Single agile tool; no parallel documents (tailoring recorded in the Development Handbook)"
+   ],
+   [
+    "Alignment",
+    "Release dates match Project Charter milestones and the Project Work Plan"
+   ],
+   [
+    "Constraint",
+    "Transition into service 31 Jan 2030 fixes Release 4 at 20 Dec 2029"
+   ],
+   [
+    "Responsible · Accountable",
+    "Ada Lovelace (TeCo) · Project Manager (PM)"
+   ],
+   [
+    "WIL Responsible",
+    "Marie Curie (PrOw)"
+   ],
+   [
+    "Informed",
+    "Grace Hopper (BM)"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,299 @@
+{
+ "n": 4,
+ "id": "releases",
+ "name": "Releases",
+ "group": "The Model",
+ "one_liner": "Done items from several iterations, delivered to users as a real product.",
+ "purpose": "A Release is the result of the incremental process applied throughout several iterations: the team releases the solution as a viable product, or Minimum Viable Product, ready to be used by the stakeholders. By default the continuous exposure of Work Items plus demonstrated and validated iteration results already enable a solid Release, though specific requirements may demand extra validation against the Definition of Done. Releases introduce a timeboxed rhythm to the construction effort and give both the A-PCT and the stakeholders some predictability.",
+ "guide_page": 21,
+ "meta": [
+  [
+   "Guide reference",
+   "§3.3.3, pp. 21–22; Release Plan §7.2.2.2, pp. 77–79"
+  ],
+  [
+   "Definition",
+   "An agreed Solution Increment delivered to client and users so they can start using it as a real product"
+  ],
+  [
+   "Contents",
+   "All the Done Work Items from several prior iterations"
+  ],
+  [
+   "Cadence",
+   "Set by the release strategy; releases give the construction effort a timeboxed rhythm"
+  ],
+  [
+   "Planned in",
+   "The Release Plan, part of the Development Work Plan"
+  ],
+  [
+   "Preparation",
+   "May need a Transition Iteration — run like any other iteration"
+  ],
+  [
+   "RAM shown below",
+   "The Release Plan artefact (§7.2.2.2, p. 78) — not a ceremony row"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "S",
+   "S",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "1. How a release is assembled",
+   "items": [
+    "Daily cycles feed iterations; iterations feed releases (Fig. 3.10, p. 19)",
+    "The solution 'grows' towards a release across several iterations (Fig. 3.12, p. 21)",
+    "A release contains all the Done Work Items from several prior iterations",
+    "The release strategy — what is released when — is defined by the Product Owner"
+   ]
+  },
+  {
+   "sec": "2. What makes a release more than an iteration end",
+   "items": [
+    "It is delivered to client and users, who start using it as a real product",
+    "Default assurance comes from continuous exposure plus validated iteration results",
+    "Specific requirements may demand additional validation steps against the Definition of Done",
+    "Complex solutions may need extra preparation: training, fixing a critical bug, extra testing"
+   ]
+  },
+  {
+   "sec": "3. Transition Iteration (p. 22)",
+   "items": [
+    "Fixing a critical or major defect",
+    "Documenting aspects of the system (support and user documentation)",
+    "Additional functional, performance, load, system and integration testing",
+    "Training support personnel and end users",
+    "Updating the Development Plan and/or the Deployment Plan",
+    "One Transition Iteration may not be enough; the team may split into two sub-teams working in parallel",
+    "It is still an iteration: proper ceremonies, Iteration Planning with a Work Items List"
+   ]
+  },
+  {
+   "sec": "4. The Release Plan — what it is for (p. 77)",
+   "items": [
+    "Plan the release of usable versions of the solution",
+    "Provide a high-level plan with the main goals and major features to deliver",
+    "Give visibility of risks, issues, decisions, changes, constraints and assumptions of the development aspect",
+    "Assist in scheduling transition activities, aligned with the PM² Transition Plan",
+    "Assist in scheduling Business Implementation activities, aligned with the PM² Business Implementation Plan"
+   ]
+  },
+  {
+   "sec": "5. Keeping the Release Plan honest (p. 78)",
+   "items": [
+    "Build it as early as possible — preferably at the start of the Planning phase",
+    "Provide different levels of detail: the AGB wants releases and objectives, the PrOw wants which items land where",
+    "Revisit it after each iteration, with the team's updated velocity",
+    "Feasibility = size of the WIL versus velocity; model optimistic and pessimistic velocity",
+    "Make assumptions clear and visible: velocity and the pre-defined iteration size",
+    "Have a Deployment Plan early; it can change both the WIL and the Release Plan"
+   ]
+  },
+  {
+   "sec": "6. Who touches the Release Plan",
+   "items": [
+    "TeCo is Responsible for developing it; PM is Accountable for its alignment with the Charter",
+    "PrOw supplies the delivery strategy: milestone dates, release objectives, features and Work Items",
+    "ATeM and ArOw give viability, dependency and architecture input; BM is informed by the PrOw",
+    "A materially modified Release Plan may need review by the Project Steering Committee (p. 50)"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Release",
+   "what": "An agreed Solution Increment, delivered to client and users so they can start using it as a real product; contains all Done items from prior iterations.",
+   "who": "PrOw sets the strategy · A-PCT delivers",
+   "pollux": "Four releases: 29 Mar, 28 Jun, 27 Sep and 20 Dec 2029."
+  },
+  {
+   "f": "Minimum Viable Product",
+   "what": "The smallest viable version released so stakeholders can use it and the team can measure and learn from real usage.",
+   "who": "PrOw with BM and stakeholders",
+   "pollux": "Release 1: exposure by member state, read-only — nothing else."
+  },
+  {
+   "f": "Done",
+   "what": "A release includes only Done Work Items, judged against the team's Definition of Done, not merely against a story's acceptance criteria.",
+   "who": "A-PCT judges · PrOw accepts",
+   "pollux": "WIL-127 met its criteria in the review but missed the DoD, so it missed the cut."
+  },
+  {
+   "f": "Release strategy",
+   "what": "The organisational strategy — marketing, operational, economic, legal, risk — that defines what, when and to whom the solution is delivered.",
+   "who": "Business owns it · PrOw carries it into the WIL",
+   "pollux": "Read-only first, then instrument depth, then external access, then self-service."
+  },
+  {
+   "f": "Release Plan",
+   "what": "Documents the high-level UX and development milestones: what will be released and when, based on what the PCT knows at that point in time.",
+   "who": "TeCo R · PM A · PrOw S",
+   "pollux": "Version 6 reissued after iteration 7's velocity drop."
+  },
+  {
+   "f": "Levels of detail",
+   "what": "Different audiences need different depth: the AGB checks releases and objectives against strategy; the PrOw needs to know which Work Items land in which release.",
+   "who": "TeCo prepares both views",
+   "pollux": "Medici sees four releases and their objectives; Curie sees the item-level split."
+  },
+  {
+   "f": "Release Plan assumptions",
+   "what": "Velocity and the pre-defined size of each iteration must be stated visibly as the plan's assumptions, because they drive everything else.",
+   "who": "TeCo states them",
+   "pollux": "\"Velocity 34 points; iterations two weeks\" printed on the plan's front page."
+  },
+  {
+   "f": "Feasibility check",
+   "what": "Size of the Work Items List against team velocity; new facts change both continuously, so the plan is re-evaluated after each iteration.",
+   "who": "TeCo calculates · PrOw and BM adjust",
+   "pollux": "202 points remaining ÷ 34 = six build iterations plus a transition iteration."
+  },
+  {
+   "f": "Transition Iteration",
+   "what": "An iteration devoted to making a release land: defect fixes, documentation, extra testing, user and support training, plan updates.",
+   "who": "A-PCT · TeCo facilitates",
+   "pollux": "Iteration 6 (19–30 Mar 2029) shipped Release 1 on Thu 29 Mar."
+  },
+  {
+   "f": "\"Still an iteration\"",
+   "what": "A Transition Iteration has different activities but is not planned differently: proper ceremonies, Iteration Planning with a Work Items List, the same timebox.",
+   "who": "A-PCT",
+   "pollux": "Iteration 6 still ran planning, stand-ups, a review and a retrospective."
+  },
+  {
+   "f": "Splitting the team",
+   "what": "During a Transition Iteration the team may split into two sub-teams in parallel — one on release activities, one on features for the follow-on release.",
+   "who": "A-PCT self-organises",
+   "pollux": "Babbage and Eiffel finished Release 1; Lamarr started Release 2 enablers."
+  },
+  {
+   "f": "Extra validation",
+   "what": "Depending on the solution, additional formalism and validation may be required before a release is accepted as compliant with the Definition of Done.",
+   "who": "PrOw · BM · compliance roles",
+   "pollux": "DPC and LISO sign-off precedes any release opening access to national authorities."
+  },
+  {
+   "f": "Deployment Plan",
+   "what": "The strategy for deploying the software and its updates into production; planned early because it affects both the WIL and the Release Plan.",
+   "who": "TeCo R · PM A",
+   "pollux": "Continuous delivery pipeline agreed with da Vinci's IT & Digital Division."
+  },
+  {
+   "f": "Transition and Business Implementation",
+   "what": "For each planned release, transition activities and business implementation activities are documented and aligned with the PM² plans of the same name.",
+   "who": "BM and BIG plan the business side",
+   "pollux": "Four analysts retrained before Release 1 removes their quarter-end spreadsheets."
+  },
+  {
+   "f": "Dependency management",
+   "what": "The Release Plan makes visible the dependencies the information system has on other projects, systems or operations activities.",
+   "who": "ArOw advises · TeCo records",
+   "pollux": "Everything depends on the CASTOR lending platform, live since May 2028."
+  },
+  {
+   "f": "PSC review",
+   "what": "Depending on the impact, a modified Release Plan may need to be reviewed by the Project Steering Committee before the change is agreed.",
+   "who": "PM escalates · PSC agrees",
+   "pollux": "Moving the scenario overlay out of Release 2 went to the PSC as a scope change."
+  },
+  {
+   "f": "Release Planning ceremony link",
+   "what": "The outputs of the Release Planning steps — items added, updated, removed, and their relative estimates — must be incorporated into the Release Plan.",
+   "who": "PrOw R/A on the WIL · TeCo updates the plan",
+   "pollux": "Ran three times during iteration 7, on 04, 09 and 10 April."
+  },
+  {
+   "f": "Update after every review",
+   "what": "New velocity data generated at the Iteration Review is reflected in the Release Plan by the TeCo, then communicated to the PrOw.",
+   "who": "TeCo updates · PrOw informed",
+   "pollux": "Lovelace reissued the plan after the 13 Apr review, before the retrospective's actions landed."
+  }
+ ],
+ "traps": [
+  "A release is not an iteration end: it is delivered to users as a real product.",
+  "A Transition Iteration is still an iteration, with the full ceremony set.",
+  "The Release Plan is more than a calendar of dates — it carries the release strategy.",
+  "TeCo is Responsible for the Release Plan; the PrOw only supports it.",
+  "Only Done items ship; acceptance criteria alone do not make an item Done."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX Release Plan v6, reissued 13 Apr 2029 after the Iteration 7 Review",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Release 1 — delivered",
+    "29 Mar 2029 · exposure by member state, read-only · shipped from Transition Iteration 6"
+   ],
+   [
+    "Release 2 — planned",
+    "28 Jun 2029 · instrument and maturity views, reconciliation panel"
+   ],
+   [
+    "Release 2 build iterations",
+    "Iterations 7–12; Transition Iteration 13 (25 Jun–06 Jul) carries the deployment"
+   ],
+   [
+    "Release 3 — planned",
+    "27 Sep 2029 · scenario overlay, national-authority access (DPC and LISO gate)"
+   ],
+   [
+    "Release 4 — planned",
+    "20 Dec 2029 · self-service report builder"
+   ],
+   [
+    "Stated assumptions",
+    "Iterations two weeks, fixed · velocity 34 points, revised to 30 after iteration 7"
+   ],
+   [
+    "Scope remaining for Release 2",
+    "202 points at 02 Apr; 181 after iteration 7"
+   ],
+   [
+    "Feasibility verdict",
+    "Tight: at velocity 30 the reconciliation panel is the item at risk"
+   ],
+   [
+    "Change since v5",
+    "Scenario overlay held in Release 3 despite Hopper's request to advance it"
+   ],
+   [
+    "Escalation",
+    "Change of Release 2 content submitted to the PSC by the PM"
+   ],
+   [
+    "Dependencies",
+    "CASTOR lending platform batch window; Finance sign-off on maturity bucket rules"
+   ],
+   [
+    "Benefits tracked",
+    "SC2 — new report view in one iteration instead of one quarter"
+   ],
+   [
+    "Updated by",
+    "Ada Lovelace (TeCo), communicated to Marie Curie (PrOw)"
+   ]
+  ]
+ }
+}

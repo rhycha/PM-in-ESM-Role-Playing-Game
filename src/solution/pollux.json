@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "p-asis",
+    "k": "flow",
+    "t": "AS-IS — how the quarter-end exposure pack is made today",
+    "sub": "Eleven workbooks, four analysts, five working days, and a version-control question nobody can answer",
+    "act": 1,
+    "when": "August 2028, three months after the lending platform went live and before POLLUX exists",
+    "scenes": ["s01", "s03", "s25"],
+    "hi": {"s01": "a5", "s25": "a12"},
+    "lanes": [
+      {
+        "t": "The CASTOR lending platform",
+        "s": [
+          {
+            "id": "a1",
+            "t": "The quarter closes",
+            "d": "At midnight on the last day of the quarter the lending platform holds every facility, every disbursement and every repayment schedule, clean and current. That has been true since it went live in May 2028.",
+            "c": "vendor",
+            "meta": "day 0"
+          },
+          {
+            "id": "a2",
+            "t": "Four extracts, pulled by hand",
+            "d": "An analyst signs into the platform, runs four saved extracts and drops the files on a shared drive. From that moment the figures are no longer the platform's; they are somebody's copy of the platform.",
+            "c": "warn",
+            "meta": "day 1, 08:00"
+          },
+          {
+            "id": "a3",
+            "t": "Nobody else can open it",
+            "d": "The Board of Directors cannot open the platform, Risk cannot open it, and a banking supervisor in Vilnius certainly cannot. Every manual step to the right of this one exists because of that.",
+            "c": "warn",
+            "meta": "permanently"
+          }
+        ]
+      },
+      {
+        "t": "Reporting desk — Marie Curie and three analysts",
+        "s": [
+          {
+            "id": "a4",
+            "t": "Eleven workbooks opened",
+            "d": "Two screens, eleven windows. Each workbook does one slice of the pack and carries its own formulas, written by whoever built it and mostly still working.",
+            "c": "warn",
+            "meta": "day 1–2"
+          },
+          {
+            "id": "a5",
+            "t": "Tab six pasted in from e-mail",
+            "d": "Grace Hopper mails the maturity buckets on the Tuesday and Marie Curie pastes them into tab six. A maturity bucket is exposure sorted by how long the loan still has to run, and this is the hop Internal Audit named twice.",
+            "c": "warn",
+            "meta": "day 2, Tuesday"
+          },
+          {
+            "id": "a6",
+            "t": "Tab nine pasted in from Risk",
+            "d": "Risk runs its quarterly stress scenario in its own tools and sends the result across. It lands beside figures that were extracted two days earlier and nothing in the file says so.",
+            "c": "warn",
+            "meta": "day 3"
+          },
+          {
+            "id": "a7",
+            "t": "Tied back to the accounts by eye",
+            "d": "Finance wants every figure reconciled to the accounts — checked against the general ledger with every difference explained. Today that happens by hand, on the differences somebody happens to look for.",
+            "c": "warn",
+            "meta": "day 3–4"
+          },
+          {
+            "id": "a8",
+            "t": "Pack assembled and formatted",
+            "d": "The eleven workbooks are collapsed into one document and formatted. Four analysts have now spent most of a working week producing numbers a machine already held.",
+            "c": "warn",
+            "meta": "day 5"
+          }
+        ]
+      },
+      {
+        "t": "Other desks that feed it",
+        "s": [
+          {
+            "id": "a9",
+            "t": "Loan Operations sends maturity buckets",
+            "d": "A workbook is prepared on another floor and e-mailed. Nothing links the numbers in it back to the platform records they came from.",
+            "c": "warn",
+            "meta": "Tuesday, by mail"
+          },
+          {
+            "id": "a10",
+            "t": "Risk sends the stress scenario",
+            "d": "The same scenario Risk runs every quarter, in Risk's own spreadsheet, on Risk's own copy of the positions. In April it was weighted, in July unweighted and split by maturity, and both times Risk was right.",
+            "c": "warn",
+            "meta": "by mail"
+          },
+          {
+            "id": "a11",
+            "t": "Finance sends ledger balances",
+            "d": "Finance supplies the figures already tied to the accounts, quarterly, as a file. It is the only external check on the pack and it arrives late enough to be checked rather than used.",
+            "c": "warn",
+            "meta": "by mail"
+          }
+        ]
+      },
+      {
+        "t": "What comes out, and what it costs",
+        "s": [
+          {
+            "id": "a12",
+            "t": "Versions by e-mail",
+            "d": "Draft, final, final with Marie's changes. Which copy is current, who changed it and when — the three questions Internal Audit asked, and the three the file names cannot answer.",
+            "c": "warn",
+            "meta": "days 1–5"
+          },
+          {
+            "id": "a13",
+            "t": "Board pack goes out on the Friday",
+            "d": "One page for the Board of Directors. It goes out, nobody complains, and that is the only review it ever gets.",
+            "c": "esm",
+            "meta": "day 5, 17:00"
+          },
+          {
+            "id": "a14",
+            "t": "Three readers, three different reports",
+            "d": "The Board wants one page, Risk wants stress scenarios on it, Finance wants every figure reconciled. Ask two people what the exposure report should contain and you get two defensible answers that do not match.",
+            "c": "warn",
+            "meta": "every quarter"
+          },
+          {
+            "id": "a15",
+            "t": "Two open audit findings",
+            "d": "Both on reporting version control, both still open in August 2028. Success criterion SC5 exists to close them.",
+            "c": "warn",
+            "meta": "since 2027"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      ["What exposure means", "Exposure is how much the institution has lent or committed to one country at a given date — the amount at risk, not the amount agreed. Three different numbers can honestly be called exposure: committed, drawn and outstanding. Most of the argument each quarter is about which one is meant."],
+      ["The version-control problem, precisely", "Version control means being able to say which copy of a file is current, who changed it and when. Once a figure has been e-mailed and pasted, no file name can answer that, which is why the same finding was raised twice rather than once."],
+      ["Why the platform did not fix this", "Project CASTOR replaced the lending system in May 2028 and the data got cleaner. The five days did not move, because the data was clean inside a system that nobody outside Lending Operations may open."],
+      ["A fictional project", "Project POLLUX, its people and every figure in this atlas are invented for teaching. The European Stability Mechanism, its lending instruments and its governance bodies are real; nothing here describes a real ESM project or real ESM staff."]
+    ]
+  },
+
+  {
+    "id": "p-tobe",
+    "k": "layers",
+    "t": "TO-BE — the exposure reporting portal",
+    "sub": "Read it top to bottom: a number starts in the lending platform and ends on somebody's screen, and never touches a keyboard on the way",
+    "act": 1,
+    "when": "Architecture Overview and Operational Model baselined 27 Nov 2028; built across Releases 1 to 4 in 2029",
+    "scenes": ["s08", "s12", "s19", "s20"],
+    "hi": {"s08": "rep", "s20": "gw"},
+    "legend": [
+      ["vendor", "Reused from the CASTOR lending platform"],
+      ["esm", "New — built by the POLLUX team"],
+      ["data", "Data the portal holds itself"],
+      ["ext", "Outside the ESM — the European Stability Mechanism"]
+    ],
+    "bands": [
+      {
+        "t": "System of record — the CASTOR lending platform",
+        "n": [
+          {
+            "id": "plat",
+            "t": "Loan book",
+            "d": "Every facility, every disbursement, every repayment schedule, live. Since May 2028 this is the only place a position is created or changed, and the portal never writes to it.",
+            "c": "vendor",
+            "tag": "db"
+          },
+          {
+            "id": "ref",
+            "t": "Reference tables",
+            "d": "Member states, instruments, currencies, signature dates, maturity dates — about twenty thousand rows that decide what every figure means. Get these wrong and the totals are still arithmetically correct and still useless.",
+            "c": "vendor",
+            "tag": "db"
+          },
+          {
+            "id": "paud",
+            "t": "Platform audit trail",
+            "d": "Who changed what, when, on what authority. The portal carries this record through to the screen rather than inventing an audit trail of its own.",
+            "c": "vendor",
+            "tag": "db"
+          }
+        ]
+      },
+      {
+        "t": "Nightly feed — one way only",
+        "n": [
+          {
+            "id": "cdc",
+            "t": "Change-data-capture extract",
+            "d": "Change data capture means asking the lending platform only for the rows that changed since last night instead of copying the whole book. It starts at 04:00 and must finish before 06:00, or the one-day quarter-end is a sentence in a business case and nothing else.",
+            "c": "esm",
+            "tag": "batch"
+          },
+          {
+            "id": "sync",
+            "t": "Reference sync and reconciliation",
+            "d": "Reloads the twenty thousand reference rows and reconciles them against the platform, counting and clearing every difference. It writes one line saying when it finished and how many differences it resolved, and that line is the reason the screen above it is not a lie.",
+            "c": "esm",
+            "tag": "batch"
+          },
+          {
+            "id": "guard",
+            "t": "One-way guard",
+            "d": "The feed reads and nothing else. No component of the portal has a path back into the lending platform — the condition the Local Information Security Officer set in December 2028 and checked again in 2030.",
+            "c": "esm",
+            "tag": "api"
+          }
+        ]
+      },
+      {
+        "t": "Reconciled exposure store",
+        "n": [
+          {
+            "id": "rep",
+            "t": "Read-only replica",
+            "d": "A read-only copy of the loan book that every report queries instead of the live platform. This is architecture decision two, and the only one the Architecture Owner called non-negotiable: no live query against the lending platform, ever, in any release, by anyone.",
+            "c": "data",
+            "tag": "db"
+          },
+          {
+            "id": "pos",
+            "t": "Position store",
+            "d": "One row per member state, per instrument, per maturity bucket, per value date, each carrying the identifier of the platform record it came from. This is the table the whole portal is really about.",
+            "c": "data",
+            "tag": "db"
+          },
+          {
+            "id": "ctl",
+            "t": "Finance control file",
+            "d": "The file of figures Finance has already tied to the accounts, delivered quarterly, versioned and owned. It was at version four by April 2029 because the maturity boundaries changed in February and nobody thought that was a change.",
+            "c": "data",
+            "tag": "file"
+          }
+        ]
+      },
+      {
+        "t": "Semantic layer — the words, agreed once",
+        "n": [
+          {
+            "id": "sem-exp",
+            "t": "What counts as exposure",
+            "d": "Committed, drawn and outstanding are three different numbers a reasonable person can call exposure. This layer fixes one definition of each, in one place, so that a Board figure and a Risk figure are the same figure.",
+            "c": "esm",
+            "tag": "rules"
+          },
+          {
+            "id": "sem-buck",
+            "t": "Maturity bucket rules",
+            "d": "Where the boundaries fall between under one year, one to five, five to ten and over ten, and whether the clock runs from the original maturity or from the time still left. Finance owns the rule set and the portal reads the current version instead of keeping a copy.",
+            "c": "esm",
+            "tag": "rules"
+          },
+          {
+            "id": "sem-scn",
+            "t": "Scenario calculation service",
+            "d": "Re-runs the same positions under stress assumptions so Risk can see a bad case. Built in Release 2 as enabling work with no screen at all, which is why Release 3 could ship the overlay in its first iteration instead of its third.",
+            "c": "esm",
+            "tag": "api"
+          }
+        ]
+      },
+      {
+        "t": "Exposure interface and portal views",
+        "n": [
+          {
+            "id": "api",
+            "t": "Exposure API",
+            "d": "One application programming interface — a single agreed way for a screen to ask for figures — that every view in the portal is built on. A new report becomes a new question put to this, which is what turns a quarter of work into an iteration of work.",
+            "c": "esm",
+            "tag": "api"
+          },
+          {
+            "id": "ui-dash",
+            "t": "Exposure dashboard",
+            "d": "Exposure by member state, read-only, one page. Delivered 29 March 2029; the Board Secretariat opened it forty times in five days and asked for four things it did not do.",
+            "c": "esm",
+            "tag": "web"
+          },
+          {
+            "id": "ui-panel",
+            "t": "Reconciliation panel",
+            "d": "Sets each portal figure against Finance's control file and marks every difference, including the case where the control file is out of date and says so on the screen.",
+            "c": "esm",
+            "tag": "web"
+          },
+          {
+            "id": "ui-scn",
+            "t": "Scenario overlay",
+            "d": "The stress view Risk had been asking for since April 2029, laid over reconciled numbers rather than over a copy of them.",
+            "c": "esm",
+            "tag": "web"
+          },
+          {
+            "id": "ui-bld",
+            "t": "Self-service report builder",
+            "d": "Lets a reporting analyst define a new view — measure, slice, basis, value date — without a developer. Delivered 20 December 2029, and the reason the eleventh spreadsheet could be retired that week.",
+            "c": "esm",
+            "tag": "web"
+          }
+        ]
+      },
+      {
+        "t": "Who may see what",
+        "n": [
+          {
+            "id": "role",
+            "t": "Role model",
+            "d": "Board of Directors, Risk, Finance, Lending Operations and national authority are separate roles with separate rights. The rights sit on the data, not on the menu.",
+            "c": "esm",
+            "tag": "api"
+          },
+          {
+            "id": "rowf",
+            "t": "Row-level filter",
+            "d": "A supervisor in Vilnius sees Lithuania — not Portugal, not Greece, and not a total from which Portugal can be worked out. In September 2029 an independent test found two aggregates that leaked exactly that, and they were fixed on the Wednesday.",
+            "c": "esm",
+            "tag": "api"
+          },
+          {
+            "id": "gw",
+            "t": "External access gateway",
+            "d": "The one door out of the building, new in Release 3 and deployed dark a fortnight before anyone could use it. External readers see a role and a date where internal readers see a staff identifier, and nothing on the gateway writes.",
+            "c": "esm",
+            "tag": "api"
+          },
+          {
+            "id": "board",
+            "t": "Board of Directors, Risk, Finance",
+            "d": "Internal readers, each seeing the same figures under the same definitions. The Board's one page and Risk's stress view are now two views of one number rather than two numbers.",
+            "c": "esm",
+            "tag": "web"
+          },
+          {
+            "id": "nat",
+            "t": "Eleven national authorities",
+            "d": "National supervisors and finance ministries, each reading only their own member state. Nine were switched on at 09:00 on 27 September 2029; Estonia and Cyprus were still with their legal services.",
+            "c": "ext",
+            "tag": "web"
+          }
+        ]
+      }
+    ],
+    "flows": [
+      {"a": "plat", "b": "cdc", "t": "04:00 — rows changed since last night"},
+      {"a": "ref", "b": "sync", "t": "twenty thousand reference rows, reconciled"},
+      {"a": "cdc", "b": "rep", "t": "load, complete before 06:00 or held"},
+      {"a": "sync", "b": "pos", "t": "differences counted and cleared"},
+      {"a": "paud", "b": "pos", "t": "who changed it, carried through"},
+      {"a": "sem-buck", "b": "api", "t": "bucket boundaries read, never re-implemented"},
+      {"a": "ctl", "b": "ui-panel", "t": "every figure set against the accounts"},
+      {"a": "api", "b": "ui-dash", "t": "one interface, every view"},
+      {"a": "rowf", "b": "gw", "t": "filter applied before anything leaves the building"},
+      {"a": "gw", "b": "nat", "t": "one switch per authority, turned on by name"}
+    ],
+    "notes": [
+      ["Change data capture, in plain words", "Instead of copying the whole loan book every night, the feed asks the lending platform for the rows that changed since the last run. That is the difference between a job that finishes at 04:12 and a job that finishes at seven, and the whole one-day quarter-end depends on it."],
+      ["Why a read-only copy and not a live query", "A maturity report run against the live platform during a disbursement window would compete with the people actually paying money out. The replica means reporting can never slow down lending, and it means nothing a reader does can reach the system of record."],
+      ["What a semantic layer settles", "In 2028 there were three exposure reports because there were three unwritten definitions of exposure. A semantic layer is where those definitions are written down once, owned, and read by every view — so the argument happens once, in front of Finance, instead of every quarter in a workbook."],
+      ["Reused versus new", "Everything in the top band already existed: the loan book, the reference tables and the audit trail are Project CASTOR's, unchanged. POLLUX adds a one-way feed, a reconciled store, the definitions, one interface and the views — and touches the platform only by reading it."]
+    ]
+  },
+
+  {
+    "id": "p-model",
+    "k": "model",
+    "t": "The exposure data model",
+    "sub": "Member State × Instrument × Maturity bucket — and the link back to the platform record that makes a figure traceable",
+    "act": 2,
+    "when": "Built in Releases 1 and 2; the traceability link is what takes SC4 from about 40% to 100%",
+    "scenes": ["s10", "s13", "s15", "s25"],
+    "hi": {"s10": "src", "s15": "buck"},
+    "ents": [
+      {
+        "id": "ms",
+        "t": "Member State",
+        "d": "A euro area country the institution has lent to or committed to. Also the unit of access: a national authority's account is scoped to exactly one of these.",
+        "f": [["code", "CY"], ["name", "Cyprus"], ["authority", "Central Bank of Cyprus"]],
+        "c": "data"
+      },
+      {
+        "id": "inst",
+        "t": "Instrument",
+        "d": "A defined type of financial support with its own agreement, pricing and pattern of cash flows: stability support loan, bank recapitalisation, precautionary credit line, primary or secondary market support, and the planned common backstop. The portal reads these definitions from the lending platform rather than keeping its own list.",
+        "f": [["code", "PCCL"], ["long name", "Precautionary Conditioned Credit Line"], ["source", "lending platform, read-only"]],
+        "c": "vendor"
+      },
+      {
+        "id": "fac",
+        "t": "Facility",
+        "d": "One signed agreement with one member state under one instrument, with an amount committed and a drawdown schedule. Everything the Board is shown is ultimately a sum over these.",
+        "f": [["reference", "CY-2013-002"], ["committed", "EUR 9.0 bn"], ["signed", "08 May 2013"]],
+        "c": "vendor"
+      },
+      {
+        "id": "pos",
+        "t": "Position",
+        "d": "One measured amount at one date — the atom of the whole portal. Three amounts are held side by side because all three are called exposure by somebody: committed, drawn and outstanding.",
+        "f": [["committed / drawn / outstanding", "three separate figures"], ["value date", "31 Dec 2029"], ["currency", "EUR"]],
+        "c": "data"
+      },
+      {
+        "id": "buck",
+        "t": "Maturity bucket",
+        "d": "The band a position falls into by how long the loan runs: under one year, one to five, five to ten, over ten. The bands are not the portal's opinion — they come from Finance's rule set, which was at version four by April 2029.",
+        "f": [["bands", "<1y · 1–5y · 5–10y · >10y"], ["basis", "original maturity or residual"], ["rule set", "Finance control file v4"]],
+        "c": "esm"
+      },
+      {
+        "id": "src",
+        "t": "Source record link",
+        "d": "The identifier of the exact lending-platform record a position was derived from, stored on the position itself rather than worked out afterwards. This single field is the difference between a figure you can defend and a figure you can only re-derive.",
+        "f": [["platform record id", "DISB-2029-0417"], ["source system", "CASTOR lending platform"], ["last amendment", "Loan Operations Officer · 11 Mar 2029"]],
+        "c": "new"
+      },
+      {
+        "id": "ctl",
+        "t": "Finance control figure",
+        "d": "The accounts' own number for the same thing, loaded from Finance's quarterly control file. Every portal total is set against one of these, and the panel says how old the comparison is.",
+        "f": [["period", "Q4 2029"], ["received", "quarterly, not monthly"], ["status", "matched · difference · stale"]],
+        "c": "data"
+      },
+      {
+        "id": "acc",
+        "t": "Access rule",
+        "d": "Which rows an account may read, applied to the data before any screen is drawn. A national authority's rule limits it to one member state and to aggregates that cannot be used to work out another.",
+        "f": [["scope", "one member state"], ["amendment view", "role and date, not staff identifier"], ["switch", "one per authority"]],
+        "c": "esm"
+      }
+    ],
+    "rels": [
+      {"a": "ms", "b": "fac", "t": "1 → many", "d": "One member state, several agreements over the years, sometimes under different instruments."},
+      {"a": "inst", "b": "fac", "t": "1 → many", "d": "One instrument type, many facility agreements. Adding an instrument to the portal is reading one more code, not writing one more report."},
+      {"a": "fac", "b": "pos", "t": "1 → many", "d": "One agreement produces a new position at every value date it is measured at, which is what lets a past quarter be reproduced exactly."},
+      {"a": "pos", "b": "buck", "t": "many → 1", "d": "Every position falls into exactly one bucket under the rule set in force. Change the rule set version and the same positions bucket differently — which is why the version is stored, not assumed."},
+      {"a": "pos", "b": "src", "t": "1 → 1", "d": "This is the relationship success criterion SC4 is about. Without it a figure is traceable only by a person remembering how they built it; with it, one click reaches the record."},
+      {"a": "ctl", "b": "pos", "t": "1 → many", "d": "One control figure covers the set of positions that roll up to it. The reconciliation panel is this relationship, drawn."},
+      {"a": "acc", "b": "ms", "t": "scopes", "d": "The access rule attaches to the member state, so the filter runs on every row of every query rather than on the buttons of one screen."}
+    ],
+    "notes": [
+      ["Why a value date is on every position", "A value date is the day a position is measured at. Storing it on the row means the fourth-quarter figure produced in January and the same figure re-run in March are the same number — the thing eleven workbooks could never promise."],
+      ["What a maturity bucket is, and why it caused an argument", "A maturity bucket groups exposure by how long the loan still has to run, so a reader can see what falls due soon and what falls due in 2060. Cypriot supervisors report on original maturity, the length at signature; the institution's own pack uses residual maturity, the time left. Holding the basis as a field rather than a habit is what let both be served from one model."],
+      ["What makes a figure traceable", "Three things together: the position carries the identifier of the platform record it came from, the record carries who last amended it and when, and the bucket carries the version of the rule set that placed it there. Remove any one and the click-through still works but the answer stops being defensible."],
+      ["Reconciled to the accounts", "Reconciliation means checking one set of records against another and explaining every difference — not making them agree. The portal reconciles to Finance's control file, and where a difference cannot be explained it is shown as a difference rather than smoothed away."]
+    ]
+  },
+
+  {
+    "id": "p-screen-exposure",
+    "k": "wire",
+    "t": "The exposure dashboard — Release 1",
+    "sub": "Exposure by member state, read-only, one page. Delivered 29 March 2029; the first thing anybody outside Lending Operations could open.",
+    "act": 2,
+    "when": "Release 1, 29 Mar 2029 — six iterations after the team started",
+    "scenes": ["s05", "s09", "s10"],
+    "screen": {
+      "title": "POLLUX · Exposure by member state · value date 31 Dec 2028",
+      "chrome": ["Exposure", "Instruments · June", "Maturity · June", "Reconciliation · June"],
+      "cols": ["Member State", "Instruments", "Committed", "Disbursed", "Outstanding", "Final maturity", "Traced"],
+      "rows": [
+        ["Greece", "2", "€230.6 bn", "€190.8 bn", "€190.8 bn", "2070", "100%"],
+        ["Portugal", "1", "€26.0 bn", "€26.0 bn", "€24.8 bn", "2040", "100%"],
+        ["Ireland", "1", "€17.7 bn", "€17.7 bn", "€17.7 bn", "2042", "100%"],
+        ["Cyprus", "1", "€9.0 bn", "€6.3 bn", "€6.3 bn", "2031", "100%"],
+        ["Spain", "1", "€100.0 bn", "€41.3 bn", "€0.0 bn", "repaid", "100%"],
+        ["Total, 5 member states", "6", "€383.3 bn", "€282.1 bn", "€239.6 bn", "—", "100%"]
+      ],
+      "side": [
+        ["Value date", "31 Dec 2028 — the date the position is measured at, so the page can be re-run in March and match"],
+        ["Filters", "Member state · instrument · value date. Nothing else, on purpose."],
+        ["Read-only", "No editing on the page and no working copy to keep. The moment a figure can be pulled out and changed, an eleventh spreadsheet exists."],
+        ["Every figure", "clicks through to the lending-platform record behind it — from Release 2 onwards"],
+        ["Last loaded", "29 Mar 2029, 04:12 · 20,431 reference rows reconciled · 0 differences open"]
+      ],
+      "call": [
+        ["1", "Three of the four tabs are dark in March. Instruments, maturity and reconciliation arrive on 28 June. Shipping a page with three dark tabs is what makes March a release rather than a promise."],
+        ["2", "The value date is printed on the page, not buried in a file name. Two people opening this on different days see the same number for 31 December, which eleven e-mailed workbooks could never guarantee."],
+        ["3", "The load line at the bottom is the whole argument in one sentence: when the figures were built, how many reference rows were reconciled, and how many differences are still open."],
+        ["4", "Spain sits at zero and stays on the page. A repaid exposure is still a question the Board asks, and dropping the row would be a reporting decision disguised as a filter."]
+      ]
+    },
+    "notes": [
+      ["What the Board actually gets", "One page, five rows, three amounts each. Committed is what was agreed, disbursed is what has been paid out, outstanding is what is still owed — and separating them on the page is what stopped three people using one word for three numbers."],
+      ["Why read-only was the right first release", "Reading is the whole problem: the data was already clean, and nobody outside Lending Operations could see it. A read-only page in March answered that, and it did so in six iterations instead of a year."],
+      ["Forty times in five days", "The Board Secretariat opened it forty times in the first week and asked for four things it did not do. All four became items on the Work Items List, which is what an iterative delivery does with that kind of feedback instead of filing it as a change request."],
+      ["Illustrative figures", "The balances shown are illustrative and set at a fictional December 2028 date. The instruments, the member states and the maturity profiles are drawn from the real lending record of the European Stability Mechanism and of the European Financial Stability Facility, the temporary fund it took over from; the project, the portal and the people are invented."]
+    ]
+  },
+
+  {
+    "id": "p-screen-builder",
+    "k": "wire",
+    "t": "The self-service report builder — Release 4",
+    "sub": "How a new report view is delivered in one iteration instead of one quarter",
+    "act": 3,
+    "when": "Release 4, 20 Dec 2029. The example shown is the request of 4 Mar 2030, delivered on the 15th.",
+    "scenes": ["s13", "s20", "s25"],
+    "screen": {
+      "title": "POLLUX · Report builder · new view — Cyprus, original maturity",
+      "chrome": ["Exposure", "Instruments", "Maturity", "Reconciliation", "Scenarios", "Builder"],
+      "cols": ["Step", "What was chosen", "Where the choice comes from"],
+      "rows": [
+        ["1 · Who reads it", "Central Bank of Cyprus — supervisory reporting", "Access rule: this account reads Cyprus and nothing else"],
+        ["2 · What is measured", "Outstanding exposure", "Semantic layer — one agreed definition, not re-typed here"],
+        ["3 · Sliced by", "Maturity bucket", "Finance rule set, current version, shown on the view"],
+        ["4 · On which basis", "Original maturity, not residual", "The one thing that made this request new"],
+        ["5 · Value date", "31 Dec 2029, locked", "So the view can be re-run in June and match"],
+        ["6 · Shown as", "Table and stacked bars, one page", "Standard components, already accessibility-checked"],
+        ["7 · Carried over", "Row filter · reconciliation status · click-through to source", "Properties of the data, inherited automatically"]
+      ],
+      "side": [
+        ["Request", "Mail from the Central Bank of Cyprus, 09:40, Monday 4 March 2030"],
+        ["Delivered", "Friday 15 March 2030, 11:20 — ten working days, one iteration"],
+        ["Meetings held", "None. Nobody needed to hold one."],
+        ["Since March 2029", "41 report views. Fastest 4 working days, slowest 19, middle 11."],
+        ["Built without a project", "2 of the 41 were built after 31 January 2030 by the run team, with no project behind them"]
+      ],
+      "call": [
+        ["1", "Nothing on this screen is code. A view is a set of choices put to the exposure interface, which is why a new report stops being a project and becomes an afternoon plus a review."],
+        ["2", "Step 4 is the entire request. Cypriot supervisors report on original maturity — the length of the loan at signature — while the institution's own pack uses residual maturity, the time still left to run. In 2028 that difference cost a quarter of argument; here it is one choice, because both definitions already live in the semantic layer."],
+        ["3", "Step 7 is why a builder is safe to hand to a user. The row-level filter, the reconciliation status and the click-through to the source record belong to the data, not to the screen, so a hand-built view cannot quietly lose them."],
+        ["4", "The honest number is eleven working days, not two. The target was one iteration and the middle of forty-one views is eleven days — better than a quarter, worse than the promise, and the figure the team put on the paper."]
+      ]
+    },
+    "notes": [
+      ["Why this was the fourth release and not the first", "In April 2029 the builder was one sentence on the Work Items List and it stayed one sentence, because sizing something that would be rewritten twice before October is wasted work. It could only be built once the definitions underneath it had stopped moving."],
+      ["What self-service does not mean", "It does not mean a user inventing a number. Every measure offered comes from the semantic layer, every bucket from Finance's rule set, and every row from a filtered query — so the freedom is in the question asked, never in the arithmetic."],
+      ["The slowest one was not a technical problem", "Of the forty-one views, the slowest took nineteen working days: an export by maturity bucket. It was slow because it was an argument about what a bucket is, which is exactly the argument the semantic layer exists to have once and record."],
+      ["Success criterion SC2, measured", "Baseline about one quarter; target one iteration, two weeks. The evidence is forty-one deliveries with a middle of eleven working days, two of them delivered after the project had closed by a team that runs the service."]
+    ]
+  },
+
+  {
+    "id": "p-rel",
+    "k": "timeline",
+    "t": "The release train",
+    "sub": "Two-week iterations from 8 January 2029, four releases, and one iteration in January 2030 that builds nothing",
+    "act": 1,
+    "when": "Baselined in the Development Work Plan, 27 Nov 2028; every one of the four dates was met",
+    "scenes": ["s07", "s09", "s14", "s20", "s23"],
+    "rows": [
+      {
+        "t": "Planning",
+        "from": "16 Oct 2028",
+        "to": "04 Dec 2028",
+        "d": "No code. The three levels of plan are written and the architecture is agreed far enough to start, and no further.",
+        "c": "esm",
+        "items": [
+          "Development Handbook and Development Work Plan baselined, 27 Nov 2028",
+          "Architecture Overview v0.9 and Operational Model v1.1",
+          "Work Items List: 96 open items — 61 user stories, 24 enablers, 11 defects",
+          "Velocity assumed at 34 points a fortnight, on no evidence at all"
+        ]
+      },
+      {
+        "t": "Release 1 — exposure by member state",
+        "from": "08 Jan 2029",
+        "to": "29 Mar 2029",
+        "d": "Six iterations. The foundations, plus one read-only page, because a release with nothing on it for a user is not a release.",
+        "c": "new",
+        "items": [
+          "Read-only replica of the lending platform, loading nightly",
+          "Audit trail carried through from the platform",
+          "Half the external access zone — the rest deferred to June",
+          "Exposure by member state, read-only, one page"
+        ]
+      },
+      {
+        "t": "Release 2 — instruments, maturity, reconciliation",
+        "from": "02 Apr 2029",
+        "to": "28 Jun 2029",
+        "d": "The release where a figure becomes defensible: broken down, bucketed, tied to the accounts, and clickable back to its source record.",
+        "c": "new",
+        "items": [
+          "Exposure by instrument, for any member state",
+          "Maturity buckets on Finance's rule set, version four",
+          "Reconciliation panel, including what it says when the control file is stale",
+          "Click-through from any figure to the lending-platform record",
+          "Scenario calculation service — built, demonstrated from a log file, no screen"
+        ]
+      },
+      {
+        "t": "Release 3 — scenarios and national-authority access",
+        "from": "02 Jul 2029",
+        "to": "27 Sep 2029",
+        "d": "The first release where being wrong stops being an internal matter, because data leaves the building.",
+        "c": "new",
+        "items": [
+          "Scenario overlay, accepted 31 Aug 2029",
+          "External access gateway, deployed dark on 25 Sep and opened on the 27th",
+          "Row-level filter, proved by testers who did not write it — 412 queries, two leaks found and fixed",
+          "Nine of eleven national authorities switched on, one at a time, by name"
+        ]
+      },
+      {
+        "t": "Release 4 — self-service report builder",
+        "from": "01 Oct 2029",
+        "to": "20 Dec 2029",
+        "d": "The release that changes who can ask a new question. Also the week the last manually maintained spreadsheet was retired.",
+        "c": "new",
+        "items": [
+          "Report builder: measure, slice, basis, value date, presentation",
+          "Bucket export, after nineteen working days of arguing what a bucket is",
+          "Eleven spreadsheets down to zero, 20 Dec 2029"
+        ]
+      },
+      {
+        "t": "Transition iteration",
+        "from": "07 Jan 2030",
+        "to": "31 Jan 2030",
+        "d": "An iteration planned exactly like the twenty-five before it — goal, list, review, retrospective — that contains no new features at all.",
+        "c": "esm",
+        "items": [
+          "Eleven half-days of training, support cover from 07:00",
+          "Operational Model and Deployment Plan handed to IT operations, 29 Jan 2030",
+          "Service ownership transferred; the Work Items List becomes the service backlog"
+        ]
+      }
+    ],
+    "marks": [
+      {"t": "RfP gate — Ready for Planning", "when": "16 Oct 2028", "d": "Twenty-eight questions, twenty-six clean, two partial. The gates do not disappear because the delivery is iterative."},
+      {"t": "RfE gate — Ready for Executing", "when": "04 Dec 2028", "d": "Forty-three checks. Approved with the deployment dry-run dates still open."},
+      {"t": "Iteration 1 opens", "when": "08 Jan 2029", "d": "Four hours of planning, eight people, one goal set by the Product Owner and agreed by the team."},
+      {"t": "First working increment shown", "when": "19 Jan 2029", "d": "Not a release. An increment, demonstrated against a goal written down in advance."},
+      {"t": "Definition of Done becomes a pipeline gate", "when": "16 Apr 2029", "d": "The accessibility check and the data-protection screening stop being a checklist and start failing builds."},
+      {"t": "Nine authorities switched on", "when": "27 Sep 2029", "d": "09:00, one switch per authority, with the Local Information Security Officer in the room."},
+      {"t": "Transition into service", "when": "31 Jan 2030", "d": "A date, not an intention. Nobody takes ownership of running a system while a project is still accountable for it."},
+      {"t": "RfC gate — Ready for Closing", "when": "14 Feb 2030", "d": "Fourteen days in service, two incidents, both closed by the duty manager from the plan without ringing anybody on the project."},
+      {"t": "Administrative closure", "when": "20 Mar 2030", "d": "€4.38 m of €4.6 m, 1,824 person-days of 1,850, twenty-six iterations, four releases, four dates met."}
+    ],
+    "notes": [
+      ["Why two weeks and not four", "The iteration length is not a habit; it is success criterion SC2. The Business Case promises a new report view in one iteration, so if an iteration were four weeks the criterion would quietly become a month."],
+      ["What a release is, as opposed to an increment", "Every iteration ends with something that works and is shown to stakeholders. A release is the point at which several iterations' worth of that is actually handed over and used — which is why Release 3 shipped on 25 September and was still not a release until the switch was turned on the 27th."],
+      ["Enabling work rides in every release", "The rule the Architecture Owner and the Product Owner agreed in November 2028: enabling work — replica, audit trail, access zone, calculation service — appears in every release and never occupies three iterations in a row with nothing for a user. Three of the twenty-four enabler items carried a March date for exactly that reason."],
+      ["The assumption that survived too long", "The plan was built on thirty-four points a fortnight, invented in November 2028 with no evidence. It was cut to thirty in April 2029 after six iterations of real data, and the lesson recorded at the end was that it had survived that long only because it was written in a document."]
+    ]
+  },
+
+  {
+    "id": "p-pipeline",
+    "k": "flow",
+    "t": "From code to production — the delivery pipeline behind the Definition of Done",
+    "sub": "Nine checks a machine ran, two a good mood ran, and the fortnight that changed the second number to zero",
+    "act": 2,
+    "when": "As it stood on 5 Apr 2029, and as revised on 16 Apr 2029 after a story failed its own review",
+    "scenes": ["s12", "s15", "s17", "s18"],
+    "hi": {"s12": "c8", "s18": "c9"},
+    "lanes": [
+      {
+        "t": "An Agile Team Member",
+        "s": [
+          {
+            "id": "c1",
+            "t": "Test written first",
+            "d": "The reconciliation tests were written on the Tuesday, before the code they test existed, and nine of them failed for two days on purpose. Writing the test first means the code has to earn its way past a condition somebody agreed in advance.",
+            "c": "esm",
+            "meta": "Tuesday"
+          },
+          {
+            "id": "c2",
+            "t": "Code written until the test passes",
+            "d": "The design grows and is reshaped as it goes rather than being drawn in full first. What keeps that safe is the test suite underneath it, not anyone's memory.",
+            "c": "esm",
+            "meta": "Tue–Thu"
+          },
+          {
+            "id": "c3",
+            "t": "Merged at least once a day",
+            "d": "Everybody's work joins the main line daily, so a clash is found while the change is still fresh in somebody's head. Three builds broke in the fortnight to 5 April and all three were green again within two hours.",
+            "c": "esm",
+            "meta": "daily"
+          }
+        ]
+      },
+      {
+        "t": "The pipeline — checks a machine runs",
+        "s": [
+          {
+            "id": "c4",
+            "t": "Build",
+            "d": "The change is compiled and packaged automatically the moment it is merged. Nobody assembles anything by hand, so nobody can assemble it slightly differently.",
+            "c": "esm",
+            "meta": "~4 min"
+          },
+          {
+            "id": "c5",
+            "t": "Unit tests and coverage",
+            "d": "Every small piece is tested on its own and the proportion of code covered is reported. It sat at 81% from February to April, which the team put on the retrospective wall precisely because nobody could say whether that was good.",
+            "c": "esm",
+            "meta": "~9 min"
+          },
+          {
+            "id": "c6",
+            "t": "Static analysis",
+            "d": "The code is inspected without being run, for the patterns that are known to cause trouble later. Cheap, boring, and it catches the thing a tired person merges at half past four.",
+            "c": "esm",
+            "meta": "~3 min"
+          },
+          {
+            "id": "c7",
+            "t": "Integration tests",
+            "d": "The pieces are run together — feed, store, interface, screen — to prove they still agree with each other about what a position is.",
+            "c": "esm",
+            "meta": "~20 min"
+          },
+          {
+            "id": "c8",
+            "t": "Accessibility check",
+            "d": "Proves the page can be used by someone navigating by keyboard or reading with assistive software. Until 16 April 2029 this was line eight of a checklist; it now fails the build rather than warning about it.",
+            "c": "new",
+            "meta": "gate since 16 Apr 2029"
+          },
+          {
+            "id": "c9",
+            "t": "Data-protection screening",
+            "d": "Any change that puts a source record in front of a reader is stopped until the Data Protection Coordinator — the person accountable for how personal data is handled — has screened it. It blocks the merge; it does not send a reminder.",
+            "c": "new",
+            "meta": "gate since 16 Apr 2029"
+          },
+          {
+            "id": "c10",
+            "t": "Nightly suite — 410 scenarios",
+            "d": "The whole set of existing tests is re-run at 02:00 against the replica, to prove that this fortnight's work has broken nothing built in the last twelve months.",
+            "c": "esm",
+            "meta": "02:00 daily"
+          }
+        ]
+      },
+      {
+        "t": "Environments",
+        "s": [
+          {
+            "id": "c11",
+            "t": "Pre-production",
+            "d": "Nothing reaches pre-production on a red suite. That is not one developer's preference; it is written in the Test Plan the team itself owns.",
+            "c": "esm",
+            "meta": "on green only"
+          },
+          {
+            "id": "c12",
+            "t": "Deployed dark to production",
+            "d": "The portal and the interface run as two of everything: traffic is moved across and can be moved back in ninety seconds. The store cannot work that way — putting the replica back takes ninety minutes, and the plan says so in plain words.",
+            "c": "esm",
+            "meta": "22:00, decision by name"
+          },
+          {
+            "id": "c13",
+            "t": "Smoke test against last night's control figure",
+            "d": "One member state's total is compared with the reconciled figure from the overnight run and must match to the cent, or the deployment has failed. The script chooses the member state, because a fixed choice eventually becomes the only one that works.",
+            "c": "esm",
+            "meta": "immediately after"
+          },
+          {
+            "id": "c14",
+            "t": "Switched on",
+            "d": "A finished feature waits behind a switch until somebody decides a reader may see it. The day a thing ships and the day a supervisor may look at it are two different events, and only the first belongs to the operations team.",
+            "c": "new",
+            "meta": "one switch per feature, per authority"
+          }
+        ]
+      },
+      {
+        "t": "Where a person still decides",
+        "s": [
+          {
+            "id": "c15",
+            "t": "Acceptance criteria — the Product Owner",
+            "d": "What the item must do, written on the card before it was built and ticked out loud in the Iteration Review, criterion by criterion, in front of the room.",
+            "c": "esm",
+            "meta": "review day"
+          },
+          {
+            "id": "c16",
+            "t": "Definition of Done — the team",
+            "d": "The eleven conditions the team agreed every item must meet, whatever it does: reviewed, tested, accessible, screened. Acceptance is the Product Owner's; Done is the team's, and confusing the two cost an item its acceptance on 13 April 2029.",
+            "c": "esm",
+            "meta": "every item"
+          },
+          {
+            "id": "c17",
+            "t": "Go or no-go at 22:00 — the duty manager",
+            "d": "Not 22:30 while somebody has one more idea. Twenty-two hundred, one name, and the name belongs to the person who will be awake at four in the morning if it goes wrong.",
+            "c": "esm",
+            "meta": "release nights"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      ["A checklist is not a gate", "On 5 April 2029 the wall showed nine green lights and two conditions that a person was supposed to remember. On 13 April an item met every one of its acceptance criteria in front of eleven people and was still not Done, because neither of those two had been run. A gate stops something; a checklist only reproaches you afterwards."],
+      ["What changed, and how fast", "The team's own retrospective on 13 April produced three actions with names on them. One of them — put both checks in the pipeline, and make the accessibility one fail the build — was a work item by that evening and a revision to a baselined handbook by 16 April. Three days, no committee."],
+      ["Continuous integration, in plain words", "Everyone merges their work into the shared main line at least once a day. It sounds like a discipline for developers; it is really a schedule risk control, because it converts one enormous integration problem in September into three small red builds in April."],
+      ["Why the two manual checks were the ones that failed", "They were nobody's. Nine checks belonged to a machine and had an owner by definition; two belonged to whoever remembered. The fix was not more diligence, it was giving them the same owner the other nine had."]
+    ]
+  },
+
+  {
+    "id": "p-figure",
+    "k": "seq",
+    "t": "A figure's journey — from a disbursement record to a number on the Board's page",
+    "sub": "Every hop where reconciliation happens, and what 'traceable without manual mapping' actually means",
+    "act": 2,
+    "when": "The path as it exists from Release 2, 28 Jun 2029, when the click-through to the source record shipped",
+    "scenes": ["s10", "s12", "s15", "s19"],
+    "hi": {"s10": "rec", "s15": "ui"},
+    "actors": [
+      {"id": "plat", "t": "CASTOR lending platform"},
+      {"id": "feed", "t": "Nightly feed"},
+      {"id": "rep", "t": "Read-only replica"},
+      {"id": "rec", "t": "Reconciliation service"},
+      {"id": "sem", "t": "Semantic layer"},
+      {"id": "api", "t": "Exposure API"},
+      {"id": "ui", "t": "Portal"},
+      {"id": "user", "t": "Board reader or Risk analyst"}
+    ],
+    "msgs": [
+      {
+        "a": "plat",
+        "b": "feed",
+        "t": "04:00 — the rows that changed since last night",
+        "d": "The platform holds one record for each tranche ever paid out under the Cypriot facility — amount, value date, approver — and one of them was amended on 12 December 2029. The feed asks only for the rows that moved, which is why it finishes in minutes rather than hours.",
+        "c": "vendor"
+      },
+      {
+        "a": "feed",
+        "b": "rep",
+        "t": "load into the read-only copy",
+        "d": "The changed rows land in the replica. Nothing here is retyped and nothing is interpreted yet; it is the platform's data in a place the platform does not have to serve.",
+        "c": "esm"
+      },
+      {
+        "a": "feed",
+        "b": "rec",
+        "t": "reconcile the reference tables",
+        "d": "The first reconciliation: twenty thousand reference rows — member states, instruments, dates — compared against the platform, with every difference counted and cleared. The run writes one line saying it finished at 04:12 and how many differences it resolved.",
+        "c": "esm"
+      },
+      {
+        "a": "rec",
+        "b": "rep",
+        "t": "cleared — or the load is held",
+        "d": "If a difference cannot be explained the load stops and an alert goes out before 06:00, naming the step and the last good batch. A portal that is confidently wrong is worse than a portal that is an hour late.",
+        "c": "new"
+      },
+      {
+        "a": "rep",
+        "b": "sem",
+        "t": "positions, not yet meaning anything",
+        "d": "What comes out of the replica is amounts against facilities. It is not yet exposure, because nobody has said which of committed, drawn and outstanding is meant.",
+        "c": "esm"
+      },
+      {
+        "a": "sem",
+        "b": "api",
+        "t": "outstanding exposure, sorted into maturity buckets",
+        "d": "The definitions are applied: one meaning of exposure, and the bucket boundaries from Finance's rule set at its current version. The version travels with the figure, so a re-run in March produces the same answer as the run in January.",
+        "c": "esm"
+      },
+      {
+        "a": "api",
+        "b": "rec",
+        "t": "how does this total compare with the accounts?",
+        "d": "Second reconciliation. The panel sets the portal's total against Finance's control file — the quarterly file of figures already tied to the general ledger — and marks every difference rather than smoothing it.",
+        "c": "esm"
+      },
+      {
+        "a": "rec",
+        "b": "api",
+        "t": "matched · difference · control file stale",
+        "d": "Three answers, not two. Because the control file arrives quarterly rather than monthly, the panel also has to say when a match is three months old, and what a reader is entitled to conclude from that.",
+        "c": "new"
+      },
+      {
+        "a": "api",
+        "b": "ui",
+        "t": "one query, one page",
+        "d": "Every view in the portal — the Board's page, the instrument breakdown, the scenario overlay, a report built this morning — asks the same application programming interface, the one agreed way a screen may ask for figures. That is why a new view costs an iteration rather than a quarter.",
+        "c": "esm"
+      },
+      {
+        "a": "ui",
+        "b": "user",
+        "t": "€6.3 bn against Cyprus, as at 31 Dec 2029",
+        "d": "One number on a page, with the value date beside it and the reconciliation status under it. Nobody typed it, nobody pasted it, and nobody e-mailed it.",
+        "c": "esm"
+      },
+      {
+        "a": "user",
+        "b": "ui",
+        "t": "click the figure",
+        "d": "The reader does not ask an analyst where the number came from. They click it, which is the whole of success criterion SC4 expressed as a gesture.",
+        "c": "new"
+      },
+      {
+        "a": "ui",
+        "b": "rep",
+        "t": "which records make up this number?",
+        "d": "The question goes back down the same path. Each position stored in the replica carries the identifier of the platform record it came from, so nothing has to be matched up by hand.",
+        "c": "esm"
+      },
+      {
+        "a": "rep",
+        "b": "user",
+        "t": "position · instrument · value date · source system · last amendment",
+        "d": "The record behind the figure, in under a second. An internal reader sees the staff identifier of whoever last amended it; an external reader sees a role and a date — Loan Operations Officer, 11 March — because the same record has two lawful views.",
+        "c": "new"
+      }
+    ],
+    "notes": [
+      ["Traceable without manual mapping", "Manual mapping is a person deciding which platform record a spreadsheet figure corresponds to. It is why the old pack was about 40% traceable: the rest had been re-keyed, pasted or aggregated somewhere no link survived. Storing the source identifier on the position removes the person from that step entirely."],
+      ["Three places reconciliation happens", "Nightly, against the platform's reference tables. On the page, against Finance's control file. And once more at every deployment, where one member state's total must match the previous night's reconciled figure to the cent or the release is a failure."],
+      ["Why the value date travels with the number", "A value date is the day a position is measured at. Because it is carried with the figure rather than written in a file name, the fourth-quarter number produced in January and re-run in March are provably the same number — which is what closes an audit finding about version control."],
+      ["The demonstration nobody wanted to watch", "The nightly reconciliation was demonstrated at an Iteration Review as a log file: twenty thousand rows, a timestamp, a count of differences resolved. Eleven people watched a text file, and the Product Owner accepted it, because it was the reason the previous three minutes of screens had not been a lie."]
+    ]
+  },
+
+  {
+    "id": "p-vs",
+    "k": "matrix",
+    "t": "Before and after — the five success criteria, drawn",
+    "sub": "Three of five met on the day the project closed, and the honest wording of the other two",
+    "act": 3,
+    "when": "Baseline August 2028; measured at the Ready for Closing gate, 14 Feb 2030, and at administrative closure, 20 Mar 2030",
+    "scenes": ["s01", "s03", "s23", "s25"],
+    "cols": ["Before — quarter-end, 2028", "After — at closure, 20 March 2030"],
+    "rows": [
+      {
+        "t": "SC1 · Quarter-end pack assembly",
+        "v": [
+          "Five working days, four analysts, eleven workbooks, every quarter.",
+          "January 2030's pack took two days and two analysts. The target is one and one, and the first clean measurement is the April 2030 pack — three weeks after the project stopped existing."
+        ],
+        "c": "warn"
+      },
+      {
+        "t": "SC2 · Time to deliver a new report view",
+        "v": [
+          "About one quarter: a specification, a queue, and an argument about what a bucket is.",
+          "Forty-one views since March 2029. Fastest four working days, slowest nineteen, middle eleven. The Cyprus request of 4 March 2030 was delivered on the 15th, with no meeting held about it."
+        ],
+        "c": "new"
+      },
+      {
+        "t": "SC3 · Manually maintained spreadsheets in the reporting chain",
+        "v": [
+          "Eleven. Two of them fed by e-mail from other floors.",
+          "Zero since 20 December 2029. Eleven were already down to two by October 2029, which is what an incremental delivery looks like from the outside."
+        ],
+        "c": "new"
+      },
+      {
+        "t": "SC4 · Figures traceable to the platform without manual mapping",
+        "v": [
+          "About 40%. Tab six arrived by e-mail and tab nine was pasted out of Risk's own tools, and neither carried a link back to anything.",
+          "100%, and testable from a chair in about forty seconds: click any figure on any page and reach the lending-platform record behind it."
+        ],
+        "c": "new"
+      },
+      {
+        "t": "SC5 · Open internal-audit findings on reporting version control",
+        "v": [
+          "Two, both open since 2027, both about which copy is current and who changed it.",
+          "One closed in February 2030. The second closed subject to a follow-up review in September 2030 — so on the day the project closes, it is not met, and the report says exactly that."
+        ],
+        "c": "warn"
+      },
+      {
+        "t": "Who can see the numbers",
+        "v": [
+          "Lending Operations. The Board read a document, Risk read a workbook, and a supervisor in Vilnius read nothing at all.",
+          "Board of Directors, Risk, Finance and nine of eleven national authorities, each reading only the rows they are entitled to, from the same store."
+        ],
+        "c": "new"
+      },
+      {
+        "t": "What 'exposure' means",
+        "v": [
+          "Three defensible answers that did not match, and a fourth every time Risk changed the question.",
+          "One definition of each measure, written down once, owned, and read by every view including the ones a user builds."
+        ],
+        "c": "new"
+      },
+      {
+        "t": "Money, effort and dates",
+        "v": [
+          "Budget €4.6 m · 1,850 person-days · 18 months, approved 12 October 2028.",
+          "€4.38 m spent, 1,824 person-days used, twenty-six iterations, four releases, all four on their dates. €220,000 returned to the portfolio."
+        ],
+        "c": "esm"
+      }
+    ],
+    "notes": [
+      ["Three of five is the honest score", "Two criteria could not be met on the closing day for reasons that were never in the project's gift: a quarter-end cycle can only be measured at a quarter-end, and an audit finding closes when Internal Audit says so. Wording that as success would have been the easy sentence and the wrong one."],
+      ["Why measurement outlives the project", "Benefits are measured against the Business Case, which does not close when the project does. The Project Owner keeps that, owning a running service rather than chairing a committee for a project that finished in January and is pretending otherwise."],
+      ["The criterion that carried the argument", "SC2 — a new view in one iteration instead of a quarter — is the reason the delivery was iterative at all. Take that criterion out of the Business Case and by March the project is simply a slow portal project with a fashionable vocabulary."],
+      ["What nobody could say in either column", "In August 2028 nobody could tell you what the exposure report should contain. In February 2030 nobody could either. That was never a failure of analysis; it was the true state of the problem, and the approach was chosen because it could live with it."]
+    ]
+  }
+]

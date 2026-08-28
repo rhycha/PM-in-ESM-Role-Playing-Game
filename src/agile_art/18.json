@@ -1,0 +1,293 @@
+{
+ "n": 18,
+ "id": "iteration-plan",
+ "name": "Iteration Plan",
+ "group": "Artefacts",
+ "one_liner": "One iteration, one plan: the goal, the items, and how.",
+ "purpose": "In its minimal form the Iteration Plan is the subset of the Work Items List planned for the upcoming iteration, with the iteration start and end dates, the Iteration Goal defined by the Product Owner and committed to by the A-PCT, and every work item needed to achieve that goal. It may also capture synchronisation points with other teams and the issues and risks to be solved during the iteration. It helps the team monitor progress — with an iteration Kanban board and burndown charts — and keeps the iteration's results for later assessment based on the Iteration Review's outputs.",
+ "guide_page": 80,
+ "meta": [
+  [
+   "Artefact type",
+   "Agile-specific artefact — the iteration-level schedule of the Development Work Plan"
+  ],
+  [
+   "PM² equivalent",
+   "Part of the Development Work Plan, which becomes the Project Work Plan"
+  ],
+  [
+   "Produced by",
+   "Team Coordinator (TeCo) — Responsible"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — goal aligned with Release Plan strategy and Charter"
+  ],
+  [
+   "Focus",
+   "How the work will be done — the Release Plan already said what and when"
+  ],
+  [
+   "PrOw",
+   "Consulted (C) — the only artefact row where the Product Owner is Consulted"
+  ],
+  [
+   "Opens with",
+   "Iteration Planning ceremony · Closes with the Iteration Review"
+  ],
+  [
+   "Lifecycle",
+   "Created and Updated every iteration; the p.80 phase table prints Created/Updated in three columns"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "C",
+   "S",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "1. Minimal form",
+   "items": [
+    "The set of work items planned for the upcoming iteration — a subset of the WIL",
+    "The iteration start and end dates",
+    "The Iteration Goal",
+    "The list of all work items that must be delivered to achieve that goal"
+   ]
+  },
+  {
+   "sec": "2. The Iteration Goal",
+   "items": [
+    "Defined by the Product Owner (PrOw)",
+    "Committed to by the whole A-PCT",
+    "Must be aligned with the Release Plan strategy and the Project Charter"
+   ]
+  },
+  {
+   "sec": "3. Also captured",
+   "items": [
+    "Synchronisation points with other teams, especially in other projects",
+    "Issues and risks that need to be solved during the iteration",
+    "Evaluation results"
+   ]
+  },
+  {
+   "sec": "4. Monitoring the iteration",
+   "items": [
+    "One central source for the iteration goal",
+    "A visualisation of the iteration's scope",
+    "An iteration Kanban board",
+    "The iteration burndown chart, initialised at Iteration Planning",
+    "An indicator of progress and a forecast of work completion"
+   ]
+  },
+  {
+   "sec": "5. Decomposition",
+   "items": [
+    "Work items may belong to a feature — a recognisable, valuable part of the solution",
+    "Work items are decomposed into the tasks required to complete them",
+    "Tasks estimated at no more than twelve hours each (p.43)",
+    "Team capacity computed in hours before commitment (p.43)"
+   ]
+  },
+  {
+   "sec": "6. Priority inside an iteration",
+   "items": [
+    "Items assigned to an iteration do not necessarily have the same priority",
+    "Once assigned, the team ensures it completes all the work regardless of original priorities",
+    "Exception: items representing blocking dependencies with other teams",
+    "What to develop first varies across projects and iterations"
+   ]
+  },
+  {
+   "sec": "7. Closing the plan",
+   "items": [
+    "The Iteration Review's conclusions are recorded in the plan",
+    "Was the Iteration Goal achieved?",
+    "Were any work items not delivered successfully, and why?",
+    "Kept for present and future reference and improvement"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Iteration Goal",
+   "what": "Defined by the Product Owner and committed to by the A-PCT; the single thing the iteration is trying to achieve.",
+   "who": "PrOw defines · A-PCT commits",
+   "pollux": "Iteration 9: 'Finance can reconcile portal totals to the accounts without a spreadsheet.'"
+  },
+  {
+   "f": "Start and end dates",
+   "what": "The iteration's timebox — fixed dates, with scope actively managed to meet them rather than the reverse.",
+   "who": "TeCo Responsible",
+   "pollux": "Iteration 9 runs 07–18 May 2029; the two-week timebox never moves."
+  },
+  {
+   "f": "Subset of the Work Items List",
+   "what": "The set of work items — a subset of the WIL — planned for the upcoming iteration.",
+   "who": "PrOw Consulted for the prioritised WIL",
+   "pollux": "Nine items pulled from the top of Curie's list, worth 34 points."
+  },
+  {
+   "f": "Work items for the goal",
+   "what": "The list of all work items that must be delivered to achieve the Iteration Goal — not merely the highest-priority ones.",
+   "who": "ATeM Support · TeCo Responsible",
+   "pollux": "WIL-033 reconciliation plus BUG-112 rounding, because reconciliation is meaningless while the bug stands."
+  },
+  {
+   "f": "Tasks",
+   "what": "Work items are decomposed into the tasks required to complete them, each taken and estimated by a team member.",
+   "who": "ATeM Support",
+   "pollux": "Babbage took the reconciliation query tasks; Lamarr took the panel and its accessibility work."
+  },
+  {
+   "f": "Team capacity",
+   "what": "Availability in hours per member, net of holidays and unplanned-event allowance, determines what can be committed.",
+   "who": "ATeM compute · TeCo facilitates",
+   "pollux": "Eight members, nine working days, seven hours, minus 10% for unplanned work."
+  },
+  {
+   "f": "Synchronisation points",
+   "what": "Points where the iteration depends on other teams, especially teams in different projects.",
+   "who": "TeCo Responsible · ArOw Supports",
+   "pollux": "CASTOR extract freeze window shared with Lending Operations for the whole iteration."
+  },
+  {
+   "f": "Issues and risks",
+   "what": "The plan is also used to refer to issues, risks and similar items that must be solved during the iteration.",
+   "who": "TeCo records · PM Accountable",
+   "pollux": "Issue: Finance's rule set arrived two days late, recorded against iteration 9."
+  },
+  {
+   "f": "Iteration burndown chart",
+   "what": "Initialised from the Iteration Planning inputs and updated constantly to reflect planned versus achieved work.",
+   "who": "TeCo Responsible · ATeM update",
+   "pollux": "Updated daily after the stand-up; flat first three days exposed the late rule set."
+  },
+  {
+   "f": "Kanban board",
+   "what": "An iteration Kanban board visualising the scope and state of the iteration's work items.",
+   "who": "A-PCT collectively",
+   "pollux": "Board in the team space at Kirchberg; Gantt visits it instead of asking for a schedule."
+  },
+  {
+   "f": "Progress and forecast",
+   "what": "Provides an indicator of the team's current progress and a forecast for completion of the iteration's work.",
+   "who": "TeCo Responsible",
+   "pollux": "Forecast at day 6 showed the scenario spike would not finish; it was dropped, not extended."
+  },
+  {
+   "f": "Features",
+   "what": "Work items can be part of a feature — a functional unit representing a recognisable and valuable part of the solution.",
+   "who": "PrOw Consulted",
+   "pollux": "Iteration 9 items all belong to feature F2, instrument and maturity views."
+  },
+  {
+   "f": "Priority rule inside the iteration",
+   "what": "Once items are assigned the team completes all of them regardless of original priorities, except blocking dependencies with other teams.",
+   "who": "A-PCT self-organises",
+   "pollux": "The 3-point bug is finished alongside the 13-point story; neither is 'the important one'."
+  },
+  {
+   "f": "One iteration, one plan",
+   "what": "Every iteration starts with Iteration Planning and ends with the Iteration Review; that is captured in one unique plan.",
+   "who": "TeCo Responsible",
+   "pollux": "Thirty-nine iteration plans over POLLUX's eighteen months, each self-contained."
+  },
+  {
+   "f": "Living artefact",
+   "what": "Not static: the burndown must reflect the current situation and iteration scope may be revised mid-iteration.",
+   "who": "TeCo Responsible · ATeM Support",
+   "pollux": "Scope revised on day 6 of iteration 9 when the scenario spike was dropped."
+  },
+  {
+   "f": "Iteration Review conclusions",
+   "what": "The Review's conclusions — goal achieved or not, items not delivered and why — are recorded as part of the plan.",
+   "who": "TeCo records · PrOw evaluates",
+   "pollux": "Iteration 9 closed: goal achieved, one item carried over, retrospective actions logged separately."
+  },
+  {
+   "f": "Software tools",
+   "what": "Before compiling this by hand, investigate software tools that may save a significant amount of time.",
+   "who": "TeCo · tailoring in the Development Handbook",
+   "pollux": "Plans are views in the agile tool; no iteration plan document exists in POLLUX."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "BM I · PM A · TeCo R · PrOw C · ArOw S · ATeM S — PrOw is Consulted, providing goal and prioritised WIL.",
+   "who": "PM Accountable · TeCo Responsible",
+   "pollux": "Lovelace builds the plan; Curie is consulted for the goal; Hopper is informed of what to expect."
+  }
+ ],
+ "traps": [
+  "PrOw is Consulted here but Supports on the Release Plan.",
+  "Iteration Plan = how; Release Plan = what and when.",
+  "The Iteration Goal is the PrOw's; the plan is the TeCo's.",
+  "Inside an iteration, original item priorities stop mattering — everything committed gets done.",
+  "Iteration burndown tracks effort; release burndown tracks functionality."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Iteration Plan 9, 07–18 May 2029 (Release 2)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Iteration Goal",
+    "Finance can reconcile portal totals to the accounts without a spreadsheet"
+   ],
+   [
+    "Dates",
+    "07 May 2029 – 18 May 2029 (two weeks, nine working days)"
+   ],
+   [
+    "Capacity",
+    "8 members × 9 days × 7 hours, less 10% for unplanned work"
+   ],
+   [
+    "Committed",
+    "34 points — WIL-033, WIL-021, WIL-090, BUG-112 and five tasks-only items"
+   ],
+   [
+    "Synchronisation",
+    "CASTOR extract freeze agreed with Lending Operations for the whole iteration"
+   ],
+   [
+    "Risk / issue",
+    "Finance rule set arrived two days late — burndown flat to day 3"
+   ],
+   [
+    "Mid-iteration change",
+    "Scenario spike dropped on day 6 after the day-6 forecast"
+   ],
+   [
+    "Review outcome",
+    "Goal achieved; one item carried to iteration 10; demo accepted by Hopper and Finance"
+   ],
+   [
+    "Responsible · Accountable",
+    "Ada Lovelace (TeCo) · Project Manager (PM)"
+   ],
+   [
+    "Consulted · Informed",
+    "Marie Curie (PrOw) · Grace Hopper (BM)"
+   ]
+  ]
+ }
+}

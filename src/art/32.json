@@ -1,0 +1,369 @@
+{
+ "n": 32,
+ "id": "stakeholders-checklist",
+ "name": "Stakeholders Checklist",
+ "family": "Monitor & Control",
+ "one_liner": "Did we actually do the stakeholder work this phase? Yes/No, phase by phase.",
+ "purpose": "The Stakeholders Checklist is a document created to help deal with stakeholders during the lifecycle of the project. Its main purpose is to support the Project Manager in verifying whether the activities related to the key stakeholders were performed as planned. It is reviewed and customised at the start of each phase and used to identify specific actions to be taken at specific moments.",
+ "guide_page": 73,
+ "rasci": null,
+ "created_in": "Initiating Phase; reviewed and customised at the start of every phase",
+ "approved_by": "Not formally approved — completed by the PM and signed by the named phase-exit reviewer",
+ "inputs": [
+  "Project Handbook",
+  "Project Stakeholder Matrix",
+  "Communications Management Plan",
+  "Deliverables Acceptance Plan",
+  "Transition Plan",
+  "Business Implementation Plan"
+ ],
+ "feeds": [
+  "Project Stakeholder Matrix (updated)",
+  "Issue and Decision Logs (updated)",
+  "Phase-exit Review Checklist / phase-gate decision",
+  "Project-End Report"
+ ],
+ "gate": "Every phase gate — RfP, RfE and RfC",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "8 checks: matrix created, impacts defined, PSC established"
+  },
+  {
+   "phase": "Planning",
+   "what": "14 checks: kick-off, communication, requirements, phase exit"
+  },
+  {
+   "phase": "Executing",
+   "what": "5 checks: kick-off attendance, handover, acceptances"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "3 checks: informing stakeholders about delays and overruns"
+  },
+  {
+   "phase": "Closing",
+   "what": "4 checks: PO present, acceptance note signed, thanks, celebration"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Summary · identification",
+   "meta": true,
+   "items": [
+    "Organisation / Department",
+    "Project Name",
+    "Project Owner · Business Manager · Solution Provider · Project Manager",
+    "Reviewer Name (the person performing the phase-exit reviews)"
+   ]
+  },
+  {
+   "sec": "Summary · roll-up",
+   "items": [
+    "Overall Compliance (%)",
+    "Overall Phase-Exit Status",
+    "Per-area table: Area · Phase-Exit Status · % of Phase Compliance · Date · Already performed?",
+    "Areas: Initiating, Planning, Executing, Closing, Monitoring",
+    "Assessment Key: 0.3 (<50% done) · 0.7 (51–80%) · 0.9 (>80%)"
+   ]
+  },
+  {
+   "sec": "Every phase sheet · row structure",
+   "items": [
+    "Date of the review",
+    "% of Phase Compliance",
+    "# · Description · Answer · Score · Comments",
+    "Answer options: Yes · Yes, Partially · No · N/A",
+    "Total score for compliance"
+   ]
+  },
+  {
+   "sec": "Initiating Phase Checks (8)",
+   "items": [
+    "1. Is the stakeholder matrix been created?",
+    "2. Have the groups/individuals that will have an impact or will be impacted been identified?",
+    "3. Is every group represented by a physical person?",
+    "4. Has the level of impact of the project for every stakeholder been defined?",
+    "5. When defining alternative solutions (and making the SWOT analysis) has the preferred solution for every stakeholder been indicated?",
+    "6. Is all input received from the key stakeholders taken into account and reflected in the project charter?",
+    "7. Have agreements been made regarding the reviewing schedule?",
+    "8. Has the Project Steering Committee (PSC) been established?"
+   ]
+  },
+  {
+   "sec": "Planning Phase Checks (1–7)",
+   "items": [
+    "1. Kick-off Meeting: have all the key stakeholders been identified?",
+    "2. Kick-off Meeting: have the invited stakeholders confirmed their presence?",
+    "3. Kick-off Meeting: has the agenda been sent upfront to the key stakeholders for comments?",
+    "4. Kick-off Meeting: did you had a chat with the key stakeholders after the meeting?",
+    "5. Have the key stakeholders agreed on how to monitor and control the project?",
+    "6. Did you agree with the key stakeholders on the way to communicate (means, frequency, format, level of detail)?",
+    "7. Did you inform the key stakeholders about the change process and the change log?"
+   ]
+  },
+  {
+   "sec": "Planning Phase Checks (8–14)",
+   "items": [
+    "8. Is the risk appetite of every stakeholder added to the stakeholder matrix?",
+    "9. Has an agreement been made about the overall quality requirements (audits, KPI, …) with the key stakeholders?",
+    "10. Have the requirements been reviewed and approved by the key stakeholders?",
+    "11. Are the stakeholders clearly aware of the desired goals and outputs of the project?",
+    "12. Has the Project Owner (PO) organised a formal announcement to the user groups about the transition?",
+    "13. End of phase: did you verifiy if all the stakeholders remain the same for the next phase?",
+    "14. End of phase: did you thank the stakeholders that will leave the project?"
+   ]
+  },
+  {
+   "sec": "Executing Phase Checks (5)",
+   "items": [
+    "1. Kick-off Meeting: have the key stakeholders confirmed their presence?",
+    "2. Kick-off Meeting: has the agenda been sent upfront to the key stakeholders for comments?",
+    "3. End of phase: did you verifiy if all the stakeholders remain the same for the next phase?",
+    "4. End of phase: did you thank the stakeholders that will leave the project?",
+    "5. Have all needed acceptances been given by the stakeholders?"
+   ]
+  },
+  {
+   "sec": "Closing Phase Checks (4)",
+   "items": [
+    "1. Review meeting: is the Project Owner (PO) present?",
+    "2. Is the Project Acceptance Note undersigned by the Project Owner (PO)?",
+    "3. Have all stakeholders been thanked for their contribution to the success of the project?",
+    "4. Is an event been organised to celebrate the success of the project?"
+   ]
+  },
+  {
+   "sec": "Monitoring Checks (3)",
+   "items": [
+    "1. Delays/budget overruns: have the key stakeholders been informed?",
+    "2. Delays/budget overruns: has a Project Steering Committee (PSC) been organised?",
+    "3. Business implementation: have regular updates been given to the Project Owner (PO) and relevant stakeholders?"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Organisation / Department",
+   "what": "Name of the organisation and department running the project — identification header repeated on the Summary sheet.",
+   "who": "PM fills",
+   "castor": "European Stability Mechanism — Lending Operations Division, Luxembourg (Kirchberg)."
+  },
+  {
+   "f": "Project Name",
+   "what": "The project this checklist belongs to.",
+   "who": "PM fills",
+   "castor": "Project CASTOR — Renewal of the Lending Operations System."
+  },
+  {
+   "f": "Project Owner / Business Manager / Solution Provider / Project Manager",
+   "what": "The four key role holders, named — so anyone reading the checklist knows who the 'key stakeholders' being checked actually are.",
+   "who": "PM fills from the Stakeholder Matrix",
+   "castor": "PO Florence Nightingale · BM Grace Hopper · SP Leonardo da Vinci · PM, ESM Project Support Office."
+  },
+  {
+   "f": "Reviewer Name",
+   "what": "The person performing the phase-exit reviews — the checklist is completed for them, not only by the PM for themselves.",
+   "who": "PM records · reviewer signs",
+   "castor": "W. Edwards Deming, Project Quality Assurance, reviews each phase exit independently of the PM."
+  },
+  {
+   "f": "Overall Compliance (%)",
+   "what": "Roll-up of the per-phase compliance percentages across all five areas.",
+   "who": "Calculated by the sheet",
+   "castor": "88% at the RfE gate on 03 Jul 2026, across the Initiating and Planning areas."
+  },
+  {
+   "f": "Overall Phase-Exit Status",
+   "what": "The overall assessment value derived from compliance: 0.3, 0.7 or 0.9.",
+   "who": "Calculated by the sheet",
+   "castor": "0.9 at the RfE gate — nearly all key stakeholder activities complete."
+  },
+  {
+   "f": "Area / Date / Already performed?",
+   "what": "One row per area (Initiating, Planning, Executing, Closing, Monitoring) with its status, compliance %, review date, and whether the review has been done.",
+   "who": "PM updates at each phase exit",
+   "castor": "Planning · 0.9 · 90% · 03 Jul 2026 · Yes. Executing row still 'No' at that date."
+  },
+  {
+   "f": "Assessment Key",
+   "what": "0.3 = major key activities not performed (50% or more still open). 0.7 = some still to complete (51–80%). 0.9 = nearly all complete (over 80%).",
+   "who": "Fixed by the template",
+   "castor": "0.9 accepted for Planning; the two open items judged non-blocking for the RfE decision."
+  },
+  {
+   "f": "# (question number)",
+   "what": "Sequential number of the check within its phase sheet; the sheets carry 8, 14, 5, 4 and 3 checks respectively.",
+   "who": "Fixed by the template · PM may customise",
+   "castor": "Planning check 12 (PO's formal announcement) carried forward as an action for Executing."
+  },
+  {
+   "f": "Description",
+   "what": "The check itself, phrased as a closed question about a stakeholder activity that should already have happened.",
+   "who": "Fixed by the template · reviewed and customised at the start of each phase",
+   "castor": "Wording kept as shipped; one CASTOR-specific check added on briefing the Board cabinet channel."
+  },
+  {
+   "f": "Answer",
+   "what": "Yes · Yes, Partially · No · N/A. N/A is for checks that genuinely do not apply to this project.",
+   "who": "PM answers · reviewer challenges",
+   "castor": "Check 10 answered 'Yes, Partially' — reconciliation requirements still open with Marie Curie."
+  },
+  {
+   "f": "Score",
+   "what": "Numeric value derived from the Answer; the scores drive the Total score and the % of Phase Compliance.",
+   "who": "Calculated by the sheet",
+   "castor": "Two partial answers pulled Planning compliance down from 100% to 90%."
+  },
+  {
+   "f": "Comments",
+   "what": "Justification for the answer given — mandatory in practice for anything that is not a plain Yes.",
+   "who": "PM writes",
+   "castor": "'Deferred until the Business Implementation Plan settles who retrains the 40 loan administrators.'"
+  },
+  {
+   "f": "Total score for compliance / % of Phase Compliance",
+   "what": "Sum of the phase's scores and the resulting percentage, fed up to the Summary sheet.",
+   "who": "Calculated by the sheet",
+   "castor": "Planning: 90% compliance, phase-exit status 0.9, dated 03 Jul 2026."
+  },
+  {
+   "f": "Initiating checks 1–4 · identification",
+   "what": "Matrix created; impacted groups and individuals identified; every group represented by a physical person; level of impact defined per stakeholder.",
+   "who": "PM verifies · BM assists on requestor side",
+   "castor": "Every CASTOR group has a named person — the BIG is represented by Grace Hopper, users by Marie Curie."
+  },
+  {
+   "f": "Initiating checks 5–8 · input and governance",
+   "what": "Preferred solution per stakeholder shown in the SWOT/options analysis; stakeholder input reflected in the Charter; reviewing schedule agreed; PSC established.",
+   "who": "PM verifies · PO accountable",
+   "castor": "Three options assessed in the Business Case; PSC established before the Charter was approved on 24 Mar 2026."
+  },
+  {
+   "f": "Planning checks 1–4 · Kick-off Meeting",
+   "what": "All key stakeholders identified and confirmed attending; agenda sent upfront for comments; informal follow-up chat held after the meeting.",
+   "who": "PM verifies",
+   "castor": "Planning Kick-off held 09 Apr 2026; agenda circulated a week ahead; follow-ups with Leonardo da Vinci and Marie Curie."
+  },
+  {
+   "f": "Planning checks 5–9 · ways of working agreed",
+   "what": "Agreement on monitoring and control; on communication means, frequency, format and detail; on the change process and Change Log; risk appetite recorded in the matrix; quality requirements agreed.",
+   "who": "PM agrees with key stakeholders",
+   "castor": "Escalation ladder and two-weekly status reporting agreed in the Handbook; risk appetites added to the Stakeholder Matrix."
+  },
+  {
+   "f": "Planning checks 10–12 · requirements and awareness",
+   "what": "Requirements reviewed and approved by key stakeholders; stakeholders clear on goals, outputs, their own activities and the time these take; PO announces the transition formally to user groups.",
+   "who": "PM verifies · PO performs the announcement",
+   "castor": "Check 12 answered No — Florence Nightingale's announcement to the 40 loan administrators deferred."
+  },
+  {
+   "f": "Planning checks 13–14 · end of phase",
+   "what": "Verify whether the stakeholder set stays the same for the next phase, and thank the stakeholders who are leaving the project.",
+   "who": "PM performs at the phase gate",
+   "castor": "Contractor roles (Gustave Eiffel, Levallois staff) flagged to be added at contract award on 18 Sep 2026."
+  },
+  {
+   "f": "Executing checks 1–2 · Kick-off Meeting",
+   "what": "Key stakeholders confirmed their presence at the Executing Kick-off; agenda sent upfront for comments.",
+   "who": "PM verifies",
+   "castor": "Executing Kick-off Meeting held 10 Jul 2026 with the full PSC present."
+  },
+  {
+   "f": "Executing checks 3–5 · exit and acceptance",
+   "what": "Stakeholder set re-verified for the next phase; departing stakeholders thanked; all needed acceptances given by the stakeholders.",
+   "who": "PM verifies · PO signs acceptances",
+   "castor": "Check 5 answered 'Yes, Partially' — Marie Curie refused acceptance of the reconciliation report."
+  },
+  {
+   "f": "Closing checks 1–4",
+   "what": "PO present at the review meeting; Project Acceptance Note undersigned by the PO; all stakeholders thanked; a celebration event organised.",
+   "who": "PM verifies · PO signs",
+   "castor": "Project-End Review Meeting 12 Jul 2028, chaired with Florence Nightingale present; acceptance note signed."
+  },
+  {
+   "f": "Monitoring checks 1–3",
+   "what": "Key stakeholders informed of delays and budget overruns; a PSC convened for them; regular business-implementation updates given to the PO and relevant stakeholders.",
+   "who": "PM performs continuously",
+   "castor": "Extraordinary PSC convened when R-07 materialised and Levallois's key architect left."
+  }
+ ],
+ "traps": [
+  "It has no RASCI row of its own; Manage Stakeholders is PO = A, PM = R.",
+  "Verifies actions taken; the Stakeholder Matrix records who the people are.",
+  "Not the Phase-exit Review Checklist — this one covers stakeholders only.",
+  "Checklists and logs are the artefacts not under version control.",
+  "Reviewed and customised at the start of each phase, not filled in once at the end."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Stakeholders Checklist, Planning Phase Checks, 03 Jul 2026 (RfE gate)",
+  "rows": [
+   [
+    "#",
+    "Planning Phase Check",
+    "Answer",
+    "Comments"
+   ],
+   [
+    "1",
+    "Kick-off Meeting: have all the key stakeholders been identified?",
+    "Yes",
+    "Planning Kick-off, 09 Apr 2026 — PSC, BIG and Project Support Team all represented"
+   ],
+   [
+    "3",
+    "Kick-off Meeting: has the agenda been sent upfront for comments?",
+    "Yes",
+    "Circulated one week before 09 Apr 2026; no comments from the AGB"
+   ],
+   [
+    "5",
+    "Have the key stakeholders agreed on how to monitor and control the project?",
+    "Yes",
+    "Escalation ladder and milestone tracking agreed in Handbook §3.5 and §5.1"
+   ],
+   [
+    "6",
+    "Did you agree on the way to communicate (means, frequency, format, detail)?",
+    "Yes",
+    "PSC monthly, chaired by Florence Nightingale; status report every two weeks"
+   ],
+   [
+    "7",
+    "Did you inform the key stakeholders about the change process and the change log?",
+    "Yes, Partially",
+    "Board-of-Directors cabinet channel not yet briefed; verbal scope requests still arriving"
+   ],
+   [
+    "8",
+    "Is the risk appetite of every stakeholder added to the stakeholder matrix?",
+    "Yes",
+    "Florence Nightingale: no deviation acceptable on the 15 May 2028 go-live"
+   ],
+   [
+    "10",
+    "Have the requirements been reviewed and approved by the key stakeholders?",
+    "Yes, Partially",
+    "Reconciliation requirements still open with Marie Curie (User Representative)"
+   ],
+   [
+    "12",
+    "Has the PO organised a formal announcement to the user groups about the transition?",
+    "No",
+    "Deferred until the Business Implementation Plan settles retraining of 40 loan administrators"
+   ],
+   [
+    "13",
+    "End of phase: do all the stakeholders remain the same for the next phase?",
+    "Yes",
+    "Contractor roles to be added at contract award, 18 Sep 2026 (Gustave Eiffel, Levallois Systems)"
+   ],
+   [
+    "",
+    "% of Phase Compliance / Phase-Exit Status",
+    "90% / 0.9",
+    "Nearly all key activities complete — RfE approved by the PSC on 03 Jul 2026"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,308 @@
+{
+ "n": 8,
+ "id": "deliverables-acceptance-plan",
+ "name": "Deliverables Acceptance Plan",
+ "family": "Planning",
+ "one_liner": "The criteria, activities and sign-off route by which each deliverable is formally accepted.",
+ "purpose": "Deliverables acceptance planning aims to increase the likelihood that deliverables will be accepted by the client side and that the resources involved in acceptance are used efficiently. The plan documents the agreed criteria and approach for deliverables acceptance, plus responsibilities, activities, effort, timing and capability requirements, so deliverables can be formally accepted on objective criteria and predefined timelines.",
+ "guide_page": 49,
+ "rasci": {
+  "A": "PSC",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "A",
+   "PO": "C",
+   "BM": "S",
+   "BIG": "I",
+   "SP": "C",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Steering Committee (PSC)",
+ "inputs": [
+  "Project Charter",
+  "Requirements Documents",
+  "Project Handbook",
+  "Project Work Plan",
+  "Requirements Management Plan",
+  "Quality Management Plan"
+ ],
+ "feeds": [
+  "Deliverables Acceptance Checklist",
+  "Deliverables Acceptance Note",
+  "Decision Log",
+  "Manage Deliverables Acceptance",
+  "Manage Quality",
+  "Transition Plan (acceptance clearance)",
+  "Project-End Report"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "PM drafts, BM validates criteria, PSC approves the plan"
+  },
+  {
+   "phase": "Executing",
+   "what": "Acceptance activities run per the delivery schedule, not only at the end"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Manage Deliverables Acceptance; PO accepts, rejects or provisionally accepts"
+  },
+  {
+   "phase": "Closing",
+   "what": "PO signs the Final Project Acceptance Note"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Document Approver(s) and Reviewer(s)",
+    "Document History",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Small projects: use the Project Handbook section instead",
+    "Objectives: approach, roles and responsibilities",
+    "Objectives: processes, tools and techniques",
+    "Objectives: criteria, activities, provisional and final acceptance"
+   ]
+  },
+  {
+   "sec": "2. Deliverables Acceptance objectives",
+   "items": [
+    "Criteria defined, agreed and achieved throughout",
+    "Acceptance activities performed as planned",
+    "Non-conformity handled via the Issue Management Plan",
+    "Deliverables accepted on the defined criteria"
+   ]
+  },
+  {
+   "sec": "3. Deliverables Acceptance Approach",
+   "items": [
+    "Step 1: Define Acceptance Criteria & Activities",
+    "Step 2: Perform Acceptance Activities",
+    "Step 3: Accept or Reject Deliverables (provisional/final)",
+    "Deliverables Acceptance Roles and Responsibilities (RASCI table)"
+   ]
+  },
+  {
+   "sec": "4. Define Acceptance Criteria & Activities",
+   "items": [
+    "4.1. Acceptance Criteria (table)",
+    "4.2. Acceptance Activities (table)",
+    "4.3. Processes, Tools and Techniques (table)",
+    "Resources and Expertise (heading not in the printed TOC)"
+   ]
+  },
+  {
+   "sec": "5. Perform Acceptance Activities",
+   "items": [
+    "Apply the criteria, processes, tools and techniques",
+    "Activities detailed, assigned and scheduled in the Project Work Plan",
+    "Results documented in reports and logs"
+   ]
+  },
+  {
+   "sec": "6. Accept/Reject Deliverables",
+   "items": [
+    "6.1. Provisional Acceptance",
+    "6.2. Deliverables Acceptance Note (structure and fields)",
+    "Rejection is an issue → Issue Management, then re-submit"
+   ]
+  },
+  {
+   "sec": "7. Final Project Acceptance",
+   "items": [
+    "Project-level acceptance, separate from deliverables acceptance",
+    "Reuse tables 4.1–4.3 for project-level criteria",
+    "PO signs the Final Project Acceptance Note in Closing"
+   ]
+  },
+  {
+   "sec": "8. Related PM² Plans",
+   "items": [
+    "Project Handbook",
+    "Communications Management Plan",
+    "Quality Management Plan",
+    "Project Work Plan"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID",
+    "Reference or Related Document",
+    "Source or Link/Location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1. Introduction",
+   "what": "Template note: small or simple projects document the acceptance approach in the Project Handbook; a dedicated plan is advised for complex or high-risk projects.",
+   "who": "PM drafts · PSC approves",
+   "castor": "Dedicated plan justified: 26-month, €8.4 m platform renewal closing two open internal-audit findings."
+  },
+  {
+   "f": "2. Deliverables Acceptance objectives",
+   "what": "The four standard objectives — criteria defined and achieved, activities performed as planned, non-conformity handled via issue management, deliverables accepted on defined criteria. Customise as needed.",
+   "who": "PM drafts · BM validates",
+   "castor": "Added objective: acceptance evidence must satisfy Internal Audit findings on segregation of duties and audit trail."
+  },
+  {
+   "f": "3. Deliverables Acceptance Approach",
+   "what": "Tailor the approach; state whether acceptance is incremental/iterative or traditional (all criteria upfront, all activities at the end). Names the three PM² steps.",
+   "who": "PM drafts · PSC approves",
+   "castor": "Incremental: acceptance per release — Release 1 (26 Mar 2027) and Release 2 (17 Dec 2027)."
+  },
+  {
+   "f": "Deliverables Acceptance Roles and Responsibilities (RASCI)",
+   "what": "Template's own RASCI over three activities — Define Acceptance Criteria, Perform Acceptance Activities, Accept/Reject Deliverables. Its fifth column is UR, not BIG.",
+   "who": "PM drafts · PSC approves",
+   "castor": "Marie Curie (UR, Loan Administration Officer) is Responsible for performing acceptance activities."
+  },
+  {
+   "f": "Accountability statement (section 3 narrative)",
+   "what": "Project acceptance approach and criteria are approved by the PSC; the PO is accountable for acceptance and for resources; the PM is ultimately accountable for full completion of the activities.",
+   "who": "PSC approves · PO accountable · PM responsible",
+   "castor": "PSC approved the approach 26 Jun 2026; Florence Nightingale (PO) supplies acceptance resources."
+  },
+  {
+   "f": "4.1. Acceptance Criteria — # · Deliverable Name · Criterion Category · Criterion · Metric and Tolerances · Approving / Authority",
+   "what": "PM and BM together identify deliverables to be accepted and agree evaluation criteria, the metric or formula, the tolerance interval, and the approving authority.",
+   "who": "PM and BM (Grace Hopper) agree · PO approves",
+   "castor": "AC-04 Reconciliation report — category Business — same-day reconciliation (SC2), tolerance 0 breaks; approver PO."
+  },
+  {
+   "f": "4.2. Acceptance Activities — # · Deliverable Name · Activity name · Activity description · Resources · Effort",
+   "what": "PM identifies and proposes the acceptance activities per deliverable, with foreseen resources and estimated effort; these go into the WBS and Project Work Plan.",
+   "who": "PM proposes · BM supplies users · PSC approves",
+   "castor": "User acceptance testing of straight-through disbursement, 25 PD, run by Lending Operations users."
+  },
+  {
+   "f": "4.3. Processes, Tools and Techniques — # · Deliverable Name · Process, tool or Technique · Description",
+   "what": "Identify per deliverable the processes, tools and techniques supporting acceptance — benchmarking, statistical sampling, MoSCoW, audits, walkthroughs, acceptance testing, usability testing.",
+   "who": "PM defines · PQA supports",
+   "castor": "Statistical sampling of 1,400 quarterly re-keyed fields (SC4 baseline) plus walkthrough of the audit trail."
+  },
+  {
+   "f": "Resources and Expertise (section 4, absent from the printed TOC)",
+   "what": "Captures resource profiles and expertise needed to perform acceptance, linked by ID to sections 4.1-4.3. Detailed requirements go to the Project Work Plan, training needs to the Project Handbook.",
+   "who": "PM captures · BM supplies profiles",
+   "castor": "Two loan administrators with EFSF-era reconciliation knowledge, plus W. Edwards Deming (PQA) for control testing."
+  },
+  {
+   "f": "5. Perform Acceptance Activities",
+   "what": "Execute the planned acceptance activities to verify deliverables comply with the criteria; results are documented in the relevant reports and logs.",
+   "who": "PM ensures · UR/BM perform · PQA controls",
+   "castor": "Acceptance runs alongside the 08 Jan – 30 Apr 2028 parallel run against live LOS output."
+  },
+  {
+   "f": "6. Accept/Reject Deliverables",
+   "what": "Obtain formal approval per deliverable. Accepted if results fall within pre-specified metrics, tolerances and timeframe; otherwise rejected, which is an issue to be resolved and re-submitted.",
+   "who": "PO accepts or rejects · PM runs the process",
+   "castor": "Marie Curie rejected the reconciliation report when the parallel run overlapped an EFSF bond rollover."
+  },
+  {
+   "f": "6.1. Provisional Acceptance",
+   "what": "Deliverables may be provisionally accepted by an expert or designated user representative with a limited set of documented non-critical issues, provided a plan exists to resolve them.",
+   "who": "UR or expert grants · PM documents",
+   "castor": "Reconciliation report provisionally accepted with two documented breaks, fixed before the 15 May 2028 cutover."
+  },
+  {
+   "f": "6.2. Deliverables Acceptance Note — # · Deliverable · Criterion · Result · Verified by · Accepted by",
+   "what": "Defines the structure and fields for documenting provisional and final acceptance. PM² provides no separate template; this section is the structure.",
+   "who": "PM prepares · verifier and PO sign",
+   "castor": "DAN-11: verified by Marie Curie 27 Apr 2028; accepted by Florence Nightingale 05 May 2028."
+  },
+  {
+   "f": "7. Final Project Acceptance",
+   "what": "Acceptance of the project as a whole, separate from deliverable acceptance; reuse the 4.1–4.3 tables for project-level criteria. The PO signs the Final Project Acceptance Note in the Closing Phase.",
+   "who": "PO signs · PM prepares",
+   "castor": "Final Project Acceptance Note signed by Florence Nightingale at the Project-End Review, 12 Jul 2028."
+  },
+  {
+   "f": "8. Related PM² Plans",
+   "what": "Cross-references to avoid duplication: Project Handbook, Communications Management Plan, Quality Management Plan and Project Work Plan, each located in Appendix 1.",
+   "who": "PM maintains",
+   "castor": "Quality Management Plan holds the configuration procedure; the Work Plan holds acceptance effort."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Reference each related document by title, version, date and location — the template pre-lists the Quality Management Plan, Communications Management Plan, Resource Plan, Checklist and Note.",
+   "who": "PM maintains",
+   "castor": "29.Deliverables_Acceptance_Checklist.CASTOR.V1.0.xlsx, stored in the CASTOR project folder."
+  }
+ ],
+ "traps": [
+  "PSC approves this plan; the PO accepts the deliverables — different role, different moment.",
+  "The template's RASCI makes PM Accountable for performing acceptance; guide p.82 gives PO Accountable.",
+  "Template RASCI's fifth column is UR, not BIG as in the guide.",
+  "Accepted is not transitioned: accepted deliverables still need the Transition Plan to go live.",
+  "Final Project Acceptance is a Closing activity, separate from per-deliverable acceptance."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Deliverables Acceptance Plan v1.0, 26 Jun 2026 (Project CASTOR)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Acceptance approach",
+    "Incremental — acceptance per release, not a single end-of-project acceptance"
+   ],
+   [
+    "AC-01 Product configuration engine",
+    "New instrument configurable in 6 weeks (SC3); tolerance ±1 week; approver PO"
+   ],
+   [
+    "AC-04 Reconciliation report",
+    "Same-day reconciliation (SC2); tolerance 0 unexplained breaks; approver PO"
+   ],
+   [
+    "AC-05 Audit trail",
+    "Both open internal-audit findings closed (SC5); tolerance 0; approver Internal Audit"
+   ],
+   [
+    "Acceptance activities",
+    "User acceptance testing, 25 PD, Lending Operations users during the parallel run"
+   ],
+   [
+    "Techniques",
+    "Statistical sampling, walkthroughs, acceptance testing, physical configuration audit"
+   ],
+   [
+    "Verifying stakeholders",
+    "Marie Curie (User Representative) · W. Edwards Deming (Project Quality Assurance)"
+   ],
+   [
+    "Non-acceptance route",
+    "Rejection logged as an issue, resolved, deliverable re-tested and re-submitted"
+   ],
+   [
+    "Provisional acceptance",
+    "Allowed with documented non-critical issues and a resolution plan before Closing"
+   ],
+   [
+    "Recorded outcome",
+    "Reconciliation report provisionally accepted 27 Apr 2028 with two documented breaks"
+   ],
+   [
+    "Final acceptance",
+    "Florence Nightingale (PO) signs the Final Project Acceptance Note, 12 Jul 2028"
+   ]
+  ]
+ }
+}

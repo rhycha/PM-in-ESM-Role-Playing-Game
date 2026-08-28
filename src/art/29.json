@@ -1,0 +1,266 @@
+{
+ "n": 29,
+ "id": "deliverables-acceptance-checklist",
+ "name": "Deliverables Acceptance Checklist",
+ "family": "Monitor & Control",
+ "one_liner": "Nineteen yes/no controls proving the acceptance plan was actually carried out before the PO signs.",
+ "purpose": "The Deliverables Acceptance Checklist supports the monitoring of all activities that are pre-conditions to delivering project outputs to the Project Owner and obtaining formal acceptance. It is built from the Deliverables Acceptance Plan, but can also help the Project Manager define the acceptance activities by identifying key controls; its main purpose is to verify that the acceptance activities were performed as planned.",
+ "guide_page": 82,
+ "rasci": null,
+ "created_in": "Planning Phase — tailored from the Deliverables Acceptance Plan (setup output, guide p.50); run during Executing / Monitor & Control",
+ "approved_by": "Not formally approved — a Project Manager control tool (guide p.69); its results support the PO's formal acceptance",
+ "inputs": [
+  "Deliverables Acceptance Plan",
+  "Project Work Plan",
+  "Quality Management Plan",
+  "Outsourcing Plan (if applicable)"
+ ],
+ "feeds": [
+  "Deliverables Acceptance Note",
+  "Decision Log",
+  "Issue Log",
+  "Project Reports",
+  "Project-End Report"
+ ],
+ "gate": "RfC",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Tailored from the Deliverables Acceptance Plan; key controls identified"
+  },
+  {
+   "phase": "Executing",
+   "what": "Run per delivery/acceptance cycle, not only at the end"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "PM verifies acceptance activities happened as planned"
+  },
+  {
+   "phase": "Closing",
+   "what": "Completed checklist evidences readiness for final project acceptance"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Sheet header & scoring",
+   "meta": true,
+   "items": [
+    "Usage note — review and customise when planning acceptance",
+    "'Deliverables Acceptance Checks' banner",
+    "% of Compliance (auto-calculated)",
+    "Columns: # · Description · Answer · Comments",
+    "Answer key: Yes / Yes, Partially / No / N/A",
+    "Total score row at the foot"
+   ]
+  },
+  {
+   "sec": "Planning (1–4)",
+   "items": [
+    "1. Deliverables Acceptance Management Plan documented and communicated?",
+    "2. Criteria, activities and metrics defined and approved by the PO?",
+    "3. Acceptance activities scheduled and agreed with PO, BIG and affected organisations?",
+    "4. Test cases and data covering all possible scenarios?"
+   ]
+  },
+  {
+   "sec": "Executing (5–10)",
+   "items": [
+    "5. QA and control activities performed as planned, such as acceptance testing?",
+    "6. Assessment of test results documented in a report?",
+    "7. Issues documented and their resolution scheduled?",
+    "8. Provisional acceptance performed with a limited number of minor issues?",
+    "9. Deliverables re-tested/reviewed by the requestor side after corrections?",
+    "10. All deliverables, including documentation, ready for final PO approval?"
+   ]
+  },
+  {
+   "sec": "Coordination (11–12)",
+   "items": [
+    "11. Acceptance activities coordinated with PO, BIG and affected organisations?",
+    "12. Operational Readiness Review conducted, including a physical configuration audit?"
+   ]
+  },
+  {
+   "sec": "Quality of deliverables (13–17)",
+   "items": [
+    "13. Do deliverables meet the requirements?",
+    "14. Has a provisional acceptance been performed?",
+    "15. Did the PO formally approve deliverables (final approval)?",
+    "16. Reviews and approvals performed by the assigned person and documented?",
+    "17. Deliverables-related metrics assessed and reported?"
+   ]
+  },
+  {
+   "sec": "Communication (18–19)",
+   "items": [
+    "18. All deliverables and related artefacts placed in the project repository?",
+    "19. Final approval announced to the relevant stakeholders?"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Usage note (top of sheet)",
+   "what": "Review and customise the checklist when planning acceptance, based on the Deliverables Acceptance Plan; it can also help identify key controls when defining acceptance activities.",
+   "who": "PM tailors",
+   "castor": "Tailored 26 Jun 2026 alongside the Deliverables Acceptance Plan; run once per release."
+  },
+  {
+   "f": "Answer",
+   "what": "One of four values per check — Yes, Yes Partially, No, N/A — each scored to drive the compliance calculation.",
+   "who": "PM answers · PQA evidences",
+   "castor": "Q8 answered 'Yes, Partially' on 27 Apr 2028: two reconciliation breaks still open."
+  },
+  {
+   "f": "Comments",
+   "what": "Justification for the answer given — the evidence trail behind each Yes or No.",
+   "who": "PM records",
+   "castor": "'Breaks caused by EFSF bond rollover overlapping the parallel run; fix due before cutover.'"
+  },
+  {
+   "f": "% of Compliance",
+   "what": "Auto-calculated compliance score across the answered checks, giving a single readiness figure.",
+   "who": "Calculated · PM reports to PSC",
+   "castor": "Release 2 acceptance stood at partial compliance until the two breaks closed on 05 May 2028."
+  },
+  {
+   "f": "Planning (checks 1–4)",
+   "what": "Checked before acceptance work starts: the plan exists and was communicated, criteria and metrics are PO-approved, activities are scheduled and agreed, test cases cover all scenarios.",
+   "who": "PM verifies · PO approved the criteria",
+   "castor": "All four green at the RfE gate, 03 Jul 2026, before any acceptance testing began."
+  },
+  {
+   "f": "2. Were the deliverables acceptance criteria, activities and metrics defined and approved by the Project Owner (PO)?",
+   "what": "The PO — not the PSC — must have approved the criteria and metrics; the PSC only approved the plan itself.",
+   "who": "PO approves · PM evidences",
+   "castor": "Florence Nightingale approved AC-01 to AC-05, including the same-day reconciliation metric (SC2)."
+  },
+  {
+   "f": "Executing (checks 5–10)",
+   "what": "Checked while deliverables are produced: QA and acceptance testing performed, results reported, issues logged and scheduled, provisional acceptance done, re-tests completed, everything ready for final approval.",
+   "who": "PM runs · PQA controls · UR tests",
+   "castor": "Checks 5–7 green after Release 1 (26 Mar 2027); check 9 re-run after the parallel-run corrections."
+  },
+  {
+   "f": "8. Was the provisional deliverables acceptance performed with a limited number of minor issues?",
+   "what": "Confirms provisional acceptance stayed inside the plan's tolerance — a limited number of documented, non-critical issues with a resolution plan.",
+   "who": "UR or expert grants · PM records",
+   "castor": "Marie Curie granted provisional acceptance of the reconciliation report with two documented breaks."
+  },
+  {
+   "f": "Coordination (checks 11–12)",
+   "what": "Checked at the readiness moment: acceptance coordinated with the PO, BIG and affected organisations, and an Operational Readiness Review conducted including a physical configuration audit.",
+   "who": "PM coordinates · BIG and PO participate",
+   "castor": "Operational Readiness Review held 28 Apr 2028, chaired by the PM with Leonardo da Vinci and the BIG."
+  },
+  {
+   "f": "12. Was an Operational Readiness Review conducted (which includes a physical configuration audit)?",
+   "what": "The one check that reaches beyond documents into the built configuration — the audit confirms what was delivered matches what was specified.",
+   "who": "PM convenes · PQA audits",
+   "castor": "Physical configuration audit signed by W. Edwards Deming (PQA), 28 Apr 2028."
+  },
+  {
+   "f": "Quality of deliverables (checks 13–17)",
+   "what": "Checked at sign-off: requirements met, provisional acceptance performed, PO's final approval given, reviews done by the assigned person and documented, metrics assessed and reported.",
+   "who": "PO approves · PM evidences",
+   "castor": "Check 15 turned Yes on 05 May 2028 when Florence Nightingale approved the final deliverables."
+  },
+  {
+   "f": "15. Did the Project Owner (PO) formally approve deliverables (final deliverables approval)?",
+   "what": "The pivot check — until the PO's formal approval is recorded, the deliverable is not accepted whatever the test results say.",
+   "who": "PO signs · PM files",
+   "castor": "Recorded on Deliverables Acceptance Note DAN-11, signed 05 May 2028, ten days before cutover."
+  },
+  {
+   "f": "Communication (checks 18–19)",
+   "what": "Checked after sign-off: all deliverables and related artefacts (test results, sign-offs) filed in the project repository, and the final approval announced to relevant stakeholders.",
+   "who": "PM files and announces",
+   "castor": "Sign-offs and test evidence filed in the CASTOR project folder; approval announced 08 May 2028."
+  }
+ ],
+ "traps": [
+  "The checklist verifies; the Deliverables Acceptance Plan defines. Never swap them.",
+  "Check 1 says 'Deliverables Acceptance Management Plan' — the artefact is the Deliverables Acceptance Plan.",
+  "Checklists have no RASCI row in the guide; the PM owns them as control tools.",
+  "Acceptance is not transition — the Transition Checklist covers moving accepted output into operations.",
+  "Final project acceptance happens in Closing; this checklist runs per deliverable during Executing."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Deliverables Acceptance Checklist, Release 2 run, 28 Apr 2028 (Project CASTOR)",
+  "rows": [
+   [
+    "#",
+    "Check",
+    "Answer",
+    "Comment"
+   ],
+   [
+    "2",
+    "Criteria, activities and metrics approved by the PO?",
+    "Yes",
+    "AC-01 to AC-05 approved by Florence Nightingale"
+   ],
+   [
+    "4",
+    "Test cases and data covering all possible scenarios?",
+    "Yes",
+    "Includes EFSF bond rollover scenario"
+   ],
+   [
+    "5",
+    "QA and control activities performed as planned?",
+    "Yes",
+    "Acceptance testing run during the parallel run"
+   ],
+   [
+    "7",
+    "Issues documented and their resolution scheduled?",
+    "Yes",
+    "Two reconciliation breaks logged in the Issue Log"
+   ],
+   [
+    "8",
+    "Provisional acceptance with a limited number of minor issues?",
+    "Yes, Partially",
+    "Marie Curie accepted with two open breaks"
+   ],
+   [
+    "9",
+    "Deliverables re-tested by the requestor side after correction?",
+    "No",
+    "Re-test scheduled 03 May 2028"
+   ],
+   [
+    "12",
+    "Operational Readiness Review with physical configuration audit?",
+    "Yes",
+    "Signed by W. Edwards Deming (PQA), 28 Apr 2028"
+   ],
+   [
+    "13",
+    "Do deliverables meet the requirements?",
+    "Yes, Partially",
+    "SC2 same-day reconciliation not yet demonstrated"
+   ],
+   [
+    "15",
+    "Did the PO formally approve deliverables?",
+    "No",
+    "Pending re-test; approved 05 May 2028"
+   ],
+   [
+    "17",
+    "Deliverables-related metrics assessed and reported?",
+    "Yes",
+    "SC1, SC2, SC4 reported in the Project Progress Report"
+   ],
+   [
+    "19",
+    "Final approval announced to relevant stakeholders?",
+    "No",
+    "Announcement issued 08 May 2028"
+   ]
+  ]
+ }
+}

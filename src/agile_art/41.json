@@ -1,0 +1,234 @@
+{
+ "n": 41,
+ "id": "testing",
+ "name": "Testing",
+ "group": "Themes",
+ "one_liner": "Test early and test often, concurrently with development, inside every iteration.",
+ "purpose": "Agile testing activities should be iterative and incremental: applying the strategy of 'test early and test often' allows risks to be identified and addressed early in the project's lifecycle. Testing should occur in each iteration, beginning with the earliest builds, and one iteration can have several test cycles. PM²-Agile recommends two testing practices — Test Management and Concurrent Testing — and anchors completion in acceptance criteria defined for each Feature and Story.",
+ "guide_page": 39,
+ "meta": [
+  [
+   "Theme",
+   "4.13 — spans guide pages 39 and 40"
+  ],
+  [
+   "Two practices",
+   "Test Management and Concurrent Testing"
+  ],
+  [
+   "Central question",
+   "What must the solution accomplish before a requirement counts as implemented?"
+  ]
+ ],
+ "rasci": {
+  "title": "RAM (RASCI) — Test Plan",
+  "rows": [
+   [
+    "Role",
+    "Letter"
+   ],
+   [
+    "BM",
+    "I"
+   ],
+   [
+    "PM",
+    "A"
+   ],
+   [
+    "TeCo",
+    "S"
+   ],
+   [
+    "PrOw",
+    "S"
+   ],
+   [
+    "ArOw",
+    "S"
+   ],
+   [
+    "ATeM",
+    "R"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "The rhythm",
+   "items": [
+    "Testing activities are iterative and incremental",
+    "'Test early and test often' surfaces risks early in the lifecycle",
+    "Testing occurs in each iteration, beginning with the earliest builds of the system",
+    "Depending on build frequency, one iteration can have several test cycles"
+   ]
+  },
+  {
+   "sec": "Two recommended practices",
+   "items": [
+    "Test Management — planning, designing, implementing, executing, evaluating and managing test work",
+    "Test Management tools must align with the organisation's current practices",
+    "Concurrent Testing — testing concurrent with development throughout each iteration",
+    "Concurrent Testing stops teams compressing testing into a separate activity at iteration end",
+    "It reinforces feature teams working in parallel and needs high-bandwidth developer-tester communication"
+   ]
+  },
+  {
+   "sec": "Acceptance criteria",
+   "items": [
+    "Define the boundaries of a work item",
+    "Are used to confirm when the work item is completed",
+    "Must be defined for each Feature and Story",
+    "Are agreed as specific conditions of satisfaction with the stakeholders"
+   ]
+  },
+  {
+   "sec": "Two points for testing delivered increments",
+   "items": [
+    "Test-related activities run in parallel with requirements gathering and refinement",
+    "Run tests as frequently as possible — ideally all tests against each build deployed to the mainline",
+    "If impractical, run regression tests and focus the cycle on the new build's work items",
+    "Test scripts expected to fail still provide valuable feedback",
+    "Once a test script passes, it should not fail against subsequent builds"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Iterative and incremental testing",
+   "what": "Agile testing activities should themselves be iterative and incremental rather than a phase at the end.",
+   "who": "All ATeMs",
+   "pollux": "Every two-week iteration tests what it built."
+  },
+  {
+   "f": "Test early and test often",
+   "what": "The strategy allows risks to be identified and addressed early in the project's lifecycle.",
+   "who": "A-PCT",
+   "pollux": "Traceability defects surface in iteration 2, not before Release 3."
+  },
+  {
+   "f": "Testing in every iteration",
+   "what": "Testing activities should occur in each iteration, beginning with the earliest builds of the system.",
+   "who": "ATeMs",
+   "pollux": "Begins with the first exposure view in January 2029."
+  },
+  {
+   "f": "Several test cycles",
+   "what": "Depending on the frequency of new builds, one iteration can have several test cycles.",
+   "who": "ATeMs",
+   "pollux": "Multiple cycles inside a single fortnight when builds are frequent."
+  },
+  {
+   "f": "The central question",
+   "what": "Testing focuses on what the solution needs to accomplish before a requirement is considered implemented.",
+   "who": "A-PCT with stakeholders",
+   "pollux": "Conflict 6 — 'implemented' and 'Done' are not the same thing."
+  },
+  {
+   "f": "Testing before code",
+   "what": "User testing and validation of rapid prototypes, even before code, further develop requirements with specific conditions of satisfaction.",
+   "who": "Users, ATeMs, PrOw",
+   "pollux": "Lean UX prototypes are tested with analysts before development starts."
+  },
+  {
+   "f": "Acceptance criteria",
+   "what": "Acceptance criteria define the boundaries of a work item and are used to confirm when it is completed.",
+   "who": "PrOw defines; ATeMs verify",
+   "pollux": "Nobody argues with Marie Curie's acceptance criteria."
+  },
+  {
+   "f": "Test Management",
+   "what": "A structured reference model covering the tools used in planning, designing, implementing, executing, evaluating and managing test work.",
+   "who": "ATeMs responsible for the Test Plan",
+   "pollux": "Documented in the Test Plan the ATeMs draft and you approve."
+  },
+  {
+   "f": "Alignment of test tooling",
+   "what": "The tools used for test tasks and work products need to align with the organisation's current practices.",
+   "who": "A-PCT, organisation",
+   "pollux": "ESM tooling standards apply to the portal's test assets."
+  },
+  {
+   "f": "Concurrent Testing",
+   "what": "Adopts testing concurrent with development throughout each iteration, preventing teams from compressing testing into a separate end-of-iteration activity.",
+   "who": "ATeMs",
+   "pollux": "No test week before each quarterly release date."
+  },
+  {
+   "f": "What concurrency requires",
+   "what": "It reinforces feature teams working in parallel and requires high integration and high-bandwidth communication between developers and testers.",
+   "who": "ATeMs, any Independent Tester",
+   "pollux": "Possible because every ATeM tests; there is no separate test team."
+  },
+  {
+   "f": "Testing with requirements",
+   "what": "Consider testing-related activities in parallel with requirements gathering and refinement so team and stakeholders agree conditions of satisfaction.",
+   "who": "PrOw, ATeMs, stakeholders",
+   "pollux": "Conditions of satisfaction agreed during refinement, not after the demo."
+  },
+  {
+   "f": "Criteria for each Feature and Story",
+   "what": "Ensuring acceptance criteria are defined for each Feature and Story lets the team check delivery against users' expectations.",
+   "who": "PrOw with ATeMs",
+   "pollux": "Each exposure view has criteria before it enters an iteration."
+  },
+  {
+   "f": "Run tests as frequently as possible",
+   "what": "Ideally all tests run against each build deployed to the mainline; otherwise run regression tests and focus on the new build's items.",
+   "who": "ATeMs",
+   "pollux": "Regression protects Release 1 behaviour while Release 2 is built."
+  },
+  {
+   "f": "Failing scripts have value",
+   "what": "Even test scripts that are expected to fail provide valuable feedback about the state of the solution.",
+   "who": "ATeMs",
+   "pollux": "Expected failures mark the work not yet started, honestly."
+  },
+  {
+   "f": "Passing scripts stay passing",
+   "what": "Once a test script passes, it should not fail against subsequent builds of the solution.",
+   "who": "ATeMs",
+   "pollux": "A reconciliation test that passed in June must still pass in September."
+  }
+ ],
+ "traps": [
+  "Concurrent testing exists to stop testing being compressed into the iteration's end.",
+  "Acceptance criteria are per Feature and Story; the Definition of Done is the team's standard.",
+  "Testing is every ATeM's job; an Independent Tester team is optional and extra.",
+  "A test script that has passed must never fail against later builds.",
+  "User testing of rapid prototypes can happen even before any code exists."
+ ],
+ "pollux_excerpt": {
+  "title": "Testing on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Test Plan",
+    "Drafted by the ATeMs; the PM is accountable"
+   ],
+   [
+    "Who tests",
+    "Every Agile Team Member — Lamarr, Babbage, Eiffel"
+   ],
+   [
+    "When",
+    "Concurrently with development, in every two-week iteration"
+   ],
+   [
+    "Acceptance criteria",
+    "Set by Marie Curie for each feature and story"
+   ],
+   [
+    "Definition of Done",
+    "Includes accessibility and a data-protection check"
+   ],
+   [
+    "Live conflict",
+    "Conflict 6 — criteria met, but the item is still not Done"
+   ]
+  ]
+ }
+}

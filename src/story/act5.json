@@ -1,0 +1,2084 @@
+[
+ {
+  "id": "s46",
+  "act": 5,
+  "actName": "Closing",
+  "title": "The last time everyone is in the room",
+  "covers": [
+   "Project-End Review Meeting"
+  ],
+  "guide_page": 64,
+  "where": "ESM, Kirchberg — Conference room Schuman",
+  "when": "12 Jul 2028, 10:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "deming",
+   "lovelace",
+   "eiffel"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Thirty-four degrees on the plateau and the blinds are down on the south side. Nine people, a jug of water already going warm, and Gustave Eiffel, who flew in last night and flies out at seven.",
+    "plain": "It is 34 degrees outside. The blinds on the south side are closed. Nine people are in the room. There is a jug of water and it is already warm. Gustave Eiffel arrived last night. His flight home is at 19:00."
+   },
+   {
+    "who": "narr",
+    "text": "The agenda went out on the fifth, with the Business Case, the Charter, the Handbook, the Work Plan, both the Transition and the Business Implementation Plans, and the four logs.",
+    "plain": "The agenda was sent on 5 July. Attached to it were the Business Case, the Project Charter, the Project Handbook, the Work Plan, the Transition Plan, the Business Implementation Plan and the four project logs.",
+    "ref": [
+     64,
+     "All Project Plans (particularly the Transition & Business Implementation Plans)"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "I have the Minutes. I asked for them, so nobody has to look at the floor.",
+    "plain": "I will write the Minutes of this meeting. I asked to do it, so that nobody else has to volunteer.",
+    "g": [
+     [
+      "Minutes of Meeting",
+      "the written record of what a meeting decided, who was there and who does what next"
+     ]
+    ],
+    "ref": [
+     64,
+     "Ensure someone is designated to take the Minutes of Meeting (MoM)."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "dry",
+    "text": "Before anything. Thank you. From the Division, from the institution, and from me. I am told this is normally warmer. It is not going to be.",
+    "plain": "First, thank you. Thank you from the Lending Operations Division, from the institution, and from me. People tell me that this speech is usually warmer than mine. Mine will not be.",
+    "ref": [
+     64,
+     "The Project Owner (PO) will normally express the organisation's appreciation to the whole project team and key project stakeholders."
+    ]
+   },
+   {
+    "who": "curie",
+    "mood": "blunt",
+    "text": "Say it to the fourth floor as well. They ran the parallel in January and nobody has been up there since May.",
+    "plain": "Please say it to the fourth floor too. Those people ran the parallel test in January. Nobody has visited them since May."
+   },
+   {
+    "who": "nightingale",
+    "text": "Monday. With names.",
+    "plain": "I will do it on Monday, and I will name people."
+   },
+   {
+    "who": "you",
+    "text": "Numbers, then. Final cost eight point nine six million against eight point four baselined. Six point seven per cent over. Effort three thousand three hundred and seven person-days against three thousand one hundred.",
+    "plain": "Now the numbers. The final cost was 8.96 million euro. The approved budget was 8.4 million euro. That is 6.7 per cent more. The effort was 3,307 person-days against a plan of 3,100.",
+    "g": [
+     [
+      "person-day",
+      "one person working for one day; the unit used to size and price project effort"
+     ],
+     [
+      "baseline",
+      "the approved version of scope, cost and schedule that all later results are measured against"
+     ]
+    ],
+    "ref": [
+     64,
+     "Present project statistics and data on performance and achievements."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "mood": "flat",
+    "text": "Nearly all of it is data migration, and data migration was mine. Say that before somebody says it kindly.",
+    "plain": "Almost all of the extra cost is data migration. Data migration was my responsibility. Please say that clearly, before someone says it in a gentle way."
+   },
+   {
+    "who": "you",
+    "text": "Go-live on the fifteenth of May, which is the date in the Charter from March 2026. Scope: eleven changes approved, two postponed, one rejected. None of them touched the Business Case.",
+    "plain": "The system went live on 15 May 2028. That is the date written in the Project Charter, approved in March 2026. On scope: 11 changes were approved, 2 were postponed and 1 was rejected. None of them changed the Business Case."
+   },
+   {
+    "who": "deming",
+    "mood": "dry",
+    "text": "Quality. Compliance against the Quality Management Plan, all four reviews, and I have no reservation anywhere in it. Enjoy that. I do not say it often and I will not say it twice today.",
+    "plain": "Now quality. I checked the work against the Quality Management Plan across all four reviews. I have no objection anywhere. Enjoy that sentence. I do not say it often, and I will not say it again today.",
+    "ref": [
+     64,
+     "Project Quality Assurance (PQA) Should attend."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "SC5. I was told autumn.",
+    "plain": "Now SC5, the success criterion about the audit findings. I was told the answer would come in the autumn.",
+    "g": [
+     [
+      "internal-audit finding",
+      "a written weakness raised by the institution's own auditors, closed only with evidence"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "The closure letter came on the fourth. Both findings shut. Segregation of duties, and the audit trail. They had the evidence pack since May and it held.",
+    "plain": "Internal Audit sent the closure letter on 4 July 2028. Both findings are now closed: the one about who may do which step, and the one about the record of changes. The auditors had our evidence since May and it was good enough."
+   },
+   {
+    "who": "hopper",
+    "text": "While we are on the five. Who measures them after this month?",
+    "plain": "While we are talking about the five success criteria. Who measures them after July?"
+   },
+   {
+    "who": "you",
+    "text": "Item nine.",
+    "plain": "That is item nine on the agenda."
+   },
+   {
+    "who": "hopper",
+    "mood": "dry",
+    "text": "It is always item nine.",
+    "plain": "The difficult things are always at the end of the agenda."
+   },
+   {
+    "who": "nightingale",
+    "text": "Contractor performance. Gustave is sitting in the room. I assume that was decided and not overlooked.",
+    "plain": "Now the contractor's performance. Gustave Eiffel is in the room. I assume someone decided that, and did not simply forget."
+   },
+   {
+    "who": "you",
+    "text": "Decided. We evaluate the contractor with the contractor here, or what we write down is gossip.",
+    "plain": "It was decided. We assess the contractor while the contractor is present. If we do it without him, what we write is only rumour.",
+    "ref": [
+     64,
+     "Also in this meeting team and contractor performance are evaluated, and ideas and recommendations for post-project work are discussed."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Both releases on their baselined dates. The second one after they lost their lead architect and we lost ours. The configuration engine is better than the tender described. The migration estimate was optimistic and both signatures on it are in this room.",
+    "plain": "Levallois delivered both releases on the planned dates. They delivered the second one after they had lost their lead architect and we had lost ours. The product configuration engine is better than the tender promised. The estimate for data migration was too optimistic. Both people who signed that estimate are in this room."
+   },
+   {
+    "who": "eiffel",
+    "mood": "level",
+    "text": "Harder than that. We priced a migration off a data model we had never been shown. It is in our own closing note. Whoever writes our next bid will read it. Put the evaluation in today's Minutes, please — it is the only thing I take home.",
+    "plain": "I will say it more strongly. We priced the data migration without ever seeing the data model. That sentence is in our own closing note. The person who writes our next offer will read it. Please put the evaluation in today's Minutes. It is the only thing I take home with me."
+   },
+   {
+    "who": "nightingale",
+    "text": "Marie. Does it work?",
+    "plain": "Marie, does the system work?"
+   },
+   {
+    "who": "curie",
+    "mood": "blunt",
+    "text": "Ask me in January. I have had it eight weeks and it has not seen a December.",
+    "plain": "Ask me again in January. I have used it for eight weeks. It has not yet been through a December, which is our busiest time."
+   },
+   {
+    "who": "hopper",
+    "text": "Forty administrators retrained by the thirtieth of April. Two roles redesigned. Segregation of duties is in the platform now, not in Marie standing behind somebody at half past four.",
+    "plain": "40 loan administrators were retrained by 30 April 2028. Two jobs were redesigned. The rule about who may do which step is now enforced by the system. Before, Marie Curie enforced it by standing behind a colleague at 16:30."
+   },
+   {
+    "who": "nightingale",
+    "mood": "flat",
+    "text": "Then the part I have to live with. I can tell the Board of Directors that it runs. I cannot tell them what it was worth. Not one of the five survives a second question.",
+    "plain": "Now the part I must accept. I can tell the Board of Directors that the system is running. I cannot tell them what it is worth. If anyone asks a second question about the five success criteria, I have no answer."
+   },
+   {
+    "who": "you",
+    "text": "Longer than this meeting. Give me until the seventeenth and I will bring you the section.",
+    "plain": "That takes longer than this meeting has. Give me until 17 July and I will bring you that part of the report.",
+    "ref": [
+     64,
+     "After the Project-End Review Meeting: 1. Compile Lessons Learned and Post-Project Recommendations. 2. Produce the Project-End Report."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence's assistant puts her head round the door at eleven ten. The Board of Directors preparation has moved to two. The Lessons Learned session is at half past one.",
+    "plain": "At 11:10 Florence Nightingale's assistant opens the door. The Board of Directors preparation has been moved to 14:00. The Lessons Learned session starts at 13:30.",
+    "g": [
+     [
+      "Lessons Learned",
+      "written notes on what worked and what did not, kept so that other projects can reuse them"
+     ]
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "impatient",
+    "text": "Grace can hold the business side this afternoon. Do I have to sit and listen to people say what they would have done differently?",
+    "plain": "Grace Hopper can represent the business side this afternoon. Do I have to sit and listen to people saying what they would have done differently?",
+    "ref": [
+     64,
+     "Business Manager (BM) Represents the business side and the stakeholders."
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "Florence is asking to be let out of the afternoon. What do you do?",
+   "promptPlain": "Florence Nightingale wants to skip the afternoon session. What do you do?",
+   "options": [
+    {
+     "t": "Tell her plainly that her attendance is required, and that the Steering Committee collects the lessons this afternoon.",
+     "tPlain": "Tell her clearly that the Project Owner must attend, and that the Steering Committee gathers the lessons this afternoon.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "mood": "sharp",
+      "text": "Then I move the Board preparation and I sit through all of it. But say it that way. If it is required, tell me it is required. Do not ask me as though it were a favour.",
+      "plain": "Then I will move the Board preparation and stay for the whole session. But say it like that. If it is required, tell me it is required. Do not ask me as if I were doing you a favour."
+     },
+     "why": "Guide p.64 lists the Project Owner's attendance as required, in its own row, next to the Project Core Team's. The PO is also the person who expresses the organisation's appreciation. Guide p.65 adds that the Project Steering Committee should be invited to the Lessons Learned session so its members can carry the lessons to other projects — and Florence chairs the PSC. The PSC is Accountable for the meeting and the PM is Responsible for organising it, which includes making attendance real rather than nominal.",
+     "whyPlain": "Page 64 says the Project Owner must attend. It is a separate line in the table, next to the Project Core Team. Page 65 says the Steering Committee should be invited to the Lessons Learned session, so its members can take the lessons to other projects. Florence chairs that committee. The committee is accountable for the meeting; you are responsible for organising it. Organising it includes making sure the required people are actually there.",
+     "ref": [
+      64,
+      "Project Owner (PO) Attendance is required."
+     ]
+    },
+    {
+     "t": "Let Grace stand in. The Business Manager represents the business side and the stakeholders anyway.",
+     "tPlain": "Let Grace Hopper replace her. The Business Manager represents the business side and the stakeholders anyway.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "I represent the business side. I do not represent her. If somebody asks me this afternoon whether the Division will own benefit tracking, I cannot answer, and you know I cannot.",
+      "plain": "I represent the business side. I do not represent Florence. If someone asks me this afternoon whether the Division will own the benefit measurement, I cannot answer. You know that I cannot."
+     },
+     "why": "The guide gives the BM and the PO separate rows for a reason: the BM represents the business side and the stakeholders, while the PO's attendance is required in its own right (p.64). The PO is only Consulted on this activity, but becomes Accountable a fortnight later at Administrative Closure (p.67) — so a person who was not in the room is being asked to approve what came out of it.",
+     "whyPlain": "Page 64 lists the Business Manager and the Project Owner separately. The Business Manager speaks for the business side. The Project Owner must be there in person. Today the Project Owner is only consulted. But two weeks later, at Administrative Closure, she is the one who is accountable and signs (page 67). She would then be approving a result she did not see.",
+     "ref": [
+      64,
+      "Business Manager (BM) Represents the business side and the stakeholders."
+     ]
+    },
+    {
+     "t": "Split it. Close the meeting now, and hold a short session with the Project Owner alone next week.",
+     "tPlain": "Divide it. End the meeting now and hold a short separate session with the Project Owner next week.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "Then we have the same conversation twice and end with two versions of it. Half these people are on other projects by Wednesday.",
+      "plain": "Then we hold the same discussion twice and we end with two different versions of it. By Wednesday half of these people are working on other projects."
+     },
+     "why": "Guide p.65 states that the Lessons Learned session should be part of the Project-End Review Meeting; separate sessions belong at the end of phases or at major milestones, not after the project has ended. Splitting it produces a team debrief and a management debrief that never meet, which is exactly the loss the note on that page warns about.",
+     "whyPlain": "Page 65 says the Lessons Learned session should be part of this meeting. Separate sessions are for the end of a phase or a big milestone, not for after the project is over. If you split it, you get one discussion for the team and another for management, and they never meet.",
+     "ref": [
+      65,
+      "The Lessons Learned session should be a part of the Project-End Review Meeting (though separate sessions could be organised at the end of project phases or major milestones)."
+     ]
+    },
+    {
+     "t": "Excuse her. The appreciation is on the record and the rest is detail the Project Manager writes up afterwards.",
+     "tPlain": "Let her go. Her thanks are recorded, and you can write up the rest afterwards.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Then twelve subjects of the Project-End Report get written by one person who was in the room, for an approver who was not. I still have to review it, and I will write that down.",
+      "plain": "Then one person who was in the room writes all twelve subjects of the Project-End Report, for an approver who was not in the room. I must still review that report, and I will record this."
+     },
+     "why": "The Project-End Report is produced after this meeting and takes the meeting's Minutes as its main input (p.66), so leaving the PO out makes the report the record of a single perspective. The participant list on p.64 is not a courtesy list: the PO's attendance is required, the PCT's is required, PQA should attend, and contributions from other roles may be valuable.",
+     "whyPlain": "The Project-End Report is written after this meeting, and its main input is the Minutes of this meeting (page 66). If the Project Owner is not here, the report records only one point of view. The list of participants on page 64 is not a polite invitation list. It says who must attend and who should attend.",
+     "ref": [
+      66,
+      "Inputs • Project-End Review Meeting Minutes (MoM)"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Responsible for organising this meeting, and for writing the Project-End Report that follows it.",
+    "k": "Knows the final figures, and that no success criterion can be signed off today.",
+    "w": "Wants the contractor evaluated on the record, with the contractor in the room.",
+    "f": "Afraid the Project Owner leaves before the lessons are collected."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the benefits, but only Consulted on today's meeting.",
+    "k": "Knows the platform is live, that SC5 closed on 4 July, and that 2029 holds the rest.",
+    "w": "Wants the thanks said once, and to reach the Board preparation this afternoon.",
+    "f": "Afraid the business case is judged before a single benefit number exists."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Accountable for the delivered platform, including the data migration overrun.",
+    "k": "Knows the overrun is almost entirely his, and that he has no lead architect left.",
+    "w": "Wants the overrun put on the estimate rather than on his people.",
+    "f": "Afraid the contractor evaluation becomes a verdict on individuals who have gone."
+   },
+   "hopper": {
+    "o": "Business Manager. Ran the retraining, and from August runs the live operation.",
+    "k": "Knows 40 administrators are trained and that nobody has yet named a benefits owner.",
+    "w": "Wants to hear today who measures SC1 to SC5 after July.",
+    "f": "Afraid the measurement lands on her with no time, no data and no mandate."
+   },
+   "curie": {
+    "o": "User Representative. Accepted the deliverables, and now uses them every morning.",
+    "k": "Knows the platform has run eight weeks, with no December and no crisis in them.",
+    "w": "Wants the fourth floor thanked, and no verdict on the system yet.",
+    "f": "Afraid a quiet July is turned into a claim about a whole year."
+   },
+   "deming": {
+    "o": "Project Quality Assurance, independent of the Project Manager. Should attend this meeting.",
+    "k": "Knows compliance against the Quality Management Plan is clean for the first time.",
+    "w": "Wants the meeting to produce evidence rather than warmth.",
+    "f": "Afraid the closing documents are written to please instead of to record."
+   },
+   "lovelace": {
+    "o": "Business Analyst in the Project Core Team. Designated to take today's Minutes.",
+    "k": "Knows the Lessons Learned register holds forty-one entries, and which of them are soft.",
+    "w": "Wants the room's exact words written down, including the uncomfortable ones.",
+    "f": "Afraid she goes back to the fourth floor on Monday with things left unsaid."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Answerable to Levallois for closing the contract cleanly.",
+    "k": "Knows both releases landed on date, and that the migration bid was wrong.",
+    "w": "Wants the evaluation in today's Minutes, before his contract ends on 31 July.",
+    "f": "Afraid the record is written after he leaves, where he cannot answer it."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: the Closing Phase starts with the Project-End Review Meeting (p.63). RASCI on p.64 is AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C — the Project Steering Committee is Accountable, the Project Manager is Responsible for organising it. Attendance is not uniform and the guide is precise: the Project Owner's attendance is required, the Project Core Team's attendance is required, Project Quality Assurance should attend, and the Business Manager represents the business side and the stakeholders. During the meeting the PO normally expresses the organisation's appreciation, someone is designated to take the Minutes, project statistics and performance are presented, and team and contractor performance are evaluated. Afterwards there are exactly three steps: compile Lessons Learned and Post-Project Recommendations, produce the Project-End Report, communicate the results to the relevant stakeholders. Approver: the PSC. Note the trap — the PO is only Consulted here. The PO's moment of accountability is Administrative Closure. Page 64.",
+  "notePlain": "Rule: the Closing Phase opens with the Project-End Review Meeting (page 63). RASCI row on page 64: AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C. So the Project Steering Committee is accountable and approves; you, the Project Manager, are responsible for organising the meeting. Who comes is not the same for everyone. The Project Owner must attend. The Project Core Team must attend. Project Quality Assurance should attend. The Business Manager speaks for the business side and the stakeholders. In the meeting the Project Owner thanks the team, someone is named to write the Minutes, the numbers are presented, and the team and the contractor are assessed. After the meeting there are three steps: collect the lessons and the post-project recommendations, write the Project-End Report, and tell the stakeholders the result. Trap to remember: today the Project Owner is only consulted. Her moment to approve comes later, at Administrative Closure. Page 64."
+ },
+ {
+  "id": "s47",
+  "act": 5,
+  "actName": "Closing",
+  "title": "Give me the pen",
+  "covers": [
+   "Lessons Learned and Post-Project Recommendations"
+  ],
+  "guide_page": 65,
+  "where": "ESM, Kirchberg — Conference room Schuman",
+  "when": "12 Jul 2028, 13:30",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "deming",
+   "lovelace",
+   "eiffel",
+   "einstein"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Half past one. The sandwiches were a mistake. Somebody opened the blinds for a photograph nobody had asked for and the room is at twenty-eight degrees. Albert Einstein has come down from the Architecture Office for the afternoon.",
+    "plain": "It is 13:30. The sandwiches were a bad idea. Someone opened the blinds for a photograph that nobody wanted, and the room is now at 28 degrees. Albert Einstein has come down from the Architecture Office for the afternoon."
+   },
+   {
+    "who": "leonardo",
+    "text": "One honest question before we start, and I am not being difficult.",
+    "plain": "I have one honest question before we start. I am not trying to cause trouble."
+   },
+   {
+    "who": "leonardo",
+    "text": "Nobody has perspective eight weeks after a go-live. September. You would get considered answers instead of tired ones.",
+    "plain": "Nobody can judge a project clearly eight weeks after it goes live. Do this in September. Then you get careful answers instead of tired ones.",
+    "ref": [
+     65,
+     "The Lessons Learned session should be a part of the Project-End Review Meeting (though separate sessions could be organised at the end of project phases or major milestones)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Who is in the room in September?",
+    "plain": "Who will still be here in September?"
+   },
+   {
+    "who": "lovelace",
+    "text": "Not me. Fourth floor from Monday, with a queue of my own.",
+    "plain": "Not me. From Monday I am back on the fourth floor with my own work waiting."
+   },
+   {
+    "who": "eiffel",
+    "text": "Not me. My contract ends on the thirty-first and I am on a plane at seven tonight.",
+    "plain": "Not me. My contract ends on 31 July and my flight leaves at 19:00 tonight.",
+    "g": [
+     [
+      "framework contract",
+      "a standing agreement with a supplier; individual orders, called call-offs, are placed under it"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Two of your testers go the same day.",
+    "plain": "Two of the contractor's test engineers leave on the same day."
+   },
+   {
+    "who": "leonardo",
+    "mood": "flat",
+    "text": "I still think September gives better answers. I accept that it gives them to nobody.",
+    "plain": "I still believe September would give better answers. But I accept that in September there would be nobody left to give them."
+   },
+   {
+    "who": "hopper",
+    "text": "We have the register in any case. Forty-one entries since Planning, each written the week the thing happened.",
+    "plain": "We have the register anyway. It holds 41 entries made since the Planning Phase. Each one was written in the same week as the event it describes.",
+    "g": [
+     [
+      "Lessons Learned register",
+      "the running list a project keeps of what it learned, written while the project is still going"
+     ]
+    ],
+    "ref": [
+     65,
+     "Note: Improvement opportunities and Post-Project Recommendations should be captured in some form as they come up during the project."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Then read it out and let everybody go home.",
+    "plain": "Then read the register out loud and let everyone leave."
+   },
+   {
+    "who": "you",
+    "text": "The register is what people wrote on their own. It is not what they say to each other.",
+    "plain": "The register holds what each person wrote alone. That is not the same as what people say when they are together.",
+    "ref": [
+     65,
+     "When project team members share their perspectives and provide feedback it provides useful insights"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "It really is not. Entry nineteen says migration rehearsal effort underestimated. It does not say that Nikola told me in November and I assumed he was managing it himself.",
+    "plain": "That is true. Entry 19 says the effort for the migration rehearsal was estimated too low. It does not say that Nikola Tesla told me about it in November, and that I assumed he was handling it himself."
+   },
+   {
+    "who": "leonardo",
+    "text": "He was not managing it. He was rewriting it.",
+    "plain": "He was not handling it. He was rewriting it."
+   },
+   {
+    "who": "narr",
+    "text": "Which is a lesson, and it has just been captured, and it is twenty to two.",
+    "plain": "That is a lesson. It has just been recorded. The time is 13:40."
+   },
+   {
+    "who": "einstein",
+    "text": "I am here because the Steering Committee was invited. I will take two of these into the target architecture review in October. That is not manners. It is the only road they travel on.",
+    "plain": "I am here because the Steering Committee was invited. I will take two of these lessons into the architecture review in October. I am not being polite. That review is the only way these lessons reach other projects.",
+    "ref": [
+     65,
+     "The Project Steering Committee (PSC) should be invited to the Lessons Learned session(s) as this will allow its members to transfer the Lessons Learned to other projects."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Explain that to me properly. Why is a Steering Committee sitting in a room about what went wrong?",
+    "plain": "Explain that properly to me. Why does a Steering Committee sit in a meeting about mistakes?"
+   },
+   {
+    "who": "you",
+    "text": "Because a lesson that stays inside the project it came from is a memory. The four of you sit on six other projects between you.",
+    "plain": "Because a lesson that never leaves its own project is only a memory. The four members of this committee sit on six other projects in total.",
+    "ref": [
+     104,
+     "To avoid making the same mistakes twice, Lessons Learned should be shared with other project managers."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "There is a second guideline on that page and nobody has said it out loud.",
+    "plain": "There is a second guideline on that page of the guide, and nobody has said it aloud yet."
+   },
+   {
+    "who": "you",
+    "text": "Say it.",
+    "plain": "Please say it."
+   },
+   {
+    "who": "deming",
+    "text": "The person running this session should not be the person the session is about.",
+    "plain": "The person who leads this session should not be the person the session is about.",
+    "ref": [
+     65,
+     "It may be preferable to have the Lessons Learned session facilitated by someone who has not been intimately involved in the project, allowing the Project Manager (PM) to contribute as a participant."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Meaning me.",
+    "plain": "You mean me."
+   },
+   {
+    "who": "deming",
+    "text": "Twenty-six months of this belong to the Project Manager. If you hold the pen, half the room is kind to you and the other half aims. Give me the pen and answer when you are asked.",
+    "plain": "Twenty-six months of this project belong to the Project Manager. If you lead the session, half the room will be gentle with you and the other half will attack you. Give me the pen. Then take part, and answer when someone asks you a question."
+   },
+   {
+    "who": "curie",
+    "mood": "dry",
+    "text": "I would pay to watch that.",
+    "plain": "I would like to see that."
+   },
+   {
+    "who": "nightingale",
+    "text": "I moved a Board preparation for this. Decide.",
+    "plain": "I moved a Board preparation meeting so that I could be here. Make a decision.",
+    "g": [
+     [
+      "Post-Project Recommendations",
+      "proposed work after the project ends: fixes, extensions, follow-up projects, and benefit checks"
+     ]
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "How do you run the Lessons Learned session?",
+   "promptPlain": "How do you run the Lessons Learned session?",
+   "options": [
+    {
+     "t": "Run it now, inside this meeting, with Deming holding the pen so you can take part as a participant.",
+     "tPlain": "Hold it now, inside this meeting. Ask Deming to lead it, so that you can take part like everyone else.",
+     "ok": true,
+     "reply": {
+      "who": "deming",
+      "text": "Then I take the pen. Six headings, twenty minutes each, and the Project Manager sits down and answers when asked, like everybody else in the room.",
+      "plain": "Then I will lead it. Six headings, twenty minutes for each one. The Project Manager sits down and answers questions like everyone else."
+     },
+     "why": "Guide p.65 gives both guidelines this option follows: the Lessons Learned session should be part of the Project-End Review Meeting, and it may be preferable to have it facilitated by someone not intimately involved in the project, allowing the Project Manager to contribute as a participant. The RASCI is unchanged from the meeting itself — PSC=A, PM=R — so you remain Responsible for the session happening, not for chairing it.",
+     "whyPlain": "Page 65 gives two guidelines and this option follows both. First, the Lessons Learned session should be part of the Project-End Review Meeting. Second, it is often better if someone outside the project leads it, so the Project Manager can join in as a participant. The RASCI row does not change: the Steering Committee is accountable, you are responsible. You are responsible for the session happening. You are not required to chair it.",
+     "ref": [
+      65,
+      "It may be preferable to have the Lessons Learned session facilitated by someone who has not been intimately involved in the project, allowing the Project Manager (PM) to contribute as a participant."
+     ]
+    },
+    {
+     "t": "Hold a separate session in September, when people have distance from the go-live and can think properly.",
+     "tPlain": "Hold a separate session in September, when people have had time to think about the go-live.",
+     "ok": false,
+     "reply": {
+      "who": "eiffel",
+      "text": "In September I am not an employee of Levallois. Everything I know about how you and I estimated that migration gets on a plane with me tonight.",
+      "plain": "In September I no longer work for Levallois. Everything I know about how we estimated the data migration leaves with me tonight."
+     },
+     "why": "Separate Lessons Learned sessions are allowed at the end of project phases or at major milestones (p.65), which is not the same as after closure. The note on the same page is the point: in longer projects the ideas get lost by the time the Closing Phase arrives — and here the Core Team, the contractor and the business analyst all disperse within three weeks.",
+     "whyPlain": "Page 65 allows separate sessions at the end of a phase or at a big milestone. It does not allow them after the project is closed. The note on the same page explains why: in long projects the ideas are lost by the time Closing arrives. Here the Core Team, the contractor and the business analyst all leave within three weeks.",
+     "ref": [
+      65,
+      "Otherwise, particularly in longer projects, the ideas might get lost by the time the project reaches the Closing Phase."
+     ]
+    },
+    {
+     "t": "Publish the running register. Forty-one entries captured as they arose is exactly what the guide asks for.",
+     "tPlain": "Publish the running register instead. It already holds 41 entries, written as things happened.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "text": "Then entry nineteen stands as it is and nobody ever learns that I sat on it for a month. The register is the evidence. It is not the conversation.",
+      "plain": "Then entry 19 stays as it is, and nobody learns that I kept the information to myself for a month. The register is the evidence. It is not the discussion."
+     },
+     "why": "Capturing improvement opportunities and recommendations as they come up is a note on p.65 that protects against loss; it does not replace the session, which is the first guideline on that page. The session exists so that team members share perspectives and hear each other, which is what produces the insight the requestor side uses to manage post-project activities.",
+     "whyPlain": "Writing lessons down as they happen is a note on page 65. It protects you against losing them. It does not replace the session, which is the first guideline on that page. The session exists so that people share their views and hear each other. That is what produces the insight the business side needs after the project.",
+     "ref": [
+      65,
+      "The purpose of formal Lessons Learned and Post-Project Recommendations is to make it possible for project teams and the permanent organisation at large to benefit from the experience acquired during the project."
+     ]
+    },
+    {
+     "t": "Send a structured questionnaire to the wider group instead, and compile the answers into the report.",
+     "tPlain": "Send a written questionnaire to a wider group instead, and put the answers in the report.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "I answered a questionnaire in March. I ticked four boxes and wrote the word fine. Ask me in this room and I will tell you what I told you on the twenty-seventh of April.",
+      "plain": "I answered a questionnaire in March. I ticked four boxes and wrote the word fine. Ask me here, in this room, and I will tell you exactly what I told you on 27 April."
+     },
+     "why": "The guide does recommend structured questionnaires or interviews, but for collecting lessons from a broader group of stakeholders (p.65) — as a supplement to the session, not a substitute for it. Replacing the session with a form loses the structured discussion across phases and categories that the same page requires, and loses everything that only surfaces when two people disagree.",
+     "whyPlain": "Page 65 does recommend questionnaires and interviews, but for collecting lessons from a wider group of stakeholders. They are an addition to the session, not a replacement. A form cannot give you the structured discussion across phases and categories that the same page requires. It also loses everything that only appears when two people disagree in a room.",
+     "ref": [
+      65,
+      "Use a structured approach to collecting lessons learned from a broader group of stakeholders via questionnaires, or structured interviews."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Responsible for organising the gathering of Lessons Learned; still Responsible even if you do not chair it.",
+    "k": "Knows the register is complete and that the room disperses within three weeks.",
+    "w": "Wants the session held today, before the people who lived it scatter.",
+    "f": "Afraid that chairing it himself would quietly edit the worst entries."
+   },
+   "nightingale": {
+    "o": "Project Owner, and chair of the Project Steering Committee that was invited to this session.",
+    "k": "Knows she moved a Board preparation, and does not yet know why lessons travel upward.",
+    "w": "Wants a reason to be here that is better than attendance.",
+    "f": "Afraid the afternoon is a ritual with no product at the end of it."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Contributes his own and his division's experience of the project.",
+    "k": "Knows perspective improves with time, and now knows nobody will be left to have it.",
+    "w": "Wanted September; wants, failing that, an accurate record of the migration.",
+    "f": "Afraid tired answers become the permanent version of what happened."
+   },
+   "hopper": {
+    "o": "Business Manager. Represents the requestor's point of view in the session.",
+    "k": "Knows the register by heart because the Business Implementation Group filled half of it.",
+    "w": "Wants the business lessons kept separate from the technical ones.",
+    "f": "Afraid the day ends without anyone naming who owns the benefits."
+   },
+   "curie": {
+    "o": "User Representative. Contributes the acceptance and daily-use experience.",
+    "k": "Knows what she said in April and that a questionnaire never captured any of it.",
+    "w": "Wants to be asked in a room rather than by form.",
+    "f": "Afraid the honest version is smoothed out before it reaches paper."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Not intimately involved, therefore the guide's preferred facilitator.",
+    "k": "Knows both p.65 guidelines and that only one of them has been said aloud.",
+    "w": "Wants the pen, so the Project Manager can be a participant.",
+    "f": "Afraid a session run by the Project Manager produces either flattery or an ambush."
+   },
+   "lovelace": {
+    "o": "Business Analyst in the Project Core Team. Contributes experience; holds the Minutes.",
+    "k": "Knows entry nineteen is true and incomplete, and why it is incomplete.",
+    "w": "Wants to say the missing half out loud before Monday.",
+    "f": "Afraid of being the person who knew in November and said nothing."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Contributes the supplier's view while he still holds the role.",
+    "k": "Knows exactly how the migration was priced and that the knowledge leaves with him.",
+    "w": "Wants the estimating lesson written down tonight, in someone else's file.",
+    "f": "Afraid the contractor's version is recorded only after he is unreachable."
+   },
+   "einstein": {
+    "o": "Architecture Office representative on the PSC; carries lessons into the target architecture review.",
+    "k": "Knows which two lessons matter beyond CASTOR and where they can be applied.",
+    "w": "Wants two transferable lessons, not a full account of the project.",
+    "f": "Afraid the room treats his presence as courtesy rather than as the transfer route."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: Lessons Learned and Post-Project Recommendations carries the same RASCI as the meeting it sits inside — p.65 prints AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C, so the PSC is Accountable and the PM Responsible for organising the gathering. Three guidelines decide how it is run: the session should be part of the Project-End Review Meeting; it may be preferable to have it facilitated by someone not intimately involved, allowing the PM to contribute as a participant; and the PSC should be invited so its members transfer the lessons to other projects. Questionnaires and structured interviews are for collecting lessons from a broader group of stakeholders, not for replacing the session. The note on p.65 is the one candidates forget: improvement opportunities and Post-Project Recommendations should be captured as they come up during the project, or in long projects the ideas are lost by the time Closing arrives. The declared output is the Project-End Report, not a separate lessons document. Approver: the PSC. Page 65.",
+  "notePlain": "Rule: the Lessons Learned activity has the same RASCI row as the meeting around it. Page 65 prints AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C. The Steering Committee is accountable; you are responsible for organising it. Three guidelines decide how it runs. First, hold the session inside the Project-End Review Meeting. Second, it is often better if someone outside the project leads it, so you can take part as a participant. Third, invite the Steering Committee, because its members carry the lessons to other projects. Questionnaires and interviews are useful for a wider group of stakeholders. They do not replace the session. The note on page 65 is easy to forget: write improvement ideas down while the project is running. In a long project they are lost by the time Closing starts. The output of this activity is the Project-End Report. There is no separate lessons document. Approver: the Steering Committee. Page 65."
+ },
+ {
+  "id": "s48",
+  "act": 5,
+  "actName": "Closing",
+  "title": "The ones we would have lost",
+  "covers": [
+   "Lessons Learned and Post-Project Recommendations"
+  ],
+  "guide_page": 65,
+  "where": "ESM, Kirchberg — Conference room Schuman",
+  "when": "12 Jul 2028, 14:10",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "deming",
+   "lovelace",
+   "eiffel",
+   "einstein"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Deming writes six headings on the board and does not sit down again for two hours. Scope and planning. Communication. Change control. Risk and issues. Acceptance and transition. The team.",
+    "plain": "Deming writes six headings on the board. He does not sit down again for two hours. The headings are: scope and planning; communication; change control; risk and issues; acceptance and transition; the team.",
+    "ref": [
+     65,
+     "The discussion should be structured (using project phases, categories of activities, etc. as the organisational principle) to cover every aspect of the project."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Change control. CR-014. Tell it so a stranger can use it.",
+    "plain": "Change control. Change request CR-014. Describe it so that someone who was not here can use the lesson."
+   },
+   {
+    "who": "hopper",
+    "text": "A telephone call from a cabinet on the thirteenth of May 2027. Backstop screens in Release 2, please. Two days of everybody's life went into it before one word was written down.",
+    "plain": "On 13 May 2027 someone from a Board member's private office telephoned. They asked for the backstop screens to be added to Release 2. We spent two days of everyone's time on it before anything was written down.",
+    "g": [
+     [
+      "cabinet",
+      "the private office of a senior official or board member, speaking in that person's name"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Then it became a Change Request Form, a line in the Change Log, and a Steering Committee decision on the twenty-sixth. Postponed. Decision D-09.",
+    "plain": "After that it became a Change Request Form, an entry in the Change Log, and a Steering Committee decision on 26 May 2027. The committee postponed it. The decision is recorded as D-09.",
+    "g": [
+     [
+      "Change Request Form",
+      "the form that turns a request to alter agreed scope, cost or time into a decision"
+     ],
+     [
+      "Change Log",
+      "the register of every change request, its status, its cost, and who decided it"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "One sentence for the stranger. A verbal scope request buys no estimating effort until it is on a form. It cost us two days. Somebody else can have it free.",
+    "plain": "The lesson in one sentence. Do not spend any estimating effort on a spoken request for extra scope until it is written on a form. Those two days cost us money. Someone else can have the lesson for nothing.",
+    "ref": [
+     104,
+     "Information that can be captured includes Lessons Learned from the management of risks, quality issues, outsourcing or contractor issues, change requests, etc."
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "There is a second one underneath it, and it is not a change lesson. The cabinets were never on the Stakeholder Matrix. Nobody puts them there, because nobody thinks of them as stakeholders until one of them telephones.",
+    "plain": "There is a second lesson underneath that one, and it is not about change control. The private offices were never listed in the Project Stakeholder Matrix. Nobody lists them, because nobody treats them as stakeholders until one of them telephones."
+   },
+   {
+    "who": "lovelace",
+    "text": "Category stakeholder management. Recommendation: map the cabinets from Initiating, and give them a route that is not the telephone.",
+    "plain": "I will file that under stakeholder management. The recommendation is: list the private offices as stakeholders from the Initiating Phase, and give them a way to ask for things that is not a telephone call."
+   },
+   {
+    "who": "deming",
+    "text": "Risk.",
+    "plain": "Next heading. Risk."
+   },
+   {
+    "who": "leonardo",
+    "text": "R-07. Loss of a key architect. In the Risk Log since June 2026, strategy Reduce. Two actions: a key-person clause in the Levallois contract, and Nikola shadowing the design authority.",
+    "plain": "Risk R-07: losing a key architect. It was in the Risk Log from June 2026. The chosen strategy was Reduce. There were two actions: a key-person clause in the Levallois contract, and Nikola Tesla working alongside the design authority so that he would know the same things.",
+    "g": [
+     [
+      "key-person risk",
+      "the danger that one individual holds knowledge the project cannot replace quickly"
+     ]
+    ]
+   },
+   {
+    "who": "eiffel",
+    "mood": "level",
+    "text": "The clause worked. Our platform architect resigned in April 2027 and you had a named replacement and three weeks of handover, because the contract said so and because you paid for that sentence in 2026.",
+    "plain": "The clause worked. Our platform architect resigned in April 2027. You received a named replacement and three weeks of handover, because the contract required it, and because you paid for that sentence in 2026."
+   },
+   {
+    "who": "leonardo",
+    "text": "And in October we lost Nikola, and there was no clause, because he was the clause.",
+    "plain": "Then in October 2027 we lost Nikola Tesla. No contract clause covered that, because he himself was the other half of our protection."
+   },
+   {
+    "who": "you",
+    "text": "Half our response to key-person risk was a person. We wrote one half into a contract and never wrote the other half down anywhere.",
+    "plain": "Half of our answer to key-person risk was a person. We wrote one half into a contract. We never wrote the other half down anywhere."
+   },
+   {
+    "who": "deming",
+    "text": "That is usable. We managed the risk well is not.",
+    "plain": "That lesson can be used by others. The sentence we managed the risk well cannot."
+   },
+   {
+    "who": "lovelace",
+    "text": "His last entry is still in the register. Twenty-two. We designed the migration to be run once, correctly. We ran it four times. Design it to be run twenty times.",
+    "plain": "Nikola Tesla's last entry is still in the register. It is number 22. It says: we designed the data migration to be run once and to be correct. We ran it four times. Design it so it can be run twenty times.",
+    "ref": [
+     65,
+     "Note: Improvement opportunities and Post-Project Recommendations should be captured in some form as they come up during the project."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "mood": "dry",
+    "text": "He wrote that in the week he left. It is the only polite thing he wrote that month.",
+    "plain": "He wrote that in the week he left. It is the only polite thing he wrote in that whole month."
+   },
+   {
+    "who": "deming",
+    "text": "Issues and conflict.",
+    "plain": "Next heading. Issues and conflict."
+   },
+   {
+    "who": "hopper",
+    "text": "Ours, then. Whether retraining forty administrators lived in the Transition Plan or the Business Implementation Plan. Three weeks of 2026, and not politely.",
+    "plain": "Then I will take this one. We argued about whether the retraining of 40 administrators belonged in the Transition Plan or in the Business Implementation Plan. The argument lasted three weeks in 2026 and it was not polite."
+   },
+   {
+    "who": "you",
+    "text": "It was mine to lose and I lost it correctly. It went into the Business Implementation Plan, under Grace, with Florence accountable. What a stranger should hear is that the argument was worth having in Planning, because afterwards it never once needed change control.",
+    "plain": "It was my argument to lose, and I lost it for the right reason. The retraining went into the Business Implementation Plan, run by Grace Hopper, with Florence Nightingale accountable. The lesson for others is this: the argument was worth having during Planning. After that it never needed a change request.",
+    "ref": [
+     65,
+     "project definition and planning (scope, deliverables, resources, etc.), project communication, project documentation, change control, risk/issue management, decision-making, successes, mistakes and failures, team dynamics, and overall project performance"
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Acceptance. Marie.",
+    "plain": "Next heading. Acceptance. Marie, please."
+   },
+   {
+    "who": "curie",
+    "text": "The twenty-seventh of April. Nine hundred and ninety-eight loans reconciled and two did not, in the week of a three billion euro rollover. I refused. Somebody told me there was a process for refusing and, to my surprise, there was.",
+    "plain": "On 27 April 2028, 998 loans matched and 2 did not. It was the week of a 3 billion euro bond rollover. I refused to accept the report. Someone told me there was a formal process for refusing. To my surprise, there was.",
+    "g": [
+     [
+      "rollover",
+      "repaying a bond that is falling due by issuing a new bond, usually on the same day"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "My lesson is small. Acceptance criteria have to be written by somebody who does the job. Mine were, because I made a nuisance of myself in 2026. If I had not, I would have had nothing to refuse against, and I would have signed.",
+    "plain": "My lesson is a small one. Acceptance criteria must be written by a person who does the work. Mine were, because I insisted on it in 2026. If I had not insisted, I would have had no criterion to measure against, and I would have signed."
+   },
+   {
+    "who": "deming",
+    "text": "Last heading. What happens after us.",
+    "plain": "Last heading. What should happen after this project ends."
+   },
+   {
+    "who": "you",
+    "text": "Three things. Benefit measurement across the 2029 reporting year. A follow-up project to onboard the backstop within six weeks of ratification, reusing the configuration engine and re-estimating CR-014 rather than re-opening it. And two product templates deferred out of Release 1, which are maintenance and not a project.",
+    "plain": "Three things. First, measure the benefits across the whole 2029 reporting year. Second, a follow-up project to add the backstop instrument within six weeks of the treaty change being approved, reusing the configuration engine and making a new estimate for CR-014 instead of re-opening the old one. Third, two product templates that were left out of Release 1. Those are maintenance work, not a project.",
+    "g": [
+     [
+      "ratification",
+      "formal approval of a treaty change by every member state, under its own national rules"
+     ]
+    ],
+    "ref": [
+     65,
+     "It is also important to capture ideas and recommendations for post-project work relating to the operation of the product/service delivered, such as extensions, maintenance and ideas for follow-up projects."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Grouped, in that order, and sent to every project manager in this building. Not filed.",
+    "plain": "Group them in that order and send them to every project manager in this building. Do not simply file them.",
+    "ref": [
+     65,
+     "Improvement ideas should be organised into groups to help the team better visualise the appropriate next steps required to implement them."
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Count. Eleven of this afternoon's lessons were already in the register. Nine are new. Eight of the nine exist because two people contradicted each other in this room.",
+    "plain": "Here is the count. 11 of this afternoon's lessons were already in the register. 9 are new. 8 of those 9 exist only because two people disagreed with each other in this room."
+   },
+   {
+    "who": "nightingale",
+    "mood": "flat",
+    "text": "Then the afternoon was worth it, and I will say so. It still does not tell me whether any of it was worth eight point nine six million.",
+    "plain": "Then the afternoon was worth having, and I will say so. It still does not tell me whether the project was worth 8.96 million euro."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Responsible for the session and for compiling the lessons into the Project-End Report.",
+    "k": "Knows which lessons are already written and which are surfacing for the first time.",
+    "w": "Wants the risk-response lesson stated in a form a stranger can reuse.",
+    "f": "Afraid the honest version stops being sayable once people are reassigned."
+   },
+   "nightingale": {
+    "o": "Project Owner. Consulted here; approves nothing this afternoon.",
+    "k": "Now knows how the lessons travel, and still has no benefit figure.",
+    "w": "Wants the afternoon to justify itself in something she can use.",
+    "f": "Afraid a good process report hides the absence of a business answer."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Owned R-07 and the response actions attached to it.",
+    "k": "Knows the clause worked once and that the second loss was uncovered.",
+    "w": "Wants Nikola's contribution recorded, not just his departure.",
+    "f": "Afraid his division is remembered for the migration overrun alone."
+   },
+   "hopper": {
+    "o": "Business Manager. Represents the requestor's view and owns the business lessons.",
+    "k": "Knows the retraining argument was settled correctly and cost three weeks.",
+    "w": "Wants the planning argument recorded as time well spent, not as conflict.",
+    "f": "Afraid the post-project list quietly becomes hers without resourcing."
+   },
+   "curie": {
+    "o": "User Representative. Wrote the acceptance criteria she later refused against.",
+    "k": "Knows exactly what failed on 27 April and why the refusal held.",
+    "w": "Wants one small lesson recorded in her own words.",
+    "f": "Afraid the next project writes its criteria without asking a user."
+   },
+   "deming": {
+    "o": "Facilitator of this session and Project Quality Assurance for the project.",
+    "k": "Knows which answers are usable by other projects and which are self-congratulation.",
+    "w": "Wants every lesson stated so an outsider can act on it.",
+    "f": "Afraid the grouped improvement ideas are filed and never sent anywhere."
+   },
+   "lovelace": {
+    "o": "Business Analyst in the Project Core Team. Keeps the register and the Minutes.",
+    "k": "Knows entry twenty-two is the last thing Nikola wrote for this project.",
+    "w": "Wants the new lessons distinguished from the ones already captured.",
+    "f": "Afraid the eight contradicted lessons are smoothed away in the report."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Answers for Levallois's performance and estimates.",
+    "k": "Knows what the key-person clause bought and what it did not cover.",
+    "w": "Wants the estimating failure attributed to the bid, not to his engineers.",
+    "f": "Afraid the lesson is written as a complaint about the supplier."
+   },
+   "einstein": {
+    "o": "Architecture Office on the PSC. Carries transferable lessons to other projects.",
+    "k": "Knows the stakeholder gap is structural and repeats across the institution.",
+    "w": "Wants the second lesson under CR-014 recorded separately from the first.",
+    "f": "Afraid the useful lesson is filed under the wrong category and never found."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: p.65 requires the Lessons Learned discussion to be structured, using project phases or categories of activity as the organising principle so that every aspect is covered — definition and planning, communication, documentation, change control, risk and issue management, decision-making, successes, mistakes and failures, team dynamics and overall performance. The same page requires Post-Project Recommendations to capture ideas for post-project work on the operation of the delivered product or service: extensions, maintenance and follow-up projects. Improvement ideas should be organised into groups so the team can see the next steps needed to implement them, and Appendix C.17 (p.104) adds that the PM groups and prioritises the lessons and that they should be shared with other project managers to avoid making the same mistakes twice. RASCI is unchanged: AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C. Approver: the PSC. The declared output is the Project-End Report. Page 65.",
+  "notePlain": "Rule: page 65 says the Lessons Learned discussion must be structured. Use the project phases or categories of work as the structure, so that nothing is missed: planning and scope, communication, documents, change control, risk and issues, decisions, successes, mistakes, how the team worked, and overall performance. The same page says the Post-Project Recommendations must also capture work needed after the project: extensions, maintenance and follow-up projects. Group the improvement ideas, so the next steps are visible. Appendix C.17 on page 104 adds two things: the Project Manager groups and prioritises the lessons, and the lessons should be shared with other project managers so the same mistakes are not repeated. The RASCI row does not change: AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C. Approver: the Steering Committee. The output is the Project-End Report. Page 65."
+ },
+ {
+  "id": "s49",
+  "act": 5,
+  "actName": "Closing",
+  "title": "The year that is not ours",
+  "covers": [
+   "Project-End Report"
+  ],
+  "guide_page": 66,
+  "where": "ESM, Kirchberg — Lending Operations, fourth floor, Head of Division's office",
+  "when": "17 Jul 2028, 16:20",
+  "cast": [
+   "you",
+   "nightingale",
+   "hopper",
+   "deming"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Version zero point nine of the Project-End Report is open on the screen at section 2.1. Outside the plateau is white with heat and half the floor is already on leave.",
+    "plain": "Version 0.9 of the Project-End Report is open on the screen at section 2.1. Outside it is very hot and bright. Half of the floor is already on holiday.",
+    "ref": [
+     66,
+     "Project Manager (PM) Writes the report."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Four of five met. Then, in the same paragraph, SC3 demonstrated but not yet proven in production. Read that to me as a Board member in October.",
+    "plain": "The report says four of the five success criteria are met. Then, in the same paragraph, it says SC3 has been demonstrated but not proven in live use. Imagine you are a Board member reading that in October."
+   },
+   {
+    "who": "you",
+    "text": "It reads like what is true on the seventeenth of July. SC1, one working day, across fourteen disbursements. SC2, same-day reconciliation, every day. SC4, zero re-keyed fields since the fifteenth of May, from about fourteen hundred a quarter. SC5, both findings closed on the fourth.",
+    "plain": "It reads like the truth on 17 July 2028. SC1: one working day, measured over 14 payments. SC2: reconciliation on the same day, every day. SC4: no fields typed again by hand since 15 May, down from about 1,400 every three months. SC5: both audit findings closed on 4 July.",
+    "ref": [
+     66,
+     "The report should address each of the following subjects"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "SC3 needs a new instrument and there is no new instrument. We configured one in a test environment in six weeks. That is a different claim and I am not writing it as the same one.",
+    "plain": "SC3 needs a new lending product to set up, and there is no new lending product. We set one up in a test system in six weeks. That is a different statement, and I will not write it as if it were the same one."
+   },
+   {
+    "who": "nightingale",
+    "text": "So. Four out of five with an asterisk.",
+    "plain": "So it is four out of five, with a note attached."
+   },
+   {
+    "who": "hopper",
+    "mood": "firm",
+    "text": "No. Four out of five today, and none of the five signed off, because signing them off takes a year. One working day across fourteen disbursements in a quiet July is not one working day across a quarter-end, an August and the week before Christmas.",
+    "plain": "No. It is four out of five today, and none of the five is finally confirmed, because confirming them takes a year. One working day measured over 14 payments in a quiet July is not the same as one working day across a quarter end, an August, and the week before Christmas.",
+    "g": [
+     [
+      "reporting year",
+      "the twelve months an institution measures and reports its performance over"
+     ]
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "bitter",
+    "text": "Then I approve a report that says we do not know whether the project did what it was for.",
+    "plain": "Then I approve a report which says that we do not know whether the project achieved its purpose."
+   },
+   {
+    "who": "deming",
+    "text": "You approve a report that says what is true. Conclusions balanced, based on a thorough analysis of the facts. A report claiming what it cannot show is worse than one saying measurement continues, because the first kind is found out by somebody who was not in the room.",
+    "plain": "You approve a report that says what is true. Conclusions must be balanced and based on a careful analysis of the facts. A report that claims what it cannot prove is worse than a report that says measurement is still going on. The first kind is discovered later by someone who was not here.",
+    "ref": [
+     118,
+     "OBJECTIVITY: any conclusions drawn by staff as part of the project work should be balanced and based on a thorough analysis of the facts and legal background."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And there is somewhere to put it. Section eight. One of the things that section is for, in the template's own words, is verifying that the intended benefits will be realised.",
+    "plain": "And the report has a place for it. Section 8, Post-Project Recommendations. One purpose of that section, in the words of the template, is to check that the intended benefits will actually be achieved."
+   },
+   {
+    "who": "nightingale",
+    "text": "Which is you handing it back to me.",
+    "plain": "That means you are giving the problem back to me."
+   },
+   {
+    "who": "you",
+    "text": "To the permanent organisation. That happens to be you, but not as Project Owner. As Head of Lending Operations, with a system that has been in operations mode since May.",
+    "plain": "I am giving it to the permanent organisation. That is you, but not in your role as Project Owner. It is you as Head of Lending Operations, with a system that has been in normal running since May.",
+    "g": [
+     [
+      "permanent organisation",
+      "the standing departments that keep running after a project's team is dissolved"
+     ],
+     [
+      "operations mode",
+      "normal daily running of a live system by its owner, after the project has ended"
+     ]
+    ],
+    "ref": [
+     67,
+     "Formal project closure brings project mode to an end and allows operations mode to commence."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Guide page six. Chapter two, before any phase and before any artefact. Project outcomes and benefits are often realised only after the project has closed.",
+    "plain": "This is on page 6 of the guide. It is in chapter 2, before any phase and before any document. It says that a project's outcomes and benefits often appear only after the project has closed.",
+    "ref": [
+     6,
+     "Note that project outcomes and benefits are often realised only after the project has closed."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "I said that sentence myself in Grace's office in 2026. I thought I was describing an inconvenience.",
+    "plain": "I said that same sentence in Grace Hopper's office in 2026. At the time I thought I was describing a small problem."
+   },
+   {
+    "who": "hopper",
+    "text": "I will own the measurement. Quarterly, out of the Division's own operational reporting, from the third quarter of 2028. The full-year statement for 2029 goes to the Corporate Investment Board in the first quarter of 2030.",
+    "plain": "I will take ownership of the measurement. It will be quarterly, taken from the Division's own operational reporting, starting with the third quarter of 2028. The statement for the whole of 2029 goes to the Corporate Investment Board in the first quarter of 2030.",
+    "g": [
+     [
+      "Corporate Investment Board",
+      "the internal committee that decides which investments the institution funds and reviews the portfolio"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Named owner, named cadence, named date. Without those three, section eight is a wish with a heading on it.",
+    "plain": "A named owner, a stated frequency and a fixed date. Without those three things, section 8 is only a hope with a title above it."
+   },
+   {
+    "who": "nightingale",
+    "text": "Twenty-six months. Eight point nine six million. Forty people retrained. And the last sentence of it is that measurement continues.",
+    "plain": "Twenty-six months. 8.96 million euro. 40 people retrained. And the final sentence is that measurement continues."
+   },
+   {
+    "who": "you",
+    "text": "The platform is the output. Straight-through processing is the outcome. The benefit is a number Grace reads in 2030. Three different things, and only the first was ever mine to finish.",
+    "plain": "The platform is the output. Payments passing through without re-typing is the outcome. The benefit is a number that Grace Hopper will read in 2030. Those are three different things. Only the first one was ever mine to finish.",
+    "g": [
+     [
+      "straight-through processing",
+      "a payment that goes from instruction to settlement without anyone typing it again"
+     ]
+    ],
+    "ref": [
+     6,
+     "Project outputs (deliverables) are products/services, which introduce something new (a change). The change results in an outcome. The benefits are the measurable improvements resulting from this outcome."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "It runs the other way as well. Nobody has ever thanked whoever built LOS, and close to three hundred billion euro went through it before we switched it off last month.",
+    "plain": "It also works the other way. Nobody has ever thanked the people who built LOS. Almost 300 billion euro passed through that system before we switched it off last month."
+   },
+   {
+    "who": "nightingale",
+    "text": "Say the rest of it. If the number is Grace's from August, then when it arrives it is not a verdict on anybody in this room.",
+    "plain": "Say the rest of it. If the number belongs to Grace Hopper from August, then when the number arrives it is not a judgement on anyone in this room."
+   },
+   {
+    "who": "you",
+    "text": "No.",
+    "plain": "No, it is not."
+   },
+   {
+    "who": "nightingale",
+    "mood": "flat",
+    "text": "I find I mind that less than I expected to.",
+    "plain": "I am less unhappy about that than I expected to be."
+   },
+   {
+    "who": "deming",
+    "text": "That is the sentence. Put it in 2.1 and again in section eight. Reports get read in fragments.",
+    "plain": "That is the sentence to use. Put it in section 2.1 and again in section 8. People read reports in pieces, not from beginning to end.",
+    "ref": [
+     66,
+     "Though written by the Project Manager (PM), the help of relevant stakeholders should be sought to produce a well-rounded and comprehensive assessment of the project."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Write it so nobody reading it in 2031 can pretend they were promised numbers in July 2028.",
+    "plain": "Write it so that nobody reading it in 2031 can claim they were promised results in July 2028."
+   },
+   {
+    "who": "narr",
+    "text": "Sixteen fifty. She has one more question, and the way it is answered decides how the whole report is written.",
+    "plain": "It is 16:50. She has one more question. The answer to it decides how the whole report will be written."
+   }
+  ],
+  "choice": {
+   "prompt": "Florence: so what do I actually do with SC1 to SC5?",
+   "promptPlain": "Florence Nightingale asks: what do I actually do about the five success criteria?",
+   "options": [
+    {
+     "t": "Report what is measurable now, and hand benefit tracking to the Division in section eight with a named owner and dates.",
+     "tPlain": "Report what can be measured today. In section 8, give the benefit measurement to the Division, with a named owner and fixed dates.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "mood": "level",
+      "text": "Then draft it that way, and put Grace's name and Grace's dates in it rather than mine. If it is going to be somebody's job, the report should say whose.",
+      "plain": "Then write it that way. Put Grace Hopper's name and Grace Hopper's dates in it, not mine. If it is going to be someone's job, the report should say whose job it is."
+     },
+     "why": "Guide p.66 requires the Project-End Report to report project effectiveness with specific performance metrics, and the template's section 8, Post-Project Recommendations, exists partly to cover verifying that the intended benefits will be realised. Guide p.6 states that outcomes and benefits are often realised only after the project has closed, so reporting what is measurable and transferring benefit tracking to the permanent organisation is the correct move, not a concession. The PSC is Accountable for the report; the PO is only Consulted.",
+     "whyPlain": "Page 66 says the report must cover project effectiveness with real performance figures. Section 8 of the template exists partly to check that the intended benefits will be achieved. Page 6 says outcomes and benefits often appear only after the project closes. So reporting what you can measure, and handing the rest to the permanent organisation, is correct. It is not giving up. Remember the RASCI: the Steering Committee approves the report; the Project Owner is only consulted.",
+     "ref": [
+      6,
+      "Note that project outcomes and benefits are often realised only after the project has closed."
+     ]
+    },
+    {
+     "t": "Keep the project open. Hold a small team and the budget line until the 2029 figures land, then close against real benefits.",
+     "tPlain": "Keep the project open. Keep a small team and the budget until the 2029 figures exist, then close with real benefits.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "On what budget? The cost centre stops on the thirty-first. And you would have me reporting to a project for eighteen months about a system I already operate.",
+      "plain": "Paid from which budget? The cost centre closes on 31 July. And I would have to report to a project for eighteen months about a system that I already run."
+     },
+     "why": "Administrative Closure brings project mode to an end and allows operations mode to commence (p.67). A project held open to watch its own benefits is an operation carrying a project's governance and cost. Guide p.6 says plainly that outcomes and benefits are often realised only after the project has closed. Keeping it open also postpones the Projects Archive, the release of resources and the verification of contractual obligations, which are steps 1, 2 and 5 of Administrative Closure.",
+     "whyPlain": "Closing the project formally ends project mode and starts normal operations (page 67). A project kept open to watch its own benefits is really an operation, but it still carries a project's governance and cost. Page 6 says clearly that benefits often arrive after the project has closed. Keeping it open also delays the archive, the release of the people, and the check on the contract. Those are steps 1, 2 and 5 of Administrative Closure.",
+     "ref": [
+      67,
+      "Formal project closure brings project mode to an end and allows operations mode to commence."
+     ]
+    },
+    {
+     "t": "Report all five as met. The go-live measurements support four, and SC3 was demonstrated in a test configuration.",
+     "tPlain": "Report all five criteria as met. Four are supported by measurements since go-live, and SC3 was shown in a test system.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Then I do not review it, and I write to the Steering Committee saying why. Fourteen disbursements in July is not a statement about a reporting year, and a test configuration is not an onboarded instrument.",
+      "plain": "Then I will not review it, and I will write to the Steering Committee to explain why. 14 payments in July say nothing about a whole reporting year. A test setup is not a real lending product in live use."
+     },
+     "why": "The report must state effectiveness against the Business Case with specific performance metrics (p.66), and a claim the evidence cannot carry breaches the objectivity principle in Appendix F (p.118). Project Quality Assurance provides input and assistance to this report, so writing something the assurance role will not stand behind guarantees the PSC receives an argument instead of a decision.",
+     "whyPlain": "The report must state how effective the project was against the Business Case, using real figures (page 66). A claim the evidence cannot support breaks the objectivity rule in Appendix F (page 118). Project Quality Assurance helps produce this report. If you write something that Quality Assurance will not support, the Steering Committee receives a disagreement instead of a decision.",
+     "ref": [
+      66,
+      "Project Quality Assurance (PQA) Provides input and assistance."
+     ]
+    },
+    {
+     "t": "Record the project as having failed its success criteria, since four of the five cannot be confirmed before 2029.",
+     "tPlain": "Record the project as a failure against its success criteria, because four of five cannot be confirmed until 2029.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "mood": "sharp",
+      "text": "Now you have gone the other way to feel honest about it. The system works. Marie stopped counting fields in May. Do not write me a defeat I did not have.",
+      "plain": "Now you have gone too far in the other direction, so that you can feel honest. The system works. Marie Curie stopped counting re-typed fields in May. Do not write down a defeat that did not happen."
+     },
+     "why": "Unmeasured is not unachieved. The project's obligation was to deliver the outputs and create the conditions for the outcomes; benefits are the measurable improvements that follow, usually after closure (p.6). Declaring failure at project end misreports the project inside the knowledge base that future projects will read (p.66), and buries the real finding, which is that measurement continues under a named owner.",
+     "whyPlain": "Not measured is not the same as not achieved. The project had to deliver the outputs and make the outcomes possible. Benefits are the measurable improvements that follow, usually after closure (page 6). Writing failure into the report puts wrong information into the knowledge base that future projects will read (page 66). It also hides the real finding, which is that measurement continues with a named owner.",
+     "ref": [
+      66,
+      "The report should be used as a knowledge base for future projects."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Responsible for writing the Project-End Report, with input from PQA and the Core Team.",
+    "k": "Knows exactly which criteria the evidence carries today and which it does not.",
+    "w": "Wants section 8 to name an owner, a frequency and a date.",
+    "f": "Afraid the report is edited into a success story after he stops being responsible."
+   },
+   "nightingale": {
+    "o": "Project Owner. Consulted on this report; accountable for the benefits themselves.",
+    "k": "Knows the platform works and that no benefit number exists before 2029.",
+    "w": "Wants a sentence she can say to the Board of Directors in October.",
+    "f": "Afraid closing without benefits reads, permanently, as a project that failed."
+   },
+   "hopper": {
+    "o": "Business Manager today; from August the operational owner of the measurement.",
+    "k": "Knows a quiet July proves nothing about a quarter-end or a December.",
+    "w": "Wants the measurement defined as hers, with dates, before anyone leaves.",
+    "f": "Afraid of being asked in 2030 for figures nobody arranged to collect in 2028."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Provides input and assistance to this report.",
+    "k": "Knows what the test evidence supports and what it does not.",
+    "w": "Wants the limits of the evidence stated twice, in 2.1 and in section 8.",
+    "f": "Afraid he is asked to review a claim he would have to contradict."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: the Project-End Report is written by the Project Manager after the Project-End Review Meeting, with input and assistance from Project Quality Assurance and the Project Core Team. RASCI on p.66 is AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C. The trap is the approver: the Project Steering Committee is Accountable, not the Project Owner, who is only Consulted. The report must address twelve subjects, the first of which is project effectiveness; section 8, Post-Project Recommendations, is where follow-up work and the verification that intended benefits will be realised are recorded. Guide p.6 supplies the principle this scene turns on: outputs produce outcomes, outcomes produce benefits, and outcomes and benefits are often realised only after the project has closed. Benefit tracking passing to the permanent organisation at project end is the ordinary shape of a project, not an admission of failure. Approver: the PSC. Page 66.",
+  "notePlain": "Rule: the Project Manager writes the Project-End Report after the Project-End Review Meeting. Project Quality Assurance and the Project Core Team help. RASCI on page 66: AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C. The trap is who approves it. The Steering Committee is accountable, not the Project Owner. The Project Owner is only consulted. The report must cover twelve subjects. The first is how effective the project was. Section 8 is for follow-up work and for checking that the intended benefits will be achieved. Page 6 gives the idea behind this scene: outputs create outcomes, outcomes create benefits, and benefits often arrive only after the project is closed. Giving benefit measurement to the permanent organisation is normal. It is not an admission of failure. Approver: the Steering Committee. Page 66."
+ },
+ {
+  "id": "s50",
+  "act": 5,
+  "actName": "Closing",
+  "title": "There is no gate after this",
+  "covers": [
+   "Project-End Report",
+   "Phase Exit Review Checklist"
+  ],
+  "guide_page": 66,
+  "where": "ESM, Kirchberg — Board room, seventh floor",
+  "when": "25 Jul 2028, 09:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "einstein",
+   "deming",
+   "gantt",
+   "medici"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The seventh floor. The room where Ready for Executing was decided, two years and twenty-two days ago, with the same green glare off the plateau. Lorenzo de' Medici has dialled in and will drop off at half past.",
+    "plain": "This is the seventh floor. It is the room where the Ready for Executing gate was decided, two years and 22 days ago. The same green light comes off the glass outside. Lorenzo de' Medici has joined by telephone and will leave the call at 09:30."
+   },
+   {
+    "who": "you",
+    "text": "Item one, item two, and there is no item three. The Project-End Report, version one point zero, issued on the nineteenth. Twelve subjects, as the guidelines require. Effectiveness. Cost, schedule, scope and quality. Risk. Issues. Change. Communications. People and stakeholders. Acceptance. Business implementation and transition. The performance of the Core Team and of Levallois. Lessons learned. Post-project recommendations.",
+    "plain": "There are two items on the agenda and no third one. The Project-End Report, version 1.0, was issued on 19 July 2028. It covers the twelve subjects the guide requires: effectiveness; cost, schedule, scope and quality; risk; issues; change; communications; people and stakeholders; acceptance of deliverables; business implementation and transition; the performance of the Project Core Team and of Levallois; lessons learned; post-project recommendations.",
+    "ref": [
+     66,
+     "The report should address each of the following subjects"
+    ]
+   },
+   {
+    "who": "deming",
+    "mood": "dry",
+    "text": "Reviewed on the twenty-second, which was a Saturday. Reviewed is not approved. Two different rows, and I am fond of mine.",
+    "plain": "I reviewed it on 22 July, which was a Saturday. Reviewing is not approving. They are two different rows in the table, and I like mine.",
+    "ref": [
+     66,
+     "Project Quality Assurance (PQA) Provides input and assistance."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Then who approves it? I had assumed that was me.",
+    "plain": "Then who approves the report? I thought that was my job."
+   },
+   {
+    "who": "you",
+    "text": "This committee. Page sixty-six. Steering Committee Accountable, Project Manager Responsible, Project Owner Consulted.",
+    "plain": "This committee approves it. Page 66 of the guide: the Steering Committee is accountable, the Project Manager is responsible, and the Project Owner is consulted.",
+    "ref": [
+     66,
+     "Project-End Report I A C S C C R C"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "dry",
+    "text": "Consulted. On the report about my own project.",
+    "plain": "So I am only consulted on the report about my own project."
+   },
+   {
+    "who": "you",
+    "text": "Yes. Your row changes on Friday. And on Friday you are the only person in the institution who can do the thing that has to be done.",
+    "plain": "Yes. Your row in the table changes on Friday. On Friday you are the only person in this institution who can do what has to be done then."
+   },
+   {
+    "who": "medici",
+    "text": "And me? What am I on this.",
+    "plain": "And what about me? What is my role here?"
+   },
+   {
+    "who": "you",
+    "text": "Informed. On all three Closing activities.",
+    "plain": "You are informed. That is true for all three Closing activities."
+   },
+   {
+    "who": "medici",
+    "mood": "brisk",
+    "text": "Good. I want it for the portfolio review in October and I would rather not be asked to approve a thing in order to be allowed to read it.",
+    "plain": "Good. I want the report for the portfolio review in October. I do not want to be asked to approve something just so that I am allowed to read it."
+   },
+   {
+    "who": "medici",
+    "text": "And the cost centre. Eight point nine six against eight point four, out of the administrative budget. Not one euro of it out of the lending capacity, whatever that newspaper printed in 2027. Close the line on the thirty-first.",
+    "plain": "Now the cost centre. The project cost 8.96 million euro against a budget of 8.4 million. That money came from the administrative budget, which pays for running the institution. None of it came from the lending capacity, whatever a newspaper wrote in 2027. Close the budget line on 31 July.",
+    "g": [
+     [
+      "administrative budget",
+      "the institution's own running costs: staff, buildings, systems. Separate from the money it lends"
+     ],
+     [
+      "lending capacity",
+      "the maximum the ESM can lend to member states. It never pays for staff or projects"
+     ],
+     [
+      "cost centre",
+      "the account a project charges its costs to; when it closes, nothing more can be charged"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "It closes on the thirty-first.",
+    "plain": "The cost centre closes on 31 July 2028."
+   },
+   {
+    "who": "medici",
+    "text": "Then I have nothing further. Delivered on the Charter date. I have approved considerably worse for considerably more.",
+    "plain": "Then I have nothing more to say. The project delivered on the date in the Project Charter. I have approved much worse projects that cost much more."
+   },
+   {
+    "who": "narr",
+    "text": "He leaves the call at nine seventeen without saying goodbye, which in this building is how contentment is expressed.",
+    "plain": "He leaves the call at 09:17 without saying goodbye. In this building that is how people show they are satisfied."
+   },
+   {
+    "who": "curie",
+    "text": "Can I ask the stupid question. Last time we sat in this room there was a gate and it had a name. What is this one called?",
+    "plain": "May I ask a simple question. The last time we sat in this room there was a gate and it had a name. What is this one called?"
+   },
+   {
+    "who": "you",
+    "text": "Nothing. There is no gate after Closing.",
+    "plain": "It has no name. There is no gate after the Closing Phase.",
+    "g": [
+     [
+      "phase gate",
+      "a formal checkpoint where an approver allows the project to move into the next phase"
+     ]
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Three phase gates exist in PM². Ready for Planning at the end of Initiating. Ready for Executing at the end of Planning. Ready for Closing at the end of Executing. CASTOR passed the third on the twenty-second of June. There is no fourth.",
+    "plain": "PM² has three phase gates. Ready for Planning at the end of Initiating. Ready for Executing at the end of Planning. Ready for Closing at the end of Executing. Project CASTOR passed the third gate on 22 June 2028. There is no fourth gate.",
+    "ref": [
+     17,
+     "The three PM² phase gates are: RfP (Ready for Planning): at the end of the Initiating Phase; RfE (Ready for Executing): at the end of the Planning Phase; RfC (Ready for Closing): at the end of the Executing Phase."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "That cannot be right. Something has to sign it dead.",
+    "plain": "That cannot be correct. Something has to declare the project finished."
+   },
+   {
+    "who": "gantt",
+    "text": "Something does, and it is not a committee. There is a Closing sheet on the Phase-Exit Review Checklist. The last check asks whether the project is ready to be closed, and the answer does not travel to a gate. It travels to the Project Owner.",
+    "plain": "Something does, and it is not a committee. The Phase-Exit Review Checklist has a sheet for Closing. The last question asks whether the project is ready to be closed. That answer does not go to a gate. It goes to the Project Owner.",
+    "ref": [
+     131,
+     "Phase-Exit Review Checklists are spreadsheet-based documents used by the Project Manager (PM) to ensure that all the necessary items are in place before the project proceeds to the next phase or is closed."
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "So the last event in a project is not permission to continue. It is permission to stop.",
+    "plain": "So the last event in a project is not permission to go on. It is permission to stop.",
+    "ref": [
+     63,
+     "The Closing Phase starts with the Project-End Review Meeting and ends with the Project Owner's (PO) final approval, which marks the project's administrative closure."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Which is why it feels like nothing. Every approval in twenty-six months opened a door.",
+    "plain": "That is why it feels like nothing is happening. Every approval in the last 26 months opened a door."
+   },
+   {
+    "who": "hopper",
+    "text": "And this one shuts one, and nobody has written a ceremony for that.",
+    "plain": "This one closes a door, and nobody has written a ceremony for closing a door."
+   },
+   {
+    "who": "nightingale",
+    "text": "Then the part that is ours. The Project Steering Committee approves the Project-End Report of Project CASTOR, version one point zero, twenty-fifth of July 2028. Objections.",
+    "plain": "Then let us do our part. The Project Steering Committee approves the Project-End Report of Project CASTOR, version 1.0, on 25 July 2028. Are there any objections?"
+   },
+   {
+    "who": "narr",
+    "text": "None. Henry Gantt reads the archive reference into the Minutes, which is the least ceremonious sentence anyone has spoken in this room all year.",
+    "plain": "There are no objections. Henry Gantt reads the archive reference into the Minutes. It is the least ceremonial sentence anyone has spoken in this room all year.",
+    "g": [
+     [
+      "Projects Archive",
+      "the central store where a closed project's documents are kept so they can be found later"
+     ]
+    ],
+    "ref": [
+     66,
+     "This document should be part of a central project repository or knowledge database describing project experiences, best practices and common pitfalls."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Twenty-six months, and it ends with a folder path.",
+    "plain": "Twenty-six months of work, and it ends with the name of a folder."
+   },
+   {
+    "who": "you",
+    "text": "The folder path is the part that outlives us. In three years somebody starting a project none of us has thought of will read what Nikola wrote about running the migration four times, and it will save them a hundred days.",
+    "plain": "The folder is the part that lasts longer than we do. In three years someone will start a project that none of us has imagined. They will read what Nikola Tesla wrote about running the migration four times, and it will save them 100 days.",
+    "ref": [
+     66,
+     "The report should be used as a knowledge base for future projects."
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Responsible for the Project-End Report and for putting it to the committee that approves it.",
+    "k": "Knows the report is reviewed but not approved, and that no gate follows this phase.",
+    "w": "Wants the approval recorded today and the document in the archive on Friday.",
+    "f": "Afraid the room mistakes an approval for an ending and stops paying attention."
+   },
+   "nightingale": {
+    "o": "Chairs the PSC that approves this report; only Consulted on the report itself.",
+    "k": "Now knows her row changes at Administrative Closure on Friday.",
+    "w": "Wants to know who signs what, before she goes on leave.",
+    "f": "Afraid of discovering a duty she holds alone at the last possible moment."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Consulted on the report; hands the platform to support and maintenance.",
+    "k": "Knows the deliverables are transferred and that his service line now owns them.",
+    "w": "Wants a definite end, with something formal that marks it.",
+    "f": "Afraid an unclosed project keeps returning to his division as unpaid work."
+   },
+   "hopper": {
+    "o": "Business Manager; supports the report and owns the benefit measurement from August.",
+    "k": "Knows the cost centre closes on 31 July and what that means for her.",
+    "w": "Wants the hand-over recorded in the approved version, not in a corridor.",
+    "f": "Afraid the ending is so quiet that nobody notices what moved to her."
+   },
+   "curie": {
+    "o": "User Representative. Consulted; the deliverables she accepted are now in operation.",
+    "k": "Knows the gates by name from two years of sitting in this room.",
+    "w": "Wants to know what today is called, so she knows when it is over.",
+    "f": "Afraid nothing formally ends and the project simply fades out."
+   },
+   "einstein": {
+    "o": "Architecture Office on the PSC. Informed on the technical estate that remains.",
+    "k": "Knows two CASTOR lessons are already in the October architecture review.",
+    "w": "Wants the room to understand what kind of decision it is taking.",
+    "f": "Afraid closure is treated as an administrative formality rather than a decision."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Reviewed the report; does not approve it.",
+    "k": "Knows exactly which claims in version 1.0 the evidence supports.",
+    "w": "Wants the difference between reviewed and approved stated in the Minutes.",
+    "f": "Afraid his review is later quoted as an approval."
+   },
+   "gantt": {
+    "o": "Project Support Office. Assists with reviewing, organising and archiving the record.",
+    "k": "Knows the archive reference, the Closing checklist and what is still missing.",
+    "w": "Wants the approved version filed today, with the reference read into the Minutes.",
+    "f": "Afraid the last documents arrive after everyone with the answers has gone."
+   },
+   "medici": {
+    "o": "Chairs the AGB. Informed on all three Closing activities; owns the framework contract.",
+    "k": "Knows the final cost against budget and that it came from the administrative budget.",
+    "w": "Wants the report for the October portfolio review and the cost centre closed.",
+    "f": "Afraid of being asked to approve things in order to be allowed to see them."
+   }
+  },
+  "unlock": [
+   33
+  ],
+  "note": "Guide check: §3.2.6 (p.17) names three PM² phase gates and only three — RfP at the end of Initiating, RfE at the end of Planning, RfC at the end of Executing. There is no gate at the end of the Closing Phase. The Closing Phase instead starts with the Project-End Review Meeting and ends with the Project Owner's final approval, which marks administrative closure (p.63). A Closing sheet of the Phase-Exit Review Checklist still exists, but the glossary (p.131) describes these checklists as documents used by the Project Manager to ensure all necessary items are in place before the project proceeds or is closed: a self-assessment supporting the PO's decision, not an approval and not a gate. On the report itself, p.66 gives AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C, requires the twelve mandated subjects, and requires the document to be placed in a central project repository or knowledge database for use by future projects. Approver: the PSC. Page 66.",
+  "notePlain": "Rule: PM² has three phase gates and only three (page 17). Ready for Planning at the end of Initiating. Ready for Executing at the end of Planning. Ready for Closing at the end of Executing. There is no gate at the end of Closing. Instead, the Closing Phase begins with the Project-End Review Meeting and ends with the Project Owner's final approval (page 63). There is still a Closing sheet in the Phase-Exit Review Checklist. The glossary on page 131 explains what it is for: the Project Manager uses it to check that everything is in place before the project moves on or is closed. It supports the Project Owner's decision. It is not an approval and it is not a gate. For the report itself, page 66 gives the row AGB=I, PSC=A, PO=C, BM=S, BIG=C, SP=C, PM=R, PCT=C, lists the twelve required subjects, and requires the report to be stored in a central repository for future projects. Approver: the Steering Committee. Page 66."
+ },
+ {
+  "id": "s51",
+  "act": 5,
+  "actName": "Closing",
+  "title": "The last signature is not yours",
+  "covers": [
+   "Administrative Closure"
+  ],
+  "guide_page": 67,
+  "where": "ESM, Kirchberg — Project Support Office, second floor, then the fourth-floor corridor",
+  "when": "28 Jul 2028, 14:00",
+  "cast": [
+   "you",
+   "gantt",
+   "gutenberg",
+   "brandeis",
+   "turing",
+   "leonardo",
+   "eiffel",
+   "deming",
+   "nightingale"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The second floor at the end of July, the building down to summer strength. The Project Support Office has a trolley in it and the trolley is full.",
+    "plain": "It is the end of July on the second floor. Most staff are on holiday. There is a trolley in the Project Support Office and it is full of documents."
+   },
+   {
+    "who": "gantt",
+    "text": "Everything with CASTOR on it. Handbook, Work Plan, Stakeholder Matrix, four project-specific plans, six management plans, twenty-six Status Reports, two Progress Reports, six checklists, four logs, a hundred and ninety-one Minutes, and the Project-End Report. Folders 01 Initiating to 05 Closing, as we set them up in April 2026.",
+    "plain": "This is everything with the name CASTOR on it. The Project Handbook, the Work Plan, the Stakeholder Matrix, four project-specific plans, six management plans, 26 Status Reports, 2 Progress Reports, 6 checklists, 4 logs, 191 sets of Minutes, and the Project-End Report. The folders run from 01 Initiating to 05 Closing, as we created them in April 2026."
+   },
+   {
+    "who": "you",
+    "text": "Your row, and the only support row in the phase. The Project Manager oversees closure and the release of resources. The Project Support Office assists in reviewing, organising and archiving.",
+    "plain": "That is your row in the table, and it is the only support row in this phase. The Project Manager oversees the closure and the release of the people. The Project Support Office helps to review, organise and archive the documents.",
+    "ref": [
+     67,
+     "Project Support Office (PSO) Assists in reviewing, organising and archiving all project documentation."
+    ]
+   },
+   {
+    "who": "gutenberg",
+    "text": "Document management. Seven years in the project space, classification applied to all of it. Two Status Reports had no version number and I have fixed them, which you may take as a general comment on May 2027.",
+    "plain": "Now document management. The records are kept for seven years in the project space, and every document has a security classification. Two Status Reports had no version number. I have corrected them. You may treat that as a general comment about May 2027.",
+    "ref": [
+     67,
+     "Ensure that all documentation and records are reviewed, organised and archived."
+    ]
+   },
+   {
+    "who": "brandeis",
+    "text": "Data protection. The parallel-run datasets held real counterparty and staff data. Deleted on Wednesday, certificate in folder 05. The record of processing activities now says the processing has ended. In four years an inspection reads that entry, not your system.",
+    "plain": "Now data protection. The test data from the parallel run contained real information about borrowers and staff. It was deleted on Wednesday and the certificate is in folder 05. The record of processing activities now says that this processing has ended. In four years an inspection will read that entry, not your system.",
+    "g": [
+     [
+      "record of processing activities",
+      "the data protection register naming every use of personal data and the reason for it"
+     ]
+    ]
+   },
+   {
+    "who": "brandeis",
+    "text": "And LOS is off, but its data is not gone. Fourteen years of loan records keep their own retention clock, and from today that clock belongs to Lending Operations and not to a project that no longer exists.",
+    "plain": "LOS is switched off, but its data still exists. Fourteen years of loan records must be kept for their own legal period. From today, that obligation belongs to the Lending Operations Division, not to a project that no longer exists."
+   },
+   {
+    "who": "turing",
+    "text": "Security. LOS decommissioned on the thirtieth of June. Accounts closed, interfaces withdrawn, the two contractor accounts revoked on the fifteenth. The security file is closed and archived with the rest.",
+    "plain": "Now information security. LOS was switched off for good on 30 June 2028. Its accounts are closed and its interfaces are withdrawn. The two contractor accounts were withdrawn on 15 July. The security file is closed and archived with everything else."
+   },
+   {
+    "who": "narr",
+    "text": "Step one of Administrative Closure is that all documentation and records are reviewed, organised and archived. Nobody in the room calls it step one. It has taken nine working days.",
+    "plain": "Step 1 of Administrative Closure is to review, organise and archive all documents and records. Nobody in the room calls it step 1. The work has taken nine working days."
+   },
+   {
+    "who": "you",
+    "text": "Resources. Ada Lovelace went back to Lending Operations on the seventeenth. The two seconded architects return to the Levallois payroll on Monday, with the two contractor testers. The Project Core Team is dissolved on the thirty-first, and that is an act, not a feeling.",
+    "plain": "Now the people. Ada Lovelace returned to Lending Operations on 17 July. The two architects lent to us go back onto the Levallois payroll on Monday, together with the two contractor test engineers. The Project Core Team is dissolved on 31 July. That is a formal act, not a feeling.",
+    "g": [
+     [
+      "secondment",
+      "a staff member lent to another team or employer for a fixed period, then returned"
+     ]
+    ],
+    "ref": [
+     67,
+     "The Project Team is now officially dissolved and all resources are released."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "The cost centre stops on the thirty-first.",
+    "plain": "The cost centre closes on 31 July 2028."
+   },
+   {
+    "who": "leonardo",
+    "text": "Say the last part again, slowly, for the people who are going to try.",
+    "plain": "Please say that again slowly, for the people who will try to charge things anyway."
+   },
+   {
+    "who": "you",
+    "text": "Nothing can be charged to CASTOR after the thirty-first of July 2028.",
+    "plain": "After 31 July 2028, nothing can be charged to Project CASTOR."
+   },
+   {
+    "who": "narr",
+    "text": "Gustave Eiffel joins on the telephone for eight minutes, from somewhere with gulls in it.",
+    "plain": "Gustave Eiffel joins by telephone for eight minutes. He is somewhere near the sea; you can hear seagulls."
+   },
+   {
+    "who": "eiffel",
+    "text": "Contract side. Final invoice submitted on the twelfth, inside the payment terms. Retention releases against final acceptance, so it releases today or it does not release. Configuration and source in escrow under clause fourteen. Warranty runs to the fifteenth of May 2029 and defects go to your service desk, not to a project mailbox that will not exist.",
+    "plain": "Now the contract. We sent the final invoice on 12 July, within the payment terms. The retention money is released when the project is finally accepted, so it is released today or not at all. The configuration and the source code are held in escrow under clause 14. The warranty runs until 15 May 2029. Faults go to your service desk, not to a project mailbox that will no longer exist.",
+    "g": [
+     [
+      "retention (contract)",
+      "part of a supplier's fee held back until the work is finally accepted"
+     ],
+     [
+      "escrow",
+      "source code left with a neutral third party, released to the client if the supplier fails"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Step five. Verify that all contractual obligations have been fulfilled. Leonardo and I walked the Outsourcing Plan item by item this morning, with Gustave's list beside it.",
+    "plain": "That is step 5: check that all obligations in the contract have been met. This morning Leonardo and I went through the Outsourcing Plan item by item, with Gustave Eiffel's list next to it.",
+    "ref": [
+     67,
+     "Verify that all contractual obligations have been fulfilled."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "The warranty outliving the project bothered me for a week, until I understood it. It is not an open project. It is a contract, and contracts belong to operations.",
+    "plain": "It worried me for a week that the warranty lasts longer than the project. Then I understood it. It is not an open project. It is a contract, and contracts belong to normal operations.",
+    "ref": [
+     67,
+     "Formal project closure brings project mode to an end and allows operations mode to commence."
+    ]
+   },
+   {
+    "who": "eiffel",
+    "mood": "level",
+    "text": "For your file, then. A good project and a bad estimate, in that order. Do not let anyone print it the other way round.",
+    "plain": "Then put this in your file. It was a good project and a bad estimate, in that order. Do not let anyone write it the other way round."
+   },
+   {
+    "who": "narr",
+    "text": "You ride up with Deming at ten past three, because he wants to look at the floor that changed. The fourth-floor corridor is doing what it does in July, which is nothing at all.",
+    "plain": "At 15:10 you go up in the lift with Deming, because he wants to see the floor that the project changed. The fourth-floor corridor is empty, as it always is in July."
+   },
+   {
+    "who": "deming",
+    "text": "Do you know what is actually in that appendix at the back? The ethics one nobody reads.",
+    "plain": "Do you know what is really in the appendix at the back of the guide? The one about ethics that nobody reads."
+   },
+   {
+    "who": "you",
+    "text": "Independence, impartiality, objectivity, loyalty.",
+    "plain": "Independence, impartiality, objectivity and loyalty."
+   },
+   {
+    "who": "deming",
+    "text": "Those are what you are meant to be. There are two more and they are the ones that do the work. Circumspection, which is stopping to think what a thing will cause. And responsibility, which is doing what you were given and looking for a way through when it will not go.",
+    "plain": "Those four describe what you should be. There are two more, and they are the ones that do the real work. Circumspection means stopping to think about what an action will cause. Responsibility means doing the task you were given, and looking for a way through when it does not work.",
+    "ref": [
+     118,
+     "CIRCUMSPECTION: which is about stopping and reflecting on the possible consequences and implications of potential actions"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And the word for having both at once.",
+    "plain": "And what is the word for having both of those at the same time?"
+   },
+   {
+    "who": "deming",
+    "text": "Integrity. It does not mean being agreeable. It means the same principles when they cost you something. Last week you told the Project Owner that four out of five was not four out of five. That cost you the best sentence in your own report.",
+    "plain": "Integrity. It does not mean being pleasant. It means keeping the same principles when they cost you something. Last week you told the Project Owner that four out of five was not really four out of five. That cost you the best sentence in your own report.",
+    "ref": [
+     118,
+     "The key principles can be summarised as INTEGRITY, which means consistently adhering to ethical principles and making sound decisions based on them."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "It was in the guide.",
+    "plain": "It was written in the guide."
+   },
+   {
+    "who": "deming",
+    "mood": "dry",
+    "text": "Most of it is in the guide. That has never been the same thing as doing it.",
+    "plain": "Most of it is written in the guide. Reading it has never been the same as doing it."
+   },
+   {
+    "who": "narr",
+    "text": "Florence Nightingale is on leave from Saturday. Her assistant telephones at twenty past three. The Managing Director's office has taken her afternoon, and would the Project Manager sign the Project Acceptance Note so that she can countersign it in September.",
+    "plain": "Florence Nightingale starts her holiday on Saturday. Her assistant telephones at 15:20. The Managing Director's office has taken her whole afternoon. She asks whether the Project Manager could sign the Project Acceptance Note now, so that she can add her signature in September.",
+    "g": [
+     [
+      "Project Acceptance Note",
+      "the document in which the Project Owner formally accepts the project and closes it"
+     ]
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "Administrative closure is dated today, the twenty-eighth of July. What do you do?",
+   "promptPlain": "Administrative closure is dated today, 28 July 2028. What do you do?",
+   "options": [
+    {
+     "t": "Go up, ask for ten minutes, and close the project today with the Project Owner's signature on the Project Acceptance Note.",
+     "tPlain": "Go upstairs, ask for ten minutes, and close the project today with the Project Owner's signature on the Project Acceptance Note.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "mood": "level",
+      "text": "Ten minutes I have. Give me the note. And tell me in one sentence what I am signing, because I am not signing that the benefits arrived.",
+      "plain": "I have ten minutes. Give me the note. Tell me in one sentence what I am signing, because I will not sign that the benefits have arrived."
+     },
+     "why": "Administrative Closure is the one Closing activity where the Project Owner is Accountable: guide p.67 reads AGB=I, PSC=C, PO=A, BM=C, BIG=I, SP=C, PM=R, PCT=I. Step 4 is that the PO gives final project approval and closes the project, and the outputs are the updated Projects Archive and the Project Acceptance Note if required. The Closing Phase ends with the PO's final approval — no other signature ends a PM² project.",
+     "whyPlain": "Administrative Closure is the one Closing activity where the Project Owner is accountable. Page 67 gives the row AGB=I, PSC=C, PO=A, BM=C, BIG=I, SP=C, PM=R, PCT=I. Step 4 says the Project Owner gives final approval and closes the project. The outputs are the updated Projects Archive and, if required, the Project Acceptance Note. The Closing Phase ends with the Project Owner's approval. No other signature ends a PM² project.",
+     "ref": [
+      67,
+      "Ensure that the Project Owner (PO) gives final project approval and closes the project."
+     ]
+    },
+    {
+     "t": "Sign the closure record as Project Manager now, and have her countersign it in September.",
+     "tPlain": "Sign the closure record yourself now, as Project Manager, and let her add her signature in September.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "Then I file an archive that says the project closed on a day when the only person who could close it was on a beach. I will not file that.",
+      "plain": "Then I would file an archive saying the project closed on a day when the only person who could close it was on holiday. I will not file that."
+     },
+     "why": "The PM is Responsible for the closure activities but the PO is Accountable and holds final approval (p.67, steps 3 and 4). A PM-signed closure is not a closure; it is a Project Manager asserting an approval that is not theirs, and the Projects Archive would then carry a date the record cannot support.",
+     "whyPlain": "You are responsible for the closure work, but the Project Owner is accountable and gives the final approval (page 67, steps 3 and 4). A closure signed by the Project Manager is not a closure. It is a Project Manager claiming an approval that belongs to someone else. The archive would then show a date that the record cannot support.",
+     "ref": [
+      67,
+      "Project Owner (PO) Has final approval of the project."
+     ]
+    },
+    {
+     "t": "Take it to the Steering Committee. The PSC has been Accountable for everything else in the Closing Phase.",
+     "tPlain": "Take it to the Steering Committee. That committee has been accountable for everything else in this phase.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Read the row again. It is the one row in the whole phase that moves. The Steering Committee is Consulted here, and Consulted has never been Accountable.",
+      "plain": "Read the row again. It is the only row in this whole phase that changes. Here the Steering Committee is only consulted. Consulted has never meant accountable."
+     },
+     "why": "The RASCI genuinely flips for this activity. The PSC is Accountable for the Project-End Review Meeting, for Lessons Learned and Post-Project Recommendations, and for the Project-End Report (pp.64–66). For Administrative Closure the PSC drops to Consulted and the PO becomes Accountable (p.67). This is the most-missed row in chapter 8.",
+     "whyPlain": "The RASCI row really does change for this activity. The Steering Committee is accountable for the Project-End Review Meeting, for the Lessons Learned activity and for the Project-End Report (pages 64 to 66). For Administrative Closure the Steering Committee becomes only consulted, and the Project Owner becomes accountable (page 67). This is the row people most often get wrong in chapter 8.",
+     "ref": [
+      67,
+      "Administrative Closure I C A C I C R I"
+     ]
+    },
+    {
+     "t": "Release the team and stop the cost centre as planned, and finish the archive and the approval after the summer.",
+     "tPlain": "Release the team and close the cost centre as planned. Finish the archive and the approval after the summer.",
+     "ok": false,
+     "reply": {
+      "who": "gutenberg",
+      "text": "Then you have released the only people who can answer a question about the folder, and left an archive nobody has approved. Those are the ones we are still chasing in 2031.",
+      "plain": "Then you have released the only people who could answer a question about the folder, and you have left an archive that nobody approved. Those are the files we are still chasing in 2031."
+     },
+     "why": "Step 1 of Administrative Closure is reviewing, organising and archiving all documentation with the PSO's help; step 2 is releasing resources; steps 3 to 5 are acceptance by the stakeholders, the PO's final approval, and verification that all contractual obligations have been fulfilled (p.67). Releasing people before the record is complete leaves an archive nobody can reconstruct, and it is formal closure that ends project mode and allows operations mode to commence.",
+     "whyPlain": "Step 1 of Administrative Closure is to review, organise and archive all documents, helped by the Project Support Office. Step 2 is to release the people. Steps 3 to 5 are acceptance by the stakeholders, the Project Owner's final approval, and the check that the contract is fulfilled (page 67). If you release people before the record is complete, nobody can rebuild the archive later. And it is the formal closure that ends project mode and starts operations mode.",
+     "ref": [
+      67,
+      "1. Ensure that all documentation and records are reviewed, organised and archived. 2. Release all resources."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Responsible for all closure activities and for the release of project resources.",
+    "k": "Knows the archive is complete, the contract verified and the cost centre closes on Friday.",
+    "w": "Wants the Project Owner's signature today, on the date the closure carries.",
+    "f": "Afraid the last approval slips into September and the record stops matching the facts."
+   },
+   "gantt": {
+    "o": "Project Support Office. Assists in reviewing, organising and archiving the whole record.",
+    "k": "Knows every folder, every gap, and what an unapproved archive costs later.",
+    "w": "Wants to file a closure whose date the documents can support.",
+    "f": "Afraid of holding an archive that says something the evidence does not."
+   },
+   "gutenberg": {
+    "o": "Document Management Officer. Retention, versions, classification of the archived record.",
+    "k": "Knows the seven-year retention rule and which two documents were unversioned.",
+    "w": "Wants the record closed while the people who wrote it are still reachable.",
+    "f": "Afraid of the files nobody can explain in 2031."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Accountable for lawful handling of the project's personal data.",
+    "k": "Knows the parallel-run data is deleted and that LOS records keep their own clock.",
+    "w": "Wants the retention duty formally moved to Lending Operations today.",
+    "f": "Afraid an obligation survives the project with nobody named against it."
+   },
+   "turing": {
+    "o": "Local Information Security Officer. Closes the project's security file and its accesses.",
+    "k": "Knows LOS was decommissioned on 30 June and all contractor access is revoked.",
+    "w": "Wants every account and interface closed before the team disperses.",
+    "f": "Afraid a forgotten contractor account outlives the contract that justified it."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Consulted on closure; his service line now owns the platform.",
+    "k": "Knows the warranty runs to 15 May 2029 and belongs to operations, not to a project.",
+    "w": "Wants it stated aloud that nothing more can be charged to CASTOR.",
+    "f": "Afraid the closed project keeps arriving on his budget as goodwill work."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Closes Levallois's obligations under the framework contract.",
+    "k": "Knows the final invoice is in and the retention releases against final acceptance.",
+    "w": "Wants final acceptance today so the retention is released and the file shuts.",
+    "f": "Afraid an unclosed acceptance leaves the money and the blame open together."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Independent to the last document of the project.",
+    "k": "Knows what the closing record contains and what it cost to keep it accurate.",
+    "w": "Wants the Project Manager to notice what he has just spent two years learning.",
+    "f": "Afraid the method is remembered as paperwork rather than as conduct."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for Administrative Closure; holds final approval of the project.",
+    "k": "Does not yet know that today's signature is hers alone and cannot be delegated.",
+    "w": "Wants her afternoon back and her leave to start on Saturday.",
+    "f": "Afraid of signing a sentence that will later be read as a promise about benefits."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: Administrative Closure is the exception in chapter 8. RASCI on p.67 is AGB=I, PSC=C, PO=A, BM=C, BIG=I, SP=C, PM=R, PCT=I, so the Project Owner is Accountable and gives final approval, while the PSC — Accountable for the three preceding activities — drops to Consulted. The five steps are: review, organise and archive all documentation and records; release all resources; ensure the project is approved and accepted by the stakeholders; ensure the PO gives final project approval and closes the project; and verify that all contractual obligations have been fulfilled. The Project Support Office assists with reviewing, organising and archiving. The outputs are the updated Projects Archive and the Project Acceptance Note if required. The Project Team is officially dissolved and all resources are released, and formal closure brings project mode to an end and allows operations mode to commence. A contractor warranty running past closure is not an open project — it is a contract obligation held by operations. Approver: the PO. Page 67.",
+  "notePlain": "Rule: Administrative Closure is the exception in chapter 8. The row on page 67 is AGB=I, PSC=C, PO=A, BM=C, BIG=I, SP=C, PM=R, PCT=I. The Project Owner is accountable and gives the final approval. The Steering Committee, which was accountable for the three earlier activities, is only consulted here. There are five steps. Review, organise and archive all documents and records. Release all the people. Make sure the stakeholders approve and accept the project. Make sure the Project Owner gives final approval and closes the project. Check that all contract obligations are met. The Project Support Office helps with the archiving. The outputs are the updated Projects Archive and, if required, the Project Acceptance Note. The team is formally dissolved and everyone is released. Formal closure ends project mode and starts operations mode. A supplier warranty that lasts beyond closure is not an open project. It is a contract, and operations holds it. Approver: the Project Owner. Page 67."
+ },
+ {
+  "id": "s52",
+  "act": 5,
+  "actName": "Closing",
+  "title": "Value date Monday",
+  "covers": [
+   "Project-End Report"
+  ],
+  "guide_page": 66,
+  "where": "ESM, Kirchberg — Lending Operations, fourth floor",
+  "when": "18 Jan 2029, 07:55",
+  "cast": [
+   "you",
+   "curie",
+   "hopper",
+   "gantt",
+   "nightingale"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Rain over the Kirchberg plateau, the kind that hangs rather than falls. Not light yet. The fourth floor has been switched on since half past six.",
+    "plain": "It is raining over Kirchberg. The rain hangs in the air rather than falling. It is still dark. The lights on the fourth floor have been on since 06:30."
+   },
+   {
+    "who": "narr",
+    "text": "You are not here for CASTOR. There is a Project Initiation Request in your bag for something else entirely, dated Monday, and you have read it once. Grace Hopper has a chair pulled out already.",
+    "plain": "You are not here for Project CASTOR. In your bag there is a Project Initiation Request for a completely different project. It is dated Monday and you have read it once. Grace Hopper has already pulled out a chair for you.",
+    "g": [
+     [
+      "Project Initiation Request",
+      "the one-page document that asks permission to explore a problem and write a Business Case"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Twenty minutes, then I have a rollover to prepare and you have a different problem to go and have.",
+    "plain": "We have twenty minutes. After that I must prepare a bond rollover, and you must go and start a different problem."
+   },
+   {
+    "who": "hopper",
+    "text": "Third and fourth quarter of 2028, out of the Division's operational report and nothing of yours. SC1: one working day, forty-one disbursements, two of them on the thirty-first of December. SC2: same-day reconciliation, every day, including the week of the November rollover. SC4: zero re-keyed fields, from fourteen hundred a quarter.",
+    "plain": "These are the figures for the third and fourth quarters of 2028. They come from the Division's own operational report, not from any project document. SC1: one working day, measured over 41 payments, two of them on 31 December. SC2: reconciliation on the same day, every day, including the week of the November rollover. SC4: no fields typed again by hand, down from about 1,400 every three months."
+   },
+   {
+    "who": "hopper",
+    "text": "SC5 stays closed unless Internal Audit reopens it. SC3 is still a blank line, because there is still no new instrument to onboard. And the full-year statement for 2029 goes to the Corporate Investment Board in February 2030, which is nineteen months after your cost centre closed.",
+    "plain": "SC5 stays closed unless Internal Audit opens it again. SC3 is still empty, because there is still no new lending product to set up. The statement for the whole of 2029 goes to the Corporate Investment Board in February 2030. That is nineteen months after your project's cost centre closed.",
+    "ref": [
+     6,
+     "Note that project outcomes and benefits are often realised only after the project has closed."
+    ]
+   },
+   {
+    "who": "hopper",
+    "mood": "level",
+    "text": "And it has not been your file since the twenty-eighth of July. That is not a complaint. It is the arrangement, and it was the right one.",
+    "plain": "And it has not been your file since 28 July 2028. That is not a complaint. It is the agreement we made, and it was the right one."
+   },
+   {
+    "who": "narr",
+    "text": "Henry Gantt comes off the lift with a laptop under one arm and the particular walk of somebody who has just found who he was looking for.",
+    "plain": "Henry Gantt comes out of the lift with a laptop under one arm. He walks like a man who has just found the person he was looking for."
+   },
+   {
+    "who": "gantt",
+    "text": "The backstop onboarding project has had a project manager since the seventh. She pulled the CASTOR Project-End Report out of the archive on her second day, and she has a question I cannot answer.",
+    "plain": "The backstop onboarding project has had a project manager since 7 January. On her second day she took the CASTOR Project-End Report out of the archive. She has a question that I cannot answer."
+   },
+   {
+    "who": "gantt",
+    "text": "She wants to know what it cost you to postpone CR-014, and whether she can simply re-open it.",
+    "plain": "She wants to know what it cost you to postpone change request CR-014, and whether she can simply re-open it."
+   },
+   {
+    "who": "you",
+    "text": "Section 3.3 for why it happened, section 7 for what we learned from it, the Change Log for the money. A hundred and forty-five person-days and three hundred and ninety-two thousand at 2027 prices, against a data model that has changed twice since. Tell her to re-estimate, not to re-open.",
+    "plain": "Section 3.3 explains why it happened. Section 7 gives what we learned. The Change Log has the money: 145 person-days and 392,000 euro at 2027 prices. The data model has changed twice since then. Tell her to make a new estimate, not to re-open the old one."
+   },
+   {
+    "who": "gantt",
+    "text": "So that is what the report was for.",
+    "plain": "So that is the purpose of the report."
+   },
+   {
+    "who": "you",
+    "text": "It is the only thing it was ever for. Nobody writes one for the people who were in the room.",
+    "plain": "That is the only purpose it ever had. Nobody writes a Project-End Report for the people who were in the room.",
+    "ref": [
+     66,
+     "This document should be part of a central project repository or knowledge database describing project experiences, best practices and common pitfalls."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Project Support Office. You will have heard that I am a Project Owner again. Same division, smaller project, and this time I read chapter eight before we started rather than after.",
+    "plain": "Good morning, Project Support Office. You will have heard that I am a Project Owner again. It is the same division and a smaller project. This time I read chapter 8 of the guide before we started, not afterwards."
+   },
+   {
+    "who": "nightingale",
+    "mood": "dry",
+    "text": "In July I told you that a report which cannot state its benefits is a report admitting failure. I was wrong, and I have had six months to be wrong in. I do not intend to say it twice, so you will have to remember it for me.",
+    "plain": "In July I told you that a report which cannot state its benefits is a report admitting failure. I was wrong, and I have had six months to think about it. I do not intend to say this a second time, so you will have to remember it for me."
+   },
+   {
+    "who": "gantt",
+    "text": "She asked for twenty minutes on how it goes. Not the artefacts. She has the artefacts, they are all in the archive. How it goes.",
+    "plain": "The new project manager asked for twenty minutes on how a project goes. She does not need the documents. She has the documents; they are all in the archive. She wants to know how it goes."
+   },
+   {
+    "who": "you",
+    "text": "Somebody asks for something. You write down the ask, then the case for doing it at all, then the charter that says what it actually is, and somebody senior lets you plan. That is the first gate.",
+    "plain": "Someone asks for something. You write down the request. Then you write the case for doing it at all. Then you write the charter, which says what the project really is. Then a senior person allows you to plan. That is the first gate.",
+    "ref": [
+     17,
+     "RfP (Ready for Planning): at the end of the Initiating Phase"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Then you plan it properly, and discover that the four plans everyone forgets are approved by four different people and none of them by you. That is the second gate.",
+    "plain": "Then you plan it properly. You discover that the four plans everyone forgets are approved by four different people, and that none of them is approved by you. That is the second gate."
+   },
+   {
+    "who": "you",
+    "text": "Then you build it for two years, and every month you do the same small things. Report. Changes. Risks. Issues. Quality. Acceptance. Transition. The business side. Until the thing is in operation and the users have it in their hands. That is the third gate, and it is the last one.",
+    "plain": "Then you build it for two years. Every month you do the same small things: reporting, changes, risks, issues, quality, acceptance, transition, and the business side. You continue until the system is live and the users have it. That is the third gate, and it is the last one."
+   },
+   {
+    "who": "you",
+    "text": "Then you stop. You sit in a hot room and say out loud what you would do differently, you write it down for people you will never meet, you give everything to the archive, and the Project Owner signs. There is no fourth gate. Nobody comes and tells you that you were right.",
+    "plain": "Then you stop. You sit in a hot room and say aloud what you would do differently. You write it down for people you will never meet. You give everything to the archive. Then the Project Owner signs. There is no fourth gate. Nobody comes and tells you that you were right.",
+    "ref": [
+     63,
+     "The Closing Phase starts with the Project-End Review Meeting and ends with the Project Owner's (PO) final approval, which marks the project's administrative closure."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "And the benefits?",
+    "plain": "And what about the benefits?"
+   },
+   {
+    "who": "you",
+    "text": "About a year later, in somebody else's report, on a floor you no longer work on. That is not the sad part. That is the shape of the thing.",
+    "plain": "They arrive about a year later, in someone else's report, on a floor where you no longer work. That is not the sad part. That is simply the shape of a project."
+   },
+   {
+    "who": "curie",
+    "text": "If the three of you have finished. Florence asked me in July whether it works. I said January.",
+    "plain": "If the three of you have finished talking. In July Florence Nightingale asked me whether the system works. I said she should ask me in January."
+   },
+   {
+    "who": "curie",
+    "text": "It works.",
+    "plain": "It works."
+   },
+   {
+    "who": "curie",
+    "mood": "level",
+    "text": "And the honest version, which nobody asked for. The reconciliation is right every morning, including the two mornings I was certain it would not be. And two of my colleagues do a smaller job than they did in 2027, and one of them minds very much. Both of those are true, and only one of them will ever be in a report.",
+    "plain": "And here is the honest version, which nobody asked for. The reconciliation is correct every morning, including the two mornings when I was sure it would not be. And two of my colleagues now do a smaller job than they did in 2027, and one of them is very unhappy about it. Both things are true. Only one of them will ever appear in a report."
+   },
+   {
+    "who": "curie",
+    "text": "Now come here. There is something you have never actually watched.",
+    "plain": "Now come here. There is something that you have never actually watched."
+   },
+   {
+    "who": "narr",
+    "text": "On her screen, a disbursement to a programme country. Value date Monday. She types it once. The treasury system already has it, the payment gateway already has it, and she is done before the coffee arrives. Forty seconds, and nobody in this building will ever count them again.",
+    "plain": "On her screen there is a payment to a programme country. The money must be in the account on Monday. She types it once. The treasury system already has it. The payment gateway already has it. She finishes before the coffee arrives. It takes 40 seconds, and nobody in this building will ever count those seconds again.",
+    "g": [
+     [
+      "value date",
+      "the day the money must actually be in the receiving account"
+     ],
+     [
+      "programme country",
+      "a euro area country receiving financial assistance under an agreed reform programme"
+     ]
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Nothing on CASTOR. A Project Manager between assignments, holding a new Project Initiation Request.",
+    "k": "Knows the report is being read by a project manager he has never met.",
+    "w": "Wants twenty minutes to be useful to somebody starting where he started.",
+    "f": "Afraid the next project repeats the mistakes this one already paid for."
+   },
+   "curie": {
+    "o": "Loan Administration Officer. Runs the live disbursements the project delivered.",
+    "k": "Knows how the platform behaves across a quarter-end, a December and two bad mornings.",
+    "w": "Wants to give a straight answer to the question asked in July.",
+    "f": "Afraid the human cost of the change is left out of every written account."
+   },
+   "hopper": {
+    "o": "Owns benefit measurement for SC1 to SC5 in the permanent organisation.",
+    "k": "Holds two quarters of measured data and knows SC3 still has none.",
+    "w": "Wants twenty minutes, then the November rollover work she came in for.",
+    "f": "Afraid the 2029 statement is read as a verdict rather than as a measurement."
+   },
+   "gantt": {
+    "o": "Project Support Office. Keeps the archive and serves the projects that read it.",
+    "k": "Knows the new project manager pulled the report on her second day.",
+    "w": "Wants an answer for her that the archive alone cannot give.",
+    "f": "Afraid the archive is consulted only by people who already know what is in it."
+   },
+   "nightingale": {
+    "o": "Project Owner again, on a smaller project in the same division.",
+    "k": "Has six months of live benefit data and knows what she got wrong in July.",
+    "w": "Wants to correct herself once, on the record, and not repeat it.",
+    "f": "Afraid of arriving at another Closing Phase having learned nothing."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: p.66 requires the Project-End Report to be part of a central project repository or knowledge database describing project experiences, best practices and common pitfalls — the whole purpose of the document is that a project which does not yet exist can read it, which is what happens here. Guide p.6 supplies the other half of the epilogue: outputs produce outcomes, outcomes produce benefits, and outcomes and benefits are often realised only after the project has closed. CASTOR's success criteria are now measured by the Lending Operations Division in operations mode, under the Post-Project Recommendations handed over in section 8 of the report, with the full 2029 statement due to the AGB in early 2030. The project passed three gates and only three — RfP on 27 Mar 2026, RfE on 03 Jul 2026, RfC on 22 Jun 2028 (p.17) — and the last thing that happened to it was not a gate but the Project Owner's final approval at Administrative Closure on 28 Jul 2028 (p.63, p.67). Approver: none here; nothing in this scene is a project activity. Pages 66 and 6.",
+  "notePlain": "Rule: page 66 requires the Project-End Report to be stored in a central repository or knowledge database that describes project experience, good practice and common mistakes. The purpose of the report is that a project which does not yet exist can read it. That is exactly what happens in this scene. Page 6 gives the other half: outputs create outcomes, outcomes create benefits, and benefits often arrive only after the project has closed. The success criteria are now measured by the Lending Operations Division in normal operations, under the recommendations handed over in section 8 of the report. The full 2029 statement goes to the governance body in early 2030. The project passed three gates and only three: Ready for Planning on 27 Mar 2026, Ready for Executing on 03 Jul 2026, Ready for Closing on 22 Jun 2028 (page 17). The last event was not a gate. It was the Project Owner's final approval at Administrative Closure on 28 Jul 2028 (pages 63 and 67). Nobody approves anything in this scene, because nothing here is a project activity. Pages 66 and 6."
+ }
+]

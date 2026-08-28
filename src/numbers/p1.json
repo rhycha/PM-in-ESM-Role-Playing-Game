@@ -1,0 +1,3018 @@
+[
+ {
+  "a": [
+   "four and a half million",
+   "Four point six million",
+   "four point six"
+  ],
+  "k": "money",
+  "s": "€4.6 million",
+  "d": "The whole approved budget for POLLUX, fixed in the Business Case and carried into the Project Charter. It pays for eighteen months of an in-house agile team plus two seconded contractor staff. Medici rounds it to 'four and a half million' when he asks whether it was well spent.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eight point four million"
+  ],
+  "k": "money",
+  "s": "€8.4 million (CASTOR)",
+  "d": "The budget of Project CASTOR, the earlier lending-platform project that POLLUX builds on. Medici uses it as the yardstick: CASTOR could say in advance exactly what €8.4 m would buy, and POLLUX cannot.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eighteen hundred and fifty person-days",
+   "eighteen fifty"
+  ],
+  "k": "effort",
+  "s": "1,850 person-days",
+  "d": "The approved effort for POLLUX. A person-day is one person working for one day, so 1,850 is roughly eight people for eighteen months. It is the budget's other half: money and days are approved together.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eighteen months"
+  ],
+  "k": "time",
+  "s": "18 months",
+  "d": "The approved duration of POLLUX, from the Project Initiation Request in September 2028 to administrative closure in March 2030.",
+  "sc": [
+   "s03",
+   "s04",
+   "s06",
+   "s24",
+   "s25"
+  ]
+ },
+ {
+  "a": [
+   "Three point zero five million"
+  ],
+  "k": "money",
+  "s": "€3.05 m spent of €4.6 m",
+  "d": "Money spent by the end of September 2029, reported in the third-quarter Project Progress Report. Two thirds of the budget with three of four releases delivered.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four point three one million"
+  ],
+  "k": "money",
+  "s": "€4.31 m of €4.6 m",
+  "d": "Money spent at the Ready for Closing gate on 14 Feb 2030. About €290,000 under the approved €4.6 m.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eighteen hundred and twelve person-days"
+  ],
+  "k": "effort",
+  "s": "1,812 of 1,850 person-days",
+  "d": "Effort used by the Ready for Closing gate, against the 1,850 person-days approved. Thirty-eight days under.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four point three eight million euro",
+   "Four point three eight million",
+   "Four point three eight"
+  ],
+  "k": "money",
+  "s": "€4.38 m final spend",
+  "d": "The final cost of POLLUX at administrative closure on 20 Mar 2030, against a €4.6 m budget. Curie's last line prices the whole project as the right to be wrong for a fortnight instead of a quarter.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eighteen hundred and twenty-four person-days"
+  ],
+  "k": "effort",
+  "s": "1,824 of 1,850 person-days",
+  "d": "Final effort used, twenty-six person-days under the approved 1,850.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two hundred and twenty thousand"
+  ],
+  "k": "money",
+  "s": "€220,000 returned",
+  "d": "The unspent part of the €4.6 m budget, released back to the investment portfolio on the day POLLUX closes. Medici expects Risk to have spent it by June.",
+  "sc": null
+ },
+ {
+  "a": [
+   "SC1"
+  ],
+  "k": "id",
+  "s": "Success criterion 1",
+  "d": "Success criterion 1 of five: assembling the quarter-end exposure pack. Baseline five working days and four analysts; target one day and one analyst. It is the criterion Nightingale gets asked about socially.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Time to deliver a new report view",
+   "the second criterion",
+   "criterion two"
+  ],
+  "k": "id",
+  "s": "Success criterion 2",
+  "d": "Success criterion 2 of five: how long it takes to deliver a new report view. Baseline about one quarter, target one iteration, which is two weeks. Curie calls it the entire argument for running POLLUX the agile way.",
+  "sc": null
+ },
+ {
+  "a": [
+   "SC3"
+  ],
+  "k": "id",
+  "s": "Success criterion 3",
+  "d": "Success criterion 3 of five: hand-maintained spreadsheets in the reporting chain. Baseline eleven, target zero.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Five days and four analysts",
+   "Five working days",
+   "Four analysts",
+   "five and four",
+   "four people",
+   "five days"
+  ],
+  "k": "count",
+  "s": "5 working days, 4 analysts",
+  "d": "The starting position POLLUX has to beat: every quarter, four analysts spend five working days assembling the exposure pack by hand. It is the baseline for success criterion 1, and the target is one day and one analyst.",
+  "sc": [
+   "s01",
+   "s03",
+   "s23"
+  ]
+ },
+ {
+  "a": [
+   "one day and one analyst",
+   "one and one"
+  ],
+  "k": "count",
+  "s": "Target: 1 day, 1 analyst",
+  "d": "The target for success criterion 1: the quarter-end exposure pack assembled in one working day by one analyst instead of five days by four.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two days and two analysts"
+  ],
+  "k": "count",
+  "s": "2 days, 2 analysts (Jan 2030)",
+  "d": "The January 2030 quarter-end pack, the first one done on the new portal: two days and two analysts, down from five and four, but not yet at the target of one and one. The first clean measurement will be the April pack.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven spreadsheets down to two",
+   "eleven spreadsheets to zero",
+   "eleven spreadsheets",
+   "eleven files"
+  ],
+  "k": "count",
+  "s": "11 spreadsheets → 0",
+  "d": "Eleven hand-maintained spreadsheets sit in the quarter-end reporting chain, and nobody can prove which copy is current. Success criterion 3 says all eleven must go. By October 2029 there are two left, and by 20 Dec 2029 none.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Zero spreadsheets since the twentieth of December",
+   "Zero spreadsheets"
+  ],
+  "k": "count",
+  "s": "0 spreadsheets since 20 Dec 2029",
+  "d": "Success criterion 3 met: after Release 4 went live on 20 Dec 2029 no hand-kept spreadsheet remains in the reporting chain. One of the three criteria POLLUX can demonstrate on its closing day.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Every figure traceable without manual mapping",
+   "Traceability is a hundred per cent",
+   "a hundred per cent"
+  ],
+  "k": "pct",
+  "s": "100% traceable (was ~40%)",
+  "d": "Success criterion 4: every figure on the portal can be followed back to the lending platform without anybody mapping it by hand. It started at roughly 40%. Hopper invites Medici to test it himself from his chair in about forty seconds.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two open audit findings"
+  ],
+  "k": "count",
+  "s": "2 open audit findings → 0",
+  "d": "Internal Audit has raised two findings about version control in exposure reporting — nobody can say which copy is current, who changed it or when. Success criterion 5 says both must be closed. One closes in February 2030; the second is closed subject to a follow-up review in September, so POLLUX cannot claim it on closing day.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three of five today",
+   "Three of five"
+  ],
+  "k": "score",
+  "s": "3 of 5 criteria met",
+  "d": "Three of the five measurable success criteria are demonstrable on the day POLLUX closes: zero spreadsheets, 100% traceability, and a new report view in about eleven working days. The other two — the quarter-end pack and the second audit finding — can only be measured after closure.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four of five criteria",
+   "four of five"
+  ],
+  "k": "score",
+  "s": "4 of 5 (CASTOR)",
+  "d": "CASTOR's score on its closing day in 2028: four of five success criteria met, one left as a blank line that Hopper was still measuring in 2030. POLLUX deliberately claims less and points at a service that keeps producing the numbers.",
+  "sc": null
+ },
+ {
+  "a": [
+   "five criteria we can count",
+   "nine we can argue about"
+  ],
+  "k": "count",
+  "s": "5 success criteria",
+  "d": "POLLUX sets exactly five measurable success criteria. Lovelace argues for five countable ones rather than nine arguable ones, because a criterion nobody can measure becomes a blank line in the closing report.",
+  "sc": null
+ },
+ {
+  "a": [
+   "September 2028"
+  ],
+  "k": "date",
+  "s": "Sep 2028 — project starts",
+  "d": "The month the Project Initiation Request is signed and POLLUX begins. Nothing exists yet except a one-page request whose third line says the content of the report cannot be specified in advance.",
+  "sc": null
+ },
+ {
+  "a": [
+   "The twelfth of October 2028",
+   "October last year",
+   "Twelve October",
+   "the twelfth"
+  ],
+  "k": "date",
+  "s": "12 Oct 2028",
+  "d": "The Corporate Investment Board approves the Business Case and gives corporate approval to the Project Charter, in one forty-minute slot. On the same day the reporting warehouse refresh leaves the project portfolio to make room.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Ready for Planning in October 2028"
+  ],
+  "k": "date",
+  "s": "RfP gate, 16 Oct 2028",
+  "d": "Ready for Planning: the first of the three PM² gates POLLUX passes. Gates do not disappear in PM²-Agile — what becomes iterative is only what happens inside the Executing phase.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the twenty-seventh"
+  ],
+  "k": "date",
+  "s": "27 Nov 2028",
+  "d": "The evening the Development Handbook and the Development Work Plan were baselined — that is, frozen as an agreed version that can only change through a controlled update. A week before the Ready for Executing gate.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "Ready for Executing that December",
+   "the fourth of December"
+  ],
+  "k": "date",
+  "s": "RfE gate, 4 Dec 2028",
+  "d": "Ready for Executing: the second gate. The Steering Committee authorises the project to start building. Iteration 1 opens five weeks later.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the eighth of January 2029",
+   "the eighth of January",
+   "Monday the eighth",
+   "on the eighth"
+  ],
+  "k": "date",
+  "s": "8 Jan 2029 — iteration 1 opens",
+  "d": "The first day of the first two-week iteration, and the moment POLLUX stops planning and starts building. It is a Monday, and it opens with four hours of Iteration Planning.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nineteenth of January",
+   "the nineteenth"
+  ],
+  "k": "date",
+  "s": "19 Jan 2029",
+  "d": "The last day of iteration 1 — the first time anything running exists. Not a release: a release is an increment handed to real users, and the first of those is 29 Mar 2029.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "The twenty-second of January"
+  ],
+  "k": "date",
+  "s": "22 Jan 2029",
+  "d": "Two days after iteration 1 closes, Nightingale has to tell people what the project has. The answer is one iteration's worth of working software, not a release.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-third"
+  ],
+  "k": "date",
+  "s": "23 Oct 2028 — first Release Planning",
+  "d": "The first Release Planning session, held deliberately early and expected to go badly, so the team learns the ceremony before the work depends on it.",
+  "sc": [
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "Release 1"
+  ],
+  "k": "id",
+  "s": "Release 1 — 29 Mar 2029",
+  "d": "The first release: exposure by member state, read-only, one page, delivered to the Board Secretariat. In its first five days it was opened forty times and generated four requests for things it does not do.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the twenty-ninth of March",
+   "Twenty-ninth of March"
+  ],
+  "k": "date",
+  "s": "29 Mar 2029 — Release 1",
+  "d": "Release 1 goes live: exposure by member state, read-only. Six iterations after iteration 1 opened.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Release 2"
+  ],
+  "k": "id",
+  "s": "Release 2 — 28 Jun 2029",
+  "d": "The second release: the instrument and maturity views and the reconciliation panel. Its contents are fought over in April, when the scenario overlay is pushed out to Release 3.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twenty-eighth of June"
+  ],
+  "k": "date",
+  "s": "28 Jun 2029 — Release 2",
+  "d": "Release 2 goes live. Everything the team plans between April and June is measured against this date.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Release 3"
+  ],
+  "k": "id",
+  "s": "Release 3 — 27 Sep 2029",
+  "d": "The third release: the scenario overlay and access for national authorities. It is the first release where a mistake is not an internal matter, because data leaves the institution.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twenty-seventh of September"
+  ],
+  "k": "date",
+  "s": "27 Sep 2029 — Release 3",
+  "d": "Release 3 goes live. The software is deployed days earlier with the switch down; the release is the day a supervisor is allowed to look at it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the twenty-seventh"
+  ],
+  "k": "date",
+  "s": "27 Sep 2029 — Release 3",
+  "d": "The day Release 3 becomes real: Curie turns the access switch on at nine in the morning, and nine national authorities can see their own exposure. The code has been in production, invisible, since the week before.",
+  "sc": [
+   "s19",
+   "s20",
+   "s21"
+  ]
+ },
+ {
+  "a": [
+   "Release 4"
+  ],
+  "k": "id",
+  "s": "Release 4 — 20 Dec 2029",
+  "d": "The last release: the self-service report builder, which lets Risk and Finance answer their own questions instead of asking for a new report each quarter. In the Work Items List it is deliberately left as four lines with no estimates until somebody has designed it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twentieth of December"
+  ],
+  "k": "date",
+  "s": "20 Dec 2029 — Release 4",
+  "d": "Release 4 goes live, and the last hand-kept spreadsheet disappears from the reporting chain. This is the date success criterion 3 is met.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the twenty-sixth"
+  ],
+  "k": "date",
+  "s": "26 Sep 2029",
+  "d": "The planned deployment evening for Release 3 — and the same day the lending platform takes its end-of-quarter maintenance window. Because the platform will not move, the team deploys on the 25th instead and holds the software dark for two days.",
+  "sc": [
+   "s19"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-fifth"
+  ],
+  "k": "date",
+  "s": "25 Sep 2029",
+  "d": "The date the Release 3 software is actually deployed, two days before anybody can see it, to avoid the lending platform's maintenance window on the 26th.",
+  "sc": [
+   "s19"
+  ]
+ },
+ {
+  "a": [
+   "the thirty-first of January",
+   "the first of February"
+  ],
+  "k": "date",
+  "s": "31 Jan 2030 — into service",
+  "d": "Transition into service: the portal stops being a project and becomes a running system owned by IT operations, and from 1 February a duty manager who has never met the team runs it at three in the morning. Hopper's argument is that nobody will staff a run team while a project is still accountable.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Third gate and the last one",
+   "Third gate"
+  ],
+  "k": "id",
+  "s": "RfC gate, 14 Feb 2030",
+  "d": "Ready for Closing, the third and last gate POLLUX passes, after Ready for Planning in Oct 2028 and Ready for Executing in Dec 2028. It authorises the Closing phase, and it takes seventy-five minutes and produces one signature.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the twentieth of March"
+  ],
+  "k": "date",
+  "s": "20 Mar 2030 — closure",
+  "d": "The day administrative closure completes and POLLUX stops existing as something that can spend money. Five weeks of Closing work: end review, lessons, final report, contract, archive, resources released.",
+  "sc": null
+ },
+ {
+  "a": [
+   "next Thursday"
+  ],
+  "k": "date",
+  "s": "21 Feb 2030 — Project-End Review",
+  "d": "The Project-End Review meeting, where lessons learned are captured. Deming asks the gate to require only that it is in the diary, because lessons written to a deadline are written badly.",
+  "sc": [
+   "s23"
+  ]
+ },
+ {
+  "a": [
+   "the nineteenth of June"
+  ],
+  "k": "date",
+  "s": "19 Jun 2029",
+  "d": "Nightingale appears before the Board of Governors and has about forty seconds to say what euro-area exposure reporting looks like now. It is nine days before Release 2, which is why the argument over Release 2's contents matters.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the thirty-first of August"
+  ],
+  "k": "date",
+  "s": "31 Aug 2029",
+  "d": "The day the scenario overlay was accepted in an Iteration Review — accepted, but not released, because Release 3 is not until 27 September.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the eighth of November"
+  ],
+  "k": "date",
+  "s": "8 Nov 2029",
+  "d": "The day the first of the two missing national-authority arrangements is signed, taking the portal from nine authorities to ten. The two country names had been on the team's board since September.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the thirty-first of March",
+   "the first of April"
+  ],
+  "k": "date",
+  "s": "31 Mar 2030 / 1 Apr 2030",
+  "d": "The licence for the team's board tool ends on 31 March 2030. Anything that exists only inside that tool stops existing on 1 April, which is why Gutenberg wants the logs in the project archive.",
+  "sc": [
+   "s21"
+  ]
+ },
+ {
+  "a": [
+   "the first of April"
+  ],
+  "k": "date",
+  "s": "1 Apr 2030",
+  "d": "The service team's iteration 5 opens eleven days after the project closed — and nobody has to approve it. It is the last image of the story: the cadence outlived the project.",
+  "sc": [
+   "s25"
+  ]
+ },
+ {
+  "a": [
+   "the first of March"
+  ],
+  "k": "date",
+  "s": "1 Mar 2030",
+  "d": "The Levallois Systems contract closes, releasing the two seconded contractor staff. One of eleven administrative closure items.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Monday the fourth of March"
+  ],
+  "k": "date",
+  "s": "4 Mar 2030",
+  "d": "The Central Bank of Cyprus asks for a maturity split on a different basis. Curie uses it as her proof of success criterion 2: the request arrives on the 4th and the new view is deployed on the 15th.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Friday the fifteenth"
+  ],
+  "k": "date",
+  "s": "15 Mar 2030",
+  "d": "The new Cyprus maturity view is deployed — ten working days after the request, one iteration, with no meeting held about it. This is what success criterion 2 was written to make possible.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the twenty-ninth of January",
+   "the thirtieth"
+  ],
+  "k": "date",
+  "s": "29–30 Jan 2030",
+  "d": "The Operational Model and the Deployment Plan are handed to IT operations on 29 January and signed by the IT division on the 30th, two days before the service goes live.",
+  "sc": null
+ },
+ {
+  "a": [
+   "on the fourth"
+  ],
+  "k": "date",
+  "s": "4 Feb 2030",
+  "d": "The night of the second of two incidents in the portal's first fortnight in service. The duty manager fixed it at four in the morning straight from the Deployment Plan, without telephoning anyone from the project — which is the proof that the handover worked.",
+  "sc": [
+   "s23"
+  ]
+ },
+ {
+  "a": [
+   "the third of April"
+  ],
+  "k": "date",
+  "s": "3 Apr 2029",
+  "d": "Day one of iteration 7, the fortnight the middle act follows: the Iteration Planning session, and the start of the retrospective timeline drawn on the whiteboard ten days later.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the fifth of April",
+   "on the fifth",
+   "the fifth"
+  ],
+  "k": "date",
+  "s": "5 Apr 2029",
+  "d": "Day four of iteration 7: the Daily Stand-up the Project Manager tried to turn into a status meeting, and the afternoon Brandeis warned that the data-protection screening was on a checklist and not in the build pipeline. Both come back in the Iteration Review eight days later.",
+  "sc": [
+   "s15",
+   "s17",
+   "s22"
+  ]
+ },
+ {
+  "a": [
+   "from the ninth to the eleventh",
+   "on the ninth",
+   "the ninth"
+  ],
+  "k": "date",
+  "s": "9–11 Apr 2029",
+  "d": "The two days in the middle of iteration 7 when the burn-down line stopped falling — no work was finished. It is also the day Lovelace finally put the Project Manager out of the stand-up.",
+  "sc": [
+   "s17",
+   "s18",
+   "s22"
+  ]
+ },
+ {
+  "a": [
+   "frozen on the tenth",
+   "the tenth"
+  ],
+  "k": "date",
+  "s": "10 Apr 2029",
+  "d": "The day the Work Items List was frozen for iteration 8 — that is, the order stopped changing so the team could plan against it.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "the thirteenth of April",
+   "the thirteenth"
+  ],
+  "k": "date",
+  "s": "13 Apr 2029",
+  "d": "The last day of iteration 7 and the busiest day in the story: Iteration Review at ten, wrap-up at ten to twelve, Iteration Retrospective at two. Two ceremonies, not one, and deliberately in different rooms.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the sixteenth of April"
+  ],
+  "k": "date",
+  "s": "16 Apr 2029",
+  "d": "The date on revision three of Annex D. A retrospective on the 13th became a work item with a name on it and changed a baselined document within three days — the loop Deming had been waiting to see close.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the fourteenth of March"
+  ],
+  "k": "date",
+  "s": "14 Mar 2029",
+  "d": "The day Babbage did unplanned production support and did not tell the Team Coordinator. It is Lovelace's evidence for keeping a ten per cent allowance in every capacity calculation.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the twenty-seventh"
+  ],
+  "k": "date",
+  "s": "27 Mar 2029",
+  "d": "The day the Work Items List was put in priority order for iteration 7, with the Business Manager in the room. Curie refuses to re-order it during Iteration Planning, because prioritising belongs to Release Planning.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "the eleventh of January"
+  ],
+  "k": "date",
+  "s": "11 Jan 2029",
+  "d": "The fourth day of iteration 1 — the first Daily Stand-up. Nobody has sat down at that meeting since.",
+  "sc": null
+ },
+ {
+  "a": [
+   "since the fifth"
+  ],
+  "k": "date",
+  "s": "5 Sep 2029",
+  "d": "The day the access switch became one switch per national authority instead of a single switch for all eleven. Turing made it a condition during Work Items List refinement and it took a day and a half to build.",
+  "sc": [
+   "s20"
+  ]
+ },
+ {
+  "a": [
+   "signed on the sixth"
+  ],
+  "k": "date",
+  "s": "6 Sep 2029",
+  "d": "The date the Data Protection Coordinator's screening was signed off for the amendment record — the check that was missing in April and is now a gate in the build pipeline.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleventh of March"
+  ],
+  "k": "date",
+  "s": "11 Mar 2029 (data, not a milestone)",
+  "d": "A date inside a sample loan record, not a project date. External readers of the record see only a role and this date; internal readers see the staff member's identifier.",
+  "sc": null
+ },
+ {
+  "a": [
+   "October 2027"
+  ],
+  "k": "date",
+  "s": "Oct 2027",
+  "d": "The month Levallois's lead architect resigned in the middle of CASTOR, leaving Eiffel's team building for four months from drawings of a system nobody had agreed. It is why Eiffel distrusts architecture-first plans.",
+  "sc": null
+ },
+ {
+  "a": [
+   "November 2028"
+  ],
+  "k": "date",
+  "s": "Nov 2028",
+  "d": "The month the Development Handbook and the Development Work Plan were written: the velocity of thirty-four points a fortnight was invented here with no evidence behind it, the Business Manager empowered the Product Owner here, and section 1.4 of the handbook was written here.",
+  "sc": null
+ },
+ {
+  "a": [
+   "2031"
+  ],
+  "k": "date",
+  "s": "2031",
+  "d": "The year Hopper returns to the Corporate Investment Board with the two success criteria that could not be measured on closing day. The Business Case does not close when the project does.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Full-year 2029"
+  ],
+  "k": "date",
+  "s": "CASTOR benefits, full-year 2029",
+  "d": "CASTOR's benefits report covers the whole of 2029 and reaches Medici in February 2030 — nineteen months after CASTOR closed, by which time everyone who could have acted on it had moved on. It is the reason he asks POLLUX to stay open, and the reason Hopper says no.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Iterations are two weeks",
+   "one iteration, two weeks",
+   "Two-week iterations",
+   "two weeks"
+  ],
+  "k": "time",
+  "s": "2-week iteration",
+  "d": "The fixed rhythm of POLLUX: work is organised into two-week blocks called iterations, each producing something that runs. The length is fixed and the scope is what flexes. Two weeks is chosen because success criterion 2 promises a new report view in one iteration — at four weeks the promise would be a lie.",
+  "sc": null
+ },
+ {
+  "a": [
+   "every fortnight",
+   "a fortnight"
+  ],
+  "k": "time",
+  "s": "a fortnight = one iteration",
+  "d": "A fortnight is two weeks, and in POLLUX it always means one iteration. Points 'a fortnight' means points delivered per iteration.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Iteration one"
+  ],
+  "k": "id",
+  "s": "Iteration 1 (8–19 Jan 2029)",
+  "d": "The first two-week iteration. Deming insists retrospectives start here rather than at iteration 6, when they would be a rescue rather than a habit.",
+  "sc": null
+ },
+ {
+  "a": [
+   "iteration two"
+  ],
+  "k": "id",
+  "s": "Iteration 2 (22 Jan–2 Feb 2029)",
+  "d": "The second iteration. Two things date from it: Einstein's deadline for the replica database to be loading, and the team's working agreement that what is said in a retrospective stays in the room.",
+  "sc": null
+ },
+ {
+  "a": [
+   "pairing from iteration five"
+  ],
+  "k": "id",
+  "s": "Iteration 5 (Mar 2029)",
+  "d": "The iteration where the mitigation for risk R-03 started: two people working side by side on the data model so that Babbage is no longer the only person who understands it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "iteration six",
+   "from six"
+  ],
+  "k": "id",
+  "s": "Iteration 6",
+  "d": "Used as the bad example: a team that waits until iteration 6 to hold its first retrospective is not improving, it is being rescued.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Iteration 7 report",
+   "Iteration 7"
+  ],
+  "k": "id",
+  "s": "Iteration 7 (3–13 Apr 2029)",
+  "d": "The fortnight the middle act follows. It committed twenty-nine points and delivered twenty-one, with one item rejected for failing the team's own Definition of Done.",
+  "sc": null
+ },
+ {
+  "a": [
+   "iteration 8",
+   "the eighth"
+  ],
+  "k": "id",
+  "s": "Iteration 8 (16–27 Apr 2029)",
+  "d": "The next iteration after the bad one. The rejected drill-through item goes straight back to the top of it rather than being postponed, so nobody re-estimates finished work as if it were new.",
+  "sc": [
+   "s12",
+   "s16",
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "sixteen, seventeen, eighteen"
+  ],
+  "k": "id",
+  "s": "Iterations 16, 17, 18",
+  "d": "The three iterations whose accepted work adds up to Release 3. A release is the sum of several iterations and the output of none of them on its own.",
+  "sc": null
+ },
+ {
+  "a": [
+   "iteration 18"
+  ],
+  "k": "id",
+  "s": "Iteration 18 (Sep 2029)",
+  "d": "The iteration running when Release 3 is prepared. Training eleven supervisors and standing up a support desk is not iteration 18's work, so Lovelace splits the team into two halves working in parallel.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-two iterations"
+  ],
+  "k": "count",
+  "s": "22 iterations by Nov 2029",
+  "d": "Twenty-two two-week iterations had run by November 2029, and the Project Manager cannot find one where the team stopped and waited for a business answer. That is the practical proof that empowering the Product Owner worked.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-six iterations"
+  ],
+  "k": "count",
+  "s": "26 iterations in total",
+  "d": "The whole of POLLUX's building phase: twenty-six two-week iterations between January 2029 and January 2030, producing four releases.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-six retrospectives",
+   "Twenty-six in February",
+   "twenty-six honest logs",
+   "twenty-six photographs",
+   "twenty-six of these",
+   "twenty-six entries",
+   "a twenty-seventh"
+  ],
+  "k": "count",
+  "s": "26 retrospectives",
+  "d": "One Iteration Retrospective at the end of each of the twenty-six iterations, each one logged. Deming's point in the closing meeting is that a twenty-seventh would teach the team nothing — the Lessons Learned are for the next project, which is a different subject and a different reader. That is the 'twenty-six and one'.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-six times over the project"
+  ],
+  "k": "count",
+  "s": "26 Release Planning cycles",
+  "d": "Release Planning runs at least once every iteration, so twenty-six times across POLLUX — and weekly when the subject is volatile. It is where the business says what changed and the team says how big the change is.",
+  "sc": null
+ },
+ {
+  "a": [
+   "At least every iteration"
+  ],
+  "k": "count",
+  "s": "≥1 per iteration",
+  "d": "The minimum frequency for Release Planning. It goes up, never down: when national-authority access is scoped in the summer it runs weekly, because that context will not sit still for a fortnight.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Entry seven"
+  ],
+  "k": "id",
+  "s": "Retrospective log entry 7",
+  "d": "The seventh entry in the Retrospectives Log, written after iteration 7. The log runs to twenty-six entries and is the raw material somebody opens in February 2030 to write the Lessons Learned.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two for every week of the iteration",
+   "Four hours"
+  ],
+  "k": "time",
+  "s": "4 h Iteration Planning",
+  "d": "Iteration Planning is sized at two hours for each week of the iteration, so four hours for a two-week iteration. Lovelace stops at one o'clock whatever state the plan is in, because the timebox is the discipline.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eight people"
+  ],
+  "k": "count",
+  "s": "8 in the team",
+  "d": "The size of the agile team used in planning assumptions: eight people, and a working assumption that nobody is on holiday, which Babbage notes is already false for August.",
+  "sc": null
+ },
+ {
+  "a": [
+   "nine people"
+  ],
+  "k": "count",
+  "s": "9 in the team",
+  "d": "Lovelace's description of her whole job by late 2029: nine people and a fortnight. Her argument for not reporting to the Steering Committee is that adding a committee to that job would make her bad at both.",
+  "sc": null
+ },
+ {
+  "a": [
+   "sixty to ninety seconds each",
+   "sixty to ninety seconds"
+  ],
+  "k": "time",
+  "s": "60–90 seconds each",
+  "d": "How long one person speaks at the Daily Stand-up. Four people at sixty to ninety seconds is a meeting of a few minutes; it is a coordination checkpoint between the team, not a report to a manager.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Fifteen minutes a day",
+   "Fifteen minutes"
+  ],
+  "k": "time",
+  "s": "15-minute stand-up",
+  "d": "The stand-up's timebox: about fifteen minutes for a full team. Gantt multiplies it out as fifteen minutes a day times eight people times two hundred and forty working days a year and calls it expensive; Lovelace's trade is that he stops ringing her for status.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two hundred and forty working days"
+  ],
+  "k": "count",
+  "s": "~240 working days a year",
+  "d": "Gantt's arithmetic for the cost of a daily stand-up: roughly 240 working days in a year, times eight people, times fifteen minutes.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Half past nine"
+  ],
+  "k": "time",
+  "s": "09:30 stand-up",
+  "d": "The Daily Stand-up: same time, same place, every working morning, standing up. Nobody has sat down at it since 11 Jan 2029.",
+  "sc": null
+ },
+ {
+  "a": [
+   "quarter to"
+  ],
+  "k": "time",
+  "s": "09:45",
+  "d": "The 'meet after': the stand-up ends at about a quarter to ten and whoever has the blocker books a room and solves it then. The stand-up raises problems; it does not solve them.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Seven minutes forty",
+   "Eight minutes ten"
+  ],
+  "k": "time",
+  "s": "7:40 and 8:10 elapsed",
+  "d": "The clock on the stand-up. At seven minutes forty the Project Manager tries to add a Release 2 question; at eight minutes ten the team has gone. The meeting stayed inside its timebox because the extra question was refused.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four questions"
+  ],
+  "k": "count",
+  "s": "4 stand-up questions",
+  "d": "Each member answers four questions, all of them framed against this iteration's goal: what moved us towards it, what will, what is in the way, and how confident you are. Nothing about the release, the committee or last month.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three because of his two"
+  ],
+  "k": "score",
+  "s": "Confidence 3 of 5",
+  "d": "The fourth stand-up question is a confidence score from one to five. Einstein gives a three not because of his own work but because of Babbage's two, which is how a personal number becomes team information.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two fingers",
+   "Five hands"
+  ],
+  "k": "score",
+  "s": "Vote of Confidence, 1–5",
+  "d": "Iteration Planning ends with a hand vote: every member holds up one to five fingers for how confident they are in the plan. Planning is not finished while anyone is still on one or two — which is why Lamarr's two at twelve minutes past twelve stops the room.",
+  "sc": null
+ },
+ {
+  "a": [
+   "on three"
+  ],
+  "k": "count",
+  "s": "Vote on a count of three",
+  "d": "Everybody raises their hand at the same moment, on a count of three, and nobody changes their number after seeing the room. It stops people copying the group.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two hours booked, ten to twelve",
+   "ten to twelve"
+  ],
+  "k": "time",
+  "s": "10:00–12:00 Iteration Review",
+  "d": "The Iteration Review is a closure ceremony on the last day of the iteration, ninety minutes to two hours for a two-week iteration. Stakeholders are in the room and this time they drive the software themselves.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twelve minutes"
+  ],
+  "k": "time",
+  "s": "12-minute opening",
+  "d": "The Iteration Review opens with a short presentation — scope, achieved, not achieved, new items, dropped items, difficulties — before anybody touches the software. Ten to fifteen minutes is the guideline.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Fifty minutes gone"
+  ],
+  "k": "time",
+  "s": "50 minutes elapsed",
+  "d": "Half-way through the two-hour Iteration Review, three of four items have been demonstrated and accepted. The fourth is the one that fails.",
+  "sc": null
+ },
+ {
+  "a": [
+   "ran over by twenty minutes",
+   "Twelve twenty"
+  ],
+  "k": "time",
+  "s": "12:20 — 20 minutes over",
+  "d": "The Iteration Review overran its two hours by twenty minutes, and all of the overrun went on the wrap-up: deciding item by item whether it was accepted, and why not if it was not.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two o'clock"
+  ],
+  "k": "time",
+  "s": "14:00 Retrospective",
+  "d": "The Iteration Retrospective, held the same afternoon as the Review and deliberately separated from it. The Review looks at the thing the team built; the retrospective looks at the team. Neither the Business Manager nor the Project Manager is in it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twenty past two"
+  ],
+  "k": "time",
+  "s": "14:20",
+  "d": "Twenty minutes into the retrospective, when people say things about themselves. Lovelace's rule is that the actions leave the room and the sentences do not.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two hours, which is the top of the range",
+   "a hundred and twenty minutes",
+   "two minutes past"
+  ],
+  "k": "time",
+  "s": "120 min Retrospective",
+  "d": "A retrospective runs sixty to a hundred and twenty minutes depending on team size and how hard the iteration was. Lovelace booked the top of the range on the Tuesday, because she could already see what kind of fortnight it had been.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four minutes to four"
+  ],
+  "k": "time",
+  "s": "15:56",
+  "d": "The end of the retrospective: Babbage photographs the board. The board itself stays up, because it belongs to the team and not to the file.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven minutes"
+  ],
+  "k": "time",
+  "s": "11-minute meet-after",
+  "d": "The problem-solving conversation held straight after the stand-up, with only the people who need to be in it. It ends with a name and a telephone number, which is what the stand-up itself is not allowed to spend time on.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "one o'clock"
+  ],
+  "k": "time",
+  "s": "13:00 hard stop",
+  "d": "The end of the four-hour Iteration Planning timebox. The clock decides when planning stops, not the state of the plan.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven minutes past twelve"
+  ],
+  "k": "time",
+  "s": "12:11",
+  "d": "Eleven minutes past the planning session's midday mark, Lamarr's hand is still up showing two. The plan is not agreed, and the reason has been said twice in corridors and never in a meeting.",
+  "sc": null
+ },
+ {
+  "a": [
+   "fifty stand-ups"
+  ],
+  "k": "count",
+  "s": "50 stand-ups",
+  "d": "What the last five iterations before Release 2 actually consist of: five planning sessions, five reviews, five retrospectives and fifty daily stand-ups — one per working day.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three hours booked",
+   "Three hours"
+  ],
+  "k": "time",
+  "s": "3 h Project-End Review",
+  "d": "The Lessons Learned meeting at the end of the project. Babbage objects to the length before he objects to the meeting, and it takes two hours and fifty minutes.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two hours and fifty minutes"
+  ],
+  "k": "time",
+  "s": "2 h 50 actual",
+  "d": "How long the Project-End Review actually took, producing six lessons, four recommendations and one sentence Deming reads back twice.",
+  "sc": null
+ },
+ {
+  "a": [
+   "I have stood here forty times"
+  ],
+  "k": "count",
+  "s": "40 stand-ups attended",
+  "d": "Curie has been at about forty stand-ups — roughly twice a week for a year — and has never spoken first and never asked for anything. Her point to the Project Manager is that if the Product Owner can attend silently, so can he.",
+  "sc": null
+ },
+ {
+  "a": [
+   "opened it forty times"
+  ],
+  "k": "count",
+  "s": "40 opens in 5 days",
+  "d": "How often Release 1 was opened by the Board Secretariat in its first five days — with four requests for things it does not do. Both numbers are the point of releasing early.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "run this meeting forty times"
+  ],
+  "k": "count",
+  "s": "40 end reviews",
+  "d": "Deming has run the Project-End Review forty times in his career, and this is the first one he has walked into where the team already had its own data.",
+  "sc": [
+   "s24"
+  ]
+ },
+ {
+  "a": [
+   "Half past eight"
+  ],
+  "k": "time",
+  "s": "08:30",
+  "d": "The hour two things happen on 15 Nov 2029: Nightingale's meeting about who the Team Coordinator reports to, and Curie refining work items with two analysts. The second one is the Project Manager's evidence that the Product Owner has become the business's point of contact.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Day four"
+  ],
+  "k": "count",
+  "s": "Day 4 of 10",
+  "d": "The fourth working day of iteration 7. By day four the sync task is already blocked, which is exactly what the daily stand-up exists to surface.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Points, not days",
+   "story points"
+  ],
+  "k": "effort",
+  "s": "Story points",
+  "d": "A story point is a measure of relative size, not of time. A five-point item is about five times the size of a one-point item; how many days it takes depends on who is free that fortnight. The team keeps the same scale for the whole project so that comparing an estimate made in February with one made in April is meaningful.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Thirty-four points once we settle",
+   "Thirty-four is your average",
+   "twenty-one and thirty-four",
+   "thirty-four a fortnight",
+   "November's thirty-four",
+   "a thirty-four average",
+   "thirty-four average"
+  ],
+  "k": "effort",
+  "s": "34 points per iteration",
+  "d": "The team's assumed velocity — the number of story points it finishes in one two-week iteration. Thirty-four was written into the Release Plan in November 2028 before any evidence existed, and survived until April 2029 because it was in a document. Lovelace names that as one of the four recurring failures of the project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Thirty-two points"
+  ],
+  "k": "effort",
+  "s": "32 points offered",
+  "d": "The size of the work the team first put on the board for iteration 7 — thirty-two points in a nine-day iteration against a thirty-four average, which Curie calls brave rather than realistic.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-nine points, four items",
+   "twenty-nine points",
+   "the twenty-nine",
+   "of twenty-nine"
+  ],
+  "k": "effort",
+  "s": "29 points committed",
+  "d": "What the team finally commits to for iteration 7: four items totalling twenty-nine points, after a defect is dropped. Iteration 8 commits the same figure. The Project Manager takes the goal and the number upward as they are — not as a percentage and not as a forecast.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-one points accepted of twenty-nine",
+   "twenty-one of twenty-nine points accepted",
+   "Twenty-one out of twenty-nine",
+   "Velocity twenty-one"
+  ],
+  "k": "effort",
+  "s": "21 of 29 points accepted",
+  "d": "Iteration 7's actual result: twenty-one points accepted out of twenty-nine committed, against a thirty-four average. The gap is one eight-point item rejected for failing the team's own Definition of Done.",
+  "sc": [
+   "s16",
+   "s17",
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "Thirty-four"
+  ],
+  "k": "effort",
+  "s": "34 points (estimate)",
+  "d": "The relative size the three builders independently give the rebuilt reconciliation panel. It is not five weeks of work — it is a size, roughly a third bigger than the twenty-one they gave the simpler version of the same story in February.",
+  "sc": [
+   "s13"
+  ]
+ },
+ {
+  "a": [
+   "in February I said twenty-one",
+   "Twenty-one was a comparison"
+  ],
+  "k": "effort",
+  "s": "21 points (Feb estimate)",
+  "d": "The February estimate for the reconciliation panel, when the story was only a comparison of figures. The new story adds a staleness rule and a screen that admits when it is out of date, so the same scale gives thirty-four.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Velocity assumption drops from thirty-four to thirty",
+   "thirty-four to thirty",
+   "Thirty a fortnight",
+   "thirty points"
+  ],
+  "k": "effort",
+  "s": "Velocity revised to 30",
+  "d": "In April 2029 the planned velocity is cut from thirty-four points a fortnight to thirty, because six iterations of real evidence beat an assumption made in November. Lowering it is what makes the Release 2 shortfall visible in time to do something about it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "velocity"
+  ],
+  "k": "effort",
+  "s": "Velocity",
+  "d": "How many story points a team actually finishes in one iteration, measured rather than promised. Multiplying velocity by the iterations remaining is how a release date is tested against a Work Items List.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two hundred and two points",
+   "two hundred and two"
+  ],
+  "k": "effort",
+  "s": "202 points left in Release 2",
+  "d": "The size of everything still unbuilt in Release 2 on 9 Apr 2029. At thirty points a fortnight and five iterations left, the arithmetic says a hundred and fifty will get done — so fifty-two points will not exist in June.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One hundred and fifty"
+  ],
+  "k": "effort",
+  "s": "150 points deliverable",
+  "d": "Five remaining iterations at thirty points a fortnight. Set against two hundred and two points of remaining Release 2 work, it is the sentence that forces a scope decision in April rather than a surprise in June.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Fifty-two points"
+  ],
+  "k": "effort",
+  "s": "52-point shortfall",
+  "d": "The gap between what Release 2 contains and what the team can build before 28 Jun 2029. It is not closed by working harder: either something leaves Release 2 or the date moves, and only the Product Owner decides which.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eight points"
+  ],
+  "k": "effort",
+  "s": "8 points (enabler cost)",
+  "d": "The price of Einstein's compromise: building the scenario-calculation service inside Release 2 as an invisible enabler costs Release 2 eight points of capacity, and buys Release 3 the ability to ship the overlay in its first iteration instead of its third.",
+  "sc": [
+   "s14"
+  ]
+ },
+ {
+  "a": [
+   "eight points of finished work"
+  ],
+  "k": "effort",
+  "s": "8 points, finished but not Done",
+  "d": "Work item 127 is eight points of software that does everything its acceptance criteria require — and is still rejected, because two of the team's eleven Definition of Done checks were never run.",
+  "sc": null
+ },
+ {
+  "a": [
+   "ninety-one points accepted"
+  ],
+  "k": "effort",
+  "s": "91 points over 3 iterations",
+  "d": "The accepted work of iterations 16, 17 and 18 put end to end. Release 3 is the sum of all three and the output of none of them individually.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Six iterations of burndown",
+   "burndown"
+  ],
+  "k": "effort",
+  "s": "Burn-down chart",
+  "d": "A chart of work still left to do, falling towards zero. A falling line means work is being finished; a flat line means it is not. Six iterations of them are taped along the team-room wall so the shape of a normal fortnight is visible.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Iteration burndown"
+  ],
+  "k": "effort",
+  "s": "Iteration burn-down",
+  "d": "Hours or points left inside the current two-week iteration, updated every day after the stand-up. Its only job is to let five people react on the Wednesday instead of finding out on the Friday.",
+  "sc": null
+ },
+ {
+  "a": [
+   "release burndown"
+  ],
+  "k": "effort",
+  "s": "Release burn-down",
+  "d": "How much of a whole release still does not exist, tracked across iterations. It measures delivered functionality rather than hours, which is why it can stop falling in a fortnight where the team worked hard on quality checks rather than features.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Burndown flat from the ninth to the eleventh",
+   "it stopped"
+  ],
+  "k": "effort",
+  "s": "Flat burn-down, 9–11 Apr",
+  "d": "Two days in the middle of iteration 7 where the remaining-work line did not move at all. On the release burn-down chart the same effect shows up as a line that had fallen every fortnight since January and then stopped: the team spent the fortnight on quality checks rather than on features.",
+  "sc": [
+   "s17",
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "Eighty-one per cent"
+  ],
+  "k": "pct",
+  "s": "81% test coverage",
+  "d": "The share of the code exercised by automated tests. It has not moved since February, and Babbage puts it on the retrospective wall precisely because nobody knows whether that is fine.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nine working days, not ten"
+  ],
+  "k": "count",
+  "s": "9 working days, not 10",
+  "d": "Iteration 7 has nine working days rather than the usual ten because Easter Monday falls inside it. Capacity is calculated from real days available, not from the length of the calendar.",
+  "sc": null
+ },
+ {
+  "a": [
+   "sixty-three"
+  ],
+  "k": "effort",
+  "s": "63 hours gross",
+  "d": "Lamarr's raw availability for the nine-day iteration before any allowance is taken off. Every member's hours are collected on a capacity sheet before Iteration Planning starts.",
+  "sc": null
+ },
+ {
+  "a": [
+   "less the ten per cent",
+   "the ten per cent"
+  ],
+  "k": "pct",
+  "s": "10% unplanned-work allowance",
+  "d": "A tenth of everybody's time is held back for interruptions nobody can predict — production support, questions, incidents. Lovelace insists it is not pessimism: it is exactly the support Babbage did on 14 March without telling anyone.",
+  "sc": null
+ },
+ {
+  "a": [
+   "fifty-seven"
+  ],
+  "k": "effort",
+  "s": "57 hours net",
+  "d": "Sixty-three hours less the ten per cent allowance. Two of the team are at fifty-seven for iteration 7, and Eiffel uses his to refuse any extra work.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Charles fifty"
+  ],
+  "k": "effort",
+  "s": "50 hours",
+  "d": "Babbage's availability, lower than the others because he has the second Thursday out — a date that was already on the capacity sheet in February.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Albert twenty-five"
+  ],
+  "k": "effort",
+  "s": "25 hours",
+  "d": "The Architecture Owner's availability. He is part-time on the team, seconded from Enterprise Architecture, which is why his number is about half of everyone else's.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One hundred and eighty-nine hours"
+  ],
+  "k": "effort",
+  "s": "189 hours total capacity",
+  "d": "The whole team's usable hours for iteration 7 after holidays and the ten per cent allowance. Everything the team commits to has to fit inside this number.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Sixteen hours"
+  ],
+  "k": "effort",
+  "s": "16-hour task",
+  "d": "Babbage's first sizing for the nightly reference sync. It breaks the team's rule that a task should be no more than about twelve hours, so it is split into two tasks of eight — a load and a reconciliation, which were always two things pretending to be one.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twelve"
+  ],
+  "k": "effort",
+  "s": "12-hour task limit",
+  "d": "The team's rule for breaking work down: no single task longer than about twelve hours. Anything bigger hides a second task inside it and cannot be tracked daily. Eiffel says the number and Babbage splits his sixteen without argument.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "Two tasks of eight"
+  ],
+  "k": "effort",
+  "s": "2 × 8 hours",
+  "d": "The sixteen-hour sync split into two eight-hour tasks, each with a named owner. Naming an owner per task is how the team knows when nobody is willing to take something.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Five items on the board"
+  ],
+  "k": "count",
+  "s": "5 items in the plan",
+  "d": "Where Iteration Planning stops adding work: the moment nobody in the room will take the next task, the plan is full. Five items became four when the defect was dropped.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Ninety-six open items",
+   "ninety-six items"
+  ],
+  "k": "count",
+  "s": "96 open work items",
+  "d": "The whole Work Items List at the Ready for Executing gate: everything anybody has asked for, in one ranked and estimated list. It is a filtered view of a tool, not a document — which is why Gantt does not recognise it as a schedule.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Sixty-one user stories"
+  ],
+  "k": "count",
+  "s": "61 user stories",
+  "d": "A user story describes something a named user needs to be able to do, written from their point of view with acceptance criteria. Sixty-one of the ninety-six items are these.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-four of those ninety-six items",
+   "Twenty-four enabler items",
+   "twenty-four enablers"
+  ],
+  "k": "count",
+  "s": "24 enabler stories",
+  "d": "An enabler story is work that no user will ever see — a data replica, an audit trail, a security zone — that has to exist before user-facing stories can work. Twenty-four of the ninety-six items are Einstein's enablers, and three of them must land in Release 1.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven defects"
+  ],
+  "k": "count",
+  "s": "11 defects",
+  "d": "Known faults, ranked in the same single list as everything else rather than kept on a separate bug list. That is how a defect can lose to a feature: item 131 has been open since February and is dropped again in April.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the top twenty items in bold"
+  ],
+  "k": "count",
+  "s": "Top 20 ranked",
+  "d": "The Work Items List is not a pile — it is ordered, and only the top of it is worked in detail. The items in bold are the ones close enough to be built next.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the top thirty items in bold"
+  ],
+  "k": "count",
+  "s": "Top 30 ranked",
+  "d": "The same ordered list five months into building, with the top thirty items detailed enough to plan against. Detail is graded: precise in the short term, vague further out, on purpose.",
+  "sc": null
+ },
+ {
+  "a": [
+   "maybe sixty stories"
+  ],
+  "k": "count",
+  "s": "~60 stories",
+  "d": "Lovelace's first estimate of how many user stories the Charter's four features will break into. The Charter lists features; the Product Owner writes the stories, and the Charter does not try to.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Ninety-four work items unbuilt"
+  ],
+  "k": "count",
+  "s": "94 items never built",
+  "d": "What is left in the Work Items List when POLLUX closes. They are not a failure and not archived: on the day the project closes they stop being a project backlog and become the service's own list, with Curie's budget behind them.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four lines with no estimates",
+   "Release 4 is four lines",
+   "Four honest lines"
+  ],
+  "k": "count",
+  "s": "4 unestimated lines",
+  "d": "Release 4 is deliberately left as four sentences with no estimates, a year before it is built. Curie refuses to invent forty detailed lines that somebody would hold her to in July.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two items added, one removed, four rewritten"
+  ],
+  "k": "count",
+  "s": "+2, −1, 4 rewritten",
+  "d": "One afternoon's work on the Work Items List with the Business Manager and two user representatives. This is the first of Release Planning's three activities: agreeing what the list should now say, before the team ever sees it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Six items discussed, five estimated",
+   "the six items on Friday"
+  ],
+  "k": "count",
+  "s": "6 items, 5 estimated",
+  "d": "The items sent to the team on the Friday and refined on the Monday. Five come back with a relative size; one goes back to Curie because a business rule is missing. Explaining is the Product Owner's job, sizing is the team's, and the team answers for the sizing.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-one-eight"
+  ],
+  "k": "id",
+  "s": "Work item 118",
+  "d": "The instrument-breakdown view: exposure split by instrument for any member state. Four acceptance criteria, six test scenarios, all four criteria proved in the Iteration Review by two analysts driving it themselves.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-two-one"
+  ],
+  "k": "id",
+  "s": "Work item 121",
+  "d": "The nightly reference-data sync — an enabler nobody will ever see on a screen. Without it nothing on the portal traces back to the lending platform, which is why Einstein calls it arithmetic rather than bravery. It is demonstrated from a log file and accepted.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-two-four"
+  ],
+  "k": "id",
+  "s": "Work item 124",
+  "d": "The maturity buckets, checked against Finance's rule set version four. Three criteria, three scenarios, accepted without argument.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-two-seven"
+  ],
+  "k": "id",
+  "s": "Work item 127",
+  "d": "The drill-through: click any figure and reach the source record behind it. It passes all four of its acceptance criteria in front of the room and is still rejected, because lines seven and eight of the Definition of Done were never run on it. It goes to the top of iteration 8.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-three-one"
+  ],
+  "k": "id",
+  "s": "Work item 131",
+  "d": "A defect open since February 2029 and dropped again from iteration 7 to protect the goal. Ranked in the same list as everything else, it keeps losing to work with more value.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-four-zero"
+  ],
+  "k": "id",
+  "s": "Work item 140",
+  "d": "A new item raised in the Iteration Review: the Board's single page, requested by the Business Manager. It is deliberately not sized on the day, because nobody yet knows whether it is a view or a whole new aggregation.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-four-one"
+  ],
+  "k": "id",
+  "s": "Work item 141",
+  "d": "A new item: the bucket export an analyst asked for during the demo at ten past eleven, which nobody wrote down until the Team Coordinator did. It later turns out to be the slowest report view of the whole project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-four-two"
+  ],
+  "k": "id",
+  "s": "Work item 142",
+  "d": "A retrospective action turned into a work item: put the data-protection screening and the accessibility check into the build pipeline, with the accessibility check failing the build rather than warning. Owned by Lamarr, done within three days.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-four-three"
+  ],
+  "k": "id",
+  "s": "Work item 143",
+  "d": "A retrospective action: move the nightly sync out of the lending platform's batch window. Owned by Babbage.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One-four-four"
+  ],
+  "k": "id",
+  "s": "Work item 144",
+  "d": "A retrospective action: pair on the last item of an iteration so it is never one person's item. Owned by Eiffel. All three actions go into the ranked list with names on them, not into a folder called improvements.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two-six-three"
+  ],
+  "k": "id",
+  "s": "Work item 263",
+  "d": "The national-authority gateway, in production since the week before Release 3 with its switch down. It works, it is deployed, and eleven supervisors cannot tell it exists — which is why the release date and the deployment date are different things.",
+  "sc": null
+ },
+ {
+  "a": [
+   "R-03"
+  ],
+  "k": "id",
+  "s": "Risk R-03",
+  "d": "The risk that only Babbage understands the data model. It sat on the team's own board for two iterations, then moved to the project Risk Log with a number on it when it stopped being something the team could settle in a fortnight. The mitigation was pairing from iteration 5.",
+  "sc": null
+ },
+ {
+  "a": [
+   "done has eleven conditions",
+   "The other eleven lines",
+   "eleven conditions"
+  ],
+  "k": "count",
+  "s": "11-line Definition of Done",
+  "d": "The Definition of Done is the team's own list of eleven conditions every work item must satisfy before it counts as finished — code reviewed, tests green, accessibility checked, data-protection screening signed, and so on. It belongs to the team, not to a manager, and it is separate from any single item's acceptance criteria.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Code reviewed, tests green, accessibility checked, data-protection check signed"
+  ],
+  "k": "count",
+  "s": "Definition of Done, first lines",
+  "d": "The core of the team's Definition of Done, written into Annex D of the Project Handbook in November 2028. Curie makes them add, in the same paragraph, that 'done' belongs to the team and 'accepted' belongs to her — because in June somebody will claim they are the same thing.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nine gates a machine checks",
+   "nine that a machine checks",
+   "nine green lights",
+   "Nine gates"
+  ],
+  "k": "count",
+  "s": "9 automated gates",
+  "d": "Nine of the eleven Definition of Done conditions are checked automatically by the build pipeline — unit tests, coverage, static analysis, integration, the nightly suite — and a red one stops the build. The other two are done by a human, or not.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Lines seven and eight of the Definition of Done",
+   "lines seven and eight",
+   "Seven and eight"
+  ],
+  "k": "count",
+  "s": "DoD lines 7 and 8",
+  "d": "The two manual conditions: the Data Protection Coordinator's screening of any item exposing a source record, and the accessibility check. They were a checklist for four months and three separate retrospectives named the symptom before anyone made them real gates on 16 Apr 2029.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Line seven of Annex D",
+   "Line seven, Annex D",
+   "Line seven"
+  ],
+  "k": "count",
+  "s": "DoD line 7",
+  "d": "Screening by the Data Protection Coordinator for any item that exposes a source record. It existed in writing from November 2028 and had never once been run, because a checklist does not stop anything — a gate does.",
+  "sc": null
+ },
+ {
+  "a": [
+   "line eight"
+  ],
+  "k": "count",
+  "s": "DoD line 8",
+  "d": "The accessibility check, the second manual condition. After the April retrospective it fails the build rather than warning, which is the difference between a rule and a wish.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "Line four of the Definition of Done"
+  ],
+  "k": "count",
+  "s": "DoD line 4",
+  "d": "The condition that the team has tested the item. Turing accepts that it was met and asks for something different for Release 3 only: the row-level access filter proved by somebody who did not write it, because this is the first release where being wrong is not an internal matter.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two definitions of done"
+  ],
+  "k": "count",
+  "s": "2 rival definitions",
+  "d": "For eighteen months two different definitions of 'done' ran side by side: the team's eleven-line one in Annex D, which everybody obeyed, and the one in the schedule to Eiffel's secondment contract, which is what he would have been paid against if anyone had argued. No retrospective can fix a procurement clause.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Annex D"
+  ],
+  "k": "section",
+  "s": "Annex D of the Project Handbook",
+  "d": "Where the Development Handbook lives: an annex to the Project Handbook rather than a separate document, so that one item has one owner and one current version. Nineteen pages, mostly lists.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Annex D, section eight",
+   "section eight"
+  ],
+  "k": "section",
+  "s": "Annex D §8",
+  "d": "The section of the Development Handbook that holds the Definition of Done. Eiffel demands it exists before he will accept the word 'done', because his contract says 'delivered' and until somebody writes the definition those are two different invoices.",
+  "sc": null
+ },
+ {
+  "a": [
+   "revision three"
+  ],
+  "k": "version",
+  "s": "Annex D §8 rev. 3",
+  "d": "The third revision of the Definition of Done section, dated 16 Apr 2029, which turned lines seven and eight from checklist items into pipeline gates. A retrospective changed a baselined document in three days.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eighty-eight days"
+  ],
+  "k": "count",
+  "s": "88 days",
+  "d": "From Business Case approval on 12 Oct 2028 to the first iteration on 8 Jan 2029. Six weeks of it was one decision nobody had been asked to take — and because there was no team yet, there was no retrospective, so it appears in no log. That is Deming's argument for why Lessons Learned still exist.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four hundred and ten scenarios"
+  ],
+  "k": "count",
+  "s": "410 test scenarios",
+  "d": "The full automated test suite, run every night at two in the morning against the replica database. Nothing reaches pre-production on a failing suite, and that rule lives in the Test Plan rather than in anybody's head.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three since the third of April",
+   "Three broken builds",
+   "three reds"
+  ],
+  "k": "count",
+  "s": "3 broken builds",
+  "d": "Three times in iteration 7 an integration broke the build. Einstein treats that as the system working: continuous integration means everybody merges at least daily, so breakages are found small and fresh rather than in September with eleven people inside the same module.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nine of them failed for two days on purpose"
+  ],
+  "k": "count",
+  "s": "9 tests failing by design",
+  "d": "Test-driven development: the reconciliation tests were written on the Tuesday before the code existed, so nine of them failed for two days deliberately. The failing test is the specification.",
+  "sc": null
+ },
+ {
+  "a": [
+   "at two in the morning"
+  ],
+  "k": "time",
+  "s": "02:00 nightly test run",
+  "d": "When the full 410-scenario suite runs against the replica, so the team arrives to a clear answer about whether the build is releasable.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Merged at half four, red at half five, green by six"
+  ],
+  "k": "time",
+  "s": "16:30 / 17:30 / 18:00",
+  "d": "The whole life of a broken build inside ninety minutes: merged at half past four, failing at half past five, fixed and green by six. That speed is the point of integrating daily.",
+  "sc": null
+ },
+ {
+  "a": [
+   "rule set, version four",
+   "Finance rule set four",
+   "version four"
+  ],
+  "k": "version",
+  "s": "Finance control file v4",
+  "d": "Finance's maturity-boundary rule set is now a configuration item with a version and an owner, because they changed the boundaries in February and did not think it was a change. Every rule set now answers the audit question: which copy is current, who changed it, when.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three iterations. Replica, audit trail, access zone",
+   "Three iterations"
+  ],
+  "k": "id",
+  "s": "3 enabler iterations",
+  "d": "Einstein's opening demand: three whole iterations of invisible groundwork — the read-only data replica, the audit trail and the external access zone — before any user-facing story. Half of the six iterations before Release 1. The compromise is that enablers ride in every release and never take three iterations in a row.",
+  "sc": [
+   "s08"
+  ]
+ },
+ {
+  "a": [
+   "Three iterations, maybe four with the tests"
+  ],
+  "k": "effort",
+  "s": "3–4 iterations",
+  "d": "Lamarr's estimate for building a general scenario engine instead of the one stress view Risk actually asked for. It is the classic overproduction argument, and principle nine — the art of maximising the amount of work not done — is aimed straight at it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four boxes"
+  ],
+  "k": "count",
+  "s": "4 architecture blocks",
+  "d": "The whole POLLUX architecture on one whiteboard: a replica data layer, a reconciliation service, a reporting API and the portal user interface. Einstein has drawn it three times this week and it has not changed once.",
+  "sc": [
+   "s08"
+  ]
+ },
+ {
+  "a": [
+   "version zero point four"
+  ],
+  "k": "version",
+  "s": "Architecture Overview v0.4",
+  "d": "The Architecture Overview at the Ready for Planning gate: an early draft, deliberately no more than the Initiating phase asks for. Version numbers below one mean the document is not yet baselined.",
+  "sc": null
+ },
+ {
+  "a": [
+   "version zero point nine and one point one"
+  ],
+  "k": "version",
+  "s": "v0.9 and v1.1",
+  "d": "The Architecture Overview at 0.9 and the Operational Model at 1.1 when both are baselined in November 2028. Einstein reviews the pair together at every release boundary, because if they drift apart nobody can tell whether the system is buildable.",
+  "sc": null
+ },
+ {
+  "a": [
+   "version one point three"
+  ],
+  "k": "version",
+  "s": "Project Charter v1.3",
+  "d": "The second update to the Project Charter, made in October 2029 because Release 3 no longer contains what the Charter promised a year earlier. The first update was in July, about the legal basis for national-authority access.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Version six"
+  ],
+  "k": "version",
+  "s": "Release Plan v6",
+  "d": "The sixth version of the Release Plan, issued the evening the Release 2 contents changed. Re-sorting the Work Items List is not a change request; changing what a release contains is, so it goes to the Steering Committee with two paragraphs of explanation.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nine versions by Closing"
+  ],
+  "k": "version",
+  "s": "~9 versions expected",
+  "d": "Deming's forecast for the Development Handbook. It is a living document: every retrospective that changes how the team works changes it, with a date on it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven pages"
+  ],
+  "k": "count",
+  "s": "11-page Architecture Overview",
+  "d": "The whole architecture document. It would be forty pages if the lending platform's architecture were not already written and approved — most of what Einstein would say, he can point at instead.",
+  "sc": [
+   "s08"
+  ]
+ },
+ {
+  "a": [
+   "Three deployment units. Four environments"
+  ],
+  "k": "count",
+  "s": "3 units, 4 environments",
+  "d": "The Operational Model in one line: three separately deployable pieces of software, and four environments — development, test, pre-production, production — for them to move through. Plus one rule: the feed runs one way from the platform into the replica, and nothing writes back.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four units in September"
+  ],
+  "k": "count",
+  "s": "4 deployment units",
+  "d": "By Release 3 there are four pieces to deploy: data layer, reconciliation API, portal, and the new external gateway. The gateway is the reason the dry-run happens three weeks early instead of one.",
+  "sc": null
+ },
+ {
+  "a": [
+   "ninety seconds"
+  ],
+  "k": "time",
+  "s": "90-second roll-back",
+  "d": "How long it takes to undo a bad deployment of the portal or the API, because both run blue-green: two copies of everything, traffic switched over, switched back if it screams.",
+  "sc": [
+   "s19"
+  ]
+ },
+ {
+  "a": [
+   "A replica reload is ninety minutes",
+   "ninety minutes"
+  ],
+  "k": "time",
+  "s": "90-minute roll-back",
+  "d": "The real back-out time, set by the one component that cannot run blue-green: reloading the replica database takes ninety minutes. Leonardo needs the true number because his duty manager will be the one deciding at ten at night.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Not twenty-two thirty",
+   "twenty-two hundred"
+  ],
+  "k": "time",
+  "s": "22:00 go/no-go",
+  "d": "Ten o'clock at night: the fixed moment somebody decides whether the deployment continues or is backed out. Not half past ten while somebody has one more idea, and the decision belongs to the duty manager rather than to the project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Revision five"
+  ],
+  "k": "version",
+  "s": "Deployment Plan rev. 5",
+  "d": "The fifth revision of the Deployment Plan, rewritten the same evening the deployment date moved to the 25th. It goes to the duty manager before anyone else, because she is the only reader who matters.",
+  "sc": null
+ },
+ {
+  "a": [
+   "The load runs at four",
+   "the four o'clock load"
+  ],
+  "k": "time",
+  "s": "04:00 nightly load",
+  "d": "When the replica pulls the night's data from the lending platform. If it has not finished, somebody has to find out before the working day starts.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Alert before six"
+  ],
+  "k": "time",
+  "s": "06:00 alert deadline",
+  "d": "The latest an alarm can reach a human and still leave time to fix the overnight load. It becomes a work item because 'load incomplete' is useless to a duty manager who has never seen the model — the alert has to name the step and the last good batch.",
+  "sc": null
+ },
+ {
+  "a": [
+   "overran by forty minutes"
+  ],
+  "k": "time",
+  "s": "40-minute overrun",
+  "d": "The Release 1 cut-over in March ran forty minutes late on the configuration step. Since then the Deployment Plan has carried a revision history like a piece of code.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Sixteen forty"
+  ],
+  "k": "time",
+  "s": "16:40",
+  "d": "The end of the Release 3 dry-run. It ran twice cleanly, and the second time the duty manager drove it while Babbage stood with his hands in his pockets — which was the point of the afternoon.",
+  "sc": null
+ },
+ {
+  "a": [
+   "at three in the morning"
+  ],
+  "k": "time",
+  "s": "03:00",
+  "d": "The hour Leonardo uses to test every plan: if his duty manager cannot run it alone at three in the morning without telephoning Babbage, it is not a plan, it is a note.",
+  "sc": null
+ },
+ {
+  "a": [
+   "at four in the morning"
+  ],
+  "k": "time",
+  "s": "04:00 incident",
+  "d": "The hour of the second incident in the portal's first fortnight in service. The duty manager found the step in section three of the Deployment Plan, held the load, reran it at six and told Leonardo afterwards.",
+  "sc": null
+ },
+ {
+  "a": [
+   "04:12"
+  ],
+  "k": "time",
+  "s": "04:12 log timestamp",
+  "d": "The line at the bottom of the log file Babbage demonstrates instead of a screen: the nightly reconciliation finished at twelve minutes past four, having matched twenty thousand reference rows against the lending platform.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty thousand reference rows"
+  ],
+  "k": "count",
+  "s": "20,000 rows reconciled",
+  "d": "The size of the nightly reference sync's work, shown as a log file to a room of eleven people. Curie insists invisible work is demonstrated: it is the reason the previous three minutes of demo were not a lie.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven administrative arrangements",
+   "Eleven national authorities",
+   "eleven supervisors"
+  ],
+  "k": "count",
+  "s": "11 national authorities",
+  "d": "The eleven national supervisory bodies who are to get read access to their own country's exposure. Each one needs a signed administrative arrangement setting out the legal basis, plus an account, a support route and somebody answering a telephone at seven in the morning.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven drafted in June, nine signed, two not",
+   "Nine national authorities",
+   "Nine authorities",
+   "nine signed"
+  ],
+  "k": "score",
+  "s": "9 of 11 signed",
+  "d": "Nine of the eleven arrangements are signed by Release 3; Estonia is still with its legal service and Cyprus wants a change to clause four. Brandeis's rule is simple: nine signed means nine switched on, even though the code is identical and it costs nothing to open eleven.",
+  "sc": null
+ },
+ {
+  "a": [
+   "from seven authorities to nine"
+  ],
+  "k": "score",
+  "s": "7 → 9 authorities",
+  "d": "The Project Manager's least agile contribution to the project: four months of telephoning legal services across Europe, which is what took Release 3 from seven signed arrangements to nine. It is the kind of obstacle the team cannot move itself.",
+  "sc": null
+ },
+ {
+  "a": [
+   "clause four"
+  ],
+  "k": "section",
+  "s": "Clause 4",
+  "d": "The clause of the standard administrative arrangement that Cyprus asks to change, which is why its switch is still off on release day.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven half-days, nine of them now",
+   "eleven half-days"
+  ],
+  "k": "count",
+  "s": "11 half-day trainings",
+  "d": "One half-day of training per national authority, nine of them before Release 3 and two waiting for signatures. Training and support are not the deployment plan's job — they belong to the Transition Plan and the Business Implementation Plan.",
+  "sc": null
+ },
+ {
+  "a": [
+   "support cover from seven"
+  ],
+  "k": "time",
+  "s": "07:00 support cover",
+  "d": "A first-line support desk answering from seven in the morning, in a language that is not Luxembourgish, because the users are now in eleven countries.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four hundred and twelve queries",
+   "four hundred and twelve clean"
+  ],
+  "k": "count",
+  "s": "412 test queries",
+  "d": "An independent Security Assurance team, not the builders, ran 412 queries as a Lithuanian account to prove the row-level filter. Two returned more than Lithuania; after the fix all 412 were clean.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Buckets over ten years"
+  ],
+  "k": "count",
+  "s": "Maturity over 10 years",
+  "d": "Where the access filter leaked: maturities longer than ten years were pooled across the whole book before the country filter ran, so a Lithuanian total quietly revealed the shape of Portugal's position.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two incidents"
+  ],
+  "k": "count",
+  "s": "2 incidents in 14 days",
+  "d": "The portal's whole incident record in its first fortnight as a live service, both handled by IT operations from the Deployment Plan without calling anyone from the project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Fourteen days in service"
+  ],
+  "k": "count",
+  "s": "14 days live",
+  "d": "How long the portal has been running as an ordinary service when the last gate meets — long enough for the handover to have been tested, short enough that the project can still answer for it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "There are three"
+  ],
+  "k": "count",
+  "s": "3 levels of schedule",
+  "d": "Gantt is told an agile project has no schedule and is wrong: there are three, at three levels of detail. The Work Items List says what; the Release Plan says what and when; the Iteration Plan says how, for the next fortnight only.",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "There are still three",
+   "There are three"
+  ],
+  "k": "count",
+  "s": "3 rival exposure reports",
+  "d": "There is no single exposure report and there never was: Risk has one, Finance has one, the Board has one, and none of them is the report. It is the problem POLLUX opens with in August 2028 and it is still true in March 2030 — which was never a failure of analysis, only the true state of the problem.",
+  "sc": [
+   "s01",
+   "s25"
+  ]
+ },
+ {
+  "a": [
+   "Same four"
+  ],
+  "k": "count",
+  "s": "4 project logs",
+  "d": "The four PM² logs, unchanged from CASTOR: the Risk Log, the Issue Log, the Decision Log and the Change Log with its Change Request Form. What changes in PM²-Agile is who writes the entries, not what the logs are.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two more than CASTOR had"
+  ],
+  "k": "count",
+  "s": "2 extra logs",
+  "d": "PM²-Agile adds two logs to the four: a Testing Log pointing at the Test Plan and the acceptance plan, and a Retrospectives Log pointing at the Project-End Report — not at the status report, which is the distinction nobody had noticed for a year.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four of which are not in the fourteen",
+   "fourteen entries",
+   "nine cards"
+  ],
+  "k": "count",
+  "s": "14 log entries, 9 cards",
+  "d": "Two lists that look like duplicates and are not: fourteen numbered entries in the project Risk Log, and nine cards on the team's own board. A card is something the team is watching; when it stops being fixable inside a fortnight it crosses over with a number and belongs to the project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eighteen entries"
+  ],
+  "k": "count",
+  "s": "18 retrospective entries",
+  "d": "The Retrospectives Log in October 2029, eighteen iterations in. Deming refuses to draw conclusions from it until February, when there will be twenty-six.",
+  "sc": null
+ },
+ {
+  "a": [
+   "sixty-one of the seventy-four actions"
+  ],
+  "k": "score",
+  "s": "61 of 74 actions done",
+  "d": "Across twenty-six retrospectives the team wrote seventy-four improvement actions and finished sixty-one of them inside a fortnight. That is Babbage's argument that a further retrospective would teach them nothing.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Five or more times each",
+   "Four things recurred"
+  ],
+  "k": "count",
+  "s": "4 recurring problems",
+  "d": "The four problems that came back five or more times each over eighteen months and were half-solved every time: the invented velocity, the two manual Definition of Done checks, data protection consulted once and then forgotten, and the batch window nobody owned.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three separate retrospectives"
+  ],
+  "k": "count",
+  "s": "3 retrospectives",
+  "d": "Three different retrospectives named the same symptom — the two manual checks nobody ran — before anyone changed the baselined page. Noticing a problem repeatedly is not the same as fixing it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Six lessons, four recommendations"
+  ],
+  "k": "count",
+  "s": "6 lessons, 4 recommendations",
+  "d": "The output of the three-hour Project-End Review, going into section 6 of the Project-End Report. Lessons Learned are written for the next project's people, none of whom are in the room.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three. Not seven.",
+   "Seven proposals"
+  ],
+  "k": "count",
+  "s": "7 proposals → 3 actions",
+  "d": "Seven improvement ideas go on the retrospective wall in eleven minutes; three become work items. A retrospective that commits to seven actions while also delivering thirty points commits to none of them.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-eight questions"
+  ],
+  "k": "count",
+  "s": "28 gate questions",
+  "d": "The Ready for Planning phase-exit checklist. The Project Manager answers all twenty-eight before asking the committee for anything. Nobody approves the checklist: quality assurance assures the answers, and the Steering Committee authorises the phase — three different acts people confuse every time.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Twenty-six clean. Two partial"
+  ],
+  "k": "score",
+  "s": "26 clean, 2 partial",
+  "d": "The answers at the Ready for Planning gate. The two partials are the Architecture Overview sitting at version 0.4 and Eiffel's secondment being agreed but unsigned. Naming the partials first is what makes the other twenty-six believable.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two of them are not a clean yes",
+   "Forty-three checks"
+  ],
+  "k": "score",
+  "s": "43 checks, 2 partial",
+  "d": "The Ready for Executing phase-exit checklist, taken before the Steering Committee authorises building to start. The two partials are the Deployment Plan's missing dry-run dates and the Test Plan's authorship.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Same four, same order",
+   "Four phases"
+  ],
+  "k": "count",
+  "s": "4 PM² phases",
+  "d": "Initiating, Planning, Executing, Closing — the same four phases in the same order, with the same gates between them. PM²-Agile changes what happens inside Executing and nothing else. Lovelace's slogan for it: serial in the large, iterative in the small.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three rows"
+  ],
+  "k": "count",
+  "s": "3 reporting levels",
+  "d": "How one set of numbers is written for three audiences: the committee reads releases, the business reads features, the team reads stories, and every story traces up to a feature and a release. If the three ever disagree, somebody is writing fiction.",
+  "sc": null
+ },
+ {
+  "a": [
+   "section four of mine"
+  ],
+  "k": "section",
+  "s": "Status Report §4",
+  "d": "Where the Development Status Report lands: it becomes section four of the Project Status Report the Project Manager sends upward. The team's report is not thrown away and not sent raw — it is carried.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "Two this year"
+  ],
+  "k": "count",
+  "s": "2 scope changes",
+  "d": "Two changes to project scope in 2029, each written up three times because the progress report now goes out quarterly instead of yearly. On CASTOR the scope moved in March and the committee read about it the following February, by which time nothing could be done.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven pages"
+  ],
+  "k": "count",
+  "s": "11-page progress report",
+  "d": "The third-quarter progress report. The only sentence anybody quotes back is the one about eleven spreadsheets being down to two.",
+  "sc": [
+   "s21"
+  ]
+ },
+ {
+  "a": [
+   "Ninety-four pages"
+  ],
+  "k": "count",
+  "s": "94-page Project Handbook",
+  "d": "The CASTOR Project Handbook on Gantt's shelf, with its spine cracked in exactly one place — at change management. POLLUX's Development Handbook is nineteen pages inside the same binder.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nineteen pages"
+  ],
+  "k": "count",
+  "s": "19-page Development Handbook",
+  "d": "The whole Development Handbook: how this team works, mostly as lists. It is Annex D of the Project Handbook rather than a second document, so there is one configuration item, one owner and one current version.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven days and a committee"
+  ],
+  "k": "count",
+  "s": "11 days per change",
+  "d": "How long a change request took on CASTOR. On POLLUX re-sorting the Work Items List is not a change at all; only moving a gate, a release date or money is — and that line is read out at the kick-off so nobody has to guess.",
+  "sc": null
+ },
+ {
+  "a": [
+   "takes three days"
+  ],
+  "k": "count",
+  "s": "3-day change process",
+  "d": "POLLUX's change process, which exists in that form because Gantt read CASTOR's change-control section in October 2028. Four people a year open the office library; that year it mattered.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Section 3.5"
+  ],
+  "k": "section",
+  "s": "Business Case §3.5",
+  "d": "The features section of the Business Case: four features and nothing else — member-state exposure, instrument and maturity views, scenario overlay with national-authority access, and the self-service report builder. Those four become the four releases and roughly sixty stories.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Section 5.1"
+  ],
+  "k": "section",
+  "s": "Business Case §5.1",
+  "d": "The section that names the approach out loud so it is minuted: PM²-Agile. Phases unchanged, gates unchanged, governance unchanged, Executing run in two-week iterations.",
+  "sc": null
+ },
+ {
+  "a": [
+   "section six"
+  ],
+  "k": "section",
+  "s": "Charter §6 — organisation",
+  "d": "The organisation section of the Project Charter, where the box marked A-PCT appears on Gantt's chart: the Agile Project Core Team — Product Owner, Team Coordinator, Architecture Owner and three developers.",
+  "sc": [
+   "s03"
+  ]
+ },
+ {
+  "a": [
+   "section six"
+  ],
+  "k": "section",
+  "s": "Project-End Report §6",
+  "d": "Where the Lessons Learned go, plus a copy in the office library that four people a year open.",
+  "sc": [
+   "s24"
+  ]
+ },
+ {
+  "a": [
+   "the third line of this one"
+  ],
+  "k": "section",
+  "s": "PIR, line 3",
+  "d": "The line of the Project Initiation Request that starts the whole argument: the content of the report cannot be specified in advance. It is why POLLUX is run the agile way and why Medici asks what exactly he is funding.",
+  "sc": null
+ },
+ {
+  "a": [
+   "section two"
+  ],
+  "k": "section",
+  "s": "Dev Handbook §2 — cadence",
+  "d": "The section that fixes the iteration length at two weeks and then states the reason, because a length without a reason is only a habit.",
+  "sc": null
+ },
+ {
+  "a": [
+   "section four"
+  ],
+  "k": "section",
+  "s": "Dev Handbook §4 — progress",
+  "d": "How progress is measured on a project with no task list: delivered points and completed features, not documents produced and not percentage of a phase.",
+  "sc": [
+   "s06"
+  ]
+ },
+ {
+  "a": [
+   "Section five"
+  ],
+  "k": "section",
+  "s": "Dev Handbook §5 — requirements",
+  "d": "The section that says plainly that stories replace the specification, because otherwise half the building will assume a specification exists somewhere.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Section seven"
+  ],
+  "k": "section",
+  "s": "Dev Handbook §7 — architecture risk",
+  "d": "Architecture risks are raised inside the team and escalated weekly into the project Risk Log — written down in November so that nobody discovers in June that no one was doing it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Section one point four of the handbook",
+   "section one point four"
+  ],
+  "k": "section",
+  "s": "Dev Handbook §1.4",
+  "d": "The recorded deviation from the standard roles: Eiffel, a seconded contractor, may act as Team Coordinator for one iteration when Lovelace is away. Written in Nov 2028, used once in July 2029, and never mentioned in his contract — which becomes a lesson learned.",
+  "sc": null
+ },
+ {
+  "a": [
+   "section three"
+  ],
+  "k": "section",
+  "s": "Deployment Plan §3",
+  "d": "The third prescribed section of the Deployment Plan — monitor, report and respond to problems. It is the section the duty manager used at four in the morning on 4 Feb 2030 to fix a half-loaded replica without calling anybody.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twelve printed lines",
+   "the other twelve",
+   "the twelve"
+  ],
+  "k": "count",
+  "s": "12 agile principles",
+  "d": "The twelve principles PM²-Agile adapts from the Agile Manifesto, taped to the team-room wall at eye height. Somebody has added a thirteenth in marker, which Deming makes them take down: argue with the twelve rather than decorate them.",
+  "sc": null
+ },
+ {
+  "a": [
+   "The thirteenth is mine",
+   "a thirteenth"
+  ],
+  "k": "count",
+  "s": "The 13th line",
+  "d": "Lamarr's joke addition to the wall of twelve principles — 'nobody reads the wall'. Deming's answer is that he would rather be contradicted than decorative.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Line one"
+  ],
+  "k": "count",
+  "s": "Principle 1",
+  "d": "The highest priority is early and continuous delivery of something valuable. Curie uses it to insist the Board Secretariat sees a page in March 2029 rather than waiting for a complete portal.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Line nine"
+  ],
+  "k": "count",
+  "s": "Principle 9",
+  "d": "Simplicity — the art of maximising the amount of work not done. Deming calls it the only one of the twelve that costs you something to obey, because obeying it means not building the engine you would enjoy building.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Line ten"
+  ],
+  "k": "count",
+  "s": "Principle 10",
+  "d": "At regular intervals the team reflects on how to become more effective and adjusts. Deming wants it from iteration 1, not from iteration 6 when it would be a rescue.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Line twelve"
+  ],
+  "k": "count",
+  "s": "Principle 12",
+  "d": "Be enterprise-aware: agile practices must take account of IT governance, enterprise architecture, security and data protection. Lovelace calls it the one nobody quotes and the one that will hurt them — and in April 2029 it does.",
+  "sc": null
+ },
+ {
+  "a": [
+   "in eleven months"
+  ],
+  "k": "time",
+  "s": "11 months",
+  "d": "Lamarr's argument for building a general scenario engine now: in eleven months she will be building it anyway, badly, on top of something that assumed a single scenario. It is a real argument, and principle nine still beats it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Ten weeks. Twelve if Finance change the maturity buckets"
+  ],
+  "k": "time",
+  "s": "10–12 weeks",
+  "d": "How long the full data model would take if built properly and completely, before anything shipped.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven days"
+  ],
+  "k": "effort",
+  "s": "11 days",
+  "d": "The part of the data model that Release 1 actually needs. Asking for the whole thing gives ten weeks; asking what the next release needs gives eleven days — and eleven days from now the conversation can be had again with something running.",
+  "sc": [
+   "s05"
+  ]
+ },
+ {
+  "a": [
+   "Two hundred and twelve requirements"
+  ],
+  "k": "count",
+  "s": "212 requirements (CASTOR)",
+  "d": "CASTOR's requirements specification. Hopper's point is that it worked — but only because everybody in the room already knew what a disbursement was. POLLUX has no such shared starting point, which is the whole case for iterating.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Six weeks late"
+  ],
+  "k": "time",
+  "s": "6 weeks late (CASTOR)",
+  "d": "CASTOR delivered what it promised, six weeks after it promised it. Medici remembers both halves of that sentence.",
+  "sc": null
+ },
+ {
+  "a": [
+   "ten weeks past go-live"
+  ],
+  "k": "time",
+  "s": "10 weeks (CASTOR)",
+  "d": "CASTOR was held open ten weeks after go-live to chase one success criterion. In those ten weeks nobody in IT would take ownership of anything, because the project still existed and was still accountable. It is Hopper's argument against keeping POLLUX open.",
+  "sc": null
+ },
+ {
+  "a": [
+   "nineteen months"
+  ],
+  "k": "time",
+  "s": "19 months",
+  "d": "The gap between CASTOR closing and its benefits report reaching Medici — by which time everyone who could have acted on it had moved on. It is also, exactly, the span of the POLLUX story from the first scene to the last.",
+  "sc": null
+ },
+ {
+  "a": [
+   "three months after go-live"
+  ],
+  "k": "time",
+  "s": "3 months after 15 May 2028",
+  "d": "POLLUX opens three months after CASTOR's lending platform went live. The data is clean and current, and nobody outside Lending Operations can see it — which is the problem POLLUX exists to solve.",
+  "sc": null
+ },
+ {
+  "a": [
+   "month twenty-two"
+  ],
+  "k": "time",
+  "s": "Month 22",
+  "d": "Leonardo's summary of a single big-bang delivery: with one platform you find out whether it was right in month twenty-two. Four releases mean four chances to find out, and the option to stop after the second and keep the first two.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Four decisions instead of one",
+   "Four releases in 2029"
+  ],
+  "k": "count",
+  "s": "4 decision points",
+  "d": "What Medici buys that CASTOR could not offer: four usable releases in one year, each one a decision point where he can stop and keep what has already been delivered.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Tab six"
+  ],
+  "k": "id",
+  "s": "Tab 6",
+  "d": "The tab of the quarter-end pack that Hopper mails over by hand every quarter and Curie pastes in — and the one Internal Audit named twice, because nobody can prove which copy is current, who changed it or when.",
+  "sc": null
+ },
+ {
+  "a": [
+   "tab nine"
+  ],
+  "k": "id",
+  "s": "Tab 9",
+  "d": "Where Risk pastes the single stress scenario it runs every quarter. One scenario is what they asked for in Release 1; the argument is whether to build the engine for the four requests they have not made yet.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven windows"
+  ],
+  "k": "count",
+  "s": "11 windows open",
+  "d": "Eleven windows across two screens is what assembling the exposure pack looks like — one per spreadsheet, and the same eleven that success criterion 3 says must reach zero.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two of my four did this in 2027"
+  ],
+  "k": "count",
+  "s": "2 of 4 analysts",
+  "d": "Two of Curie's four analysts were doing the same quarter-end assembly before the lending platform existed. The platform made the numbers cleaner and did not move the five days at all — which is why POLLUX is a reporting project, not another platform project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Marie, Ada, Einstein, three developers"
+  ],
+  "k": "count",
+  "s": "6 in the core team",
+  "d": "The Agile Project Core Team named at the Business Case meeting: Product Owner, Team Coordinator, Architecture Owner and three developers. The Business Manager and the Project Owner stay where they are.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two seconded from Levallois"
+  ],
+  "k": "count",
+  "s": "2 seconded staff",
+  "d": "Two of the team come from the contractor, Levallois Systems, on secondment rather than as an outsourced package. It is why 'done' has to be defined in writing: his contract says 'delivered'.",
+  "sc": null
+ },
+ {
+  "a": [
+   "fourteen months"
+  ],
+  "k": "time",
+  "s": "14 months",
+  "d": "How far ahead Gantt could tell the committee where CASTOR would be, to the week, in 2026. Lovelace's answer is that he could tell them where the plan said he would be, and Gantt's answer is that this is not nothing.",
+  "sc": null
+ },
+ {
+  "a": [
+   "forty minutes and eleven items"
+  ],
+  "k": "count",
+  "s": "40 min, 11 items",
+  "d": "The Corporate Investment Board's agenda on 12 Oct 2028: eleven items in forty minutes, of which POLLUX's Business Case and Charter are one. Both documents, one meeting.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Five weeks and eleven items"
+  ],
+  "k": "count",
+  "s": "5 weeks, 11 closing items",
+  "d": "The Closing phase: end review, lessons, final report, contract closure, archive and release of the team — eleven items across five weeks. Gantt has done it nine times and it has always taken five weeks.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven items, eleven done"
+  ],
+  "k": "score",
+  "s": "11 of 11 closed",
+  "d": "Administrative closure complete at four o'clock on 20 Mar 2030, the last item finished at twenty to four.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Sixteen hundred hours",
+   "at sixteen hundred"
+  ],
+  "k": "time",
+  "s": "16:00",
+  "d": "Four o'clock in the afternoon on 20 Mar 2030: Gantt closes the budget line and POLLUX stops existing as something that can spend money.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twenty to four"
+  ],
+  "k": "time",
+  "s": "15:40",
+  "d": "When the last of the eleven closing items was finished, twenty minutes before the line was closed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven fifteen"
+  ],
+  "k": "time",
+  "s": "11:15",
+  "d": "The end of the last gate meeting POLLUX will ever hold. Seventeen months of project, and the final piece of governance takes seventy-five minutes and produces one signature.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Seventeen months since the initiation request",
+   "seventy-five minutes"
+  ],
+  "k": "time",
+  "s": "17 months / 75 minutes",
+  "d": "From the Project Initiation Request in September 2028 to the Ready for Closing gate in February 2030 is seventeen months, and the gate itself takes seventy-five minutes.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Seventeen twenty"
+  ],
+  "k": "time",
+  "s": "17:20",
+  "d": "When the logs-and-archive meeting breaks up, with Lovelace having written the board-tool contract date on her hand — which she does about four times a year and which everybody treats as a commitment.",
+  "sc": null
+ },
+ {
+  "a": [
+   "fourteen forty"
+  ],
+  "k": "time",
+  "s": "14:40",
+  "d": "When the Ready for Planning gate closes. The phase boundary is a line in a document, and everybody will spend a year pretending it is a wall, which is the point of it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "ten to six"
+  ],
+  "k": "time",
+  "s": "17:50",
+  "d": "The evening of 27 Nov 2028, when the Development Handbook and the Development Work Plan were baselined — a week before the Ready for Executing gate.",
+  "sc": null
+ },
+ {
+  "a": [
+   "at nine on the twenty-seventh"
+  ],
+  "k": "time",
+  "s": "09:00, 27 Sep 2029",
+  "d": "The exact moment Release 3 becomes a release: Curie turns on nine of the eleven access switches herself, with the security officer in the room.",
+  "sc": null
+ },
+ {
+  "a": [
+   "nine forty"
+  ],
+  "k": "time",
+  "s": "09:40, 4 Mar 2030",
+  "d": "The timestamp on the Cyprus request. Curie uses the pair of timestamps — request at 09:40 on the 4th, deployment at 11:20 on the 15th — as her evidence for success criterion 2.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eleven twenty"
+  ],
+  "k": "time",
+  "s": "11:20, 15 Mar 2030",
+  "d": "The timestamp on the deployment record for the new Cyprus maturity view: ten working days after the request, one iteration, and no meeting held about it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Ten working days, one iteration"
+  ],
+  "k": "count",
+  "s": "10 working days",
+  "d": "The fastest honest demonstration of success criterion 2: a request on Monday the 4th, in production on Friday the 15th, with nobody needing to hold a meeting.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Forty-one report views"
+  ],
+  "k": "count",
+  "s": "41 new report views",
+  "d": "Every new report view POLLUX delivered between March 2029 and March 2030. Two of the forty-one were built after 31 Jan 2030 by a run team with no project behind them, which is the sentence Hopper had wanted to write since CASTOR.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Fastest four days. Slowest nineteen"
+  ],
+  "k": "count",
+  "s": "4 to 19 working days",
+  "d": "The spread behind the average. The slowest was the bucket export, which was not really a report view at all but an argument about what a bucket is.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven working days"
+  ],
+  "k": "count",
+  "s": "11 working days (median)",
+  "d": "The middle of the forty-one report views: eleven working days from request to production. The baseline was one quarter and the target was one iteration, so eleven days is the honest number, and Curie insists it is the one that goes on the paper rather than the four-day best case.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Seventy-two days to the twenty-eighth of June"
+  ],
+  "k": "count",
+  "s": "72 days to Release 2",
+  "d": "What is left before Release 2: five iterations, five planning sessions, five reviews, five retrospectives, fifty stand-ups — and a Work Items List that will be different on every one of those mornings.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two open audit findings, both on whether the numbers can be tied to the accounts"
+  ],
+  "k": "count",
+  "s": "2 findings — traceability",
+  "d": "Curie's reason for ranking the reconciliation panel ahead of the scenario overlay: until the numbers can be tied to the accounts, every scenario overlaid on them is a stress test of a figure nobody can defend.",
+  "sc": null
+ },
+ {
+  "a": [
+   "twice a quarter"
+  ],
+  "k": "count",
+  "s": "2× per quarter",
+  "d": "How often the portal would be confidently wrong if the nightly sync stayed inside a batch window the team does not own — and nobody would find out until Finance reconciled. It is the sentence Curie makes Einstein compress so Hopper can repeat it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eighteen minutes on staleness"
+  ],
+  "k": "time",
+  "s": "18 minutes of discussion",
+  "d": "How long the team talked before anybody gave a number. The rule in refinement is explain first, estimate after: Lovelace stops the estimating until Lamarr has heard what Babbage just said.",
+  "sc": null
+ },
+ {
+  "a": [
+   "B4-12"
+  ],
+  "k": "place",
+  "s": "Meeting room B4-12",
+  "d": "The institution's standard meeting room, used for the Business Case session, the Ready for Planning gate and the final Ready for Closing gate. It has a video kit nobody trusts and which has never once worked.",
+  "sc": null
+ },
+ {
+  "a": [
+   "B4"
+  ],
+  "k": "place",
+  "s": "Team room B4",
+  "d": "The agile team's own room on the third floor: the build wall, the Kanban board with its Parking Lot corner, the burn-down charts taped along one wall, and the timeline drawn across the whiteboard at every retrospective. The board belongs to the team, and at the end it is photographed rather than filed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the fourth floor"
+  ],
+  "k": "place",
+  "s": "Fourth floor — Lending Operations",
+  "d": "Where Reporting sits, and where the story begins and ends at the same desk. The first scene smells of new carpet three months after CASTOR's go-live; nineteen months later it does not.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the second floor"
+  ],
+  "k": "place",
+  "s": "Second floor — Project Support Office",
+  "d": "Gantt's floor: schedules, minutes, versions and the archive. The logs meeting, the follow-up meeting and the progress reports all happen here, one floor below the team room.",
+  "sc": null
+ },
+ {
+  "a": [
+   "four floors"
+  ],
+  "k": "place",
+  "s": "Four floors down",
+  "d": "Medici comes down four floors from the Deputy Managing Director's office to the Reporting desks for the closing scene, which he does not do.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Parking Lot"
+  ],
+  "k": "place",
+  "s": "The Parking Lot",
+  "d": "A corner of the team's board where an argument that does not belong in the stand-up is written on a yellow square with two names on it. It makes pending problems visible without letting them eat the timebox.",
+  "sc": null
+ }
+]

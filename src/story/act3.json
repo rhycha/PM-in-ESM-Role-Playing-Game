@@ -1,0 +1,2344 @@
+[
+ {
+  "id": "s19",
+  "act": 3,
+  "actName": "Planning",
+  "title": "Three weeks for the wrong room",
+  "covers": [
+   "Outsourcing Plan"
+  ],
+  "guide_page": 48,
+  "where": "ESM, Kirchberg — Conference room Schuman, seventh floor",
+  "when": "28 Apr 2026, 14:00",
+  "cast": [
+   "you",
+   "leonardo",
+   "medici",
+   "nightingale",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Rain on the plateau since Monday. Behind Lorenzo de' Medici a tram slides down Avenue John F. Kennedy and disappears past the Philharmonie. He has given you forty minutes and looks like a man who intends to use twenty.",
+    "plain": "It has rained on the Kirchberg plateau since Monday. Behind Lorenzo de' Medici, a tram passes on Avenue John F. Kennedy. He has given you forty minutes. He looks like he plans to use only twenty."
+   },
+   {
+    "who": "you",
+    "text": "Item three. Outsourcing Plan, draft zero point three.",
+    "plain": "Item three on the agenda. The Outsourcing Plan, draft version 0.3.",
+    "g": [
+     [
+      "Outsourcing Plan",
+      "the plan for what a project buys from outside, from whom, and on what terms"
+     ]
+    ],
+    "ref": [
+     48,
+     "The Outsourcing Plan defines the what and how for any outsourced products or services."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Before you read it. One sentence, in a document nobody can reopen. The platform is bought. Not built.",
+    "plain": "Before you read it, I want one sentence in a document that nobody can argue with later. The platform is bought. It is not built here."
+   },
+   {
+    "who": "you",
+    "text": "Page two, first paragraph.",
+    "plain": "That sentence is on page two, in the first paragraph."
+   },
+   {
+    "who": "leonardo",
+    "mood": "tired",
+    "text": "Four drafts have said that. On Friday somebody asked my architects to price a build option again.",
+    "plain": "Four different drafts have said that. On Friday, somebody again asked my architects to give a price for building it ourselves."
+   },
+   {
+    "who": "nightingale",
+    "text": "They are asked because they keep offering.",
+    "plain": "People ask them because your architects keep offering to build it."
+   },
+   {
+    "who": "leonardo",
+    "text": "They offer because nobody ever closed the question.",
+    "plain": "They offer because nobody ever closed the question properly."
+   },
+   {
+    "who": "nightingale",
+    "text": "It closed on the twenty-fourth of March. Option C. Lorenzo's board signed it.",
+    "plain": "The question closed on 24 March. Option C was chosen. Lorenzo's board approved it."
+   },
+   {
+    "who": "you",
+    "text": "Bought from outside: platform licence, implementation, migration of fourteen years of LOS data, two releases. Kept inside: requirements, testing, the two interfaces, and anything that touches the audit trail.",
+    "plain": "This is what we buy from outside: the platform licence, the implementation work, the migration of fourteen years of LOS data, and two releases. This stays inside the ESM: requirements, testing, the two interfaces, and anything that touches the audit trail.",
+    "g": [
+     [
+      "data migration",
+      "moving records from an old system into a new one without losing or changing them"
+     ]
+    ],
+    "ref": [
+     48,
+     "Identify the deliverables and activities that need to be outsourced, along with the timeframe within which the outsourcing should take place."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "The audit trail stays. Good. That is the sentence.",
+    "plain": "The audit trail stays inside the ESM. Good. That is the sentence I wanted."
+   },
+   {
+    "who": "medici",
+    "text": "Then tell me why I am in the room. I do not sit on your Steering Committee.",
+    "plain": "Then tell me why I am here. I am not a member of your Project Steering Committee."
+   },
+   {
+    "who": "you",
+    "text": "Courtesy, mostly. Your board authorises the award in September, and I would rather you saw the criteria than the invoice.",
+    "plain": "Politeness, mainly. Your board approves the contract award in September. I prefer you to see the selection criteria now, rather than only the bill later.",
+    "g": [
+     [
+      "award",
+      "the formal decision that gives a contract to one supplier after a tender"
+     ]
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "It is not a courtesy.",
+    "plain": "It is not politeness."
+   },
+   {
+    "who": "narr",
+    "text": "Henry Gantt turns his screen round. One row of a responsibility table, guide page forty-eight. Accountable, the Appropriate Governance Body. Consulted, the Steering Committee, the Project Owner, the Business Manager. Supporting, the Solution Provider. Responsible, the Project Manager.",
+    "plain": "Henry Gantt turns his screen so everyone can see it. It shows one row of a responsibility table from page 48 of the guide. Accountable: the Appropriate Governance Body. Consulted: the Steering Committee, the Project Owner and the Business Manager. Supporting: the Solution Provider. Responsible: the Project Manager.",
+    "g": [
+     [
+      "Appropriate Governance Body",
+      "the senior body that approves projects, releases their money and manages the portfolio"
+     ],
+     [
+      "RASCI",
+      "a table naming who is Responsible, Accountable, Supporting, Consulted and Informed"
+     ]
+    ],
+    "ref": [
+     48,
+     "Outsourcing Plan A C C C I S R I"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "certain",
+    "text": "That is wrong. I approve the Business Case, the Charter, the Handbook, the Work Plan, the acceptance plan, the transition plan, the business implementation plan —",
+    "plain": "That is wrong. I approve the Business Case, the Project Charter, the Project Handbook, the Work Plan, the Deliverables Acceptance Plan, the Transition Plan and the Business Implementation Plan...",
+    "ref": [
+     25,
+     "Approves key project artefacts (Business Case, Project Charter, Project Handbook, Work Plan, Deliverables Acceptance Plan, Transition Plan, Business Implementation Plan)."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Read the list again.",
+    "plain": "Please read that list again."
+   },
+   {
+    "who": "narr",
+    "text": "She reads it again. The Outsourcing Plan is not on it. It has never been on it.",
+    "plain": "Florence reads the list again. The Outsourcing Plan is not on the list. It was never on the list."
+   },
+   {
+    "who": "medici",
+    "mood": "unhurried",
+    "text": "When an award goes wrong, nobody asks the project. They ask this floor, in a room with the auditors, how a contractor was chosen.",
+    "plain": "When a contract award goes wrong, nobody asks the project team about it. They ask us on this floor, in a room with the auditors, how the supplier was chosen.",
+    "ref": [
+     24,
+     "In terms of projects, this is the body with the authority to approve a project, agree its stated objective and release the funding required to implement it."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "And I am an S. Supporting. On the one plan that decides who builds my platform.",
+    "plain": "And I am marked S, for Supporting. On the one plan that decides who builds my platform."
+   },
+   {
+    "who": "gantt",
+    "text": "You review it. You are then accountable for what the contractor does. Those are two different sentences.",
+    "plain": "You review the plan. After that you are accountable for how the contractor performs. Those are two different things.",
+    "ref": [
+     26,
+     "Approves the objectives of any outsourced activities and deliverables and becomes accountable for the contractor's performance."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "And whatever you write in it, the procurement code wins.",
+    "plain": "And whatever you write in this plan, the ESM procurement rules are stronger than it.",
+    "ref": [
+     48,
+     "Note that the present plan should be compliant with the relevant organisational rules and procedures."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "What is the ceiling?",
+    "plain": "What is the maximum amount?"
+   },
+   {
+    "who": "you",
+    "text": "Eight point four million. All in.",
+    "plain": "8.4 million euro. That includes everything."
+   },
+   {
+    "who": "medici",
+    "text": "And if the tender comes back at nine?",
+    "plain": "And if the best offer in the tender is nine million euro?"
+   },
+   {
+    "who": "you",
+    "text": "Then it comes back to you.",
+    "plain": "Then it comes back to your board."
+   },
+   {
+    "who": "nightingale",
+    "mood": "impatient",
+    "text": "Zero point three is finished Thursday. Where does it go?",
+    "plain": "Version 0.3 will be finished on Thursday. Where do you take it?"
+   }
+  ],
+  "choice": {
+   "prompt": "Draft v0.3 is finished on Thursday. Where do you take it for approval?",
+   "promptPlain": "Draft version 0.3 is ready on Thursday. Who approves it?",
+   "options": [
+    {
+     "t": "To Lorenzo's Corporate Investment Board. The Appropriate Governance Body is Accountable for this plan; the Steering Committee is consulted on it.",
+     "tPlain": "To Lorenzo's Corporate Investment Board. The Appropriate Governance Body is Accountable for the Outsourcing Plan. The Steering Committee is only consulted.",
+     "ok": true,
+     "reply": {
+      "who": "medici",
+      "mood": "warm",
+      "text": "Bring the evaluation criteria with it. I am approving a method, not a supplier — and if you ever want me to approve a supplier, I will want to know what left the portfolio to pay for him.",
+      "plain": "Bring the evaluation criteria with the plan. I approve a method, not a company. And if you ever want me to approve a company, I will ask what other project lost its money to pay for it."
+     },
+     "why": "The Outsourcing Plan is the one PM² plan whose RASCI row ends in an A at the far left: AGB Accountable, PSC Consulted, PO Consulted, BM Consulted, BIG Informed, SP Supporting, PM Responsible, PCT Informed (p.48). The body that releases funding and owns the portfolio also owns the decision to spend it outside the institution. The Project Manager still writes it and the Solution Provider still reviews it.",
+     "whyPlain": "The Outsourcing Plan is the only PM² plan where the Appropriate Governance Body is Accountable. On page 48 the row reads: AGB Accountable, Steering Committee Consulted, Project Owner Consulted, Business Manager Consulted, business group Informed, Solution Provider Supporting, Project Manager Responsible, Core Team Informed. The body that releases the money also decides to spend it outside the organisation. The Project Manager still writes the plan and the Solution Provider still reviews it.",
+     "ref": [
+      48,
+      "Outsourcing Plan A C C C I S R I"
+     ]
+    },
+    {
+     "t": "To the Project Steering Committee. It approved the Handbook, the Work Plan and the Quality Management Plan, so it approves this one too.",
+     "tPlain": "To the Project Steering Committee. It approved the Handbook, the Work Plan and the Quality Management Plan, so it should approve this plan too.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "It approves almost everything, which is exactly why people put this one in front of it and nobody notices for two years.",
+      "plain": "The Steering Committee approves nearly everything. That is exactly why people bring this plan to it as well, and nobody notices the mistake for two years."
+     },
+     "why": "The pattern is real and the exception is real. The Steering Committee is Consulted on the Outsourcing Plan, not Accountable (p.48). It stays involved later — under Manage Outsourcing the PSC ensures the contractor is chosen according to the organisation's processes and the criteria defined for the project (p.85) — but ensuring a selection follows the rules is not approving the plan that sets them.",
+     "whyPlain": "The pattern is real, and so is the exception. On page 48 the Steering Committee is Consulted on the Outsourcing Plan, not Accountable. It still has work to do later: during Manage Outsourcing it makes sure the contractor is chosen by the organisation's rules and the project's criteria (page 85). But checking that a selection follows the rules is not the same as approving the plan that writes them.",
+     "ref": [
+      48,
+      "Outsourcing Plan A C C C I S R I"
+     ]
+    },
+    {
+     "t": "To Florence. She is the Project Owner and she approves the key project artefacts.",
+     "tPlain": "To Florence. She is the Project Owner, and the Project Owner approves the key project documents.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "mood": "flat",
+      "text": "I have just read my own list out loud in front of three people. It is not on it. Do not put me somewhere the guide did not.",
+      "plain": "I just read my list of approvals out loud in front of three people. This plan is not on the list. Do not give me an approval the guide did not give me."
+     },
+     "why": "The Project Owner's list of key artefacts on p.25 is specific and complete: Business Case, Project Charter, Project Handbook, Work Plan, Deliverables Acceptance Plan, Transition Plan, Business Implementation Plan. The Outsourcing Plan is deliberately absent. On p.48 the PO is Consulted, alongside the Business Manager and the Steering Committee.",
+     "whyPlain": "Page 25 lists exactly which key documents the Project Owner approves: Business Case, Project Charter, Project Handbook, Work Plan, Deliverables Acceptance Plan, Transition Plan and Business Implementation Plan. The Outsourcing Plan is missing on purpose. On page 48 the Project Owner is only Consulted, like the Business Manager and the Steering Committee.",
+     "ref": [
+      25,
+      "Approves key project artefacts (Business Case, Project Charter, Project Handbook, Work Plan, Deliverables Acceptance Plan, Transition Plan, Business Implementation Plan)."
+     ]
+    },
+    {
+     "t": "To Leonardo. He becomes accountable for the contractor's performance, so he should approve the plan that picks one.",
+     "tPlain": "To Leonardo. He becomes accountable for how the contractor performs, so he should approve the plan that chooses one.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "I would take it. That is the problem with giving it to me. My division wants a supplier who agrees with my architects, and somebody outside this project should be allowed to mind about that.",
+      "plain": "I would sign it. That is exactly the problem. My division wants a supplier who agrees with my architects. Somebody outside the project should be allowed to worry about that."
+     },
+     "why": "Both halves of the confusion are true, which is what makes it tempting. The Solution Provider does become accountable for the contractor's performance and does approve the objectives of outsourced activities (p.26) — but on the plan itself he only Supports, and the Project Manager is Responsible for preparing it (p.48). Separating who selects from who lives with the selection is the control.",
+     "whyPlain": "Both halves of this are true, which is why it is tempting. The Solution Provider does become accountable for the contractor's performance, and does approve the objectives of outsourced work (page 26). But on the plan itself he only Supports. The Project Manager prepares it and the governance body approves it (page 48). Keeping the chooser separate from the person who lives with the choice is the control.",
+     "ref": [
+      26,
+      "Approves the objectives of any outsourced activities and deliverables and becomes accountable for the contractor's performance."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Responsible for preparing the Outsourcing Plan. Draft v0.3 is written and, until this afternoon, aimed at the wrong approver.",
+    "k": "Knows the scope, the ceiling and the September award date. Has just learned who signs.",
+    "w": "Wants the plan approved in time for a tender file that closes in July.",
+    "f": "Afraid three weeks of drafting was shaped for a committee that only gets consulted."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Supports the Outsourcing Plan and reviews it; accountable later for the contractor's performance.",
+    "k": "Knows the Business Case chose to buy, and that his architects are still asked to price a build.",
+    "w": "Wants one unarguable sentence saying the platform is bought, not built.",
+    "f": "Afraid procurement reinterprets the decision in September and his division ends up building it."
+   },
+   "medici": {
+    "o": "AGB chair. Accountable for approving the Outsourcing Plan and for authorising the award.",
+    "k": "Knows the ceiling is 8.4 million and that no supplier has been chosen yet.",
+    "w": "Wants to see the evaluation criteria before he sees any invoice.",
+    "f": "Afraid of sitting with auditors explaining a selection nobody wrote down in advance."
+   },
+   "nightingale": {
+    "o": "Project Owner and PSC chair. Consulted on this plan; approves seven other key artefacts.",
+    "k": "Has just discovered the Outsourcing Plan is not on the list she approves.",
+    "w": "Wants a date for approval so the tender is not the thing that slips.",
+    "f": "Afraid another approving body means another month before anything is bought."
+   },
+   "gantt": {
+    "o": "Project Support Office. Keeps the responsibility matrix and minutes this meeting.",
+    "k": "Knows the p.48 row by heart and knows why it surprises people.",
+    "w": "Wants the approval route recorded correctly before anyone drafts further.",
+    "f": "Afraid a plan approved by the wrong body has to be approved twice."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 6.5, p.48. The Outsourcing Plan defines the what and how for anything the project buys outside, sets the contracting strategies and fixes responsibilities for the whole outsourcing lifecycle, and must comply with the organisation's own procurement rules. It is the anomaly in the PM² responsibility matrix. RASCI: AGB A, PSC C, PO C, BM C, BIG I, SP S, PM R, PCT I. Approver: the Appropriate Governance Body — here Lorenzo de' Medici's Corporate Investment Board — not the Project Steering Committee and not the Project Owner. The Project Manager prepares it; the Solution Provider reviews it. Note that the Project Owner's own list of key artefacts on p.25 pointedly omits it. Manage Outsourcing keeps the same anomaly in the Executing Phase: AGB A, PM R (p.85). Pages 24, 25, 26, 48.",
+  "notePlain": "Rule: the Outsourcing Plan says what the project buys from outside, how it will be bought, and who is responsible at each step. It must follow the organisation's own purchasing rules (page 48). This is the one plan where the responsibility table is different from all the others. RASCI: Appropriate Governance Body Accountable, Steering Committee Consulted, Project Owner Consulted, Business Manager Consulted, business group Informed, Solution Provider Supporting, Project Manager Responsible, Core Team Informed. Approver: the Appropriate Governance Body, which here is Lorenzo de' Medici's Corporate Investment Board. Not the Steering Committee. Not the Project Owner. The Project Manager writes it and the Solution Provider reviews it. Page 25 lists the key documents the Project Owner approves, and this plan is not in that list. The same unusual pattern returns later in Manage Outsourcing on page 85. Pages 24, 25, 26 and 48."
+ },
+ {
+  "id": "s20",
+  "act": 3,
+  "actName": "Planning",
+  "title": "Forty minutes on a stage",
+  "covers": [
+   "Outsourcing Plan"
+  ],
+  "guide_page": 48,
+  "where": "ESM, Kirchberg — Room Werner, fourth floor",
+  "when": "07 May 2026, 09:30",
+  "cast": [
+   "you",
+   "leonardo",
+   "tesla",
+   "gantt",
+   "medici",
+   "deming"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Thunder over the plateau at half past nine in the morning, which May does not usually do. The lights in Room Werner come on by themselves.",
+    "plain": "There is thunder over the Kirchberg plateau at 09:30 in the morning. That is unusual for May. The lights in Room Werner switch themselves on."
+   },
+   {
+    "who": "leonardo",
+    "mood": "energised",
+    "text": "Eleven vendor presentations in Amsterdam last week. I know what good looks like now. Let me write the technical criteria.",
+    "plain": "Last week I watched eleven suppliers present in Amsterdam. Now I know what a good product looks like. Let me write the technical criteria."
+   },
+   {
+    "who": "you",
+    "text": "What does good look like?",
+    "plain": "What does a good product look like?"
+   },
+   {
+    "who": "leonardo",
+    "text": "A firm called Levallois Systems. Their engine configured a new instrument on stage in about forty minutes.",
+    "plain": "A company called Levallois Systems. On stage, their software set up a new lending product in about forty minutes."
+   },
+   {
+    "who": "tesla",
+    "mood": "flat",
+    "text": "On stage. With a prepared instrument, a demonstration dataset and no reconciliation.",
+    "plain": "On stage. With a lending product prepared in advance, demonstration data, and no reconciliation at the end."
+   },
+   {
+    "who": "deming",
+    "text": "Say that again. Slowly.",
+    "plain": "Please say that sentence again, slowly."
+   },
+   {
+    "who": "leonardo",
+    "text": "It can be done, so we are allowed to ask for it. We can ask for what we have watched a supplier do.",
+    "plain": "It is possible, so we are allowed to require it. We can require what we have seen a supplier do."
+   },
+   {
+    "who": "deming",
+    "text": "You have watched one supplier. Write the criteria around what that supplier does and the tender has a winner before it opens. Everybody else pays to lose.",
+    "plain": "You have seen one supplier. If you write the criteria to describe what that supplier does, the tender already has a winner before it starts. The other companies spend money on an offer that cannot win.",
+    "ref": [
+     48,
+     "List the evaluation criteria for contractors. This ensures that a contractor is selected on the basis of pre-set criteria and that no single person or group influences the decision."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Nobody says the other thing for a while. Nikola Tesla's badge is a contractor's badge. Levallois pays him. He is sitting at the table where the evaluation criteria are being drafted.",
+    "plain": "For a while nobody says the other problem out loud. Nikola Tesla has a contractor's badge. Levallois Systems pays his salary. He is sitting at the table where the evaluation criteria are being written.",
+    "g": [
+     [
+      "conflict of interest",
+      "when someone's own interest could affect a decision they help to make"
+     ]
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Nikola. You will not be on the evaluation panel.",
+    "plain": "Nikola, you will not be a member of the evaluation panel."
+   },
+   {
+    "who": "tesla",
+    "text": "I have not asked to be.",
+    "plain": "I did not ask to be on it."
+   },
+   {
+    "who": "deming",
+    "text": "I know. I am putting it in the plan today, while it is still nothing, rather than in September when it would be a favour.",
+    "plain": "I know. I am writing it into the plan today, while it costs nothing. In September it would look like a favour to someone."
+   },
+   {
+    "who": "tesla",
+    "mood": "cold",
+    "text": "Then take my architecture note out of the file as well. It is the only honest document in it.",
+    "plain": "Then also remove my architecture note from the tender file. It is the only honest document in that file."
+   },
+   {
+    "who": "you",
+    "text": "The note stays. It goes to every bidder on the same morning, with everything else you have seen since January. And the criteria come from the Charter, not from Amsterdam. Onboard a new instrument in six weeks — SC3, down from nine months. Zero manual re-keying — SC4, down from fourteen hundred fields a quarter. Neither sentence names anybody.",
+    "plain": "The note stays in the file. Every company that bids receives it on the same morning, with everything else you have seen since January. And the criteria come from the Project Charter, not from the Amsterdam demonstrations. Set up a new lending product in six weeks: that is success criterion SC3, down from nine months. No payment fields typed by hand: that is SC4, down from about 1,400 fields every three months. Neither sentence names a company."
+   },
+   {
+    "who": "tesla",
+    "text": "Six weeks reads generously beside forty minutes.",
+    "plain": "Six weeks sounds very generous next to forty minutes."
+   },
+   {
+    "who": "you",
+    "text": "Six weeks is what the Business Case promised the Board. We do not move a target because a sales engineer was quick.",
+    "plain": "Six weeks is what the Business Case promised the Board. We do not change a target because one sales engineer worked fast."
+   },
+   {
+    "who": "gantt",
+    "text": "You asked me to check the framework.",
+    "plain": "You asked me to check the framework contract."
+   },
+   {
+    "who": "leonardo",
+    "text": "It covers everything. Four years of work has gone through it.",
+    "plain": "It covers everything. We have run four years of work through it."
+   },
+   {
+    "who": "gantt",
+    "text": "It covers staff augmentation and infrastructure. Nikola's days come through it. A licensed lending platform with implementation and fourteen years of migration does not. There is no mini-competition to run.",
+    "plain": "It covers extra staff and infrastructure. Nikola's working days are paid through it. It does not cover a licensed lending platform with implementation work and fourteen years of data migration. So we cannot hold a mini-competition under it.",
+    "g": [
+     [
+      "framework contract",
+      "a contract agreed in advance with suppliers, under which later orders are placed"
+     ],
+     [
+      "mini-competition",
+      "a short tender held only between the suppliers already on a framework contract"
+     ]
+    ],
+    "ref": [
+     48,
+     "Identify any constraints that may affect the outsourcing process (an organisation's pre-existing agreements or preferred suppliers may require the project team to work with specific suppliers or contractors)."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "mood": "sharp",
+    "text": "That is four months.",
+    "plain": "That costs us four months."
+   },
+   {
+    "who": "you",
+    "text": "Four months already in the schedule. Open tender under the procurement code, section three point one, two paragraphs. Award the eighteenth of September, Release 1 the twenty-sixth of March 2027, Release 2 the seventeenth of December 2027 — dated in the plan, so the contractor has to hold people against them.",
+    "plain": "Those four months are already in the schedule. It will be an open tender under the ESM procurement rules. That goes in section 3.1, in two paragraphs. The contract is awarded on 18 Sep 2026, Release 1 on 26 Mar 2027, Release 2 on 17 Dec 2027. The dates are in the plan, so the supplier must keep staff available for them.",
+    "g": [
+     [
+      "open tender",
+      "a purchase competition open to any company that meets the published conditions"
+     ]
+    ],
+    "ref": [
+     48,
+     "Provide a timeline for all the contracted activities and deliverables. This will ensure that the contractor is committed to having resources available to meet the pre-agreed timeline."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Who talks to them?",
+    "plain": "Who is allowed to speak to the supplier?"
+   },
+   {
+    "who": "you",
+    "text": "I do. Sole interface. Their project manager reports to me and escalates to the Steering Committee if he has to. I approve timesheets and purchase orders. Florence accepts deliverables. Your board authorises the award.",
+    "plain": "I am. I am the only contact point. Their project manager reports to me, and goes to the Steering Committee only if he must. I approve timesheets and purchase orders. Florence Nightingale accepts the deliverables. Your board approves the contract award.",
+    "ref": [
+     48,
+     "Decide who can interface with the contractors and who is responsible for signing the contract."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "And what do they hand over besides working software?",
+    "plain": "And what do they give us besides working software?"
+   },
+   {
+    "who": "you",
+    "text": "Configuration manuals, an operations runbook, the migration mapping, the interface specifications. Named as deliverables, so in 2028 they are an obligation and not a favour.",
+    "plain": "Configuration manuals, an operations handbook, the data migration mapping, and the interface specifications. They are named as deliverables, so in 2028 they are a contractual duty and not a favour.",
+    "ref": [
+     48,
+     "Identify any documentation deliverables expected from the contractors (e.g. manuals, etc.)."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Then weight the headings before an envelope opens. Not after.",
+    "plain": "Then decide how much each criterion counts before any offer is opened. Not afterwards.",
+    "ref": [
+     85,
+     "The Project Steering Committee (PSC) ensures that the contractor is chosen according to the organisation's processes and standards and to the criteria defined for the project."
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "The evaluation criteria have to be written this week. What goes into section four?",
+   "promptPlain": "The evaluation criteria must be written this week. What do you put in section 4 of the plan?",
+   "options": [
+    {
+     "t": "Three weighted headings drawn from the Charter's success criteria — technical capability, quality of work, previous euro-area lending or treasury experience — weighted before any offer is opened, with Nikola's exclusion from the panel recorded.",
+     "tPlain": "Three headings taken from the Charter's success criteria: technical capability, quality of work, and previous experience with euro area lending or treasury systems. Decide their weights before any offer is opened, and write down that Nikola cannot sit on the evaluation panel.",
+     "ok": true,
+     "reply": {
+      "who": "deming",
+      "text": "Fixed in advance, in writing, and no one person able to move them. That is all the sentence in the guide is asking for, and it is the only protection the losing bidders get.",
+      "plain": "The criteria are fixed in advance, written down, and no single person can change them. That is all the rule in the guide asks for. It is also the only protection the companies that lose will have."
+     },
+     "why": "Step 3 on p.48 wants the criteria listed so that selection rests on pre-set criteria and no single person or group influences the decision. Anchoring them to SC3 and SC4 keeps them traceable to what the Business Case promised, and recording the exclusion of a bidder's own employee is what makes the sentence true rather than decorative.",
+     "whyPlain": "Step 3 on page 48 asks for the criteria to be listed, so that the supplier is chosen on criteria set in advance and no single person or group can influence the decision. Linking the criteria to SC3 and SC4 keeps them connected to what the Business Case promised. Writing down that an employee of a likely bidder cannot judge the offers is what makes the rule real instead of decorative.",
+     "ref": [
+      48,
+      "List the evaluation criteria for contractors. This ensures that a contractor is selected on the basis of pre-set criteria and that no single person or group influences the decision."
+     ]
+    },
+    {
+     "t": "Write the technical criteria from the Amsterdam demonstration. We have seen it done, so we are entitled to require it.",
+     "tPlain": "Write the technical criteria from what was shown in Amsterdam. We saw it done, so we can require it.",
+     "ok": false,
+     "reply": {
+      "who": "medici",
+      "text": "And in two years an auditor reads your criteria beside their brochure and finds the same eleven words. I would rather not spend that afternoon.",
+      "plain": "And in two years an auditor will read your criteria next to their sales brochure and find the same eleven words. I would prefer not to spend that afternoon explaining it."
+     },
+     "why": "Criteria copied from one supplier's demonstration are criteria written by that supplier. The guide's whole reason for step 3 is that no single person or group influences the decision (p.48), and the influence here is external. The Steering Committee later has to be able to say the contractor was chosen by the organisation's processes and the project's criteria (p.85), which it cannot if the criteria were reverse-engineered from a stage act.",
+     "whyPlain": "Criteria copied from one supplier's demonstration are criteria written by that supplier. Step 3 on page 48 exists so that no single person or group can influence the decision, and here the influence comes from outside. Later the Steering Committee must be able to say the supplier was chosen by the organisation's process and the project's criteria (page 85). It cannot say that if the criteria were copied from one stage demonstration.",
+     "ref": [
+      85,
+      "The Project Steering Committee (PSC) ensures that the contractor is chosen according to the organisation's processes and standards and to the criteria defined for the project."
+     ]
+    },
+    {
+     "t": "Let Nikola draft the technical capabilities section. He knows LOS better than anyone in the building and the criteria will be sharper for it.",
+     "tPlain": "Let Nikola write the section on technical capabilities. He knows LOS better than anyone here, and the criteria will be better.",
+     "ok": false,
+     "reply": {
+      "who": "tesla",
+      "text": "They would be sharper. They would also be mine, and my employer is going to bid, and you would have to explain the difference to somebody who was not in this room.",
+      "plain": "They would be better criteria. They would also be my criteria, and my employer will bid for this work. You would then have to explain the difference to somebody who was not in this room."
+     },
+     "why": "The plan must identify constraints affecting the outsourcing process, and a seconded architect employed by a probable bidder is exactly such a constraint (p.48). His technical knowledge is still usable — as an input to the requirements, published to every bidder on the same day — but the person who writes the measuring stick cannot be paid by one of the things being measured.",
+     "whyPlain": "The plan must record the constraints that affect the purchase, and an architect employed by a likely bidder is one of them (page 48). His technical knowledge can still be used: it goes into the requirements, and every bidder receives it on the same day. But the person who writes the measure cannot be paid by one of the companies being measured.",
+     "ref": [
+      48,
+      "Identify any constraints that may affect the outsourcing process (an organisation's pre-existing agreements or preferred suppliers may require the project team to work with specific suppliers or contractors)."
+     ]
+    },
+    {
+     "t": "Leave the criteria out. Procurement writes them into the tender documents, and the plan should not duplicate another document.",
+     "tPlain": "Leave the criteria out of the plan. Procurement writes them into the tender documents, and the plan should not repeat another document.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "Then the first written record of how we choose is written after we have met the people we are choosing between. Procurement will ask you for them anyway, in June, and you will write them in an afternoon.",
+      "plain": "Then the first written record of how we choose is created after we have already met the companies. Procurement will ask you for the criteria in June anyway, and you will write them in one afternoon."
+     },
+     "why": "Avoiding duplication is a real PM² guideline, but it belongs to the acceptance plan's relationship with the quality and requirements plans (p.49), not here. Listing the evaluation criteria is step 3 of the Outsourcing Plan itself (p.48). The plan is what the tender documents are drawn from, and it is approved by the AGB before the tender exists.",
+     "whyPlain": "Avoiding duplication is a real PM² rule, but it applies to the acceptance plan and its relationship with the quality and requirements plans (page 49). It does not apply here. Listing the evaluation criteria is step 3 of the Outsourcing Plan itself (page 48). The tender documents are written from this plan, and the governance body approves it before any tender exists.",
+     "ref": [
+      48,
+      "List the evaluation criteria for contractors. This ensures that a contractor is selected on the basis of pre-set criteria and that no single person or group influences the decision."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Responsible for the Outsourcing Plan. Now drafting section 4, the evaluation criteria, for AGB approval.",
+    "k": "Knows the plan goes to the Corporate Investment Board, and that no framework covers this purchase.",
+    "w": "Wants criteria written from SC3 and SC4 rather than from a supplier demonstration.",
+    "f": "Afraid a criterion shaped by Amsterdam makes the whole tender challengeable in September."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Reviews the plan and supports it; not the approver of the criteria.",
+    "k": "Has watched eleven suppliers present and believes he can now recognise a good one.",
+    "w": "Wants the technical bar set high enough that a weak supplier cannot clear it.",
+    "f": "Afraid an open tender costs four months and produces a worse platform than the one he saw."
+   },
+   "tesla": {
+    "o": "Lead Solution Architect on the Core Team, seconded from Levallois Systems under the IT framework.",
+    "k": "Knows the demonstration was staged, and knows his employer intends to bid for this work.",
+    "w": "Wants his architecture note kept in the tender file and his judgement treated as technical, not commercial.",
+    "f": "Afraid he is about to be treated as a supplier rather than as an engineer."
+   },
+   "gantt": {
+    "o": "Project Support Office. Checked the framework contract's coverage at the Project Manager's request.",
+    "k": "Knows the IT framework covers staff and infrastructure, not a licensed platform with migration.",
+    "w": "Wants the constraint written into section 3 before anyone assumes a mini-competition.",
+    "f": "Afraid the project plans four months of tender it has not scheduled anywhere."
+   },
+   "medici": {
+    "o": "AGB chair. Accountable for the Outsourcing Plan he will be asked to approve in June.",
+    "k": "Knows only what the plan tells him, which is why he asks who signs and who talks.",
+    "w": "Wants the interface, the signing authority and the documentation deliverables named.",
+    "f": "Afraid of a contract where nobody can say afterwards who was allowed to promise what."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Independent of the Project Manager; assures the process, not the choice.",
+    "k": "Knows an evaluation panel with a bidder's employee on it is indefensible later.",
+    "w": "Wants the exclusion and the weightings recorded now, while they cost nobody anything.",
+    "f": "Afraid the criteria are written to fit a supplier the room has already decided it likes."
+   }
+  },
+  "unlock": [
+   7
+  ],
+  "note": "Guide check: section 6.5 steps 2 to 8, p.48. The Outsourcing Plan must list the evaluation criteria for contractors so that selection rests on pre-set criteria and no single person or group influences the decision; identify constraints such as pre-existing agreements or preferred suppliers; identify the method by which products are obtained; identify who inside the organisation must approve purchases; decide who may interface with contractors and who signs; provide a timeline for all contracted activities so the contractor commits resources; and name the documentation deliverables expected. RASCI is unchanged: AGB A, PSC C, PO C, BM C, BIG I, SP S, PM R, PCT I. Approver: the Appropriate Governance Body. In the Executing Phase the Project Steering Committee then ensures the contractor is chosen according to the organisation's processes and standards and to the criteria defined here (p.85). Pages 48 and 85.",
+  "notePlain": "Rule: steps 2 to 8 of the Outsourcing Plan on page 48. The plan must list the criteria for choosing a supplier, so that the choice is made on criteria fixed in advance and no single person or group can influence it. It must record constraints, such as existing agreements or preferred suppliers. It must say how the product will be bought, who inside the organisation must approve purchases, who may talk to suppliers, and who signs the contract. It must give dates for all contracted work, so the supplier keeps staff available. It must name the documents the supplier has to hand over, such as manuals. RASCI is unchanged: Appropriate Governance Body Accountable, Project Manager Responsible, Solution Provider Supporting. Approver: the Appropriate Governance Body. Later, during the Executing Phase, the Steering Committee checks that the supplier was chosen by the organisation's rules and by these criteria (page 85). Pages 48 and 85."
+ },
+ {
+  "id": "s21",
+  "act": 3,
+  "actName": "Planning",
+  "title": "Two years before anyone signs",
+  "covers": [
+   "Deliverables Acceptance Plan"
+  ],
+  "guide_page": 49,
+  "where": "ESM, Kirchberg — Room Spaak, fifth floor",
+  "when": "19 May 2026, 10:00",
+  "cast": [
+   "you",
+   "curie",
+   "nightingale",
+   "hopper",
+   "deming"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Marie Curie has brought one sheet of paper to a meeting about a plan for 2028. It is an acceptance form from the LOS interface change in 2019. Under the word accepted, in her own handwriting: with reservations, see attached. There is no attachment.",
+    "plain": "Marie Curie brings one sheet of paper to a meeting about a plan for 2028. It is an acceptance form from the LOS interface change in 2019. Under the word accepted she wrote, by hand: with reservations, see attached. Nothing is attached."
+   },
+   {
+    "who": "curie",
+    "mood": "flat",
+    "text": "That is what accepted meant last time. I would like it to mean something else.",
+    "plain": "That is what the word accepted meant the last time. I would like it to mean something different now."
+   },
+   {
+    "who": "you",
+    "text": "Then we define it now. Deliverables Acceptance Plan, section four.",
+    "plain": "Then we define it now, in section 4 of the Deliverables Acceptance Plan."
+   },
+   {
+    "who": "nightingale",
+    "text": "In May 2026. For a platform we have not bought, from a contractor we have not chosen, against a release nobody has designed.",
+    "plain": "In May 2026. For a platform we have not bought, from a supplier we have not chosen, for a release that nobody has designed yet."
+   },
+   {
+    "who": "nightingale",
+    "text": "Write the criteria in 2027, when there is something in front of you.",
+    "plain": "Write the criteria in 2027, when there is something real to look at."
+   },
+   {
+    "who": "hopper",
+    "text": "Then they get written to fit whatever arrived.",
+    "plain": "Then the criteria will be written to match whatever the supplier delivered."
+   },
+   {
+    "who": "curie",
+    "text": "Yes.",
+    "plain": "Yes."
+   },
+   {
+    "who": "you",
+    "text": "AC-01 to AC-05. Five criteria, each with a metric, a tolerance and a named approver. AC-04 is reconciliation. Same day. Tolerance, zero unexplained breaks. Approver, the Project Owner.",
+    "plain": "There are five acceptance criteria, AC-01 to AC-05. Each one has a measurement, a tolerance and a named approver. AC-04 is about reconciliation. It must happen the same day. The tolerance is zero unexplained differences. The approver is the Project Owner.",
+    "g": [
+     [
+      "acceptance criteria",
+      "the conditions a deliverable must meet before the client will accept it"
+     ],
+     [
+      "tolerance",
+      "how far a result may differ from the target and still be accepted"
+     ]
+    ],
+    "ref": [
+     49,
+     "Define the acceptance criteria and tolerances for the project deliverables and define the activities needed to achieve their validation."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Zero. Across four months of parallel running.",
+    "plain": "Zero. Over four months of running both systems side by side."
+   },
+   {
+    "who": "you",
+    "text": "Zero unexplained. A break with an explanation is a break with an explanation.",
+    "plain": "Zero differences that nobody can explain. A difference that we can explain is simply an explained difference."
+   },
+   {
+    "who": "hopper",
+    "text": "That is a different sentence, and it is the one that has to be in the document. I will write the metric myself. Unexplained means not closed in the reconciliation log by the next value date.",
+    "plain": "Those are two different sentences, and the second one must be in the document. I will write the measurement myself. Unexplained means: not closed in the reconciliation log by the next value date.",
+    "ref": [
+     49,
+     "Business Manager (BM) — Reviews and validates the deliverables acceptance requirements, activities and associated metrics."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Who takes the measurement, and with what?",
+    "plain": "Who performs the measurement, and using what method?"
+   },
+   {
+    "who": "hopper",
+    "text": "Sampling. A quarter's worth of instructions, drawn at random, checked against LOS output.",
+    "plain": "By sampling. We take a random selection of one quarter's instructions and compare them with what LOS produced."
+   },
+   {
+    "who": "curie",
+    "text": "Then say who verifies and who accepts, because they are not the same person and last time everyone thought they were.",
+    "plain": "Then write down who verifies and who accepts. They are not the same person. Last time everybody thought they were."
+   },
+   {
+    "who": "you",
+    "text": "You verify. Florence accepts. Her signature is on the note, not yours.",
+    "plain": "You verify the result. Florence Nightingale accepts the deliverable. Her signature goes on the acceptance note, not yours.",
+    "g": [
+     [
+      "Deliverables Acceptance Note",
+      "the signed record that a deliverable met its criteria and has been accepted"
+     ]
+    ],
+    "ref": [
+     49,
+     "Identify the person/group responsible for the final acceptance of the deliverable."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "And the plan itself?",
+    "plain": "And who approves the plan itself?"
+   },
+   {
+    "who": "you",
+    "text": "The Steering Committee. You chair it, so you will be in the room, but the approval is the committee's.",
+    "plain": "The Project Steering Committee approves the plan. You chair that committee, so you will be there. But the approval belongs to the committee, not to you alone.",
+    "ref": [
+     49,
+     "Project Steering Committee (PSC) — Approves the Deliverables Acceptance Plan."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "What am I allowed to do when it is nearly right and there is a value date on Monday?",
+    "plain": "What am I allowed to do when a deliverable is almost correct and a payment is due on Monday?"
+   },
+   {
+    "who": "you",
+    "text": "Provisional acceptance. A short listed set of non-critical problems, each with a name and a date. Anything else is rejection, and rejection is an issue with a resolution plan behind it.",
+    "plain": "You can give provisional acceptance. That means a short written list of small problems, each with a person and a date against it. Anything worse is a rejection. A rejection becomes an issue, and the issue needs a plan to fix it.",
+    "g": [
+     [
+      "provisional acceptance",
+      "accepting a deliverable while a short, listed set of small problems stays open"
+     ]
+    ],
+    "ref": [
+     49,
+     "Define the process and timeline for dealing with non-acceptance (or partial acceptance)."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Then the list has to be short enough to read out loud.",
+    "plain": "Then the list must be short enough to read aloud."
+   },
+   {
+    "who": "hopper",
+    "text": "Twenty-five person-days. That is what the acceptance testing costs in my people's time, and it is not spare time, it is Lending Operations time during a parallel run.",
+    "plain": "Twenty-five person-days. That is how much of my team's time the acceptance testing will cost. That time is not free. It is Lending Operations time, during a period when both systems are running.",
+    "ref": [
+     49,
+     "Determine who is responsible for providing the necessary resources."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "And write down which people. Two of us have reconciled an EFSF-era portfolio by hand. One of the two retires in March 2028.",
+    "plain": "And write down which people are needed. Only two of us have reconciled an EFSF-era loan portfolio by hand. One of those two retires in March 2028.",
+    "ref": [
+     49,
+     "Identify the stakeholders who will validate the deliverable and define the specific knowledge and skills they require."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "That is a risk with a date on it, not a staffing detail. Put it in the log this week.",
+    "plain": "That is a risk with a date, not a small staffing question. Put it in the Risk Log this week."
+   },
+   {
+    "who": "you",
+    "text": "And acceptance runs per release. March 2027 and December 2027. Not one afternoon in 2028 when everything arrives at once.",
+    "plain": "Acceptance also happens for each release. In March 2027 and in December 2027. It is not one afternoon in 2028 when everything arrives together.",
+    "ref": [
+     49,
+     "Note that deliverables acceptance activities may not happen (only) at the end of the Executing Phase, but can follow the project's delivery schedule."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence has not agreed to anything. She is looking at the 2019 form, at four words in Marie's handwriting and the empty space underneath them.",
+    "plain": "Florence has not agreed to anything yet. She is looking at the 2019 form, at the four words in Marie's handwriting, and at the empty space below them."
+   },
+   {
+    "who": "nightingale",
+    "text": "You are asking me to agree what good looks like before I have seen anything at all.",
+    "plain": "You are asking me to agree what a good result looks like before I have seen anything at all."
+   }
+  ],
+  "choice": {
+   "prompt": "Florence wants the acceptance criteria written in 2027, once there is something to look at. What do you do?",
+   "promptPlain": "Florence wants to write the acceptance criteria in 2027, when there is something real to look at. What do you do?",
+   "options": [
+    {
+     "t": "Define the criteria, metrics and tolerances now, against SC1 to SC5, get the plan approved in June, and put the acceptance process into the tender file.",
+     "tPlain": "Define the criteria, measurements and tolerances now, based on success criteria SC1 to SC5. Get the plan approved in June and put the acceptance process into the tender documents.",
+     "ok": true,
+     "reply": {
+      "who": "curie",
+      "text": "Then I know in 2028 what I am allowed to refuse, and so does the contractor, and neither of us has to be brave about it.",
+      "plain": "Then in 2028 I will know what I am allowed to refuse. The supplier will know it too. Neither of us has to be brave about it."
+     },
+     "why": "The plan exists so deliverables can be formally accepted by the client on objective criteria and predefined timelines, which is only possible if the criteria and tolerances precede the deliverable (p.49). Criteria written afterwards describe what was built, not what was needed. And step 7 forces the schedule: for outsourced work the acceptance process must be documented in the contract, and the contract is signed in September.",
+     "whyPlain": "The plan exists so that the client can accept deliverables formally, on objective criteria and on dates agreed in advance (page 49). That is only possible if the criteria and tolerances exist before the deliverable does. Criteria written afterwards only describe what was built, not what was needed. Step 7 also fixes the timing: for outsourced work the acceptance process must be written into the contract, and the contract is signed in September.",
+     "ref": [
+      49,
+      "Define the acceptance criteria and tolerances for the project deliverables and define the activities needed to achieve their validation."
+     ]
+    },
+    {
+     "t": "Agree with Florence. Set the criteria after Release 1, in March 2027, when there is a real system to measure.",
+     "tPlain": "Agree with Florence. Set the criteria after Release 1, in March 2027, when there is a real system to measure.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "Release 1 is a deliverable. If the criteria arrive after it, then the first thing we accept is accepted against nothing, and the contractor writes the standard by delivering it.",
+      "plain": "Release 1 is itself a deliverable. If the criteria arrive after it, then the first thing we accept has no standard behind it. The supplier sets the standard simply by delivering something."
+     },
+     "why": "Acceptance activities follow the delivery schedule, so the first acceptance happens at Release 1 in March 2027 (p.49). Criteria agreed after that point cannot govern it. The plan is approved by the Steering Committee in the Planning Phase precisely so that the client's definition of done exists before the provider starts building against it.",
+     "whyPlain": "Acceptance activities follow the delivery plan, so the first acceptance happens at Release 1 in March 2027 (page 49). Criteria agreed later cannot govern that acceptance. The Steering Committee approves the plan during the Planning Phase for exactly this reason: the client's definition of finished must exist before the supplier starts building.",
+     "ref": [
+      49,
+      "Note that deliverables acceptance activities may not happen (only) at the end of the Executing Phase, but can follow the project's delivery schedule."
+     ]
+    },
+    {
+     "t": "Use the 212 requirements as the acceptance criteria. They are already written, already agreed and already signed.",
+     "tPlain": "Use the 212 requirements as the acceptance criteria. They are already written, agreed and signed.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Requirement one one four says reconciliation shall be automated. Tell me the number that makes it true, the range you will still accept, and whose signature closes it. The requirement does none of those three.",
+      "plain": "Requirement 114 says that reconciliation shall be automated. Now tell me the number that proves it, the range you would still accept, and whose signature closes it. The requirement does none of those three things."
+     },
+     "why": "A requirement states what is needed; an acceptance criterion adds the metric, the tolerance and the approving authority (p.49). The guide also warns against duplicating information already held in the Requirements Management Plan — the acceptance plan aligns with requirements validation, it does not copy it.",
+     "whyPlain": "A requirement says what is needed. An acceptance criterion adds the measurement, the tolerance and the person who approves (page 49). The guide also warns against copying information that already sits in the Requirements Management Plan. The acceptance plan lines up with requirements validation; it does not repeat it.",
+     "ref": [
+      49,
+      "Ensure that there is no duplication of information contained in other plans (the Requirements Management Plan, Quality Management Plan, etc.)."
+     ]
+    },
+    {
+     "t": "Name Marie as the person who decides, and let her judge each deliverable on the day. She is the expert and she will know.",
+     "tPlain": "Name Marie as the decision maker and let her judge each deliverable on the day. She is the expert and she will know.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "Then in 2028 it is my opinion against a contractor's lawyer, on a Friday, with a value date on Monday. I would rather have a number.",
+      "plain": "Then in 2028 it becomes my opinion against a supplier's lawyer, on a Friday, with a payment due on Monday. I would prefer to have a number."
+     },
+     "why": "The plan does have to identify the stakeholders who validate each deliverable and the knowledge they need — Marie is correctly named there (p.49). But naming a verifier is not the same as defining criteria, and final acceptance belongs to a separately identified person or group, here the Project Owner. Expert judgement without a metric leaves the User Representative carrying a commercial dispute alone.",
+     "whyPlain": "The plan does have to name the people who validate each deliverable, and the knowledge they need. Marie belongs there (page 49). But naming a verifier is not the same as defining criteria, and the plan must also name who gives final acceptance, which here is the Project Owner. Expert judgement with no measurement leaves the User Representative alone in a commercial argument.",
+     "ref": [
+      49,
+      "Identify the person/group responsible for the final acceptance of the deliverable."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Responsible for preparing the Deliverables Acceptance Plan. The Steering Committee approves it, not the Project Owner.",
+    "k": "Knows the tender file closes in July and the acceptance process must be in the contract.",
+    "w": "Wants criteria, metrics and tolerances agreed in this room today.",
+    "f": "Afraid the Project Owner defers the criteria and the contractor ends up defining done."
+   },
+   "curie": {
+    "o": "User Representative. Named as the stakeholder who verifies the reconciliation deliverable.",
+    "k": "Knows what accepted meant in 2019, because she signed it with reservations that went nowhere.",
+    "w": "Wants to know exactly what she may refuse, and what nearly right costs.",
+    "f": "Afraid she is again asked to sign for something she has not been able to verify."
+   },
+   "nightingale": {
+    "o": "Project Owner. Consulted on this plan; accepts the deliverables themselves later.",
+    "k": "Knows acceptance testing will cost her division twenty-five person-days it has not budgeted.",
+    "w": "Wants the criteria deferred until there is a real system to measure.",
+    "f": "Afraid of committing to a tolerance of zero on behalf of people two years from now."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the plan and validates its requirements, activities and metrics.",
+    "k": "Knows how to turn same-day reconciliation into a metric that survives an argument.",
+    "w": "Wants unexplained defined in the document, not in the meeting.",
+    "f": "Afraid her people supply the acceptance effort without it appearing in anyone's plan."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Supports the Project Manager in preparing the plan; assures the method.",
+    "k": "Knows a criterion without a measurement method is an opinion with a number attached.",
+    "w": "Wants the sampling method and the retiring expert both written down this week.",
+    "f": "Afraid acceptance in 2028 rests on one person's memory of how EFSF loans behave."
+   }
+  },
+  "unlock": [
+   8
+  ],
+  "note": "Guide check: section 6.6, pp.49-50. The Deliverables Acceptance Plan documents the agreed criteria and approach for acceptance, plus responsibilities, activities, effort, timing and capability requirements, so that deliverables can be formally accepted on objective criteria and predefined timelines. Its steps require the acceptance approach and schedule, the criteria and tolerances, the process and timeline for non-acceptance or partial acceptance, the level of formality including whether a signed Deliverables Acceptance Note is required, and clear roles: who leads up to acceptance, who provides the resources, which stakeholders validate and what knowledge they need, and who is responsible for final acceptance. RASCI: AGB I, PSC A, PO C, BM S, BIG I, SP C, PM R, PCT C. Approver: the Project Steering Committee. Keep the split: the PSC approves the plan, the Project Owner accepts the deliverables. Acceptance activities follow the delivery schedule and need not wait for the end of Executing. Pages 49 and 50.",
+  "notePlain": "Rule: the Deliverables Acceptance Plan writes down the agreed criteria and the approach for accepting deliverables, plus who does what, how much effort it takes, when it happens and what skills are needed. The purpose is that deliverables can be accepted formally, on objective criteria and on dates fixed in advance. The steps require: the overall approach and schedule; the criteria and their tolerances; what happens when something is not accepted, or only partly accepted; how formal the process is, including whether a signed Deliverables Acceptance Note is needed; and clear roles, including who provides the resources, which people validate the deliverable and what knowledge they need, and who gives final acceptance. RASCI: Steering Committee Accountable, Project Manager Responsible, Business Manager Supporting, Project Owner Consulted. Approver: the Project Steering Committee. Keep two things apart: the Steering Committee approves this plan, and the Project Owner accepts the deliverables. Acceptance follows the delivery schedule; it does not have to wait until the end. Pages 49 and 50."
+ },
+ {
+  "id": "s22",
+  "act": 3,
+  "actName": "Planning",
+  "title": "Nineteen checks and one clause",
+  "covers": [
+   "Deliverables Acceptance Plan",
+   "Deliverables Acceptance Checklist"
+  ],
+  "guide_page": 49,
+  "where": "ESM, Kirchberg — Room Werner, fourth floor",
+  "when": "29 May 2026, 08:30",
+  "cast": [
+   "you",
+   "deming",
+   "gantt",
+   "curie",
+   "leonardo",
+   "gutenberg"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Johannes Gutenberg has brought a document box to an eight-thirty meeting. Inside are the acceptance forms from the 2019 interface change. Three of them are photocopies of photocopies.",
+    "plain": "Johannes Gutenberg brings a document box to a meeting at 08:30. Inside are the acceptance forms from the 2019 interface change. Three of them are copies of copies."
+   },
+   {
+    "who": "gutenberg",
+    "text": "Nineteen of these should exist. Eleven are in the folder. Four are in somebody's mailbox. Four I cannot find at all.",
+    "plain": "There should be nineteen of these forms. Eleven are in the project folder. Four are in somebody's email. Four I cannot find at all."
+   },
+   {
+    "who": "you",
+    "text": "This time they go into the repository the day they are signed, with a version number and a retention period.",
+    "plain": "This time each form goes into the document store on the day it is signed, with a version number and a retention period.",
+    "g": [
+     [
+      "retention period",
+      "how long a document must be kept before anyone is allowed to destroy it"
+     ]
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Before you tailor any checklist, take three sections out of the plan. The configuration procedure. The defect severity table. The test-evidence standard. All three are in the Quality Management Plan, approved on the ninth of June. Two versions of a rule is no rule.",
+    "plain": "Before you adapt any checklist, remove three sections from the plan: the configuration procedure, the table of defect severities, and the standard for test evidence. All three are already in the Quality Management Plan, approved on 9 June. If a rule exists in two documents, it is not a rule.",
+    "ref": [
+     49,
+     "Ensure that there is no duplication of information contained in other plans (the Requirements Management Plan, Quality Management Plan, etc.)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "It points at them instead.",
+    "plain": "The acceptance plan will refer to them instead."
+   },
+   {
+    "who": "deming",
+    "text": "Point. Do not copy.",
+    "plain": "Refer to them. Do not copy them."
+   },
+   {
+    "who": "narr",
+    "text": "The checklist on the screen has nineteen lines. Four planning, six executing, two coordination, five on the quality of deliverables, two on communication. It asks whether things happened. It does not say what they should be.",
+    "plain": "The checklist on the screen has nineteen questions. Four about planning, six about executing, two about coordination, five about the quality of the deliverables, two about communication. It asks whether things happened. It does not define what should happen.",
+    "ref": [
+     49,
+     "Tailor the Deliverables Acceptance Checklist based on the acceptance activities defined."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "It has no responsibility row anywhere in the guide. Nobody approves it. It is your control tool and it lives with you.",
+    "plain": "The guide gives this checklist no responsibility row at all. Nobody approves it. It is your control tool and it stays with you.",
+    "ref": [
+     69,
+     "There are several Checklists that can be used to help the Project Manager (PM) control the project better."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Check eight. Provisional acceptance performed with a limited number of minor issues. Limited is not a number.",
+    "plain": "Look at check number 8. It says: provisional acceptance performed with a limited number of minor issues. Limited is not a number."
+   },
+   {
+    "who": "you",
+    "text": "Two. Written into the plan, not into the checklist. Three is a rejection.",
+    "plain": "Two. That number goes into the plan, not into the checklist. Three problems means the deliverable is rejected."
+   },
+   {
+    "who": "curie",
+    "text": "Then I can use it.",
+    "plain": "Then I can work with it."
+   },
+   {
+    "who": "leonardo",
+    "text": "My people will not be tested twice. Either the acceptance testing and the quality control read the same evidence, or my team spends 2027 producing paperwork for two audiences.",
+    "plain": "My team will not be tested twice. Either the acceptance testing and the quality control use the same evidence, or my team spends 2027 producing documents for two different audiences.",
+    "ref": [
+     49,
+     "Align the deliverables acceptance process with the requirements validation activities as well as with other testing and quality control activities."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Same evidence. Read by two people for two different purposes.",
+    "plain": "The same evidence. Two different people read it, for two different purposes."
+   },
+   {
+    "who": "gantt",
+    "text": "And it costs effort, which is in the Work Plan or it is nowhere. Twenty-five person-days of user acceptance testing, sitting in the baseline since Friday.",
+    "plain": "And it costs effort. That effort is in the Work Plan or it does not exist. Twenty-five person-days of user acceptance testing have been in the baselined plan since Friday.",
+    "g": [
+     [
+      "user acceptance testing",
+      "testing done by the people who will actually use the system every day"
+     ]
+    ],
+    "ref": [
+     49,
+     "Include the deliverables acceptance activities (and resources required) in the Project Work Plan."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "One more. Step seven.",
+    "plain": "One more thing. Step seven."
+   },
+   {
+    "who": "you",
+    "text": "Outsourced work. The acceptance process goes into the contract.",
+    "plain": "For work done by a supplier, the acceptance process must be written into the contract.",
+    "ref": [
+     49,
+     "In the case of outsourced work, the Deliverable Acceptance Process should be documented in the contract."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Which moves a date. The tender file closes in July. The contract is signed on the eighteenth of September. A plan approved after that describes an acceptance process the contractor never agreed to.",
+    "plain": "That changes a date. The tender file closes in July. The contract is signed on 18 September. A plan approved after that date would describe an acceptance process the supplier never agreed to."
+   },
+   {
+    "who": "leonardo",
+    "text": "So it is finished before the tender, not before go-live. That is a different project.",
+    "plain": "So the plan must be finished before the tender, not before go-live. That is a completely different timetable."
+   },
+   {
+    "who": "you",
+    "text": "Approved the twenty-sixth of June. In the tender file in July.",
+    "plain": "It is approved on 26 June. It goes into the tender file in July."
+   },
+   {
+    "who": "leonardo",
+    "text": "And the retention?",
+    "plain": "And what about the retention?"
+   },
+   {
+    "who": "you",
+    "text": "Ten per cent held back until final acceptance.",
+    "plain": "Ten per cent of the price is held back until final acceptance.",
+    "g": [
+     [
+      "retention",
+      "part of a contract price held back until the supplier has fixed the agreed defects"
+     ]
+    ]
+   },
+   {
+    "who": "leonardo",
+    "mood": "sceptical",
+    "text": "Held against a reconciliation number that depends on the quality of our own data. No serious bidder prices that without a caveat, and the caveat will cost you more than the retention is worth.",
+    "plain": "Held back against a reconciliation figure that depends on how good our own data is. No serious bidder will price that without adding a condition, and that condition will cost more than the retention is worth.",
+    "g": [
+     [
+      "reconciliation break",
+      "a difference between two records that nobody has yet explained"
+     ]
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Then write down what we owe them. A retention against a number we only half control is a dispute with a date on it.",
+    "plain": "Then write down what we must provide to them. A retention held against a figure we only partly control is an argument waiting to happen on a known date."
+   },
+   {
+    "who": "narr",
+    "text": "Nobody settles it. It goes on the list for the July drafting session, which is how most of these things are actually decided.",
+    "plain": "Nobody decides it in this meeting. It goes on the list for the drafting session in July. That is how most of these questions are really settled."
+   },
+   {
+    "who": "gutenberg",
+    "text": "The manuals are deliverables too, or nobody will ask for them in 2028.",
+    "plain": "The manuals are deliverables as well. If they are not listed, nobody will ask for them in 2028.",
+    "ref": [
+     49,
+     "Ensure that all project deliverables are accounted for including any support material (user manuals, etc.)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "It goes to Marie's forty, to Leonardo's support team and to Levallois with the tender. Nobody should meet this plan for the first time on the day they are asked to sign under it.",
+    "plain": "The plan goes to Marie's forty colleagues, to Leonardo's support team, and to Levallois Systems with the tender. Nobody should see this plan for the first time on the day they are asked to sign under it.",
+    "ref": [
+     49,
+     "Ensure that the Deliverables Acceptance Plan is communicated to the relevant project stakeholders"
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Responsible for the Deliverables Acceptance Plan and for tailoring the Deliverables Acceptance Checklist.",
+    "k": "Now knows the plan must be finished for the tender file, not for go-live.",
+    "w": "Wants the plan cut back to what only it holds, and approved on 26 June.",
+    "f": "Afraid the acceptance clause reaches the contract after the contractor has priced the work."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Supports preparation of the plan; owns the Quality Management Plan's content.",
+    "k": "Knows three sections of the draft repeat rules already approved on 9 June.",
+    "w": "Wants duplication removed before a checklist is built on top of it.",
+    "f": "Afraid two versions of the same rule leave the project with no rule at all."
+   },
+   "gantt": {
+    "o": "Project Support Office. Holds the Work Plan baseline and the checklist templates.",
+    "k": "Knows the twenty-five person-days of acceptance testing are already in the baseline.",
+    "w": "Wants the checklist recognised as a control tool with no approver and no RASCI row.",
+    "f": "Afraid the checklist gets treated as the plan and the real criteria are never written."
+   },
+   "curie": {
+    "o": "User Representative. Will grant or refuse provisional acceptance under this plan.",
+    "k": "Knows check eight says a limited number of minor issues and does not define limited.",
+    "w": "Wants limited turned into a number she can defend in a room with a contractor.",
+    "f": "Afraid limited is decided in 2028 by whoever most needs the deliverable accepted."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Consulted on the plan; accountable for what the contractor delivers.",
+    "k": "Knows a retention tied to reconciliation depends on ESM data quality, not only on the supplier.",
+    "w": "Wants one set of test evidence read twice, not two sets produced twice.",
+    "f": "Afraid a clause written in June becomes a commercial argument in 2028."
+   },
+   "gutenberg": {
+    "o": "Document Management Officer. Owns versioning, storage, retention and sanitisation of the signed notes.",
+    "k": "Knows four of nineteen acceptance forms from 2019 cannot be found anywhere.",
+    "w": "Wants every signed acceptance note in the repository on the day it is signed.",
+    "f": "Afraid the acceptance evidence for a seven-year audit trail lives in private mailboxes."
+   }
+  },
+  "unlock": [
+   29
+  ],
+  "note": "Guide check: section 6.6 guidelines and steps 6 to 8, p.49. The plan must not duplicate information held in the Requirements Management Plan or the Quality Management Plan; it aligns the acceptance process with requirements validation and with other testing and quality control activities, accounts for every deliverable including support material such as user manuals, and puts the acceptance activities and the resources they need into the Project Work Plan. Step 6 tailors the Deliverables Acceptance Checklist to the acceptance activities the plan defines; step 7 requires the acceptance process to be documented in the contract for any outsourced work, which is where section 6.6 meets section 6.5 and why the plan must be finished before the tender rather than before go-live; step 8 requires the plan to be communicated to the relevant stakeholders. RASCI for the plan is unchanged: PSC A, PM R. The checklist has no RASCI row and no approver — it is one of the six PM² checklists that help the Project Manager control the project (p.69). Pages 49, 50 and 69.",
+  "notePlain": "Rule: the guidelines and steps 6 to 8 of the Deliverables Acceptance Plan, on page 49. The plan must not repeat what is already in the Requirements Management Plan or the Quality Management Plan. It lines up acceptance with requirements validation and with the other testing and quality checks. It must cover every deliverable, including support material such as user manuals. The acceptance work and the resources it needs go into the Project Work Plan. Step 6: adapt the Deliverables Acceptance Checklist to the acceptance activities this plan defines. Step 7: for work done by a supplier, the acceptance process must be written into the contract. That is why the plan must be ready before the tender, not before go-live. Step 8: tell the relevant people about the plan. The plan's RASCI does not change: Steering Committee Accountable, Project Manager Responsible. The checklist has no RASCI row and nobody approves it. It is one of the six PM² checklists that help the Project Manager control the project (page 69). Pages 49, 50 and 69."
+ },
+ {
+  "id": "s23",
+  "act": 3,
+  "actName": "Planning",
+  "title": "Two systems, one disbursement calendar",
+  "covers": [
+   "Transition Plan",
+   "Transition Checklist"
+  ],
+  "guide_page": 51,
+  "where": "ESM, Kirchberg — Room Spaak, fifth floor",
+  "when": "04 Jun 2026, 11:00",
+  "cast": [
+   "you",
+   "tesla",
+   "hopper",
+   "curie",
+   "leonardo",
+   "turing",
+   "brandeis"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Somebody has printed the 2028 disbursement calendar and taped it across the whole of one wall. Value dates in black. EFSF bond maturities in red. There are more red weeks than anyone expected.",
+    "plain": "Somebody has printed the 2028 payment calendar and taped it across a whole wall. The payment dates are in black. The EFSF bond repayment dates are in red. There are more red weeks than people expected."
+   },
+   {
+    "who": "you",
+    "text": "Parallel run, eighth of January to the thirtieth of April 2028. Cutover the fifteenth of May. LOS read-only from the sixteenth.",
+    "plain": "Both systems run side by side from 8 January to 30 April 2028. We switch over on 15 May. From 16 May, LOS can only be read, not changed.",
+    "g": [
+     [
+      "Transition Plan",
+      "the plan for moving from the old state to the new one at go-live"
+     ],
+     [
+      "parallel run",
+      "running the old and the new system side by side on the same real work"
+     ],
+     [
+      "cutover",
+      "the moment you switch the old system off and the new one on"
+     ]
+    ],
+    "ref": [
+     51,
+     "The Transition Plan defines the goals, prerequisites, activities and responsibilities associated with transitioning from the old (pre-project) to the new (post-project) state."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Four months of doing everything twice. On a live calendar. Say the rest of it out loud.",
+    "plain": "That means four months of doing all the work twice, on a real payment calendar. Say the rest of it out loud."
+   },
+   {
+    "who": "you",
+    "text": "Every instruction goes through both systems and the results are compared before the four o'clock cut-off. If they disagree, LOS wins and we write down why.",
+    "plain": "Every payment instruction goes through both systems. The two results are compared before the 16:00 deadline. If they disagree, we use the LOS result and we record the reason for the difference."
+   },
+   {
+    "who": "curie",
+    "text": "Then name who does the comparing. It is not going to be the forty of us on top of the day job, and if it is, say that too.",
+    "plain": "Then write down who does the comparing. It cannot be the forty of us on top of our normal work. And if it is, then say so clearly.",
+    "ref": [
+     51,
+     "Identify the roles and responsibilities linked to all aspects of the transition process."
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "Add the EFSF legacy portfolios as a third stream. Nine loans, all closed, and the oldest repayment schedules we hold. They will break the converter.",
+    "plain": "Add the old EFSF loan portfolios as a third stream. There are nine loans, all closed. They hold the oldest repayment schedules we have. They will break the conversion program."
+   },
+   {
+    "who": "you",
+    "text": "A third stream is three months I do not have.",
+    "plain": "A third stream would cost three months, and I do not have them."
+   },
+   {
+    "who": "tesla",
+    "text": "Then convert them first. Run them against LOS in October 2027, before Release 2, when breaking things is still free.",
+    "plain": "Then convert them first. Compare them with LOS in October 2027, before Release 2, when a failure still costs nothing."
+   },
+   {
+    "who": "narr",
+    "text": "You had the legacy portfolios in the last week of the parallel run, where a failure would have cost the cutover date. You cross it out.",
+    "plain": "In your draft, the old portfolios were converted in the last week of the parallel run. A failure there would have cost the go-live date. You cross that out."
+   },
+   {
+    "who": "you",
+    "text": "That is better than what I had. It goes in the prerequisites.",
+    "plain": "That is better than my version. It becomes one of the conditions that must be met first.",
+    "ref": [
+     51,
+     "Document what must be completed before the transition can start and finish."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Prerequisites, then. Release 2 accepted, seventeenth of December 2027. Legacy portfolios converted and reconciled. Four clean parallel-run weeks. Forty loan administrators trained by the thirtieth of April.",
+    "plain": "So the conditions are: Release 2 accepted on 17 December 2027; the old portfolios converted and reconciled; four parallel-run weeks with no unexplained differences; and forty loan administrators trained by 30 April."
+   },
+   {
+    "who": "hopper",
+    "text": "Trained by whom?",
+    "plain": "Trained by whom?"
+   },
+   {
+    "who": "you",
+    "text": "Trained by the thirtieth of April.",
+    "plain": "Trained by 30 April."
+   },
+   {
+    "who": "hopper",
+    "mood": "dry",
+    "text": "That is not an answer to the question I asked.",
+    "plain": "That is not an answer to the question I asked."
+   },
+   {
+    "who": "turing",
+    "text": "Before you two start. Access rights.",
+    "plain": "Before you two begin that argument: access rights."
+   },
+   {
+    "who": "turing",
+    "text": "Production rights are re-issued from nothing at cutover. Every Levallois account closes the same weekend, including Nikola's, and support staff go in the same morning.",
+    "plain": "At go-live, all production access rights are created again from zero. Every Levallois Systems account is closed that same weekend, including Nikola's. Support staff receive their access on the same morning.",
+    "ref": [
+     51,
+     "Determine whether any changes need to be made to the physical (or virtual) environments within which the project outputs will be released."
+    ]
+   },
+   {
+    "who": "brandeis",
+    "text": "The borrower contact data. Names, telephone numbers and bank details, coming out of a fourteen-year-old system into a supplier's platform. Put the retention rule next to the migration, not in an annex. A backup you keep for seven years is seven years of personal data you are keeping.",
+    "plain": "There is also the borrower contact data: names, telephone numbers and bank details, moving out of a fourteen-year-old system into a supplier's platform. Write the data retention rule next to the migration section, not in an appendix. A backup kept for seven years is seven years of stored personal data.",
+    "ref": [
+     25,
+     "Ensures adherence to the organisation's policies and rules (e.g. IT governance, data protection, information security, document management, etc.)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And the weekend has to miss two things. An EFSF bond rollover and the Finance month-end close. Look at the wall — that leaves three weekends in May.",
+    "plain": "The go-live weekend must avoid two events: an EFSF bond rollover and the month-end accounting close in Finance. Look at the calendar on the wall. Only three weekends in May are free.",
+    "g": [
+     [
+      "bond rollover",
+      "repaying a bond that matures by issuing a new one on the same day"
+     ]
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "And on the sixteenth of May the platform stops being mine.",
+    "plain": "And on 16 May the platform is no longer my responsibility."
+   },
+   {
+    "who": "you",
+    "text": "The fifteenth. Transfer of responsibility from the Solution Provider to the Project Owner, signed at cutover. After that it is Lending Operations and your division's level-two support, not the project.",
+    "plain": "On 15 May. Responsibility passes from the Solution Provider to the Project Owner, and the transfer is signed at go-live. After that the platform belongs to Lending Operations, with second-level support from your division. It is no longer the project's.",
+    "ref": [
+     51,
+     "Define and schedule the transfer of responsibility for the deliverables from the Solution Provider (SP) to the Project Owner (PO)"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "With ninety days of Levallois behind it, and then my division is alone with it. Which is exactly why I want the operations runbook named in the contract.",
+    "plain": "There will be ninety days of supplier support after go-live. After that my division is alone with the platform. That is exactly why I want the operations handbook named in the contract.",
+    "ref": [
+     51,
+     "Ensure that operational support and maintenance needs are defined."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Rollback?",
+    "plain": "And if it goes wrong?"
+   },
+   {
+    "who": "you",
+    "text": "LOS kept warm to the thirtieth of June. Florence can order it, and only before the six o'clock value-date cut-off.",
+    "plain": "LOS stays ready to use until 30 June. Florence can order a return to LOS, but only before the 06:00 payment deadline.",
+    "g": [
+     [
+      "rollback",
+      "returning to the old system if the switch-over fails"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Six in the morning.",
+    "plain": "Six o'clock in the morning."
+   },
+   {
+    "who": "you",
+    "text": "Six in the morning. And none of this is scheduled in this document. Every activity in it goes into the Work Plan with effort and a name, or it does not happen.",
+    "plain": "Six o'clock in the morning. And none of this work is scheduled inside this document. Every activity in it goes into the Project Work Plan, with effort and a person's name, or it will not happen.",
+    "ref": [
+     51,
+     "All transition activities become part of the Project Work Plan and are scheduled and controlled as part of the overall project."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Then put a name against training, because right now it is your document, my people, and nobody's budget.",
+    "plain": "Then put a name against the training. At the moment it is your document, my staff, and nobody's money."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Responsible for preparing the Transition Plan; the Core Team is consulted and the Steering Committee approves it.",
+    "k": "Knows the cutover weekend must avoid bond rollovers and month-end close, leaving three options.",
+    "w": "Wants prerequisites fixed and every transition activity carried into the Work Plan.",
+    "f": "Afraid a prerequisite with no owner behind it turns into a missed cutover in 2028."
+   },
+   "tesla": {
+    "o": "Lead Solution Architect on the Core Team. Consulted on the plan; will lead the final data conversion.",
+    "k": "Knows the EFSF legacy repayment schedules are the oldest and most fragile data the ESM holds.",
+    "w": "Wants the legacy portfolios converted early, while a failure still costs nothing.",
+    "f": "Afraid the converter meets fourteen-year-old data for the first time during a live cutover."
+   },
+   "hopper": {
+    "o": "Business Manager. Consulted on the Transition Plan. Her people supply the parallel-run effort.",
+    "k": "Knows nobody has been named as the owner of training forty administrators.",
+    "w": "Wants a name and a budget against the training prerequisite before this plan is approved.",
+    "f": "Afraid organisational change is being written into an IT document by an IT project."
+   },
+   "curie": {
+    "o": "User Representative. Her team runs both systems for four months and compares the output daily.",
+    "k": "Knows what four months of double keying costs on a live disbursement calendar.",
+    "w": "Wants the comparison work named, resourced and admitted to out loud.",
+    "f": "Afraid the parallel run is planned as if her forty had spare capacity."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Consulted; hands responsibility for the platform to the Project Owner at cutover.",
+    "k": "Knows his division inherits level-two support ninety days after go-live.",
+    "w": "Wants the handover date and the support boundary written down precisely.",
+    "f": "Afraid his division absorbs an unfinished platform the day the contractor leaves."
+   },
+   "turing": {
+    "o": "Local Information Security Officer. Advises on access, confidentiality, integrity and availability.",
+    "k": "Knows contractor accounts outlive contracts unless somebody schedules their removal.",
+    "w": "Wants production rights re-issued from nothing on the cutover weekend.",
+    "f": "Afraid Levallois accounts survive into production after the contract has ended."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Advises on the personal data inside the migration and the backups.",
+    "k": "Knows the LOS backup kept for audit is also seven years of borrower personal data.",
+    "w": "Wants the retention rule written beside the migration, not hidden in an annex.",
+    "f": "Afraid data protection is treated as an annex to be completed after go-live."
+   }
+  },
+  "unlock": [
+   9,
+   30
+  ],
+  "note": "Guide check: section 6.7, p.51. The Transition Plan defines the goals, prerequisites, activities and responsibilities for moving from the old pre-project state to the new post-project state, minimising disruption to the business and making the roll-out smooth and timely. Its steps require roles and responsibilities for every aspect of the transition; what must be completed before the transition can start and finish; changes to the physical or virtual environments; business interruptions identified and communicated in time; coordination and stakeholder needs; operational support and maintenance defined; the transfer of responsibility for the deliverables from the Solution Provider to the Project Owner defined and scheduled; a formal announcement of the start and end of the transition; and all transition activities included in the Project Work Plan. RASCI: AGB I, PSC A, PO C, BM C, BIG C, SP C, PM R, PCT C. Approver: the Project Steering Committee — even though p.25 also lists the Transition Plan among the artefacts the Project Owner approves. The Transition Checklist is set up from this plan and is a Project Manager control tool with no RASCI row. This plan moves the system; the Business Implementation Plan moves the organisation. Page 51.",
+  "notePlain": "Rule: the Transition Plan sets the goals, the conditions, the activities and the responsibilities for moving from the old state to the new one, with as little disruption to the business as possible (page 51). Its steps require: roles and responsibilities for every part of the transition; what must be finished before the transition can start and before it can be called complete; any changes needed to the systems and environments; interruptions to the business, identified and announced early; coordination between teams; operational support and maintenance; the transfer of responsibility for the deliverables from the Solution Provider to the Project Owner, defined and scheduled; a formal announcement of the start and the end; and every transition activity written into the Project Work Plan. RASCI: Steering Committee Accountable, Project Manager Responsible, everyone else Consulted, governance body Informed. Approver: the Project Steering Committee, even though page 25 also lists this plan among the documents the Project Owner approves. The Transition Checklist is built from this plan. It is a Project Manager control tool with no responsibility row. Remember the division: this plan moves the system, and the Business Implementation Plan moves the organisation. Page 51."
+ },
+ {
+  "id": "s24",
+  "act": 3,
+  "actName": "Planning",
+  "title": "The plan you are not allowed to write",
+  "covers": [
+   "Business Implementation Plan"
+  ],
+  "guide_page": 52,
+  "where": "ESM, Kirchberg — Room Werner, fourth floor",
+  "when": "11 Jun 2026, 16:00",
+  "cast": [
+   "you",
+   "hopper",
+   "nightingale",
+   "curie",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Four o'clock on a Thursday. Grace Hopper has a laptop open, a phone face down beside it, and two windows on the screen. Neither of them is the Business Implementation Plan. Month-end close is Tuesday and the Board note is Friday.",
+    "plain": "It is 16:00 on a Thursday. Grace Hopper has her laptop open and her phone face down beside it. Two windows are open on the screen. Neither of them is the Business Implementation Plan. The month-end accounting close is on Tuesday and her note for the Board is due on Friday.",
+    "g": [
+     [
+      "month-end close",
+      "the accounting work of finishing and checking one month's figures"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Ask me on Monday.",
+    "plain": "Ask me again on Monday."
+   },
+   {
+    "who": "you",
+    "text": "The Steering Committee sees all four plans on the twenty-sixth.",
+    "plain": "The Steering Committee reviews all four plans on 26 June."
+   },
+   {
+    "who": "hopper",
+    "text": "Then take the training. Put it in your transition document. It is a go-live thing, it is already a condition of cutover, and you have written half of it anyway.",
+    "plain": "Then take the training away from me. Put it in your Transition Plan. It is about go-live, it is already a condition for switching over, and you have already written half of it.",
+    "g": [
+     [
+      "Business Implementation Plan",
+      "the plan for changing how the organisation works so the new system delivers benefits"
+     ]
+    ],
+    "ref": [
+     26,
+     "Coordinates the schedule and delivery of any user training (and production of related material)."
+    ]
+   },
+   {
+    "who": "you",
+    "mood": "tempted",
+    "text": "It would take me two evenings.",
+    "plain": "I could write it in two evenings."
+   },
+   {
+    "who": "gantt",
+    "text": "It would.",
+    "plain": "Yes, you could."
+   },
+   {
+    "who": "gantt",
+    "text": "And the gate checklist would still have a line saying Business Implementation Plan, approved, and there still would not be one.",
+    "plain": "And the gate checklist would still contain a line saying Business Implementation Plan, approved. And there still would not be one.",
+    "ref": [
+     26,
+     "Oversees the creation of all management artefacts (except the Project Initiation Request, Business Case and Business Implementation Plan) and secures approval from the Project Owner (PO) or the Project Steering Committee (PSC)."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Can I say the part nobody has said?",
+    "plain": "May I say the thing nobody has said yet?"
+   },
+   {
+    "who": "curie",
+    "text": "Nobody has told the forty anything. What they have is a rumour from the sixth-floor kitchen that half the jobs go when the re-keying goes.",
+    "plain": "Nobody has told the forty administrators anything. All they have is a rumour from the sixth-floor kitchen: that half the jobs will disappear when the manual typing disappears.",
+    "g": [
+     [
+      "organisational change management",
+      "the work of getting people and processes ready to work in a new way"
+     ]
+    ],
+    "ref": [
+     52,
+     "Identify possible sources of resistance to the desired change(s), analyse the attitude of key stakeholders and plan their involvement in change-management activities."
+    ]
+   },
+   {
+    "who": "hopper",
+    "mood": "quiet",
+    "text": "I know.",
+    "plain": "I know."
+   },
+   {
+    "who": "hopper",
+    "text": "That is exactly the thing I do not have four hours to write down properly, and it is exactly the thing that decides whether any of this works.",
+    "plain": "That is precisely the thing I have no four hours to write down properly. It is also precisely the thing that will decide whether all of this works.",
+    "ref": [
+     52,
+     "It documents an assessment of the project's impact on the organisation's processes, culture and people and outlines the change-management and communications activities that need to take place to ensure that the project outputs are effectively integrated into the organisation's environment."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence Nightingale is in the doorway. She has come for something else entirely and has heard the last two sentences.",
+    "plain": "Florence Nightingale is standing in the doorway. She came for a different reason and has heard the last two sentences."
+   },
+   {
+    "who": "nightingale",
+    "text": "Which plan is late?",
+    "plain": "Which plan is late?"
+   },
+   {
+    "who": "hopper",
+    "text": "Mine.",
+    "plain": "Mine."
+   },
+   {
+    "who": "nightingale",
+    "text": "Since when is it yours?",
+    "plain": "Since when is it your plan?"
+   },
+   {
+    "who": "gantt",
+    "text": "Accountable, Project Owner. Responsible, Business Manager. Supporting, Project Manager. Informed: the governance body, the Steering Committee, the Solution Provider, the Core Team. Consulted: the Business Implementation Group.",
+    "plain": "The responsibility row says: Accountable, the Project Owner. Responsible, the Business Manager. Supporting, the Project Manager. Informed: the governance body, the Steering Committee, the Solution Provider and the Core Team. Consulted: the Business Implementation Group.",
+    "g": [
+     [
+      "Business Implementation Group",
+      "the client-side people who carry out the business changes the project needs"
+     ]
+    ],
+    "ref": [
+     52,
+     "Business Implementation Plan I I A R C I S I"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "The Steering Committee is only informed.",
+    "plain": "So the Steering Committee is only informed."
+   },
+   {
+    "who": "gantt",
+    "text": "It does not approve this one. You do.",
+    "plain": "The Steering Committee does not approve this plan. You do.",
+    "ref": [
+     52,
+     "Project Owner (PO) — Reviews and approves the Business Implementation Plan."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "dry",
+    "text": "Then I have been informed.",
+    "plain": "Then I have now been informed."
+   },
+   {
+    "who": "curie",
+    "text": "By me. Twenty seconds ago.",
+    "plain": "By me. Twenty seconds ago."
+   },
+   {
+    "who": "you",
+    "text": "The training design, the cohorts, the communication, who is angry and why — that is Grace's document and it has to be. What I can do is take every activity out of it and put it in the Work Plan with effort, dates and a name.",
+    "plain": "The design of the training, the groups of learners, the communication, who is unhappy and why: that is Grace's document, and it must be. What I can do is take every activity from it and put it into the Project Work Plan, with effort, dates and a responsible person.",
+    "ref": [
+     52,
+     "Project Manager (PM) — Assists the Business Manager (BM). Updates the Project Work Plan to include all business implementation activities that fall within the scope and timeframe of the project."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And the money for the trainers?",
+    "plain": "And who pays for the trainers?"
+   },
+   {
+    "who": "you",
+    "text": "In the Work Plan, under your activities, with your name on the line. Which is the only place you can defend it from.",
+    "plain": "It goes into the Work Plan, under your activities, with your name on that line. That is the only place from which you can defend it."
+   },
+   {
+    "who": "hopper",
+    "text": "Then say that in front of her, not to me.",
+    "plain": "Then say that in front of Florence, not to me."
+   },
+   {
+    "who": "narr",
+    "text": "Which is the moment. Grace cannot write it this month. You can write it this weekend and you are not allowed to. Florence is standing in the door with her coat over her arm.",
+    "plain": "This is the decisive moment. Grace cannot write the plan this month. You could write it this weekend, but you are not allowed to. Florence is standing in the doorway with her coat over her arm."
+   }
+  ],
+  "choice": {
+   "prompt": "Grace has a month-end close, a Board note and no Business Implementation Plan. The gate is in fifteen days. What do you do?",
+   "promptPlain": "Grace has the month-end close, a note for the Board, and no Business Implementation Plan. The gate is in fifteen days. What do you do?",
+   "options": [
+    {
+     "t": "Say it in front of Florence. The plan is Grace's to write and Florence's to approve — so ask Florence to free Grace's time, and offer to carry every activity into the Work Plan.",
+     "tPlain": "Say it in front of Florence. Grace writes the plan and Florence approves it. So ask Florence to free Grace's time, and offer to put every activity into the Work Plan yourself.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "mood": "cool",
+      "text": "Then I take her off the Board note and write it myself on Sunday. And you will explain to Lorenzo why my paper is thin. That is what asking me costs.",
+      "plain": "Then I will take her off the Board note and write it myself on Sunday. And you will explain to Lorenzo why my paper is short. That is the price of asking me."
+     },
+     "why": "The Business Implementation Plan is prepared by the Business Manager and reviewed and approved by the Project Owner; the Project Manager assists and updates the Work Plan (p.52). The RASCI reads AGB I, PSC I, PO A, BM R, BIG C, SP I, PM S, PCT I. When the Responsible role has no capacity, the person who can create capacity is the Accountable one — so the escalation is upward, not sideways into your own document. It costs you something, which is the point.",
+     "whyPlain": "The Business Manager writes the Business Implementation Plan. The Project Owner reviews and approves it. The Project Manager only assists and updates the Work Plan (page 52). The responsibility row reads: governance body Informed, Steering Committee Informed, Project Owner Accountable, Business Manager Responsible, business group Consulted, Solution Provider Informed, Project Manager Supporting, Core Team Informed. When the Responsible person has no time, the one who can give her time is the Accountable person. So you escalate upwards, not sideways into your own document. It costs you something. That is the point.",
+     "ref": [
+      52,
+      "Project Owner (PO) — Reviews and approves the Business Implementation Plan."
+     ]
+    },
+    {
+     "t": "Draft it this weekend and let Grace review and sign it. She knows the content; you know the template.",
+     "tPlain": "Write it yourself this weekend and let Grace review and sign it. She knows the content and you know the template.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "And in January 2028 somebody asks why the plan thinks two of my people will be fine about losing the only part of the job they are known for. You would have had to guess. I would not.",
+      "plain": "And in January 2028 somebody will ask why the plan assumes two of my staff will be happy to lose the only part of the job they are known for. You would have had to guess. I would not."
+     },
+     "why": "This is the one exception written into the Project Manager's own responsibilities: the PM oversees the creation of all management artefacts except the Project Initiation Request, the Business Case and the Business Implementation Plan (p.26). The plan rests on an assessment of the impact on the organisation's processes, people and culture, and on naming who will resist and why — knowledge the Business Manager holds and the Project Manager does not.",
+     "whyPlain": "This is the one exception written into the Project Manager's own list of duties. The Project Manager oversees all management documents except the Project Initiation Request, the Business Case and the Business Implementation Plan (page 26). The plan is built on an assessment of the effect on the organisation's processes, people and culture, and on naming who will resist the change and why. The Business Manager has that knowledge. The Project Manager does not.",
+     "ref": [
+      26,
+      "Oversees the creation of all management artefacts (except the Project Initiation Request, Business Case and Business Implementation Plan) and secures approval from the Project Owner (PO) or the Project Steering Committee (PSC)."
+     ]
+    },
+    {
+     "t": "Move the retraining into the Transition Plan. It is already a cutover prerequisite, you own that document, and it gets approved on time.",
+     "tPlain": "Move the retraining into the Transition Plan. It is already a condition for go-live, you own that document, and it will be approved on time.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "Then training becomes something that happens before a date, instead of something that happens to forty people. You will tick it in April 2028 and half of them will still be printing the old procedure.",
+      "plain": "Then the training becomes something that must happen before a date, instead of something that happens to forty people. You will tick the box in April 2028, and half of them will still be printing the old procedure."
+     },
+     "why": "Determining the training needs of the people in the organisation is step 5 of the Business Implementation Plan (p.52), and the Business Manager coordinates the schedule and delivery of user training (p.26). The Transition Plan's relationship with training is narrower: it makes completed training a prerequisite for cutover and verifies it happened. Moving the design into the Transition Plan converts organisational change into a deployment task, which is the failure the split exists to prevent.",
+     "whyPlain": "Deciding the training needs of the people in the organisation is step 5 of the Business Implementation Plan (page 52), and the Business Manager arranges the schedule and delivery of user training (page 26). The Transition Plan has a narrower job: it makes finished training a condition for go-live and then checks that it happened. Moving the design of the training into the Transition Plan turns organisational change into an IT deployment task. That is exactly the mistake the two documents exist to prevent.",
+     "ref": [
+      52,
+      "Determine the training needs of the people in the organisation."
+     ]
+    },
+    {
+     "t": "Leave the Business Implementation Plan for the Executing Phase. Nothing in it starts before Q3 2027 and the training runs in 2028.",
+     "tPlain": "Leave the Business Implementation Plan until the Executing Phase. Nothing in it starts before the third quarter of 2027, and the training runs in 2028.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "The Planning gate asks whether the business-side activities are planned and resourced. If the answer is not yet, then that is the answer you take into the room, and I will minute it.",
+      "plain": "The Planning gate asks whether the business-side activities are planned and resourced. If the answer is not yet, then that is the answer you bring to the meeting, and I will write it in the minutes."
+     },
+     "why": "The plan is a Planning Phase artefact for a reason: its activities become part of the Project Work Plan and are scheduled and controlled with the rest of the project (p.52). Writing it in 2027 means the Work Plan baselined in June 2026 contains no business-side effort, and the communication that stops a rumour becoming resistance would start eighteen months late.",
+     "whyPlain": "This plan belongs to the Planning Phase for a reason: its activities become part of the Project Work Plan and are scheduled and controlled with everything else (page 52). If it is written in 2027, the Work Plan frozen in June 2026 contains no business-side effort at all. And the communication that stops a rumour turning into resistance would start eighteen months too late.",
+     "ref": [
+      52,
+      "Include all project-related business implementation activities in the overall Project Work Plan"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Supporting on the Business Implementation Plan. Responsible for three plans; this fourth one is not yours.",
+    "k": "Knows you could write it in two evenings and knows that is not the question.",
+    "w": "Wants the plan to exist before the twenty-sixth without taking it over.",
+    "f": "Afraid the honest route means asking the Project Owner for something and owing her for it."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for preparing the Business Implementation Plan; the PM only Supports.",
+    "k": "Knows her forty administrators have been told nothing and are running on a kitchen rumour.",
+    "w": "Wants training money named in a plan she owns, not buried in somebody's schedule.",
+    "f": "Afraid business change is quietly handled as an IT deployment task."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the Business Implementation Plan and its only approver.",
+    "k": "Has just learned the plan is late and that the Steering Committee is only informed of it.",
+    "w": "Wants both the Board note and the plan, and is about to lose one of them.",
+    "f": "Afraid the human half of this project is the half nobody has been managing."
+   },
+   "curie": {
+    "o": "User Representative. Consulted through the Business Implementation Group on the impact analysis.",
+    "k": "Knows exactly what the sixth floor believes, because she stands in that kitchen.",
+    "w": "Wants somebody to say out loud that forty people have been told nothing.",
+    "f": "Afraid the first official communication reaches her colleagues after the decisions are final."
+   },
+   "gantt": {
+    "o": "Project Support Office. Holds the gate checklist and will minute whatever is decided here.",
+    "k": "Knows the checklist line will read approved, and that a line is not a plan.",
+    "w": "Wants a real answer for the gate rather than a tidy one.",
+    "f": "Afraid the project arrives at the gate with a document that has the wrong author."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 6.8, p.52, read with p.26. The Business Implementation Plan documents an assessment of the project's impact on the organisation's processes, culture and people, and sets out the change-management and communications activities needed for the outputs to be integrated into the organisation. RASCI: AGB I, PSC I, PO A, BM R, BIG C, SP I, PM S, PCT I. Approver: the Project Owner — the Project Steering Committee is only Informed. The Business Manager prepares it; the Project Manager assists and updates the Project Work Plan with the business implementation activities that fall inside the project's scope and timeframe. This is the one plan outside the Project Manager's remit: p.26 says the PM oversees the creation of all management artefacts except the Project Initiation Request, the Business Case and the Business Implementation Plan. User training is the Business Manager's to schedule and deliver (p.26) and its design lives here as step 5; the Transition Plan only makes completed training a prerequisite for cutover. Pages 26 and 52.",
+  "notePlain": "Rule: the Business Implementation Plan records how the project will change the organisation's processes, culture and people, and what change-management and communication work is needed so the new system is really used (page 52). RASCI: governance body Informed, Steering Committee Informed, Project Owner Accountable, Business Manager Responsible, business group Consulted, Solution Provider Informed, Project Manager Supporting, Core Team Informed. Approver: the Project Owner. The Steering Committee is only informed. The Business Manager writes it. The Project Manager assists and puts the business activities into the Project Work Plan, as far as they fall inside the project's scope and dates. This is the one plan outside the Project Manager's control: page 26 says the Project Manager oversees all management documents except the Project Initiation Request, the Business Case and the Business Implementation Plan. User training is the Business Manager's to schedule and deliver (page 26), and its design belongs here, in step 5. The Transition Plan only makes finished training a condition for go-live. Pages 26 and 52."
+ },
+ {
+  "id": "s25",
+  "act": 3,
+  "actName": "Planning",
+  "title": "Forty people, and 2029",
+  "covers": [
+   "Business Implementation Plan",
+   "Business Implementation Checklist"
+  ],
+  "guide_page": 52,
+  "where": "ESM, Kirchberg — Lending Operations Division, sixth floor",
+  "when": "18 Jun 2026, 09:00",
+  "cast": [
+   "you",
+   "hopper",
+   "nightingale",
+   "curie",
+   "deming"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Nine in the morning on the sixth floor. Forty desks, twenty-two of them occupied. Grace's plan is printed and lying on the table by the window where people leave biscuits and nobody holds meetings.",
+    "plain": "It is 09:00 on the sixth floor. There are forty desks and twenty-two people at them. Grace's plan is printed and lying on the table by the window, where people leave biscuits and nobody usually holds meetings."
+   },
+   {
+    "who": "hopper",
+    "text": "Section three. Impact on people. Read it out.",
+    "plain": "Section three, the impact on people. Read it aloud."
+   },
+   {
+    "who": "you",
+    "text": "Forty loan administrators stop re-keying approximately fourteen hundred payment fields a quarter. Two posts refocus on exception handling and control testing.",
+    "plain": "Forty loan administrators stop typing about 1,400 payment fields again every three months. Two posts change focus to exception handling and control testing.",
+    "g": [
+     [
+      "exception handling",
+      "dealing with the cases a system cannot process automatically"
+     ]
+    ],
+    "ref": [
+     52,
+     "Understand the pre- and post-project states and analyse the project's impact on the organisation's processes, people and culture."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Refocus.",
+    "plain": "Refocus."
+   },
+   {
+    "who": "hopper",
+    "text": "Say it better and I will change the sentence.",
+    "plain": "Say it in a better way and I will change the sentence."
+   },
+   {
+    "who": "curie",
+    "text": "Say what happens to the second pair of eyes.",
+    "plain": "Say what happens to the second pair of eyes."
+   },
+   {
+    "who": "hopper",
+    "text": "It stops being a person reading and becomes the system refusing.",
+    "plain": "The check stops being one person reading another person's work. It becomes the system refusing to continue.",
+    "g": [
+     [
+      "segregation of duties",
+      "splitting a task so that no single person can complete it alone"
+     ]
+    ],
+    "ref": [
+     52,
+     "Plan any redesigning or updating of affected business processes."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Then it is a control that has to be tested, not a feature that gets demonstrated. Somebody attempts the forbidden thing every quarter and the report says it failed.",
+    "plain": "Then it is a control that must be tested, not a feature that is demonstrated. Every three months somebody tries to do the forbidden action, and the report shows that the system stopped them."
+   },
+   {
+    "who": "hopper",
+    "text": "Section four is culture. Two paragraphs, and I nearly cut it. Sources of resistance. The two people who built the 2019 workaround are the two people everyone else asks. If they are against this in January 2028, it does not matter what the platform can do.",
+    "plain": "Section four is about culture. It is two paragraphs long and I almost deleted it. It says where resistance will come from. The two people who built the 2019 workaround are the two people everyone else goes to for help. If they are against the change in January 2028, then it does not matter what the platform can do.",
+    "ref": [
+     52,
+     "Identify possible sources of resistance to the desired change(s), analyse the attitude of key stakeholders and plan their involvement in change-management activities."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "And the training?",
+    "plain": "And the training?"
+   },
+   {
+    "who": "hopper",
+    "text": "Three days classroom, then shadowing. Forty people in cohorts, January to April 2028. The Business Implementation Group delivers it. Sixty person-days of trainer time and two rooms I have to book eighteen months out.",
+    "plain": "Three days in a classroom, then working beside an experienced colleague. Forty people, in small groups, from January to April 2028. The Business Implementation Group delivers the training. It needs sixty person-days of trainer time and two rooms that I must book eighteen months in advance.",
+    "ref": [
+     52,
+     "Determine the training needs of the people in the organisation."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Approved.",
+    "plain": "Approved."
+   },
+   {
+    "who": "hopper",
+    "text": "In writing.",
+    "plain": "In writing, please."
+   },
+   {
+    "who": "nightingale",
+    "text": "In writing.",
+    "plain": "In writing."
+   },
+   {
+    "who": "you",
+    "text": "And it is three lists, not one. What the project does. What Lending Operations does afterwards. What happens after the project has closed.",
+    "plain": "And there are three lists, not one. What the project itself does. What Lending Operations does afterwards. And what happens after the project has closed.",
+    "ref": [
+     52,
+     "Identify the change implementation (and change sustaining) activities to be carried out by the organisation after the project ends, possibly as future/follow-up projects."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Annual refresher and a control self-assessment from 2029. Not the project's. Yours.",
+    "plain": "There will be yearly refresher training and a control self-assessment from 2029. Those are not the project's work. They are yours.",
+    "g": [
+     [
+      "control self-assessment",
+      "a team regularly checking and reporting on its own controls"
+     ]
+    ],
+    "ref": [
+     84,
+     "Note that business implementation activities will almost always be required long after the project has ended, so it is good practice to also define post-project change activities."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And the backstop, if the Treaty reform ever finishes ratifying. Six weeks from entry into force to a live instrument. Written as a recommendation, not as a commitment.",
+    "plain": "And the common backstop, if all member states finally approve the Treaty reform. Six weeks from the reform entering into force to a working lending product. It is written as a recommendation, not as a promise."
+   },
+   {
+    "who": "nightingale",
+    "text": "When do I see the numbers?",
+    "plain": "When do I see the results?"
+   },
+   {
+    "who": "you",
+    "text": "SC1 to SC5, measured quarterly by Lending Operations, from the first quarter of 2029.",
+    "plain": "Success criteria SC1 to SC5 are measured every three months by Lending Operations, starting in the first quarter of 2029.",
+    "g": [
+     [
+      "benefits realisation",
+      "actually getting the improvements a project promised, usually after it has ended"
+     ]
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "The project ends in July 2028.",
+    "plain": "The project ends in July 2028."
+   },
+   {
+    "who": "you",
+    "text": "Yes.",
+    "plain": "Yes."
+   },
+   {
+    "who": "narr",
+    "text": "She looks down the room at the twenty-two occupied desks for longer than the sentence needs.",
+    "plain": "Florence looks down the room at the twenty-two occupied desks. She looks for longer than the sentence needed."
+   },
+   {
+    "who": "nightingale",
+    "mood": "flat",
+    "text": "So the project ends before it can prove anything.",
+    "plain": "So the project ends before it can prove that it worked."
+   },
+   {
+    "who": "deming",
+    "text": "Most of them do. That is why the metrics have an owner who is not the project, and why this checklist still has open lines the day you close.",
+    "plain": "Most projects do. That is why the measurements have an owner outside the project, and why this checklist still has open items on the day the project closes."
+   },
+   {
+    "who": "you",
+    "text": "Every activity in here is in the Work Plan by Friday, with effort and dates against Grace's name.",
+    "plain": "Every activity in this plan will be in the Project Work Plan by Friday, with effort and dates, under Grace's name.",
+    "ref": [
+     52,
+     "Include all project-related business implementation activities in the overall Project Work Plan"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence signs it there, on the biscuit table, with a pen borrowed from a desk. No committee. No quorum. The Steering Committee will be informed on the twenty-sixth.",
+    "plain": "Florence signs the plan there, on the biscuit table, using a pen borrowed from a desk. There is no committee and no quorum. The Steering Committee will be informed on 26 June.",
+    "ref": [
+     52,
+     "Business Implementation Plan I I A R C I S I"
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Supporting on the Business Implementation Plan. Responsible for carrying its activities into the Work Plan.",
+    "k": "Knows the benefits cannot be measured before 2029, a year after the project closes.",
+    "w": "Wants the three lists separated so post-project work is handed over, not smuggled in.",
+    "f": "Afraid the Work Plan absorbs work the project has no mandate to finish."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for the plan; it is written and it is hers.",
+    "k": "Knows which two people the other thirty-eight actually listen to.",
+    "w": "Wants sixty person-days of trainer time approved in writing, this morning.",
+    "f": "Afraid the culture section is the one that gets cut when somebody shortens the document."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the plan and, this morning, its approver.",
+    "k": "Now knows the success criteria cannot be read until the first quarter of 2029.",
+    "w": "Wants a date on which she can see whether any of this worked.",
+    "f": "Afraid she closes a project in 2028 with nothing measurable to show for it."
+   },
+   "curie": {
+    "o": "User Representative. Consulted on the impact analysis through the Business Implementation Group.",
+    "k": "Knows what the word refocus sounds like from a desk on this floor.",
+    "w": "Wants the loss of the human second check named in the document, not softened.",
+    "f": "Afraid the four-eyes control becomes a screen that nobody ever tests."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Reviews the process; the Business Manager owns the activities checked.",
+    "k": "Knows a control that is only demonstrated is not a control that has been tested.",
+    "w": "Wants the segregation of duties written as a quarterly test with a failing attempt in it.",
+    "f": "Afraid an audit finding is closed on paper and reopens in 2029."
+   }
+  },
+  "unlock": [
+   10,
+   31
+  ],
+  "note": "Guide check: section 6.8 steps 1 to 7, p.52, and Manage Business Implementation, p.84. The plan must analyse the pre- and post-project states and the impact on processes, people and culture; plan the redesign of affected business processes; develop a communication strategy and the change-management activities; identify possible sources of resistance and analyse the attitudes of key stakeholders; determine the training needs of the people in the organisation; include all project-related business implementation activities in the overall Project Work Plan; and identify the change implementation and change-sustaining activities the organisation carries out after the project ends, possibly as follow-up projects. Business implementation may be run inside the project or as a separate one — an organisational choice. RASCI: AGB I, PSC I, PO A, BM R, BIG C, SP I, PM S, PCT I. Approver: the Project Owner alone. The Business Implementation Checklist is set up from this plan, is one of the six PM² checklists, has no RASCI row, and legitimately still carries open lines at closure because business implementation outlives the project. Pages 52 and 84.",
+  "notePlain": "Rule: steps 1 to 7 of the Business Implementation Plan on page 52, together with Manage Business Implementation on page 84. The plan must describe the situation before and after the project and the effect on processes, people and culture. It must plan the redesign of the affected business processes. It must set out a communication strategy and the change-management activities. It must name where resistance may come from and study the attitudes of key people. It must decide the training needs. It must put all the project's business implementation activities into the Project Work Plan. And it must name the change work the organisation will carry out after the project ends, possibly as follow-up projects. The organisation may run business implementation inside the project or as a separate project. RASCI: Project Owner Accountable, Business Manager Responsible, Project Manager Supporting, business group Consulted, everyone else Informed. Approver: the Project Owner, alone. The Business Implementation Checklist is built from this plan. It is one of the six PM² checklists, it has no responsibility row, and it correctly still has open items when the project closes, because business change continues after the project. Pages 52 and 84."
+ },
+ {
+  "id": "s26",
+  "act": 3,
+  "actName": "Planning",
+  "title": "Four plans, four approvers",
+  "covers": [
+   "Phase Gate: RfE (Ready for Executing)",
+   "Phase Exit Review Checklist"
+  ],
+  "guide_page": 53,
+  "where": "ESM, Kirchberg — Board room, seventh floor",
+  "when": "03 Jul 2026, 09:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "medici",
+   "deming",
+   "gantt",
+   "einstein",
+   "curie"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "On the twenty-sixth of June at eighteen forty, with the building nearly empty, the Project Handbook and the Project Work Plan were baselined. Seven days later the same people sit down on the seventh floor with the plateau green and glaring behind the glass.",
+    "plain": "On 26 June at 18:40, when the building was almost empty, the Project Handbook and the Project Work Plan were baselined. Seven days later the same people meet on the seventh floor. Behind the glass, the plateau is green and bright.",
+    "g": [
+     [
+      "baseline",
+      "a frozen version of a plan, used later to measure what changed"
+     ]
+    ],
+    "ref": [
+     46,
+     "The Project Work Plan should be baselined but also kept up-to-date during the life of the project"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Item one. Ready for Executing. Go.",
+    "plain": "Item one on the agenda. Ready for Executing. Please begin.",
+    "g": [
+     [
+      "Ready for Executing",
+      "the second PM2 gate, between the Planning Phase and the Executing Phase"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Planning sheet of the Phase Exit Review Checklist. Forty-three checks. Compliance ninety-eight per cent. Status zero point nine.",
+    "plain": "This is the Planning sheet of the Phase Exit Review Checklist. It has 43 questions. The compliance score is 98 per cent. The status value is 0.9.",
+    "ref": [
+     53,
+     "provides a template Phase Exit Review Checklist for each phase that can be used by the Project Manager (PM) to guide the assessment, alongside a review of the phase's specific goals."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Which means what, exactly?",
+    "plain": "And what exactly does that mean?"
+   },
+   {
+    "who": "you",
+    "text": "That we are above eighty per cent on the template's own scale. It does not mean anything else.",
+    "plain": "It means we are above 80 per cent on the scale that the template itself uses. It means nothing more than that."
+   },
+   {
+    "who": "deming",
+    "text": "I assured the answers. Two of them are not Yes.",
+    "plain": "I checked the answers as quality assurance. Two of them are not Yes."
+   },
+   {
+    "who": "nightingale",
+    "text": "Say which.",
+    "plain": "Say which two."
+   },
+   {
+    "who": "you",
+    "text": "The Outsourcing Plan check. Approved by the Corporate Investment Board on the twenty-fourth of June, but there is no tender yet and no contractor. Yes, partially, with the award date in the comment. And test resourcing in the second half of 2027, where I have two profiles named and one that is still only a profile.",
+    "plain": "First, the Outsourcing Plan check. The Corporate Investment Board approved the plan on 24 June, but there is no tender yet and no supplier. So the answer is Yes, partially, with the award date written in the comment. Second, the staffing of testing in the second half of 2027. Two roles have names against them and one is still only a role.",
+    "ref": [
+     85,
+     "The Project Steering Committee (PSC) ensures that the contractor is chosen according to the organisation's processes and standards and to the criteria defined for the project."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "For completeness. All four project-specific plans exist and all four are approved.",
+    "plain": "For the record: all four project-specific plans exist, and all four are approved."
+   },
+   {
+    "who": "hopper",
+    "text": "Approved by four different people, which took me until last week to get straight in my head.",
+    "plain": "Approved by four different people. It took me until last week to understand that properly."
+   },
+   {
+    "who": "gantt",
+    "text": "The Corporate Investment Board for outsourcing. This committee for deliverables acceptance. This committee again for transition. The Project Owner, on her own, for business implementation.",
+    "plain": "The Corporate Investment Board approves the Outsourcing Plan. This committee approves the Deliverables Acceptance Plan. This committee also approves the Transition Plan. The Project Owner approves the Business Implementation Plan by herself.",
+    "ref": [
+     51,
+     "Transition Plan I A C C C C R C"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "And the Project Manager for none of them.",
+    "plain": "And the Project Manager approves none of them."
+   },
+   {
+    "who": "you",
+    "text": "The Project Manager for writing three and supporting the fourth. Accountability was never mine to hold.",
+    "plain": "The Project Manager writes three of them and supports the fourth. The accountability was never mine to hold.",
+    "ref": [
+     50,
+     "Deliverables Acceptance Plan I A C S I C R C"
+    ]
+   },
+   {
+    "who": "einstein",
+    "mood": "mild",
+    "text": "Architecture Office. One observation, and then I will stop. The payment gateway interface is planned against a target architecture that is itself under review this autumn.",
+    "plain": "Speaking for the Architecture Office. One comment, and then I will stop. The interface to the payment gateway is designed against a target architecture, and that architecture will itself be reviewed this autumn."
+   },
+   {
+    "who": "you",
+    "text": "Logged as a dependency, not a deviation. If the target architecture moves, it reaches us as a Change Request under the Project Change Management Plan, not as a surprise in a status report.",
+    "plain": "It is recorded as a dependency, not as a deviation. If the target architecture changes, it comes to us as a formal Change Request under the Project Change Management Plan. It does not arrive as a surprise inside a status report.",
+    "g": [
+     [
+      "Change Request",
+      "a formal written request to change something that has already been approved"
+     ]
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "Then I have nothing to object to.",
+    "plain": "Then I have no objection."
+   },
+   {
+    "who": "medici",
+    "text": "My question is narrower than everybody else's.",
+    "plain": "My question is narrower than everyone else's."
+   },
+   {
+    "who": "medici",
+    "text": "Are there major deviations from the approved Business Case or the Project Charter?",
+    "plain": "Are there any major differences from the approved Business Case or the Project Charter?",
+    "g": [
+     [
+      "major deviation",
+      "a difference big enough to change what the Business Case or Charter approved"
+     ]
+    ],
+    "ref": [
+     53,
+     "If major deviations from the approved Business Case and/or Project Charter are identified, then the Project Steering Committee (PSC) must receive an additional approval from the Appropriate Governance Body (AGB) before the project can move on to the Executing Phase."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "No. Eight point four million, unchanged. Three thousand one hundred person-days, unchanged. Twenty-six months, unchanged. SC1 to SC5 unchanged, and each of them now behind a named acceptance criterion.",
+    "plain": "No. The budget is still 8.4 million euro. The effort is still 3,100 person-days. The duration is still 26 months. Success criteria SC1 to SC5 are unchanged, and each one now has a named acceptance criterion behind it."
+   },
+   {
+    "who": "medici",
+    "text": "Then this gate is not mine. Enjoy it. They mostly are.",
+    "plain": "Then this gate is not mine to decide. Enjoy that. Most of them are mine."
+   },
+   {
+    "who": "curie",
+    "text": "One question. Nothing in those forty-three checks asks whether the thing will work.",
+    "plain": "One question. None of those 43 checks asks whether the system will actually work."
+   },
+   {
+    "who": "you",
+    "text": "No. The gate asks whether Planning did its job. Whether it works is what the next two years are for, and you are the person who tells us.",
+    "plain": "No. The gate asks whether the Planning Phase did its job. Whether the system works is the question for the next two years, and you are the person who will tell us."
+   },
+   {
+    "who": "nightingale",
+    "text": "Ninety-eight per cent. I take it that means we are through.",
+    "plain": "Ninety-eight per cent. I assume that means we can move on."
+   },
+   {
+    "who": "narr",
+    "text": "Gantt's pen has stopped. Deming is looking at the table. Nobody in the room is going to answer that for you.",
+    "plain": "Gantt has stopped writing. Deming is looking at the table. Nobody in this room is going to answer that question for you."
+   }
+  ],
+  "choice": {
+   "prompt": "Florence takes ninety-eight per cent to mean the project moves to Executing. What do you say?",
+   "promptPlain": "Florence thinks 98 per cent means the project moves to the Executing Phase. What do you say?",
+   "options": [
+    {
+     "t": "The percentage is my assessment, not the decision. I am asking this committee to approve the move to the Executing Phase.",
+     "tPlain": "The percentage is my assessment, not the decision. I am asking this committee to approve the move to the Executing Phase.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "text": "Then ask properly and I will put it to the room. Kick-off the tenth of July. Henry, minute the two partial answers with the sentences he used, not with the number.",
+      "plain": "Then ask properly and I will put it to the committee. The Executing Kick-off Meeting is on 10 July. Henry, record the two partial answers in the minutes using his words, not the score."
+     },
+     "why": "At the second phase gate the Project Manager uses the outputs of the Planning Phase to assess whether the phase goals have been achieved, and then requests approval from the Project Steering Committee to move on (p.53). Assessment and authorisation are two acts by two parties: the PSC authorises transition between phases unless the AGB does (p.25). A score is evidence offered to a decision, never the decision itself.",
+     "whyPlain": "At the second gate the Project Manager uses the results of the Planning Phase to judge whether the goals of the phase were reached, and then asks the Steering Committee to approve the move to the next phase (page 53). These are two separate acts by two parties. The Steering Committee authorises the change of phase, unless the governance body does it instead (page 25). A score is evidence given to a decision. It is never the decision.",
+     "ref": [
+      53,
+      "The Project Manager (PM) uses the outputs of the Planning Phase to assess whether the goals of this phase have been achieved, and then requests approval from the Project Steering Committee (PSC) to move on to the Executing Phase."
+     ]
+    },
+    {
+     "t": "Yes. Ninety-eight per cent puts the sheet at zero point nine on the template's own band, and zero point nine passes.",
+     "tPlain": "Yes. 98 per cent puts the sheet at 0.9 on the template's own scale, and 0.9 is a pass.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "The band is a status colour. It has no authority over anything. If ninety-eight passes on its own, then so does a hundred per cent of forty-three questions nobody asked properly.",
+      "plain": "The band is only a status colour. It has no authority. If 98 per cent were enough by itself, then so would be 100 per cent on 43 questions that nobody answered honestly."
+     },
+     "why": "The checklist is a template that can be used by the Project Manager to guide the assessment, alongside a review of the phase's specific goals (p.53). It carries no approval, no RASCI row and no threshold with force. Treating the band as a pass mark quietly transfers a governance decision from the Steering Committee to a spreadsheet formula.",
+     "whyPlain": "The checklist is a template the Project Manager may use to guide the assessment, together with a review of the goals of the phase (page 53). It carries no approval, no responsibility row, and no threshold with any authority. Treating the band as a pass mark quietly moves a governance decision from the Steering Committee into a spreadsheet formula.",
+     "ref": [
+      53,
+      "provides a template Phase Exit Review Checklist for each phase that can be used by the Project Manager (PM) to guide the assessment, alongside a review of the phase's specific goals."
+     ]
+    },
+    {
+     "t": "Not yet. The Outsourcing Plan check is only partial, so the Corporate Investment Board has to approve the transition as well.",
+     "tPlain": "Not yet. The Outsourcing Plan check is only partly answered, so the Corporate Investment Board must also approve the move.",
+     "ok": false,
+     "reply": {
+      "who": "medici",
+      "text": "You would be sending me a partial answer about a tender I already approved the method for. Send me deviations. Do not send me your homework.",
+      "plain": "You would be sending me a partial answer about a tender whose method I have already approved. Send me deviations. Do not send me your homework."
+     },
+     "why": "Additional AGB approval is triggered by one specific condition: major deviations from the approved Business Case and/or Project Charter (p.53). A partially answered checklist line is not a deviation. Cost, effort, duration and success criteria are all unchanged, so the transition is the Steering Committee's to authorise (p.25).",
+     "whyPlain": "Extra approval from the governance body is needed for one specific reason only: major differences from the approved Business Case or Project Charter (page 53). A partly answered checklist line is not such a difference. Cost, effort, duration and success criteria are all unchanged, so the Steering Committee authorises the move (page 25).",
+     "ref": [
+      53,
+      "If major deviations from the approved Business Case and/or Project Charter are identified, then the Project Steering Committee (PSC) must receive an additional approval from the Appropriate Governance Body (AGB) before the project can move on to the Executing Phase."
+     ]
+    },
+    {
+     "t": "Yes. I assessed readiness and I am satisfied, so the gate is mine to declare and the committee is being informed.",
+     "tPlain": "Yes. I assessed readiness and I am satisfied, so I declare the gate passed and the committee is informed.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "Then in 2028 the record shows a Project Manager who moved his own project to Executing. I would rather write down that eight people did it in nine minutes.",
+      "plain": "Then in 2028 the record will show a Project Manager who moved his own project into the Executing Phase. I would rather write that eight people decided it together in nine minutes."
+     },
+     "why": "The assessment is the Project Manager's; the approval is not. The PM requests approval from the PSC to move on to the Executing Phase (p.53), and the PSC authorises transition between phases unless the AGB does it (p.25). Declaring your own gate removes the only moment where people outside the project can decline to continue.",
+     "whyPlain": "The assessment belongs to the Project Manager. The approval does not. The Project Manager asks the Steering Committee for approval to move to the Executing Phase (page 53), and the Steering Committee authorises the change of phase unless the governance body does it (page 25). If you declare your own gate, you remove the only moment when people outside the project can say no.",
+     "ref": [
+      25,
+      "Authorises transition between Phases unless this is performed by the Appropriate Governance Body (AGB)."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Assesses whether the Planning goals were met and requests the transition from the PSC.",
+    "k": "Knows two of forty-three answers are partial and can say why in one sentence each.",
+    "w": "Wants the transition approved by the committee, on the record, with the partial answers intact.",
+    "f": "Afraid a good score is accepted as a decision and nobody actually votes."
+   },
+   "nightingale": {
+    "o": "Project Owner and chair. Authorises the transition to Executing unless the AGB does.",
+    "k": "Knows all four plans are approved, by four different approvers.",
+    "w": "Wants the kick-off date fixed before anyone leaves the room.",
+    "f": "Afraid another process step arrives between here and the tenth of July."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Approved nothing this phase; accountable for the deliverables from here on.",
+    "k": "Knows he supported one plan, reviewed another, and signed neither.",
+    "w": "Wants to understand what the compliance number is actually worth.",
+    "f": "Afraid the paperwork passes while the target architecture underneath it moves."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for the Business Implementation Plan, already approved by the PO.",
+    "k": "Now understands why four plans went to four different approvers.",
+    "w": "Wants her training budget to survive the transition into Executing untouched.",
+    "f": "Afraid business activities are the first thing re-planned when the contractor is late."
+   },
+   "medici": {
+    "o": "AGB chair. Accountable for the Outsourcing Plan; not the approver of this phase transition.",
+    "k": "Knows cost, effort, duration and success criteria are unchanged since March.",
+    "w": "Wants to establish that nothing here requires him, and then to leave.",
+    "f": "Afraid of being handed decisions that belong to the Steering Committee."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Assured the checklist answers; owns none of the decisions.",
+    "k": "Knows exactly which two answers are partial and why each one is honest.",
+    "w": "Wants the two partial answers stated aloud rather than absorbed into a percentage.",
+    "f": "Afraid the score becomes the record and the reasons disappear."
+   },
+   "gantt": {
+    "o": "Project Support Office. Runs the checklist review and minutes the transition decision.",
+    "k": "Knows the workbook is read again at the Closing gate and in the Project-End Report.",
+    "w": "Wants a clean decision line naming who authorised the move, and when.",
+    "f": "Afraid the minutes record a number instead of a decision."
+   },
+   "einstein": {
+    "o": "Architecture Office. Advises the committee on architecture; no vote, no accountability.",
+    "k": "Knows the target architecture behind the gateway interface is under review this autumn.",
+    "w": "Wants the dependency logged before it is discovered in the Executing Phase.",
+    "f": "Afraid an architectural change arrives as a surprise rather than as a Change Request."
+   },
+   "curie": {
+    "o": "User Representative. Consulted at the gate; verifies deliverables from Release 1 onward.",
+    "k": "Knows the checklist measures planning, not whether the platform will work.",
+    "w": "Wants somebody to admit out loud what the gate does not test.",
+    "f": "Afraid a passed gate is heard downstairs as a promise that the system is fine."
+   }
+  },
+  "unlock": [
+   27
+  ],
+  "note": "Guide check: section 6.9, p.53. RfE, Ready for Executing, is the second phase gate. The Project Manager uses the outputs of the Planning Phase to assess whether the goals of the phase have been achieved, and then requests approval from the Project Steering Committee to move on to the Executing Phase. If major deviations from the approved Business Case and/or Project Charter are identified, the PSC must receive an additional approval from the Appropriate Governance Body before the project can move on. PM² supplies a template Phase Exit Review Checklist per phase to guide the assessment alongside a review of the phase's specific goals; the Planning sheet runs to forty-three checks and its compliance percentage is a status indicator, not an authorisation. RASCI: none — the checklist has no row and nobody approves it. Approver of the transition: the Project Steering Committee, which authorises transition between phases unless the Appropriate Governance Body does (p.25). CASTOR baselined the Project Handbook and the Project Work Plan on 26 Jun 2026, cleared the RfE gate on 03 Jul 2026 and holds the Executing Kick-off Meeting on 10 Jul 2026. Pages 25 and 53.",
+  "notePlain": "Rule: Ready for Executing is the second gate (page 53). The Project Manager uses the results of the Planning Phase to judge whether the goals of that phase were reached, and then asks the Project Steering Committee to approve the move to the Executing Phase. If there are major differences from the approved Business Case or Project Charter, the Steering Committee must also get approval from the Appropriate Governance Body before the project may continue. PM² provides one Phase Exit Review Checklist template per phase, used together with a review of the goals of the phase. The Planning sheet has 43 checks. Its compliance percentage shows status. It does not authorise anything. There is no RASCI row for the checklist and nobody approves it. The move to the next phase is approved by the Project Steering Committee, which authorises transitions between phases unless the governance body does it instead (page 25). In Project CASTOR the Handbook and the Work Plan were baselined on 26 Jun 2026, the gate was passed on 03 Jul 2026, and the Executing Kick-off Meeting is on 10 Jul 2026. Pages 25 and 53."
+ }
+]

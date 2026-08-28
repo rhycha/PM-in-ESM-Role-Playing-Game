@@ -1,0 +1,2515 @@
+[
+ {
+  "id": "s01",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "Five days to move money",
+  "covers": [
+   "Initiating Phase"
+  ],
+  "guide_page": 31,
+  "where": "ESM, Kirchberg — Lending Operations, fourth floor",
+  "when": "08 Jan 2026, 07:55",
+  "cast": [
+   "you",
+   "hopper",
+   "curie"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Rain over the Kirchberg plateau, the kind that hangs rather than falls. Not light yet. The fourth floor has been switched on since half past six.",
+    "plain": "It is raining in Kirchberg. It is still dark outside. The lights on the fourth floor have been on since 06:30."
+   },
+   {
+    "who": "narr",
+    "text": "Grace Hopper is standing at a desk that is not hers, reading over Marie Curie's shoulder. Nobody has told you why you were asked to come up.",
+    "plain": "Grace Hopper stands behind Marie Curie and reads her screen. Nobody told you why you were asked to come to this floor."
+   },
+   {
+    "who": "hopper",
+    "mood": "dry",
+    "text": "You are the Project Support Office. Sit there. Ten minutes, then tell me whether I am exaggerating.",
+    "plain": "You work in the Project Support Office. Sit here. Watch for ten minutes. Then tell me if I am making this sound worse than it is.",
+    "ref": [
+     28,
+     "The Project Support Office (PSO) ... is an optional structure that can provide services to project teams such as the application of the methodology and use of the artefacts, information systems, governance, logistics and various support."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Exaggerating about what?",
+    "plain": "About what?"
+   },
+   {
+    "who": "hopper",
+    "text": "That is what the ten minutes are for.",
+    "plain": "That is what the ten minutes are for."
+   },
+   {
+    "who": "curie",
+    "mood": "flat",
+    "text": "Disbursement instruction. Third tranche, two hundred and fifty million. Value date Monday.",
+    "plain": "This is a disbursement instruction. It is the third part of a loan. The amount is 250 million euro. The money must be in the country's account on Monday.",
+    "g": [
+     [
+      "disbursement",
+      "paying out an agreed part of a loan to the borrower on a fixed date"
+     ],
+     [
+      "value date",
+      "the day the money must actually sit in the receiving account"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "It exists here, in LOS. Complete. Checked. Signed. Now watch.",
+    "plain": "The instruction is already in LOS, our lending system. It is complete, checked and signed. Now watch what I do next."
+   },
+   {
+    "who": "narr",
+    "text": "She opens the treasury system beside it and starts typing. Not fast. Field, glance, field.",
+    "plain": "She opens the treasury system next to it and types the same information again. She types slowly. One field, then a look at the first screen, then the next field."
+   },
+   {
+    "who": "you",
+    "text": "You are typing it again.",
+    "plain": "You are typing the same information a second time."
+   },
+   {
+    "who": "curie",
+    "text": "Twenty-two fields. Then a third time, into the payment gateway. Then the second officer reads all three against each other before the four o'clock cut-off.",
+    "plain": "Twenty-two fields. Then I type them a third time, into the payment gateway. Then a second officer compares all three versions before the 16:00 deadline."
+   },
+   {
+    "who": "you",
+    "text": "And if he disagrees with you?",
+    "plain": "What happens if he does not agree with you?"
+   },
+   {
+    "who": "curie",
+    "text": "Then one of us is wrong and we find out which. That is the control. A person. Reading.",
+    "plain": "Then one of us made a mistake and we find out who. That check is the control. It is one person reading the work of another. We call it four eyes.",
+    "g": [
+     [
+      "four-eyes principle",
+      "a rule that a second person must check and approve work before it takes effect"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "About fourteen hundred fields a quarter. We counted them. Audit made us count them.",
+    "plain": "About 1,400 fields every three months are typed again by hand. We counted them because the internal auditors asked us to.",
+    "ref": [
+     34,
+     "Identify measurable criteria that will be used to determine the success of the project."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Two findings, I heard.",
+    "plain": "I heard the auditors raised two findings."
+   },
+   {
+    "who": "hopper",
+    "text": "Segregation of duties is one. The trail is two. You can see what LOS holds this morning. You cannot always see who changed it, or when.",
+    "plain": "Yes. The first finding is about who is allowed to do which step. The second is about the record of changes. You can see what LOS contains today. You cannot always see who changed it, or when."
+   },
+   {
+    "who": "narr",
+    "text": "LOS was written in the EFSF era and extended every year since. Fourteen years. Three people in the building can read the parts that matter, and two of them are contractors.",
+    "plain": "LOS was built in the EFSF period, fourteen years ago, and changed every year since. Only three people here can read its most important parts. Two of them are contractors.",
+    "g": [
+     [
+      "EFSF",
+      "European Financial Stability Facility, the temporary euro area rescue fund that the ESM replaced"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Instruction to value date. How long?",
+    "plain": "How many days pass between the instruction and the day the money arrives?"
+   },
+   {
+    "who": "curie",
+    "text": "Five working days when nothing surprises us. Reconciliation afterwards, three more.",
+    "plain": "Five working days if nothing goes wrong. After the payment, reconciliation takes three more days.",
+    "g": [
+     [
+      "reconciliation",
+      "checking that the records of two systems match, and explaining every difference"
+     ]
+    ],
+    "ref": [
+     32,
+     "the document describes the impact the project is expected to bring and summarises the success criteria against which it will be evaluated"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And a new instrument means new code. The last one took nine months from decision to first disbursement.",
+    "plain": "And a new lending product means new software. The last one took nine months from the decision to the first payment."
+   },
+   {
+    "who": "you",
+    "text": "If the Treaty reform finishes ratifying, the common backstop arrives as a new instrument.",
+    "plain": "If the Treaty reform is approved by all member states, the common backstop will arrive as a new lending product."
+   },
+   {
+    "who": "hopper",
+    "mood": "dry",
+    "text": "Italy has not ratified, so it is planned rather than live and everybody is comfortable. The day it stops being planned we will have weeks and we will need nine months.",
+    "plain": "Italy has not approved the reform yet. So the backstop is only planned, not real, and nobody worries. On the day it becomes real we will have a few weeks, and we will need nine months."
+   },
+   {
+    "who": "curie",
+    "text": "Sorry. Cut-off.",
+    "plain": "Excuse me. I have to finish before the deadline."
+   },
+   {
+    "who": "you",
+    "text": "So what are you asking me for?",
+    "plain": "What do you want from me?"
+   },
+   {
+    "who": "hopper",
+    "text": "Nothing yet. I have half an hour of Florence tomorrow, and I wanted to be able to say I had shown this to somebody who does projects for a living.",
+    "plain": "Nothing yet. I have thirty minutes with Florence Nightingale tomorrow. I wanted to be able to say that I showed this to a project professional.",
+    "ref": [
+     31,
+     "This is an informal meeting, usually between the project initiator and the Project Owner (PO), and others who could potentially contribute to the creation of the Initiating Phase documents."
+    ]
+   },
+   {
+    "who": "curie",
+    "mood": "flat",
+    "text": "Show her the printout. She signs the exceptions every month. She has never once watched anybody type them.",
+    "plain": "Show her the paper. She signs the exception reports every month. She has never watched anyone type the payment by hand."
+   },
+   {
+    "who": "narr",
+    "text": "No project. No budget, no charter, no name, no team. A floor of people working around a problem, and a printout with twenty-two boxes on it.",
+    "plain": "There is no project yet. No money, no charter, no name, no team. There is only a floor of people working around a problem, and a paper with twenty-two boxes on it.",
+    "ref": [
+     31,
+     "It begins with the identification of a need, problem or opportunity, and ends with the establishment of the plans and processes needed to take the project forward."
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Nothing yet. A Project Manager employed in the Project Support Office, not assigned to this or any project.",
+    "k": "Knows LOS is old and slow. Has now seen the manual re-keying once, with numbers attached.",
+    "w": "Wants to know why the fourth floor asked for someone from the Project Support Office.",
+    "f": "Afraid of being used as decoration in somebody else's internal argument."
+   },
+   "hopper": {
+    "o": "Nothing formally. Senior Loan Operations Officer, and the person who will raise the request.",
+    "k": "Knows the field counts and both audit findings. Has no idea what a replacement costs.",
+    "w": "Wants a witness she can quote to Nightingale tomorrow afternoon.",
+    "f": "Afraid the thirty-minute slot produces sympathy and no decision."
+   },
+   "curie": {
+    "o": "Performs the disbursement by hand today. Loan Administration Officer in Lending Operations.",
+    "k": "Knows every manual step because she carries them out and signs for them.",
+    "w": "Wants Monday's value date met before the four o'clock cut-off.",
+    "f": "Afraid a new system quietly removes the second pair of eyes."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: the Initiating Phase begins with the identification of a need, problem or opportunity (p.31). Nothing here is a PM² project yet. No Project Initiation Request exists, so formally there is no Project Owner, no Solution Provider and no assigned Project Manager, and there is no RASCI row to sit in. You are a Project Manager employed in the Project Support Office, not the Project Manager of anything. Approver: none, because there is nothing to approve. Page 31.",
+  "notePlain": "Rule: a PM² project starts when someone identifies a need, a problem or an opportunity (page 31). Here that has happened, but nothing is written down. So there is no project yet: no Project Owner, no Solution Provider, no Project Manager. Nobody approves anything in this scene, because there is nothing to approve. You work in the Project Support Office. That is a support service, not a role on this project."
+ },
+ {
+  "id": "s02",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "Thirty minutes in B4-12",
+  "covers": [
+   "Initiating Meeting"
+  ],
+  "guide_page": 31,
+  "where": "ESM, Kirchberg — meeting room B4-12, the one with the video kit nobody trusts",
+  "when": "09 Jan 2026, 14:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "hopper",
+   "leonardo",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "B4-12 seats eight and has one screen that gives everybody a green cast. Leonardo da Vinci is two floors down and joins by video anyway, because the room he wanted was taken.",
+    "plain": "Room B4-12 has eight seats and one screen that makes everyone look green. Leonardo da Vinci works two floors below. He joins by video because the room he wanted was booked."
+   },
+   {
+    "who": "nightingale",
+    "mood": "impatient",
+    "text": "Thirty minutes. Funding plan at three, and I am not moving it.",
+    "plain": "You have thirty minutes. I have a funding meeting at 15:00 and I will not move it."
+   },
+   {
+    "who": "hopper",
+    "text": "Five working days to a value date. Three more to reconcile. Fourteen hundred fields a quarter, re-keyed by hand. Two audit findings, both sitting on LOS.",
+    "plain": "It takes five working days to pay money out, and three more days to check the records. Every three months staff type 1,400 fields again by hand. There are two open audit findings, both about LOS."
+   },
+   {
+    "who": "nightingale",
+    "text": "I have known that for two years.",
+    "plain": "I have known all of that for two years."
+   },
+   {
+    "who": "narr",
+    "text": "Leonardo's audio arrives about half a second after his mouth.",
+    "plain": "On the video screen, Leonardo's sound arrives about half a second after his lips move."
+   },
+   {
+    "who": "leonardo",
+    "text": "Four.",
+    "plain": "Four years."
+   },
+   {
+    "who": "nightingale",
+    "text": "What?",
+    "plain": "Sorry, what?"
+   },
+   {
+    "who": "leonardo",
+    "text": "IT has known for four. Fourteen years old, and every new instrument is bespoke code.",
+    "plain": "The IT division has known for four years. The system is fourteen years old, and every new lending product needs software written specially for it."
+   },
+   {
+    "who": "gantt",
+    "text": "Am I minuting this?",
+    "plain": "Should I write official minutes of this meeting?"
+   },
+   {
+    "who": "hopper",
+    "text": "There is nothing to minute. Write it in your own book.",
+    "plain": "There is nothing official to record yet. Just take notes for yourself.",
+    "ref": [
+     31,
+     "This is an informal meeting, usually between the project initiator and the Project Owner (PO), and others who could potentially contribute to the creation of the Initiating Phase documents."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "So we buy something. There are three vendors in this market and I could name all three from memory.",
+    "plain": "So we should buy a product. Three companies sell this kind of system, and I can name all three without looking."
+   },
+   {
+    "who": "leonardo",
+    "mood": "dry",
+    "text": "You could name them. Neither of us could yet say what we would be buying.",
+    "plain": "You can name them. But neither you nor I can yet say what exactly we would be buying."
+   },
+   {
+    "who": "hopper",
+    "text": "One instruction, entered once. Loan agreement to disbursement to repayment schedule, with nobody retyping it. Instruments configured, not coded. Reconciliation the same day. The word for it is straight-through processing.",
+    "plain": "One instruction, typed once. It travels from the loan agreement to the payment to the repayment schedule, and nobody types it again. New lending products are set up by configuration, not by new software. Records are checked the same day. The name for this is straight-through processing.",
+    "g": [
+     [
+      "straight-through processing",
+      "data passes from one system to the next automatically, with nobody typing it again"
+     ],
+     [
+      "payment gateway",
+      "the system that sends the payment message to the banks that move the money"
+     ]
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Cost.",
+    "plain": "What does it cost?"
+   },
+   {
+    "who": "leonardo",
+    "text": "Eight and a half. Give or take two.",
+    "plain": "About eight and a half million euro. The real figure could be two million higher or lower."
+   },
+   {
+    "who": "nightingale",
+    "text": "Two million.",
+    "plain": "Two million euro either way."
+   },
+   {
+    "who": "leonardo",
+    "text": "I would want six weeks with the payment gateway before I said anything firmer. It drops the value date if the instruction arrives after sixteen hundred, and nobody has ever written down why.",
+    "plain": "I would need six weeks looking at the payment gateway before I gave you a firmer number. If an instruction arrives after 16:00, the gateway loses the value date, and nobody ever wrote down the reason.",
+    "ref": [
+     32,
+     "The Project Initiation Request contains basic information about the estimated effort and cost of undertaking the project as well as the timeframe for its completion and the type of delivery."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Has the house done anything like this before?",
+    "plain": "Has this organisation done a project like this before?"
+   },
+   {
+    "who": "gantt",
+    "text": "Collateral register replacement, three years ago. I can pull the Project-End Report. Two pages of lessons learned. One page is entirely about business experts promised part-time who delivered part of part-time.",
+    "plain": "Yes. We replaced the collateral register three years ago. I can find the Project-End Report. It has two pages of lessons learned. One whole page is about business experts who were promised part-time and gave much less than that.",
+    "ref": [
+     31,
+     "Documentation and lessons learned from previous similar projects can also be used as input to this meeting."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "That one will happen to us. Print it.",
+    "plain": "That problem will happen to us too. Please print the report."
+   },
+   {
+    "who": "nightingale",
+    "text": "Twelve minutes.",
+    "plain": "You have twelve minutes left."
+   },
+   {
+    "who": "hopper",
+    "text": "Florence. Own this. Not supportive in corridors. Own it.",
+    "plain": "Florence, I need you to own this project. Not just to say kind things about it in the corridor. Own it."
+   },
+   {
+    "who": "nightingale",
+    "mood": "sharp",
+    "text": "Lending Operations pays for it, is blamed for it, and either gets the benefit or does not. Yes. I own it.",
+    "plain": "My division pays for it. My division is blamed if it fails. My division gets the benefit, or gets nothing. Yes. I own it.",
+    "g": [
+     [
+      "Project Owner",
+      "the client of the project, accountable for its success and for the benefits it should bring"
+     ]
+    ],
+    "ref": [
+     25,
+     "As the key Directing Layer role from the requestor side, the Project Owner (PO) is accountable for the overall project's success, and later becomes the owner of the project's outputs (product or service)."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Then IT provides. Whatever this turns out to be, my division builds it and I answer for what comes out of it.",
+    "plain": "Then the IT division will provide the solution. Whatever we decide to build, my division builds it, and I answer for the result.",
+    "g": [
+     [
+      "Solution Provider",
+      "the manager whose unit produces the project's deliverables and answers for them"
+     ]
+    ],
+    "ref": [
+     26,
+     "Assumes overall accountability for the project deliverables and services requested by the Project Owner (PO)."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Two names on a whiteboard with no document underneath them. Gantt writes them down anyway, in a notebook that is not an artefact of anything.",
+    "plain": "Two names are now on the whiteboard, but no document exists under them. Gantt writes them in his own notebook, which is not an official project document.",
+    "ref": [
+     32,
+     "The main beneficiary of the project's outputs usually nominates a Project Owner (PO). ... The organisational unit that will carry out the project work nominates a Solution Provider (SP)."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "You do this professionally, apparently. What happens next?",
+    "plain": "I am told this is your profession. What is the next step?"
+   }
+  ],
+  "choice": {
+   "prompt": "Florence has eight minutes left. What is the next step?",
+   "promptPlain": "Florence has eight minutes left. What do you tell her the next step is?",
+   "options": [
+    {
+     "t": "One page. A Project Initiation Request, asking only for permission to write a Business Case.",
+     "tPlain": "Write one page: a Project Initiation Request. It asks only for permission to write a Business Case.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "mood": "flat",
+      "text": "One page I can read before three o'clock. Draft it over the weekend and I will look at it Monday.",
+      "plain": "One page that I can read before 15:00. Write it this weekend and I will read it on Monday."
+     },
+     "why": "The Initiating Meeting is informal, between the initiator and the Project Owner plus anyone who can contribute, and its result is a decision to move forward with the creation of the Project Initiation Request (p.31). That request captures the situation and the desired outcomes, with high-level effort, cost, timeframe and type of delivery (p.32). Approving it authorises work on a more elaborate Business Case, and nothing else.",
+     "whyPlain": "This meeting is informal. Its only job is to agree the next step, and the next step is a Project Initiation Request (page 31). That request describes the problem and the wanted result, plus rough effort, cost, time and how the work will be delivered (page 32). Approving it only allows the team to write a Business Case. It approves nothing else.",
+     "ref": [
+      31,
+      "The result of this meeting is a better understanding of the context of the (future) project, as well as a decision to move forward with the creation of the Project Initiation Request."
+     ]
+    },
+    {
+     "t": "Book the Corporate Investment Board for Monday and ask Lorenzo de' Medici for eight and a half million.",
+     "tPlain": "Ask for a slot at the Corporate Investment Board on Monday, and ask Lorenzo de' Medici for eight and a half million euro.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "text": "With what? A photograph of a whiteboard. He would ask what he is buying and I would have nothing at all to hand him.",
+      "plain": "With what document? A photo of a whiteboard. He would ask what he is paying for, and I would have nothing to give him."
+     },
+     "why": "The governance body is the right one but the sequence is wrong. The Project Initiation Request is the vehicle that goes to the approver, informally to the Project Owner or formally to an Appropriate Governance Body (p.32). Arriving at a portfolio body with no request and no Business Case asks it to fund something nobody has yet described in writing.",
+     "whyPlain": "The committee is correct, but the order is wrong. The document that goes to an approver is the Project Initiation Request (page 32). Without it, and without a Business Case, you are asking a senior committee to pay for something that nobody has written down.",
+     "ref": [
+      32,
+      "Depending on the project, the Project Owner (PO) or a higher-level Appropriate Governance Body (AGB) can accept the Project Initiation Request and authorise work on a more elaborate Business Case."
+     ]
+    },
+    {
+     "t": "Give me six weeks and I will bring you a fully costed Business Case with options.",
+     "tPlain": "Ask for six weeks, then bring back a complete Business Case with costed options.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "Six weeks of whose time, on whose authority? Nothing has been approved. You would be spending a budget that does not exist.",
+      "plain": "Six weeks of whose working time, approved by whom? Nothing has been approved yet. You would be spending money that has not been given to you."
+     },
+     "why": "The Business Case comes second and its input is the Project Initiation Request (p.34). It is also not the Project Manager's document: the Business Manager is Responsible and the Project Owner Accountable, with the PM only Supporting, and the PM is typically not even assigned until after the Business Case is approved (pp.32, 35).",
+     "whyPlain": "The Business Case comes after the Project Initiation Request, and uses it as input (page 34). It is also not your document. The Business Manager writes it, the Project Owner is accountable for it, and the Project Manager only helps. A Project Manager is usually assigned only after it is approved (pages 32 and 35).",
+     "ref": [
+      34,
+      "Inputs • Project Initiation Request"
+     ]
+    },
+    {
+     "t": "Minute this as the project kick-off, open the Risk Log and run a risk workshop next week.",
+     "tPlain": "Record this meeting as the official project start, open the Risk Log, and hold a risk workshop next week.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "Kick-off for what? There is no charter to kick off and no team to invite.",
+      "plain": "The start of what? There is no charter yet, and there is no team to invite."
+     },
+     "why": "The Initiating Meeting is informal by design (p.31). The Planning Kick-off Meeting is a different, formal meeting that opens the Planning Phase after the RfP gate (p.40). The Risk, Issue and Decision Logs are set up during Initiating, but they attach to a project that has at least been requested (p.31).",
+     "whyPlain": "This meeting is meant to be informal (page 31). The Planning Kick-off Meeting is a different, formal meeting that starts the Planning Phase, after the first gate (page 40). The Risk, Issue and Decision Logs are opened during Initiating, but only for a project that has been requested (page 31).",
+     "ref": [
+      31,
+      "Some of the Project Logs are also set up (i.e. Risk Log, Issue Log, Decision Log) while the Change Log is typically set up during the Planning Phase."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Still nobody's Project Manager. Present as a Project Support Office adviser on what to do next.",
+    "k": "Knows the numbers from yesterday, plus that IT has an indicative figure near eight and a half million.",
+    "w": "Wants the meeting to end with one named next step rather than general agreement.",
+    "f": "Afraid Nightingale goes straight to a tender and nobody ever writes the problem down."
+   },
+   "nightingale": {
+    "o": "From this meeting, Project Owner. Accountable for the project's success and for the benefits.",
+    "k": "Knows the operational pain in detail. Has heard a cost corridor, not a cost.",
+    "w": "Wants both audit findings closed and wants to be out by three o'clock.",
+    "f": "Afraid this becomes an IT project she cannot steer."
+   },
+   "hopper": {
+    "o": "Initiator of the request. Business Manager from this meeting onward.",
+    "k": "Knows the current process end to end. Does not yet know the delivery model.",
+    "w": "Wants Nightingale to say the word own, out loud, in front of Leonardo.",
+    "f": "Afraid of being made the owner of a problem she cannot fund."
+   },
+   "leonardo": {
+    "o": "From this meeting, Solution Provider. Accountable for whatever gets built.",
+    "k": "Knows the LOS code base and the payment gateway's undocumented behaviour.",
+    "w": "Wants six weeks of analysis before anyone quotes a number he will be held to.",
+    "f": "Afraid a corridor figure becomes a promise the moment it is written down."
+   },
+   "gantt": {
+    "o": "Project Support Office. Not yet supporting a project, because no project exists.",
+    "k": "Knows where the collateral register Project-End Report is filed.",
+    "w": "Wants to know whether this meeting is official, so he knows what to record.",
+    "f": "Afraid decisions are being taken in rooms that produce no record."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 5.1, p.31. The Initiating Meeting is informal, usually between the project initiator and the Project Owner, plus others who could contribute to the Initiating Phase documents. Its goal is to introduce pre-project information and discuss next steps, and lessons learned from previous similar projects are a legitimate input. Its output is not a document but a shared understanding and a decision to create the Project Initiation Request. RASCI row: none, because there is not yet a project to have roles in. Approver: nobody. Page 31.",
+  "notePlain": "Rule: the Initiating Meeting is informal. It is usually the person raising the idea, the Project Owner, and anyone who can help write the first documents. Its purpose is to share what is already known and agree the next step. Reports and lessons learned from earlier, similar projects can be used here. The result is not a document. It is a decision to write the Project Initiation Request. There is no RASCI row and no approver, because there is no project yet. Page 31."
+ },
+ {
+  "id": "s03",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "Whose name goes at the top",
+  "covers": [
+   "Project Initiation Request"
+  ],
+  "guide_page": 32,
+  "where": "ESM, Kirchberg — Grace Hopper's office, Lending Operations",
+  "when": "12 Jan 2026, 08:40",
+  "cast": [
+   "you",
+   "hopper",
+   "nightingale",
+   "gantt",
+   "gutenberg"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Monday. Sleet that cannot commit. Grace's office holds two chairs, a wall of loan files and a screen with an empty template on it.",
+    "plain": "It is Monday. Wet snow is falling. Grace Hopper's office has two chairs, a wall of loan files, and a screen showing an empty template."
+   },
+   {
+    "who": "hopper",
+    "text": "Three o'clock. One page. She said one page and she meant one page.",
+    "plain": "The deadline is 15:00. One page. Florence said one page and she meant it."
+   },
+   {
+    "who": "you",
+    "text": "What is it called?",
+    "plain": "What is the project called?"
+   },
+   {
+    "who": "hopper",
+    "mood": "amused",
+    "text": "CASTOR. Renewal of the Lending Operations System. A castor is a beaver. It builds things and it works at night. The name is provisional, and everything provisional survives forever.",
+    "plain": "CASTOR. The full title is Renewal of the Lending Operations System. A castor is a beaver. It builds things and it works at night. The name is temporary, and temporary names usually last for ever."
+   },
+   {
+    "who": "narr",
+    "text": "Leonardo's estimate arrives at 09:12. Three thousand one hundred person-days. Around eight point four million all in. Twenty-six months. He has written the word indicative twice.",
+    "plain": "Leonardo's estimate arrives by email at 09:12. It says 3,100 person-days, about 8.4 million euro in total, and 26 months. He wrote the word indicative twice, meaning it is only a rough figure.",
+    "g": [
+     [
+      "person-day",
+      "one person working for one day; the unit used to measure project effort"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Type of delivery. In-house, outsourced, mix, or not known.",
+    "plain": "Next box: type of delivery. The choices are in-house, outsourced, a mix of both, or not known yet.",
+    "g": [
+     [
+      "type of delivery",
+      "how the work will be done: in-house, outsourced, a mix, or not yet decided"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Mix. In-house core team, outsourced platform implementation.",
+    "plain": "A mix. Our own core team, and an outside company to install and configure the platform."
+   },
+   {
+    "who": "narr",
+    "text": "Florence puts her head round the door on her way to something else and does not come in.",
+    "plain": "Florence looks in through the door on her way somewhere else. She does not come into the room."
+   },
+   {
+    "who": "nightingale",
+    "text": "Fifteenth of May 2028. Write it down.",
+    "plain": "The delivery date is 15 May 2028. Write that down."
+   },
+   {
+    "who": "hopper",
+    "text": "That is a need, not a promise.",
+    "plain": "That is what you need, not what we promise."
+   },
+   {
+    "who": "nightingale",
+    "text": "Write it down.",
+    "plain": "Write it down anyway."
+   },
+   {
+    "who": "hopper",
+    "text": "It goes in as a target delivery date. The day it becomes a promise there will be a Charter under it.",
+    "plain": "I will write it in the box called target delivery date. It becomes a promise only when a Project Charter supports it.",
+    "ref": [
+     32,
+     "The Project Initiation Request contains basic information about the estimated effort and cost of undertaking the project as well as the timeframe for its completion and the type of delivery."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Success criteria. Five days to one. Three days to same day. Nine months to six weeks. Two open findings to zero.",
+    "plain": "Now the success criteria. Paying out: from five working days to one. Reconciliation: from three days to the same day. Adding a new lending product: from nine months to six weeks. Open audit findings: from two to zero."
+   },
+   {
+    "who": "you",
+    "text": "Not the fourteen hundred fields?",
+    "plain": "Should we not also include the 1,400 re-typed fields?"
+   },
+   {
+    "who": "hopper",
+    "text": "Business Case, with Ada's process map under it. High level here, or the page becomes four pages and nobody reads any of them.",
+    "plain": "That belongs in the Business Case, with Ada Lovelace's process map to support it. This document stays at a high level. Otherwise one page becomes four and nobody reads any of them.",
+    "g": [
+     [
+      "Business Case",
+      "the document that compares options, justifies the money and recommends one solution"
+     ]
+    ],
+    "ref": [
+     32,
+     "Ensure all the relevant information is included, but at this point limit details to high-level information—finer points will be added in the form of the Business Case and other Project artefacts."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Risks.",
+    "plain": "What about the risks?"
+   },
+   {
+    "who": "hopper",
+    "text": "Ratification. The backstop stays a planned capability rather than a live one, so the scope can move under us.",
+    "plain": "The main risk is ratification. The common backstop is only planned, not yet real. So the size of the job can change while we work."
+   },
+   {
+    "who": "nightingale",
+    "mood": "sharp",
+    "text": "Do not put Italy in a document that goes to the Investment Board.",
+    "plain": "Do not name Italy in a document that goes to the Corporate Investment Board."
+   },
+   {
+    "who": "hopper",
+    "text": "It is in the public ratification table. He can read it there, or he can read it from us.",
+    "plain": "The information is already public, in the official ratification table. Lorenzo can read it there, or he can read it in our document."
+   },
+   {
+    "who": "narr",
+    "text": "Johannes Gutenberg is in the doorway holding a printout nobody asked him for.",
+    "plain": "Johannes Gutenberg stands in the doorway. He is holding a printed page that nobody asked him to bring."
+   },
+   {
+    "who": "gutenberg",
+    "text": "Before anybody signs anything. Where does this live? Version 1.0, project folder, document location filled in. Not an attachment in three mailboxes with three different dates on it.",
+    "plain": "Before anyone signs: where will this document be stored? Mark it version 1.0, put it in the project folder, and fill in the document location box. It must not exist as an email attachment in three mailboxes with three different dates.",
+    "ref": [
+     28,
+     "Manages the project documentation (versioning, archiving, etc.)."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Hello, Johannes. You did not say hello.",
+    "plain": "Hello, Johannes. You started talking without saying hello."
+   },
+   {
+    "who": "nightingale",
+    "text": "I could accept this myself and we would be finished by lunch.",
+    "plain": "I could approve this document myself, and we would be finished before lunch."
+   },
+   {
+    "who": "gantt",
+    "text": "For a smaller request, yes. At eight point four million the approving authority is the Corporate Investment Board, chaired by Lorenzo de' Medici.",
+    "plain": "For a smaller request, yes. At 8.4 million euro the approver is the Corporate Investment Board, which Lorenzo de' Medici chairs.",
+    "g": [
+     [
+      "Appropriate Governance Body",
+      "the senior committee that approves projects, agrees their objectives and releases the money"
+     ]
+    ],
+    "ref": [
+     32,
+     "Know your audience: Depending on the project size and the organisation's approval process, approval can be informal (i.e. the Project Owner (PO) accepts it), or formal (i.e. an Appropriate Governance Body (AGB) reviews and approves it)."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And it does not ask him for eight point four million. It asks him to let us spend six weeks finding out whether eight point four is the right number.",
+    "plain": "And the document does not ask him for 8.4 million euro. It asks him to let us spend six weeks finding out whether 8.4 million is the right figure.",
+    "ref": [
+     32,
+     "Depending on the project, the Project Owner (PO) or a higher-level Appropriate Governance Body (AGB) can accept the Project Initiation Request and authorise work on a more elaborate Business Case."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Then somebody write it.",
+    "plain": "Then one of you write it."
+   }
+  ],
+  "choice": {
+   "prompt": "Florence is holding the pen out. Who writes the Project Initiation Request?",
+   "promptPlain": "Florence is offering the pen. Who should write the Project Initiation Request?",
+   "options": [
+    {
+     "t": "Grace writes it. She raised it and she is the Business Manager. I sit beside her with the template.",
+     "tPlain": "Grace Hopper writes it. She raised the problem and she is the Business Manager. You sit next to her with the template.",
+     "ok": true,
+     "reply": {
+      "who": "hopper",
+      "text": "Then sit down. There are four boxes I cannot fill without you. Type of delivery, effort, approving authority, and what actually happens after they say yes.",
+      "plain": "Then sit down. I cannot fill in four boxes without you: type of delivery, effort, who approves it, and what happens after they agree."
+     },
+     "why": "Anyone can introduce a Project Initiation Request, but in many cases the Project Owner delegates its creation to the Business Manager (p.32). The RASCI row is BM Responsible, PO Accountable and Supporting, BIG Supports and is Consulted, AGB and SP Informed, PSC and PM not applicable (p.33). Sitting beside her with the template is exactly the support a Project Manager can give without taking the pen.",
+     "whyPlain": "Anyone may raise a Project Initiation Request. In practice the Project Owner asks the Business Manager to write it (page 32). In the RASCI table the Business Manager is Responsible and the Project Owner is Accountable; the Project Manager has no letter at all (page 33). Helping with the template is support. Taking the pen is not.",
+     "ref": [
+      32,
+      "Note that though anyone can initiate a Project Initiation Request, in many cases the Project Owner (PO) delegates its creation to the Business Manager (BM)."
+     ]
+    },
+    {
+     "t": "I take it. I know the template and I can have a clean draft by tonight.",
+     "tPlain": "You write it yourself. You know the template and can finish a clean draft tonight.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "mood": "dry",
+      "text": "You could. Then the one document that says what Lending Operations needs would be written by somebody who has never made a disbursement.",
+      "plain": "You could. Then the only document describing what Lending Operations needs would be written by a person who has never paid money out."
+     },
+     "why": "The Project Manager is n.a. on this RASCI row, and for a good reason: the PM is normally not yet assigned, and is appointed by the Solution Provider after the Business Case is approved (pp.32, 33). A request written by the provider side describes a solution instead of a need, and the requesting organisation stops owning it.",
+     "whyPlain": "In the RASCI table the Project Manager has no role on this document (page 33). Usually no Project Manager exists yet: the Solution Provider appoints one after the Business Case is approved (page 32). If the provider side writes the request, it describes a solution instead of a need, and the business stops owning the problem.",
+     "ref": [
+      33,
+      "Project Initiation Request  I  n.a.  A/S  R  S/C  I  n.a.  n.a."
+     ]
+    },
+    {
+     "t": "Leonardo's division writes it. It is a system replacement and IT owns the estimates.",
+     "tPlain": "Leonardo's IT division writes it, because this replaces a system and IT owns the cost estimates.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "mood": "sharp",
+      "text": "It is not Leonardo's system. It is my division's process. If IT writes the request, the Investment Board will ask why the business did not.",
+      "plain": "The system is not Leonardo's. The process is my division's. If IT writes the request, the Corporate Investment Board will ask why the business did not write it."
+     },
+     "why": "The Solution Provider is Informed on this artefact (p.33). The request comes from the side with the problem: the main beneficiary nominates the Project Owner, and the unit that will carry out the work nominates the SP (p.32). The SP sanity-checks effort and cost; it does not author the need.",
+     "whyPlain": "On this document the Solution Provider is only Informed (page 33). The request comes from the side that has the problem. The main beneficiary names the Project Owner; the unit that will do the work names the Solution Provider (page 32). The provider checks the effort figures. It does not write the need.",
+     "ref": [
+      32,
+      "The main beneficiary of the project's outputs usually nominates a Project Owner (PO)."
+     ]
+    },
+    {
+     "t": "I write it and Grace puts her name on it. Same document, half the time.",
+     "tPlain": "You write it and Grace signs it. The document is the same and it takes half the time.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "mood": "flat",
+      "text": "Same words, different document. If I only sign it, then when Lorenzo asks me why the target date is May, I will be reading my own page to find out.",
+      "plain": "The words would be the same, but the document would not. If I only sign it, then when Lorenzo asks me why the date is May, I will have to read my own page to find the answer."
+     },
+     "why": "Responsible means does the work, and there is just one responsible person for any given task (p.29). Ghost-writing puts the wrong name against the wrong letter on day one, and every later artefact inherits it: the Business Case is drafted from this request, and the Charter from both (p.32).",
+     "whyPlain": "Responsible means the person who does the work, and there is only one such person per task (page 29). If someone else writes it, the wrong name sits against the wrong letter from day one. The Business Case is written from this request, and the Charter from both, so the error is copied forward (page 32).",
+     "ref": [
+      29,
+      "Responsible — Does the work. Others can be asked to assist in a supporting role. There is just one responsible person for any given task."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Supporting the drafting. Still assigned to nothing: the request has no Project Manager row.",
+    "k": "Knows the effort, cost and delivery model. Knows the approval route runs through the Investment Board.",
+    "w": "Wants the pen to stay with Hopper while still filling the four boxes she cannot.",
+    "f": "Afraid of writing the business's own request for it and owning a need that is not yours."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the request and supporting its drafting.",
+    "k": "Knows the target date she wants. Has not read Leonardo's estimate mail.",
+    "w": "Wants the request accepted today, ideally by herself, and Italy left out of it.",
+    "f": "Afraid a written risk about ratification becomes a reason to wait."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for producing the Project Initiation Request.",
+    "k": "Knows what the page must contain and what must be kept out of it.",
+    "w": "Wants one page finished by three o'clock without four pages of detail creeping in.",
+    "f": "Afraid the request quietly turns into a promise of 15 May 2028."
+   },
+   "gantt": {
+    "o": "Project Support Office. Advises on the approval route and keeps the record.",
+    "k": "Knows the delegation thresholds and which committee approves at this amount.",
+    "w": "Wants the correct approving authority written in the box before anyone signs.",
+    "f": "Afraid an informal acceptance is later found to have been outside Nightingale's authority."
+   },
+   "gutenberg": {
+    "o": "Document Management Officer. Versions, storage location, retention.",
+    "k": "Knows the collateral register project ended with six versions of one file.",
+    "w": "Wants a version number and a document location before the file leaves this room.",
+    "f": "Afraid the founding document of the project exists only as an email attachment."
+   }
+  },
+  "unlock": [
+   1
+  ],
+  "note": "Guide check: section 5.2, pp.32-33. The Project Initiation Request formalises initiation by capturing the situation and the desired outcomes, plus high-level effort, cost, timeframe, type of delivery, impact, success criteria, strategic fit, assumptions, constraints and risks. Keep it high level: finer points belong to the Business Case. RASCI: AGB I, PSC n.a., PO A/S, BM R, BIG S/C, SP I, PM n.a., PCT n.a. Approver: the Project Owner informally, or an Appropriate Governance Body formally. Here the amount pushes it to the Corporate Investment Board. Pages 32-33.",
+  "notePlain": "Rule: the Project Initiation Request is the first document. It records the problem and the wanted result, plus rough effort, cost, timing, type of delivery, impact, success criteria, strategic fit, assumptions, constraints and risks. It stays short. Details go in the Business Case later. RASCI: Business Manager Responsible; Project Owner Accountable and supporting; Business Implementation Group supports and is consulted; the governance body and Solution Provider are informed; the Project Manager has no role. Approver: the Project Owner for a small request, or a senior governance body for a large one. Here it is the Corporate Investment Board. Pages 32 and 33."
+ },
+ {
+  "id": "s04",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "Item seven, eleven minutes",
+  "covers": [
+   "Project Initiation Request"
+  ],
+  "guide_page": 33,
+  "where": "ESM, Kirchberg — Corporate Investment Board, room A1-02",
+  "when": "22 Jan 2026, 11:00",
+  "cast": [
+   "you",
+   "medici",
+   "nightingale",
+   "leonardo",
+   "hopper"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "A1-02 is the good room. Working screen, working microphones, a table for twenty-two. Lorenzo de' Medici chairs. There are nine items this morning. CASTOR is item seven and has eleven minutes.",
+    "plain": "Room A1-02 is the best room. The screen works, the microphones work, and the table seats twenty-two. Lorenzo de' Medici is the chair. There are nine items today. CASTOR is item seven and has eleven minutes."
+   },
+   {
+    "who": "medici",
+    "mood": "dry",
+    "text": "One page. Thank you for the one page. Most people bring me forty and hope.",
+    "plain": "One page. Thank you for keeping it to one page. Most people bring forty pages and hope for the best."
+   },
+   {
+    "who": "medici",
+    "text": "Fourteen-year-old system, two open audit findings, three thousand one hundred person-days, eight point four million, twenty-six months, delivery mix. Florence. Before you begin. What am I approving?",
+    "plain": "A fourteen-year-old system. Two open audit findings. 3,100 person-days, 8.4 million euro, 26 months, mixed delivery. Florence, before you start: what exactly am I approving?"
+   },
+   {
+    "who": "nightingale",
+    "text": "The replacement of a system that is —",
+    "plain": "You are approving the replacement of a system that is..."
+   },
+   {
+    "who": "medici",
+    "text": "No. What am I approving today?",
+    "plain": "No. What am I approving today, in this meeting?"
+   },
+   {
+    "who": "hopper",
+    "text": "Authority to write a Business Case. Not the money, not a platform, not a supplier.",
+    "plain": "Permission to write a Business Case. Not the money, not a product, not a supplier.",
+    "ref": [
+     32,
+     "Depending on the project, the Project Owner (PO) or a higher-level Appropriate Governance Body (AGB) can accept the Project Initiation Request and authorise work on a more elaborate Business Case."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Good. If I released eight point four million against a page and a half, the Board of Directors would be entitled to ask what I am for.",
+    "plain": "Good. If I released 8.4 million euro on the basis of one and a half pages, the Board of Directors could reasonably ask why my committee exists.",
+    "g": [
+     [
+      "Board of Directors",
+      "one director for each euro area member state; takes the ESM's day-to-day decisions"
+     ]
+    ],
+    "ref": [
+     24,
+     "In terms of projects, this is the body with the authority to approve a project, agree its stated objective and release the funding required to implement it."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "And for the Board, in one sentence: this is administrative budget. It does not touch the lending capacity and it does not touch paid-in capital. Somebody always asks.",
+    "plain": "And for the Board of Directors, in one sentence: this money comes from our own running costs. It does not reduce how much we can lend, and it does not touch the paid-in capital. Somebody always asks that question.",
+    "g": [
+     [
+      "paid-in capital",
+      "money the member states have actually paid in; it backs the bonds the ESM issues"
+     ],
+     [
+      "administrative budget",
+      "the ESM's own running costs, kept separate from the money it lends to countries"
+     ]
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Second question, and you will keep hearing it from me. The envelope was allocated in October. Nothing in this room is free. What leaves the portfolio to make room?",
+    "plain": "Second question, and I will ask it every time. The investment budget was shared out in October. Nothing here is free. What comes out of the portfolio to make space for this?"
+   },
+   {
+    "who": "nightingale",
+    "text": "The audit findings do not leave. They are already ours, and they get older.",
+    "plain": "The audit findings will not go away. They are already our problem, and they get older every year."
+   },
+   {
+    "who": "medici",
+    "text": "That is an argument for doing it. It is not an answer to the question I asked.",
+    "plain": "That is a reason to do the project. It is not an answer to my question."
+   },
+   {
+    "who": "leonardo",
+    "text": "You could slip the reporting warehouse refresh by twelve months.",
+    "plain": "You could delay the reporting warehouse upgrade by twelve months."
+   },
+   {
+    "who": "leonardo",
+    "text": "I would rather you had not heard that from me.",
+    "plain": "I would prefer that you had not heard that suggestion from me."
+   },
+   {
+    "who": "medici",
+    "text": "I will hear it from the Business Case, costed, with the consequence written next to it. In March. Not today.",
+    "plain": "I will hear it from the Business Case, with a price and with the consequence written beside it. In March. Not today.",
+    "ref": [
+     34,
+     "synergies and interdependencies with other projects and initiatives"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Nobody else writes that down. You write it down.",
+    "plain": "Nobody else in the room writes that instruction down. You do."
+   },
+   {
+    "who": "medici",
+    "text": "You, at the end, with the pen. You are not on my list.",
+    "plain": "You, at the end of the table, with the pen. Your name is not on my attendance list."
+   },
+   {
+    "who": "you",
+    "text": "Project Support Office. Carrying the folder and taking the notes nobody else is taking.",
+    "plain": "I am from the Project Support Office. I carry the file and I take the notes that nobody else is taking."
+   },
+   {
+    "who": "medici",
+    "mood": "dry",
+    "text": "Then take them accurately. In March that page is the difference between a decision and a preference.",
+    "plain": "Then take them accurately. In March, that page will decide whether we have a real decision or only an opinion."
+   },
+   {
+    "who": "medici",
+    "text": "Who sits on your steering committee?",
+    "plain": "Who are the members of your steering committee?"
+   },
+   {
+    "who": "nightingale",
+    "text": "There is no steering committee. There is no project.",
+    "plain": "There is no steering committee. There is no project yet."
+   },
+   {
+    "who": "medici",
+    "text": "Then assemble a preliminary one before the Business Case reaches me. I would like somebody who understands lending to have read it before I do.",
+    "plain": "Then set up a first version of one before the Business Case comes to me. I want someone who understands lending to read it before I do.",
+    "g": [
+     [
+      "Project Steering Committee",
+      "the project's decision and issue-resolution body, chaired by the Project Owner"
+     ]
+    ],
+    "ref": [
+     34,
+     "Approver — A preliminary Project Steering Committee (PSC) or a higher-level Appropriate Governance Body (AGB)"
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Leonardo. Project Manager?",
+    "plain": "Leonardo, who will be the Project Manager?"
+   },
+   {
+    "who": "leonardo",
+    "text": "After the Business Case. I have somebody in mind.",
+    "plain": "I will appoint one after the Business Case is approved. I already have someone in mind.",
+    "ref": [
+     32,
+     "The Solution Provider (SP) assigns the Project Manager (PM) and the Project Core Team (PCT). The Project Manager (PM) is typically assigned after the Business Case is approved (or at the latest before the completion of the Project Charter)"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Item seven carries at 11:14. The Project Initiation Request of 12 January is approved and the Board moves to item eight, which is about bicycle parking.",
+    "plain": "Item seven is approved at 11:14. The Project Initiation Request of 12 January is accepted. The committee moves to item eight, which is about bicycle parking.",
+    "ref": [
+     33,
+     "Project Initiation Request  I  n.a.  A/S  R  S/C  I  n.a.  n.a."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "You leave A1-02 with authority to spend six weeks. The project still does not exist.",
+    "plain": "You leave room A1-02 with permission to spend six weeks of work. The project still does not formally exist."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Note-taker. Not yet assigned to the project, and not on the attendance list.",
+    "k": "Now knows the chair's standing question: what leaves the portfolio to make room.",
+    "w": "Wants Medici's March instruction captured verbatim, because nobody else is capturing it.",
+    "f": "Afraid the only record of this meeting is a page in your own notebook."
+   },
+   "medici": {
+    "o": "Chairs the Appropriate Governance Body. Approves projects, agrees objectives, releases funding.",
+    "k": "Knows the 2026 envelope was allocated in October and is fully committed.",
+    "w": "Wants to know what he stops funding, and wants it costed in March.",
+    "f": "Afraid of approving an amount before anyone has priced what it displaces."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the request she has submitted upward.",
+    "k": "Knows the operational case cold. Has no answer to the portfolio question.",
+    "w": "Wants a yes today so the six weeks can start.",
+    "f": "Afraid the trade-off question is a polite way of saying no in March."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Will assign the Project Manager and the Project Core Team.",
+    "k": "Knows which other IT programme could be slipped, and what slipping it costs.",
+    "w": "Wants not to be the person who names the sacrifice out loud.",
+    "f": "Afraid the reporting warehouse delay is remembered as his idea in November."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for the request and, next, for the Business Case.",
+    "k": "Knows exactly how small the ask is, and keeps it that size.",
+    "w": "Wants the room to hear that nobody is asking for 8.4 million today.",
+    "f": "Afraid the six weeks are granted without any budget holder attached."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: pp.32-33. Approving a Project Initiation Request authorises work on a more elaborate Business Case. It does not approve the project, the budget or a solution. RASCI: AGB I, PSC n.a., PO A/S, BM R, BIG S/C, SP I, PM n.a., PCT n.a. The AGB is Informed because it takes no part in drafting; the approval route is a separate question, and the guide allows either informal acceptance by the Project Owner or formal review and approval by an AGB. The PSC is n.a. because it does not exist yet, which is why Medici asks for a preliminary one before the Business Case reaches him. The Solution Provider assigns the Project Manager, typically after the Business Case is approved. Pages 32-33, with the approver rule on p.34.",
+  "notePlain": "Rule: approving a Project Initiation Request only allows work on a Business Case. It does not approve the project, the money or a solution. In the RASCI table the governance body is only Informed, because it does not help write the document. Approving it is a separate matter: the Project Owner may accept a small request, or a senior body may formally approve a large one. There is no Project Steering Committee row, because no committee exists yet. That is why Medici asks for a first one before the Business Case arrives. The Solution Provider appoints the Project Manager, normally after the Business Case is approved. Pages 32, 33 and 34."
+ },
+ {
+  "id": "s05",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "Three ways to spend eight point four million",
+  "covers": [
+   "Business Case"
+  ],
+  "guide_page": 34,
+  "where": "ESM, Kirchberg — the file room on the fourth floor, in use as a project room",
+  "when": "24 Feb 2026, 16:20",
+  "cast": [
+   "you",
+   "hopper",
+   "lovelace",
+   "tesla",
+   "einstein",
+   "nightingale"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The file room has no window and the best whiteboard on the floor. Ada Lovelace has taped six process maps to a cabinet and numbered them in the corner.",
+    "plain": "The file room has no window and the best whiteboard on the floor. Ada Lovelace has taped six process diagrams to a cupboard and numbered each one in the corner."
+   },
+   {
+    "who": "lovelace",
+    "text": "Forty-one steps from signed loan agreement to value date. Nine of them exist only because two systems cannot speak to each other.",
+    "plain": "There are 41 steps between the signed loan agreement and the day the money arrives. Nine of those steps exist only because two systems cannot exchange data."
+   },
+   {
+    "who": "lovelace",
+    "text": "Step thirty-one. The back office telephones treasury to confirm the nostro is funded. Telephones.",
+    "plain": "Look at step 31. The back office telephones the treasury team to confirm that the nostro account has enough money. By telephone.",
+    "g": [
+     [
+      "back office",
+      "the team that settles, confirms and records payments after the deal is agreed"
+     ],
+     [
+      "nostro account",
+      "the ESM's own account held at another bank, used to send and receive payments"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "That is 2.2, current situation impact. It stays, with the number on it.",
+    "plain": "That belongs in section 2.2, the impact of the current situation. It stays in the document, with the figure attached.",
+    "ref": [
+     34,
+     "The main project aspects to be analysed and presented are: • the project's justification and impact"
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "Before you bury B, let me defend it.",
+    "plain": "Before you throw away option B, let me argue for it."
+   },
+   {
+    "who": "hopper",
+    "text": "Nobody is burying anything.",
+    "plain": "Nobody is throwing anything away."
+   },
+   {
+    "who": "tesla",
+    "text": "We re-platform LOS and extend it. The knowledge stays in this building. And nothing you buy will do our value-date logic. Nothing.",
+    "plain": "Option B is to rebuild LOS on new technology and extend it. The knowledge stays inside this organisation. And no product you can buy will handle our value-date rules correctly. None of them."
+   },
+   {
+    "who": "einstein",
+    "text": "Which problem does that solve?",
+    "plain": "Which problem does option B solve?"
+   },
+   {
+    "who": "tesla",
+    "text": "Continuity.",
+    "plain": "It keeps things running as they are."
+   },
+   {
+    "who": "einstein",
+    "text": "The problem on the wall is bespoke code for every instrument. B keeps it.",
+    "plain": "The problem written on the wall is that every new lending product needs software written specially for it. Option B does not remove that."
+   },
+   {
+    "who": "tesla",
+    "text": "B keeps it cheaper.",
+    "plain": "Option B keeps that problem, but at a lower price."
+   },
+   {
+    "who": "hopper",
+    "text": "Then that is B's weakness, it goes in B's SWOT, and B stays in the document. It is a real option. It is simply not the recommendation.",
+    "plain": "Then that is the weakness of option B. It goes in the SWOT table for option B, and option B stays in the document. It is a real option. It is just not the one we recommend.",
+    "g": [
+     [
+      "SWOT",
+      "a short table of strengths, weaknesses, opportunities and threats for one option"
+     ]
+    ],
+    "ref": [
+     34,
+     "an assessment of Strengths, Weaknesses, Opportunities and Threats (SWOT Analysis) of several solutions, one of which is proposed for implementation"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Nikola, you are here on framework days. Everything you have seen this week goes in the tender file, so every bidder gets it.",
+    "plain": "Nikola, you are working here under an existing framework contract. Everything you have seen this week will be added to the tender file, so that every company that bids receives the same information."
+   },
+   {
+    "who": "tesla",
+    "text": "Naturally. Levallois will bid.",
+    "plain": "Of course. My company, Levallois Systems, will bid for the work."
+   },
+   {
+    "who": "einstein",
+    "text": "Which is exactly why it goes in the file.",
+    "plain": "That is exactly why the information must go in the file for everyone."
+   },
+   {
+    "who": "hopper",
+    "text": "And A is do nothing. A is always in there. Keep LOS, spend nothing, both findings stay open, onboarding stays at nine months. Written out honestly, it argues against itself.",
+    "plain": "And option A is to do nothing. Option A is always included. Keep LOS, spend no money, leave both audit findings open, and keep the nine months needed for a new product. If you write it honestly, it defeats itself.",
+    "ref": [
+     34,
+     "The Business Case provides decision-makers with the information they need to determine whether the project is worth doing."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence comes in with her coat still on and does not sit down.",
+    "plain": "Florence comes in. She is still wearing her coat and she does not sit down."
+   },
+   {
+    "who": "nightingale",
+    "text": "Where are we?",
+    "plain": "How far have you got?"
+   },
+   {
+    "who": "hopper",
+    "text": "Alternative C. Configure a market platform, delivered as a mix. Eight point four million, twenty-six months. The five-year total cost of ownership adds licence, maintenance, support and training, and that is the number Lorenzo will actually read.",
+    "plain": "We recommend option C: buy a lending platform from the market and configure it, with a mix of our own staff and an outside company. It costs 8.4 million euro over 26 months. The five-year total cost of ownership also adds licence, maintenance, support and training. That is the number Lorenzo will really look at.",
+    "g": [
+     [
+      "total cost of ownership",
+      "everything an option costs over its life: build, licence, support and training"
+     ]
+    ],
+    "ref": [
+     34,
+     "a cost benefit analysis, per identified solution, detailed to the extend required"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "And his question.",
+    "plain": "And what about his question, on the trade-off?"
+   },
+   {
+    "who": "hopper",
+    "text": "5.12. Synergies and interdependencies. Still empty. Leave it empty and he will fill it in for you, out loud, in the meeting.",
+    "plain": "Section 5.12, on links with other projects, is still empty. If you leave it empty, Lorenzo will answer it himself, out loud, in the meeting.",
+    "ref": [
+     34,
+     "synergies and interdependencies with other projects and initiatives"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Who is going to count fourteen hundred fields in 2028?",
+    "plain": "In 2028, who will count 1,400 fields to check whether we succeeded?"
+   },
+   {
+    "who": "lovelace",
+    "text": "The same two people who counted them in December. It took a morning.",
+    "plain": "The same two people who counted them in December. It took one morning.",
+    "ref": [
+     34,
+     "Identify measurable criteria that will be used to determine the success of the project."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "impatient",
+    "text": "Then let me tell you what I actually want. Three vendors, one tender, published mid-March. Two months saved.",
+    "plain": "Now let me tell you what I really want. Three suppliers, one tender, published in the middle of March. That saves two months."
+   },
+   {
+    "who": "you",
+    "text": "That would put procurement in front of —",
+    "plain": "That would put the tender before the..."
+   },
+   {
+    "who": "nightingale",
+    "text": "Every month spent writing up options we did not choose is a month those findings stay open. You are the process person. Tell me why I cannot.",
+    "plain": "Every month we spend describing options we did not choose is another month those audit findings stay open. You are the methodology person. Tell me why I cannot do it."
+   }
+  ],
+  "choice": {
+   "prompt": "Florence wants the tender out in March. What do you tell her?",
+   "promptPlain": "Florence wants to publish the tender in March. What do you say?",
+   "options": [
+    {
+     "t": "The Business Case has to analyse several solutions and recommend one. Do nothing, extend LOS, configure a platform. Then choose.",
+     "tPlain": "The Business Case must compare several options and recommend one: do nothing, extend LOS, or configure a bought platform. The choice comes after that.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "mood": "flat",
+      "text": "And when it comes out as C anyway, it will have cost me six weeks. Fine. Write it. But 5.12 had better be full by the tenth.",
+      "plain": "And when the answer is option C anyway, it will have cost me six weeks. All right. Write it. But section 5.12 must be complete by the tenth."
+     },
+     "why": "The guide is explicit: consider several solutions that fulfil the business need and recommend one of these, with a SWOT and a cost-benefit analysis per solution (p.34). The Business Case exists to give decision-makers what they need to judge whether the project is worth doing. Choosing first and documenting afterwards produces a purchase justified retrospectively, which is what a portfolio body exists to catch.",
+     "whyPlain": "The rule is clear: look at several solutions that meet the business need, and recommend one of them. Each option gets a SWOT table and a cost-benefit analysis (page 34). The Business Case exists so that decision-makers can judge whether the project is worth doing. If you choose first and write the paperwork later, you are only explaining a decision you already took.",
+     "ref": [
+      34,
+      "Consider several solutions that fulfil this business need and recommend one of these."
+     ]
+    },
+    {
+     "t": "Publish the tender now and build the Business Case from the winning bid and the contract.",
+     "tPlain": "Publish the tender now, and write the Business Case afterwards from the winning offer and the signed contract.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "mood": "sharp",
+      "text": "That is what you do when the project exists because somebody won a bid. We are the ones deciding whether to hold one.",
+      "plain": "You do that when the project exists only because a supplier won a tender. Here we are still deciding whether to hold a tender at all."
+     },
+     "why": "The guide does allow a Business Case to be built from the Request for Proposal, the response and the contract, but only for projects carried out under contract, where the award is the reason the project exists (p.34). Using that route here inverts the order: the Business Case is the input to the investment decision that authorises the procurement, not a write-up of a procurement already run.",
+     "whyPlain": "The guide does allow a Business Case built from the tender documents and the contract. But that is only for projects that exist because a contract was won (page 34). Here the order would be wrong. The Business Case is what allows the tender to happen. It is not a report about a tender you already ran.",
+     "ref": [
+      34,
+      "For projects carried out under contract (e.g. as a result of a bid award), create the Business Case based on the Request for Proposal, the response to this request, and the contract itself."
+     ]
+    },
+    {
+     "t": "I will write it this weekend. I have read the market and I can produce the SWOTs faster than a committee.",
+     "tPlain": "You write the Business Case yourself this weekend. You know the market and can write the SWOT tables faster than a group can.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "Kindly, no. I am Responsible for this document and Florence is Accountable for it. You support it. The day the Board asks whose numbers these are, the honest answer would be the wrong one.",
+      "plain": "No, thank you. I am Responsible for this document and Florence is Accountable for it. You support us. If the Board asked whose figures these were, the true answer would be the wrong answer."
+     },
+     "why": "RASCI for the Business Case: AGB I, PSC C, PO A, BM R, BIG C, SP S, PM S, PCT n.a. (p.35). The Business Manager creates it, supported by the Solution Provider and the Project Manager if one is known; final responsibility stays with the BM, and the Project Owner is accountable. Speed is not the constraint the letters are protecting.",
+     "whyPlain": "In the RASCI table for the Business Case, the Business Manager is Responsible and the Project Owner is Accountable. The Solution Provider and the Project Manager only support (page 35). The Business Manager writes it and keeps final responsibility. The letters protect ownership of the numbers, not speed.",
+     "ref": [
+      34,
+      "Business Manager (BM) — Creates the Business Case, supported by the Solution Provider (SP) and the Project Manager (PM) (if known)."
+     ]
+    },
+    {
+     "t": "Put only the recommended option in, so the Board cannot be distracted by an option we do not want.",
+     "tPlain": "Include only the recommended option, so that the Board is not distracted by options you do not want.",
+     "ok": false,
+     "reply": {
+      "who": "einstein",
+      "text": "Then it is not a Business Case. It is a purchase order with an essay attached. Comparing things is that committee's entire job.",
+      "plain": "Then it is not a Business Case. It is an order form with a long explanation attached. Comparing options is the only job that committee has."
+     },
+     "why": "A Business Case with one option is not a Business Case: p.34 requires an assessment of several solutions, one of which is proposed for implementation. The Initiating phase-exit check even asks whether at least four alternatives were analysed. Hiding the alternatives also removes the do-nothing baseline, which is the only thing that makes the cost of the recommendation meaningful.",
+     "whyPlain": "A Business Case with a single option is not a Business Case. The guide asks for several solutions, with one of them proposed (page 34). The Initiating checklist even asks whether at least four options were studied. Removing the options also removes the do-nothing comparison, and without it the price of the recommendation means nothing.",
+     "ref": [
+      34,
+      "an assessment of Strengths, Weaknesses, Opportunities and Threats (SWOT Analysis) of several solutions, one of which is proposed for implementation"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Supports the Business Case. Still not the assigned Project Manager, five weeks after the request was approved.",
+    "k": "Knows Medici's trade-off question is unanswered and that 5.12 is empty.",
+    "w": "Wants the option analysis finished before anyone starts a procurement.",
+    "f": "Afraid of being asked to write a document you are only meant to support."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for creating the Business Case.",
+    "k": "Knows all three options, their costs and the five-year total cost of ownership.",
+    "w": "Wants section 5.12 filled by the tenth, and option B kept honestly in the document.",
+    "f": "Afraid Nightingale runs a tender before the analysis that justifies it exists."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the Business Case and for sending it upward.",
+    "k": "Now knows the cost, the options and that C will be recommended.",
+    "w": "Wants the tender published in mid-March and two months back.",
+    "f": "Afraid the audit findings stay open through another Board cycle."
+   },
+   "lovelace": {
+    "o": "Business Analyst on the Project Core Team. Produces the process analysis under section 2.2.",
+    "k": "Has measured all 41 steps and knows which nine exist only because systems cannot talk.",
+    "w": "Wants her measured numbers used as the baseline, not rounded away.",
+    "f": "Afraid the maps end up as decoration in an annex nobody opens."
+   },
+   "tesla": {
+    "o": "Architect supplied by Levallois Systems under the existing framework contract. No project role yet.",
+    "k": "Knows the LOS code better than anyone outside it, and knows his employer intends to bid.",
+    "w": "Wants alternative B argued properly rather than dismissed in a paragraph.",
+    "f": "Afraid a bought platform will be forced to imitate logic he could write correctly."
+   },
+   "einstein": {
+    "o": "Architecture Office. Advises on architecture; no vote and no accountability.",
+    "k": "Knows the stated problem is bespoke code per instrument, and keeps returning to it.",
+    "w": "Wants each option judged against the problem, not against preference.",
+    "f": "Afraid the room argues about solutions before agreeing the problem."
+   }
+  },
+  "unlock": [
+   2
+  ],
+  "note": "Guide check: section 5.3, pp.34-35. The Business Case captures the reasoning behind the project, its alignment with organisational strategy, the justification for the investment and the budgetary need. It must contain the justification and impact, the strategic positioning, a SWOT of several solutions with one proposed, a cost-benefit analysis per solution, synergies and interdependencies, a high-level roadmap and measurable success criteria. RASCI: AGB I, PSC C, PO A, BM R, BIG C, SP S, PM S, PCT n.a. Approver: a preliminary Project Steering Committee or a higher-level AGB, on the Project Owner's submission. It is a living document, re-examined at critical milestones, not filed away after the gate. Pages 34-35.",
+  "notePlain": "Rule: the Business Case explains why the project should happen, how it fits the organisation's strategy, why the money is justified, and what the budget must be. It contains the impact, the strategic fit, a SWOT for several options with one recommended, a cost-benefit analysis for each option, links to other projects, a high-level roadmap, and success criteria that can be measured. RASCI: Business Manager Responsible, Project Owner Accountable; the Solution Provider and Project Manager support; the Steering Committee and the business group are consulted; the governance body is informed. Approver: a first Steering Committee, or a senior governance body when the Project Owner sends it up. It stays alive and is re-checked at important milestones. Pages 34 and 35."
+ },
+ {
+  "id": "s06",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "A committee that does not exist yet",
+  "covers": [
+   "Business Case"
+  ],
+  "guide_page": 35,
+  "where": "ESM, Kirchberg — B4-12, first meeting of the preliminary Project Steering Committee",
+  "when": "10 Mar 2026, 10:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "einstein",
+   "deming",
+   "medici"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Nine people in a room built for eight. Lorenzo de' Medici joins by video for the first fifteen minutes. The green cast makes him look unwell, which he is not.",
+    "plain": "Nine people are in a room with eight seats. Lorenzo de' Medici joins by video for the first fifteen minutes. The screen's green light makes him look ill. He is not ill."
+   },
+   {
+    "who": "nightingale",
+    "text": "I am told I chair this. Somebody tell me what this is.",
+    "plain": "I am told that I chair this meeting. Somebody please tell me what this meeting is."
+   },
+   {
+    "who": "deming",
+    "text": "A preliminary Project Steering Committee. Four permanent seats. Project Owner, Solution Provider, Business Manager, Project Manager. The rest of us are here because the project needs us.",
+    "plain": "It is a first Project Steering Committee. It has four permanent seats: Project Owner, Solution Provider, Business Manager and Project Manager. The rest of us attend because the project needs us.",
+    "ref": [
+     24,
+     "The Project Steering Committee (PSC) comprises at least the four roles in the Managing and Directing Layers, providing a balanced mix of requestor- and provider-side representatives."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "I am Quality Assurance. This committee assigns me, and I do not report to the Project Manager.",
+    "plain": "I am Project Quality Assurance. This committee appoints me, and I do not report to the Project Manager.",
+    "g": [
+     [
+      "Project Quality Assurance",
+      "an independent reviewer of the project's process and documents, not reporting to the Project Manager"
+     ]
+    ],
+    "ref": [
+     28,
+     "Assigned by the Project Steering Committee (PSC) and working independently of the Project Manager (PM), the Project Quality Assurance (PQA) ensures the high quality of the project and its deliverables"
+    ]
+   },
+   {
+    "who": "curie",
+    "mood": "flat",
+    "text": "And I am here because somebody has finally asked the people who do the typing.",
+    "plain": "And I am here because somebody has finally asked the staff who type the payments.",
+    "g": [
+     [
+      "User Representative",
+      "the person who speaks for the staff who will use the system every day"
+     ]
+    ],
+    "ref": [
+     25,
+     "User Representative (UR) — Represents the interests of the project's users, ensuring that project deliverables are fit-for-purpose."
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "Architecture Office. I advise. I do not vote. And I would like the configuration engine demonstrated before anybody commits to release two.",
+    "plain": "I am from the Architecture Office. I give advice. I do not vote. And I would like to see the configuration engine working before anyone commits to release two.",
+    "g": [
+     [
+      "Architecture Office",
+      "the in-house advisers on how IT systems should fit together"
+     ]
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Then we approve the Business Case this morning.",
+    "plain": "Then this committee will approve the Business Case this morning."
+   },
+   {
+    "who": "deming",
+    "text": "This committee is consulted on the Business Case. It is accountable for the Charter. Different rows. It will matter in a fortnight.",
+    "plain": "This committee is only consulted on the Business Case. It is accountable for the Project Charter. Those are two different lines in the table. The difference will matter in two weeks.",
+    "ref": [
+     35,
+     "Business Case  I  C  A  R  C  S  S  n.a."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "So who approves it?",
+    "plain": "Then who approves the Business Case?"
+   },
+   {
+    "who": "hopper",
+    "text": "You do, as Project Owner. Then you send it up, because of the amount.",
+    "plain": "You do, as Project Owner. Then you send it upward to the Corporate Investment Board, because of the amount of money involved.",
+    "ref": [
+     34,
+     "The Project Owner (PO) evaluates the Business Case and decides to approve or reject it. ... The Project Owner (PO) sends the Business Case to the Appropriate Governance Body (AGB) if needed for corporate approval."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Which brings me to the page I asked for in January.",
+    "plain": "That brings me to the page I asked for in January."
+   },
+   {
+    "who": "hopper",
+    "text": "5.12 is no longer empty. The reporting warehouse refresh slips from 2026 into 2027. The cost of the slip is priced on the same page. Two quarters of manual regulatory extracts. About ninety person-days of Finance and Control time.",
+    "plain": "Section 5.12 is no longer empty. The reporting warehouse upgrade moves from 2026 to 2027. The cost of that delay is priced on the same page: six months of producing regulatory reports by hand, about 90 person-days of work in Finance and Control.",
+    "g": [
+     [
+      "regulatory reporting",
+      "figures the ESM must send to supervisors and auditors on a fixed timetable"
+     ]
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Leonardo. Is that survivable?",
+    "plain": "Leonardo, can your division live with that?"
+   },
+   {
+    "who": "leonardo",
+    "mood": "flat",
+    "text": "It is survivable. It is not free. And I want it written down that I said so, because in November somebody will ask why the extracts are late.",
+    "plain": "We can live with it. It is not free. And I want my words recorded, because in November somebody will ask why the reports are late."
+   },
+   {
+    "who": "medici",
+    "text": "It is written down. That is what the page is for. Florence, that is what I meant in January. Not a sacrifice. A decision, with the price beside it.",
+    "plain": "It is recorded. That is the purpose of the page. Florence, that is what I meant in January. Not a sacrifice, but a decision with its price written next to it."
+   },
+   {
+    "who": "narr",
+    "text": "Lorenzo leaves the call at 10:16. The room breathes out.",
+    "plain": "Lorenzo leaves the video call at 10:16. The people in the room relax."
+   },
+   {
+    "who": "curie",
+    "text": "May I say the unpopular thing. Nobody has asked my forty administrators what they need. You have written a business case about them.",
+    "plain": "May I say something unwelcome. Nobody has asked my forty loan administrators what they need. You have written a business case about them, not with them."
+   },
+   {
+    "who": "hopper",
+    "text": "You are right, and that is the next document, not this one. This one had to establish whether the money exists.",
+    "plain": "You are right. That belongs in the next document, not this one. This document only had to establish whether the money exists."
+   },
+   {
+    "who": "curie",
+    "text": "Next document. I am writing that down.",
+    "plain": "The next document. I am writing that promise down."
+   },
+   {
+    "who": "nightingale",
+    "text": "Leonardo. If the Investment Board says yes on the twenty-fourth, who runs this?",
+    "plain": "Leonardo, if the Corporate Investment Board agrees on the twenty-fourth, who will manage this project?"
+   },
+   {
+    "who": "leonardo",
+    "text": "I was going to do that in April.",
+    "plain": "I was planning to appoint someone in April."
+   },
+   {
+    "who": "nightingale",
+    "text": "Do it now.",
+    "plain": "Appoint someone now."
+   },
+   {
+    "who": "leonardo",
+    "text": "Then it is the one who has been carrying the folder since January.",
+    "plain": "Then it is the person who has been carrying the project file since January.",
+    "ref": [
+     32,
+     "The Solution Provider (SP) assigns the Project Manager (PM) and the Project Core Team (PCT). The Project Manager (PM) is typically assigned after the Business Case is approved (or at the latest before the completion of the Project Charter)"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "He means you. It is not ceremonial. From this moment the Project Charter is yours to deliver, and the Business Case never will be.",
+    "plain": "He means you. This is not a formality. From now on you must deliver the Project Charter. The Business Case will never be yours.",
+    "ref": [
+     36,
+     "Although the Project Charter can be initiated by the Business Manager (BM), it is ultimately the responsibility of the Project Manager (PM) to complete it and submit it for approval."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Then I need the Business Case final on Friday. The Charter has to quote its success criteria, not paraphrase them.",
+    "plain": "Then I need the final Business Case on Friday. The Charter must copy its success criteria exactly, not describe them in different words."
+   },
+   {
+    "who": "nightingale",
+    "mood": "dry",
+    "text": "Congratulations. You now have fourteen days and a document.",
+    "plain": "Congratulations. You now have fourteen days and one document to produce."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Assigned Project Manager from this meeting. Responsible for delivering the Project Charter.",
+    "k": "Knows the Business Case content and that the Charter must quote its success criteria.",
+    "w": "Wants the Business Case frozen on Friday so the Charter can be built on it.",
+    "f": "Afraid of inheriting a document whose numbers move after you have copied them."
+   },
+   "nightingale": {
+    "o": "Project Owner and chair. Accountable for the Business Case; consulted on the Charter.",
+    "k": "Now knows the committee cannot approve the Business Case in her place.",
+    "w": "Wants the Business Case approved this morning and a Project Manager named today.",
+    "f": "Afraid the twenty-fourth arrives with no Charter to put beside the Business Case."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Assigns the Project Manager and the Project Core Team.",
+    "k": "Knows the price of slipping the reporting warehouse, and has said so on the record.",
+    "w": "Wants the warehouse consequence minuted before he agrees to it.",
+    "f": "Afraid of being blamed in November for a trade-off the committee chose in March."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for the Business Case, now in its final week.",
+    "k": "Knows 5.12 is filled and priced, and that Curie's users have not been consulted.",
+    "w": "Wants the Business Case accepted and sent upward without reopening the options.",
+    "f": "Afraid the promise she has just made to Curie has no document behind it yet."
+   },
+   "curie": {
+    "o": "User Representative. Speaks for forty loan administrators; not yet consulted formally.",
+    "k": "Knows the Business Case describes her staff without having asked them anything.",
+    "w": "Wants a commitment that the next document starts with her people.",
+    "f": "Afraid the promise is a way of ending the conversation."
+   },
+   "einstein": {
+    "o": "Architecture Office. Advisory member of the preliminary Steering Committee.",
+    "k": "Knows the configuration engine is the whole bet and has never been demonstrated.",
+    "w": "Wants the demonstration made a condition before release two is committed.",
+    "f": "Afraid the platform is bought on a promise rather than a demonstration."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Assigned by this committee, independent of the Project Manager.",
+    "k": "Knows the RASCI rows differ between the Business Case and the Charter.",
+    "w": "Wants the committee to understand what it is and is not accountable for.",
+    "f": "Afraid the committee approves whatever the chair puts in front of it."
+   },
+   "medici": {
+    "o": "Chairs the Appropriate Governance Body. Gives corporate approval and releases funding.",
+    "k": "Knows the trade-off is now costed at ninety person-days of Finance and Control time.",
+    "w": "Wants the displaced project named, priced and on the record before he approves.",
+    "f": "Afraid a delay agreed in March is disowned by everyone in November."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: pp.34-35, with the timing rule on p.32. The Project Owner evaluates the Business Case and decides to approve or reject it, then sends it to the Appropriate Governance Body if corporate approval is needed. The approver is a preliminary Project Steering Committee or a higher-level AGB. On the Business Case the RASCI row is AGB I, PSC C, PO A, BM R, BIG C, SP S, PM S, PCT n.a., so the PSC is only Consulted here; it becomes Accountable on the Charter (p.36). The PSC comprises at least the four Managing and Directing Layer roles and is chaired by the Project Owner, with optional members such as the User Representative, Architecture Office and Project Quality Assurance (pp.24-25). The Solution Provider assigns the Project Manager, typically after the Business Case is approved and at the latest before the Charter is completed (p.32).",
+  "notePlain": "Rule: the Project Owner reads the Business Case and approves or rejects it, then sends it to the senior governance body if corporate approval is needed. On this document the Steering Committee is only Consulted. On the Project Charter it becomes Accountable. Those are different rows on purpose. The Steering Committee has at least four members: Project Owner, Solution Provider, Business Manager and Project Manager. The Project Owner chairs it. Other people, such as the User Representative, the Architecture Office and Quality Assurance, join when the project needs them. The Solution Provider appoints the Project Manager, normally after the Business Case is approved, and at the latest before the Charter is finished. Pages 24, 25, 32, 34, 35 and 36."
+ },
+ {
+  "id": "s07",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "Two hundred and twelve requirements",
+  "covers": [
+   "Project Charter"
+  ],
+  "guide_page": 36,
+  "where": "ESM, Kirchberg — project room, fourth floor",
+  "when": "17 Mar 2026, 15:00",
+  "cast": [
+   "you",
+   "hopper",
+   "lovelace",
+   "curie",
+   "brandeis",
+   "turing",
+   "leonardo"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "You have the pen now. It is a different weight from carrying the folder.",
+    "plain": "You are now writing the document yourself. That feels different from only carrying the file."
+   },
+   {
+    "who": "hopper",
+    "text": "I drafted section 2 and I have talked to everybody this touches. From here it is yours, and my job is to support you.",
+    "plain": "I wrote section 2 and I have spoken to everyone affected. From now on the document is yours. My job is to support you.",
+    "ref": [
+     36,
+     "The Business Manager (BM) will first consult the main project stakeholders and takes part in drafting the Project Charter. ... The Project Manager (PM) is responsible for delivering the document."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Scope statement. Replace LOS with a configurable lending operations platform delivering straight-through processing from loan agreement to disbursement and repayment schedule.",
+    "plain": "Here is the scope statement. Replace LOS with a lending platform that can be configured, and that moves data automatically from the loan agreement to the payment and the repayment schedule."
+   },
+   {
+    "who": "curie",
+    "text": "Say the out-of-scope loudly. People hear new system and assume treasury goes too. Then they assume their own thing goes with it.",
+    "plain": "Say clearly what is not included. When people hear new system, they assume the treasury system is included too. Then they assume their own system is included as well."
+   },
+   {
+    "who": "you",
+    "text": "Out of scope: the treasury system. Out of scope: the payment messaging gateway. Out of scope: bespoke screens for the SRF backstop.",
+    "plain": "Not included: the treasury system. Not included: the payment messaging gateway. Not included: specially built screens for the SRF backstop."
+   },
+   {
+    "who": "curie",
+    "mood": "wary",
+    "text": "Backstop out? Somebody will ask about that.",
+    "plain": "The backstop is excluded? Somebody will certainly ask about that."
+   },
+   {
+    "who": "you",
+    "text": "The backstop arrives as configuration, if it arrives. That is precisely how we stop the project being hostage to a ratification nobody in this building controls.",
+    "plain": "If the backstop arrives, it will be set up by configuration, not by new software. That is how we stop the project depending on a ratification that nobody here can control."
+   },
+   {
+    "who": "brandeis",
+    "text": "Does it process personal data?",
+    "plain": "Will the new system process personal data?",
+    "g": [
+     [
+      "personal data",
+      "any information about a person who can be identified from it"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Staff identifiers in the audit trail. Counterparty contact details.",
+    "plain": "Yes. Staff identity numbers in the audit trail, and the contact details of the other party to each deal.",
+    "g": [
+     [
+      "audit trail",
+      "the stored record of who changed what, when, and why"
+     ]
+    ]
+   },
+   {
+    "who": "brandeis",
+    "mood": "dry",
+    "text": "Then your beautiful audit trail is also a processing operation. I want that in the constraints in March, not discovered by me in June.",
+    "plain": "Then your excellent audit trail is also an operation that processes personal data. I want that written in the constraints section in March. I do not want to discover it myself in June.",
+    "ref": [
+     25,
+     "Ensures adherence to the organisation's policies and rules (e.g. IT governance, data protection, information security, document management, etc.)."
+    ]
+   },
+   {
+    "who": "turing",
+    "text": "And four eyes has to survive the automation.",
+    "plain": "And the four-eyes check must still work after the process is automated."
+   },
+   {
+    "who": "you",
+    "text": "Meaning?",
+    "plain": "What do you mean exactly?"
+   },
+   {
+    "who": "turing",
+    "text": "If straight-through means one officer can originate and release the same disbursement, you have closed one audit finding and opened a worse one.",
+    "plain": "If automatic processing lets one officer both create and send the same payment, you have closed one audit finding and created a worse one.",
+    "g": [
+     [
+      "segregation of duties",
+      "the rule that no single person may both start and release the same payment"
+     ]
+    ],
+    "ref": [
+     25,
+     "Local Information Security Officer (LISO) — Consults and advises on security issues."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Then it is a feature in 3.5, in scope, traced to a deliverable. Not a footnote.",
+    "plain": "Then it becomes a feature in section 3.5. It is in scope and linked to a deliverable. It is not a small note at the bottom of a page."
+   },
+   {
+    "who": "leonardo",
+    "text": "Put the architect risk in as well. R-07, loss of the contractor's key architect. High and high. Named-staff clause, documented knowledge transfer. Write it in March and procurement can price it in September.",
+    "plain": "Add the architect risk too. It is R-07: losing the contractor's main architect. Likelihood high, impact high. The answer is a contract clause naming the staff, and written handover of knowledge. If we write it in March, the buyers can put a price on it in September.",
+    "g": [
+     [
+      "key-person risk",
+      "the danger that one person leaves and takes knowledge nobody else has"
+     ]
+    ],
+    "ref": [
+     36,
+     "It defines the project's objectives (i.e. scope, time, cost, quality), high-level requirements, risks and constraints, as well as the project milestones and deliverable(s)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Cost, 4.1. Eight point four million across 2026 to 2028, three thousand one hundred person-days internal, type of delivery mix.",
+    "plain": "Section 4.1, cost. 8.4 million euro from 2026 to 2028, 3,100 person-days of our own effort, and a mixed type of delivery."
+   },
+   {
+    "who": "you",
+    "text": "Milestones, 4.2. Ready for Executing the third of July, contract award the eighteenth of September, release one March 2027, release two December 2027, parallel run January to April 2028, go-live the fifteenth of May.",
+    "plain": "Section 4.2, milestones. Ready for Executing on 3 July. Contract awarded on 18 September. Release 1 in March 2027. Release 2 in December 2027. Parallel run from January to April 2028. Go-live on 15 May 2028."
+   },
+   {
+    "who": "hopper",
+    "text": "And 5.1 says PM², no deviations. Shortest paragraph in the document, and the one people will argue about longest.",
+    "plain": "And section 5.1 says we use the PM² method with no changes. It is the shortest paragraph in the document, and the one people will argue about for the longest time."
+   },
+   {
+    "who": "narr",
+    "text": "Ada comes in with a ring binder that will not close.",
+    "plain": "Ada Lovelace comes in carrying a large folder that is too full to close."
+   },
+   {
+    "who": "lovelace",
+    "text": "Two hundred and twelve requirements. Six workshops. Marie's people signed every sheet.",
+    "plain": "There are 212 requirements, from six workshops. Marie Curie's staff signed every page.",
+    "ref": [
+     27,
+     "Sign off on user-related documents (requirements document, deliverable acceptance testing, etc.)."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Every one of those is somebody's actual working day. They go in.",
+    "plain": "Each of those requirements is part of somebody's real working day. They must be included."
+   },
+   {
+    "who": "hopper",
+    "text": "Two hundred and twelve, in a document meant to be read in twenty minutes by people who do not work on this floor.",
+    "plain": "That is 212 items, in a document that people from other floors are supposed to read in twenty minutes.",
+    "ref": [
+     36,
+     "The Project Charter should be brief so that it can be sent to project stakeholders as soon as possible, and so that it is easy for them to review and understand."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "They do not go in the Charter. The Charter carries high-level needs and features and points at them. They go in a Requirements Document, referenced in appendix one, and we elaborate them in planning.",
+    "plain": "They do not go inside the Charter. The Charter holds high-level needs and features, and refers to the detail. The 212 items go in a Requirements Document, named in appendix one, and we work on them in the Planning Phase.",
+    "g": [
+     [
+      "Requirements Document",
+      "the detailed list of what the system must do, kept outside the Charter"
+     ]
+    ],
+    "ref": [
+     36,
+     "Detailed requirements may be captured in other artefacts (e.g. in a Requirements Document), or in an appendix to the Project Charter to be elaborated during the planning phase."
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Then reference it properly, with a document location. If it lives on my drive it does not exist.",
+    "plain": "Then refer to it correctly, with the storage location written in. If it only exists on my own drive, it does not exist at all."
+   },
+   {
+    "who": "curie",
+    "mood": "flat",
+    "text": "As long as pointing at them is not a polite way of forgetting them.",
+    "plain": "That is acceptable, as long as referring to them is not a polite way of forgetting them."
+   },
+   {
+    "who": "you",
+    "text": "It is not. You review them and you sign them off, and that is written into section 6 with your name against it.",
+    "plain": "It is not. You will review them and sign them off. That is written in section 6 of the Charter, with your name next to it."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for delivering the Project Charter and submitting it for approval.",
+    "k": "Knows the approved Business Case content and has fourteen days minus seven left.",
+    "w": "Wants a Charter short enough that people outside this floor will read it.",
+    "f": "Afraid that keeping it short is heard as dropping what people asked for."
+   },
+   "hopper": {
+    "o": "Business Manager. Consulted the stakeholders, drafted section 2, now supports the Project Manager.",
+    "k": "Knows the Business Case is final and that the Charter must not restate it.",
+    "w": "Wants the Charter to stay readable and the detail pushed elsewhere.",
+    "f": "Afraid the document grows until nobody on the Board finishes it."
+   },
+   "lovelace": {
+    "o": "Business Analyst on the Project Core Team. Owns the requirements analysis.",
+    "k": "Has 212 signed requirements from six workshops with Curie's administrators.",
+    "w": "Wants the Requirements Document referenced with a real storage location.",
+    "f": "Afraid the binder is praised in the meeting and never opened again."
+   },
+   "curie": {
+    "o": "User Representative. Reviews and signs off user-facing documents and acceptance criteria.",
+    "k": "Now knows her staff were consulted, and that the backstop screens are out of scope.",
+    "w": "Wants the exclusions said out loud and the 212 requirements protected.",
+    "f": "Afraid a reference in an appendix is how promises quietly disappear."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Advises on data protection; not a decision-maker.",
+    "k": "Now knows the audit trail will hold staff identifiers and counterparty contacts.",
+    "w": "Wants the data protection constraint written into the Charter in March.",
+    "f": "Afraid of finding an unassessed processing operation during build in June."
+   },
+   "turing": {
+    "o": "Local Information Security Officer. Advises on confidentiality, integrity and availability.",
+    "k": "Knows automation can quietly merge the roles of originator and releaser.",
+    "w": "Wants four eyes written in as an in-scope feature, not an assumption.",
+    "f": "Afraid closing the segregation finding creates a larger control gap."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Accountable for the deliverables and for contractor performance.",
+    "k": "Knows the market's architects are scarce and that one person will carry the design.",
+    "w": "Wants R-07 in the Charter in March so procurement can price the clause in September.",
+    "f": "Afraid the contract is signed with no named-staff protection at all."
+   }
+  },
+  "unlock": [
+   3
+  ],
+  "note": "Guide check: section 5.4, p.36. The Project Charter defines objectives in scope, time, cost and quality, plus high-level requirements, risks, constraints, milestones and deliverables, and provides the baseline against which progress is measured. The Business Manager first consults the main stakeholders and takes part in drafting, but the Project Manager is responsible for delivering the document and submitting it for approval. Keep it brief, avoid detailed requirements, and capture those in another artefact such as a Requirements Document or in an appendix to be elaborated during planning. RASCI: AGB I, PSC A, PO C, BM S, BIG C, SP S, PM R, PCT C. Approver: the Project Steering Committee accepts it. Page 36.",
+  "notePlain": "Rule: the Project Charter sets the objectives for scope, time, cost and quality. It also lists high-level requirements, risks, constraints, milestones and deliverables, and becomes the baseline for measuring progress. The Business Manager talks to the stakeholders first and helps write it, but the Project Manager must finish it and submit it. Keep it short. Do not put detailed requirements in it. Put them in a separate Requirements Document, or in an appendix to be developed during planning. RASCI: Project Manager Responsible, Steering Committee Accountable, Project Owner Consulted, Business Manager and Solution Provider support, the core team and business group are consulted, the governance body is informed. Approver: the Project Steering Committee. Page 36."
+ },
+ {
+  "id": "s08",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "Where do I sign",
+  "covers": [
+   "Project Charter",
+   "Business Case"
+  ],
+  "guide_page": 36,
+  "where": "ESM, Kirchberg — B4-12, Project Steering Committee",
+  "when": "24 Mar 2026, 09:30",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "einstein",
+   "deming",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Henry Gantt has produced an agenda with numbered items and a decision column. The video kit is switched off. For once everybody is in the room.",
+    "plain": "Henry Gantt has prepared an agenda with numbered items and a column for decisions. The video equipment is off. For once, everyone is physically in the room."
+   },
+   {
+    "who": "gantt",
+    "text": "Attendance for the record. Project Owner, Solution Provider, Business Manager, Project Manager, User Representative, Architecture Office, Quality Assurance. Item one, Business Case version 1.0. Item two, Project Charter version 1.0.",
+    "plain": "For the record, those present are: the Project Owner, the Solution Provider, the Business Manager, the Project Manager, the User Representative, the Architecture Office and Quality Assurance. Item one is the Business Case version 1.0. Item two is the Project Charter version 1.0.",
+    "ref": [
+     28,
+     "Administers Project Steering Committee (PSC) meetings and drafts related reports."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "I am at Lorenzo's table at two. I would like to arrive with something signed.",
+    "plain": "I am at Lorenzo's committee at 14:00 today. I would like to arrive with a signed document."
+   },
+   {
+    "who": "nightingale",
+    "text": "Marie.",
+    "plain": "Marie, please start."
+   },
+   {
+    "who": "curie",
+    "text": "I have read both. The Charter says my people are a deliverable. D-04, forty staff trained. First time in fourteen years training has been on the same list as software.",
+    "plain": "I have read both documents. The Charter treats my staff as a deliverable: D-04, forty people trained. In fourteen years this is the first time training appears on the same list as software.",
+    "g": [
+     [
+      "deliverable",
+      "something the project hands over: software, a report, or trained staff"
+     ]
+    ],
+    "ref": [
+     27,
+     "Ensure that the project specifications and deliverables meet the needs of all users."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "So I will not complain about the rest today.",
+    "plain": "So today I will not complain about anything else."
+   },
+   {
+    "who": "einstein",
+    "text": "Architecture supports C, on condition the configuration engine is demonstrated before release two is committed. The condition is in the Charter. I am satisfied.",
+    "plain": "The Architecture Office supports option C, on one condition: the configuration engine must be demonstrated before release two is committed. That condition is written in the Charter, so I am satisfied.",
+    "ref": [
+     25,
+     "Architecture Office (AO) — Plays an advisory role on architectural aspects of IT projects."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Quality Assurance. I reviewed the Charter against the Business Case. Two non-conformities. Both closed on Friday.",
+    "plain": "Quality Assurance. I compared the Charter with the Business Case. I found two places where they did not match. Both were corrected on Friday.",
+    "g": [
+     [
+      "non-conformity",
+      "a place where the work does not match the agreed standard or rule"
+     ]
+    ],
+    "ref": [
+     28,
+     "the Project Quality Assurance (PQA) ensures the high quality of the project and its deliverables, by reviewing processes and artefacts, identifying non-conformities with the set quality standards and recommending corrective actions."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "sharp",
+    "text": "Which two?",
+    "plain": "Which two problems?"
+   },
+   {
+    "who": "deming",
+    "text": "The reconciliation target in 3.2 had drifted to next day. And the risk table had no owners in it.",
+    "plain": "First, the reconciliation target in section 3.2 had changed to next day instead of same day. Second, the risk table had no named owners."
+   },
+   {
+    "who": "nightingale",
+    "text": "Drifted.",
+    "plain": "It changed by itself?"
+   },
+   {
+    "who": "you",
+    "text": "Somebody copied an old table. It is corrected. Same day, not next day. Two documents, one baseline. That is the reason Deming reads it and I do not review my own document.",
+    "plain": "Someone copied an old version of the table. It has been corrected: same day, not next day. The two documents now form one baseline. That is why Deming checks the document and I do not review my own work.",
+    "g": [
+     [
+      "baseline",
+      "the approved version of scope, cost and dates that progress is measured against"
+     ]
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Cost and effort confirmed as they stand. The tender is planning work. It is not in front of you this morning.",
+    "plain": "The cost and effort figures are confirmed as written. Running the tender is work for the Planning Phase. It is not being decided this morning."
+   },
+   {
+    "who": "hopper",
+    "text": "The Business Implementation Group has read both. Lending Operations, Finance and Control, Risk, Legal. Legal wants a paragraph on contract templates, and that belongs in planning.",
+    "plain": "The Business Implementation Group has read both documents. It includes Lending Operations, Finance and Control, Risk and Legal. Legal wants a paragraph about contract templates, and that belongs in the Planning Phase.",
+    "g": [
+     [
+      "Business Implementation Group",
+      "business and user staff who prepare their own teams for the coming change"
+     ]
+    ],
+    "ref": [
+     26,
+     "Coordinates the Business Implementation Group (BIG) and acts as a liaison between the User Representatives (URs) and the provider organisation."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Objections? None. Good.",
+    "plain": "Are there any objections? No. Good.",
+    "ref": [
+     25,
+     "Approves key project artefacts (e.g. Project Charter, Project Work Plan)."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "She turns the Charter over to the last page, where the signature block is, and takes out a pen.",
+    "plain": "She turns the Charter to the last page, where the signature block is, and takes out a pen."
+   },
+   {
+    "who": "nightingale",
+    "text": "Where do I sign?",
+    "plain": "Where do I sign?"
+   },
+   {
+    "who": "narr",
+    "text": "Gantt's pen stops moving. Deming looks at you. So does Grace.",
+    "plain": "Gantt stops writing. Deming looks at you. Grace looks at you as well."
+   },
+   {
+    "who": "gantt",
+    "mood": "dry",
+    "text": "That depends what you think you are doing.",
+    "plain": "That depends on what you believe you are doing."
+   },
+   {
+    "who": "you",
+    "text": "Florence —",
+    "plain": "Florence, wait..."
+   },
+   {
+    "who": "nightingale",
+    "text": "I am the Project Owner, I am paying for it, and I have read it twice. Where is the difficulty?",
+    "plain": "I am the Project Owner. My division pays for this. I have read the document twice. What is the problem?",
+    "ref": [
+     36,
+     "Project Owner (PO) — Reviews and approves the Project Charter."
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "The Charter is open at the signature page. Who accepts it?",
+   "promptPlain": "The Charter is open at the signature page. Who should accept it?",
+   "options": [
+    {
+     "t": "The Steering Committee accepts it. You chair, but the committee accepts. Then you send both documents upward.",
+     "tPlain": "The Steering Committee accepts it. You chair the committee, but the committee accepts. Then you send both documents to the Corporate Investment Board.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "text": "So I do it twice. Once here, and once at Lorenzo's table this afternoon. Accepted, then. Gantt, minute it as a committee decision.",
+      "plain": "So I do it twice: once here, and once at Lorenzo's committee this afternoon. Very well, it is accepted. Gantt, record it as a decision of the committee."
+     },
+     "why": "Steps 3 and 4 on p.36: the main stakeholders review the Charter, the Project Steering Committee accepts it, and the Project Owner then sends the Business Case and the Charter to the appropriate decision-making body for additional approval if needed. On the Charter RASCI the PSC is Accountable and the PO merely Consulted, which is the point of a committee chaired by the person who wants the project.",
+     "whyPlain": "The steps on page 36 are clear. The main stakeholders review the Charter. The Steering Committee accepts it. Then the Project Owner sends both documents upward, if a higher approval is needed. In the RASCI table for the Charter, the Steering Committee is Accountable and the Project Owner is only Consulted. That is the whole point of a committee chaired by the person who wants the project.",
+     "ref": [
+      36,
+      "The main project stakeholders review the Project Charter and the Project Steering Committee (PSC) accepts it."
+     ]
+    },
+    {
+     "t": "You sign, Florence. You are the Project Owner, it is your money and your benefits.",
+     "tPlain": "Florence signs. She is the Project Owner, it is her budget and her benefits.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "mood": "flat",
+      "text": "Then this committee has just watched its chair approve a document to herself.",
+      "plain": "Then this committee has just watched its own chair approve a document to herself."
+     },
+     "why": "On the Project Charter the Project Owner is Consulted, not Accountable: the PSC is Accountable (p.36). The PO does accept the Business Case, which is where the confusion comes from (p.34), but the two artefacts have deliberately different rows so that the person who owns the benefits is not the sole gatekeeper of the baseline.",
+     "whyPlain": "On the Charter, the Project Owner is only Consulted. The Steering Committee is Accountable (page 36). The Project Owner does accept the Business Case, and that is why people confuse the two (page 34). The rows are different on purpose, so that the person who wants the benefits is not the only person guarding the baseline.",
+     "ref": [
+      36,
+      "Project Charter  I  A  C  S  C  S  R  C"
+     ]
+    },
+    {
+     "t": "I sign it. I wrote it and I am the Project Manager responsible for it.",
+     "tPlain": "You sign it. You wrote it and you are the Project Manager responsible for it.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "Responsible for delivering it. Not accountable for accepting it. Two different letters, and never the same person.",
+      "plain": "You are responsible for producing it. You are not accountable for accepting it. Those are two different letters, and never the same person."
+     },
+     "why": "Responsible does the work; Accountable is ultimately answerable, and there is just one of each for any given task (p.29). On the Charter the PM is R and the PSC is A (p.36). A Project Manager who accepts the Charter they wrote has removed the only body able to say the objectives are wrong before planning starts against them.",
+     "whyPlain": "Responsible means the person who does the work. Accountable means the person who finally answers for it. There is only one of each per task (page 29). On the Charter, the Project Manager is Responsible and the Steering Committee is Accountable (page 36). If the Project Manager accepts his or her own document, nobody is left to say the objectives are wrong before planning begins.",
+     "ref": [
+      29,
+      "Accountable — Ultimately answerable for the correct and thorough completion of the work. There is just one accountable person for any given task."
+     ]
+    },
+    {
+     "t": "Neither. Send both upward and let the Corporate Investment Board accept the Charter, since it holds the money.",
+     "tPlain": "Neither. Send both documents upward and let the Corporate Investment Board accept the Charter, because it controls the money.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "Then Lorenzo accepts a charter that nobody who actually works on this project has ever accepted, and the first time we escalate an issue he will ask why we did not settle it here.",
+      "plain": "Then Lorenzo accepts a charter that nobody working on the project has accepted. The first time we send him a problem, he will ask why we did not solve it in our own committee."
+     },
+     "why": "The AGB provides corporate-level approval of the Charter where the governance requires it, but that comes after the PSC has accepted it (p.36). Skipping the PSC also skips the body that later authorises phase transitions, resolves escalated issues and approves high-impact deviations (p.25).",
+     "whyPlain": "The senior governance body gives corporate approval of the Charter when the rules require it, but only after the Steering Committee has accepted it (page 36). Skipping the Steering Committee also removes the body that later approves moving between phases, settles escalated problems and approves large changes (page 25).",
+     "ref": [
+      36,
+      "The Project Owner (PO) sends the Business Case and Project Charter to the appropriate decision-making body for additional approval, if needed."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for the Charter; submits it, does not accept it.",
+    "k": "Knows Deming found two non-conformities and that both are closed.",
+    "w": "Wants the acceptance recorded as a committee decision, not a signature.",
+    "f": "Afraid of correcting the Project Owner in front of her own committee."
+   },
+   "nightingale": {
+    "o": "Project Owner and chair. Accountable for the Business Case; consulted on the Charter.",
+    "k": "Knows both documents. Does not know the two artefacts have different approvers.",
+    "w": "Wants a signed document in her hand before the Corporate Investment Board at two.",
+    "f": "Afraid a procedural argument costs her the afternoon slot."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Confirms cost and effort; accountable for the deliverables.",
+    "k": "Knows the tender cannot start until planning, and says so before anyone asks.",
+    "w": "Wants the committee not to approve procurement by accident this morning.",
+    "f": "Afraid a Charter acceptance is read downstairs as authority to go to market."
+   },
+   "hopper": {
+    "o": "Business Manager. Supports the Charter; coordinates the Business Implementation Group.",
+    "k": "Knows Legal's contract-template point and where it belongs.",
+    "w": "Wants both documents through so the Business Case can go upward unchanged.",
+    "f": "Afraid an escalation habit starts today with the committee bypassed."
+   },
+   "curie": {
+    "o": "User Representative. Reviews on behalf of users; sits on the Steering Committee.",
+    "k": "Knows D-04 puts forty trained staff on the deliverables list.",
+    "w": "Wants training to stay a deliverable and not become a line in a plan.",
+    "f": "Afraid training is the first thing cut when the schedule tightens."
+   },
+   "einstein": {
+    "o": "Architecture Office. Advisory member; supports alternative C with a condition.",
+    "k": "Knows his demonstration condition is written into the Charter.",
+    "w": "Wants that condition to survive into the contract in September.",
+    "f": "Afraid a condition in a Charter is forgotten by the time bids arrive."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Reviews artefacts, raises non-conformities, recommends corrections.",
+    "k": "Knows the success criteria drifted once already, between two documents.",
+    "w": "Wants the committee to accept the Charter as a body, in the minutes.",
+    "f": "Afraid an approval given informally is worth nothing at the next gate."
+   },
+   "gantt": {
+    "o": "Project Support Office. Administers the committee and drafts its minutes.",
+    "k": "Knows what a decision column needs in order to be a decision.",
+    "w": "Wants to know what to write in the decision column before he writes it.",
+    "f": "Afraid of minuting a signature that the guide does not recognise."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 5.4, p.36. Approval sequence: the Business Manager consults stakeholders and helps draft; the Project Manager delivers the document; the main stakeholders review it; the Project Steering Committee accepts it; the Project Owner then sends the Business Case and Charter onward to the decision-making body for additional approval if needed, and that body accepts or rejects. RASCI: AGB I, PSC A, PO C, BM S, BIG C, SP S, PM R, PCT C. Approver: the Project Steering Committee, with corporate-level approval by the AGB where required. Note the tension the scene turns on: the Key Participants table on the same page says the Project Owner reviews and approves the Charter, while the RASCI row makes the PSC Accountable and the PO only Consulted. The RASCI row governs who accepts. Page 36.",
+  "notePlain": "Rule: the Business Manager consults the stakeholders and helps write the Charter. The Project Manager finishes it. The main stakeholders review it. The Steering Committee accepts it. Then the Project Owner sends the Business Case and the Charter upward if a higher approval is needed. RASCI: Steering Committee Accountable, Project Manager Responsible, Project Owner Consulted, Business Manager and Solution Provider support, core team and business group consulted, governance body informed. Approver: the Steering Committee, plus the senior governance body when the rules require it. Note one confusing point on the same page: the participants table says the Project Owner approves the Charter, but the RASCI row says the Steering Committee is accountable. The RASCI row decides who accepts. Page 36."
+ },
+ {
+  "id": "s09",
+  "act": 1,
+  "actName": "Initiating",
+  "title": "Twenty-eight questions",
+  "covers": [
+   "Phase Gate RfP (Ready for Planning)",
+   "Phase Exit Review Checklist"
+  ],
+  "guide_page": 37,
+  "where": "ESM, Kirchberg — B4-12, RfP gate review",
+  "when": "27 Mar 2026, 14:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "deming",
+   "gantt",
+   "curie"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "On the afternoon of the twenty-fourth Florence carried both documents to the Corporate Investment Board. It approved the Business Case and gave corporate approval to the Charter in nineteen minutes, most of which were about the reporting warehouse.",
+    "plain": "On the afternoon of 24 March, Florence took both documents to the Corporate Investment Board. The Board approved the Business Case and gave corporate approval of the Charter in nineteen minutes. Most of that time was spent on the reporting warehouse.",
+    "ref": [
+     36,
+     "The Project Owner (PO) sends the Business Case and Project Charter to the appropriate decision-making body for additional approval, if needed."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Three days later the same people are back in B4-12 and there is a spreadsheet on the screen.",
+    "plain": "Three days later the same people are back in room B4-12. There is a spreadsheet on the screen."
+   },
+   {
+    "who": "nightingale",
+    "mood": "impatient",
+    "text": "We approved everything on Tuesday. What is this?",
+    "plain": "We approved everything on Tuesday. What is this meeting for?"
+   },
+   {
+    "who": "you",
+    "text": "The gate. Ready for Planning. Tuesday's question was whether the documents are approved. Today's question is whether we are in a fit state to start planning.",
+    "plain": "This is the gate called Ready for Planning. On Tuesday the question was whether the documents were approved. Today the question is whether we are ready to start planning.",
+    "g": [
+     [
+      "phase gate",
+      "a checkpoint where a project must be approved before the next phase can start"
+     ]
+    ],
+    "ref": [
+     37,
+     "This is the first phase gate. A review and approval are recommended before the project can formally move to the next phase."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Twenty-eight questions on one sheet, and the Project Manager answers every one of them before asking this committee for anything.",
+    "plain": "There are 28 questions on one sheet. The Project Manager answers all of them before asking this committee for anything.",
+    "ref": [
+     37,
+     "The Project Manager (PM) assesses whether the project is ready to commence the Planning Phase and seeks approval of the Business Case and Project Charter from the Project Steering Committee (PSC)."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Question twenty-one. Logs.",
+    "plain": "Question 21, about the project logs."
+   },
+   {
+    "who": "you",
+    "text": "Risk, Issue and Decision, all open. Nine risks, R-07 among them. Two issues. Four decisions, including the reporting warehouse slip. The Change Log we open in planning.",
+    "plain": "The Risk Log, the Issue Log and the Decision Log are all open. There are nine risks, including R-07. There are two issues. There are four decisions, including the delay to the reporting warehouse. The Change Log will be opened during planning.",
+    "g": [
+     [
+      "Decision Log",
+      "the list of decisions taken, with who took them and when"
+     ]
+    ],
+    "ref": [
+     31,
+     "Some of the Project Logs are also set up (i.e. Risk Log, Issue Log, Decision Log) while the Change Log is typically set up during the Planning Phase."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Twenty-four. Security, document management, data protection.",
+    "plain": "Question 24, about security, document management and data protection."
+   },
+   {
+    "who": "you",
+    "text": "Turing and Brandeis have both signed their sections. Johannes has the repository and the naming convention, so the Charter and the Business Case sit in one place with version numbers.",
+    "plain": "Alan Turing and Louis Brandeis have both signed their sections. Johannes Gutenberg has set up the document store and the naming rules, so the Charter and the Business Case are in one place with version numbers."
+   },
+   {
+    "who": "deming",
+    "text": "Sixteen and twenty-five. Business Case approved. Charter accepted by this committee. Both Tuesday, both minuted.",
+    "plain": "Questions 16 and 25. The Business Case is approved. The Charter was accepted by this committee. Both happened on Tuesday and both are in the minutes."
+   },
+   {
+    "who": "hopper",
+    "text": "Twelve to fifteen. Total cost of ownership in euro and in full-time equivalents, both sides costed, funding lines named, savings estimated. That took the longest, and it is the part Lorenzo will reuse in October.",
+    "plain": "Questions 12 to 15. The total cost of ownership is given in euro and in full-time equivalents. The costs of both the business side and the IT side are included. The budget lines are named and the savings are estimated. That work took the longest, and Lorenzo will use it again in October.",
+    "g": [
+     [
+      "full-time equivalent",
+      "one person working full time for a year; a way to count staff effort"
+     ]
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "And if the answer to one of these had been no?",
+    "plain": "And what would happen if the answer to one of these questions was no?"
+   },
+   {
+    "who": "deming",
+    "text": "Then it is not a delay.",
+    "plain": "Then it would not simply be a delay."
+   },
+   {
+    "who": "deming",
+    "text": "If the Business Case or the Charter is not approved, the project goes directly to Closing. Lessons learned, archive the folder, everybody back to their division.",
+    "plain": "If the Business Case or the Charter is not approved, the project moves straight to the Closing Phase. You collect the lessons learned, store the documents, and everyone returns to their own division.",
+    "g": [
+     [
+      "Lessons Learned",
+      "written notes on what worked and what did not, kept for the next project"
+     ]
+    ],
+    "ref": [
+     37,
+     "If the Business Case or Project Charter is not approved, the project proceeds directly to the Closing Phase for Lessons Learned and archiving."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Florence does not answer that, which is itself an answer.",
+    "plain": "Florence says nothing in reply. Her silence is itself a kind of answer."
+   },
+   {
+    "who": "curie",
+    "text": "Is there anything on that sheet you cannot tick?",
+    "plain": "Is there any question on that sheet that you cannot answer yes to?"
+   },
+   {
+    "who": "you",
+    "text": "One.",
+    "plain": "One question."
+   },
+   {
+    "who": "narr",
+    "text": "Question nine, on the screen: were at least four alternatives analysed?",
+    "plain": "Question 9 is on the screen. It asks whether at least four alternative solutions were analysed."
+   },
+   {
+    "who": "hopper",
+    "text": "We analysed three. Do nothing, extend LOS, configure a market platform. There was no credible fourth and I am not going to invent one.",
+    "plain": "We analysed three options: do nothing, extend LOS, and configure a platform bought from the market. There was no realistic fourth option, and I will not invent one."
+   },
+   {
+    "who": "deming",
+    "text": "The sheet says four. The sheet is a spreadsheet, not a treaty.",
+    "plain": "The sheet asks for four. But the sheet is only a spreadsheet. It is not a legal text."
+   },
+   {
+    "who": "nightingale",
+    "text": "The Initiating sheet comes out at ninety-six per cent. What does one question cost us?",
+    "plain": "The Initiating sheet scores 96 per cent. What does this one question cost us?"
+   },
+   {
+    "who": "you",
+    "text": "That depends entirely on what I type in the box.",
+    "plain": "That depends completely on what I write in the answer box."
+   }
+  ],
+  "choice": {
+   "prompt": "Question 9 wants four alternatives. You analysed three. What do you enter?",
+   "promptPlain": "Question 9 asks for four alternatives. You analysed three. What do you write in the box?",
+   "options": [
+    {
+     "t": "Yes, Partially. Name the three alternatives in the comment and let the committee decide whether three is enough.",
+     "tPlain": "Answer Yes, Partially. Name the three options in the comments box and let the committee decide whether three is enough.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "text": "Three options, one of them do nothing, and Lorenzo's board took it on Tuesday. Noted, accepted, and written down. Gantt, planning kick-off, the ninth of April.",
+      "plain": "Three options, and one of them was to do nothing. Lorenzo's board accepted that on Tuesday. It is noted, accepted and recorded. Gantt, book the planning kick-off for 9 April."
+     },
+     "why": "The checklist is the Project Manager's assessment tool. Its answer list is Yes, Yes Partially, No and N/A, with a comments column that exists for exactly this case. The PM assesses readiness; approval of the phase transition is sought from the Project Steering Committee (p.37). A partial answer with a reason is evidence. A tick is only a number.",
+     "whyPlain": "The checklist is the Project Manager's own tool. The answers allowed are Yes, Yes Partially, No and Not Applicable, and there is a comments column for exactly this situation. The Project Manager judges readiness; the Steering Committee approves the move to the next phase (page 37). A partial answer with a reason is evidence. A tick is only a number.",
+     "ref": [
+      37,
+      "PM² provides a template Phase Exit Review Checklist for each phase that can be used by the Project Manager (PM) to guide the assessment, alongside a review of the phase's specific goals."
+     ]
+    },
+    {
+     "t": "Yes. Three real options with a do-nothing baseline is what the question is reaching for, and nobody counts them.",
+     "tPlain": "Answer Yes. Three real options including a do-nothing option is what the question really wants, and nobody counts them.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "mood": "flat",
+      "text": "Then the first inaccurate answer in the workbook is on the line that matters, and everything under it is worth less. I would find it at the Planning gate in any case.",
+      "plain": "Then the first wrong answer in the workbook sits on the line that matters most, and every answer below it is worth less. I would find it at the next gate anyway."
+     },
+     "why": "The checklist checks the key information of each phase and gathers lessons learned, so a false answer corrupts the record that the Planning and Closing reviews rely on (p.37). It also removes the committee's chance to make an informed decision, and the phase transition is theirs to authorise, not yours.",
+     "whyPlain": "The checklist records the key facts of each phase and collects lessons learned, so a false answer damages the record used at the later reviews (page 37). It also takes away the committee's chance to decide with full information. Moving to the next phase is their decision, not yours.",
+     "ref": [
+      25,
+      "Authorises transition between Phases unless this is performed by the Appropriate Governance Body (AGB)."
+     ]
+    },
+    {
+     "t": "No. We go back and write a fourth alternative before I ask anybody for a gate decision.",
+     "tPlain": "Answer No. Go back and write a fourth option before asking anyone for a gate decision.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "mood": "impatient",
+      "text": "A fourth option invented to satisfy a spreadsheet is worse than three real ones, and it costs us the kick-off and the procurement slot behind it.",
+      "plain": "A fourth option invented only to satisfy a spreadsheet is worse than three real ones. It would also cost us the kick-off date and the procurement slot that follows it."
+     },
+     "why": "A high score is not the gate and a low one is not a veto: the PSC decides, guided by the phase's specific goals, with the checklist as support (p.37). Over-correcting turns a judgement call into two weeks of manufactured analysis and pushes every downstream milestone in the Charter.",
+     "whyPlain": "A high score is not the gate, and a low score is not a refusal. The Steering Committee decides, guided by the goals of the phase, and the checklist only supports that decision (page 37). Inventing an option turns a judgement into two weeks of false analysis and moves every later milestone in the Charter.",
+     "ref": [
+      37,
+      "The Project Manager (PM) assesses whether the project is ready to commence the Planning Phase and seeks approval of the Business Case and Project Charter from the Project Steering Committee (PSC)."
+     ]
+    },
+    {
+     "t": "Not applicable. The checklist is my working tool, nobody approves it, and the score is mine.",
+     "tPlain": "Answer Not Applicable. The checklist is your own working tool, nobody approves it, and the score belongs to you.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "It is your tool, and it also sits in the project folder for the next six years. N/A means the question does not apply. It applied.",
+      "plain": "It is your tool, and it will also stay in the project folder for six years. Not Applicable means the question does not apply to this project. This question did apply."
+     },
+     "why": "It is true that the Phase Exit Review Checklist is not formally approved by anyone: the PM completes it and the PSC approves the transition it supports (p.37). That is not licence to answer it selectively. The checklist is an output of quality management, reviewed at the next gate and used again in the Project-End Report.",
+     "whyPlain": "It is true that nobody formally approves the checklist. The Project Manager completes it, and the Steering Committee approves the phase change that it supports (page 37). That does not allow you to answer it selectively. The checklist belongs to quality management, is read again at the next gate, and feeds the Project-End Report.",
+     "ref": [
+      37,
+      "PM² provides a template Phase Exit Review Checklist for each phase that can be used by the Project Manager (PM) to guide the assessment, alongside a review of the phase's specific goals."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Assesses readiness for Planning and seeks the phase transition from the committee.",
+    "k": "Knows every answer on the sheet, and that exactly one of twenty-eight is not a clean yes.",
+    "w": "Wants question nine answered honestly without losing the ninth of April.",
+    "f": "Afraid an honest partial answer is read by the chair as a failure."
+   },
+   "nightingale": {
+    "o": "Project Owner and chair. Authorises the transition to the Planning Phase.",
+    "k": "Knows both documents are approved and that the score stands at ninety-six per cent.",
+    "w": "Wants a kick-off date fixed before she leaves the room.",
+    "f": "Afraid a procedural review reopens decisions the Board already took."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Has assigned the Project Manager; the Core Team comes next.",
+    "k": "Knows the procurement slot sits directly behind the planning kick-off.",
+    "w": "Wants to understand what a failed gate would actually mean for his division.",
+    "f": "Afraid an invented fourth option costs two weeks and the September award date."
+   },
+   "hopper": {
+    "o": "Business Manager. Owns the cost work behind checks twelve to fifteen.",
+    "k": "Knows there was never a credible fourth alternative to analyse.",
+    "w": "Wants the three real options defended rather than a fourth manufactured.",
+    "f": "Afraid the Business Case is judged by a box count rather than its content."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Assures the assessment; does not own the gate decision.",
+    "k": "Knows the workbook is read again at the Planning gate and in the Project-End Report.",
+    "w": "Wants the one imperfect answer recorded accurately, with its reason.",
+    "f": "Afraid the first false entry teaches the team that the record is negotiable."
+   },
+   "gantt": {
+    "o": "Project Support Office. Runs the checklist review and minutes the decision.",
+    "k": "Knows the workbook is retained for six years and read by people not in this room.",
+    "w": "Wants a kick-off date and a clean decision line to write down.",
+    "f": "Afraid an N/A today becomes an unexplained gap at the next gate."
+   },
+   "curie": {
+    "o": "User Representative. Consulted at the gate; her acceptance role comes later.",
+    "k": "Knows the training deliverable survived into the approved Charter.",
+    "w": "Wants to know what the project is not ready for, in plain words.",
+    "f": "Afraid the answer is smoothed for the chair rather than given straight."
+   }
+  },
+  "unlock": [
+   27
+  ],
+  "note": "Guide check: section 5.5, p.37. RfP, Ready for Planning, is the first phase gate. The Project Manager assesses whether the project is ready to commence the Planning Phase and seeks approval of the Business Case and Project Charter from the Project Steering Committee. If either is not approved, the project proceeds directly to the Closing Phase for lessons learned and archiving. PM² supplies a Phase Exit Review Checklist per phase to guide that assessment alongside a review of the phase's specific goals; the Initiating sheet runs to twenty-eight questions and ends by asking whether the project is ready to proceed. RASCI: none, the checklist has no row. Approver: nobody approves the checklist itself. The Project Steering Committee authorises the phase transition it supports (p.25). Page 37.",
+  "notePlain": "Rule: Ready for Planning is the first gate. The Project Manager checks whether the project is ready to start planning, and asks the Steering Committee to approve the Business Case and the Charter. If either is not approved, the project goes straight to the Closing Phase, to record lessons learned and store the documents. PM² gives one checklist per phase to guide this check, used together with a look at the goals of the phase. The Initiating sheet has 28 questions and ends by asking whether the project can move on. There is no RASCI row for the checklist and nobody approves it. The Steering Committee approves the move to the next phase. Pages 25 and 37."
+ }
+]

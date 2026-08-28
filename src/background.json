@@ -1,0 +1,3411 @@
+{
+ "explainers": [
+  {
+   "id": "what-esm-is",
+   "title": "What the ESM actually is",
+   "lede": "Your future employer is not a bank, not an EU institution, and not funded by taxes. Knowing exactly what it is explains almost every rule you will meet in the job.",
+   "blocks": [
+    {
+     "p": [
+      "The European Stability Mechanism (ESM) is the euro area's permanent crisis fund. It was created by a treaty between the countries that use the euro, signed on 2 February 2012, and it opened on 8 October 2012. Its job is to lend to a euro area country that can no longer borrow at a sustainable price on the financial markets.",
+      "It sits in Luxembourg City, on the Kirchberg plateau, and employs around 230 people from more than 50 nationalities. That is small. A commercial bank with a lending ceiling of 500 billion euro would have tens of thousands of staff. The ESM manages with a few hundred because it does a small number of very large transactions inside a very controlled process."
+     ]
+    },
+    {
+     "h": "Why it exists",
+     "p": [
+      "Between 2010 and 2012, several euro area governments could not sell their bonds at a reasonable interest rate. A bond is a promise to repay borrowed money on a fixed date. When investors stop buying a country's bonds, that country cannot pay salaries, pensions, or the debt falling due.",
+      "The first answer was the European Financial Stability Facility (EFSF), a temporary vehicle set up in 2010. The ESM replaced it as the permanent one. The EFSF still exists, but only to manage the loans it already made.",
+      "Between them, the EFSF and the ESM have paid out 295 billion euro to five countries: Ireland, Portugal, Greece, Spain and Cyprus. The last programme, for Greece, ended in August 2018. There has been no new one since, but the old loans still have to be serviced every day. That daily servicing is the work Project CASTOR is about."
+     ]
+    },
+    {
+     "h": "Not an EU institution, and this matters",
+     "p": [
+      "The European Commission, the European Parliament and the European Central Bank (ECB) are EU institutions. They were created by the EU treaties and act for the Union as a whole. The ESM is different. It is an intergovernmental organisation: created by its own separate treaty between the euro area states, owned by those states as shareholders, and governed by their finance ministers rather than by an EU procedure.",
+      "The consequences are practical. The ESM has its own staff rules, its own procurement rules and its own budget. When Project CASTOR runs a mini-competition under a framework contract, it does so under ESM rules, not under the EU procurement directives that bind a Commission department.",
+      "It also means the ESM works with EU institutions rather than inside them. The European Commission negotiates programme conditions on the ESM's behalf, in liaison with the ECB, while the ESM keeps the money, the risk and the legal relationship with the borrower."
+     ]
+    },
+    {
+     "h": "Where the money comes from",
+     "p": [
+      "Four numbers get confused constantly. Learn the difference once."
+     ],
+     "table": {
+      "cols": [
+       "Figure",
+       "Amount",
+       "What it actually is"
+      ],
+      "rows": [
+       [
+        "Authorised capital stock",
+        "about 709 billion euro",
+        "The value of shares the 21 member states have subscribed to. Most has never been paid."
+       ],
+       [
+        "Paid-in capital",
+        "about 81 billion euro",
+        "Cash the members actually transferred. Invested conservatively, never lent. The largest of any international financial institution."
+       ],
+       [
+        "Callable capital",
+        "about 628 billion euro",
+        "A binding promise. The ESM could call this money from members under fixed rules."
+       ],
+       [
+        "Maximum lending capacity",
+        "500 billion euro",
+        "The Treaty ceiling on lending to members. Roughly 433 billion euro is still free."
+       ]
+      ]
+     }
+    },
+    {
+     "p": [
+      "So where does a loan come from? The ESM borrows it. It issues bonds (debt maturing in more than a year) and bills (less than a year, currently three and six months) to investors such as pension funds, central banks and insurers, and lends the proceeds on.",
+      "The paid-in capital is not the loan money. It is the cushion that makes investors willing to lend to the ESM cheaply. Because 81 billion euro of real cash sits behind the promise, and 628 billion euro more can be called, the ESM borrows at rates close to the best sovereign borrowers and passes that low rate on. Its credit standing is worth more than its cash.",
+      "This is why ESM staff say no taxpayer money is used for the loans. About the lending, that is literally true: the cash comes from bond investors, and the borrower repays it with interest."
+     ]
+    },
+    {
+     "h": "Who decides what",
+     "table": {
+      "cols": [
+       "Body",
+       "Who sits on it",
+       "What it decides"
+      ],
+      "rows": [
+       [
+        "Board of Governors",
+        "One governor per member state, in practice the finance minister. Chaired by convention by the President of the Eurogroup.",
+        "The largest decisions: whether to grant assistance at all, which instrument, changes to capital, and who is Managing Director."
+       ],
+       [
+        "Board of Directors",
+        "One director and one alternate per member state, appointed for proven competence in economic and financial matters.",
+        "The powers the governors delegate, including approval of each individual disbursement."
+       ],
+       [
+        "Managing Director",
+        "One person, appointed for a renewable five-year term. Chairs the Board of Directors.",
+        "Runs the institution day to day, represents it legally, and manages the staff."
+       ],
+       [
+        "Management Board",
+        "The Managing Director and the heads of the main functions.",
+        "Internal running: strategy, the administrative budget, and the investment decisions that pay for projects like CASTOR."
+       ]
+      ]
+     },
+     "p": [
+      "Voting weight follows each country's share of the capital, so Germany, France and Italy carry the largest weights. Three thresholds matter: mutual agreement, meaning unanimity among those voting, for the largest decisions including assistance; a qualified majority of 80% of votes cast for most others; and an emergency procedure at 85%, available when the Commission and the ECB both judge an urgent decision is needed to protect euro area stability."
+     ]
+    },
+    {
+     "h": "What this means for Project CASTOR",
+     "p": [
+      "Project CASTOR is not paid for out of the 500 billion euro. It comes from the administrative budget, the ESM's own running costs, which is a completely separate pot. Confusing the two is the most common beginner mistake in this field.",
+      "It also means CASTOR's approval route is entirely internal. In the story, the Corporate Investment Board decides which internal investments get funded, and Lorenzo de' Medici chairs it. The Board of Governors never hears the project's name. Keep the two governance worlds apart in your head: one governs money lent to countries, the other money spent on the institution itself."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-toolkit",
+   "title": "The lending toolkit",
+   "lede": "The ESM does not have one product. It has a shelf of them, and the whole point of Project CASTOR is that the new system must handle any of them without writing new code.",
+   "blocks": [
+    {
+     "p": [
+      "In lending, an instrument is a defined type of support with its own legal agreement, conditions, pricing and pattern of cash flows. Each behaves differently inside a system. A loan paid out in six tranches over three years is not the same object as a credit line that may never be drawn at all.",
+      "Here is the shelf. Read each one for what it is for, not for its name."
+     ]
+    },
+    {
+     "h": "Loan under a macroeconomic adjustment programme",
+     "p": [
+      "The classic rescue loan, and the biggest. It goes to a member state that has lost access to the markets. In exchange the country agrees a full reform programme covering its budget, its public sector and often its banks. The money is paid in tranches over years, and each tranche is released only after a review confirms the agreed measures were taken. Ireland, Portugal, Greece, Spain and Cyprus were all financed this way."
+     ]
+    },
+    {
+     "h": "Loan for indirect bank recapitalisation",
+     "p": [
+      "Here the problem is not the government but its banks. The ESM lends to the government, and the government puts the money into the banks. It is called indirect because the ESM's borrower is still the state, which stays liable for repayment. The conditions usually target financial supervision, bank governance and the national laws on restructuring and resolution. Spain's 2012 programme is the example."
+     ]
+    },
+    {
+     "h": "Direct recapitalisation of institutions",
+     "p": [
+      "The ESM injects capital into a bank itself instead of lending to the state, so that a failing bank does not drag its government's finances down with it. It is capped at 60 billion euro inside the 500 billion euro lending capacity, and it has never been used. It still matters for a system project: an instrument that has never been used must still be configured, tested and reportable."
+     ]
+    },
+    {
+     "h": "Precautionary Conditioned Credit Line (PCCL)",
+     "p": [
+      "Insurance, not treatment. A standby credit line for a country whose economy is fundamentally sound and which still has market access, but which could be hit by something outside its control. Eligibility is measured against published benchmarks: a government deficit below 3% of gross domestic product, debt below 60% of GDP or falling towards it, and no excessive imbalances. Instead of a Memorandum of Understanding the country signs a Letter of Intent, reviewed every six months. Credit lines of this kind are usually never drawn; their value is the signal."
+     ]
+    },
+    {
+     "h": "Enhanced Conditions Credit Line (ECCL)",
+     "p": [
+      "The same idea for a country whose overall position is sound but which does not meet every PCCL benchmark. Because there is a known weakness, it signs a Memorandum of Understanding with specific corrective measures. Same shape of support, heavier conditions."
+     ]
+    },
+    {
+     "h": "Primary and Secondary Market Support Facilities",
+     "p": [
+      "The primary market is where a bond is first sold by its issuer. Under the Primary Market Support Facility the ESM buys newly issued bonds directly from a member state, normally alongside a programme, so that an auction does not fail and the country keeps a working link to investors.",
+      "The secondary market is where bonds are traded between investors after issue. Under the Secondary Market Support Facility the ESM buys existing bonds there to support liquidity when a disorderly market is itself the threat. It is the least used tool and the most politically sensitive, because it looks like intervening in prices."
+     ]
+    },
+    {
+     "h": "Pandemic Crisis Support",
+     "p": [
+      "A time-limited credit line created in May 2020 for the healthcare, cure and prevention costs of the Covid-19 crisis. No country drew on it and it expired at the end of 2022. Remember it as proof that the toolkit changes: a new instrument can be designed and approved in weeks when the politics allow, which puts the pressure onto whether the systems can follow."
+     ]
+    },
+    {
+     "h": "The common backstop, which is planned and not live",
+     "p": [
+      "The Single Resolution Fund (SRF) is the pot that pays for resolving failing banks in the Banking Union. It is filled by the banks themselves, not by governments, holds roughly 80 billion euro, and reached its target level of 1% of covered deposits at the end of 2023.",
+      "The 2021 reform of the ESM Treaty would add a credit line from the ESM to that fund, capped at 68 billion euro. If a resolution exhausted the SRF, the ESM would lend it the difference, repayable within three years and extendable to five, out of further bank contributions. Banks pay, not taxpayers.",
+      "Now the honest part. The amended Treaty was signed in January and February 2021 and enters into force only when every member state has ratified it. Italy has not, and as of 2026 it is the only one that has not. The backstop is designed, agreed and un-started. Anyone who tells you the ESM has a backstop today is wrong.",
+      "For Project CASTOR this is a requirement and a risk at once. The Business Case promises a new instrument can be switched on within six weeks of the Treaty entering into force, and nobody can say when that is. A system needing nine months of coding per instrument cannot make that promise. A system where an instrument is configuration can."
+     ]
+    },
+    {
+     "h": "The shelf at a glance",
+     "table": {
+      "cols": [
+       "Instrument",
+       "Who receives the money",
+       "Live today?"
+      ],
+      "rows": [
+       [
+        "Loan under an adjustment programme",
+        "A member state that has lost market access",
+        "Yes, none active since 2018"
+       ],
+       [
+        "Indirect bank recapitalisation loan",
+        "A member state, which passes it to its banks",
+        "Yes, unused since Spain"
+       ],
+       [
+        "Direct recapitalisation",
+        "A bank, directly",
+        "Yes, never used, capped at 60 billion euro"
+       ],
+       [
+        "PCCL",
+        "A member state with sound fundamentals",
+        "Yes, never drawn"
+       ],
+       [
+        "ECCL",
+        "A member state with a known weakness",
+        "Yes, never drawn"
+       ],
+       [
+        "Primary Market Support Facility",
+        "A member state, by buying its new bonds",
+        "Yes"
+       ],
+       [
+        "Secondary Market Support Facility",
+        "The market, by buying existing bonds",
+        "Yes"
+       ],
+       [
+        "Pandemic Crisis Support",
+        "A member state, for health costs",
+        "No, expired end-2022"
+       ],
+       [
+        "Common backstop to the SRF",
+        "The Single Resolution Fund",
+        "No, needs the Treaty reform in force"
+       ]
+      ]
+     }
+    },
+    {
+     "p": [
+      "Read that table once more as a system requirement. Nine instruments, several never used, one expired but still reportable, and one that does not exist yet but must be ready in six weeks. That is why success criterion SC3 is written the way it is, and why Leonardo da Vinci argues in the story that the platform must be bought and configured, not built."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "life-of-a-loan",
+   "title": "The life of a rescue loan",
+   "lede": "This is what people mean by loan processing. Follow one euro from a government's request to its final repayment, and every job title in the building starts to explain itself.",
+   "blocks": [
+    {
+     "p": [
+      "A rescue loan is not one event. It is a chain of about fifteen controlled steps running over years. Different teams own different steps, and every hand-over between them is a place where money, or the record of money, can go wrong.",
+      "Two words first. A tranche is one instalment of an agreed loan. A disbursement is the act of paying one tranche out. A facility of 50 billion euro is never sent as one wire."
+     ]
+    },
+    {
+     "h": "The chain, step by step",
+     "steps": [
+      {
+       "t": "1. The request",
+       "d": "A euro area government writes to the Chair of the Board of Governors asking for financial assistance. A political act with an exact legal form, usually after months of quiet discussion. What can go wrong: the request is delayed for domestic political reasons until the loan finally needed is larger."
+      },
+      {
+       "t": "2. The assessment",
+       "d": "The European Commission, in liaison with the European Central Bank and often the International Monetary Fund, assesses how much is needed, whether the debt can be repaid, and the risk to the euro area. The ESM runs its own analysis. What can go wrong: it rests on forecasts, and forecasts for a country in crisis are the least reliable that exist."
+      },
+      {
+       "t": "3. The programme and the Memorandum of Understanding",
+       "d": "The Commission negotiates a Memorandum of Understanding on the ESM's behalf: the reforms committed to, and the review timetable. This is where conditionality lives, because money arrives only when conditions are met. What can go wrong: conditions that look reasonable on paper prove politically impossible, and every review becomes a renegotiation."
+      },
+      {
+       "t": "4. Board approval",
+       "d": "The Board of Governors grants assistance by mutual agreement. The Board of Directors then approves the facility, and later each individual disbursement under it. What can go wrong: several member states need their national parliament to approve first, so the decision waits on a timetable nobody in Luxembourg controls."
+      },
+      {
+       "t": "5. The loan agreement",
+       "d": "The two sides sign a financial assistance facility agreement: amount, availability period, pricing, drawdown rules, events of default. Legal owns it, and from here everything is contractual. What can go wrong: a clause left slightly unclear becomes a dispute five years later, when everyone who negotiated it has moved on."
+      },
+      {
+       "t": "6. Raising the money",
+       "d": "The ESM holds no pool of cash waiting to be lent. Treasury and Funding issue bonds and bills under a published plan, and the proceeds fund all loans from one shared pool. What can go wrong: a bad day on the bond market. The disbursement date is fixed by an agreement; the market is not."
+      },
+      {
+       "t": "7. The disbursement instruction",
+       "d": "Lending Operations creates the instruction: which facility, which tranche, how much, to which account, for which value date, against which approval. This is the object Project CASTOR revolves around. What can go wrong: a wrong account number, amount or date, or borrower bank details last verified two years ago."
+      },
+      {
+       "t": "8. The four-eyes check",
+       "d": "A second, different person verifies the instruction against the underlying documents and approves it. Whoever created it may not release it. What can go wrong: the check degrades into a habit, or the system lets one person hold both roles. That second failure is an audit finding, and LOS had exactly that one."
+      },
+      {
+       "t": "9. The payment message",
+       "d": "The approved instruction becomes a formatted payment message and travels over a secure network to the banks that move the money, out of the ESM's own account at a central or correspondent bank. What can go wrong: it is rejected for a formatting error and must be repaired, eating the hours left before the cut-off."
+      },
+      {
+       "t": "10. The cut-off",
+       "d": "Every payment system has a time of day after which an instruction can no longer settle for the value date you wanted. Miss it and the money arrives a day late. What can go wrong: a re-keying step starting at 15:40 for a 16:00 cut-off. This single mechanic is why SC1 exists."
+      },
+      {
+       "t": "11. Value date and arrival",
+       "d": "On the value date the money must be in the receiving account and available. Value date is not the date the instruction was sent, nor the date it was booked. What can go wrong: one day late on 250 million euro costs real interest, and breaks the borrower's own payment plan for that day."
+      },
+      {
+       "t": "12. Reconciliation",
+       "d": "Somebody must prove that what the loan system says was paid, what the treasury system says was funded, and what the bank statement shows left the account are the same. Every unexplained difference is a break and must be cleared. What can go wrong: doing it three days later, by hand, in a spreadsheet. That was the LOS baseline, and SC2 attacks it."
+      },
+      {
+       "t": "13. Interest accrual",
+       "d": "From the value date the loan earns interest, building day by day. The system calculates it daily on the agreed rate basis and books it, whether or not cash moves. What can go wrong: a wrong day-count convention or a missed rate reset quietly mis-states the accounts for months."
+      },
+      {
+       "t": "14. The repayment schedule",
+       "d": "The agreement fixes when interest and principal fall due. The system generates the forward cash flows, issues the notices, and posts each receipt against the right loan. What can go wrong: a rescheduling means regenerating the whole schedule without losing the record of what was true before."
+      },
+      {
+       "t": "15. Maturity, or early repayment",
+       "d": "The loan ends by running to its final maturity date, or because the country repays early, which several have done. Early repayment forces a recalculation of interest and can leave the ESM holding funding it no longer needs. What can go wrong: short notice, on a loan whose data has been migrated twice."
+      }
+     ]
+    },
+    {
+     "h": "Where Project CASTOR sits in the chain",
+     "p": [
+      "Steps 1 to 6 are political, legal and market work, and no IT project changes them. Steps 7 to 15 are operational, repetitive and measurable, which is exactly the stretch Project CASTOR automates. That is also why the five success criteria are shaped the way they are. Each one names a step."
+     ],
+     "table": {
+      "cols": [
+       "Criterion",
+       "The step it attacks",
+       "Baseline to target"
+      ],
+      "rows": [
+       [
+        "SC1 disbursement cycle time",
+        "Steps 7 to 11",
+        "5 working days to 1"
+       ],
+       [
+        "SC2 post-disbursement reconciliation",
+        "Step 12",
+        "3 working days to same day"
+       ],
+       [
+        "SC3 new instrument onboarding",
+        "Steps 5 to 7, product configuration",
+        "9 months to 6 weeks"
+       ],
+       [
+        "SC4 manual re-keying",
+        "Steps 7 to 9",
+        "about 1,400 fields a quarter to zero"
+       ],
+       [
+        "SC5 open internal-audit findings",
+        "Step 8 and the audit trail throughout",
+        "2 to 0"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "One habit to take away",
+     "p": [
+      "When anyone says a payment is late, ask which step. Late because Board approval slipped is a governance problem. Late because the message was rejected is a data problem. Late because a person was re-keying at 15:40 is a process problem, and only the last one is something an IT project can fix.",
+      "The same discipline works in the PM2 exam. When a case study says a deliverable failed, the useful question is never whose fault it was, but which control should have caught it and whether that control existed."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "who-does-what",
+   "title": "Front, middle and back office",
+   "lede": "Every financial institution splits one transaction between three teams that are deliberately not allowed to be the same people. Once you see the split, the organisation chart reads itself.",
+   "blocks": [
+    {
+     "p": [
+      "Front office, middle office and back office are not levels of seniority, and back office is not a polite word for junior. They are three stages of one transaction, separated on purpose."
+     ],
+     "table": {
+      "cols": [
+       "Office",
+       "What it does",
+       "At the ESM"
+      ],
+      "rows": [
+       [
+        "Front office",
+        "Faces the outside world and commits the institution. Negotiates, prices, agrees.",
+        "Lending Operations agreeing a facility and its drawdown schedule. Funding selling a bond to investors."
+       ],
+       [
+        "Middle office",
+        "Independently checks, values and controls what the front office agreed. Owns limits and analysis.",
+        "Risk Management confirming exposure against limits, and the analysts who verify pricing and produce the numbers management sees."
+       ],
+       [
+        "Back office",
+        "Settles, confirms, pays, books and reconciles after the deal is agreed.",
+        "Loan administration creating and releasing disbursement instructions. Finance and Control booking accruals and closing the month."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Why they are separated",
+     "p": [
+      "One rule sits underneath the whole design: the person who agrees a payment must not be the person who releases it. That rule is segregation of duties. Its everyday form is the four-eyes principle, where a second competent person checks and approves before anything takes effect.",
+      "This is not distrust of colleagues. It is a control built so an ordinary mistake gets caught, so a fraud would need two people instead of one, and, just as important, so the institution can prove afterwards that both were true. The proof is the audit trail: a stored record of who did what, when, and on what basis, which cannot be altered later.",
+      "In Project CASTOR this is not theory. Internal Audit raised two findings against LOS, one on segregation of duties and one on the completeness of the audit trail. Success criterion SC5 says both must be closed, and an audit finding closes only with evidence."
+     ]
+    },
+    {
+     "h": "The functions, and what each one will not give up",
+     "table": {
+      "cols": [
+       "Function",
+       "What it owns",
+       "What it will not compromise on"
+      ],
+      "rows": [
+       [
+        "Lending Operations",
+        "The loan book, drawdown schedules, disbursement instructions, and the relationship with the borrower's treasury.",
+        "That a payment is correct and on time."
+       ],
+       [
+        "Risk",
+        "Limits, exposure, credit assessment, and the risk framework.",
+        "That risk is measured independently of the people taking it."
+       ],
+       [
+        "Finance and Control",
+        "The accounts, the accruals, the month-end close, the financial statements, the administrative budget.",
+        "That every number traces back to a document."
+       ],
+       [
+        "Treasury and Funding",
+        "Bond and bill issuance, cash and liquidity, and the nostro accounts money is paid from.",
+        "That the cash is where it must be, on the day it must be there."
+       ],
+       [
+        "Legal",
+        "The facility agreements, the supplier contracts, and the treaty questions underneath both.",
+        "That nothing is done which the documents do not permit."
+       ],
+       [
+        "IT and Digital",
+        "The systems, their security, their availability, and the control of changes to them.",
+        "That a change is tested, authorised and reversible."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "The same map, drawn onto Project CASTOR",
+     "p": [
+      "Every character in the story is one of those interests wearing a name. Read this as motivations, not personalities."
+     ],
+     "table": {
+      "cols": [
+       "Where they sit",
+       "Project CASTOR role",
+       "Why they care about what they care about"
+      ],
+      "rows": [
+       [
+        "Head of Lending Operations",
+        "Florence Nightingale, Project Owner (PO)",
+        "She owns the outcome and the benefits, not the software. She is accountable for SC1 to SC5, so every argument she makes reduces to a number."
+       ],
+       [
+        "Senior Loan Operations Officer",
+        "Grace Hopper, Business Manager (BM)",
+        "She must keep the division running while it changes, and retrain the people who do the work. She is the translator between business and build."
+       ],
+       [
+        "Loan administration, the day job",
+        "Marie Curie, User Representative (UR)",
+        "She does the work the system will change, and she signs deliverables off. She refuses to accept a figure she has not verified herself, which is the job."
+       ],
+       [
+        "Head of IT and Digital",
+        "Leonardo da Vinci, Solution Provider (SP)",
+        "He answers for what gets built. His nightmare is an architecture that cannot be extended, because that means nine months of coding per new instrument."
+       ],
+       [
+        "The contractor's architecture",
+        "Nikola Tesla, Lead Solution Architect, seconded from Levallois Systems",
+        "He knows how the platform really works. That is why he is risk R-07, the key-person risk, long before he resigns on 04 Oct 2027."
+       ],
+       [
+        "The contractor's delivery",
+        "Gustave Eiffel, Contractor's Project Manager (CPM)",
+        "He is paid against a contract and will do what it says, on the date it says. Not obstruction, commercial hygiene, and the reason change goes through a form."
+       ],
+       [
+        "Independent review of the process",
+        "W. Edwards Deming, Project Quality Assurance (PQA)",
+        "He does not report to the Project Manager, and that independence is the entire value. He reviews the process, not the person."
+       ],
+       [
+        "Institutional investment governance",
+        "Lorenzo de' Medici, chair of the Corporate Investment Board (AGB)",
+        "He holds the administrative budget for the whole institution. His question is never whether the project is good, but what leaves the portfolio to make room."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "The point of all this",
+     "p": [
+      "Nightingale is not difficult, she is accountable for a number. Eiffel is not obstructive, he is bound by a contract. Tesla is not arrogant, he is the only person who knows something, which is a fact about the project rather than about him.",
+      "PM2 gives each interest a role, an artefact and a forum. The Project Steering Committee is where they meet, the Change Log is where a request becomes visible, and the RASCI table settles in advance who decides. The conflict still happens. It just happens in a meeting that has minutes."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "what-a-lending-system-does",
+   "title": "What a lending operations system is for",
+   "lede": "Project CASTOR replaces a system called LOS. Until you know what a lending operations system does all day, the project is only a name and a budget.",
+   "blocks": [
+    {
+     "p": [
+      "A loan servicing system, also called a lending operations system, is the institutional memory of every loan plus the machine that acts on it. It holds what was agreed, works out what must happen next, makes it happen, and records that it happened. Everything else in the project is detail sitting on top of those four jobs."
+     ]
+    },
+    {
+     "h": "The eight things it actually does",
+     "steps": [
+      {
+       "t": "Product configuration",
+       "d": "It holds a definition of each instrument: how interest is calculated, which fees apply, how drawdowns work, what documents are required, what the accounting looks like. In a good system this is configuration, which a trained business user can change. In a bad system it is code, and every new instrument becomes a development project. That one difference is success criterion SC3: nine months down to six weeks."
+      },
+      {
+       "t": "The loan book",
+       "d": "The register of every facility and every loan: borrower, amount committed, amount drawn, amount outstanding, rate, dates, status. When someone asks what the exposure to a given country is, the loan book answers, and everything else is derived from it."
+      },
+      {
+       "t": "Drawdown schedules",
+       "d": "The agreed plan of when the borrower may take each tranche and on what conditions. The system does not merely record the plan, it enforces it: disbursing more than the facility allows, or earlier than the agreement permits, should be impossible."
+      },
+      {
+       "t": "Cash-flow generation",
+       "d": "From the loan terms the system calculates every future payment: interest dates, principal repayments, fees, and the daily accrual in between. This is the arithmetic engine. Change one rate reset and several hundred future amounts change with it, which is why it must never be a spreadsheet."
+      },
+      {
+       "t": "Payment instruction creation",
+       "d": "It turns a decision to pay into a structured instruction carrying every field the payment network needs, routes it for the four-eyes approval, and hands it to the payment gateway in the right format. This is the step that must be automatic, because it is currently done three times by hand."
+      },
+      {
+       "t": "Accounting entries",
+       "d": "Every event, whether a disbursement, an accrual, a receipt or a fee, must produce matching double-entry bookkeeping in the general ledger. If the loan system and the ledger disagree, the month-end close stops until somebody finds the difference."
+      },
+      {
+       "t": "Reconciliation",
+       "d": "The system compares its own record against the bank statements and the treasury system, matches everything that matches, and puts the rest into an exception queue for a person. The goal is not zero exceptions, but that a human only ever sees a genuine one."
+      },
+      {
+       "t": "Reporting",
+       "d": "Management reports, accounting reports, regulatory reporting to supervisors on a fixed timetable, and the ad hoc question a Board member asks on a Tuesday. All built from the same data, so that all of them agree with each other."
+      }
+     ]
+    },
+    {
+     "h": "Straight-through processing, in plain words",
+     "p": [
+      "Straight-through processing, usually written STP, means a transaction passes from one system to the next automatically, from end to end, with nobody retyping anything on the way.",
+      "Notice what it does not mean. A human still decides, and a human still approves. STP does not remove the four-eyes check, and any vendor who says it does should worry you. It removes the keyboard between the systems, not the judgement between the people.",
+      "In LOS today, a disbursement instruction is typed into the loan system, then typed again into the treasury system, then typed again into the payment gateway. That is manual re-keying, and roughly 1,400 fields a quarter go through it. Success criterion SC4 sets the target at zero, which is a strong word chosen deliberately: 90% automated still means a person is retyping under time pressure on the hardest cases."
+     ]
+    },
+    {
+     "h": "Why re-keying is worse than it looks",
+     "p": [
+      "It is slow. Every re-keying step needs a specific person to be available and free at exactly the moment before a cut-off. That is what puts a floor under the five working day cycle time SC1 attacks. You cannot compress a queue of humans.",
+      "It fails silently. A transcription error does not make the system complain. A wrong digit produces a perfectly valid, perfectly wrong payment, and because the two records now disagree, it surfaces days later as a reconciliation break at the worst possible moment.",
+      "And it is an audit finding. An auditor does not ask whether you got it right. An auditor asks whether you can prove only authorised people did this, and then asks to see the record. A re-keyed field breaks the chain of evidence, because the value in the second system has no verified link to the value in the first. That is why closing the LOS findings is a success criterion rather than a nice-to-have."
+     ]
+    },
+    {
+     "h": "So what is Project CASTOR, in one paragraph",
+     "p": [
+      "It replaces a 14-year-old system, built in the EFSF era, in which each instrument is hard-coded, instructions are re-keyed three times, reconciliation takes three working days, and the audit trail has holes in it. It buys and configures a platform where an instrument is a set of settings, the chain from loan agreement to disbursement to repayment schedule runs automatically, reconciliation completes the same day, every action is logged, and a new instrument such as the common backstop could be switched on within six weeks of the Treaty reform entering into force.",
+      "The price of that is 8.4 million euro, 3,100 person-days and 26 months, delivered as a mix: an in-house core team plus an outsourced platform implementation by Levallois Systems. Every argument in the story is downstream of those three sentences."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why-projects-like-this-are-hard",
+   "title": "Why replacing a working system is hard",
+   "lede": "Replacing a system that works is harder than building one that does not exist yet, and nearly every crisis in the CASTOR story comes from one of six causes.",
+   "blocks": [
+    {
+     "p": [
+      "A new system in an empty space has no history, no users, no live money and no deadline belonging to somebody else. A replacement has all four. The old system keeps paying, keeps accruing, keeps being audited and keeps being changed while you build the thing that will switch it off."
+     ]
+    },
+    {
+     "h": "1. Parallel running",
+     "p": [
+      "A parallel run means both systems process the same real work at the same time and you compare the results. It is the only honest proof that the new system is right, because it tests against reality instead of against your expectations of reality.",
+      "It is also expensive in the one resource you cannot buy: for the whole period, the business does its job twice. CASTOR runs parallel from 08 Jan to 30 Apr 2028, chosen so the window covers a month-end close and a quarter-end.",
+      "What breaks it is a real event the two systems handle differently. In the story an EFSF bond rollover lands in the middle of the run, the reconciliation report does not match, and Marie Curie refuses acceptance. That is the process working, not failing."
+     ]
+    },
+    {
+     "h": "2. Data migration",
+     "p": [
+      "Every loan, every schedule, every historical cash flow and every document reference has to move from the old system into the new one without changing. Without changing is the hard part.",
+      "Old systems accumulate records that break their own rules: a loan with no end date, an amount stored as text, a counterparty renamed in 2014 and never merged, a fee type only three loans use and nobody can explain. You cannot migrate what you cannot explain, and you cannot explain it quickly.",
+      "Migration is normally the largest single underestimate in this kind of project, and it is found late, because everybody tests the clean 97% and nobody looks at the ugly 3% until the rehearsal."
+     ]
+    },
+    {
+     "h": "3. The cutover window",
+     "p": [
+      "Cutover is the moment you switch the old system off and the new one on. In a financial institution the project does not choose the window; the payment calendar chooses it. It must fall between value dates, outside the month-end close, away from an interest payment date and away from a bond maturity. CASTOR goes live on 15 May 2028, which looks arbitrary until you notice it sits after the April month-end and well before the June quarter-end.",
+      "Every cutover also needs a rollback plan: the agreed way of returning to the old system if the switch fails. A rollback plan is not real unless three things are written down before the weekend starts. A decision point, a named person allowed to call it, and the last moment at which calling it is still possible."
+     ]
+    },
+    {
+     "h": "4. Regression testing",
+     "p": [
+      "A regression is something that used to work and now does not. A regression pack is a fixed set of tests re-run after every change, to prove nothing which worked has broken. On a lending system the pack is large, because the arithmetic multiplies out: instrument type times rate basis times day-count convention times fee structure times repayment pattern. Each combination can be quietly wrong.",
+      "Teams under time pressure shrink the pack, usually by dropping combinations that have never failed. That is the most reliable method known for producing a live incident, and it is exactly what an independent Project Quality Assurance reviewer is there to notice."
+     ]
+    },
+    {
+     "h": "5. Key-person risk",
+     "p": [
+      "In every specialist system, one or two people carry knowledge that exists nowhere else. That is a risk before they leave and an issue on the day they do. CASTOR names it as risk R-07 against Nikola Tesla, the lead architect seconded from Levallois Systems. On 04 Oct 2027 he resigns, and the entry moves from the Risk Log to the Issue Log. That move is the whole distinction PM2 draws between a risk, which might happen, and an issue, which has happened.",
+      "The defences are all boring and all have to exist before the day: a key-person clause in the contract, design decisions written down rather than remembered, a named deputy, and knowledge transfer with real time reserved for it. Every one is cheap in advance and impossible to arrange afterwards."
+     ]
+    },
+    {
+     "h": "6. Why you cannot have a change freeze",
+     "p": [
+      "In most replacement projects the business agrees a change freeze: no new features on the old system while the new one is built. A financial-assistance institution cannot promise that. If a member state requests support, or the Treaty reform enters into force, or a supervisor changes a reporting requirement, the change is not optional and its date is not negotiable. So CASTOR must plan for changes it cannot predict, arriving at moments it cannot control, landing on both systems at once.",
+      "This is why the paperwork matters more here than elsewhere. The pressure to say yes informally is constant. In the story a verbal request arrives from a Board member's cabinet asking for backstop screens now. Handled as a favour it destroys the baseline quietly. Handled properly it becomes a Change Request Form, an entry in the Change Log and a Project Steering Committee decision, and then the answer, whatever it is, is defensible."
+     ]
+    },
+    {
+     "h": "The six causes, and where the story puts them",
+     "table": {
+      "cols": [
+       "The hard thing",
+       "How it shows up in Project CASTOR",
+       "The PM2 answer"
+      ],
+      "rows": [
+       [
+        "Unplanned scope arriving with authority",
+        "A Board member's cabinet asks verbally for SRF backstop screens",
+        "Change Request Form, Change Log, Project Steering Committee decision. Never a favour."
+       ],
+       [
+        "Key-person risk becoming real",
+        "Tesla resigns on 04 Oct 2027",
+        "Risk R-07 moves from the Risk Log to the Issue Log. Key-person clause and knowledge transfer are invoked."
+       ],
+       [
+        "Parallel running hitting live business",
+        "The run overlaps an EFSF bond rollover and the reconciliation report does not match",
+        "Manage Deliverables Acceptance, ending in provisional acceptance with dated open points."
+       ],
+       [
+        "Ownership of the human side of change",
+        "Who owns retraining 40 loan administrators, and which document says so",
+        "Transition Plan against Business Implementation Plan. One moves the work, the other the people."
+       ],
+       [
+        "Benefits arriving after the project ends",
+        "SC1 to SC5 need a full year of live running, so 2029",
+        "The Project-End Report hands benefit tracking to the permanent organisation."
+       ]
+      ]
+     }
+    },
+    {
+     "p": [
+      "None of these six are technical problems. They are all problems of sequence, ownership and evidence, which is why a method exists at all. If the hard part of this project were writing the software, you would not need a Project Manager."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "money-words",
+   "title": "Money words that trip up project managers",
+   "lede": "Eleven words you will meet in your first week. None of them is difficult. They are simply never explained, so here they are, each with the arithmetic that makes it stick.",
+   "blocks": [
+    {
+     "p": [
+      "Read the middle column for the meaning and the right-hand column for the number. The number is what makes the word stay."
+     ],
+     "table": {
+      "cols": [
+       "Word",
+       "What it means",
+       "Made concrete"
+      ],
+      "rows": [
+       [
+        "basis point (bp)",
+        "One hundredth of one percent. One hundred basis points make 1%.",
+        "A margin of 25 bp on 250 million euro is 625,000 euro a year. People say twenty-five bips out loud."
+       ],
+       [
+        "accrual",
+        "An amount that has been earned or owed but not yet paid, recognised a little at a time as the days pass.",
+        "A 250 million euro loan at 2% accrues roughly 13,700 euro of interest every day, whether or not anybody pays anything."
+       ],
+       [
+        "value date",
+        "The day on which the money must actually be in the receiving account and usable.",
+        "An instruction sent on Friday for value on Monday must clear Friday's cut-off. Send date and value date are different dates."
+       ],
+       [
+        "nostro account",
+        "Our account, held at another bank or at a central bank, from which the institution actually pays.",
+        "The disbursement leaves a nostro account. The statement of that account is the document reconciliation is checked against."
+       ],
+       [
+        "settlement",
+        "The moment a transfer becomes final: the payer's obligation is discharged and the receiver has the money.",
+        "Agreeing something and settling it are usually different days. The gap between them is called settlement risk."
+       ],
+       [
+        "coupon",
+        "The interest a bond pays its holders, and the rate that defines it.",
+        "A 3 billion euro bond with a 3% annual coupon costs its issuer 90 million euro a year, on a date fixed years in advance."
+       ],
+       [
+        "rollover",
+        "Repaying debt that is falling due by issuing new debt, usually on the same day.",
+        "An EFSF bond matures and a new one is issued to repay it. Large cash flows move in both directions on one date, which is why a rollover in the middle of a parallel run is dangerous."
+       ],
+       [
+        "amortisation",
+        "Repaying a loan gradually in instalments, instead of all at the end.",
+        "A loan amortising over ten years repays about 10% of the principal each year. A bullet loan repays 100% on the final day and nothing before it."
+       ],
+       [
+        "notional",
+        "The headline amount a contract is written on, used to calculate payments. It is not necessarily an amount that moves.",
+        "A 50 billion euro facility has a 50 billion euro notional even if only 30 billion euro has ever been drawn."
+       ],
+       [
+        "collateral",
+        "Assets pledged to the lender, which the lender may take if the borrower does not pay.",
+        "ESM loans to states are not collateralised. Treasury investments and derivative contracts are, and the collateral is revalued daily."
+       ],
+       [
+        "mark-to-market",
+        "Revaluing something at what it is worth in the market today, instead of what was paid for it.",
+        "The invested paid-in capital is marked to market, so its reported value moves up and down as interest rates move."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Two habits worth copying",
+     "p": [
+      "First, always ask which date somebody means. Trade date, booking date, value date and settlement date are four different things, and in any payment discussion at least two of them are in the room without being named. The instruction says one, the accounts say another, and the difference is usually the whole argument.",
+      "Second, always ask basis points of what, and over what period. A margin is quoted in basis points on the amount outstanding, per year. A fee may be a one-off percentage of the entire facility. The ESM's own service fee, for example, has an upfront component of 50 basis points plus a small annual component of half a basis point. Same unit, completely different amounts of money."
+     ]
+    },
+    {
+     "h": "Three more you will meet almost as often",
+     "p": [
+      "Day-count convention. Interest quoted per year has to be turned into interest for a particular 31 days, and there is more than one rule for doing that: actual/360, actual/365, 30/360. The choice is written in the loan agreement and it changes the number. It is also a classic cause of a reconciliation break between two systems that were configured by two different people in two different years.",
+      "Principal and interest. Principal is the borrowed amount itself. Interest is the price paid for having it. A repayment is usually a mixture, and the split matters, because they are accounted for differently and reported differently. When a schedule looks wrong, check the split first.",
+      "Face value against market value. Face value, also called nominal or par, is the amount printed on the debt and repaid at maturity. Market value is what somebody would pay for it today. A bond issued at 100 and trading at 97 has not changed what it will repay. It has changed what it is worth to hold. Confusing the two is how people misread a balance sheet."
+     ]
+    },
+    {
+     "h": "How to use this page",
+     "p": [
+      "Do not try to memorise the list. Take one word into the next conversation you have and use it correctly once. Terminology sticks through use, not through revision, and in this industry using a word correctly is how people decide whether to explain the next thing to you or not."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading-the-project",
+   "title": "Reading Project CASTOR's numbers",
+   "lede": "Three numbers describe the shape of any project: money, effort and time. Divide them into each other and the project tells you what it really is.",
+   "blocks": [
+    {
+     "p": [
+      "Project CASTOR is 8.4 million euro, 3,100 person-days and 26 months, running from a Project Initiation Request on 12 Jan 2026 to administrative closure on 28 Jul 2028. On their own, none of those numbers means anything. Divided into each other, they describe a specific kind of project, and they let you say straight away whether a plan is plausible."
+     ]
+    },
+    {
+     "h": "Doing the division",
+     "table": {
+      "cols": [
+       "Calculation",
+       "Result",
+       "What it tells you"
+      ],
+      "rows": [
+       [
+        "8.4 million euro divided by 3,100 person-days",
+        "about 2,700 euro per person-day",
+        "Too high to be all labour. So part of the 8.4 million euro is not people: platform licences, infrastructure, and fixed-price elements of the contractor's work."
+       ],
+       [
+        "3,100 person-days divided by 26 months",
+        "about 119 person-days a month",
+        "Roughly five to six people working full time, averaged across the project. A small, senior team, not an army."
+       ],
+       [
+        "26 months, Jan 2026 to Jul 2028",
+        "two years and two months",
+        "Long enough that people will leave, the budget year rolls over twice, and the institutional context moves underneath the project."
+       ],
+       [
+        "3,100 person-days across two releases and a parallel run",
+        "not a flat line",
+        "Expect a light Initiating and Planning period, a heavy Executing period, and a second peak at parallel run and cutover in 2028."
+       ]
+      ]
+     },
+     "p": [
+      "A person-day, written PD, is one person working for one day. It is the unit PM2 uses for effort, and it is deliberately separate from duration. One hundred person-days can be one person for a hundred days or ten people for ten days, and those are completely different projects with completely different risks. The other unit you will meet is the full-time equivalent, or FTE, which is one person working full time for a year."
+     ]
+    },
+    {
+     "h": "The five success criteria, read properly",
+     "table": {
+      "cols": [
+       "#",
+       "Criterion",
+       "Baseline to target",
+       "What it is really measuring"
+      ],
+      "rows": [
+       [
+        "SC1",
+        "Disbursement cycle time, instruction to value date",
+        "5 working days to 1 working day",
+        "Speed. It is the only criterion the borrowing country would notice directly."
+       ],
+       [
+        "SC2",
+        "Post-disbursement reconciliation",
+        "3 working days to same day",
+        "Control. A three-day gap is three days in which an error is live and nobody knows."
+       ],
+       [
+        "SC3",
+        "New instrument onboarding",
+        "9 months to 6 weeks",
+        "Flexibility. It is the only criterion about the future rather than about today, and the only one nobody can test until a new instrument arrives."
+       ],
+       [
+        "SC4",
+        "Manual re-keying of payment instructions",
+        "about 1,400 fields per quarter to zero",
+        "Effort and risk at once. Every field is a chance to be wrong and a person who has to be available."
+       ],
+       [
+        "SC5",
+        "Open internal-audit findings on LOS",
+        "2 to 0",
+        "Compliance. Binary, judged by somebody outside the project, and impossible to argue down."
+       ]
+      ]
+     },
+     "p": [
+      "Notice what all five have in common. Each one has a baseline, a target and a unit. That is what makes a criterion measurable instead of an aspiration. Improve efficiency is not a success criterion. Reconciliation completed the same day, from a baseline of three working days, is.",
+      "This is worth carrying into the exam. A Business Case that states benefits without stating a baseline is incomplete, because you can never afterwards prove you delivered them. When a case study gives you a vague objective, the correct instinct is to ask what it is being measured against today."
+     ]
+    },
+    {
+     "h": "Why the benefits only appear in 2029",
+     "p": [
+      "Go-live is 15 May 2028, the Ready for Closing gate is 22 Jun 2028, and administrative closure completes on 28 Jul 2028. So on the day the project ends, the new system has been live for about ten weeks.",
+      "Ten weeks is not enough to measure any of SC1 to SC5 honestly. Reconciliation performance has to be seen across quarter-ends and a year-end close. Disbursement cycle time needs enough real disbursements to be more than an anecdote. Instrument onboarding cannot be measured at all until a new instrument arrives, which depends on a ratification nobody controls. The first full year of live running is 2029.",
+      "This is not a flaw in CASTOR. It is normal for every system replacement, and PM2 handles it explicitly. The project closes, and the Project-End Report hands benefit tracking to the permanent organisation: the standing departments that carry on after the project team is dissolved. The Project Owner does not stop being accountable for the benefits. She stops being accountable for a project.",
+      "Florence Nightingale finds this genuinely hard, and the reason is characterisation rather than accounting. She is the person who counts things. Being told the number she cares about will exist eighteen months after her project is archived is, for her, the most uncomfortable moment in the method."
+     ]
+    },
+    {
+     "h": "How to read any project this way",
+     "steps": [
+      {
+       "t": "Divide the money by the effort",
+       "d": "If the cost per person-day is far above a plausible daily rate, the budget contains things that are not people. Find them, and ask for each whether it is an estimate or a quotation. Estimates move; quotations mostly do not."
+      },
+      {
+       "t": "Divide the effort by the duration",
+       "d": "That gives you the average team size. If it is unrealistically small for the scope described, the plan is optimistic. If it is very large, the cost of coordinating everybody will eat part of the estimate."
+      },
+      {
+       "t": "Ask when the benefit can first be measured",
+       "d": "If the honest answer is after the project closes, the Business Case needs a named owner for benefit tracking after closure. It also means the project's own success cannot be judged by the benefits, only by whether it delivered the capability to produce them."
+      },
+      {
+       "t": "Check that every criterion has a baseline",
+       "d": "No baseline means no proof. This is the fastest weakness to spot in any Business Case, and it is a reliable source of marks in a PM2 exam question that asks what is missing."
+      },
+      {
+       "t": "Look at where the dates sit in the business calendar",
+       "d": "A go-live date, a parallel run window or a cutover weekend that ignores month-end, quarter-end or a payment calendar is a plan written by somebody who has not asked the business. In CASTOR, every 2028 date has been chosen around that calendar."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "t": "acceptance criteria",
+   "c": "Project management (PM²)",
+   "d": "The full set of conditions a deliverable must meet before the client will accept it, agreed before the work starts rather than argued afterwards.",
+   "see": [
+    "acceptance criterion",
+    "deliverables acceptance note"
+   ]
+  },
+  {
+   "t": "acceptance criterion",
+   "c": "Project management (PM²)",
+   "d": "One single measurable condition from that set. Measurable is the operative word: pass or fail must not be a matter of opinion.",
+   "see": [
+    "acceptance criteria",
+    "acceptance test"
+   ]
+  },
+  {
+   "t": "acceptance test",
+   "c": "IT & delivery",
+   "d": "The check that proves a requirement has really been met. It is agreed before the work starts, not invented when the work is delivered.",
+   "see": [
+    "acceptance criterion",
+    "user acceptance testing"
+   ]
+  },
+  {
+   "t": "account director",
+   "c": "Procurement & contracts",
+   "d": "The supplier's commercial manager for a client. He owns the revenue and the relationship, not the delivery, and that difference matters when a project is in trouble.",
+   "see": [
+    "contractor's project manager"
+   ]
+  },
+  {
+   "t": "accrual",
+   "c": "Lending operations",
+   "d": "An amount earned or owed but not yet paid, recognised a little at a time as the days pass rather than all at once when cash moves.",
+   "see": [
+    "interest accrual",
+    "month-end close"
+   ]
+  },
+  {
+   "t": "ad hoc report",
+   "c": "Project management (PM²)",
+   "d": "A one-off report written to answer a specific need the regular reports do not cover. Each one costs effort that was not planned.",
+   "see": [
+    "regulatory reporting",
+    "reporting period"
+   ]
+  },
+  {
+   "t": "administrative budget",
+   "c": "ESM & euro area",
+   "d": "The ESM's own running costs: salaries, buildings, systems and projects. It is a completely separate pot of money from the lending capacity.",
+   "more": "Project CASTOR's 8.4 million euro comes from here.",
+   "see": [
+    "lending capacity",
+    "corporate investment board"
+   ]
+  },
+  {
+   "t": "amortisation",
+   "c": "Banking & markets",
+   "d": "Repaying a loan gradually in instalments instead of all at the end. A loan amortising over ten years repays about a tenth of the principal each year.",
+   "see": [
+    "bullet repayment",
+    "repayment schedule"
+   ]
+  },
+  {
+   "t": "appropriate governance body",
+   "c": "Project management (PM²)",
+   "d": "The senior committee, written AGB, that approves a project, agrees its objectives and releases its money. It sits above the project, not inside it.",
+   "more": "In Project CASTOR it is the Corporate Investment Board, chaired by Lorenzo de' Medici.",
+   "see": [
+    "corporate investment board",
+    "project steering committee"
+   ]
+  },
+  {
+   "t": "architecture office",
+   "c": "Project management (PM²)",
+   "d": "The in-house advisers, written AO, on how the organisation's IT systems should fit together. They ask what problem is being solved before discussing a solution.",
+   "more": "Albert Einstein represents them on the Project Steering Committee.",
+   "see": [
+    "design authority",
+    "interface specification"
+   ]
+  },
+  {
+   "t": "auction",
+   "c": "Banking & markets",
+   "d": "A sale in which investors bid for a new issue of debt and the issuer accepts the best bids. A failed auction is one where too few bids arrive.",
+   "see": [
+    "primary market",
+    "issuance"
+   ]
+  },
+  {
+   "t": "audit trail",
+   "c": "Audit, risk & control",
+   "d": "The stored record of who changed what, when, and on what basis, kept so that it cannot be altered afterwards.",
+   "more": "One of the two internal-audit findings against LOS was that its audit trail was incomplete.",
+   "see": [
+    "internal-audit finding",
+    "segregation of duties"
+   ]
+  },
+  {
+   "t": "authorised capital stock",
+   "c": "ESM & euro area",
+   "d": "The total value of the shares the ESM's members have subscribed to, about 709 billion euro. Most of it has never been paid in.",
+   "see": [
+    "paid-in capital",
+    "callable capital"
+   ]
+  },
+  {
+   "t": "availability period",
+   "c": "Lending operations",
+   "d": "The window during which a borrower may still draw money under a facility. When it closes, anything not drawn is cancelled.",
+   "see": [
+    "facility",
+    "drawdown schedule"
+   ]
+  },
+  {
+   "t": "award",
+   "c": "Procurement & contracts",
+   "d": "The formal decision giving a contract to one supplier after a competition, and the point from which the contract governs everything.",
+   "more": "Contract award to Levallois Systems: 18 Sep 2026.",
+   "see": [
+    "mini-competition",
+    "contractual remedy"
+   ]
+  },
+  {
+   "t": "back office",
+   "c": "Lending operations",
+   "d": "The team that settles, confirms, pays, books and reconciles after a deal has been agreed. It produces the accounting record.",
+   "see": [
+    "front office",
+    "middle office",
+    "reconciliation"
+   ]
+  },
+  {
+   "t": "back-to-back funding",
+   "c": "ESM & euro area",
+   "d": "Funding a loan with borrowing whose cash flows match it exactly, date for date. Used for particular purposes rather than as the normal method.",
+   "see": [
+    "diversified funding",
+    "pooled loans"
+   ]
+  },
+  {
+   "t": "banking union",
+   "c": "ESM & euro area",
+   "d": "The shared European system for supervising banks and dealing with failing ones, covering the euro area and any other member state that joins it.",
+   "see": [
+    "Single Resolution Fund",
+    "covered deposits"
+   ]
+  },
+  {
+   "t": "base rate",
+   "c": "ESM & euro area",
+   "d": "The ESM's own average cost of funding, calculated daily across all the bonds and bills it has issued. Loan pricing is built on top of it.",
+   "see": [
+    "margin",
+    "service fee"
+   ]
+  },
+  {
+   "t": "baseline",
+   "c": "Project management (PM²)",
+   "d": "The approved version of scope, cost and dates that progress is measured against. Changing it needs the change process, not a decision in a corridor.",
+   "see": [
+    "baseline scope",
+    "variance",
+    "change request"
+   ]
+  },
+  {
+   "t": "baseline scope",
+   "c": "Project management (PM²)",
+   "d": "The agreed and approved set of requirements. From the moment it is baselined, adding anything requires a change request.",
+   "see": [
+    "baseline",
+    "change request form"
+   ]
+  },
+  {
+   "t": "basis point",
+   "c": "Banking & markets",
+   "d": "One hundredth of one percent. One hundred basis points make 1%. Written bp and spoken as bip.",
+   "more": "A margin of 25 basis points on 250 million euro is 625,000 euro a year.",
+   "see": [
+    "margin"
+   ]
+  },
+  {
+   "t": "benefits realisation",
+   "c": "Project management (PM²)",
+   "d": "Actually obtaining the improvements a project promised. It usually happens after the project has closed, which is normal rather than a failure.",
+   "see": [
+    "permanent organisation",
+    "reporting year"
+   ]
+  },
+  {
+   "t": "bill",
+   "c": "Banking & markets",
+   "d": "A short-term tradable debt security maturing in less than a year. The ESM currently issues bills at three and six months.",
+   "see": [
+    "bond"
+   ]
+  },
+  {
+   "t": "board of directors",
+   "c": "ESM & euro area",
+   "d": "One director and one alternate per euro area member state, appointed for their competence in economic and financial matters. It exercises the powers the governors delegate, including approving each disbursement.",
+   "see": [
+    "board of governors",
+    "managing director"
+   ]
+  },
+  {
+   "t": "board of governors",
+   "c": "ESM & euro area",
+   "d": "The ESM's highest decision-making body: one governor per member state, in practice the finance minister. It decides whether to grant financial assistance at all.",
+   "see": [
+    "board of directors",
+    "mutual agreement",
+    "Eurogroup"
+   ]
+  },
+  {
+   "t": "bond",
+   "c": "Banking & markets",
+   "d": "A tradable promise to repay borrowed money on a fixed future date, usually paying interest along the way. Debt maturing in more than one year.",
+   "more": "The ESM raises the money it lends by issuing bonds to investors.",
+   "see": [
+    "bill",
+    "coupon",
+    "maturity"
+   ]
+  },
+  {
+   "t": "bond rollover",
+   "c": "Banking & markets",
+   "d": "A rollover done with bonds specifically: a maturing bond is repaid out of the proceeds of a new one issued for the purpose.",
+   "more": "In the story an EFSF bond rollover lands in the middle of the parallel run and breaks the reconciliation report.",
+   "see": [
+    "rollover",
+    "parallel run"
+   ]
+  },
+  {
+   "t": "bullet repayment",
+   "c": "Banking & markets",
+   "d": "Repaying the whole principal in one payment on the final day, with only interest paid before that.",
+   "see": [
+    "amortisation",
+    "maturity"
+   ]
+  },
+  {
+   "t": "burn rate",
+   "c": "Project management (PM²)",
+   "d": "How fast a project is consuming its person-days or its money. Compared against progress, it is an early warning that an estimate was wrong.",
+   "see": [
+    "earned value",
+    "variance"
+   ]
+  },
+  {
+   "t": "business analyst",
+   "c": "Project management (PM²)",
+   "d": "A Project Core Team member who turns a business need into a specification the builders can work from. It is a job, not a PM2 role of its own.",
+   "more": "Ada Lovelace, translating Grace Hopper's need into something Nikola Tesla can build.",
+   "see": [
+    "project core team",
+    "requirements document"
+   ]
+  },
+  {
+   "t": "business case",
+   "c": "Project management (PM²)",
+   "d": "The document that states the problem, compares options, justifies the money and recommends one solution, with measurable success criteria.",
+   "more": "Approved with the Project Charter on 24 Mar 2026.",
+   "see": [
+    "success criterion",
+    "total cost of ownership",
+    "SWOT"
+   ]
+  },
+  {
+   "t": "business continuity plan",
+   "c": "Audit, risk & control",
+   "d": "The written plan for keeping the work going when a critical system or building is unavailable, including who decides to invoke it.",
+   "see": [
+    "rollback",
+    "operational readiness review"
+   ]
+  },
+  {
+   "t": "business implementation group",
+   "c": "Project management (PM²)",
+   "d": "The business and user staff, written BIG, who prepare their own teams for the coming change. They are worried about their own workload, and they are right to be.",
+   "see": [
+    "business implementation plan",
+    "business manager"
+   ]
+  },
+  {
+   "t": "business implementation plan",
+   "c": "Project management (PM²)",
+   "d": "The plan for changing processes, people, structures and culture so that the new system is actually used and the benefits actually arrive.",
+   "more": "It moves the people. The Transition Plan moves the work.",
+   "see": [
+    "transition plan",
+    "organisational change management"
+   ]
+  },
+  {
+   "t": "business manager",
+   "c": "Project management (PM²)",
+   "d": "The Project Owner's representative on the business side, written BM. Runs the day-to-day business involvement and keeps the business ready for the change.",
+   "more": "Grace Hopper. She coordinates the Business Implementation Group.",
+   "see": [
+    "project owner",
+    "business implementation group"
+   ]
+  },
+  {
+   "t": "cabinet",
+   "c": "ESM & euro area",
+   "d": "The small private office of a senior official or board member. Its staff speak with that person's authority, which is why a request from a cabinet feels like an instruction.",
+   "more": "In the story a cabinet asks verbally for backstop screens. It still has to become a Change Request Form.",
+   "see": [
+    "change request form"
+   ]
+  },
+  {
+   "t": "callable capital",
+   "c": "ESM & euro area",
+   "d": "The part of the subscribed capital that has not been paid, about 628 billion euro. It is a binding promise that members will pay if the ESM ever calls it.",
+   "see": [
+    "capital call",
+    "paid-in capital"
+   ]
+  },
+  {
+   "t": "capital call",
+   "c": "ESM & euro area",
+   "d": "A formal demand by the ESM that its members pay in part of their callable capital, under rules fixed in the ESM Treaty.",
+   "see": [
+    "callable capital"
+   ]
+  },
+  {
+   "t": "capital markets",
+   "c": "Banking & markets",
+   "d": "The markets where organisations raise money by selling bonds and shares to investors, rather than by borrowing from a bank.",
+   "see": [
+    "bond",
+    "issuance"
+   ]
+  },
+  {
+   "t": "cash-flow generation",
+   "c": "Lending operations",
+   "d": "The system's calculation of every future payment on a loan: interest dates, principal repayments, fees and the daily accrual in between.",
+   "see": [
+    "repayment schedule",
+    "interest accrual"
+   ]
+  },
+  {
+   "t": "central bank",
+   "c": "Banking & markets",
+   "d": "The public institution that issues a currency and runs the payment system for it. In the euro area, the European Central Bank with the national central banks.",
+   "see": [
+    "European Central Bank",
+    "settlement"
+   ]
+  },
+  {
+   "t": "change log",
+   "c": "Project management (PM²)",
+   "d": "The register of requested changes, their assessment, and the decision taken on each one. It is what makes scope creep visible.",
+   "see": [
+    "change request form",
+    "change request"
+   ]
+  },
+  {
+   "t": "change request",
+   "c": "Project management (PM²)",
+   "d": "A formal written request to change something that has already been approved and baselined.",
+   "see": [
+    "change request form",
+    "baseline"
+   ]
+  },
+  {
+   "t": "change request form",
+   "c": "Project management (PM²)",
+   "d": "The form that turns a spoken request into an assessed, decided and recorded change, with an impact on scope, time, cost and quality.",
+   "more": "The story's test case: a verbal request from a Board member's cabinet must become one of these.",
+   "see": [
+    "change log",
+    "cabinet"
+   ]
+  },
+  {
+   "t": "clearing house",
+   "c": "Banking & markets",
+   "d": "A company that places itself between the buyer and the seller of a trade and guarantees to both that it will settle, taking the risk that one of them fails.",
+   "see": [
+    "settlement risk",
+    "counterparty"
+   ]
+  },
+  {
+   "t": "collateral",
+   "c": "Banking & markets",
+   "d": "Assets pledged to a lender, which the lender may take and sell if the borrower does not pay.",
+   "more": "ESM loans to states are not collateralised. Treasury investments and derivative contracts are.",
+   "see": [
+    "mark-to-market"
+   ]
+  },
+  {
+   "t": "commitment fee",
+   "c": "Lending operations",
+   "d": "A fee charged on money that has been promised but not yet drawn, to cover the lender's cost of keeping it available.",
+   "see": [
+    "margin",
+    "service fee"
+   ]
+  },
+  {
+   "t": "common backstop",
+   "c": "ESM & euro area",
+   "d": "A planned ESM credit line to the Single Resolution Fund, capped at 68 billion euro, to be repaid by bank contributions. It needs the 2021 ESM Treaty reform ratified first.",
+   "more": "Italy has not ratified, so the backstop is designed and agreed but not live.",
+   "see": [
+    "Single Resolution Fund",
+    "ratification"
+   ]
+  },
+  {
+   "t": "conditionality",
+   "c": "ESM & euro area",
+   "d": "The principle that assistance money is released only when the agreed conditions have actually been met, checked review by review.",
+   "see": [
+    "memorandum of understanding",
+    "tranche"
+   ]
+  },
+  {
+   "t": "confidentiality, integrity, availability",
+   "c": "Audit, risk & control",
+   "d": "The three properties information security protects: only the right people can see data, the data is correct and unaltered, and it is there when needed.",
+   "more": "The remit of the Local Information Security Officer, Alan Turing in the story.",
+   "see": [
+    "personal data"
+   ]
+  },
+  {
+   "t": "configuration management",
+   "c": "Project management (PM²)",
+   "d": "Controlling versions and access so that you can prove afterwards which version of a document or system was actually used, and by whom.",
+   "see": [
+    "document management officer",
+    "projects archive"
+   ]
+  },
+  {
+   "t": "conflict of interest",
+   "c": "Audit, risk & control",
+   "d": "A situation where someone's private interest could affect a decision they help to take. It must be declared, and usually means standing aside.",
+   "see": [
+    "award",
+    "mini-competition"
+   ]
+  },
+  {
+   "t": "contractor status report",
+   "c": "Project management (PM²)",
+   "d": "The contractor's own periodic report to the client's Project Manager, on a schedule and in a format fixed by the contract.",
+   "see": [
+    "contractor's project manager",
+    "reporting period"
+   ]
+  },
+  {
+   "t": "contractor's project manager",
+   "c": "Procurement & contracts",
+   "d": "The supplier's own project manager, usually written CPM. Reports to the client's Project Manager and, if necessary, to the Project Steering Committee.",
+   "more": "Gustave Eiffel in the story. Courteous, contractual and immovable.",
+   "see": [
+    "project manager",
+    "project steering committee"
+   ]
+  },
+  {
+   "t": "contractual remedy",
+   "c": "Procurement & contracts",
+   "d": "The correction or penalty the contract allows the client to demand when a supplier fails to deliver. It only exists if somebody wrote it in.",
+   "see": [
+    "retention (contract)",
+    "key-person clause"
+   ]
+  },
+  {
+   "t": "contribution key",
+   "c": "ESM & euro area",
+   "d": "The table setting each member state's share of ESM capital, based mainly on the size of its economy and population. It also fixes voting weight.",
+   "more": "Germany holds about 26.7%, France about 20.1%, Italy about 17.6%.",
+   "see": [
+    "qualified majority",
+    "authorised capital stock"
+   ]
+  },
+  {
+   "t": "control self-assessment",
+   "c": "Audit, risk & control",
+   "d": "A team regularly checking its own controls and reporting the result, rather than waiting for an auditor to check them.",
+   "see": [
+    "internal-audit finding"
+   ]
+  },
+  {
+   "t": "corporate investment board",
+   "c": "ESM & euro area",
+   "d": "In Project CASTOR, the internal committee that decides which investments the institution funds and reviews the whole portfolio. It is the project's Appropriate Governance Body.",
+   "more": "Chaired in the story by Lorenzo de' Medici. A fictional body, used to teach the AGB role.",
+   "see": [
+    "appropriate governance body",
+    "administrative budget"
+   ]
+  },
+  {
+   "t": "correspondent bank",
+   "c": "Banking & markets",
+   "d": "A bank that holds an account for another institution and makes and receives payments on its behalf, usually in a market where it has no branch of its own.",
+   "see": [
+    "nostro account"
+   ]
+  },
+  {
+   "t": "cost centre",
+   "c": "Project management (PM²)",
+   "d": "The account a project charges its costs to. When it is closed at administrative closure, nothing further can be charged to the project.",
+   "more": "Closing it is one of the last acts of Project CASTOR, on 28 Jul 2028.",
+   "see": [
+    "administrative budget"
+   ]
+  },
+  {
+   "t": "cost performance index",
+   "c": "Project management (PM²)",
+   "d": "Earned value divided by actual cost, written CPI. Below 1 means each euro is buying less than a euro of finished work.",
+   "see": [
+    "earned value",
+    "burn rate"
+   ]
+  },
+  {
+   "t": "counterparty",
+   "c": "Banking & markets",
+   "d": "The other party to a transaction. For an ESM loan it is the borrowing member state; for a treasury deal it is the bank on the other side.",
+   "see": [
+    "exposure",
+    "clearing house"
+   ]
+  },
+  {
+   "t": "coupon",
+   "c": "Banking & markets",
+   "d": "The interest a bond pays its holders, and the rate that defines it. A 3 billion euro bond with a 3% coupon costs its issuer 90 million euro a year.",
+   "see": [
+    "bond",
+    "yield"
+   ]
+  },
+  {
+   "t": "covered deposits",
+   "c": "ESM & euro area",
+   "d": "Bank deposits protected by a deposit guarantee scheme, in the European Union up to 100,000 euro per depositor per bank. The Single Resolution Fund's target size is 1% of them.",
+   "see": [
+    "Single Resolution Fund"
+   ]
+  },
+  {
+   "t": "credit rating",
+   "c": "Banking & markets",
+   "d": "An agency's published opinion of how likely a borrower is to repay. A high rating lowers the interest rate the borrower must pay.",
+   "more": "The ESM's own rating is why it can borrow cheaply and lend on cheaply.",
+   "see": [
+    "default",
+    "market access"
+   ]
+  },
+  {
+   "t": "critical path",
+   "c": "Project management (PM²)",
+   "d": "The longest chain of dependent tasks through a project. Any delay on it delays the whole project, because there is no slack anywhere in the chain.",
+   "see": [
+    "dependency",
+    "variance"
+   ]
+  },
+  {
+   "t": "critical success factor",
+   "c": "Project management (PM²)",
+   "d": "A condition that must hold or the project cannot succeed, no matter what else goes well. Not the same as a success criterion.",
+   "see": [
+    "success criterion"
+   ]
+  },
+  {
+   "t": "cutover",
+   "c": "IT & delivery",
+   "d": "The moment the old system is switched off and the new one switched on. In a financial institution the payment calendar chooses the date, not the project.",
+   "more": "Project CASTOR goes live on 15 May 2028, after the April close and before the June quarter-end.",
+   "see": [
+    "rollback",
+    "transition plan"
+   ]
+  },
+  {
+   "t": "data migration",
+   "c": "IT & delivery",
+   "d": "Moving records from an old system into a new one without losing or changing anything. The hard part is the small share of records that break their own rules.",
+   "more": "Usually the largest single underestimate in a system replacement.",
+   "see": [
+    "cutover",
+    "dry run"
+   ]
+  },
+  {
+   "t": "data protection coordinator",
+   "c": "Project management (PM²)",
+   "d": "The person, written DPC, who advises a project on the rules for handling personal data and on how to follow them.",
+   "more": "Louis Brandeis, who co-wrote the article that invented privacy law.",
+   "see": [
+    "personal data",
+    "record of processing activities"
+   ]
+  },
+  {
+   "t": "day-count convention",
+   "c": "Lending operations",
+   "d": "The rule for turning a yearly interest rate into interest for a particular number of days, such as actual/360 or 30/360. It is written into the loan agreement.",
+   "more": "A classic cause of a reconciliation break when two systems are configured differently.",
+   "see": [
+    "interest accrual",
+    "reconciliation break"
+   ]
+  },
+  {
+   "t": "decision log",
+   "c": "Project management (PM²)",
+   "d": "The register of decisions taken on a project, with who took them, when, and on what basis.",
+   "see": [
+    "change log",
+    "minutes of meeting"
+   ]
+  },
+  {
+   "t": "decommissioning",
+   "c": "IT & delivery",
+   "d": "Shutting a system down for good, once its data and its duties have moved somewhere else. It costs real money and is regularly forgotten in the Business Case.",
+   "more": "LOS is decommissioned after the CASTOR parallel run ends.",
+   "see": [
+    "total cost of ownership",
+    "data migration"
+   ]
+  },
+  {
+   "t": "default",
+   "c": "Banking & markets",
+   "d": "Failing to meet an obligation in a loan or bond, most obviously by not paying on time.",
+   "see": [
+    "event of default",
+    "credit rating"
+   ]
+  },
+  {
+   "t": "deliverable",
+   "c": "Project management (PM²)",
+   "d": "Something the project hands over: a piece of software, a report, a migrated data set, or trained staff.",
+   "see": [
+    "acceptance criteria",
+    "deliverables acceptance note"
+   ]
+  },
+  {
+   "t": "deliverables acceptance note",
+   "c": "Project management (PM²)",
+   "d": "The signed record that a deliverable met its criteria and has been accepted, with any open points listed and dated.",
+   "see": [
+    "provisional acceptance",
+    "acceptance criteria"
+   ]
+  },
+  {
+   "t": "dependency",
+   "c": "Project management (PM²)",
+   "d": "A link that stops one task from starting until another one finishes. Dependencies, not effort, are what make a schedule long.",
+   "see": [
+    "critical path",
+    "work plan"
+   ]
+  },
+  {
+   "t": "design authority",
+   "c": "IT & delivery",
+   "d": "The person or body that decides how the system is built and who may change that design. Without one, every developer's opinion is equally valid.",
+   "see": [
+    "architecture office",
+    "interface specification"
+   ]
+  },
+  {
+   "t": "direct recapitalisation",
+   "c": "ESM & euro area",
+   "d": "An ESM instrument allowing capital to be put into a bank directly instead of lending to its government. Capped at 60 billion euro and never used.",
+   "more": "Never used still means it must be configured, tested and reportable in the new system.",
+   "see": [
+    "indirect bank recapitalisation"
+   ]
+  },
+  {
+   "t": "disbursement",
+   "c": "Lending operations",
+   "d": "Paying out an agreed part of a loan to the borrower on a fixed date. One loan is normally paid in several disbursements over years, not all at once.",
+   "more": "The disbursement instruction is the object Project CASTOR is built around.",
+   "see": [
+    "tranche",
+    "value date",
+    "drawdown schedule"
+   ]
+  },
+  {
+   "t": "disbursement instruction",
+   "c": "Lending operations",
+   "d": "The structured order to pay one tranche: which facility, how much, to which account, for which value date, against which approval. A second person must approve it before it is released.",
+   "more": "In the story it is the document Marie Curie is working on in the opening scene.",
+   "see": [
+    "four-eyes principle",
+    "payment gateway",
+    "value date"
+   ]
+  },
+  {
+   "t": "diversified funding",
+   "c": "ESM & euro area",
+   "d": "Raising money through a mix of instruments and maturities and lending it from one shared pool, rather than matching each loan to its own borrowing.",
+   "see": [
+    "pooled loans",
+    "back-to-back funding"
+   ]
+  },
+  {
+   "t": "document management officer",
+   "c": "Project management (PM²)",
+   "d": "The person, written DMO, responsible for versions, copies, retention and safe disposal of a project's documents.",
+   "see": [
+    "configuration management",
+    "projects archive"
+   ]
+  },
+  {
+   "t": "double-entry bookkeeping",
+   "c": "Lending operations",
+   "d": "The rule that every accounting entry is recorded twice, as a debit in one account and an equal credit in another, so the books always balance.",
+   "see": [
+    "general ledger"
+   ]
+  },
+  {
+   "t": "drawdown schedule",
+   "c": "Lending operations",
+   "d": "The agreed plan of when a borrower may take each tranche of a loan, and under what conditions. A good lending system enforces the plan, it does not merely record it.",
+   "see": [
+    "tranche",
+    "facility"
+   ]
+  },
+  {
+   "t": "dry run",
+   "c": "IT & delivery",
+   "d": "A full rehearsal of a process on real data, with none of the results going live. It is how you find out that step 14 takes two hours, not twenty minutes.",
+   "see": [
+    "parallel run",
+    "operational readiness review"
+   ]
+  },
+  {
+   "t": "early repayment",
+   "c": "Lending operations",
+   "d": "A borrower repaying before the agreed date. It forces a recalculation of interest and can leave the lender holding funding it no longer needs.",
+   "more": "Several former programme countries have repaid ESM or EFSF loans early.",
+   "see": [
+    "repayment schedule"
+   ]
+  },
+  {
+   "t": "earned value",
+   "c": "Project management (PM²)",
+   "d": "The budgeted cost of the work actually finished, used to compare real progress against real spending instead of against opinion.",
+   "see": [
+    "cost performance index",
+    "percent complete"
+   ]
+  },
+  {
+   "t": "ECCL",
+   "c": "ESM & euro area",
+   "d": "Enhanced Conditions Credit Line: standby support for a country that is broadly sound but does not meet every PCCL benchmark, so it signs a memorandum of understanding with corrective measures.",
+   "see": [
+    "PCCL",
+    "memorandum of understanding"
+   ]
+  },
+  {
+   "t": "EFSF",
+   "c": "ESM & euro area",
+   "d": "European Financial Stability Facility: the temporary euro area rescue fund set up in 2010, which the ESM replaced. It still manages its old loans but makes no new ones.",
+   "more": "The system Project CASTOR replaces was built in the EFSF era, which is why it is 14 years old.",
+   "see": [
+    "ESM"
+   ]
+  },
+  {
+   "t": "emergency voting procedure",
+   "c": "ESM & euro area",
+   "d": "A faster ESM decision route at 85% of votes cast, available when the European Commission and the European Central Bank both judge an urgent decision is needed to protect euro area stability.",
+   "see": [
+    "mutual agreement",
+    "qualified majority"
+   ]
+  },
+  {
+   "t": "escalation procedure",
+   "c": "Project management (PM²)",
+   "d": "The agreed route for pushing a decision up to a higher level: who decides what, at which level, and how quickly.",
+   "see": [
+    "project steering committee",
+    "tolerance"
+   ]
+  },
+  {
+   "t": "escrow",
+   "c": "Procurement & contracts",
+   "d": "Something valuable left with a neutral third party and released only on an agreed trigger. For software it is the source code, released if the supplier fails or goes out of business.",
+   "see": [
+    "decommissioning",
+    "contractual remedy"
+   ]
+  },
+  {
+   "t": "ESM",
+   "c": "ESM & euro area",
+   "d": "European Stability Mechanism: the euro area's permanent crisis fund. An intergovernmental organisation based in Luxembourg that lends to member states which have lost access to the markets.",
+   "more": "Around 230 staff from more than 50 nationalities. Project CASTOR is a fictional ESM project.",
+   "see": [
+    "EFSF",
+    "intergovernmental organisation",
+    "lending capacity"
+   ]
+  },
+  {
+   "t": "ESM Treaty",
+   "c": "ESM & euro area",
+   "d": "The treaty between the euro area states that created the ESM, signed on 2 February 2012. A 2021 amendment adding new tasks has not yet entered into force.",
+   "see": [
+    "ratification",
+    "common backstop"
+   ]
+  },
+  {
+   "t": "euro area",
+   "c": "ESM & euro area",
+   "d": "The group of European Union member states that use the euro as their currency. Bulgaria became the twenty-first on 1 January 2026.",
+   "see": [
+    "Eurogroup",
+    "ESM"
+   ]
+  },
+  {
+   "t": "Eurogroup",
+   "c": "ESM & euro area",
+   "d": "The informal meeting of euro area finance ministers. Its President chairs the ESM Board of Governors by convention.",
+   "see": [
+    "board of governors",
+    "euro area"
+   ]
+  },
+  {
+   "t": "European Central Bank",
+   "c": "ESM & euro area",
+   "d": "The central bank of the euro area, usually written ECB. It advises on ESM assessments and attends ESM board meetings as an observer.",
+   "see": [
+    "central bank",
+    "European Commission"
+   ]
+  },
+  {
+   "t": "European Commission",
+   "c": "ESM & euro area",
+   "d": "The European Union's executive body. It negotiates and signs programme conditions on the ESM's behalf, in liaison with the European Central Bank.",
+   "see": [
+    "memorandum of understanding",
+    "European Central Bank"
+   ]
+  },
+  {
+   "t": "event of default",
+   "c": "Lending operations",
+   "d": "A situation listed in a loan agreement that allows the lender to demand immediate repayment, such as a missed payment or a false statement by the borrower.",
+   "see": [
+    "loan agreement"
+   ]
+  },
+  {
+   "t": "exception handling",
+   "c": "Lending operations",
+   "d": "Dealing with the cases a system cannot process automatically. Good design aims for few exceptions, each one genuinely needing a human decision.",
+   "see": [
+    "exception queue"
+   ]
+  },
+  {
+   "t": "exception queue",
+   "c": "Lending operations",
+   "d": "The list of records the system could not match or process by itself, waiting for a person to work through them.",
+   "see": [
+    "exception handling",
+    "reconciliation break"
+   ]
+  },
+  {
+   "t": "exposure",
+   "c": "Banking & markets",
+   "d": "How much a lender or investor stands to lose if one particular counterparty fails to pay. It is the amount at risk, not the amount agreed.",
+   "see": [
+    "counterparty",
+    "loan book"
+   ]
+  },
+  {
+   "t": "face value",
+   "c": "Banking & markets",
+   "d": "The amount printed on a debt security, which is what will be repaid at maturity. Also called nominal or par value. It is not what the security is worth today.",
+   "see": [
+    "market value",
+    "notional",
+    "bond"
+   ]
+  },
+  {
+   "t": "facility",
+   "c": "Lending operations",
+   "d": "The total amount a lender has agreed to make available, and the agreement that governs it. Money is drawn from a facility in tranches.",
+   "see": [
+    "tranche",
+    "loan agreement",
+    "availability period"
+   ]
+  },
+  {
+   "t": "four-eyes principle",
+   "c": "Audit, risk & control",
+   "d": "The rule that a second competent person must check and approve work before it takes effect. The everyday form of segregation of duties.",
+   "more": "Straight-through processing removes the retyping, never the four-eyes check.",
+   "see": [
+    "segregation of duties"
+   ]
+  },
+  {
+   "t": "framework contract",
+   "c": "Procurement & contracts",
+   "d": "A contract agreed in advance with one or more suppliers, setting terms under which later individual orders can be placed quickly.",
+   "more": "Levallois Systems is awarded the CASTOR work under an existing framework contract.",
+   "see": [
+    "mini-competition",
+    "open tender"
+   ]
+  },
+  {
+   "t": "front office",
+   "c": "Lending operations",
+   "d": "The unit that faces the outside world and commits the institution. It negotiates, prices and agrees deals.",
+   "see": [
+    "middle office",
+    "back office",
+    "segregation of duties"
+   ]
+  },
+  {
+   "t": "full-time equivalent",
+   "c": "Project management (PM²)",
+   "d": "One person working full time for a year, written FTE. A way of counting staff effort when people are shared between jobs.",
+   "see": [
+    "person-day",
+    "resource profile"
+   ]
+  },
+  {
+   "t": "general ledger",
+   "c": "Lending operations",
+   "d": "The central accounting record of an institution, where every transaction is booked. If the loan system and the ledger disagree, the books cannot be closed.",
+   "see": [
+    "double-entry bookkeeping",
+    "month-end close"
+   ]
+  },
+  {
+   "t": "impact",
+   "c": "Audit, risk & control",
+   "d": "How much damage a risk would do if it happened, scored from 1 to 5 against the project's objectives.",
+   "see": [
+    "likelihood",
+    "risk level"
+   ]
+  },
+  {
+   "t": "indirect bank recapitalisation",
+   "c": "ESM & euro area",
+   "d": "An ESM loan to a government which the government then puts into its own banks. The state stays liable for repayment. Spain's 2012 programme worked this way.",
+   "see": [
+    "direct recapitalisation"
+   ]
+  },
+  {
+   "t": "instrument",
+   "c": "Lending operations",
+   "d": "A defined type of financial support with its own legal agreement, conditions, pricing and pattern of cash flows. Each one behaves differently inside a system.",
+   "more": "The ESM has about nine, which is why the new platform must be instrument-agnostic.",
+   "see": [
+    "product configuration",
+    "facility"
+   ]
+  },
+  {
+   "t": "interest accrual",
+   "c": "Lending operations",
+   "d": "Interest building up on a loan day by day, recognised in the accounts before any cash is actually paid or received.",
+   "see": [
+    "accrual",
+    "day-count convention"
+   ]
+  },
+  {
+   "t": "interface specification",
+   "c": "IT & delivery",
+   "d": "The document that says exactly what data two systems exchange, in what format, how often, and what happens when a message fails.",
+   "see": [
+    "design authority",
+    "architecture office"
+   ]
+  },
+  {
+   "t": "intergovernmental organisation",
+   "c": "ESM & euro area",
+   "d": "A body created by a treaty between states rather than by the European Union's own treaties. It has its own rules, budget and staff regulations.",
+   "more": "This is why the ESM is not an EU institution and does not follow EU procurement directives.",
+   "see": [
+    "ESM",
+    "ESM Treaty"
+   ]
+  },
+  {
+   "t": "internal-audit finding",
+   "c": "Audit, risk & control",
+   "d": "A written weakness raised by the institution's own auditors. It is closed only with evidence that the weakness has actually been fixed.",
+   "more": "Two open findings on LOS. Closing both is success criterion SC5.",
+   "see": [
+    "audit trail",
+    "non-conformity"
+   ]
+  },
+  {
+   "t": "International Monetary Fund",
+   "c": "ESM & euro area",
+   "d": "A global institution, usually written IMF, that lends to countries in balance-of-payments trouble. It took part in several euro area programmes alongside the ESM and the EFSF.",
+   "see": [
+    "programme country"
+   ]
+  },
+  {
+   "t": "issuance",
+   "c": "Banking & markets",
+   "d": "The act of creating and selling new bonds or bills to raise money. The organisation doing it is the issuer.",
+   "see": [
+    "bond",
+    "bill",
+    "primary market"
+   ]
+  },
+  {
+   "t": "issue",
+   "c": "Project management (PM²)",
+   "d": "An unplanned event that has already happened and needs a management action. A risk might happen; an issue has happened.",
+   "see": [
+    "issue log",
+    "risk log"
+   ]
+  },
+  {
+   "t": "issue log",
+   "c": "Project management (PM²)",
+   "d": "The register of things that have already gone wrong and need action now, with owner, size, priority and status.",
+   "more": "Risk R-07 moves from the Risk Log to the Issue Log the day Tesla resigns.",
+   "see": [
+    "risk log",
+    "issue"
+   ]
+  },
+  {
+   "t": "key-person clause",
+   "c": "Procurement & contracts",
+   "d": "A contract term obliging the supplier to replace a named expert with someone equivalent, and to hand over their work properly.",
+   "more": "The defence against key-person risk. Useless unless agreed before the person resigns.",
+   "see": [
+    "key-person risk",
+    "knowledge transfer"
+   ]
+  },
+  {
+   "t": "key-person risk",
+   "c": "Audit, risk & control",
+   "d": "The danger that one person leaves and takes with them knowledge that exists nowhere else.",
+   "more": "Risk R-07 in Project CASTOR, against the architect Nikola Tesla. It becomes an issue when he resigns.",
+   "see": [
+    "key-person clause",
+    "knowledge transfer"
+   ]
+  },
+  {
+   "t": "knowledge transfer",
+   "c": "Project management (PM²)",
+   "d": "Planned time in which one expert deliberately teaches others what only they know, with the result written down.",
+   "more": "The only defence against key-person risk that works after the person has gone.",
+   "see": [
+    "key-person risk",
+    "key-person clause"
+   ]
+  },
+  {
+   "t": "legacy system",
+   "c": "IT & delivery",
+   "d": "An old system that still works and still matters, which is why replacing it is harder than building something new.",
+   "more": "LOS is 14 years old and was built for the EFSF era.",
+   "see": [
+    "data migration",
+    "decommissioning"
+   ]
+  },
+  {
+   "t": "lending capacity",
+   "c": "ESM & euro area",
+   "d": "The ceiling in the ESM Treaty on how much may be lent to member states at one time: 500 billion euro, of which roughly 433 billion euro is still free.",
+   "more": "It never pays for staff, buildings or projects. Those come from the administrative budget.",
+   "see": [
+    "administrative budget",
+    "authorised capital stock"
+   ]
+  },
+  {
+   "t": "lessons learned",
+   "c": "Project management (PM²)",
+   "d": "Written notes on what worked and what did not, kept so the next project does not repeat the same mistakes.",
+   "see": [
+    "lessons learned register",
+    "projects archive"
+   ]
+  },
+  {
+   "t": "lessons learned register",
+   "c": "Project management (PM²)",
+   "d": "The running list a project keeps while it is still going. Waiting until the end means you only remember the last month.",
+   "see": [
+    "lessons learned"
+   ]
+  },
+  {
+   "t": "letter of intent",
+   "c": "ESM & euro area",
+   "d": "The lighter alternative to a memorandum of understanding, used for a Precautionary Conditioned Credit Line. The country sets out its policy commitments and is reviewed every six months.",
+   "see": [
+    "PCCL",
+    "memorandum of understanding"
+   ]
+  },
+  {
+   "t": "likelihood",
+   "c": "Audit, risk & control",
+   "d": "How probable it is that a risk actually happens, scored from 1, very low, to 5, very high.",
+   "see": [
+    "impact",
+    "risk level"
+   ]
+  },
+  {
+   "t": "liquidity",
+   "c": "Banking & markets",
+   "d": "How easily something can be turned into cash without moving its price. Also used for having enough cash available to meet obligations when they fall due.",
+   "see": [
+    "secondary market"
+   ]
+  },
+  {
+   "t": "loan agreement",
+   "c": "Lending operations",
+   "d": "The contract between lender and borrower fixing the amount, the price, the dates, the drawdown rules and what counts as default. At the ESM it is called a financial assistance facility agreement.",
+   "see": [
+    "facility",
+    "event of default"
+   ]
+  },
+  {
+   "t": "loan book",
+   "c": "Lending operations",
+   "d": "The register of every facility and loan an institution holds: borrower, amount committed, amount drawn, amount outstanding, rate, dates and status.",
+   "more": "When somebody asks what our exposure to a country is, the loan book answers.",
+   "see": [
+    "exposure",
+    "facility"
+   ]
+  },
+  {
+   "t": "loan servicing system",
+   "c": "Lending operations",
+   "d": "The system that holds every loan's terms, works out what must happen next, produces the instructions and records the result.",
+   "more": "Project CASTOR replaces one of these, called LOS, built in the EFSF era.",
+   "see": [
+    "product configuration",
+    "loan book"
+   ]
+  },
+  {
+   "t": "local information security officer",
+   "c": "Project management (PM²)",
+   "d": "The person, written LISO, responsible for the confidentiality, integrity and availability of the information a project handles.",
+   "see": [
+    "confidentiality, integrity, availability"
+   ]
+  },
+  {
+   "t": "macroeconomic adjustment programme",
+   "c": "ESM & euro area",
+   "d": "The full package of budget and reform measures a country agrees to carry out in exchange for a rescue loan, with money released only as reviews are passed.",
+   "see": [
+    "conditionality",
+    "memorandum of understanding"
+   ]
+  },
+  {
+   "t": "major deviation",
+   "c": "Project management (PM²)",
+   "d": "A difference big enough to change what the Business Case or the Project Charter approved. It goes above the Project Steering Committee.",
+   "see": [
+    "variance",
+    "escalation procedure"
+   ]
+  },
+  {
+   "t": "managing director",
+   "c": "ESM & euro area",
+   "d": "The head of the ESM, appointed by the Board of Governors for a renewable five-year term. Chairs the Board of Directors and runs the institution day to day.",
+   "more": "The story's equivalent is fictional. No real post-holder is portrayed.",
+   "see": [
+    "board of directors"
+   ]
+  },
+  {
+   "t": "manual re-keying",
+   "c": "Lending operations",
+   "d": "Typing the same data into a second system by hand. It is slow, it fails silently, and it breaks the chain of evidence an auditor needs.",
+   "more": "Success criterion SC4 targets zero, from a baseline of about 1,400 fields a quarter.",
+   "see": [
+    "straight-through processing",
+    "audit trail"
+   ]
+  },
+  {
+   "t": "margin",
+   "c": "Lending operations",
+   "d": "A charge added on top of the lender's own cost of funding, expressed in basis points per year, reflecting the risk of that particular loan or instrument.",
+   "see": [
+    "basis point",
+    "base rate"
+   ]
+  },
+  {
+   "t": "mark-to-market",
+   "c": "Banking & markets",
+   "d": "Revaluing something at what it is worth in the market today, instead of at the price originally paid.",
+   "more": "The ESM's invested paid-in capital is marked to market, so its reported value moves with interest rates.",
+   "see": [
+    "market value"
+   ]
+  },
+  {
+   "t": "market access",
+   "c": "Banking & markets",
+   "d": "A borrower's ability to raise money from investors at a price it can afford. Losing it is what turns a fiscal problem into a crisis.",
+   "more": "Losing market access is the condition that makes a country eligible for an ESM programme loan.",
+   "see": [
+    "sovereign",
+    "credit rating"
+   ]
+  },
+  {
+   "t": "market value",
+   "c": "Banking & markets",
+   "d": "What something would fetch if sold today, as opposed to what was paid for it or what it will repay at maturity.",
+   "see": [
+    "face value",
+    "mark-to-market"
+   ]
+  },
+  {
+   "t": "maturity",
+   "c": "Banking & markets",
+   "d": "The date on which a loan or bond must be fully repaid. Also used for the length of time remaining until that date.",
+   "see": [
+    "bullet repayment",
+    "rollover"
+   ]
+  },
+  {
+   "t": "meeting agenda",
+   "c": "Project management (PM²)",
+   "d": "The list of points, times and owners circulated before a meeting. Without it, the loudest topic wins.",
+   "see": [
+    "minutes of meeting"
+   ]
+  },
+  {
+   "t": "memorandum of understanding",
+   "c": "ESM & euro area",
+   "d": "The document, usually written MoU, listing the policy conditions a country commits to in exchange for assistance. The European Commission negotiates and signs it on the ESM's behalf.",
+   "see": [
+    "conditionality",
+    "letter of intent"
+   ]
+  },
+  {
+   "t": "middle office",
+   "c": "Lending operations",
+   "d": "The unit that independently checks, values and controls what the front office agreed, and owns the limits and the analysis.",
+   "see": [
+    "front office",
+    "back office"
+   ]
+  },
+  {
+   "t": "milestone",
+   "c": "Project management (PM²)",
+   "d": "A dated point in a plan marking that something significant has been completed. A milestone has no duration and no effort of its own.",
+   "see": [
+    "work plan",
+    "phase gate"
+   ]
+  },
+  {
+   "t": "mini-competition",
+   "c": "Procurement & contracts",
+   "d": "A short competition held only between the suppliers already on a framework contract, to decide which of them gets a specific order.",
+   "see": [
+    "framework contract",
+    "award"
+   ]
+  },
+  {
+   "t": "minutes of meeting",
+   "c": "Project management (PM²)",
+   "d": "The short official record of a meeting: what was raised, what was decided, and who does what by when.",
+   "see": [
+    "decision log",
+    "meeting agenda"
+   ]
+  },
+  {
+   "t": "month-end close",
+   "c": "Lending operations",
+   "d": "The accounting work of finishing, checking and locking one month's figures. System changes are kept away from it because it cannot be paused.",
+   "more": "It is why the CASTOR cutover date, 15 May 2028, sits after the April close.",
+   "see": [
+    "general ledger",
+    "cutover"
+   ]
+  },
+  {
+   "t": "MoSCoW",
+   "c": "Project management (PM²)",
+   "d": "A way of ranking requirements as Must have, Should have, Could have and Won't have this time. The last category is the one that does the work.",
+   "see": [
+    "requirements management plan",
+    "baseline scope"
+   ]
+  },
+  {
+   "t": "mutual agreement",
+   "c": "ESM & euro area",
+   "d": "Unanimity among the members who take part in a vote. Most large ESM decisions, including granting financial assistance, need it.",
+   "see": [
+    "qualified majority",
+    "emergency voting procedure"
+   ]
+  },
+  {
+   "t": "nightly batch",
+   "c": "IT & delivery",
+   "d": "The overnight run that moves and processes a day's records between systems. If it fails, the working day starts with yesterday's problem.",
+   "see": [
+    "straight-through processing",
+    "exception queue"
+   ]
+  },
+  {
+   "t": "non-conformity",
+   "c": "Audit, risk & control",
+   "d": "A place where the work does not match the agreed standard, rule or specification. It is a statement about the work, not about the person.",
+   "see": [
+    "quality control",
+    "quality assurance"
+   ]
+  },
+  {
+   "t": "nostro account",
+   "c": "Banking & markets",
+   "d": "Our account, held at another bank or at a central bank, out of which the institution actually pays and into which it receives.",
+   "more": "The statement of the nostro account is the document reconciliation is checked against.",
+   "see": [
+    "correspondent bank",
+    "reconciliation"
+   ]
+  },
+  {
+   "t": "notice period",
+   "c": "Procurement & contracts",
+   "d": "The time an employee or contractor must keep working after resigning, fixed in their contract. It is the window in which knowledge transfer is still possible.",
+   "see": [
+    "knowledge transfer",
+    "key-person risk"
+   ]
+  },
+  {
+   "t": "notional",
+   "c": "Banking & markets",
+   "d": "The headline amount a contract is written on, used to calculate payments. It is not necessarily an amount of money that ever moves.",
+   "see": [
+    "face value",
+    "facility"
+   ]
+  },
+  {
+   "t": "open tender",
+   "c": "Procurement & contracts",
+   "d": "A purchase competition open to any company that meets the published conditions. Slower than a mini-competition, and used when no framework covers the need.",
+   "see": [
+    "framework contract",
+    "mini-competition"
+   ]
+  },
+  {
+   "t": "operational readiness review",
+   "c": "IT & delivery",
+   "d": "The formal check that a system, its people and its written procedures are all ready for it to go live. Any one of the three can stop it.",
+   "see": [
+    "cutover",
+    "operations mode"
+   ]
+  },
+  {
+   "t": "operations mode",
+   "c": "IT & delivery",
+   "d": "Normal daily running of a live system by the department that owns it, after the project has ended and the team has gone.",
+   "see": [
+    "permanent organisation",
+    "service level agreement"
+   ]
+  },
+  {
+   "t": "organisational change management",
+   "c": "Project management (PM²)",
+   "d": "The work of getting people and processes ready to work in a new way. It is the largest cause of a technically successful system nobody uses.",
+   "see": [
+    "business implementation plan"
+   ]
+  },
+  {
+   "t": "outsourcing plan",
+   "c": "Procurement & contracts",
+   "d": "The PM2 artefact setting out what the project will buy from outside, from whom, on what terms and how the supplier will be managed.",
+   "more": "In the story the Appropriate Governance Body is Accountable for it, which surprises the Project Steering Committee.",
+   "see": [
+    "type of delivery",
+    "framework contract"
+   ]
+  },
+  {
+   "t": "overall status colour",
+   "c": "Project management (PM²)",
+   "d": "A one-word summary of project health: green, amber or red, sometimes green, yellow or red. Useful only if the thresholds were agreed in advance.",
+   "see": [
+    "tolerance",
+    "reporting period"
+   ]
+  },
+  {
+   "t": "paid-in capital",
+   "c": "ESM & euro area",
+   "d": "The part of the capital that members have actually transferred in cash, about 81 billion euro. It is invested conservatively and is never lent out.",
+   "more": "It is the cushion that lets the ESM borrow cheaply. It is not the money that is lent.",
+   "see": [
+    "callable capital",
+    "authorised capital stock"
+   ]
+  },
+  {
+   "t": "Pandemic Crisis Support",
+   "c": "ESM & euro area",
+   "d": "A time-limited credit line created in May 2020 for healthcare and prevention costs of the Covid-19 crisis. No country drew on it and it expired at the end of 2022.",
+   "see": [
+    "precautionary credit line"
+   ]
+  },
+  {
+   "t": "parallel run",
+   "c": "IT & delivery",
+   "d": "Running the old and new systems on the same real work at the same time and comparing the results. The only honest proof that the new system is right.",
+   "more": "Project CASTOR runs parallel from 08 Jan to 30 Apr 2028.",
+   "see": [
+    "cutover",
+    "dry run"
+   ]
+  },
+  {
+   "t": "payment gateway",
+   "c": "Lending operations",
+   "d": "The system that formats a payment instruction and sends it on to the banks that will move the money. It is the last system the instruction passes through before cash leaves.",
+   "see": [
+    "payment message",
+    "straight-through processing"
+   ]
+  },
+  {
+   "t": "payment message",
+   "c": "Lending operations",
+   "d": "The formatted electronic order sent over a secure banking network telling a bank to move money. If a field is wrong the message is rejected, not corrected.",
+   "see": [
+    "payment gateway",
+    "settlement"
+   ]
+  },
+  {
+   "t": "PCCL",
+   "c": "ESM & euro area",
+   "d": "Precautionary Conditioned Credit Line: standby support for a country whose economy is fundamentally sound and which meets published benchmarks on deficit, debt and imbalances.",
+   "see": [
+    "ECCL",
+    "letter of intent"
+   ]
+  },
+  {
+   "t": "percent complete",
+   "c": "Project management (PM²)",
+   "d": "A self-reported estimate of how far a task has got. Easy to give, hard to check, and the reason earned value exists.",
+   "see": [
+    "earned value"
+   ]
+  },
+  {
+   "t": "permanent organisation",
+   "c": "Project management (PM²)",
+   "d": "The standing departments that carry on after a project team is dissolved. Benefits that appear after closure are tracked by them, not by the project.",
+   "see": [
+    "benefits realisation",
+    "operations mode"
+   ]
+  },
+  {
+   "t": "person-day",
+   "c": "Project management (PM²)",
+   "d": "One person working for one day, written PD. The unit PM2 uses for effort, deliberately separate from how long the work takes in calendar time.",
+   "more": "Project CASTOR is 3,100 person-days across 26 months, roughly five to six people full time.",
+   "see": [
+    "full-time equivalent",
+    "burn rate"
+   ]
+  },
+  {
+   "t": "personal data",
+   "c": "Audit, risk & control",
+   "d": "Any information about a person who can be identified from it, directly or indirectly. Names, staff numbers and account details all count.",
+   "see": [
+    "data protection coordinator",
+    "record of processing activities"
+   ]
+  },
+  {
+   "t": "phase gate",
+   "c": "Project management (PM²)",
+   "d": "A checkpoint at which a project must be approved before the next phase may start. PM2 has three: Ready for Planning, Ready for Executing, Ready for Closing.",
+   "see": [
+    "ready for executing",
+    "ready for planning",
+    "ready for closing"
+   ]
+  },
+  {
+   "t": "planning kick-off meeting",
+   "c": "Project management (PM²)",
+   "d": "The formal meeting that opens the Planning Phase for the whole project team, once the Ready for Planning gate has been passed.",
+   "more": "Held on 09 Apr 2026 for Project CASTOR.",
+   "see": [
+    "phase gate",
+    "meeting agenda"
+   ]
+  },
+  {
+   "t": "pooled loans",
+   "c": "Lending operations",
+   "d": "Loans funded from one shared pot of borrowing rather than each from its own matching bond, so that the funding cost is shared across all borrowers.",
+   "see": [
+    "diversified funding",
+    "back-to-back funding"
+   ]
+  },
+  {
+   "t": "post-project recommendations",
+   "c": "Project management (PM²)",
+   "d": "Proposed work after the project ends: fixes, extensions, follow-up projects, and the checks that the benefits actually arrived.",
+   "see": [
+    "project-end report",
+    "benefits realisation"
+   ]
+  },
+  {
+   "t": "precautionary credit line",
+   "c": "ESM & euro area",
+   "d": "Standby ESM support for a country that still has market access, arranged before trouble arrives. It comes in two forms, PCCL and ECCL, and is often never drawn.",
+   "see": [
+    "PCCL",
+    "ECCL"
+   ]
+  },
+  {
+   "t": "primary market",
+   "c": "Banking & markets",
+   "d": "Where a security is sold for the first time, by the organisation issuing it, to raise money.",
+   "see": [
+    "secondary market",
+    "auction"
+   ]
+  },
+  {
+   "t": "Primary Market Support Facility",
+   "c": "ESM & euro area",
+   "d": "An ESM instrument, written PMSF, under which the ESM buys newly issued bonds directly from a member state so that an auction does not fail.",
+   "see": [
+    "primary market",
+    "Secondary Market Support Facility"
+   ]
+  },
+  {
+   "t": "principal",
+   "c": "Lending operations",
+   "d": "The borrowed amount itself, as opposed to the interest paid for having it. A repayment is usually a mixture of the two, and the split is accounted for separately.",
+   "see": [
+    "interest accrual",
+    "amortisation"
+   ]
+  },
+  {
+   "t": "product configuration",
+   "c": "Lending operations",
+   "d": "Setting an instrument up in a system as adjustable settings rather than as new program code, so that a trained business user can add or change one.",
+   "more": "Success criterion SC3 depends on it entirely: nine months of coding becomes six weeks of configuration.",
+   "see": [
+    "instrument",
+    "loan servicing system"
+   ]
+  },
+  {
+   "t": "programme country",
+   "c": "ESM & euro area",
+   "d": "A euro area country receiving financial assistance under an agreed reform programme. Five have existed: Ireland, Portugal, Greece, Spain and Cyprus.",
+   "see": [
+    "macroeconomic adjustment programme",
+    "memorandum of understanding"
+   ]
+  },
+  {
+   "t": "project acceptance note",
+   "c": "Project management (PM²)",
+   "d": "The document in which the Project Owner formally accepts the project as finished. PM2 marks it as produced if required.",
+   "see": [
+    "project-end report",
+    "deliverables acceptance note"
+   ]
+  },
+  {
+   "t": "project charter",
+   "c": "Project management (PM²)",
+   "d": "The document that defines what the project will actually do: scope, deliverables, milestones, cost, risks and roles. It turns an approved Business Case into a project.",
+   "see": [
+    "business case",
+    "requirements document"
+   ]
+  },
+  {
+   "t": "project core team",
+   "c": "Project management (PM²)",
+   "d": "The specialists who actually build the deliverables, written PCT, coordinated by the Project Manager. It may include contractor staff.",
+   "more": "Nikola Tesla and Ada Lovelace sit here, alongside dev and test leads.",
+   "see": [
+    "business implementation group",
+    "secondment"
+   ]
+  },
+  {
+   "t": "project handbook",
+   "c": "Project management (PM²)",
+   "d": "The document that says how this particular project will be run: approach, processes, rules, roles and which plans exist as separate documents.",
+   "more": "Baselined with the Work Plan on 26 Jun 2026.",
+   "see": [
+    "tailoring",
+    "baseline"
+   ]
+  },
+  {
+   "t": "project initiation request",
+   "c": "Project management (PM²)",
+   "d": "The short document that asks permission to explore a problem and write a Business Case. It starts the Initiating Phase.",
+   "more": "Submitted for Project CASTOR on 12 Jan 2026.",
+   "see": [
+    "business case",
+    "phase gate"
+   ]
+  },
+  {
+   "t": "project manager",
+   "c": "Project management (PM²)",
+   "d": "The person, written PM, who runs the project day to day: plans it, coordinates it, reports on it and escalates what cannot be solved at project level.",
+   "more": "In this study tool, you.",
+   "see": [
+    "contractor's project manager",
+    "escalation procedure"
+   ]
+  },
+  {
+   "t": "project owner",
+   "c": "Project management (PM²)",
+   "d": "The client of the project, written PO. Accountable for its success and for the benefits it is supposed to deliver, and chairs the Project Steering Committee.",
+   "more": "Florence Nightingale, Head of Lending Operations. She owns the outcome, not the software.",
+   "see": [
+    "solution provider",
+    "project steering committee"
+   ]
+  },
+  {
+   "t": "project quality assurance",
+   "c": "Project management (PM²)",
+   "d": "An independent reviewer, written PQA, of the project's process and documents. Does not report to the Project Manager, and that is the whole point.",
+   "more": "W. Edwards Deming. He reviews the process, not the person.",
+   "see": [
+    "quality assurance",
+    "quality review checklist"
+   ]
+  },
+  {
+   "t": "project stakeholder matrix",
+   "c": "Project management (PM²)",
+   "d": "The list of every project stakeholder with their role, contact details, interest and importance, used to decide who gets told what.",
+   "see": [
+    "stakeholders checklist"
+   ]
+  },
+  {
+   "t": "project steering committee",
+   "c": "Project management (PM²)",
+   "d": "The project's decision and issue-resolution body, written PSC. Chaired by the Project Owner, with the Solution Provider, the Business Manager and the Project Manager.",
+   "see": [
+    "appropriate governance body",
+    "escalation procedure"
+   ]
+  },
+  {
+   "t": "project support office",
+   "c": "Project management (PM²)",
+   "d": "An optional support structure, written PSO, providing schedules, minutes, versioning, archiving and methodology help to project teams.",
+   "more": "Henry Gantt, who invented the bar chart, runs it in the story.",
+   "see": [
+    "project support team",
+    "projects archive"
+   ]
+  },
+  {
+   "t": "project support team",
+   "c": "Project management (PM²)",
+   "d": "The support roles around a project, written PST: quality assurance, the project support office, document management, data protection and information security.",
+   "see": [
+    "project support office",
+    "project quality assurance"
+   ]
+  },
+  {
+   "t": "project-end report",
+   "c": "Project management (PM²)",
+   "d": "The Closing Phase document summarising how the project went, what was delivered, and who now owns the benefits and the open recommendations.",
+   "see": [
+    "post-project recommendations",
+    "benefits realisation"
+   ]
+  },
+  {
+   "t": "projects archive",
+   "c": "Project management (PM²)",
+   "d": "The central store where a closed project's documents are kept so they can be found again years later, by people who were not there.",
+   "see": [
+    "configuration management",
+    "document management officer"
+   ]
+  },
+  {
+   "t": "provisional acceptance",
+   "c": "Project management (PM²)",
+   "d": "Accepting a deliverable while a short, listed set of small problems stays open, each with an owner and a date. Also called partial acceptance.",
+   "more": "How the reconciliation report dispute is finally resolved in the story.",
+   "see": [
+    "deliverables acceptance note"
+   ]
+  },
+  {
+   "t": "qualified majority",
+   "c": "ESM & euro area",
+   "d": "A decision threshold of 80% of the votes cast, used for ESM decisions that do not require unanimity. Votes are weighted by each country's share of the capital.",
+   "see": [
+    "mutual agreement",
+    "contribution key"
+   ]
+  },
+  {
+   "t": "quality assurance",
+   "c": "Audit, risk & control",
+   "d": "Checking that the agreed process is actually being followed. It looks at how the work is done.",
+   "see": [
+    "quality control",
+    "project quality assurance"
+   ]
+  },
+  {
+   "t": "quality control",
+   "c": "Audit, risk & control",
+   "d": "Checking that the thing produced is actually good enough. It looks at the output, not the process.",
+   "see": [
+    "quality assurance",
+    "acceptance criteria"
+   ]
+  },
+  {
+   "t": "quality review checklist",
+   "c": "Project management (PM²)",
+   "d": "The scored question set a reviewer works through. It is the main input to the Quality Review Report.",
+   "see": [
+    "project quality assurance",
+    "quality assurance"
+   ]
+  },
+  {
+   "t": "RASCI",
+   "c": "Project management (PM²)",
+   "d": "A table naming who is Responsible, Accountable, Supporting, Consulted and Informed for each artefact or activity. Exactly one person is Accountable.",
+   "more": "Also called a Responsibility Assignment Matrix. Pronounced rasky.",
+   "see": [
+    "outsourcing plan",
+    "project steering committee"
+   ]
+  },
+  {
+   "t": "ratification",
+   "c": "ESM & euro area",
+   "d": "Formal approval of a treaty or treaty change by every state that signed it, each under its own national rules. Until the last one ratifies, nothing takes effect.",
+   "more": "The 2021 ESM Treaty reform is still waiting for Italy.",
+   "see": [
+    "ESM Treaty",
+    "common backstop"
+   ]
+  },
+  {
+   "t": "ready for closing",
+   "c": "Project management (PM²)",
+   "d": "The third PM2 gate, written RfC, between the Executing Phase and the Closing Phase.",
+   "more": "Project CASTOR passed it on 22 Jun 2028.",
+   "see": [
+    "phase gate",
+    "project-end report"
+   ]
+  },
+  {
+   "t": "ready for executing",
+   "c": "Project management (PM²)",
+   "d": "The second PM2 gate, written RfE, between the Planning Phase and the Executing Phase.",
+   "more": "Project CASTOR passed it on 03 Jul 2026.",
+   "see": [
+    "phase gate",
+    "ready for closing"
+   ]
+  },
+  {
+   "t": "ready for planning",
+   "c": "Project management (PM²)",
+   "d": "The first PM2 gate, written RfP, between the Initiating Phase and the Planning Phase.",
+   "more": "Project CASTOR passed it on 27 Mar 2026.",
+   "see": [
+    "phase gate",
+    "ready for executing"
+   ]
+  },
+  {
+   "t": "reconciliation",
+   "c": "Lending operations",
+   "d": "Checking that the records of two or more systems match, and explaining every difference. After a disbursement, the loan system, the treasury system and the bank statement must all agree.",
+   "more": "Success criterion SC2 cuts this from three working days to the same day.",
+   "see": [
+    "reconciliation break",
+    "exception queue"
+   ]
+  },
+  {
+   "t": "reconciliation break",
+   "c": "Lending operations",
+   "d": "A difference between two records that nobody has explained yet. Every break must be investigated and cleared, never written off because it is small.",
+   "see": [
+    "reconciliation",
+    "exception queue"
+   ]
+  },
+  {
+   "t": "record of processing activities",
+   "c": "Audit, risk & control",
+   "d": "The data protection register naming every use of personal data an organisation makes, why, on what legal basis, and for how long.",
+   "see": [
+    "personal data",
+    "retention period"
+   ]
+  },
+  {
+   "t": "regression pack",
+   "c": "IT & delivery",
+   "d": "A fixed set of tests re-run after every change to prove that nothing which used to work has broken.",
+   "more": "Shrinking it under time pressure is the most reliable way known to cause a live incident.",
+   "see": [
+    "acceptance test",
+    "test environment"
+   ]
+  },
+  {
+   "t": "regulatory reporting",
+   "c": "Audit, risk & control",
+   "d": "Figures an institution must send to supervisors and auditors on a fixed timetable, in a fixed format. The deadlines are not negotiable.",
+   "see": [
+    "ad hoc report"
+   ]
+  },
+  {
+   "t": "release",
+   "c": "IT & delivery",
+   "d": "A defined package of working software delivered into use at one time. Splitting a project into releases lets value arrive before the end.",
+   "more": "Release 1 on 26 Mar 2027 is the configuration engine; Release 2 on 17 Dec 2027 is straight-through disbursement.",
+   "see": [
+    "sprint",
+    "cutover"
+   ]
+  },
+  {
+   "t": "repayment schedule",
+   "c": "Lending operations",
+   "d": "The fixed plan of when interest and principal fall due across a loan's life. The lending system generates it from the loan terms.",
+   "see": [
+    "principal",
+    "amortisation",
+    "rescheduling"
+   ]
+  },
+  {
+   "t": "reporting period",
+   "c": "Project management (PM²)",
+   "d": "The fixed stretch of time a report covers. Stating it removes the commonest ambiguity in status reporting.",
+   "see": [
+    "contractor status report",
+    "overall status colour"
+   ]
+  },
+  {
+   "t": "reporting year",
+   "c": "ESM & euro area",
+   "d": "The twelve months an institution measures and publishes its performance over. Benefits that need a full year of live running cannot be reported before one has passed.",
+   "more": "CASTOR's benefits first become measurable in the 2029 reporting year.",
+   "see": [
+    "benefits realisation"
+   ]
+  },
+  {
+   "t": "requirements document",
+   "c": "Project management (PM²)",
+   "d": "The detailed list of what the system must do, kept as its own document rather than inside the Project Charter.",
+   "see": [
+    "requirements management plan",
+    "MoSCoW"
+   ]
+  },
+  {
+   "t": "requirements management plan",
+   "c": "Project management (PM²)",
+   "d": "The document saying how requirements will be gathered, prioritised, approved, changed and traced through to delivery.",
+   "see": [
+    "requirements traceability matrix",
+    "MoSCoW"
+   ]
+  },
+  {
+   "t": "requirements traceability matrix",
+   "c": "Project management (PM²)",
+   "d": "A table linking each requirement to the deliverable that implements it and the test that proves it. It is how you show nothing was quietly dropped.",
+   "see": [
+    "acceptance test",
+    "requirements document"
+   ]
+  },
+  {
+   "t": "rescheduling",
+   "c": "Lending operations",
+   "d": "Changing a loan's repayment dates, usually by extending maturities, as a form of relief for the borrower. Every future cash flow has to be recalculated.",
+   "see": [
+    "repayment schedule",
+    "maturity"
+   ]
+  },
+  {
+   "t": "resolution",
+   "c": "ESM & euro area",
+   "d": "The controlled process of dealing with a failing bank so that its critical services continue and taxpayers do not pay, instead of letting it go bankrupt.",
+   "see": [
+    "Single Resolution Board",
+    "Single Resolution Fund"
+   ]
+  },
+  {
+   "t": "resource profile",
+   "c": "Project management (PM²)",
+   "d": "A type of person rather than a named one, used to estimate and price work before anybody has been hired or assigned.",
+   "see": [
+    "person-day",
+    "full-time equivalent"
+   ]
+  },
+  {
+   "t": "retention",
+   "c": "Procurement & contracts",
+   "d": "Part of a contract price held back by the client until the supplier has fixed the agreed defects. It is the only leverage that survives delivery.",
+   "see": [
+    "retention (contract)",
+    "retention period"
+   ]
+  },
+  {
+   "t": "retention (contract)",
+   "c": "Procurement & contracts",
+   "d": "The same money held back, named as a clause in the supplier's contract and released only at final acceptance.",
+   "more": "Three similar words: retention, retention (contract), retention period. Only the last one is about documents.",
+   "see": [
+    "retention",
+    "retention period"
+   ]
+  },
+  {
+   "t": "retention period",
+   "c": "Audit, risk & control",
+   "d": "How long a document or record may be kept before it must be archived or deleted. Keeping data longer than needed is itself a breach.",
+   "more": "Not the same as retention in a contract, which is money held back.",
+   "see": [
+    "retention",
+    "record of processing activities"
+   ]
+  },
+  {
+   "t": "risk appetite",
+   "c": "Audit, risk & control",
+   "d": "The amount of risk the stakeholders agree in advance that they are willing to accept. Agreeing it afterwards is not risk appetite, it is hindsight.",
+   "see": [
+    "risk level",
+    "tolerance"
+   ]
+  },
+  {
+   "t": "risk level",
+   "c": "Audit, risk & control",
+   "d": "In PM2, likelihood multiplied by impact, each scored from 1 to 5, giving a number from 1 to 25. Written RL = L x I.",
+   "see": [
+    "likelihood",
+    "impact",
+    "risk appetite"
+   ]
+  },
+  {
+   "t": "risk log",
+   "c": "Project management (PM²)",
+   "d": "The register of identified risks with owner, likelihood, impact, risk level and planned response. A risk that is not written down is not managed.",
+   "see": [
+    "issue log",
+    "risk response"
+   ]
+  },
+  {
+   "t": "risk response",
+   "c": "Audit, risk & control",
+   "d": "The chosen way of handling a risk: avoid it, transfer it to somebody else, reduce it, or accept it knowingly.",
+   "see": [
+    "risk log",
+    "risk level"
+   ]
+  },
+  {
+   "t": "rollback",
+   "c": "IT & delivery",
+   "d": "Returning to the old system if the switch-over fails. A rollback plan is only real if it names a decision point, a decider and a last possible moment.",
+   "see": [
+    "cutover",
+    "business continuity plan"
+   ]
+  },
+  {
+   "t": "rollover",
+   "c": "Banking & markets",
+   "d": "Repaying debt that is falling due by issuing new debt, usually on the same day, so that the funding continues without interruption.",
+   "see": [
+    "bond rollover",
+    "maturity"
+   ]
+  },
+  {
+   "t": "secondary market",
+   "c": "Banking & markets",
+   "d": "Where securities are traded between investors after they have been issued. The issuer receives nothing from these trades.",
+   "see": [
+    "primary market",
+    "liquidity"
+   ]
+  },
+  {
+   "t": "Secondary Market Support Facility",
+   "c": "ESM & euro area",
+   "d": "An ESM instrument, written SMSF, under which the ESM buys a member state's existing bonds from other investors, to support liquidity when a disorderly market is itself the threat.",
+   "see": [
+    "secondary market",
+    "Primary Market Support Facility"
+   ]
+  },
+  {
+   "t": "secondment",
+   "c": "Procurement & contracts",
+   "d": "Lending an employee to another organisation for a period while their employment contract stays where it was.",
+   "more": "Nikola Tesla is seconded from Levallois Systems into the Project Core Team.",
+   "see": [
+    "project core team"
+   ]
+  },
+  {
+   "t": "segregation of duties",
+   "c": "Audit, risk & control",
+   "d": "The rule that no single person may both start and release the same transaction. Different people must hold the different steps.",
+   "see": [
+    "four-eyes principle",
+    "audit trail"
+   ]
+  },
+  {
+   "t": "service fee",
+   "c": "ESM & euro area",
+   "d": "A charge that recovers the ESM's operating costs on a loan. It has an upfront component of 50 basis points and a small annual component.",
+   "see": [
+    "basis point",
+    "commitment fee"
+   ]
+  },
+  {
+   "t": "service level agreement",
+   "c": "Procurement & contracts",
+   "d": "The part of a contract fixing measurable service levels, such as availability or response time, and what happens when they are missed.",
+   "see": [
+    "contractual remedy",
+    "operations mode"
+   ]
+  },
+  {
+   "t": "settlement",
+   "c": "Banking & markets",
+   "d": "The moment a transfer becomes final: the payer's obligation is discharged and the receiver has the money.",
+   "see": [
+    "settlement risk",
+    "value date"
+   ]
+  },
+  {
+   "t": "settlement risk",
+   "c": "Banking & markets",
+   "d": "The danger that one side of a transaction delivers and the other does not, in the gap between agreeing a deal and settling it.",
+   "see": [
+    "settlement",
+    "clearing house"
+   ]
+  },
+  {
+   "t": "Single Resolution Board",
+   "c": "ESM & euro area",
+   "d": "The authority, written SRB, that decides how a failing bank in the Banking Union is resolved and manages the Single Resolution Fund.",
+   "see": [
+    "Single Resolution Fund",
+    "resolution"
+   ]
+  },
+  {
+   "t": "Single Resolution Fund",
+   "c": "ESM & euro area",
+   "d": "The pot that pays for resolving failing banks in the Banking Union, written SRF. It holds about 80 billion euro, paid in by banks, and reached its target level at the end of 2023.",
+   "see": [
+    "Single Resolution Board",
+    "resolution",
+    "common backstop"
+   ]
+  },
+  {
+   "t": "size (issue log)",
+   "c": "Project management (PM²)",
+   "d": "In PM2, a score of how big an issue or change is, judged by its effect on the project's objectives. It drives who is allowed to decide it.",
+   "more": "Do not confuse it with priority, which is about urgency, or with effort, which is about cost.",
+   "see": [
+    "issue log",
+    "change request form"
+   ]
+  },
+  {
+   "t": "solution provider",
+   "c": "Project management (PM²)",
+   "d": "The manager, written SP, whose unit produces the project's deliverables and who answers for them.",
+   "more": "Leonardo da Vinci, Head of IT and Digital, who must be pulled back to the delivery date.",
+   "see": [
+    "project owner",
+    "deliverable"
+   ]
+  },
+  {
+   "t": "sovereign",
+   "c": "Banking & markets",
+   "d": "A national government considered as a borrower. Sovereign debt is debt issued by a state.",
+   "see": [
+    "market access",
+    "programme country"
+   ]
+  },
+  {
+   "t": "sprint",
+   "c": "IT & delivery",
+   "d": "A short fixed working period, usually two weeks, ending in something that can be demonstrated rather than described.",
+   "see": [
+    "work package"
+   ]
+  },
+  {
+   "t": "stakeholders checklist",
+   "c": "Project management (PM²)",
+   "d": "A list of yes or no checks proving the stakeholder work was actually done, phase by phase, rather than merely intended.",
+   "see": [
+    "project stakeholder matrix"
+   ]
+  },
+  {
+   "t": "statement of work",
+   "c": "Procurement & contracts",
+   "d": "The document attached to a contract describing exactly what the supplier will deliver, to what standard and by when.",
+   "see": [
+    "acceptance criteria",
+    "outsourcing plan"
+   ]
+  },
+  {
+   "t": "straight-through processing",
+   "c": "Lending operations",
+   "d": "Data passing automatically from one system to the next, with nobody retyping it. People still decide and still approve. They just do not re-key.",
+   "more": "Usually written STP. It is the core promise of Project CASTOR.",
+   "see": [
+    "manual re-keying",
+    "exception handling"
+   ]
+  },
+  {
+   "t": "success criterion",
+   "c": "Project management (PM²)",
+   "d": "A measurable target from the Business Case that decides whether the project delivered its benefit. It needs a baseline, a target and a unit.",
+   "more": "Project CASTOR has five, SC1 to SC5, and none can be fully measured before 2029.",
+   "see": [
+    "business case",
+    "benefits realisation"
+   ]
+  },
+  {
+   "t": "SWOT",
+   "c": "Project management (PM²)",
+   "d": "A short table of Strengths, Weaknesses, Opportunities and Threats, used in a Business Case to compare each option on the same four axes.",
+   "see": [
+    "business case"
+   ]
+  },
+  {
+   "t": "tailoring",
+   "c": "Project management (PM²)",
+   "d": "Adjusting the method to the project: deciding which plans are separate documents, which are short sections, and which are not needed at all.",
+   "see": [
+    "project handbook"
+   ]
+  },
+  {
+   "t": "test environment",
+   "c": "IT & delivery",
+   "d": "A separate copy of the system where work can be tried out without touching live money or live data.",
+   "see": [
+    "user acceptance testing",
+    "regression pack"
+   ]
+  },
+  {
+   "t": "timesheet",
+   "c": "Procurement & contracts",
+   "d": "The record of who worked how many days on which task. On a time-and-materials contract it is also what the supplier is paid against.",
+   "see": [
+    "person-day",
+    "burn rate"
+   ]
+  },
+  {
+   "t": "tolerance",
+   "c": "Project management (PM²)",
+   "d": "How far a measure may drift from its target before somebody has to act or escalate. Agreed in advance so that nobody has to judge it under pressure.",
+   "see": [
+    "variance",
+    "escalation procedure"
+   ]
+  },
+  {
+   "t": "total cost of ownership",
+   "c": "Project management (PM²)",
+   "d": "Everything an option costs across its whole life, written TCO: build or licence, hosting, support, training and eventual decommissioning.",
+   "more": "Comparing options on purchase price alone is the classic Business Case mistake.",
+   "see": [
+    "business case",
+    "decommissioning"
+   ]
+  },
+  {
+   "t": "tranche",
+   "c": "Lending operations",
+   "d": "One instalment of an agreed loan. A large facility is drawn in tranches, and each one is released only when its own conditions have been met.",
+   "see": [
+    "disbursement",
+    "facility",
+    "drawdown schedule"
+   ]
+  },
+  {
+   "t": "transition plan",
+   "c": "Project management (PM²)",
+   "d": "The plan for moving from the old way of working to the new one: cutover steps, data, handover to operations and the rollback route.",
+   "more": "Who owns retraining 40 loan administrators is the fight this artefact exists to settle.",
+   "see": [
+    "business implementation plan",
+    "cutover"
+   ]
+  },
+  {
+   "t": "treasury",
+   "c": "Banking & markets",
+   "d": "The function that manages an institution's cash, funding and liquidity: it raises the money, holds it and makes sure it is where it needs to be.",
+   "see": [
+    "nostro account",
+    "issuance"
+   ]
+  },
+  {
+   "t": "type of delivery",
+   "c": "Procurement & contracts",
+   "d": "How the work will be done: in-house, outsourced, a mix of both, or not yet decided. PM2 asks the question early because it changes the whole plan.",
+   "more": "Project CASTOR is a Mix: in-house core team plus outsourced platform implementation.",
+   "see": [
+    "outsourcing plan"
+   ]
+  },
+  {
+   "t": "user acceptance testing",
+   "c": "IT & delivery",
+   "d": "Testing done by the people who will actually use the system every day, written UAT. They test whether it works for the job, not whether it matches the specification.",
+   "see": [
+    "user representative",
+    "acceptance test"
+   ]
+  },
+  {
+   "t": "user representative",
+   "c": "Project management (PM²)",
+   "d": "The person, written UR, who speaks for the staff who will use the system every day, and who accepts deliverables on their behalf.",
+   "more": "Marie Curie, who will not accept a measurement she has not verified herself.",
+   "see": [
+    "user acceptance testing",
+    "deliverables acceptance note"
+   ]
+  },
+  {
+   "t": "value date",
+   "c": "Lending operations",
+   "d": "The day the money must actually be sitting in the receiving account and be usable. It is not the day the instruction was sent, nor the day it was booked.",
+   "see": [
+    "value-date cut-off",
+    "settlement",
+    "disbursement"
+   ]
+  },
+  {
+   "t": "value-date cut-off",
+   "c": "Lending operations",
+   "d": "The time of day after which a payment instruction can no longer reach the value date it was meant for. Miss it and the money arrives a day late.",
+   "more": "The reason success criterion SC1 measures cycle time in working days.",
+   "see": [
+    "value date"
+   ]
+  },
+  {
+   "t": "variance",
+   "c": "Project management (PM²)",
+   "d": "The gap between what was planned and what actually happened, in time, cost or scope. It is reported, not hidden.",
+   "see": [
+    "baseline",
+    "tolerance",
+    "major deviation"
+   ]
+  },
+  {
+   "t": "work breakdown structure",
+   "c": "Project management (PM²)",
+   "d": "The tree, written WBS, that splits a project into deliverables, work packages, activities and tasks, until each piece is small enough to estimate.",
+   "see": [
+    "work package",
+    "work plan"
+   ]
+  },
+  {
+   "t": "work package",
+   "c": "Project management (PM²)",
+   "d": "A block of project work small enough to estimate, schedule and give to a single owner.",
+   "see": [
+    "work breakdown structure",
+    "deliverable"
+   ]
+  },
+  {
+   "t": "work plan",
+   "c": "Project management (PM²)",
+   "d": "The combined plan of what will be done, by whom, when and for how much: the work breakdown, the effort estimates and the schedule.",
+   "see": [
+    "work breakdown structure",
+    "baseline",
+    "critical path"
+   ]
+  },
+  {
+   "t": "yield",
+   "c": "Banking & markets",
+   "d": "The return an investor actually earns on a bond, given what they paid for it. It moves in the opposite direction to the bond's price.",
+   "see": [
+    "bond",
+    "coupon",
+    "face value"
+   ]
+  }
+ ]
+}

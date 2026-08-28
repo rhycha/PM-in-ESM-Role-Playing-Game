@@ -1,0 +1,198 @@
+{
+ "n": 29,
+ "id": "lean-ux",
+ "name": "Lean UX",
+ "group": "Themes",
+ "one_liner": "Treat requirements as assumptions and validate them with prototypes before developing.",
+ "purpose": "Lean UX is a cornerstone of PM²-Agile, strongly influenced by the Lean start-up model described in section 2.3. It focuses on the principle that requirements are assumptions the Agile Project Core Team must validate before starting development, because development takes time and effort to reach the level of marketable product needed to gain learning and bring business value. Its four steps are integrated into the PM²-Agile lifecycle with a key focus on the Initiating and the Executing phases.",
+ "guide_page": 27,
+ "meta": [
+  [
+   "Theme",
+   "4.1 — the first of the fourteen PM²-Agile themes"
+  ],
+  [
+   "Rests on",
+   "The Lean start-up model, section 2.3 Continuous Improvement & Validated Learning"
+  ],
+  [
+   "Motto",
+   "No-code prototypes foster common understanding and validated learning"
+  ]
+ ],
+ "rasci": null,
+ "diagram": [
+  {
+   "sec": "The four Lean UX steps",
+   "items": [
+    "1. Incept assumptions and research",
+    "2. Create a Validated Prototype",
+    "3. Deploy a Prototype",
+    "4. Evaluate and Learn"
+   ]
+  },
+  {
+   "sec": "What the Lean start-up model contributes",
+   "items": [
+    "Removing development waste with UX design",
+    "Harmonising relationships between the A-PCT and the rest of the stakeholders",
+    "Shifting mindsets from assumption to experimentation"
+   ]
+  },
+  {
+   "sec": "Where each step lands in PM²",
+   "items": [
+    "Initiating — co-creation sessions, SWOT of alternatives in the Business Case, first MVP if approved",
+    "Executing — Design Blocks in every iteration to revisit the hypotheses of the relevant features",
+    "Executing — prototypes deployed, evaluated, then built as work in following iterations"
+   ]
+  },
+  {
+   "sec": "The prototype ladder",
+   "items": [
+    "Design Blocks produce a low-fidelity prototype, sketched together",
+    "UI designers turn the agreed sketch into a high-fidelity prototype",
+    "The prototyped experience is deployed — freezing an experiment, not necessarily a technical release",
+    "Evidence supports the decision to pivot or persevere"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Requirements are assumptions",
+   "what": "Lean UX focuses on the principle that requirements are assumptions the team must validate before starting development.",
+   "who": "A-PCT and all participating stakeholders",
+   "pollux": "Nobody agrees what the exposure report should contain — so nothing is settled."
+  },
+  {
+   "f": "Removing development waste",
+   "what": "The Lean start-up model supports Lean UX by removing development waste with UX design.",
+   "who": "UX specialist with the A-PCT",
+   "pollux": "Avoids coding a Board view that Risk and Finance will reject."
+  },
+  {
+   "f": "Harmonising relationships",
+   "what": "Harmonises the relationships between the Agile Project Core Team and the rest of the stakeholders.",
+   "who": "A-PCT, stakeholder community",
+   "pollux": "Puts Risk, Finance and Board representatives in the same sketching session."
+  },
+  {
+   "f": "From assumption to experimentation",
+   "what": "Shifts mindsets from assumption to experimentation, so decisions rest on evidence rather than opinion.",
+   "who": "Whole project organisation",
+   "pollux": "Answers Medici with experiments rather than a fixed scope promise."
+  },
+  {
+   "f": "Rapid prototypes",
+   "what": "Rapid prototypes are essential because they establish learning with barely any development effort that might delay it and create waste.",
+   "who": "A-PCT, UI designers, users",
+   "pollux": "A sketched exposure view is tested long before Release 1 on 29 Mar 2029."
+  },
+  {
+   "f": "No-code prototypes",
+   "what": "The motto is that no-code prototypes foster common understanding, continuous improvement and validated learning among team and stakeholders.",
+   "who": "Team members and stakeholders",
+   "pollux": "Paper views of exposure by member state precede any portal code."
+  },
+  {
+   "f": "Design Blocks",
+   "what": "Design blocks provide the basis to challenge and validate assumptions and help develop MVPs.",
+   "who": "UX specialist facilitates; A-PCT and stakeholders attend",
+   "pollux": "Run each iteration to re-check the assumptions behind the next work items."
+  },
+  {
+   "f": "MVP key elements",
+   "what": "Lean UX ensures all key elements described in section 2.3 are taken into consideration when building an MVP.",
+   "who": "A-PCT",
+   "pollux": "The first release must be usable and valuable, not merely demonstrable."
+  },
+  {
+   "f": "Step 1 — Incept assumptions and research",
+   "what": "Pivotal in Initiating as the foundation for defining requirements, and in Executing at operational level as Design Blocks.",
+   "who": "Stakeholders in co-creation sessions",
+   "pollux": "Co-creation before the Business Case approved on 12 Oct 2028."
+  },
+  {
+   "f": "SWOT of alternatives",
+   "what": "Inception drives future requirements and considers alternative solutions by analysing strengths, weaknesses, opportunities and threats in the Business Case.",
+   "who": "Business Case authors — BM responsible",
+   "pollux": "The Business Case argues why PM²-Agile rather than PM² core for POLLUX."
+  },
+  {
+   "f": "Step 2 — Create a Validated Prototype",
+   "what": "The team reviews assumptions, uses Design Blocks for low-fidelity prototypes, then UI designers build high-fidelity ones for validation.",
+   "who": "A-PCT, UI designers, stakeholders and users",
+   "pollux": "The reconciliation panel is validated on screen before Release 2 work starts."
+  },
+  {
+   "f": "Step 3 — Deploy a Prototype",
+   "what": "The prototyped experience is deployed; deploying does not necessarily imply a technical deployment but freezes an experiment.",
+   "who": "A-PCT with business stakeholders",
+   "pollux": "A frozen scenario-overlay prototype becomes the learning tool for Release 3."
+  },
+  {
+   "f": "Step 4 — Evaluate and Learn",
+   "what": "Real and objective evidence validates the hypotheses and supports deciding whether to pivot or persevere on a feature or the whole solution.",
+   "who": "Entire team and stakeholders",
+   "pollux": "Evidence decides whether the self-service builder ships as Release 4."
+  },
+  {
+   "f": "Persevering",
+   "what": "When persevering, the preparatory work lets Agile Team Members start building the specific elements of the solution in following iterations.",
+   "who": "Agile Team Members",
+   "pollux": "Lamarr and Babbage build only what a validated prototype already justified."
+  },
+  {
+   "f": "Usability testing and interviews",
+   "what": "ATeMs facilitate usability testing and user and stakeholder interviews; these sessions are open to everyone.",
+   "who": "ATeMs, users, stakeholders",
+   "pollux": "Quarter-end analysts test the portal against their five-day manual routine."
+  },
+  {
+   "f": "Where feedback sessions happen",
+   "what": "The activity can be an informal feedback session or a key PM²-Agile ceremony such as an Iteration Review or Release Planning meeting.",
+   "who": "A-PCT, PrOw, stakeholders",
+   "pollux": "Feedback lands in the review on the last day of each two-week iteration."
+  }
+ ],
+ "traps": [
+  "Deploying a prototype need not be a technical deployment — it freezes an experiment.",
+  "Build–Measure–Learn belongs to the Lean start-up model; Lean UX has its own four steps.",
+  "Design Blocks run in every iteration, not only during Initiating.",
+  "High-fidelity prototypes come only after the team agrees the low-fidelity version.",
+  "Lean UX validates assumptions before development, not after the iteration."
+ ],
+ "pollux_excerpt": {
+  "title": "Lean UX on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Assumption under test",
+    "That the stakeholders agree what an exposure report should contain"
+   ],
+   [
+    "Evidence against it",
+    "Risk wants stress scenarios, the Board wants one page, Finance wants reconciliation"
+   ],
+   [
+    "Where it runs",
+    "Design Block workshops inside each two-week iteration"
+   ],
+   [
+    "Who facilitates",
+    "Marie Curie (PrOw) with the Agile Project Core Team"
+   ],
+   [
+    "Persevere path",
+    "Release 4 — self-service report builder, 20 Dec 2029"
+   ],
+   [
+    "Why it applies",
+    "The requirement genuinely is not knowable in advance"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "n": 2,
+ "id": "lifecycle",
+ "name": "Lifecycle",
+ "group": "The Model",
+ "one_liner": "Four PM² phases stay; inside Executing the CIR cycles spin.",
+ "purpose": "Projects pass through the same four distinct phases described by PM² — Initiating, Planning, Executing and Closing — and PM²-Agile keeps them. The phases are seldom cleanly separated: planning activities continue into Executing, and team-level tasks are not sequential at all, since planning, analysing, coding, testing and reviewing happen in every iteration. PM²-Agile then adds iterative cycles at three levels — daily cycles, iterations and releases — each following the CIR rhythm.",
+ "guide_page": 17,
+ "meta": [
+  [
+   "Guide reference",
+   "§3.3.1, pp. 17–19"
+  ],
+  [
+   "Phases",
+   "Initiating · Planning · Executing · Closing (Fig. 3.5, p. 17)"
+  ],
+  [
+   "Overall character",
+   "Serial in the large, iterative in the small"
+  ],
+  [
+   "Cycle levels",
+   "Daily cycles · Iterations · Releases — all three run CIR"
+  ],
+  [
+   "CIR",
+   "Coordinate → Implement → Review (Fig. 3.7, p. 17)"
+  ],
+  [
+   "Phase interfaces",
+   "Seldom clearly separated; phase activities overlap (Figs. 3.6 & 3.8)"
+  ],
+  [
+   "Ceremony placement (App. B.2, p. 95)",
+   "Iteration Planning under Planning; Stand-up, Review, Retrospective under Executing; Release Planning under Monitor & Control"
+  ]
+ ],
+ "rasci": null,
+ "diagram": [
+  {
+   "sec": "1. Initiating — understand what to build",
+   "items": [
+    "Determine an overall vision; identify stakeholders and their success criteria",
+    "Declare all assumptions rather than treat them as facts, so they can be questioned",
+    "Identify the hypotheses that validate the assumptions and cut uncertainty risk early",
+    "Ascertain at least one solution and assess technical feasibility against those assumptions",
+    "Capture high-level estimates of cost, schedule and risk for the development aspect",
+    "Agile adds: Lean UX \"Incept assumptions and research\" co-creation sessions (§4.1, p. 28)",
+    "Artefacts: Business Case, Project Charter, Architecture Overview, Operational Model"
+   ]
+  },
+  {
+   "sec": "2. Planning — build the delivery machine",
+   "items": [
+    "Agile adds: Development Handbook — the tailoring record (created in Planning)",
+    "Agile adds: Development Work Plan — Work Items List, Release Plan, Iteration Plan",
+    "Hold the first Release Planning ceremony as early as possible, preferably at the start of Planning (p. 78)",
+    "Test Plan and Deployment Plan created",
+    "Appendix B.2 files the Iteration Planning meeting under the Planning phase (p. 95)"
+   ]
+  },
+  {
+   "sec": "3. Executing — the CIR engine runs",
+   "items": [
+    "The focus shifts to incrementally building the solution and testing the hypotheses",
+    "Requirements are continuously revisited and clarified; technical and non-technical risks regularly addressed",
+    "Agile adds: Daily Stand-up, Iteration Review and Iteration Retrospective (App. B.2, p. 95)",
+    "Agile adds: Development Status Report, Retrospectives Log, Testing Logs",
+    "Design Blocks revisit hypotheses in every iteration to keep expectations aligned",
+    "Value is measured with a measuring-and-learning framework fed by an MVP"
+   ]
+  },
+  {
+   "sec": "4. Closing — the phase does not disappear",
+   "items": [
+    "Focus shifts to integrating the solution into the overall project deliverables",
+    "Ensure the organisation can own, evolve and maintain the information system after the project",
+    "Project-End Report: BM S · PM R · TeCo S · PrOw I · ArOw I · ATeM I (p. 95)",
+    "The Retrospectives Log becomes an invaluable source for the Lessons Learned (p. 57)"
+   ]
+  },
+  {
+   "sec": "5. What overlaps and what repeats",
+   "items": [
+    "Planning-type activities peak in Planning but continue into later phases (Fig. 3.6)",
+    "Iterations create extensive overlap of phase activities over time (Fig. 3.8)",
+    "Team-level tasks are not sequential: plan, analyse, code, test and review every iteration",
+    "Some Agile practices reserve a special time slot for planning and reviewing"
+   ]
+  },
+  {
+   "sec": "6. Three cycle levels, one rhythm (Fig. 3.10, p. 19)",
+   "items": [
+    "Project phases → Releases → Iterations → Daily cycles",
+    "A release is the incremental progress of one or more iterations",
+    "An iteration's output is the incremental progress achieved every day",
+    "At all three levels value is delivered and feedback is collected"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Project lifecycle",
+   "what": "All events and activities from inception of the idea or need through to final completion of the project, across four distinct phases.",
+   "who": "PM owns the lifecycle",
+   "pollux": "04 Sep 2028 initiation request to 20 Mar 2030 administrative closure."
+  },
+  {
+   "f": "Initiating",
+   "what": "Understand what to build: vision, stakeholders, success criteria, declared assumptions, hypotheses to test, at least one feasible solution, high-level estimates.",
+   "who": "BM R on the Business Case · PM R on the Charter",
+   "pollux": "Five measurable success criteria, from five days and four analysts down to one day, one analyst."
+  },
+  {
+   "f": "Planning",
+   "what": "Set up how delivery will run and at what detail: Development Handbook, Development Work Plan, Test Plan, Deployment Plan; first Release Plan built here.",
+   "who": "TeCo R · PM A",
+   "pollux": "Handbook and Work Plan baselined 27 Nov 2028; RfE gate passed 04 Dec 2028."
+  },
+  {
+   "f": "Executing",
+   "what": "Iterations run the CIR rhythm and build the solution incrementally; artefacts are updated, not recreated; four of the five ceremonies live here.",
+   "who": "A-PCT runs it · PM informed",
+   "pollux": "Iteration 1 begins 08 Jan 2029; twenty-six iterations to transition."
+  },
+  {
+   "f": "Closing",
+   "what": "Integrate the solution, transition ownership to the organisation, and capture Lessons Learned enriched by the iteration retrospectives.",
+   "who": "PM R on the Project-End Report",
+   "pollux": "Transition into service 31 Jan 2030; RfC gate 14 Feb 2030."
+  },
+  {
+   "f": "Phase overlap",
+   "what": "Interfaces between phases are seldom clearly separated; planning-type activities continue to be executed during subsequent phases.",
+   "who": "PM manages the overlap",
+   "pollux": "Release Planning keeps replanning scope long after the Planning phase closed."
+  },
+  {
+   "f": "Serial in the large, iterative in the small",
+   "what": "A driver (p. 23): the project has a defined beginning and end and a serial phase order, while team-level work inside iterations is not sequential.",
+   "who": "PM² Mindsets / PM²-Agile drivers",
+   "pollux": "Gates are serial; the eleven-spreadsheet problem is attacked two weeks at a time."
+  },
+  {
+   "f": "Declared assumptions",
+   "what": "At the start uncertainty is high, so assumptions are declared and not treated as facts, giving stakeholders and team the chance to question them.",
+   "who": "A-PCT and stakeholders",
+   "pollux": "\"The Board wants one page\" was recorded as an assumption, not a requirement."
+  },
+  {
+   "f": "Benefit hypothesis",
+   "what": "Each feature carries a hypothesis targeting the validation of a declared assumption, tested as development progresses.",
+   "who": "PrOw with the A-PCT",
+   "pollux": "Hypothesis: a self-service view removes four of the eleven manual spreadsheets."
+  },
+  {
+   "f": "MVP and validated learning",
+   "what": "A measuring-and-learning framework captures relevant data from an MVP or later versions and uses it as validated learning to enable decisions.",
+   "who": "PrOw · BM · A-PCT",
+   "pollux": "Release 1 is read-only exposure by member state — the smallest thing worth using."
+  },
+  {
+   "f": "CIR rhythm",
+   "what": "Coordinate, Implement, Review: the pattern every cycle follows regardless of duration — daily cycles, iterations and releases.",
+   "who": "A-PCT",
+   "pollux": "Coordinate at 09:30 stand-up, implement all day, review on the last Friday."
+  },
+  {
+   "f": "Three cycle levels",
+   "what": "Daily cycles nest inside iterations, iterations inside releases, releases inside phases. Value and feedback flow at every level.",
+   "who": "A-PCT",
+   "pollux": "Daily stand-up · two-week iteration · quarterly release · 18-month project."
+  },
+  {
+   "f": "Design Blocks",
+   "what": "Workshops, part of Release Planning, that use low- then high-fidelity prototypes to challenge requirements until common understanding is reached.",
+   "who": "ATeMs facilitate · PrOw presents to business",
+   "pollux": "Used before every Release 2 story so Risk and Finance argue over sketches, not code."
+  },
+  {
+   "f": "Development Work Plan",
+   "what": "The container of three plan levels — Work Items List, Release Plan, Iteration Plan — created in Planning and updated throughout Executing.",
+   "who": "TeCo R · PM A · PrOw S",
+   "pollux": "The answer to Gantt when he assumes an agile project has no schedule."
+  },
+  {
+   "f": "Development Status Report",
+   "what": "The Coordination and Reporting artefact that carries development progress into the Project Status Report for the managing layer.",
+   "who": "TeCo R · PM A",
+   "pollux": "Where the PM's status questions belong — not in the Daily Stand-up."
+  },
+  {
+   "f": "Retrospectives Log",
+   "what": "A PM²-Agile Log holding the output of every Iteration Retrospective; feeds the Lessons Learned and post-project recommendations at Closing.",
+   "who": "TeCo R · PM A · ATeM S",
+   "pollux": "Eighteen months of retrospectives sit beside one Lessons Learned exercise."
+  },
+  {
+   "f": "Ceremony placement in Appendix B.2",
+   "what": "The summary table files Iteration Planning under Planning, Stand-up, Review and Retrospective under Executing, and Release Planning under Monitor & Control.",
+   "who": "Read off p. 95",
+   "pollux": "Quoted in the POLLUX Development Handbook to settle where each ceremony reports."
+  },
+  {
+   "f": "Artefacts by phase",
+   "what": "Architecture Overview is created in Initiating; Handbook, Work Plan, WIL, Release Plan, Test and Deployment Plans in Planning; all updated in Executing.",
+   "who": "PM accountable for most",
+   "pollux": "Architecture Overview created before the RfP gate on 16 Oct 2028."
+  },
+  {
+   "f": "Lessons Learned vs retrospectives",
+   "what": "PM² captures lessons at the end; PM²-Agile retrospects every iteration so improvements are acted on immediately rather than remembered later.",
+   "who": "A-PCT retrospects · PM reports",
+   "pollux": "Deming is delighted; someone still has to explain why both exist at Closing."
+  }
+ ],
+ "traps": [
+  "Agile does not delete phases or gates — only the Executing work changes shape.",
+  "Appendix B.2 files Release Planning under Monitor & Control, not Planning.",
+  "Iteration Planning is filed under the Planning phase, though it runs every iteration.",
+  "Phases overlap; \"planning ends when Planning ends\" is false.",
+  "Retrospectives do not replace the Project-End Report or Lessons Learned."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX phase map and gate dates (Project Charter §4, updated after Iteration 7)",
+  "rows": [
+   [
+    "Phase / milestone",
+    "Date and agile content"
+   ],
+   [
+    "Project Initiation Request",
+    "04 Sep 2028"
+   ],
+   [
+    "Initiating",
+    "Business Case + Project Charter approved 12 Oct 2028; assumptions declared, not fixed requirements"
+   ],
+   [
+    "RfP gate — Ready for Planning",
+    "16 Oct 2028"
+   ],
+   [
+    "Planning",
+    "Development Handbook + Development Work Plan baselined 27 Nov 2028; first Release Plan built"
+   ],
+   [
+    "RfE gate — Ready for Executing",
+    "04 Dec 2028"
+   ],
+   [
+    "Executing begins",
+    "Iteration 1 starts 08 Jan 2029 — two-week iterations, no exceptions"
+   ],
+   [
+    "Release 1",
+    "29 Mar 2029 — exposure by member state, read-only"
+   ],
+   [
+    "Release 2",
+    "28 Jun 2029 — instrument and maturity views, reconciliation panel"
+   ],
+   [
+    "Release 3",
+    "27 Sep 2029 — scenario overlay, national-authority access"
+   ],
+   [
+    "Release 4",
+    "20 Dec 2029 — self-service report builder"
+   ],
+   [
+    "Transition into service",
+    "31 Jan 2030"
+   ],
+   [
+    "RfC gate — Ready for Closing",
+    "14 Feb 2030; Retrospectives Log feeds the Lessons Learned"
+   ],
+   [
+    "Administrative closure",
+    "20 Mar 2030"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,364 @@
+{
+ "n": 11,
+ "id": "requirements-management-plan",
+ "name": "Requirements Management Plan",
+ "family": "Management Plan",
+ "one_liner": "How requirements are gathered, prioritised, approved, traced and validated.",
+ "purpose": "Defines and documents the requirements management approach, process steps and responsibilities, as well as the tools, techniques and artefacts that will be used. The requirements themselves are documented and managed in separate artefacts (e.g. a requirements matrix). Effective requirements management is a critical success factor, because requirements are the starting point for all project work and principally affect project risk, duration and budget.",
+ "guide_page": 89,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "C",
+   "BIG": "C",
+   "SP": "I",
+   "PM": "R",
+   "PCT": "S"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Owner (PO)",
+ "inputs": [
+  "Project Charter",
+  "Project Handbook",
+  "Project Stakeholder Matrix"
+ ],
+ "feeds": [
+  "Requirements Document(s)",
+  "Requirements Traceability Matrix",
+  "Project Work Plan",
+  "Change Requests"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Drafted with the Handbook; process tailored, PO approves"
+  },
+  {
+   "phase": "Executing",
+   "what": "Requirements specified, evaluated, approved and built"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Manage Requirements; new requirements only via change control"
+  },
+  {
+   "phase": "Closing",
+   "what": "Validated requirements evidence acceptance in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Cover & Settings (title, PO, PM, version, sensitivity)",
+    "Document Approver(s) and Reviewer(s)",
+    "Document History",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Purpose of the document",
+    "Describes the requirements management process",
+    "Defines roles and responsibilities",
+    "Specifies methodology, standards, tools and templates"
+   ]
+  },
+  {
+   "sec": "2. Requirements Management Objectives",
+   "items": [
+    "What requirements management is",
+    "Plan or Project Handbook section",
+    "Separate requirements documentation & traceability matrix",
+    "Boundary with project change management"
+   ]
+  },
+  {
+   "sec": "3. Requirements Management process",
+   "items": [
+    "Step 1: Specify the requirements",
+    "Step 2: Evaluate the requirements",
+    "Step 3: Approve the requirements",
+    "Step 4: Monitor requirements implementation",
+    "Step 5: Validate the implemented requirements"
+   ]
+  },
+  {
+   "sec": "4. The Requirements lifecycle",
+   "items": [
+    "Specified",
+    "Proposed",
+    "Approved",
+    "Incorporated",
+    "Implemented",
+    "Validated",
+    "For Fixing (special status)",
+    "Rejected (special status)"
+   ]
+  },
+  {
+   "sec": "5. Requirement Management Roles and Responsibilities",
+   "items": [
+    "Role-by-role text: PO, PSC, BM, SP, PM, PCT, AGB",
+    "Other stakeholders",
+    "RASCI table (Plan + Manage Requirements)",
+    "Contacts held in the Project Stakeholder Matrix"
+   ]
+  },
+  {
+   "sec": "6. Tools and Techniques",
+   "items": [
+    "Techniques: interviews, brainstorming, workshops, observation, prototyping, MoSCoW",
+    "Tools: requirements documentation, traceability matrix",
+    "6.1 Requirements documentation (attributes)",
+    "6.2 Requirements traceability matrix (attributes)"
+   ]
+  },
+  {
+   "sec": "7. Requirements change management",
+   "items": [
+    "Log on a Change Request Form",
+    "Re-run the requirements process",
+    "Process through change control (Handbook / Change Plan)"
+   ]
+  },
+  {
+   "sec": "8. Related PM² Plans",
+   "items": [
+    "Project Handbook",
+    "Project Change Management Plan",
+    "Deliverables Acceptance Plan"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "Title, version and date of each related document",
+    "Source or link/location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1. Introduction",
+   "what": "States the purpose: describe the requirements management process for this project, define the related roles and responsibilities, and specify methodology, standards, tools, techniques and templates.",
+   "who": "PM drafts · PO approves",
+   "castor": "Requirements management for Project CASTOR — LOS renewal, €8.4 m, 26 months."
+  },
+  {
+   "f": "2. Requirements Management Objectives",
+   "what": "Requirements management gathers, documents and validates requirements and manages their implementation and change; it runs continuously and relates to quality and change management.",
+   "who": "PM drafts · BM consulted",
+   "castor": "Every success criterion SC1–SC5 must trace to at least one testable requirement."
+  },
+  {
+   "f": "Standalone plan or Handbook section (tailoring)",
+   "what": "The process may be documented here or as a section of the Project Handbook; tailor it — complete the description or delete activities not applicable to the project.",
+   "who": "PM decides · PO approves",
+   "castor": "Kept standalone: 214 requirements and an external platform supplier justify a full plan."
+  },
+  {
+   "f": "Boundary with project change management",
+   "what": "Managing changing requirements to configuration items — requirements documentation, Project Work Plan, deliverables — is part of project change management, documented in the Project Change Management Plan.",
+   "who": "PM aligns both plans",
+   "castor": "After 26 Jun 2026 a baselined requirement moves only through the Change Log."
+  },
+  {
+   "f": "Step 1: Specify the requirements",
+   "what": "With stakeholders, gather requirements and document them clearly with metadata. Techniques: brainstorming, nominal group, interviews, observation, storyboards, prototyping, user stories.",
+   "who": "PM leads · BA documents · URs contribute",
+   "castor": "Workshops with loan administrators, Apr–Jun 2026, written up by Ada Lovelace (BA)."
+  },
+  {
+   "f": "Step 2: Evaluate the requirements",
+   "what": "The team assesses feasibility, consistency and completeness and estimates effort/cost; the PM balances the list against budget and time constraints and proposes to stakeholders.",
+   "who": "PCT assesses · PM proposes",
+   "castor": "Must-have scope estimated at 1,050 PD inside the 3,100 PD project envelope."
+  },
+  {
+   "f": "MoSCoW prioritisation",
+   "what": "Prioritisation belongs to Step 2. MoSCoW = Must have, Should have, Could have, Won't have. Related and dependent requirements must be given the same priority.",
+   "who": "PM facilitates · PO and BM agree",
+   "castor": "214 requirements baselined: 96 Must, 71 Should, 39 Could, 8 Won't."
+  },
+  {
+   "f": "Scope boundary check",
+   "what": "The PM verifies each requirement against the scope boundaries set in the Project Charter; requirements found out-of-scope are logged as “not in scope”.",
+   "who": "PM verifies · PO arbitrates",
+   "castor": "SRF-backstop screens logged “not in scope” — Treaty reform not yet in force."
+  },
+  {
+   "f": "Acceptance criteria",
+   "what": "Every requirement must be testable on the deliverable, so one or more acceptance criteria are defined per requirement; they drive development, test plans and final acceptance.",
+   "who": "BA drafts · UR validates",
+   "castor": "REQ-042: reconciliation matches the treasury ledger same day, zero manual entries."
+  },
+  {
+   "f": "Step 3: Approve the requirements",
+   "what": "PM and key stakeholders (PO, BM) negotiate and agree requirements and priorities within the Charter's cost and schedule limits; approval is logged in the Decision Log or MoM.",
+   "who": "PM negotiates · PO approves",
+   "castor": "DEC-004 — baseline approved by Florence Nightingale at the PSC of 26 Jun 2026."
+  },
+  {
+   "f": "Step 4: Monitor requirements implementation",
+   "what": "PM continuously monitors PCT implementation; new or changed requirements go through formal change control, re-run steps 1–3, and then the Project Work Plan is updated.",
+   "who": "PM monitors · PCT implements",
+   "castor": "Weekly requirements burn-down reviewed with Gustave Eiffel, Levallois's project manager."
+  },
+  {
+   "f": "Step 5: Validate the implemented requirements",
+   "what": "User Representatives validate the deliverable against each requirement's acceptance criteria and judge whether the business need is met; formal acceptance follows the Deliverables Acceptance Plan.",
+   "who": "URs validate · PM records",
+   "castor": "Marie Curie validates reconciliation requirements in the parallel run, Jan–Apr 2028."
+  },
+  {
+   "f": "4. The Requirements lifecycle",
+   "what": "Six normal states: Specified, Proposed (passed evaluation), Approved (by the client), Incorporated (into the Work Plan), Implemented (built and tested), Validated (formally accepted).",
+   "who": "PM defines states · BA maintains them",
+   "castor": "REQ-042 reached Validated on 30 Apr 2028, at the end of the parallel run."
+  },
+  {
+   "f": "For Fixing / Rejected (special statuses)",
+   "what": "For Fixing at any stage if a requirement is poorly documented, inconsistent or only partly validated; Rejected if obsolete, out of scope, infeasible, postponed, merged or duplicate.",
+   "who": "PM sets · BM consulted",
+   "castor": "REQ-108 (SRF screens) set Rejected — postponed to a later project."
+  },
+  {
+   "f": "5. Requirement Management Roles and Responsibilities",
+   "what": "Role-by-role text: PO accountable and approves; BM consulted and names the User Representatives; PM responsible; PCT may supply a business analyst; PSC, SP and AGB informed.",
+   "who": "PM drafts · roles confirm",
+   "castor": "BM Grace Hopper names Marie Curie and two loan administrators as URs."
+  },
+  {
+   "f": "RASCI table",
+   "what": "Two rows — the Requirements Management Plan and the Manage Requirements process — both scoring I, I, A, C, C, I, R, S across the eight roles.",
+   "who": "PM completes · PO approves",
+   "castor": "PO Florence Nightingale accountable, PM responsible, Project Core Team supports."
+  },
+  {
+   "f": "6. Tools and Techniques",
+   "what": "Lists the techniques used to gather and prioritise requirements — interviews, brainstorming, workshops, observation, prototyping, MoSCoW — and the tools: requirements documentation and traceability matrix.",
+   "who": "PM selects · PCT applies",
+   "castor": "Workshops, prototyping of the disbursement screen, MoSCoW; matrix kept in Excel."
+  },
+  {
+   "f": "6.1 Requirements documentation",
+   "what": "Defines the documentation structure: ID, Name, Category, Type, Description & Details, Acceptance Criteria, Status, Requested by, Identification Date. It is a suggested list; no PM² template exists.",
+   "who": "BA maintains · PM owns",
+   "castor": "CASTOR requirements catalogue, split by Business, Functional, Technical, Training, Quality."
+  },
+  {
+   "f": "Category and Type attributes",
+   "what": "Category groups the requirement (business need, feature, functional, technical, training, quality); Type is the technique used to express it (epic, user story, use case, sketch, business rule).",
+   "who": "BA assigns · PM reviews",
+   "castor": "REQ-042 — Category Functional, Type Use Case, requested by Grace Hopper."
+  },
+  {
+   "f": "6.2 Requirements traceability matrix",
+   "what": "Traces high-level business needs down to detailed requirements and on to deliverables. Columns: ID, Name, Status, Priority, Size, Comments, Derived From, Related WBS code, Specification document, Test Plan.",
+   "who": "BA maintains · PM reviews",
+   "castor": "REQ-042 derived from SC2, WBS code 3.4, test plan TP-07."
+  },
+  {
+   "f": "Priority and Size (matrix columns)",
+   "what": "Priority states relative importance (High/Medium/Low, or MoSCoW). Size indicates effort or difficulty of implementation (Big, Medium, Small). They are two separate columns.",
+   "who": "PM sets priority · PCT sizes",
+   "castor": "REQ-108: Priority Could have, Size Big — the reason it was postponed."
+  },
+  {
+   "f": "7. Requirements change management",
+   "what": "Any changed or new requirement must be logged on a Change Request Form, follow the requirements process in section 3, and pass change control per the Handbook or Change Plan.",
+   "who": "Requestor raises · PM processes",
+   "castor": "The cabinet's SRF request was routed as CR-011, not slipped in as a requirement."
+  },
+  {
+   "f": "8. Related PM² Plans",
+   "what": "Names the connected plans: Project Handbook (high-level approach), Project Change Management Plan (change of scope, requirements, budget, schedule), Deliverables Acceptance Plan (acceptance criteria and responsibilities).",
+   "who": "PM maintains cross-references",
+   "castor": "Handbook v1.0, Change Plan v1.0 and Deliverables Acceptance Plan v1.0, all 26 Jun 2026."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Lists each reference or related document by title, version, date and source or link/location, so the plan stays usable without duplicating other artefacts.",
+   "who": "PM lists · PSO keeps locations",
+   "castor": "04.Project_Handbook.CASTOR.26-06-2026.V1.0.docx in the ESM PSO project folder."
+  }
+ ],
+ "traps": [
+  "The plan says how; the requirements themselves live in separate requirements documents.",
+  "Requirements Management Plan is the only Management Plan where PCT = S (Supports).",
+  "MoSCoW is priority; Size (Big/Medium/Small) is effort — different matrix columns.",
+  "Changing a baselined requirement is a Change Request, not a new requirement.",
+  "URs validate implemented requirements; the PM does not, and acceptance follows the Acceptance Plan."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Requirements Management Plan v1.0, 26 Jun 2026",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Document Title",
+    "Requirements Management Plan — Project CASTOR (LOS Renewal)"
+   ],
+   [
+    "Approved by",
+    "Florence Nightingale, Project Owner, Head of Lending Operations Division"
+   ],
+   [
+    "Gathering techniques",
+    "Workshops with loan administrators, interviews, observation, prototyping"
+   ],
+   [
+    "Prioritisation",
+    "MoSCoW — 96 Must, 71 Should, 39 Could, 8 Won't (214 baselined)"
+   ],
+   [
+    "Requirements documentation",
+    "CASTOR requirements catalogue; ID, Category, Type, Acceptance Criteria, Status, Requested by"
+   ],
+   [
+    "Traceability matrix",
+    "11a_CASTOR_RTM.xlsx — maintained by Ada Lovelace (Business Analyst)"
+   ],
+   [
+    "Requirement states",
+    "Specified → Proposed → Approved → Incorporated → Implemented → Validated"
+   ],
+   [
+    "Special states",
+    "For Fixing (issue found) · Rejected (obsolete, out of scope, merged, duplicate)"
+   ],
+   [
+    "User Representatives",
+    "Marie Curie plus two loan administrators, named by Grace Hopper (BM)"
+   ],
+   [
+    "Baseline approval",
+    "DEC-004, Project Steering Committee of 26 Jun 2026"
+   ],
+   [
+    "Change route",
+    "New or changed requirements via Change Request Form → Change Log → PSC"
+   ],
+   [
+    "Out of scope at baseline",
+    "SRF-backstop screens — ESM Treaty reform not yet in force"
+   ],
+   [
+    "Related plans",
+    "Project Handbook · Project Change Management Plan · Deliverables Acceptance Plan"
+   ]
+  ]
+ }
+}

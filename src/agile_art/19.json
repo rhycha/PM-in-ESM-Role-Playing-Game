@@ -1,0 +1,309 @@
+{
+ "n": 19,
+ "id": "test-plan",
+ "name": "Test Plan",
+ "group": "Artefacts",
+ "one_liner": "Which tests, at which stages, and how completion is judged.",
+ "purpose": "A Test Plan defines the goals, scope and objectives of tests, the targeted items, the approach to be taken, the resources required and the deliverables to be produced. It specifies the universe of tests to be performed — unit, regression, functional, integration and user acceptance — as well as the stages in which they are executed, and details the testing techniques, metrics and criteria used to assess results and completion. Its purpose is to outline and communicate the testing effort for a given schedule, framing the work of the Agile Team Members who perform the testing.",
+ "guide_page": 81,
+ "meta": [
+  [
+   "Artefact type",
+   "Agile-specific artefact"
+  ],
+  [
+   "PM² equivalent",
+   "No standalone PM² Test Plan; the Testing Log maps to Test Plans and the Deliverables Acceptance Plan (p.85)"
+  ],
+  [
+   "Produced by",
+   "Agile Team Member (ATeM) — Responsible"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — as on every agile artefact row"
+  ],
+  [
+   "RASCI anomaly",
+   "The only agile row where ATeM = R and TeCo = S"
+  ],
+  [
+   "Plan levels",
+   "A Master Test Plan outlined early, plus detailed plans per organisational unit"
+  ],
+  [
+   "Aligns with",
+   "Development Handbook's development strategy; deliverables acceptance at project level"
+  ],
+  [
+   "Lifecycle",
+   "Planning Created · Executing Updated (p.81)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "S",
+   "S",
+   "S",
+   "R"
+  ],
+  "A": "PM",
+  "R": "ATeM"
+ },
+ "diagram": [
+  {
+   "sec": "1. What a Test Plan defines",
+   "items": [
+    "The goals, scope and objectives of the tests",
+    "The targeted items",
+    "The approach to be taken",
+    "The resources required",
+    "The deliverables to be produced"
+   ]
+  },
+  {
+   "sec": "2. The universe of tests",
+   "items": [
+    "Unit tests",
+    "Regression tests",
+    "Functional tests",
+    "Integration tests",
+    "User acceptance tests"
+   ]
+  },
+  {
+   "sec": "3. The stages of execution",
+   "items": [
+    "Development",
+    "Integration",
+    "Test",
+    "Acceptance"
+   ]
+  },
+  {
+   "sec": "4. Assessment",
+   "items": [
+    "Testing techniques",
+    "Metrics",
+    "Criteria used to assess the test results",
+    "Criteria for test completion"
+   ]
+  },
+  {
+   "sec": "5. What the plan is for",
+   "items": [
+    "Outline and communicate the testing efforts for a given schedule",
+    "Form the framework within which the testing ATeM work",
+    "Direct, guide and constrain the test effort",
+    "Focus on the necessary deliverables and communicate the effort's intent to stakeholders"
+   ]
+  },
+  {
+   "sec": "6. Levels of plan",
+   "items": [
+    "A Master Test Plan outlined early in the project — the global testing strategy",
+    "Detailed test plans for distinct organisational units to plan, prepare, execute and report",
+    "Avoid detail that would not be understood or would be irrelevant to those involved"
+   ]
+  },
+  {
+   "sec": "7. Risk",
+   "items": [
+    "Testing risks and contingencies for mitigation documented in the plan",
+    "Coordinated with the Project Manager's risk analysis, design and mitigation processes",
+    "Test-related risk items traced back to requirements and testing assets"
+   ]
+  },
+  {
+   "sec": "8. Fit with the agile rhythm",
+   "items": [
+    "Testing incorporated within iterations and releases as routine work, not extra work",
+    "Compatible with the development strategy in the Development Handbook",
+    "Reviewed with all stakeholders to balance testing resources against scope",
+    "Everyone understands their expected involvement in the testing effort"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Goals, scope and objectives",
+   "what": "What the testing effort is for and what it covers — the first thing the plan defines.",
+   "who": "ATeM Responsible · PM Accountable",
+   "pollux": "Prove every displayed figure reconciles to the accounts and traces to a source record."
+  },
+  {
+   "f": "Targeted items",
+   "what": "Which items are being tested — the parts of the solution this plan's effort is aimed at.",
+   "who": "ATeM Responsible · ArOw Supports",
+   "pollux": "Replica load, reconciliation service, reporting API, portal views, external access filter."
+  },
+  {
+   "f": "Approach",
+   "what": "How testing will be done — the strategy the testing work follows for the given schedule.",
+   "who": "ATeM Responsible · TeCo Supports",
+   "pollux": "Automated regression per commit; reconciliation compared against a Finance-supplied control file."
+  },
+  {
+   "f": "Resources required",
+   "what": "The people, environments and tooling the testing effort needs to be viable.",
+   "who": "ATeM Responsible · PM Accountable",
+   "pollux": "Test environment with a masked replica; Finance provides one control file per quarter-end."
+  },
+  {
+   "f": "Deliverables",
+   "what": "The test deliverables to be produced by the effort — the outputs testing itself owes the project.",
+   "who": "ATeM Responsible",
+   "pollux": "Regression suite, reconciliation report, accessibility report, UAT sign-off per release."
+  },
+  {
+   "f": "Unit tests",
+   "what": "Tests exercising small amounts of isolated functionality; part of the universe of tests the plan specifies.",
+   "who": "ATeM Responsible",
+   "pollux": "Required green before any item can be Done under the POLLUX Definition of Done."
+  },
+  {
+   "f": "Regression tests",
+   "what": "Full re-test that existing behaviour still holds — what makes incremental release safe.",
+   "who": "ATeM Responsible",
+   "pollux": "Full suite runs nightly; a release cannot be cut on a red suite."
+  },
+  {
+   "f": "Functional tests",
+   "what": "Tests that the solution does what the stories and acceptance criteria say it does.",
+   "who": "ATeM Responsible · PrOw Supports",
+   "pollux": "Driven from Curie's acceptance criteria, which nobody argues with."
+  },
+  {
+   "f": "Integration tests",
+   "what": "Tests across components and interfaces — here the replica feed and the reporting API.",
+   "who": "ATeM Responsible · ArOw Supports",
+   "pollux": "Nightly delta load verified end to end against the CASTOR extract."
+  },
+  {
+   "f": "User acceptance tests",
+   "what": "The acceptance level, run with the requestor organisation; feeds project-level deliverables acceptance.",
+   "who": "PrOw and BIG · PM Accountable",
+   "pollux": "UAT with Risk, Finance and the Board Secretariat in the week before each release."
+  },
+  {
+   "f": "Stages of execution",
+   "what": "The stages in which tests are executed: development, integration, test and acceptance.",
+   "who": "ATeM Responsible",
+   "pollux": "Four environments mirror the four stages, as set out in the Operational Model."
+  },
+  {
+   "f": "Techniques, metrics and criteria",
+   "what": "The techniques used, the metrics collected, and the criteria for assessing results and declaring testing complete.",
+   "who": "ATeM Responsible · TeCo Supports",
+   "pollux": "Completion criteria: zero reconciliation differences and no open high-severity defects."
+  },
+  {
+   "f": "Master Test Plan",
+   "what": "Generate an outline of a Master Test Plan early; testing is routine work inside iterations, not extra work afterwards.",
+   "who": "ATeM Responsible · PM Accountable",
+   "pollux": "Master plan outlined in Planning; per-release plans thereafter."
+  },
+  {
+   "f": "Detailed plans per unit",
+   "what": "Distinct organisational units need their own detailed plans to plan, prepare, execute and report without increasing risk.",
+   "who": "ATeM Responsible",
+   "pollux": "Separate plan for the operations smoke tests and one for Finance's reconciliation checks."
+  },
+  {
+   "f": "It is a team effort",
+   "what": "Not the testers' responsibility: discuss the test mission with the entire A-PCT, then define the approach.",
+   "who": "Whole A-PCT · ATeM Responsible",
+   "pollux": "Lamarr drafts it, Einstein challenges the integration scope, Curie confirms acceptance."
+  },
+  {
+   "f": "Align with the Development Handbook",
+   "what": "The global testing strategy must be compatible with the development strategy described in the Development Handbook.",
+   "who": "TeCo Supports · ATeM Responsible",
+   "pollux": "Both assume continuous delivery into pre-production and a Definition of Done that includes tests."
+  },
+  {
+   "f": "Communication",
+   "what": "Testing touches many stakeholders at different moments; everyone must understand the approach and their expected involvement.",
+   "who": "ATeM Responsible · PM Accountable",
+   "pollux": "UAT participants named per release so Risk and Finance can reserve their people."
+  },
+  {
+   "f": "Testing risks",
+   "what": "Document testing risks and contingencies, coordinate with the PM's risk process, trace risk items to requirements and assets.",
+   "who": "ATeM Responsible · PM coordinates",
+   "pollux": "Risk: the control file is a manual Finance product — mitigated by an agreed format and deadline."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "BM I · PM A · TeCo S · PrOw S · ArOw S · ATeM R — the only agile row where an ATeM is Responsible.",
+   "who": "PM Accountable · ATeM Responsible",
+   "pollux": "Hedy Lamarr drafts and owns it; Lovelace only supports alignment with the Project Handbook."
+  }
+ ],
+ "traps": [
+  "The only agile row where ATeM = R and TeCo = S — memorise it.",
+  "PM stays Accountable, as on every other agile artefact row.",
+  "Five test types, four stages: do not conflate the two lists.",
+  "The Test Plan is agile-specific; deliverables acceptance stays a project-level PM² concern.",
+  "Testing is routine iteration work, not a phase after development."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Test Plan v2.1, Release 2 (28 Jun 2029)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Scope",
+    "Replica load, reconciliation service, reporting API, instrument and maturity views"
+   ],
+   [
+    "Levels",
+    "Unit · integration · functional · regression · user acceptance"
+   ],
+   [
+    "Stages",
+    "Development · integration · test · acceptance (four environments)"
+   ],
+   [
+    "Techniques",
+    "Automated regression per commit; reconciliation against a Finance control file"
+   ],
+   [
+    "Metrics",
+    "Reconciliation differences; open defects by severity; regression suite pass rate"
+   ],
+   [
+    "Completion criteria",
+    "Zero reconciliation differences and no open high-severity defects"
+   ],
+   [
+    "UAT participants",
+    "Risk, Finance and the Board Secretariat, week of 18 Jun 2029"
+   ],
+   [
+    "Testing risk",
+    "Finance control file is manually produced — format and deadline agreed as mitigation"
+   ],
+   [
+    "Responsible · Accountable",
+    "Hedy Lamarr (ATeM) · Project Manager (PM)"
+   ],
+   [
+    "Supports",
+    "Lovelace (TeCo), Curie (PrOw), Einstein (ArOw)"
+   ]
+  ]
+ }
+}

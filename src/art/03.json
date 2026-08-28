@@ -1,0 +1,337 @@
+{
+ "n": 3,
+ "id": "project-charter",
+ "name": "Project Charter",
+ "family": "Initiating",
+ "one_liner": "The what, how and when — approved by the PSC before planning starts.",
+ "purpose": "The Project Charter provides the basis for more detailed project planning. It defines the project's objectives in scope, time, cost and quality, its high-level requirements, risks and constraints, and its milestones and deliverables. Together with the Business Case it is the key element of the project approval process: it holds the what, how and when fundamentals and gives a baseline against which progress can be measured.",
+ "guide_page": 36,
+ "rasci": {
+  "A": "PSC",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "A",
+   "PO": "C",
+   "BM": "S",
+   "BIG": "C",
+   "SP": "S",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Initiating Phase",
+ "approved_by": "Project Steering Committee (PSC) accepts it; the Appropriate Governance Body (AGB) gives corporate-level approval where needed",
+ "inputs": [
+  "Project Initiation Request",
+  "Business Case"
+ ],
+ "feeds": [
+  "Project Handbook",
+  "Project Work Plan",
+  "Quality Management Plan",
+  "Project-End Report"
+ ],
+ "gate": "RfP",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "PM completes it from the Business Case; PSC accepts at RfP"
+  },
+  {
+   "phase": "Planning",
+   "what": "Baseline for Handbook, Work Plan and the management plans"
+  },
+  {
+   "phase": "Executing",
+   "what": "Changed only through approved Change Requests; deviations escalate"
+  },
+  {
+   "phase": "Closing",
+   "what": "Scope and criteria compared against actuals in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Settings: Document Title · Project Title · Author · Project Owner · Solution Provider · Project Manager · Version · Sensitivity · Date",
+    "Document Approver(s) and Reviewer(s)",
+    "Document history",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1–2. Framing",
+   "items": [
+    "1 Executive Summary (written last)",
+    "2 Considerations on the Business Case — impact and urgency revisited",
+    "Validation of external influences, interfaces, needs and regulatory requirements"
+   ]
+  },
+  {
+   "sec": "3.1 Scope",
+   "items": [
+    "3.1.1 Includes (\"IN\" Scope)",
+    "3.1.2 Excludes (\"OUT\" Scope)",
+    "3.1.3 Scope Statement (one or two lines)"
+   ]
+  },
+  {
+   "sec": "3.2–3.5 What will be delivered",
+   "items": [
+    "3.2 Success Criteria",
+    "3.3 Stakeholder and User Needs — ID · Need Description · Priority",
+    "3.4 Deliverables — ID · Deliverable Name · Deliverable Description",
+    "3.5 Features — Related Need · Features · Deliverable(s)"
+   ]
+  },
+  {
+   "sec": "3.6–3.8 Uncertainty",
+   "items": [
+    "3.6 Constraints",
+    "3.7 Assumptions",
+    "3.8 Risks — ID · Description · Status · Likelihood · Impact · Risk Level · Owner · Response Strategy · Action"
+   ]
+  },
+  {
+   "sec": "4. Cost, Timing and Resources",
+   "items": [
+    "4.1 Cost — Expenditure · Budget Line · Amount per year, Total cost, Total per year FTE internal staff",
+    "4.2 Timing and Milestones — ID · Milestone Description · Target Delivery Date",
+    "4.3 Planned Resources — ID · Resource Requirement · Description"
+   ]
+  },
+  {
+   "sec": "5. Approach",
+   "items": [
+    "5.1 Methodology (and any deviation from PM²)",
+    "5.2 Change Management",
+    "5.2.1 Project Change",
+    "5.2.2 Configuration Management",
+    "5.2.3 Organisational Change"
+   ]
+  },
+  {
+   "sec": "6. Governance and Stakeholders",
+   "items": [
+    "6.1 Structure (organigram of the project team)",
+    "6.2 Roles and Responsibilities",
+    "6.3 Other Stakeholders"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID · Reference or Related Document · Source or Link/Location",
+    "Project folder location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1 Executive Summary",
+   "what": "An executive summary of the whole charter; the template says explicitly to complete this section last.",
+   "who": "PM writes last",
+   "castor": "A 26-month, €8.4 m programme to replace LOS with a configurable lending operations platform, delivered as a Mix."
+  },
+  {
+   "f": "2 Considerations on the Business Case",
+   "what": "Pertinent considerations on the approved Business Case; revisit impact and urgency, and validate external influences, interfaces and regulatory requirements.",
+   "who": "BM drafts · PM completes",
+   "castor": "Urgency confirmed: the backstop must be onboardable within weeks of Treaty reform, which LOS cannot support."
+  },
+  {
+   "f": "3.1.1 Includes (\"IN\" Scope)",
+   "what": "The outputs the project WILL deliver, forming the solution; may include the organisational change management activities needed to realise the benefits.",
+   "who": "PM drafts · PO agrees · PSC approves",
+   "castor": "Product configuration engine, straight-through disbursement, same-day reconciliation, audit trail, retraining of 40 loan administrators."
+  },
+  {
+   "f": "3.1.2 Excludes (\"OUT\" Scope)",
+   "what": "What the project will NOT deliver — as important as the IN scope for managing expectations, including things discussed and then excluded.",
+   "who": "PM drafts · PSC confirms",
+   "castor": "Replacement of the treasury system or payment messaging gateway; SRF-backstop screens beyond configurable product set-up."
+  },
+  {
+   "f": "3.1.3 Scope Statement",
+   "what": "An overall scope statement in one or two lines, complete enough for management and outsiders to understand the project.",
+   "who": "PM writes",
+   "castor": "Replace LOS with a configurable platform giving straight-through processing from loan agreement to disbursement and repayment."
+  },
+  {
+   "f": "3.2 Success Criteria",
+   "what": "Measurable criteria by which the project is judged a success or failure; separate product success criteria from overall project criteria.",
+   "who": "PO sets · PM records",
+   "castor": "SC1 5→1 working day; SC2 3 days→same day; SC3 9 months→6 weeks; SC4 1,400 fields→0; SC5 2 findings→0"
+  },
+  {
+   "f": "3.3 Stakeholder and User Needs",
+   "what": "Table of key needs — ID, description, priority — answering who has the need, what it is, why it must be met and how it is met today.",
+   "who": "BM consults stakeholders · PM records",
+   "castor": "N-01 Loan administrators: enter a disbursement instruction once (priority: must). N-02 Risk: complete audit trail."
+  },
+  {
+   "f": "3.4 Deliverables",
+   "what": "Table of project outputs — ID, name, description; standard PM² artefacts are explicitly excluded from this list.",
+   "who": "SP proposes · PM records",
+   "castor": "D-01 product configuration engine · D-02 straight-through disbursement · D-03 reconciliation reporting · D-04 trained users"
+  },
+  {
+   "f": "3.5 Features",
+   "what": "High-level capabilities of the outputs, aligned to the needs: Related Need, Features, Deliverable(s). Focus on what and why, not how.",
+   "who": "PM with BA · BM validates",
+   "castor": "N-01 → single-entry instruction with maker-checker → D-02; N-02 → immutable event log per instruction → D-03"
+  },
+  {
+   "f": "3.6 Constraints",
+   "what": "Constraints on people, schedule, budget, resources, products, technology and interfaces, plus decisions, compliance, security, document management and data protection.",
+   "who": "PM drafts · SP and PO confirm",
+   "castor": "€8.4 m and 26 months; no disruption to live disbursements; parallel run must fit the 2028 bond-rollover calendar."
+  },
+  {
+   "f": "3.7 Assumptions",
+   "what": "Assumptions on business, technology, resources, environment, scope, expectations or schedules — facts still to be validated, or they become risks.",
+   "who": "PM drafts · PCT validates",
+   "castor": "All ESM instruments expressible by configuration; business experts available part-time throughout the parallel run."
+  },
+  {
+   "f": "3.8 Risks",
+   "what": "Key risks at this initial stage with response strategies, in log format; does not replace the full Planning-phase risk assessment.",
+   "who": "PM owns log · PO owns business risk",
+   "castor": "R-07 loss of the contractor's key architect — High/High — Mitigate: named-staff clause and knowledge transfer."
+  },
+  {
+   "f": "4.1 Cost",
+   "what": "Financing structure: expenditure lines, budget lines, amounts per year, total cost and FTE of internal staff, plus the delivered solution's TCO.",
+   "who": "PM consolidates · PO approves",
+   "castor": "€8.4 m over 2026–2028 across solution development, infrastructure, support and training; 3,100 PD internal effort."
+  },
+  {
+   "f": "4.2 Timing and Milestones",
+   "what": "Important points in time: ID, milestone description, target delivery date, including the timing of the PM² phases and management deliverables.",
+   "who": "PM drafts · PSC approves",
+   "castor": "M-01 RfE 03 Jul 2026 · M-02 contract award 18 Sep 2026 · M-03 R1 26 Mar 2027 · M-05 go-live 15 May 2028"
+  },
+  {
+   "f": "4.3 Planned Resources",
+   "what": "Numbers and types of staff by phase with special skills, how they will be acquired, and non-human resources with the role responsible for providing them.",
+   "who": "SP and BM supply · PM records",
+   "castor": "Core team of 9 from IT & Digital plus contractor staff; 4 business experts part-time from Lending Operations."
+  },
+  {
+   "f": "5.1 Methodology",
+   "what": "The chosen project management methodology and any deviations from it, plus the chosen domain-specific methodology (e.g. for IS development).",
+   "who": "PM states · PSC endorses",
+   "castor": "PM² with no deviations; platform implementation delivered in two releases by the integrator."
+  },
+  {
+   "f": "5.2.1 Project Change",
+   "what": "The adopted project change management process; changes to the content of this document are subject to formal approval.",
+   "who": "PM defines · PSC decides changes",
+   "castor": "Change Request Form → Change Log → PSC decision; verbal scope requests are not actioned."
+  },
+  {
+   "f": "5.2.2 Configuration Management",
+   "what": "Creation, maintenance and controlled change of project items; which items may only change with authorisation, and by which process.",
+   "who": "PM defines · DMO supports",
+   "castor": "Scope, budget, milestone dates and baselined artefacts change only by PSC decision; Johannes Gutenberg (DMO) holds the repository."
+  },
+  {
+   "f": "5.2.3 Organisational Change",
+   "what": "Organisational change goals and activities to take into account — elaborated later in the Business Implementation Plan.",
+   "who": "BM owns · PM records",
+   "castor": "Retraining of 40 loan administrators and new maker-checker roles; detailed in the Business Implementation Plan."
+  },
+  {
+   "f": "6.1 Structure",
+   "what": "The organisational structure of the project team and stakeholders, preferably as a diagram, referencing the PM² definition of the PSC.",
+   "who": "PM draws · PSC confirms",
+   "castor": "PSC chaired by Florence Nightingale: PO, SP Leonardo da Vinci, BM Grace Hopper, PM, plus UR, AO and CPM."
+  },
+  {
+   "f": "6.2 Roles and Responsibilities",
+   "what": "The roles and responsibilities of project governance — the standard PM² assignment, plus any deviations from it.",
+   "who": "PM records · PSC approves",
+   "castor": "Standard PM² roles; optional PSC members: Marie Curie (UR), Albert Einstein (AO), Gustave Eiffel (CPM)."
+  },
+  {
+   "f": "6.3 Other Stakeholders",
+   "what": "All project stakeholders with a brief profile of the key ones and the problems they expect the solution to address — background, not requirements.",
+   "who": "BM identifies · PM records",
+   "castor": "Finance & Control, Risk, Legal, Internal Audit, Project Support Team (PQA, PSO, DPC, LISO, DMO)."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Each reference by title, version, date and source or location, plus the project folder; the Business Case is the first entry.",
+   "who": "PM maintains",
+   "castor": "02.Business_Case.CASTOR.24-03-2026.V1.0.docx; CASTOR project folder"
+  }
+ ],
+ "traps": [
+  "The PSC is Accountable and the PM Responsible — the PO is only Consulted (C).",
+  "The BM may start it, but the PM completes it and submits it for approval.",
+  "Charter = what, how, when. Why and the option analysis stay in the Business Case.",
+  "No detailed requirements here — high-level needs and features only.",
+  "If the Charter is rejected the project goes straight to Closing for lessons learned."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Charter v1.0, Project CASTOR, accepted by the PSC 24 Mar 2026",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Project Title",
+    "Project CASTOR — Renewal of the Lending Operations System"
+   ],
+   [
+    "Project Owner / Solution Provider / Project Manager",
+    "Florence Nightingale · Leonardo da Vinci · PM, ESM Project Support Office"
+   ],
+   [
+    "3.1.3 Scope Statement",
+    "Replace LOS with a configurable lending operations platform delivering straight-through processing from loan agreement to disbursement and repayment schedule."
+   ],
+   [
+    "3.1.2 Excludes (\"OUT\" Scope)",
+    "Replacement of the treasury system or the payment messaging gateway; bespoke SRF-backstop screens."
+   ],
+   [
+    "3.2 Success Criteria",
+    "SC1 disbursement cycle 5 → 1 working day · SC2 reconciliation 3 days → same day · SC3 instrument onboarding 9 months → 6 weeks"
+   ],
+   [
+    "3.4 Deliverables",
+    "D-01 product configuration engine · D-02 straight-through disbursement · D-03 same-day reconciliation reporting · D-04 40 staff trained"
+   ],
+   [
+    "3.8 Risks",
+    "R-07 loss of the contractor's key architect — likelihood High, impact High — Mitigate: named-staff clause, documented knowledge transfer"
+   ],
+   [
+    "4.1 Cost",
+    "€8.4 m total, 2026–2028; 3,100 PD internal effort; type of delivery Mix"
+   ],
+   [
+    "4.2 Timing and Milestones",
+    "RfE 03 Jul 2026 · contract award 18 Sep 2026 · R1 26 Mar 2027 · R2 17 Dec 2027 · parallel run 08 Jan–30 Apr 2028 · go-live 15 May 2028 · RfC 22 Jun 2028"
+   ],
+   [
+    "5.1 Methodology",
+    "PM², no deviations; two-release platform implementation by the selected integrator"
+   ],
+   [
+    "6.1 Structure",
+    "PSC chaired by the Project Owner: PO, SP, BM, PM, with Marie Curie (User Representative) and Albert Einstein (Architecture Office)"
+   ],
+   [
+    "Approval",
+    "Accepted by the Project Steering Committee 24 Mar 2026; RfP gate passed 27 Mar 2026"
+   ]
+  ]
+ }
+}

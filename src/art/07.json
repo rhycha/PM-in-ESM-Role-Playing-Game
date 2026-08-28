@@ -1,0 +1,272 @@
+{
+ "n": 7,
+ "id": "outsourcing-plan",
+ "name": "Outsourcing Plan",
+ "family": "Planning",
+ "one_liner": "What is bought outside, from whom, on which criteria, and who is allowed to sign.",
+ "purpose": "The Outsourcing Plan defines the what and how for any outsourced products or services. It outlines the scope of products and/or services to be purchased or contracted, identifies the outsourcing strategies to be used, and defines responsibilities for the full outsourcing lifecycle. It must comply with the organisation's own procurement rules and procedures.",
+ "guide_page": 48,
+ "rasci": {
+  "A": "AGB",
+  "R": "PM",
+  "row": {
+   "AGB": "A",
+   "PSC": "C",
+   "PO": "C",
+   "BM": "C",
+   "BIG": "I",
+   "SP": "S",
+   "PM": "R",
+   "PCT": "I"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Appropriate Governance Body (AGB) — the only PM² plan the AGB is Accountable for; SP reviews, PM prepares",
+ "inputs": [
+  "Business Case",
+  "Project Charter",
+  "Project Work Plan",
+  "Project Handbook",
+  "Organisational procurement rules and procedures"
+ ],
+ "feeds": [
+  "Manage Outsourcing",
+  "Deliverables Acceptance Plan",
+  "Project Work Plan",
+  "Project Stakeholder Matrix",
+  "Project-End Report"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "PM drafts, SP reviews, AGB accountable for approval"
+  },
+  {
+   "phase": "Executing",
+   "what": "Tender run, contractor selected, contract signed and awarded"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Manage Outsourcing applies its rules to the contractor"
+  },
+  {
+   "phase": "Closing",
+   "what": "Contract closure and lessons feed the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Document Approver(s) and Reviewer(s)",
+    "Document History",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. Introduction",
+   "items": [
+    "Objective of the outsourcing plan",
+    "Procurement/contracting strategies used",
+    "Scope of products/services contracted",
+    "Responsibilities for the full contract lifecycle"
+   ]
+  },
+  {
+   "sec": "2. Procurement Description",
+   "items": [
+    "2.1. Procured Items",
+    "2.2. Training Requirements and Manuals",
+    "2.3. Ownership Rights",
+    "2.4. Compatibility Requirements",
+    "2.5. Other Requirements"
+   ]
+  },
+  {
+   "sec": "3. Procurement Method",
+   "items": [
+    "3.1. Method",
+    "3.2. Schedule of Delivery",
+    "3.3. Quality Management and Post Delivery Support"
+   ]
+  },
+  {
+   "sec": "4. Evaluation criteria",
+   "items": [
+    "4.1. Criteria",
+    "4.2. Technical Capabilities"
+   ]
+  },
+  {
+   "sec": "5. Governance",
+   "items": [
+    "5.1. Contractor Interface",
+    "5.2. Responsibility for Signing",
+    "5.3. Responsibility for Approval"
+   ]
+  },
+  {
+   "sec": "APPENDIX 1: References and Related Documents",
+   "items": [
+    "ID",
+    "Reference or Related Document",
+    "Source or Link/Location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "1. Introduction",
+   "what": "States the objective: describe what products/services are outsourced, the contracting strategies used, the scope contracted, and responsibilities for the full contract lifecycle.",
+   "who": "PM drafts · SP reviews",
+   "castor": "Platform implementation and configuration outsourced; core team stays in-house — the Charter's 'Mix' delivery type."
+  },
+  {
+   "f": "2.1. Procured Items",
+   "what": "Identify the items that will be contracted and under what conditions.",
+   "who": "PM drafts · SP reviews · PO consulted",
+   "castor": "Configurable lending platform licence, implementation, data migration from LOS, and two releases of straight-through disbursement."
+  },
+  {
+   "f": "2.2. Training Requirements and Manuals",
+   "what": "Identify the needs for certain manuals and/or trainings that the contractor must supply.",
+   "who": "PM drafts · BM consulted",
+   "castor": "User Manual, Operations Manual and administrator training material for 40 loan administrators, in English."
+  },
+  {
+   "f": "2.3. Ownership Rights",
+   "what": "Determine who retains intellectual property rights or ownership of final and interim deliverables after the contract completes.",
+   "who": "PM drafts · Legal and procurement consulted",
+   "castor": "ESM retains IP in all CASTOR configurations, interfaces and migrated data; Levallois retains its base platform."
+  },
+  {
+   "f": "2.4. Compatibility Requirements",
+   "what": "Identify compatibility issues (hardware, software, quality, other) so contractor deliverables fit what the rest of the project uses.",
+   "who": "PM drafts · SP/architecture consulted",
+   "castor": "Must interface with the treasury system and the payment messaging gateway that LOS re-keys into today."
+  },
+  {
+   "f": "2.5. Other Requirements",
+   "what": "Any other contractual requirement — e.g. access to backup copies, software updates, access to application or data backups; include in the contract if possible.",
+   "who": "PM drafts · SP reviews",
+   "castor": "Escrow of source configuration; ESM access to all application and data backups throughout the contract."
+  },
+  {
+   "f": "3.1. Method",
+   "what": "Identify constraints affecting contracting (e.g. framework agreements, preferred suppliers) and determine the method of obtaining products — lease, purchase, tendering.",
+   "who": "PM drafts · procurement consulted · AGB accountable",
+   "castor": "Open tender under ESM procurement rules; no framework agreement covers configurable lending platforms."
+  },
+  {
+   "f": "3.2. Schedule of Delivery",
+   "what": "Provide schedule information for all contracting activities so contractors commit resources against the pre-agreed timeline.",
+   "who": "PM drafts · SP reviews",
+   "castor": "Contract award 18 Sep 2026; Release 1 26 Mar 2027; Release 2 17 Dec 2027; support through 15 May 2028."
+  },
+  {
+   "f": "3.3. Quality Management and Post Delivery Support",
+   "what": "Describe the contractor's and the organisation's own method of handling quality issues, including how issues reported after go-live will be handled.",
+   "who": "PM drafts · PQA supports",
+   "castor": "Levallois defect SLA runs through the 08 Jan – 30 Apr 2028 parallel run; W. Edwards Deming (PQA) audits fixes."
+  },
+  {
+   "f": "4.1. Criteria",
+   "what": "List the evaluation criteria for contractors so selection is on pre-set grounds and no single person or group influences the decision.",
+   "who": "PM drafts · AGB accountable · PSC consulted",
+   "castor": "Technical capability, quality of work, previous experience with euro-area lending or treasury platforms."
+  },
+  {
+   "f": "4.2. Technical Capabilities",
+   "what": "List required technical capabilities separately, determined before evaluating contractors; a detailed statement of requirements belongs in the contract. Include scalability and data volumes.",
+   "who": "PM drafts · Nikola Tesla (solution architect) supports",
+   "castor": "Onboard a new instrument in 6 weeks (SC3); same-day reconciliation (SC2); zero manual re-keying (SC4)."
+  },
+  {
+   "f": "5.1. Contractor Interface",
+   "what": "Define who from the project team and organisation unit may interface with the contractor(s), and define the organisation and project governance.",
+   "who": "PM drafts · SP reviews",
+   "castor": "PM is the single interface; Gustave Eiffel (CPM, Levallois) reports to the PM and, if necessary, to the PSC."
+  },
+  {
+   "f": "5.2. Responsibility for Signing",
+   "what": "Outline who can sign the contract, respecting organisation-level contracting rules; above a certain value legal and purchasing units must be involved. Can be shown as a RASCI table.",
+   "who": "AGB accountable · Legal/procurement involved",
+   "castor": "Signed under ESM delegation rules; Lorenzo de' Medici's Corporate Investment Board authorises the award."
+  },
+  {
+   "f": "5.3. Responsibility for Approval",
+   "what": "Define who approves project deliverables, timesheets, purchase orders, etc. Can be presented as a RASCI table.",
+   "who": "PM approves day-to-day · PO accepts deliverables · PSC validates milestones",
+   "castor": "PM approves timesheets and purchase orders; Florence Nightingale (PO) gives final deliverable acceptance."
+  },
+  {
+   "f": "APPENDIX 1: References and Related Documents",
+   "what": "Reference any relevant or additional documents by title, version, date and source or location.",
+   "who": "PM maintains",
+   "castor": "04.Project_Handbook.CASTOR.26-06-2026.V1.0.docx; 08.Deliverables_Acceptance_Plan.CASTOR.V1.0."
+  }
+ ],
+ "traps": [
+  "The one plan where AGB is Accountable — not the PSC and not the PO.",
+  "Manage Outsourcing keeps the same anomaly: AGB=A, PM=R (guide p.85).",
+  "SP only Supports the plan, yet is accountable for the contractor's performance.",
+  "Acceptance of contractor output is defined in the Deliverables Acceptance Plan, then written into the contract.",
+  "Guide names only the SP as reviewer; the PSC is merely Consulted."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Outsourcing Plan v1.0, 26 Jun 2026 (Project CASTOR, ESM Lending Operations System renewal)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Procured items",
+    "Configurable lending platform licence, implementation, LOS data migration, two releases"
+   ],
+   [
+    "Procurement method",
+    "Open tender under ESM procurement rules; no framework agreement applies"
+   ],
+   [
+    "Ownership rights",
+    "ESM retains IP in configurations, interfaces and migrated data; Levallois keeps base platform"
+   ],
+   [
+    "Evaluation criteria",
+    "Technical capability · quality of work · previous euro-area lending/treasury platform experience"
+   ],
+   [
+    "Key technical capability",
+    "Onboard a new instrument in 6 weeks (SC3); zero manual re-keying (SC4)"
+   ],
+   [
+    "Delivery schedule",
+    "Award 18 Sep 2026 · Release 1 26 Mar 2027 · Release 2 17 Dec 2027"
+   ],
+   [
+    "Contractor interface",
+    "PM is sole interface; Gustave Eiffel (CPM, Levallois Systems) reports to PM, escalates to PSC"
+   ],
+   [
+    "Signing authority",
+    "Corporate Investment Board, chaired by Lorenzo de' Medici (AGB), authorises the award"
+   ],
+   [
+    "Approval of deliverables",
+    "PM approves timesheets and purchase orders; Florence Nightingale (PO) accepts deliverables"
+   ],
+   [
+    "Post-delivery support",
+    "Defect SLA covers the 08 Jan – 30 Apr 2028 parallel run and 90 days after cutover"
+   ],
+   [
+    "Constraint",
+    "Contract must stay within the approved €8.4 m project budget"
+   ]
+  ]
+ }
+}

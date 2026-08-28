@@ -1,0 +1,245 @@
+{
+ "n": 36,
+ "id": "evolution-and-change",
+ "name": "Evolution & Change",
+ "group": "Themes",
+ "one_liner": "Welcome scope evolution; change requests become work items, absorbed by releases and iterations.",
+ "purpose": "The Evolution and Change dimension highlights the need to recognise and welcome the natural evolution of project scope, because both provider and requestor gain a better understanding of the problem as the project progresses. Changes that seriously impact the development aspect are still managed within the overall project change management process, and change requests must be translated into Work Items that populate the Work Items List. PM²-Agile then addresses that evolution through Release Planning and through Iterative and Incremental Development.",
+ "guide_page": 34,
+ "meta": [
+  [
+   "Theme",
+   "4.8 — spans guide pages 34 and 35"
+  ],
+  [
+   "Two practices",
+   "Release Planning; Iterative and Incremental Development"
+  ],
+  [
+   "Main output",
+   "The Release Plan, part of the Development Work Plan"
+  ]
+ ],
+ "rasci": {
+  "title": "RAM (RASCI) — Release Plan",
+  "rows": [
+   [
+    "Role",
+    "Letter"
+   ],
+   [
+    "BM",
+    "I"
+   ],
+   [
+    "PM",
+    "A"
+   ],
+   [
+    "TeCo",
+    "R"
+   ],
+   [
+    "PrOw",
+    "S"
+   ],
+   [
+    "ArOw",
+    "S"
+   ],
+   [
+    "ATeM",
+    "S"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "The route a change takes",
+   "items": [
+    "Changes seriously impacting development go through the overall project change management process",
+    "Agile Team Members participate to ensure proper understanding of the change requests",
+    "Change requests are translated into corresponding Work Items in the Work Items List",
+    "Those Work Items are prioritised and implemented across one or more iterations"
+   ]
+  },
+  {
+   "sec": "Release Planning",
+   "items": [
+    "High-level, macro planning of the complete known project scope",
+    "Each planned release lists the work items and when they will be implemented across iterations",
+    "A coarse-grained plan that guides the fine-grained plans of each iteration",
+    "Depends on a properly estimated and prioritised Work Items List",
+    "A continuous effort reflecting the team's growing knowledge of the solution"
+   ]
+  },
+  {
+   "sec": "Incremental versus Iterative Development",
+   "items": [
+    "Incremental — the system is built in a series of increments, each adding a subset of functionality",
+    "The alternative to incremental is one big-bang integration at the end",
+    "Iterative — time set aside to review and improve parts of the system from feedback and self-learning",
+    "The alternative to iterative is getting everything right the first time"
+   ]
+  },
+  {
+   "sec": "Why iterations are timeboxed and equal",
+   "items": [
+    "Establishes the 'heartbeat' of the project",
+    "Reduces overall uncertainty — we control when an iteration ends",
+    "Helps understanding the project team's performance",
+    "Small and regular iterations support Set Based Design — deciding at the last responsible moment"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Scope evolution is natural",
+   "what": "The theme highlights the need to recognise and welcome the natural evolution of the project scope as understanding grows.",
+   "who": "Provider and requestor organisations",
+   "pollux": "Each quarter the reporting requirements change; POLLUX expects that."
+  },
+  {
+   "f": "Change management still applies",
+   "what": "Changes seriously impacting the development aspect should be managed within the overall project change management process.",
+   "who": "PM, Change Control process",
+   "pollux": "PM²-Agile does not delete PM² governance, gates or change control."
+  },
+  {
+   "f": "ATeMs participate in change",
+   "what": "Agile Team Members should participate in change requests to ensure proper understanding of what is being asked.",
+   "who": "ATeMs with the PrOw",
+   "pollux": "Lamarr and Babbage sit in when a new reporting demand arrives."
+  },
+  {
+   "f": "Changes become work items",
+   "what": "Change requests must be translated into the corresponding Work Items that populate the Work Items List.",
+   "who": "PrOw maintains the WIL",
+   "pollux": "A new national-authority requirement enters Curie's list, not a side channel."
+  },
+  {
+   "f": "Then prioritised and implemented",
+   "what": "Those work items are prioritised and later implemented in the scope of one or more iterations.",
+   "who": "PrOw prioritises; ATeMs implement",
+   "pollux": "Absorbed into a two-week iteration rather than a change board queue."
+  },
+  {
+   "f": "Release Planning defined",
+   "what": "Focuses on the high-level macro planning of the complete known project scope, describing what each release contains and when.",
+   "who": "TeCo responsible; PrOw supports",
+   "pollux": "Four releases from 29 Mar 2029 to 20 Dec 2029."
+  },
+  {
+   "f": "Coarse to fine",
+   "what": "It creates a project coarse-grained plan used to guide the development of fine-grained plans for each iteration.",
+   "who": "TeCo, A-PCT",
+   "pollux": "The release plan sets what each fortnight's iteration plan must serve."
+  },
+  {
+   "f": "Depends on the WIL",
+   "what": "A properly estimated and prioritised Work Items List is critical to ensure proper release planning.",
+   "who": "PrOw, ATeMs",
+   "pollux": "Without Curie's prioritised list the four release dates mean nothing."
+  },
+  {
+   "f": "Continuous effort",
+   "what": "Release Planning is continuous and should reflect the team's growing knowledge, improving planning accuracy with updated Release Plans.",
+   "who": "TeCo, PrOw, ATeMs",
+   "pollux": "Release Planning happens at least once per iteration on POLLUX."
+  },
+  {
+   "f": "Adjusting the team",
+   "what": "With Release Planning the A-PCT can better adjust itself in response to the need for increasing manpower.",
+   "who": "PM, TeCo",
+   "pollux": "Justifies the two seconded Levallois Systems members."
+  },
+  {
+   "f": "Visibility for the PrOw",
+   "what": "Release Planning makes it visible to the Product Owner how the solution evolves, giving time to react if things go off plan.",
+   "who": "Product Owner",
+   "pollux": "Curie sees Release 3 slipping before the 27 Sep 2029 date arrives."
+  },
+  {
+   "f": "The Release Plan",
+   "what": "The main output of Release Planning; part of the Development Work Plan and key to communicating progress and trends to senior management.",
+   "who": "TeCo responsible; PM accountable",
+   "pollux": "What you show Medici instead of a Gantt chart."
+  },
+  {
+   "f": "Incremental Development",
+   "what": "A system built in a series of increments, each adding a subset of the final functionality, growing more complete across iterations.",
+   "who": "A-PCT",
+   "pollux": "Read-only views first, then reconciliation, then scenarios, then self-service."
+  },
+  {
+   "f": "Incremental supports planning",
+   "what": "PM²-Agile relies on incremental development to facilitate planning, breaking the solution up and organising it by a specific strategy.",
+   "who": "TeCo, PrOw",
+   "pollux": "The four-release split is that strategy made explicit."
+  },
+  {
+   "f": "Iterative Development",
+   "what": "Time must be set aside to review and improve parts of the system based on stakeholder feedback and the team's self-learning.",
+   "who": "A-PCT with stakeholders",
+   "pollux": "Review and retrospective on the last day of every iteration."
+  },
+  {
+   "f": "Equal, timeboxed iterations",
+   "what": "In PM²-Agile all iterations are timeboxed and of the same duration, which sets the heartbeat and reduces uncertainty.",
+   "who": "A-PCT",
+   "pollux": "Two weeks, every time, for eighteen months."
+  },
+  {
+   "f": "Small and regular",
+   "what": "Regular iterations keep the team from going off limits; small ones make feedback-driven changes easier to apply.",
+   "who": "A-PCT, stakeholders",
+   "pollux": "A new report view now costs one iteration instead of one quarter (SC2)."
+  },
+  {
+   "f": "Set Based Design",
+   "what": "Small regular iterations let teams postpone design decisions to the last responsible moment, narrowing options as they learn.",
+   "who": "ArOw, ATeMs",
+   "pollux": "Einstein defers the scenario engine choice until Release 3 is planned."
+  }
+ ],
+ "traps": [
+  "Incremental and iterative differ: increments add functionality, iterations refine it.",
+  "All PM²-Agile iterations are timeboxed and of the same duration.",
+  "Change requests do not bypass PM² change management — they also become work items.",
+  "The Release Plan is part of the Development Work Plan, not a separate schedule.",
+  "Set Based Design defers decisions to the last responsible moment, not indefinitely."
+ ],
+ "pollux_excerpt": {
+  "title": "Evolution and change on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Release 1",
+    "Exposure by member state, read-only — 29 Mar 2029"
+   ],
+   [
+    "Release 2",
+    "Instrument and maturity views, reconciliation panel — 28 Jun 2029"
+   ],
+   [
+    "Release 3",
+    "Scenario overlay, national-authority access — 27 Sep 2029"
+   ],
+   [
+    "Release 4",
+    "Self-service report builder — 20 Dec 2029"
+   ],
+   [
+    "Iteration length",
+    "Two weeks, fixed, for the whole project"
+   ],
+   [
+    "Success criterion SC2",
+    "A new report view in one iteration instead of one quarter"
+   ]
+  ]
+ }
+}

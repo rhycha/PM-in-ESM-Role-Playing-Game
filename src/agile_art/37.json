@@ -1,0 +1,239 @@
+{
+ "n": 37,
+ "id": "architecture",
+ "name": "Architecture",
+ "group": "Themes",
+ "one_liner": "Evolutionary architecture: just-in-time decisions inside enterprise standards, kept in two artefacts.",
+ "purpose": "Software architecture decisions made in every IT project complement the overall enterprise architecture, so PM²-Agile applies its usual principle of balancing autonomy with coherence. The team should work in an environment that supports original design and innovation while following enterprise architecture principles and standards. Two key artefacts — the Architecture Overview and the Operational Model — document the solution architecture and its deployment aspects, and PM²-Agile addresses design decisions through the practice of Evolutionary Architecture.",
+ "guide_page": 35,
+ "meta": [
+  [
+   "Theme",
+   "4.9 — spans guide pages 35 and 36"
+  ],
+  [
+   "Two artefacts",
+   "Architecture Overview and Operational Model"
+  ],
+  [
+   "Practice",
+   "Evolutionary Architecture — architecture work 'just in time'"
+  ]
+ ],
+ "rasci": {
+  "title": "RAM (RASCI) — Architecture Overview",
+  "rows": [
+   [
+    "Role",
+    "Letter"
+   ],
+   [
+    "BM",
+    "I"
+   ],
+   [
+    "PM",
+    "A"
+   ],
+   [
+    "TeCo",
+    "S"
+   ],
+   [
+    "PrOw",
+    "I"
+   ],
+   [
+    "ArOw",
+    "R"
+   ],
+   [
+    "ATeM",
+    "S"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "The two key artefacts",
+   "items": [
+    "Architecture Overview — conveys the governing ideas (compliance) and the essential nature of the architecture",
+    "Architecture Overview — illustrates the proposed architecture's major building blocks",
+    "Operational Model — describes the operational aspect, focusing on IT system infrastructure",
+    "Operational Model — highly recommended for information systems hosted in a corporate data centre"
+   ]
+  },
+  {
+   "sec": "Evolutionary Architecture — three key principles",
+   "items": [
+    "Perform architecture work 'just in time' for all other work",
+    "Document key architectural decisions and outstanding issues",
+    "Implement and test key capabilities as a way to address architectural issues"
+   ]
+  },
+  {
+   "sec": "What Evolutionary Architecture buys",
+   "items": [
+    "Improves quality and productivity — the architecture is validated early, before most development",
+    "Reduces time to market by focusing on reusing existing components",
+    "Improves consistency and maintainability by feeding lessons learnt back into the architecture",
+    "Increases predictability by identifying and implementing the highest-risk technical areas first",
+    "Shortens the architectural cycle and minimises rework when changes arise"
+   ]
+  },
+  {
+   "sec": "Governance around the team",
+   "items": [
+    "An IT Governance Body defines the artefacts, supported by an Enterprise Architecture Office",
+    "The Architecture Office improves and harmonises the applied enterprise architecture methods",
+    "An existing Reference Architecture supplies already-evaluated mechanisms, patterns and styles",
+    "Both artefacts are kept up to date and periodically re-submitted to the IT Governance body",
+    "Changes to the baselined artefacts are managed and documented within the Project Core Team"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Autonomy versus coherence",
+   "what": "Project architecture decisions complement the enterprise architecture; PM²-Agile ensures a balance between team autonomy and organisational coherence.",
+   "who": "A-PCT, Architecture Office",
+   "pollux": "Einstein is seconded from Enterprise Architecture to hold both sides."
+  },
+  {
+   "f": "Room for innovation",
+   "what": "The A-PCT should work in an environment that supports original design decisions and innovation.",
+   "who": "A-PCT",
+   "pollux": "The team may design the traceability approach rather than inherit it."
+  },
+  {
+   "f": "Following the standards",
+   "what": "For long-term efficiency, interoperability and flexibility, the team should follow enterprise architecture principles and standards.",
+   "who": "Architecture Office, IT Governance",
+   "pollux": "Reuse of CASTOR platform services rather than a parallel data path."
+  },
+  {
+   "f": "Architecture Overview",
+   "what": "Used by projects with an information system development aspect; conveys the governing ideas and the architecture's essential nature and major building blocks.",
+   "who": "ArOw responsible; PM accountable",
+   "pollux": "Documents how the portal reads exposure data from the lending platform."
+  },
+  {
+   "f": "Operational Model",
+   "what": "Describes the operational aspect of the architecture, focusing on IT system infrastructure; highly recommended for corporate data centre hosting.",
+   "who": "ArOw responsible; PM accountable",
+   "pollux": "Covers the hosting behind national-authority access in Release 3."
+  },
+  {
+   "f": "What the artefacts do not do",
+   "what": "They give an established way of documenting decisions but do not ensure a structured, comparable way allowing impact or compliance analysis.",
+   "who": "Architecture Office",
+   "pollux": "Which is why ESM's architecture function keeps harmonising the method."
+  },
+  {
+   "f": "The Architecture Office's task",
+   "what": "One of the Architecture Office's tasks is to improve and harmonise the applied enterprise architecture methods and techniques.",
+   "who": "Architecture Office",
+   "pollux": "Einstein carries those methods into the team from his home function."
+  },
+  {
+   "f": "Keeping both up to date",
+   "what": "As the solution and infrastructure requirements evolve, both artefacts must be kept up to date and periodically re-submitted to the IT governance body.",
+   "who": "ArOw, PM, IT Governance",
+   "pollux": "Re-submitted as the portal grows across the four releases."
+  },
+  {
+   "f": "Reference Architecture",
+   "what": "If a Reference Architecture exists, its mechanisms, patterns and styles are expected to be used, having been evaluated and standardised already.",
+   "who": "Architecture Office",
+   "pollux": "ESM patterns are reused rather than re-argued each iteration."
+  },
+  {
+   "f": "Evolutionary Architecture",
+   "what": "Incrementally builds and improves the software architecture while uncovering and addressing architectural issues found during development.",
+   "who": "ArOw with the A-PCT",
+   "pollux": "Answers Einstein's wish for three enabler iterations with a different shape."
+  },
+  {
+   "f": "Reduces technical risk",
+   "what": "It reduces technical risks without significant upfront architectural effort, because architecture is validated early rather than assumed.",
+   "who": "ArOw, ATeMs",
+   "pollux": "Enabler stories ride alongside Release 1 business value."
+  },
+  {
+   "f": "Quality and productivity",
+   "what": "Improves both by reducing time-consuming, error-prone fixes to late-detected problems resulting from architectural flaws.",
+   "who": "A-PCT",
+   "pollux": "Traceability flaws surface in iteration 2, not after Release 3."
+  },
+  {
+   "f": "Time to market and consistency",
+   "what": "Reduces time to market by reusing existing components and improves consistency and maintainability by feeding lessons back into the architecture.",
+   "who": "A-PCT, Architecture Office",
+   "pollux": "Reuse from CASTOR shortens the path to the first release."
+  },
+  {
+   "f": "Predictability",
+   "what": "Increases predictability by identifying and implementing the highest-risk technical areas first, shortening the architectural cycle.",
+   "who": "ArOw, PrOw prioritising",
+   "pollux": "The riskiest data-traceability work is scheduled early, not late."
+  },
+  {
+   "f": "Three key principles",
+   "what": "Architecture work 'just in time'; document key decisions and outstanding issues; implement and test key capabilities to address architectural issues.",
+   "who": "ArOw, ATeMs",
+   "pollux": "Einstein documents decisions rather than producing a full design upfront."
+  },
+  {
+   "f": "Early high-level modelling",
+   "what": "High-level architectural modelling early in the lifecycle helps agree the technical strategy, improves productivity and enables scaling agile development.",
+   "who": "A-PCT and stakeholders",
+   "pollux": "Done before iteration 1 begins on 08 Jan 2029."
+  },
+  {
+   "f": "Managing baseline changes",
+   "what": "Changes to the baseline Architecture Overview and Operational Model are managed and documented within the PCT, with impacted stakeholders informed.",
+   "who": "PCT, stakeholders",
+   "pollux": "Architecture changes reach Turing and Brandeis, not only the team."
+  }
+ ],
+ "traps": [
+  "The two artefacts alone do not give comparable impact or compliance analysis.",
+  "Evolutionary Architecture is not 'no architecture' — early high-level modelling still happens.",
+  "Architecture Overview covers building blocks; the Operational Model covers infrastructure.",
+  "Both artefacts keep evolving and are re-submitted to the IT Governance body.",
+  "The ArOw is Responsible for both artefacts; the Project Manager is Accountable."
+ ],
+ "pollux_excerpt": {
+  "title": "Architecture on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Architecture Owner",
+    "Albert Einstein, seconded from Enterprise Architecture"
+   ],
+   [
+    "Architecture Overview",
+    "How the portal reads reconciled exposure from the CASTOR platform"
+   ],
+   [
+    "Operational Model",
+    "Hosting and infrastructure, including national-authority access"
+   ],
+   [
+    "Enabler work",
+    "Delivered as enabler stories inside iterations, not as three enabler iterations"
+   ],
+   [
+    "Traceability target",
+    "Criterion SC4 — 100% of figures traceable without manual mapping"
+   ],
+   [
+    "Live conflict",
+    "Conflict 5 — architecture up front versus emergent"
+   ]
+  ]
+ }
+}

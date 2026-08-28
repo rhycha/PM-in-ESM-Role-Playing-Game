@@ -1,0 +1,397 @@
+{
+ "n": 4,
+ "id": "project-handbook",
+ "name": "Project Handbook",
+ "family": "Planning",
+ "one_liner": "How this project will be run — approach, processes, rules, roles.",
+ "purpose": "The Project Handbook summarises the project objectives and documents the selected approach for achieving the project goals. It documents the Critical Success Factors, the key controlling processes, the conflict resolution and escalation procedure, policies, rules and mindsets. It also documents the governance roles and their responsibilities and defines which plans are needed, including any PM² tailoring decisions.",
+ "guide_page": 42,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "S",
+   "BIG": "C",
+   "SP": "I",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Planning Phase",
+ "approved_by": "Project Owner (PO)",
+ "inputs": [
+  "Business Case",
+  "Project Charter",
+  "Planning Kick-off Minutes of Meeting (MoM)"
+ ],
+ "feeds": [
+  "Project Work Plan",
+  "Outsourcing Plan",
+  "Business Implementation Plan",
+  "all six Management Plans",
+  "Control Cost / Control Schedule",
+  "Project-End Review Meeting",
+  "Administrative Closure"
+ ],
+ "gate": "RfE",
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Not yet written; Charter supplies its scope input"
+  },
+  {
+   "phase": "Planning",
+   "what": "Drafted from Kick-off MoM, baselined, approved by PO"
+  },
+  {
+   "phase": "Executing",
+   "what": "The rule book the team actually works to"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Kept up to date; escalation and tracking rules applied"
+  },
+  {
+   "phase": "Closing",
+   "what": "Reference for Project-End Review; closed and archived"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Document Control",
+   "meta": true,
+   "items": [
+    "Settings table (title, project, author, PO, PM, version, sensitivity)",
+    "Document Approver(s) and Reviewer(s)",
+    "Document history (revisions)",
+    "Configuration Management: Document Location",
+    "Table of Contents"
+   ]
+  },
+  {
+   "sec": "1. About the Project Handbook",
+   "items": [
+    "What the Handbook documents (approach, controlling processes, rules)",
+    "Why it matters: it defines which plans the project needs",
+    "Kept up to date; archived after the Project-End Review"
+   ]
+  },
+  {
+   "sec": "2. Project Overview",
+   "items": [
+    "2.1 Project summary",
+    "2.2 Critical Success Factors and Project Management Objectives",
+    "2.3 Project Stakeholders",
+    "2.4 Project Dependencies or Interrelations",
+    "2.5 Project Constraints"
+   ]
+  },
+  {
+   "sec": "3. Project Approach",
+   "items": [
+    "3.1 Project Lifecycle",
+    "3.2 PM² Tailoring – Required Project Documentation",
+    "3.3 Other Standards",
+    "3.4 Specific Project Management Rules",
+    "3.5 Conflict Resolution and Escalations"
+   ]
+  },
+  {
+   "sec": "4. Project Processes (4.1–4.6)",
+   "items": [
+    "4.1 Risk Management",
+    "4.2 Issue Management",
+    "4.3 Requirements Management",
+    "4.4 Project Change Management",
+    "4.5 Quality Management",
+    "4.6 Configuration Management"
+   ]
+  },
+  {
+   "sec": "4. Project Processes (4.7–4.11)",
+   "items": [
+    "4.7 Communications Management (meetings + reports tables)",
+    "4.8 Deliverables Acceptance Management",
+    "4.9 Transition Management",
+    "4.10 Business Implementation Management",
+    "4.11 Resource Management (incl. Training Needs)"
+   ]
+  },
+  {
+   "sec": "5. Project Progress Measurement",
+   "items": [
+    "5.1 Project Progress Measuring Approach",
+    "5.2 Project Reports",
+    "5.2.1 Status and Progress Reports",
+    "Other Reports",
+    "5.3 Project Checklists"
+   ]
+  },
+  {
+   "sec": "6. Project Roles & Responsibilities",
+   "items": [
+    "6.1 Consolidated Responsibilities Assignment Matrix (RAM/RASCI)",
+    "6.2 Description of Project Roles and Responsibilities",
+    "6.2.1 Project Stakeholders",
+    "6.2.2 Project Steering Committee (PSC) — PO, SP, BM, PM",
+    "6.2.3 Business Implementation Group (BIG) — User Representatives",
+    "6.2.4 Project Core Team (PCT) — CPM, APM, Agile roles",
+    "6.2.5 Project Support Team (PST) — PSO, PQA"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID / Reference or Related Document / Source or Link-Location",
+    "Project folder location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "2.1 Project summary",
+   "what": "Executive summary of the project, or simply links to the Business Case and Project Charter documents.",
+   "who": "PM drafts · PO approves",
+   "castor": "Replace the 14-year-old LOS with a configurable lending platform; €8.4 m, 3,100 PD, 26 months. Links to Business Case and Charter."
+  },
+  {
+   "f": "2.2 Critical Success Factors",
+   "what": "Factors critical to success on which the management team must focus effort — e.g. stakeholder involvement, management support, clear objectives.",
+   "who": "PM with PCT · agreed with PSC",
+   "castor": "Sustained release of Lending Ops staff (Grace Hopper, Marie Curie); visible sponsorship by Florence Nightingale; SC1–SC5 measurable."
+  },
+  {
+   "f": "2.2 Additional Project Management Objectives",
+   "what": "Objectives beyond project scope — learning, maturity, sustainability — that shape the approach but generate no work items or extra cost.",
+   "who": "PM agrees with team · approved with the Handbook",
+   "castor": "Build in-house configuration skill so ESM can onboard the SRF common backstop in six weeks without Levallois (SC3)."
+  },
+  {
+   "f": "2.3 Project Stakeholders",
+   "what": "Brief summary of the most important stakeholders/users, or a reference to the Project Stakeholder Matrix for the full list.",
+   "who": "PM drafts · BM assists on client side",
+   "castor": "PSC: Florence Nightingale (PO), Leonardo da Vinci (SP), Grace Hopper (BM), PM, Marie Curie (UR). Full list in 05 Stakeholder Matrix."
+  },
+  {
+   "f": "2.4 Project Dependencies or Interrelations",
+   "what": "Dependencies on other work, projects, problems or solutions — e.g. being part of a programme or a network of projects.",
+   "who": "PM drafts · PSC reviews",
+   "castor": "Common-backstop capability depends on ESM Treaty reform ratification (Italy pending); parallel run must avoid the EFSF bond rollover."
+  },
+  {
+   "f": "2.5 Project Constraints",
+   "what": "Factual conditions limiting how work can be planned and executed — fixed cost/date/scope, legal or tendering rules, staff, technology.",
+   "who": "PM drafts · PO approves",
+   "castor": "Fixed €8.4 m envelope, 26-month duration, go-live 15 May 2028; two open internal-audit findings must be closed (SC5)."
+  },
+  {
+   "f": "3.1 Project Lifecycle",
+   "what": "The management lifecycle (phases) used, how the project moves between phases (approvals/gates), and any deviation from standard PM².",
+   "who": "PM drafts · PO approves",
+   "castor": "Standard PM² phases; gates RfP 27 Mar 2026, RfE 03 Jul 2026, RfC 22 Jun 2028; two executing releases."
+  },
+  {
+   "f": "3.2 PM² Tailoring – Required Project Documentation",
+   "what": "Table listing each artefact with Yes/No, its location, and, if No, why. Complexity, risk and PSC influence the choice.",
+   "who": "PM proposes · PSC influences · PO approves",
+   "castor": "Yes for Outsourcing Plan, Transition Plan, Business Implementation Plan; risk and change processes kept as Handbook sections only."
+  },
+  {
+   "f": "3.3 Other Standards",
+   "what": "Other domain methodologies (e.g. Agile for IT) or standards that must be considered when planning and applying PM² processes.",
+   "who": "PM drafts · SP and PCT consulted",
+   "castor": "ESM IT architecture standards, data-protection and security rules; advised by Albert Einstein (AO), Louis Brandeis (DPC), Alan Turing (LISO)."
+  },
+  {
+   "f": "3.4 Specific Project Management Rules",
+   "what": "Agreed “rules of conduct” on team interaction, communication, meetings, collaboration and contractors that the methodology does not cover.",
+   "who": "PM drafts from Kick-off MoM · team agrees",
+   "castor": "No verbal scope change: every request becomes a Change Request Form, a Change Log entry and a PSC decision."
+  },
+  {
+   "f": "3.5 Conflict Resolution and Escalations",
+   "what": "How conflicts are resolved or escalated, plus the impact-based escalation ladder and tolerances referenced by every Management Plan.",
+   "who": "PM drafts · PSC endorses",
+   "castor": "Very low/low decided by PCT; medium by PM and Grace Hopper at the status meeting; high/very high by PSC."
+  },
+  {
+   "f": "4.1 Risk Management",
+   "what": "High-level risk process: identification, assessment (likelihood × impact), response development (avoid/transfer/reduce/accept) and control at status meetings.",
+   "who": "PM owns · PO accountable",
+   "castor": "Risks logged in the Risk Log by the PM; R-07 “Levallois loses its key architect” reviewed at every status meeting."
+  },
+  {
+   "f": "4.2 Issue Management",
+   "what": "High-level issue process: identification, assessment and action recommendation, actions implementation, and weekly issue control.",
+   "who": "PM owns · PO accountable",
+   "castor": "When R-07 materialised it left the Risk Log and became an issue in the Issue Log, with remediation actions logged."
+  },
+  {
+   "f": "4.3 Requirements Management",
+   "what": "Specify, evaluate, approve, monitor implementation and validate requirements; a fuller Requirements Management Plan may be created instead.",
+   "who": "PM owns · BM/UR validate",
+   "castor": "Requirements specified with Ada Lovelace (BA), approved by Florence Nightingale, validated by Marie Curie before acceptance."
+  },
+  {
+   "f": "4.4 Project Change Management",
+   "what": "Change identification (Change Request Form), assessment of impact, approval via the escalation path, implementation in the Work Plan, weekly control.",
+   "who": "PM owns · PSC approves high impact",
+   "castor": "The verbal “add SRF-backstop screens” request from a Board member’s cabinet was routed through a Change Request Form to the PSC."
+  },
+  {
+   "f": "4.5 Quality Management",
+   "what": "Define quality characteristics, perform quality assurance, quality control (Quality Review Checklist), deliverables acceptance and final acceptance.",
+   "who": "PM runs · SP accountable for Manage Quality",
+   "castor": "Quality assurance performed by W. Edwards Deming (PQA) independently of the PM; Quality Review Report produced quarterly."
+  },
+  {
+   "f": "4.6 Configuration Management",
+   "what": "Configuration items, baselines, the project repository, plus folder convention, artefact naming convention and versioning rules.",
+   "who": "PM defines · DMO advises",
+   "castor": "Folders 01 Initiating … 05 Closing; naming (XX).(DocumentName).CASTOR.(yyyy-mm-dd).v(x.x); logs and checklists not versioned."
+  },
+  {
+   "f": "4.7 Communications Management",
+   "what": "How to communicate to each stakeholder: content, format, frequency, audience; includes the project meetings table and project reports table.",
+   "who": "PM drafts · BM supports",
+   "castor": "PSC monthly, chaired by Florence Nightingale; Project Status Meeting every two weeks; monthly contractor report from Gustave Eiffel."
+  },
+  {
+   "f": "4.8 Deliverables Acceptance Management",
+   "what": "Define acceptance criteria, perform acceptance activities, obtain provisional/final formal approval from the Project Owner for each deliverable.",
+   "who": "PM runs · PO signs acceptance",
+   "castor": "Acceptance signed by Florence Nightingale; the reconciliation report was only partially accepted after Marie Curie’s objection."
+  },
+  {
+   "f": "4.9 Transition Management",
+   "what": "Summary of the move from project mode to operations: transition goals, transition activities and transition schedule; or a link to the Transition Plan.",
+   "who": "PM drafts · PSC accountable for Manage Transition",
+   "castor": "Parallel run with LOS 08 Jan – 30 Apr 2028; transition and go-live 15 May 2028. Detail in the Transition Plan."
+  },
+  {
+   "f": "4.10 Business Implementation Management",
+   "what": "Impact on processes, people and culture; implementation strategy, change activities and benefits tracking; or a link to the Business Implementation Plan.",
+   "who": "BM is Responsible · PO accountable",
+   "castor": "Change activities for Lending Ops; the Handbook fixes the boundary with the Transition Plan over retraining 40 loan administrators."
+  },
+  {
+   "f": "4.11 Resource Management",
+   "what": "How resources (people and equipment) are acquired, used, contracted, delegated and released at project end.",
+   "who": "PM drafts · PO mobilises resources",
+   "castor": "Mix delivery: in-house core team plus outsourced platform implementation; 3,100 PD; contractor staff released after the parallel run."
+  },
+  {
+   "f": "4.11 Training Needs table",
+   "what": "Resource ID, resource, training/skill, current and desired skill level, method of delivery, delivered by, target date — project-team training only.",
+   "who": "PM maintains · PSO supports",
+   "castor": "Nikola Tesla — platform configuration, intermediate to advanced, Levallois coaching, before Release 1 on 26 Mar 2027."
+  },
+  {
+   "f": "5.1 Project Progress Measuring Approach",
+   "what": "The progress, performance and forecasting method used (e.g. EVM, Earned Schedule, or milestone tracking), what is tracked and how often.",
+   "who": "PM defines · PSO advises",
+   "castor": "Milestone-level tracking plus effort against 3,100 PD and cost against €8.4 m, refreshed every two weeks."
+  },
+  {
+   "f": "5.2 Project Reports",
+   "what": "The reports used on the project, briefly described with links to templates and the folder holding completed reports; frequency lives in 4.7.",
+   "who": "PM defines · PO accountable",
+   "castor": "Project Status Report every two weeks; Project Progress Report at review meetings; Levallois contractor status report monthly."
+  },
+  {
+   "f": "5.3 Project Checklists",
+   "what": "List of the checklists that will be used to monitor and control the project; delete those that will not be used.",
+   "who": "PM selects",
+   "castor": "Phase-exit Review, Quality Review, Deliverables Acceptance, Transition, Business Implementation and Stakeholders Checklists all retained."
+  },
+  {
+   "f": "6.1 Consolidated Responsibilities Assignment Matrix (RAM/RASCI)",
+   "what": "The full PM² RASCI table for every artefact and activity, amended to be specific to this project’s stakeholders.",
+   "who": "PM amends · PSC endorses · PO approves",
+   "castor": "Amended for CASTOR; the Outsourcing Plan row shows AGB (Lorenzo de' Medici’s CIB) as Accountable, which surprised the PSC."
+  },
+  {
+   "f": "6.2 Description of Project Roles and Responsibilities",
+   "what": "Description, responsibilities, rights and duties per role; keep only relevant roles, justify and highlight any deviation from standard PM².",
+   "who": "PM drafts · PO approves",
+   "castor": "PO Florence Nightingale, SP Leonardo da Vinci, BM Grace Hopper, UR Marie Curie, CPM Gustave Eiffel; Agile roles deleted."
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Each reference or related document by title, version, date and source/location, plus the project folder location.",
+   "who": "PM maintains",
+   "castor": "Business Case and Project Charter (24 Mar 2026), Planning Kick-off MoM (09 Apr 2026), Project Work Plan v1.0."
+  }
+ ],
+ "traps": [
+  "Handbook is approved by the PO (A), not the PSC — classic.",
+  "The six Management Plans are part of the Handbook, not rivals to it.",
+  "Handbook = how the project is run; Work Plan = what work, when, how much.",
+  "Scope and objectives come from the Charter; the Handbook does not redefine them.",
+  "It is a living document, updated all the way to Closing — not a one-off Planning output."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Handbook v1.0, 26 Jun 2026 (Project CASTOR)",
+  "rows": [
+   [
+    "Section",
+    "Filled content"
+   ],
+   [
+    "Project Title",
+    "Project CASTOR — Renewal of the Lending Operations System"
+   ],
+   [
+    "Project Owner / Project Manager",
+    "Florence Nightingale, Head of Lending Operations Division / Project Manager, ESM Project Support Office"
+   ],
+   [
+    "2.1 Project summary",
+    "Replace the 14-year-old LOS with a configurable lending platform. €8.4 m, 3,100 PD, 26 months, Mix delivery."
+   ],
+   [
+    "2.2 Critical Success Factors",
+    "Lending Ops staff released for the whole build; visible PO sponsorship; SC1–SC5 measurable at closure"
+   ],
+   [
+    "2.5 Project Constraints",
+    "Fixed €8.4 m budget; go-live 15 May 2028; two open internal-audit findings must be closed"
+   ],
+   [
+    "3.1 Project Lifecycle",
+    "Standard PM² four phases. RfP 27 Mar 2026 · RfE 03 Jul 2026 · RfC 22 Jun 2028"
+   ],
+   [
+    "3.2 Tailoring – required documentation",
+    "Outsourcing Plan: Yes · Transition Plan: Yes · Business Implementation Plan: Yes · Risk Mgmt Plan: No (section 4.1)"
+   ],
+   [
+    "3.4 Specific project rules",
+    "No verbal scope changes — Change Request Form, Change Log entry, PSC decision"
+   ],
+   [
+    "3.5 Escalation",
+    "Very low/low → PCT · medium → PM + BM at status meeting · high/very high → PSC"
+   ],
+   [
+    "4.6 Configuration Management",
+    "(XX).(DocumentName).CASTOR.(yyyy-mm-dd).v(x.x) under 01 Initiating … 05 Closing"
+   ],
+   [
+    "4.7 Meetings",
+    "PSC monthly (chair: Florence Nightingale) · Project Status Meeting every 2 weeks · PCT weekly"
+   ],
+   [
+    "6.2 Key roles",
+    "SP Leonardo da Vinci · BM Grace Hopper · UR Marie Curie · CPM Gustave Eiffel (Levallois Systems)"
+   ],
+   [
+    "Approved by",
+    "Florence Nightingale (PO), 26 Jun 2026 — baselined ahead of the RfE gate on 03 Jul 2026"
+   ]
+  ]
+ }
+}

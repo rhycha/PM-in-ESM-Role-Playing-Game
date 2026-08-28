@@ -1,0 +1,205 @@
+{
+ "n": 42,
+ "id": "deployment-and-transition",
+ "name": "Deployment & Transition",
+ "group": "Themes",
+ "one_liner": "Make the system deployable, and make the organisation ready to receive it.",
+ "purpose": "Whatever approach is applied, there is always a need to ensure the information system under development can effectively be deployed in the organisation's technical infrastructure; the Operational Model describes those technical and infrastructure aspects. Alongside the technical side, several considerations enable a smooth business transition — user testing, frequent training and communication sessions all raise engagement. Deployment and transition activities are also crucial for taking dependencies with other projects and information systems into account.",
+ "guide_page": 40,
+ "meta": [
+  [
+   "Theme",
+   "4.14 — the last of the fourteen themes"
+  ],
+  [
+   "Artefact",
+   "The Operational Model describes the technical and infrastructure aspects"
+  ],
+  [
+   "See also",
+   "The PM² guide on managing Transitions and Business Implementation"
+  ]
+ ],
+ "rasci": {
+  "title": "RAM (RASCI) — Deployment Plan",
+  "rows": [
+   [
+    "Role",
+    "Letter"
+   ],
+   [
+    "BM",
+    "I"
+   ],
+   [
+    "PM",
+    "A"
+   ],
+   [
+    "TeCo",
+    "R"
+   ],
+   [
+    "PrOw",
+    "S"
+   ],
+   [
+    "ArOw",
+    "S"
+   ],
+   [
+    "ATeM",
+    "S"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Two sides of the same move",
+   "items": [
+    "Technical — the system can effectively be deployed in the organisation's technical infrastructure",
+    "Business — activities that enable a smooth business transition for the users"
+   ]
+  },
+  {
+   "sec": "The artefact that carries it",
+   "items": [
+    "The Operational Model describes all the technical and infrastructure aspects of deploying the system",
+    "The Deployment Plan is created by the Team Coordinator, aligned with the release schedule",
+    "The Deployment Plan aligns with the project-level Transition Plan",
+    "A representative of the relevant operational unit contributes feasibility and process information"
+   ]
+  },
+  {
+   "sec": "Activities that raise engagement",
+   "items": [
+    "User testing",
+    "Frequent training",
+    "Communication sessions",
+    "Keeping users continually informed and aligned with the project delivery schedule"
+   ]
+  },
+  {
+   "sec": "Do not forget",
+   "items": [
+    "Dependencies with other projects and/or information systems",
+    "The PM² guide on managing Transitions and Business Implementation",
+    "Deployment and Transition is also one of the five external coordination themes"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Deployability",
+   "what": "Regardless of the approach applied, the system under development must be effectively deployable in the organisation's technical infrastructure.",
+   "who": "ArOw, IT operations, ATeMs",
+   "pollux": "The portal must run in ESM's infrastructure, not only in the team's environment."
+  },
+  {
+   "f": "The Operational Model",
+   "what": "Describes all the technical and infrastructure related aspects of deploying the information system.",
+   "who": "ArOw responsible; PM accountable",
+   "pollux": "Einstein's model covers hosting for national-authority access."
+  },
+  {
+   "f": "Beyond the technical",
+   "what": "Several considerations must be evaluated together with the technical aspect of deployment to enable a smooth business transition.",
+   "who": "BM, BIG, User Representatives",
+   "pollux": "Hopper's client-side coordination matters as much as the release itself."
+  },
+  {
+   "f": "User testing",
+   "what": "User testing is one of the activities that leads to an increased level of engagement ahead of transition.",
+   "who": "Users, ATeMs, PrOw",
+   "pollux": "The four analysts test the portal against their own quarter-end routine."
+  },
+  {
+   "f": "Frequent training",
+   "what": "Frequent training is named as an activity that increases the users' level of engagement.",
+   "who": "BIG, BM",
+   "pollux": "Reporting staff are trained before the 31 Jan 2030 transition."
+  },
+  {
+   "f": "Communication sessions",
+   "what": "Communication sessions also raise engagement, keeping the user community connected to the delivery.",
+   "who": "BM, PrOw, BIG",
+   "pollux": "Sessions ahead of each of the four releases, not only at the end."
+  },
+  {
+   "f": "Users aligned with the schedule",
+   "what": "Ensuring users are continually informed and aligned with the project delivery schedule allows optimal delivery of the solution.",
+   "who": "PrOw, BM",
+   "pollux": "Users know a quarterly release cadence and plan around it."
+  },
+  {
+   "f": "Dependencies",
+   "what": "Deployment and transition activities are crucial to ensure dependencies with other projects and information systems are taken into account.",
+   "who": "PM, ArOw, IT operations",
+   "pollux": "The portal depends on the CASTOR lending platform staying live."
+  },
+  {
+   "f": "The PM² transition guide",
+   "what": "For further information the guide refers to the PM² guide on managing Transitions and Business Implementation.",
+   "who": "PM, BM, BIG",
+   "pollux": "PM²-Agile does not replace PM²'s transition machinery on POLLUX."
+  },
+  {
+   "f": "The Deployment Plan",
+   "what": "Created by the Team Coordinator aligned with the release schedule and the project-level Transition Plan, with the PM accountable.",
+   "who": "TeCo responsible; ATeMs and ArOw support",
+   "pollux": "Lovelace writes it; you approve it; it feeds the transition."
+  },
+  {
+   "f": "Operational unit input",
+   "what": "A representative of the relevant operational unit contributes operational process and infrastructure information and checks feasibility and risks.",
+   "who": "IT operations representative",
+   "pollux": "ESM operations check the portal is supportable before go-live."
+  },
+  {
+   "f": "External coordination theme",
+   "what": "Deployment and transition is also one of the five themes on which the A-PCT coordinates with other groups.",
+   "who": "PCT, A-PCT, IT operations",
+   "pollux": "Transparency with operations supports configuration management too."
+  }
+ ],
+ "traps": [
+  "Deployment is not only technical — transition carries the business change.",
+  "The Operational Model, not the Architecture Overview, describes deployment infrastructure.",
+  "Deployment and Transition is also one of the five external coordination themes.",
+  "Dependencies with other projects and systems belong in deployment planning.",
+  "PM²-Agile defers here to the PM² Transitions and Business Implementation guide."
+ ],
+ "pollux_excerpt": {
+  "title": "Deployment and transition on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Releases into production",
+    "Four, roughly quarterly, from 29 Mar 2029"
+   ],
+   [
+    "Transition into service",
+    "31 Jan 2030"
+   ],
+   [
+    "RfC gate — Ready for Closing",
+    "14 Feb 2030"
+   ],
+   [
+    "Administrative closure",
+    "20 Mar 2030"
+   ],
+   [
+    "Dependency",
+    "The CASTOR lending platform, live since May 2028"
+   ],
+   [
+    "Who prepares users",
+    "Grace Hopper (BM) with the User Representatives"
+   ]
+  ]
+ }
+}

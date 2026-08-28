@@ -1,0 +1,409 @@
+{
+ "n": 22,
+ "id": "project-progress-report",
+ "name": "Project Progress Report",
+ "family": "Report",
+ "one_liner": "The fuller, periodic report on how the project is doing against its baselines and Charter.",
+ "purpose": "Gives a high-level overview of the project and its status. It includes a project overview — project stakeholders, milestones and deliverables, project plan, budget and costs — plus additional project details: scope changes, major risks and issues with actions taken, and achievements. For a multi-annual project whose overall vision and scope have not changed, it can be used to secure project approval for the following year; if the vision or scope has changed, an updated Project Charter should be submitted instead.",
+ "guide_page": 59,
+ "rasci": {
+  "A": "PO",
+  "R": "PM",
+  "row": {
+   "AGB": "I",
+   "PSC": "I",
+   "PO": "A",
+   "BM": "S/C",
+   "BIG": "I/C",
+   "SP": "I/C",
+   "PM": "R",
+   "PCT": "C"
+  }
+ },
+ "created_in": "Executing Phase (Project Reporting, §7.4) — periodic, typically yearly",
+ "approved_by": "Project Owner (PO) is Accountable; presented to the PSC and, for next-year approval, to the Appropriate Governance Body (AGB)",
+ "inputs": [
+  "Business Case and Project Charter",
+  "Project Work Plan",
+  "Project Status Reports from the period",
+  "Change Log",
+  "Risk Log",
+  "Issue Log",
+  "Communications Management Plan"
+ ],
+ "feeds": [
+  "AGB approval for the following year",
+  "Updated Project Charter (if vision/scope changed)",
+  "Project-End Report",
+  "Projects Archive"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Report listed in the Communications Management Plan"
+  },
+  {
+   "phase": "Executing",
+   "what": "Compiled per reporting period, usually per year"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Vehicle for escalating changes, risks, issues, re-baselining"
+  },
+  {
+   "phase": "Closing",
+   "what": "Archived; feeds the Project-End Report evaluation"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Front matter & Document Control",
+   "meta": true,
+   "items": [
+    "Cover: Organisation / Department / <Project Progress Report> / Date / Doc. Version",
+    "Settings table: Document Title, Project Title, Author, PO, PM, Version, Sensitivity, Date",
+    "Document Approver(s) and Reviewer(s): Name, Role, Action, Date",
+    "Document history: Revision, Date, Created by, Short Description of Changes",
+    "Configuration Management: Document Location",
+    "Notes for Templates (orange = to define, blue = guidance, green = customisable)",
+    "TABLE OF CONTENTS"
+   ]
+  },
+  {
+   "sec": "1 Project Overview",
+   "items": [
+    "1.1 Executive Summary",
+    "1.2 Project Stakeholders",
+    "1.3 Milestones and Deliverables",
+    "1.4 Project Plan (per Work Package)",
+    "1.5 Budget and Costs"
+   ]
+  },
+  {
+   "sec": "1.1 Executive Summary",
+   "items": [
+    "Yearly reporting only, max 0.5 page",
+    "Overall outcomes and business triggers",
+    "Overall description of the solution",
+    "Major changes in scope, resources, cost and planning",
+    "Constraints and achievements"
+   ]
+  },
+  {
+   "sec": "1.2 Project Stakeholders",
+   "items": [
+    "Link to the original Business Case and Project Charter",
+    "Project Due Date",
+    "PSC: PO, BM, SP, PM, other stakeholders",
+    "Business Implementation Group (BIG) / User Representatives (UR)",
+    "Project Core Team (PCT)",
+    "Project Support Team (PST)",
+    "Other stakeholders"
+   ]
+  },
+  {
+   "sec": "1.3 Milestones and Deliverables",
+   "items": [
+    "ID",
+    "Milestone / Deliverable Name",
+    "Target Delivery Date",
+    "Actual Delivery date",
+    "Status: on-going, planned, achieved",
+    "Comments"
+   ]
+  },
+  {
+   "sec": "1.4 Project Plan (per Work Package)",
+   "items": [
+    "Planned Start Date / End Date",
+    "Actual Start Date / End Date",
+    "Total Planned Effort at Completion",
+    "Planned Effort",
+    "Actual Effort",
+    "Progress (Earned Value)",
+    "Performance — Schedule",
+    "Performance — Budget"
+   ]
+  },
+  {
+   "sec": "1.5 Budget and Costs",
+   "items": [
+    "Expenditure rows: Infrastructure, Development, Maintenance, Support, Training (k€)",
+    "Budget Line and Amount per year",
+    "Total cost",
+    "Total per year (k€)",
+    "Total FTE officials per year"
+   ]
+  },
+  {
+   "sec": "2 Project Details",
+   "items": [
+    "2.1 Scope Changes",
+    "2.2 Major Risks and Actions Taken",
+    "2.3 Major Issues and Actions Taken",
+    "2.4 Other On-going and Planned Actions",
+    "2.5 Achievements"
+   ]
+  },
+  {
+   "sec": "2.1 Scope Changes",
+   "items": [
+    "ID, Category, Title, Description",
+    "Status",
+    "Action Details (effort & responsible)",
+    "Size, Priority",
+    "Approval decided by",
+    "Actual Delivery Date"
+   ]
+  },
+  {
+   "sec": "2.2 / 2.3 Major Risks and Issues",
+   "items": [
+    "Risks: ID, Category, Risk Name, Description, Status, Likelihood, Impact, Risk Level, Risk Owner, Risk Response Strategy, Action Details, Target Date",
+    "Issues: ID, Category, Title, Description, Status, Action Details, Urgency, Impact, Size, Target Date, Issue Owner"
+   ]
+  },
+  {
+   "sec": "2.4 / 2.5 Actions and Achievements",
+   "items": [
+    "Other On-going and Planned Actions: Actions, Due date, Who & Comments",
+    "Project Highlights / Achievements, Comments"
+   ]
+  },
+  {
+   "sec": "Appendix 1: References and Related Documents",
+   "items": [
+    "ID",
+    "Reference or Related Document",
+    "Source or Link/Location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Settings table (Document Title, Project Title, Document Author, Project Owner, Project Manager, Doc. Version, Sensitivity, Date)",
+   "what": "Document-control header identifying the report, the project and the three people who own it.",
+   "who": "PM as Document Author",
+   "castor": "Project CASTOR · Author PM (ESM PSO) · PO Florence Nightingale · v1.0 · Sensitivity: Limited · 26 Jan 2028"
+  },
+  {
+   "f": "Document Approver(s) and Reviewer(s)",
+   "what": "Who approves and who reviews, with the action and date. All approvers are required and records of each must be kept.",
+   "who": "PM lists · PO approves",
+   "castor": "Florence Nightingale (PO) — Approve, 02 Feb 2028; Leonardo da Vinci (SP) — Review, 29 Jan 2028"
+  },
+  {
+   "f": "Document history",
+   "what": "Revision, date, created by and a short description of changes, in reverse chronological order.",
+   "who": "PM",
+   "castor": "v1.0, 26 Jan 2028, PM — first issue for the 2027 reporting year"
+  },
+  {
+   "f": "Configuration Management: Document Location",
+   "what": "Where the controlled latest version of this document is stored.",
+   "who": "PSO / DMO",
+   "castor": "U:\\CASTOR\\02_Reports\\Progress\\"
+  },
+  {
+   "f": "1.1 Executive Summary",
+   "what": "Yearly reporting only, about half a page: overall outcomes and business triggers, the solution, major changes in scope, resources, cost and planning, constraints, achievements.",
+   "who": "PM drafts · PO approves",
+   "castor": "2027 delivered both releases; forecast overrun 11% at Q1 cut to 8% by December after the April recovery plan."
+  },
+  {
+   "f": "1.2 Project Stakeholders — link to Business Case and Project Charter",
+   "what": "Provide a link to the original project Business Case and Project Charter, so the reader can check against the approved baseline.",
+   "who": "PM",
+   "castor": "Business Case v2.0 and Project Charter v1.2, both approved 24 Mar 2026"
+  },
+  {
+   "f": "1.2 Project Stakeholders — Project Due Date",
+   "what": "The project's due date as currently held, at the top of the stakeholder table.",
+   "who": "PM",
+   "castor": "15 May 2028 (transition / go-live), administrative closure 28 Jul 2028"
+  },
+  {
+   "f": "1.2 Project Stakeholders — PSC / BIG-UR / PCT / PST / Other",
+   "what": "Named membership of each project layer: PSC (PO, BM, SP, PM and others), Business Implementation Group with User Representatives, Core Team, Support Team.",
+   "who": "PM; from Project Stakeholder Matrix",
+   "castor": "PSC: Nightingale, Hopper, da Vinci, PM, Curie (UR), Einstein (AO) · PCT: Tesla, Lovelace, Eiffel (CPM)"
+  },
+  {
+   "f": "1.3 Milestones and Deliverables — table",
+   "what": "ID, name, target date, actual date, status (on-going, planned, achieved) and comments. For yearly reporting cover the full project lifespan, not just the period.",
+   "who": "PM; PCT confirms actuals",
+   "castor": "D-04 Release 1, target 26 Mar 2027, actual 26 Mar 2027, achieved, partial acceptance — two templates deferred"
+  },
+  {
+   "f": "1.3 — Deliverable IDs",
+   "what": "The deliverable IDs must be aligned with the ones used previously in the Project Charter.",
+   "who": "PM",
+   "castor": "D-01…D-09 as numbered in Project Charter v1.2"
+  },
+  {
+   "f": "1.4 Project Plan (per Work Package) — which WPs",
+   "what": "Fill in only for key Work Packages: those with a considerable cost, or effort greater than 20 workdays.",
+   "who": "PM",
+   "castor": "WP1 governance, WP2 analysis, WP3 platform, WP4 data migration, WP5 business implementation"
+  },
+  {
+   "f": "1.4 — Planned / Actual Start and End Date",
+   "what": "Baselined start and end of the work package alongside what actually happened.",
+   "who": "PM with PCT",
+   "castor": "WP3 planned 18 Sep 2026 – 17 Dec 2027; actual 18 Sep 2026 – 17 Dec 2027"
+  },
+  {
+   "f": "1.4 — Total Planned Effort at Completion, Planned Effort, Actual Effort, Progress (Earned Value)",
+   "what": "Whole-WP baseline effort, plus effort planned, spent and earned in the period. Effort can be measured in Man-days or euro.",
+   "who": "PM with PSO/finance data",
+   "castor": "WP3: 1.420 PD at completion; 2027 planned 720 PD, actual 762 PD, earned 698 PD"
+  },
+  {
+   "f": "1.4 — Performance: Schedule / Budget",
+   "what": "Two percentages. Schedule = Progress ÷ Planned Effort; Budget = Progress ÷ Actual Effort (the Guide prints (Progress/Actual effort)*100). Under 100% budget means over budget.",
+   "who": "PM computes",
+   "castor": "WP3 schedule 698/720 = 97%, budget 698/762 = 92%"
+  },
+  {
+   "f": "1.5 Budget and Costs",
+   "what": "Yearly reporting only. Must let the reader see the Total Cost of Ownership for the full lifecycle, so costs beyond the reporting period are identified too.",
+   "who": "PM with PSO/finance data · PO approves",
+   "castor": "TCO 2026–2030 = €11,17 m; project years 2026–2028 forecast €9,23 m"
+  },
+  {
+   "f": "1.5 — Expenditure rows and Budget Line / Amount per year",
+   "what": "Infrastructure, Development, Maintenance, Support and Training in k€ per year against budget lines, with total cost and total FTE officials per year.",
+   "who": "PM with PSO/finance data",
+   "castor": "2027: Infrastructure 320, Development 3.196, Support 250, Training 220 k€; total 3.986 k€; 6,8 FTE"
+  },
+  {
+   "f": "1.5 — Information Systems budget line note",
+   "what": "If the proposed solution includes an Information System financed from the Information Systems budget line, clearly indicate the budget claims.",
+   "who": "PM with the budget owner",
+   "castor": "Platform licences and Levallois implementation claimed on the IS budget line"
+  },
+  {
+   "f": "2.1 Scope Changes",
+   "what": "Yearly reporting only. Overview of the project scope changes for the period that need escalating to Management, based on the project Change Log.",
+   "who": "PM; source is the Change Log",
+   "castor": "CR-007 SRF-backstop screens — 145 PD / €392.000 — Postponed by the PSC on 26 Mar 2027"
+  },
+  {
+   "f": "2.1 — Change table columns",
+   "what": "ID, Category, Title, Description, Status, Action Details (effort & responsible), Size, Priority, Approval decided by, Actual Delivery Date. Note the effort estimate lives here, not on the Change Request Form.",
+   "who": "PM",
+   "castor": "CR-007 · Scope · Postponed · 145 PD, Gustave Eiffel (CPM) · Size L · Medium · PSC · n/a"
+  },
+  {
+   "f": "2.2 Major Risks and Actions Taken",
+   "what": "Highlight the risks identified in the project Risk Log that need escalating to Management; refer to the Risk Log for the complete list.",
+   "who": "PM; risk owners named",
+   "castor": "R-07 loss of Levallois key architect — High — materialised 04 Oct 2027, moved to Issue Log"
+  },
+  {
+   "f": "2.2 — Risk table columns",
+   "what": "ID, Category, Risk Name, Description, Status, Likelihood, Impact, Risk Level, Risk Owner, Risk Response Strategy, Action Details, Target Date.",
+   "who": "PM with risk owners",
+   "castor": "R-03 · External · ESM Treaty reform not ratified · Open · M · H · High · Florence Nightingale · Accept + configure"
+  },
+  {
+   "f": "2.3 Major Issues and Actions Taken",
+   "what": "Overview of the major project issues to be escalated to Management, aligned with the project Issue Log.",
+   "who": "PM; issue owners named",
+   "castor": "I-12 Levallois solution architect resigned; deputy architect activated, 4-week knowledge transfer"
+  },
+  {
+   "f": "2.3 — Issue table columns",
+   "what": "ID, Category, Title, Description, Status, Action Details, Urgency, Impact, Size, Target Date, Issue Owner.",
+   "who": "PM with issue owners",
+   "castor": "I-12 · Resource · High urgency · High impact · Size M · 31 Oct 2027 · Gustave Eiffel"
+  },
+  {
+   "f": "2.4 Other On-going and Planned Actions",
+   "what": "Optional. Further actions currently on-going or planned for the next reporting period, with due date and who.",
+   "who": "PM",
+   "castor": "Parallel run readiness review — 05 Jan 2028 — Marie Curie (UR) and Grace Hopper (BM)"
+  },
+  {
+   "f": "2.5 Achievements",
+   "what": "Optional. What has been achieved that is not already covered elsewhere in the document; focus exclusively on the reporting period.",
+   "who": "PM with PCT and BIG",
+   "castor": "Both 2027 releases delivered on their baselined dates; 40 loan administrators enrolled in retraining"
+  },
+  {
+   "f": "Appendix 1: References and Related Documents",
+   "what": "Reference any relevant or additional information by title, version, date and source or location.",
+   "who": "PM",
+   "castor": "Project Handbook v1.3, 26 Jun 2026 · Project folder U:\\CASTOR\\"
+  }
+ ],
+ "traps": [
+  "Progress Report ≠ Status Report: Status is one page every 1–2 months; Progress is the fuller periodic report.",
+  "Several sections are marked yearly reporting only: 1.1 Executive Summary, 1.5 Budget and Costs, 2.1 Scope Changes.",
+  "It can secure next-year approval — but only if vision/scope is unchanged; otherwise submit an updated Project Charter.",
+  "Same RASCI row as the Project Status Report: both are outputs of Project Reporting (p.59), PO=A, PM=R.",
+  "The Quality Review Report is a separate PM² report, produced by the PM from the Quality Review Checklist."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Project Progress Report, Project CASTOR, reporting year 01 Jan – 31 Dec 2027, issued 26 Jan 2028",
+  "rows": [
+   [
+    "Section",
+    "Content"
+   ],
+   [
+    "1.1 Executive Summary",
+    "Both 2027 releases were delivered on their baselined dates: Release 1 (product configuration engine) 26 Mar 2027 and Release 2 (straight-through disbursement) 17 Dec 2027. Cost performance recovered from 90% at Q1 to 91% at year end after the recovery plan agreed by the PSC on 23 Apr 2027."
+   ],
+   [
+    "1.2 Project Stakeholders",
+    "Project Due Date 15 May 2028 · PSC: Florence Nightingale (PO), Grace Hopper (BM), Leonardo da Vinci (SP), PM, Marie Curie (UR), Albert Einstein (AO) · PCT: Nikola Tesla, Ada Lovelace, Gustave Eiffel (CPM, Levallois)"
+   ],
+   [
+    "1.3 Milestones and Deliverables",
+    "D-04 Release 1 — target 26/03/2027, actual 26/03/2027, achieved (partial acceptance, two product templates deferred) · D-05 Release 2 — target 17/12/2027, actual 17/12/2027, achieved · D-06 Parallel run — target 08/01/2028, planned"
+   ],
+   [
+    "1.4 Project Plan — WP3 Platform implementation (Levallois)",
+    "Total planned effort at completion 1.420 PD · 2027 planned 720 PD · actual 762 PD · progress (earned value) 698 PD · schedule 97% · budget 92%"
+   ],
+   [
+    "1.4 Project Plan — WP4 Data migration & reconciliation",
+    "Total planned effort at completion 480 PD · 2027 planned 210 PD · actual 231 PD · progress 196 PD · schedule 93% · budget 85% — the worst-performing package"
+   ],
+   [
+    "1.4 Project Plan — all packages, 2027",
+    "Planned 1.395 PD · actual 1.471 PD · progress 1.342 PD · schedule 1.342/1.395 = 96% · budget 1.342/1.471 = 91%"
+   ],
+   [
+    "1.5 Budget and Costs (k€)",
+    "2026 actual 1.764 · 2027 actual 3.986 · 2028 forecast 3.481 · 2029 maintenance 970 · 2030 maintenance 970 · TCO 2026–2030 = 11.171 k€. Development is 6.971 k€ of that; claimed on the Information Systems budget line."
+   ],
+   [
+    "1.5 Total FTE officials per year",
+    "2026: 4,2 · 2027: 6,8 · 2028: 7,5 · 2029: 1,5 · 2030: 1,2"
+   ],
+   [
+    "2.1 Scope Changes",
+    "CR-007 Add SRF common-backstop screens to Release 2 — Scope — Postponed — 145 PD / €392.000 — Size L, Priority Medium — approval decided by the PSC on 26 Mar 2027. CR-005 audit-trail export for Internal Audit — Approved, 24 PD, delivered 30 Jun 2027."
+   ],
+   [
+    "2.2 Major Risks and Actions Taken",
+    "R-03 ESM Treaty reform not ratified — Likelihood M, Impact H, Level High, owner Florence Nightingale, response Accept and keep the configuration engine instrument-agnostic. R-07 loss of Levallois key architect — Level High — materialised on 04 Oct 2027 and was moved to the Issue Log as I-12."
+   ],
+   [
+    "2.3 Major Issues and Actions Taken",
+    "I-12 Levallois solution architect resigned — Resource — urgency High, impact High, size M — deputy architect activated under the retention clause, four-week knowledge transfer completed 12 Oct 2027, owner Gustave Eiffel."
+   ],
+   [
+    "2.4 Other On-going and Planned Actions",
+    "Parallel run readiness review — due 05 Jan 2028 — Marie Curie (UR) with Grace Hopper (BM). Retraining of 40 loan administrators — due 30 Apr 2028 — Business Implementation Group."
+   ],
+   [
+    "2.5 Achievements",
+    "Both releases delivered on their baselined dates; manual re-keying of payment instructions down from ~1.400 fields per quarter to 310 in Q4 2027 against a target of 0 (SC4)."
+   ]
+  ]
+ }
+}

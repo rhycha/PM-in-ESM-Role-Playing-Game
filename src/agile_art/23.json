@@ -1,0 +1,264 @@
+{
+ "n": 23,
+ "id": "team-coordinator",
+ "name": "Team Coordinator (TeCo)",
+ "group": "Roles",
+ "one_liner": "Facilitator and coach who removes obstacles and reports development progress upward.",
+ "purpose": "The Team Coordinator (TeCo) acts as a facilitator and team coach whose main purpose is to create and maintain the conditions that allow the Agile Project Core Team (A-PCT) to achieve its objectives. The role focuses on the methodology aspects of the work and hides the project management concerns from the team. The TeCo facilitates or guides the team in performing technical management activities instead of taking on those responsibilities.",
+ "guide_page": 62,
+ "meta": [
+  [
+   "Layer",
+   "Performing layer — core role of the Agile Project Core Team (A-PCT)"
+  ],
+  [
+   "Facilitates",
+   "Ceremonies, planning, estimation and decision-making inside the A-PCT"
+  ],
+  [
+   "PM² counterpart",
+   "Shares methodology compliance with the PM; is not a renamed Project Manager"
+  ]
+ ],
+ "rasci": {
+  "title": "TeCo in the guide's RAM (RASCI) tables",
+  "rows": [
+   [
+    "Artefact or ceremony",
+    "TeCo"
+   ],
+   [
+    "Development Handbook",
+    "R"
+   ],
+   [
+    "Development Work Plan",
+    "R"
+   ],
+   [
+    "Release Plan",
+    "R"
+   ],
+   [
+    "Iteration Plan",
+    "R"
+   ],
+   [
+    "Deployment Plan",
+    "R"
+   ],
+   [
+    "Development Status Report",
+    "R"
+   ],
+   [
+    "Work Items List",
+    "C"
+   ],
+   [
+    "Test Plan",
+    "S"
+   ],
+   [
+    "Architecture Overview / Operational Model",
+    "S"
+   ],
+   [
+    "Iteration Planning / Daily Stand-up / Review / Retrospective",
+    "S"
+   ]
+  ],
+  "legend": [
+   [
+    "Letter",
+    "Meaning"
+   ],
+   [
+    "R",
+    "Responsible — does the work and leads those who support"
+   ],
+   [
+    "A",
+    "Accountable — authorises and approves; only one person"
+   ],
+   [
+    "S",
+    "Supports — works with the Responsible person to complete it"
+   ],
+   [
+    "C",
+    "Consulted — provides input to the activity"
+   ],
+   [
+    "I",
+    "Informed — kept up to date"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Owns",
+   "items": [
+    "The conditions that let the team succeed — resources, issue resolution",
+    "Facilitation of the agreed agile ceremonies",
+    "The Development Handbook and the Development Work Plan (Responsible)",
+    "The Release Plan, Iteration Plan and Deployment Plan (Responsible)",
+    "The Development Status Report to the Project Manager (Responsible)"
+   ]
+  },
+  {
+   "sec": "Decides",
+   "items": [
+    "How each ceremony is structured, facilitated and time-boxed",
+    "Which obstacles need help from outside the team",
+    "Nothing about scope or priority — it facilitates the team's decision-making"
+   ]
+  },
+  {
+   "sec": "Attends",
+   "items": [
+    "Iteration Planning — supports and facilitates",
+    "Daily Stand-up — facilitates, gives everyone a turn, consolidates the 'meet after'",
+    "Iteration Review — facilitates to the extent the ATeMs require",
+    "Iteration Retrospective — the guide names the TeCo as the right facilitator",
+    "Work Items List refinement and prioritisation — supports when the PrOw asks"
+   ]
+  },
+  {
+   "sec": "Does not do",
+   "items": [
+    "Take on technical management activities — it guides the team through them",
+    "Assign work to team members or monitor them until work is complete",
+    "Set Work Items List priorities or accept work items (Product Owner)",
+    "Organise the Daily Stand-up 'meet after' — that is the ATeMs' sole responsibility",
+    "Replace the Project Manager, who stays accountable for the whole project"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Continuous improvement of the team",
+   "what": "Helps the A-PCT continuously improve their way of working so they become more effective as a team.",
+   "who": "The whole A-PCT; supported by the Retrospective",
+   "pollux": "Lovelace runs a retrospective at the close of every two-week iteration."
+  },
+  {
+   "f": "Collaborative working environment",
+   "what": "Facilitates the collaborative and cooperative working environment within the Agile Project Core Team.",
+   "who": "All A-PCT members, including the seconded contractors",
+   "pollux": "Keeps Curie, Einstein and the three ATeMs working as one team, not three."
+  },
+  {
+   "f": "Facilitates planning and estimation",
+   "what": "Facilitates the planning and estimation activities of the A-PCT without doing the estimating.",
+   "who": "ATeMs estimate; PrOw explains items",
+   "pollux": "Facilitates estimation of the reconciliation-panel items for Release 2."
+  },
+  {
+   "f": "Reports development progress",
+   "what": "Responsible for reporting on work progress to the Project Manager through the Development Status Report.",
+   "who": "Project Manager is Accountable; PrOw informed",
+   "pollux": "Sends you the Development Status Report; Curie is only informed of it."
+  },
+  {
+   "f": "Protects the team's focus",
+   "what": "Ensures the A-PCT can be fully dedicated to delivery-related activities and to achieving the defined goals.",
+   "who": "PM and other stakeholders wanting the team's time",
+   "pollux": "Pushes back when the quarter-end pack drags Babbage into manual spreadsheet work."
+  },
+  {
+   "f": "Facilitates decision making",
+   "what": "Facilitates decision making within the A-PCT rather than making the decisions on the team's behalf.",
+   "who": "ATeMs, PrOw, ArOw",
+   "pollux": "Holds the Einstein-versus-Curie enabler argument to a decision the team owns."
+  },
+  {
+   "f": "Removes obstacles",
+   "what": "Works actively to identify and help with all obstacles preventing the team from achieving the iteration objectives.",
+   "who": "Escalates impediments to the Project Manager",
+   "pollux": "Escalates the delayed national-authority access decision blocking Release 3."
+  },
+  {
+   "f": "Development Handbook",
+   "what": "Responsible for drafting it and ensuring alignment with the Project Handbook, in close collaboration with the Project Manager.",
+   "who": "PM accountable; PrOw, ArOw, ATeM support; BM informed",
+   "pollux": "Baselined the POLLUX Development Handbook on 27 Nov 2028, before the RfE gate."
+  },
+  {
+   "f": "Development Work Plan",
+   "what": "Responsible for collecting data for all activities in the plan, and for the Release Plan in particular.",
+   "who": "PrOw owns the WIL part; ATeMs shape the Iteration Plans",
+   "pollux": "Answers Gantt: WIL plus Release Plan plus Iteration Plan is the schedule."
+  },
+  {
+   "f": "Release Plan and Iteration Plan",
+   "what": "Responsible for developing both; the PrOw supplies the goal and the prioritised list, ATeMs the viability inputs.",
+   "who": "PM accountable for alignment with the Project Charter",
+   "pollux": "Keeps the four POLLUX releases mapped onto the two-week iteration cadence."
+  },
+  {
+   "f": "Deployment Plan",
+   "what": "Responsible for creating it aligned with the release schedule and the project-level Transition Plan.",
+   "who": "PM accountable; operational-unit representative contributes",
+   "pollux": "Aligns deployment with transition into service on 31 Jan 2030."
+  },
+  {
+   "f": "Methodology compliance (shared)",
+   "what": "Guarantees agile values and principles are followed as described in the Development Handbook; the PM keeps the Project Handbook.",
+   "who": "Shared responsibility with the Project Manager",
+   "pollux": "Lovelace owns agile practice; you own PM² method compliance on POLLUX."
+  },
+  {
+   "f": "Facilitator of the ceremonies",
+   "what": "Responsible for facilitating and assuring the team properly conducts Iteration Planning, Review and Retrospective.",
+   "who": "PM attends as a regular Agile Team Member",
+   "pollux": "Facilitates while you sit in as an ordinary team member, not as chair."
+  },
+  {
+   "f": "Hides project management concerns",
+   "what": "Shields the A-PCT from project management overhead so the team can focus on the work's methodology and delivery.",
+   "who": "Interface between A-PCT and the managing layer",
+   "pollux": "Keeps Gantt's reporting requests off the team's iteration board."
+  }
+ ],
+ "traps": [
+  "PM²-Agile does not delete the Project Manager; the TeCo is not a renamed PM.",
+  "TeCo facilitates the Retrospective; ATeMs are Responsible and Accountable for its outputs.",
+  "The Development Status Report runs TeCo to PM; the Product Owner is only informed.",
+  "TeCo does not assign or monitor individual work — the A-PCT self-organises.",
+  "In most ceremony RAM rows the TeCo is Supports (S), never Accountable."
+ ],
+ "pollux_excerpt": {
+  "title": "Ada Lovelace — Team Coordinator, Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Person",
+    "Ada Lovelace, Team Coordinator"
+   ],
+   [
+    "Background",
+    "The Business Analyst from Project CASTOR, promoted"
+   ],
+   [
+    "Facilitates",
+    "Daily Stand-up; Iteration Review and Retrospective on the last day of each two-week iteration"
+   ],
+   [
+    "Responsible for",
+    "Development Handbook and Development Work Plan, baselined 27 Nov 2028"
+   ],
+   [
+    "Reports",
+    "Development Status Report to the PM (you)"
+   ],
+   [
+    "Live conflict",
+    "Conflict 4 — the PM starts treating the Daily Stand-up as a status meeting"
+   ]
+  ]
+ }
+}

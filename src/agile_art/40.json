@@ -1,0 +1,202 @@
+{
+ "n": 40,
+ "id": "software-configuration-management",
+ "name": "Software Configuration Management",
+ "group": "Themes",
+ "one_liner": "Control changes to every artefact and keep the configuration's integrity and traceability.",
+ "purpose": "Developing a solution creates hundreds of artefacts — documents, code files, scripts, deliverables — that need to be managed. In PM²-Agile, Software Configuration Management provides the key activities that consistently control changes to the configuration and maintain its integrity and traceability. It has four primary objectives and a set of process steps, and its development-specific considerations are documented in alignment with the PM² Quality Management Plan.",
+ "guide_page": 38,
+ "meta": [
+  [
+   "Theme",
+   "4.12 — spans guide pages 38 and 39"
+  ],
+  [
+   "Four objectives",
+   "Identify items, simplify builds, maintain quality, increase productivity"
+  ],
+  [
+   "Five steps",
+   "Identification, Change Control, Version Control, Configuration Auditing, Reporting"
+  ]
+ ],
+ "rasci": null,
+ "diagram": [
+  {
+   "sec": "Four primary objectives",
+   "items": [
+    "Identify and manage all items that are part of configuration management",
+    "Simplify the build of different versions of the solution",
+    "Ensure quality is maintained as the configuration evolves",
+    "Increase productivity by reducing mistakes, through automation"
+   ]
+  },
+  {
+   "sec": "The five process steps",
+   "items": [
+    "Identification — uniquely identify each configuration item added to the repository",
+    "Change Control — the existing PM² process for documenting, assessing and approving changes",
+    "Version Control — procedures and tools to manage multiple occurrences of each object",
+    "Configuration Auditing — a quality assurance activity ensuring quality is maintained as changes are made",
+    "Reporting — informs anyone in the project or organisation about the changes that occurred"
+   ]
+  },
+  {
+   "sec": "Typical tailoring activities",
+   "items": [
+    "Assign each configuration item to a specific version of the solution",
+    "Maintain a record of each item — name, creation date, last update, version — for audit purposes",
+    "Describe naming and versioning conventions in compliance with corporate regulations",
+    "Adopt a standard product directory structure for artefacts under version control",
+    "Use synchronisation control so parallel changes do not override each other",
+    "Manage change requests including enhancements and defects from the team and external stakeholders"
+   ]
+  },
+  {
+   "sec": "Environment issues to analyse",
+   "items": [
+    "Anticipated size of product data",
+    "Distribution of the product team",
+    "Physical location of servers and client machines"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Why it exists",
+   "what": "Hundreds of artefacts — documents, code files, scripts, deliverables — are created during development and need to be managed.",
+   "who": "A-PCT",
+   "pollux": "Four releases of portal code, scripts and report definitions."
+  },
+  {
+   "f": "What it provides",
+   "what": "Key activities that consistently control changes to the configuration and maintain its integrity and traceability.",
+   "who": "A-PCT with tooling",
+   "pollux": "Directly answers the audit findings on reporting version control (SC5)."
+  },
+  {
+   "f": "Objective — identify items",
+   "what": "The team must identify all items they need to track — classes, libraries, test scripts, deployment files — and manage them with specific tools.",
+   "who": "ATeMs",
+   "pollux": "Includes the report definitions that used to live in spreadsheets."
+  },
+  {
+   "f": "Objective — simplify builds",
+   "what": "Development is incremental, with versions regularly demonstrated and delivered, so building and delivering a specific version must be easy.",
+   "who": "ATeMs",
+   "pollux": "Any of the four releases can be rebuilt on demand."
+  },
+  {
+   "f": "Objective — maintain quality",
+   "what": "As the configuration evolves, quality is maintained by tracking items, their change history and the impact of those changes.",
+   "who": "ATeMs, PQA",
+   "pollux": "Change impact on exposure figures is traceable, not reconstructed."
+  },
+  {
+   "f": "Objective — increase productivity",
+   "what": "With the right tools, configuration management can be automated until human intervention is residual, reducing mistakes and raising productivity.",
+   "who": "ATeMs",
+   "pollux": "Removes the manual version juggling behind the eleven spreadsheets."
+  },
+  {
+   "f": "Identification",
+   "what": "Uniquely identify each configuration item; an object-oriented approach helps aggregate similar objects using properties like name, version and type.",
+   "who": "ATeMs",
+   "pollux": "Every report definition gets an identity of its own."
+  },
+  {
+   "f": "Change Control",
+   "what": "Already foreseen as a PM² process defining activities related to project changes, including documenting, assessing and approving them.",
+   "who": "PM, Change Control process",
+   "pollux": "Reuses PM² change control rather than inventing an agile substitute."
+  },
+  {
+   "f": "Version Control",
+   "what": "Procedures and tools that let an Agile Team Member collect all relevant configuration objects and build a specific version of the solution.",
+   "who": "ATeMs",
+   "pollux": "The team can rebuild Release 1 exactly while Release 2 is in flight."
+  },
+  {
+   "f": "Configuration Auditing",
+   "what": "A quality assurance activity checking that changes were highlighted, documented and authored, and that procedures were followed.",
+   "who": "Quality assurance",
+   "pollux": "Gives Internal Audit the trail it found missing twice."
+  },
+  {
+   "f": "Reporting",
+   "what": "Details the change initiator, the time and date, the scope of the change and other relevant information, aligned with the Communications Management Plan.",
+   "who": "Project and organisation",
+   "pollux": "Aligned with your project-level communication plan."
+  },
+  {
+   "f": "Steps may not all apply",
+   "what": "As an item moves through the process, some steps may not apply — a configuration script change may need no change request.",
+   "who": "ATeMs",
+   "pollux": "A build script tweak does not go to change control."
+  },
+  {
+   "f": "Alignment with quality",
+   "what": "Development-specific considerations such as tools and templates should be documented in alignment with the PM² Quality Management Plan.",
+   "who": "TeCo, PM, PQA",
+   "pollux": "Recorded in the Development Handbook alongside the tooling choices."
+  },
+  {
+   "f": "Synchronisation control",
+   "what": "Synchronisation control ensures parallel changes will not override each other.",
+   "who": "ATeMs",
+   "pollux": "Matters with a distributed team including a seconded supplier."
+  },
+  {
+   "f": "Environment set-up",
+   "what": "Analyse anticipated product data size, team distribution and the physical location of servers and client machines.",
+   "who": "ArOw, ATeMs, IT operations",
+   "pollux": "Relevant with Levallois Systems staff working alongside ESM's team."
+  },
+  {
+   "f": "Vendor code",
+   "what": "Document how software developed by vendors and subcontractors is incorporated into version control.",
+   "who": "PM, ATeMs, suppliers",
+   "pollux": "Eiffel's Levallois Systems code enters the same repository and rules."
+  }
+ ],
+ "traps": [
+  "Not every configuration item passes every step — a script change may skip Change Control.",
+  "Configuration Auditing is a quality assurance activity, not a version-control step.",
+  "Reporting aligns with the PM² Communications Management Plan.",
+  "Change Control is an existing PM² process, reused rather than reinvented.",
+  "SCM tooling and template choices align with the PM² Quality Management Plan."
+ ],
+ "pollux_excerpt": {
+  "title": "Configuration management on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Problem it solves",
+    "A version-control problem Internal Audit has now named twice"
+   ],
+   [
+    "Success criterion SC5",
+    "Open internal-audit findings on reporting version control: 2 to 0"
+   ],
+   [
+    "Success criterion SC3",
+    "Manually maintained spreadsheets in the reporting chain: 11 to 0"
+   ],
+   [
+    "Items under control",
+    "Code, scripts, deployment files, test scripts, report definitions"
+   ],
+   [
+    "Vendor code",
+    "Levallois Systems work enters the same repository and conventions"
+   ],
+   [
+    "Documented in",
+    "The Development Handbook, aligned with the Quality Management Plan"
+   ]
+  ]
+ }
+}

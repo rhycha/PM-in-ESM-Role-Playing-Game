@@ -1,0 +1,1995 @@
+[
+ {
+  "id": "s19",
+  "act": 3,
+  "actName": "Releases & Closing",
+  "title": "Ninety minutes to put it back",
+  "covers": [
+   "Deployment Plan",
+   "Deployment & Transition"
+  ],
+  "guide_page": 82,
+  "where": "ESM, Kirchberg — IT & Digital, the operations room behind the third-floor server suite",
+  "when": "06 Sep 2029, 14:00",
+  "cast": [
+   "you",
+   "lovelace",
+   "leonardo",
+   "einstein",
+   "babbage"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The operations room has no windows and one clock four minutes fast, which everybody in it has agreed not to fix. Two screens, a printed runbook, and a duty manager who has blocked out the whole afternoon.",
+    "plain": "The operations room has no windows. It has one clock that is four minutes fast, and everybody has agreed not to fix it. There are two screens, a printed runbook, and a duty manager who has kept the whole afternoon free."
+   },
+   {
+    "who": "narr",
+    "text": "The last dry-run before Release 3. The Release 1 cut-over in March overran by forty minutes on the configuration step, and the plan has had a revision history ever since, like a piece of code.",
+    "plain": "This is the last practice run before Release 3. The Release 1 cut-over in March took forty minutes longer than planned, because of the configuration step. Since then the plan has had a revision history, like software.",
+    "g": [
+     [
+      "cut-over",
+      "the planned switch from the old way of working to the new system, at a fixed time"
+     ]
+    ],
+    "ref": [
+     83,
+     "Assure the Operations team can understand the Deployment Plan and successfully deploy, operate and manage the solution in a pre-production environment"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Before anyone opens anything. On the first of February my duty manager owns this at three in the morning and she has never met Charles. Read it to me as if I were her.",
+    "plain": "Before anyone opens anything, I want one thing clear. From 1 February my duty manager owns this system at three in the morning, and she has never met Charles. Read the plan to me as if I were her."
+   },
+   {
+    "who": "lovelace",
+    "text": "Four units in September. Data layer, reconciliation API, portal, and the external gateway, which is new and is why we are in this room three weeks early instead of one.",
+    "plain": "In September there are four deployment units: the data layer, the reconciliation API, the portal, and the external access gateway. The gateway is new. That is why we are testing three weeks early instead of one."
+   },
+   {
+    "who": "babbage",
+    "text": "Portal and API are blue-green. Two of everything, cut the traffic over, cut it back in ninety seconds if it screams. The data layer is not blue-green and never will be. A replica reload is ninety minutes.",
+    "plain": "The portal and the API use two parallel environments. We switch traffic to the new one, and we can switch it back in ninety seconds if there is a problem. The data layer does not work that way and never will. Reloading the replica takes ninety minutes."
+   },
+   {
+    "who": "leonardo",
+    "text": "So my back-out is ninety minutes, not ninety seconds.",
+    "plain": "So putting the old version back takes ninety minutes, not ninety seconds.",
+    "g": [
+     [
+      "back-out procedure",
+      "the agreed steps for putting the old version back if a deployment goes wrong"
+     ]
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Ninety minutes, and the decision is at twenty-two hundred. Not twenty-two thirty while somebody has one more idea. Twenty-two hundred, one name, and the name is the duty manager's, not mine.",
+    "plain": "Ninety minutes, and the decision is made at 22:00. Not at 22:30, while somebody tries one more idea. At 22:00, by one named person, and that person is the duty manager, not me.",
+    "ref": [
+     82,
+     "it is closely related to IT operations such as cut-over, rollbacks, back-out procedures for contingency and risk management"
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "And nothing the gateway does is visible on the twenty-sixth. It deploys dark. What ships that evening and what opens on the twenty-seventh are two different events, and only the first one is yours.",
+    "plain": "Also, nothing the gateway does will be visible on 26 September. It is deployed but switched off. What is installed that evening and what is opened on 27 September are two different events. Only the first one belongs to operations."
+   },
+   {
+    "who": "leonardo",
+    "text": "Good. I have deployed things at midnight that turned out to be policy decisions. Twice.",
+    "plain": "Good. Twice in my career I have installed something at midnight and discovered it was really a policy decision."
+   },
+   {
+    "who": "you",
+    "text": "How does it get validated? Not by us saying it looks right.",
+    "plain": "How do we check the deployment worked? Not by us saying it looks correct."
+   },
+   {
+    "who": "babbage",
+    "text": "One member state's total against last night's reconciled control figure. Match to the cent or the deploy is a failure. And the script picks the member state, because if I fix it to Portugal somebody eventually makes Portugal work.",
+    "plain": "We compare one member state's total against last night's reconciled control figure. If it does not match exactly, the deployment has failed. The script chooses which member state, because if I always used Portugal, somebody would eventually make Portugal work and nothing else.",
+    "g": [
+     [
+      "smoke test",
+      "a few quick checks after deployment to prove the system basically works"
+     ]
+    ],
+    "ref": [
+     82,
+     "Specific stress and performance tests, smoke tests with some key features can verify if a correction is required, possibly resulting in a full roll-back of the deployment"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "And overnight? The load runs at four. If it does not finish, who finds out?",
+    "plain": "And overnight? The data load runs at 04:00. If it does not finish, who finds out?"
+   },
+   {
+    "who": "babbage",
+    "text": "Alert before six. Today it pages me and I answer because it is my model. In February it pages a person who has never seen the model and the alert says load incomplete, which is useless.",
+    "plain": "There is an alert before 06:00. Today it calls me, and I answer, because the data model is mine. In February it will call somebody who has never seen the model, and the alert only says the load is incomplete, which is not useful.",
+    "ref": [
+     82,
+     "The goal is to identify potential issues before they become real problems and jeopardize the correct system deployment and operation"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Then that is a work item, not a promise. Rewrite the alert so it names the step and the last good batch, and it goes in the list tonight with Charles's name on it.",
+    "plain": "Then that is a work item, not a promise. Rewrite the alert so that it names the failed step and the last successful batch. It goes in the Work Items List tonight with Charles's name on it.",
+    "ref": [
+     83,
+     "Revisit the Deployment Plan as the project evolves and feedback from previous deployment efforts is gathered"
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "There is a worse one and it is not ours. The lending platform takes its maintenance window on the last Wednesday of the quarter. That is the twenty-sixth.",
+    "plain": "There is a bigger problem, and it is not ours. The lending platform has its maintenance window on the last Wednesday of each quarter. That is 26 September."
+   },
+   {
+    "who": "narr",
+    "text": "Nobody says anything. Babbage puts both hands flat on the desk, which is what he does instead of swearing.",
+    "plain": "Nobody speaks. Babbage puts both hands flat on the desk. That is what he does instead of swearing."
+   },
+   {
+    "who": "babbage",
+    "text": "Then the four o'clock load reads a platform that is halfway through a patch, the replica gets yesterday's positions, and the smoke test fails correctly. Which is the worst kind of failure, because everything worked.",
+    "plain": "Then the 04:00 load reads a platform that is in the middle of being patched. The replica gets yesterday's positions. The smoke test then fails, and it fails correctly. That is the worst kind of failure, because every part worked as designed."
+   },
+   {
+    "who": "you",
+    "text": "The platform does not move for us. It is Lending Operations' system of record and it has its own release calendar and its own steering committee, and we are the dependency, not them.",
+    "plain": "The lending platform will not change its window for us. It is Lending Operations' official system, with its own release calendar and its own steering committee. We depend on it. It does not depend on us.",
+    "ref": [
+     40,
+     "Deployment and transition activities are also crucial to ensure that dependencies with other projects and/or information systems are taken into consideration"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Then we deploy on the twenty-fifth and hold. Two days dark instead of one. Ada, that is a change to your plan and I would like it written down rather than remembered by the four of us.",
+    "plain": "Then we deploy on 25 September and wait. The system stays switched off for two days instead of one. Ada, that is a change to your plan. I want it written down, not just remembered by the four of us."
+   },
+   {
+    "who": "lovelace",
+    "text": "Revision five, tonight, and it goes to your duty manager before it goes to anyone else. She is the only reader who matters. If she cannot run it without ringing Charles, it is not a plan, it is a note.",
+    "plain": "It will be revision five, written tonight. It goes to your duty manager before anyone else. She is the only reader who matters. If she cannot follow it without telephoning Charles, then it is not a plan. It is a note.",
+    "ref": [
+     82,
+     "Contributes by bringing information related to operational processes and infrastructure, checking the feasibility, effectiveness and efficiency of the Deployment Plan and associated risks"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Last thing, and it is the one I actually came for. Eleven national authorities. Accounts, a first-line support route, and somebody who answers a telephone at seven in the morning in a language that is not Luxembourgish. Where is that in your plan?",
+    "plain": "One last point, and it is the reason I came. There are eleven national authorities. They need accounts, a support route for first contact, and somebody who answers the telephone at 07:00 in a language other than Luxembourgish. Where is that in your plan?"
+   },
+   {
+    "who": "lovelace",
+    "text": "It is not.",
+    "plain": "It is not in my plan.",
+    "mood": "flat"
+   },
+   {
+    "who": "you",
+    "text": "And it should not be. Ada's plan puts software on your infrastructure and proves it landed. Training eleven supervisors and standing up a support desk is the Transition Plan and the Business Implementation Plan, which is Grace's side of the house and which exists.",
+    "plain": "And it should not be. Ada's plan puts software onto your infrastructure and proves it arrived correctly. Training eleven supervisors and setting up a support desk belongs to the Transition Plan and the Business Implementation Plan. That is Grace's side of the organisation, and those documents exist.",
+    "g": [
+     [
+      "Transition Plan",
+      "the PM2 document covering how the client organisation gets ready: training, support, communication"
+     ]
+    ],
+    "ref": [
+     82,
+     "The PM2 Transition Plan and Business Implementation Plan complement the Deployment Plan by covering the strategy to ensure that the client organisation is ready to use the system (training, support, etc.)"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Two documents, then. I would rather two documents with owners than one with none. Send me both and I will tell you which of my people is wrong about which.",
+    "plain": "Two documents, then. I prefer two documents with named owners to one document with no owner. Send me both and I will tell you which of my staff is wrong about which one."
+   },
+   {
+    "who": "einstein",
+    "text": "Gustave asked me in January why we were writing a deployment plan for a pipeline that deploys itself. I did not have an answer then. It is this room.",
+    "plain": "In January, Gustave asked me why we were writing a deployment plan when the pipeline deploys automatically. I had no answer then. The answer is this room."
+   },
+   {
+    "who": "narr",
+    "text": "Sixteen forty. The dry-run ran twice, cleanly, and the second time the duty manager drove it and Babbage sat with his hands in his pockets, which was the point of the afternoon.",
+    "plain": "It is 16:40. The practice run was done twice, with no problems. The second time the duty manager ran it herself, and Babbage stood with his hands in his pockets. That was the purpose of the afternoon."
+   }
+  ],
+  "choice": {
+   "prompt": "Eleven national authorities need accounts, training and a support route before 27 September. Where does that work belong, and who writes it?",
+   "promptPlain": "Eleven national authorities need accounts, training and a support route before 27 September. Where does that work belong, and who writes it?",
+   "options": [
+    {
+     "t": "Not in the Deployment Plan. That plan stays technical — deploy, validate, monitor — written by Lovelace with the operations representative. Training and support go in the PM² Transition Plan and Business Implementation Plan.",
+     "tPlain": "It does not go in the Deployment Plan. That plan stays technical: deploy, validate, monitor. Lovelace writes it with the operations representative. Training and support belong in the PM2 Transition Plan and Business Implementation Plan.",
+     "ok": true,
+     "reply": {
+      "who": "you",
+      "text": "Grace has had a Business Implementation Plan since November with eleven supervisors in it by name. Every few months somebody tries to fold it into a technical document, where nobody will read it.",
+      "plain": "Grace has had a Business Implementation Plan since November, with eleven supervisors named in it. Every few months somebody tries to merge it into a technical document, where nobody will read it."
+     },
+     "why": "The Deployment Plan defines the strategy, roles and tasks needed for IT operations to deploy, run and manage the system, and because it focuses on the technical aspects it lives next to cut-over, rollbacks and back-out procedures (p.82). The guide is explicit that the PM² Transition Plan and Business Implementation Plan complement it by covering the client organisation's readiness — training, support. Two artefacts, two owners, one release. The TeCo is Responsible for the Deployment Plan and the PM Accountable, with a representative of the operational unit contributing (p.83).",
+     "whyPlain": "The Deployment Plan sets out the strategy, the roles and the tasks that let IT operations deploy, run and manage the system. Because it is technical, it sits beside cut-over, rollback and back-out procedures (page 82). The guide says clearly that the PM2 Transition Plan and Business Implementation Plan complete the picture by covering whether the client organisation is ready: training and support. Two documents, two owners, one release. The Team Coordinator is Responsible for the Deployment Plan and the Project Manager is Accountable, with someone from the operational unit contributing (page 83).",
+     "ref": [
+      83,
+      "Deployment Plan I A R S S S"
+     ]
+    },
+    {
+     "t": "Put it all in the Deployment Plan. One release, one document, one owner — operations should not have to read three files on the night.",
+     "tPlain": "Put everything in the Deployment Plan. One release, one document, one owner. Operations should not have to read three files on the night.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "Then my duty manager opens a fifty-page file at half past nine looking for the configuration order and reads six pages about a training course in Riga. She will stop reading. They always stop reading.",
+      "plain": "Then my duty manager opens a fifty-page file at 21:30, looking for the order of configuration steps, and finds six pages about a training course in Riga. She will stop reading. People always stop reading."
+     },
+     "why": "The Deployment Plan must have enough detail to allow the IT operations team to deploy, run and manage the system, and its three prescribed sections are Deployment in Production, Validate the Solution, and Monitor, Report and Respond to problems (p.82). Nothing in those three sections is about people's readiness. Merging the two does not create one owner; it hides the business-readiness work inside a document owned by a technical role who cannot deliver it, on a night when nobody has time to read it.",
+     "whyPlain": "The Deployment Plan must contain enough detail for the IT operations team to deploy, run and manage the system. Its three required sections are Deployment in Production, Validate the Solution, and Monitor, Report and Respond to problems (page 82). None of those sections is about whether people are ready. Merging the two documents does not create a single owner. It hides the business readiness work inside a technical document, owned by someone who cannot deliver it, and read on a night when nobody has time.",
+     "ref": [
+      82,
+      "The Deployment Plan should include the following sections"
+     ]
+    },
+    {
+     "t": "Hand the whole Deployment Plan to Leonardo's operations team to write. They run production, they carry the pager, and they know their own infrastructure better than the Team Coordinator does.",
+     "tPlain": "Give the whole Deployment Plan to Leonardo's operations team to write. They run production, they carry the pager, and they know their own infrastructure better than the Team Coordinator does.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "text": "They know the infrastructure. They do not know that the gateway ships dark, or which of four units can be reversed in ninety seconds, or why the smoke test picks the member state at random. Those are three weeks of our arguments.",
+      "plain": "They know the infrastructure. They do not know that the gateway is installed switched off, or which of the four units can be reversed in ninety seconds, or why the smoke test chooses the member state at random. Those points come from three weeks of our discussions."
+     },
+     "why": "The RAM gives the Team Coordinator Responsible and the Project Manager Accountable, with the Agile Team Members, Architecture Owner and Product Owner supporting; the operational unit representative contributes but does not own it (p.82–83). The reason is alignment: the TeCo writes it against the Development Work Plan's release schedule and against the project-level Transition Plan. Where the organisation is siloed with an independent IT Operations department, the guide's answer is that operations must be integrally involved — involved, not handed the pen.",
+     "whyPlain": "In the responsibility table, the Team Coordinator is Responsible and the Project Manager is Accountable. The team members, Architecture Owner and Product Owner support. The operations representative contributes but does not own the plan (pages 82 and 83). The reason is alignment: the Team Coordinator writes it against the release schedule in the Development Work Plan and against the project's Transition Plan. Where operations is a separate department, the guide says operations must be fully involved. Involved is not the same as being given the pen.",
+     "ref": [
+      82,
+      "Responsible for creating the Deployment Plan aligned with the Development Work Plan (Release Schedule) and with the project-level Transition Plan"
+     ]
+    },
+    {
+     "t": "Drop the separate plan. The continuous delivery pipeline is the deployment plan — it is defined in code, it is in the Development Handbook, and a document will only go stale.",
+     "tPlain": "Do not keep a separate plan. The continuous delivery pipeline is the deployment plan. It is defined in code, it is described in the Development Handbook, and a document will only become out of date.",
+     "ok": false,
+     "reply": {
+      "who": "babbage",
+      "text": "The pipeline has never once decided at twenty-two hundred whether to put ninety minutes of data back. It cannot. That decision has a person's name on it and the name is not in any repository.",
+      "plain": "The pipeline has never had to decide, at 22:00, whether to spend ninety minutes restoring the data. It cannot make that decision. That decision has a person's name attached to it, and that name is not stored in any repository."
+     },
+     "why": "The guide treats the pipeline as a strategic decision that must itself be described and validated in the Deployment Plan — the pipeline is content of the plan, not a substitute for it (p.83). The plan carries what no pipeline holds: the back-out decision and its owner, the validation criteria, the monitoring and escalation route, and the operational unit's confirmation that it can run the thing. It is also a living artefact, revisited as feedback from previous deployments arrives — which is precisely why revision five exists.",
+     "whyPlain": "The guide treats the pipeline as a strategic decision that must be described and validated inside the Deployment Plan. The pipeline is part of the plan's content, not a replacement for it (page 83). The plan holds what no pipeline holds: the back-out decision and who takes it, the validation criteria, the monitoring and escalation route, and the operations team's confirmation that they can run it. It is also a living document, updated as feedback from earlier deployments arrives. That is exactly why revision five exists.",
+     "ref": [
+      83,
+      "The setup of a Continuous Delivery Pipeline is a strategic decision that must be described and validated in the plan"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Accountable for the Deployment Plan and for its alignment with the transition activities.",
+    "k": "Knows the lending platform's maintenance window collides with the Release 3 load.",
+    "w": "Wants the technical plan and the readiness plan kept apart, with a named owner each.",
+    "f": "Afraid the business-readiness work survives only because Hopper remembers it."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Responsible for the Deployment Plan; writes revision five tonight.",
+    "k": "Knows the plan's real reader is a duty manager who has never met the data model.",
+    "w": "Wants the dry-run driven by operations, not by Babbage with an audience.",
+    "f": "Afraid the plan reads as a note and gets improvised at twenty-two hundred."
+   },
+   "leonardo": {
+    "o": "Solution Provider, Head of IT & Digital. Supplies the operational unit representative.",
+    "k": "Knows his duty manager owns this at three in the morning from the first of February.",
+    "w": "Wants a plan his own people can execute without telephoning the project team.",
+    "f": "Afraid of deploying something at midnight that turns out to be a policy decision."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Supports the deployment approach; named the platform dependency.",
+    "k": "Knows the gateway can deploy dark, separating what ships from what opens.",
+    "w": "Wants deployment and opening treated as two events with two different owners.",
+    "f": "Afraid a dependency nobody owns is discovered on the night of a cut-over."
+   },
+   "babbage": {
+    "o": "Agile Team Member, data engineer. Supports with the load, the alert and the smoke test.",
+    "k": "Knows the replica reload is ninety minutes and cannot be made faster by wanting it.",
+    "w": "Wants the alert to name the step and the last good batch before he stops answering it.",
+    "f": "Afraid he is still the escalation path in March because nobody replaced him."
+   }
+  },
+  "unlock": [
+   20
+  ],
+  "note": "Guide check: section 7.2.4, pp.82-83, with the Deployment & Transition theme at section 4.14, p.40. The Deployment Plan defines the strategy, roles and responsibilities and tasks needed so the information system can be deployed, run and managed by the IT operations team; because it focuses on the technical aspects it sits close to cut-over, rollbacks and back-out procedures for contingency and risk management. It has three prescribed sections: Deployment in Production, Validate the Solution, and Monitor, Report and Respond to problems. It must carry enough detail for operations to work from, and it pairs with the Operational Model. The PM² Transition Plan and Business Implementation Plan complement it by covering the client organisation's readiness — training, support. Guidelines: compatible with the Development Handbook, with the continuous delivery pipeline itself described and validated in the plan; DevSecOps, or integral involvement of IT Operations where the organisation is siloed; a living artefact revisited as deployment feedback arrives; aligned with the Release Plan; and tested first, with the operations team deploying it in pre-production. RASCI p.83: BM I, PM A, TeCo R, PrOw S, ArOw S, ATeM S, plus a representative of the relevant operational unit contributing. The theme at p.40 adds that deployment and transition activities must account for dependencies with other projects and information systems. Pages 40, 82-83.",
+  "notePlain": "Rule: the Deployment Plan sets out the strategy, the roles and responsibilities, and the tasks needed so the IT operations team can deploy, run and manage the system (page 82). It is a technical document, so it deals with cut-over, rollbacks and back-out procedures. It has three required sections: Deployment in Production, Validate the Solution, and Monitor, Report and Respond to problems. It must be detailed enough for operations to use, and it works together with the Operational Model. The PM2 Transition Plan and Business Implementation Plan complete it by covering whether the client organisation is ready, which means training and support (page 82). The guidelines say: it must fit the Development Handbook, and the continuous delivery pipeline must itself be described and checked in the plan; IT operations must be fully involved when they are a separate department; the plan is a living document, updated as feedback from earlier deployments arrives; it must line up with the Release Plan; and it must be tested first, with operations deploying it in a pre-production environment (page 83). Who is who: the Team Coordinator is Responsible, the Project Manager is Accountable, the Business Manager is Informed, and a representative of the operations unit contributes (page 83). The theme on page 40 adds that deployment and transition work must take account of dependencies on other projects and systems. Pages 40, 82 and 83."
+ },
+ {
+  "id": "s20",
+  "act": 3,
+  "actName": "Releases & Closing",
+  "title": "Nine of eleven",
+  "covers": [
+   "Releases",
+   "Transition Iteration"
+  ],
+  "guide_page": 21,
+  "where": "ESM, Kirchberg — the long room, fourth floor",
+  "when": "20 Sep 2029, 09:00",
+  "cast": [
+   "you",
+   "curie",
+   "lovelace",
+   "brandeis",
+   "turing",
+   "hopper"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "One week to the twenty-seventh. On the wall, three iterations laid end to end: sixteen, seventeen, eighteen, ninety-one points accepted between them, and a release that is the sum of all three and the output of none.",
+    "plain": "There is one week left before 27 September. On the wall are three iterations side by side: 16, 17 and 18. Together they delivered 91 accepted points. The release is the total of all three. It is not the output of any single one.",
+    "ref": [
+     21,
+     "A Release is the result of the incremental process applied throughout several iterations, as the team releases the solution as a viable product (or a Minimum Viable Product) that is ready to be used by the stakeholders"
+    ],
+    "g": [
+     [
+      "Minimum Viable Product",
+      "the smallest version of a solution that is genuinely usable by stakeholders"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "The overlay was accepted on the thirty-first of August. The gateway was accepted last Friday. Everything in Release 3 has been demonstrated, accepted and deployed, and none of it is a release yet.",
+    "plain": "The scenario overlay was accepted on 31 August. The external gateway was accepted last Friday. Everything in Release 3 has been demonstrated, accepted and installed. None of it is a release yet."
+   },
+   {
+    "who": "turing",
+    "text": "Because it is dark. Two-six-three has been in production since Tuesday of last week with the switch down and eleven supervisors who cannot tell it exists.",
+    "plain": "That is because it is switched off. Work item 263 has been in production since Tuesday of last week, with the switch off. The eleven national supervisors cannot tell that it exists.",
+    "g": [
+     [
+      "feature flag",
+      "a switch in the code that hides finished work until somebody turns it on"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Which is the only reason this meeting is calm. The release is the twenty-seventh because that is the day I say a supervisor may look at it. Not the day it shipped.",
+    "plain": "That is the only reason this meeting is calm. The release date is 27 September because that is the day I say a supervisor may look at it. It is not the day the code was installed."
+   },
+   {
+    "who": "brandeis",
+    "text": "Then say it in my language. On the twenty-seventh, personal data held by this institution becomes readable by a public authority in another member state. What permits that, in writing, signed, per authority?",
+    "plain": "Then say it in my terms. On 27 September, personal data held by this institution becomes readable by a public authority in another member state. What permits that? I want it in writing, signed, for each authority."
+   },
+   {
+    "who": "you",
+    "text": "An administrative arrangement each. Eleven drafted in June, nine signed, two not. Estonia is with their legal service and Cyprus has asked for a change to clause four.",
+    "plain": "Each authority signs an administrative arrangement. Eleven were drafted in June. Nine are signed and two are not. Estonia's is with their legal service, and Cyprus has asked for a change to clause four.",
+    "g": [
+     [
+      "legal basis",
+      "the written legal ground that allows personal data to be shared with someone"
+     ]
+    ]
+   },
+   {
+    "who": "brandeis",
+    "text": "Then nine.",
+    "plain": "Then nine authorities, not eleven.",
+    "mood": "flat"
+   },
+   {
+    "who": "hopper",
+    "text": "Louis, the code is identical. It costs nothing to open eleven and it costs me a paragraph to explain nine.",
+    "plain": "Louis, the software is the same for all of them. Opening it to eleven costs nothing. Explaining nine costs me a paragraph."
+   },
+   {
+    "who": "brandeis",
+    "text": "It costs nothing until March, when somebody asks on what basis Tallinn read a Lithuanian position, and the honest answer is that the switch was one switch. Nine.",
+    "plain": "It costs nothing until March. Then somebody asks on what basis Tallinn read a Lithuanian position, and the honest answer is that there was only one switch. Nine."
+   },
+   {
+    "who": "lovelace",
+    "text": "The switch is per authority. It has been per authority since the fifth, because Alan made it a condition in refinement and Hedy built it in a day and a half.",
+    "plain": "The switch works separately for each authority. It has done since 5 September, because Alan required it during refinement and Hedy built it in a day and a half."
+   },
+   {
+    "who": "turing",
+    "text": "I made it a condition because a single switch is a single mistake. And before anyone turns any of the nine on, I want the row filter proved by somebody who did not write it.",
+    "plain": "I required it because one switch means one possible mistake. And before anyone turns on any of the nine, I want the row-level filter tested by somebody who did not build it."
+   },
+   {
+    "who": "turing",
+    "text": "And before you say it, I know. Line four of the Definition of Done says the team tested it. I am asking for a different thing, once, for this release only, because this release is the first one where being wrong is not an internal matter.",
+    "plain": "And before you say it, I know. Line four of the Definition of Done says the team tested it. I am asking for something different, once, for this release only. This is the first release where a mistake would not stay inside the institution.",
+    "ref": [
+     22,
+     "Depending on the solution being built, additional levels of formalism and validation may be required"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Security Assurance ran it Monday and Tuesday. Four hundred and twelve queries as a Lithuanian account, none of them mine, none of them Hedy's. Two got more than Lithuania.",
+    "plain": "The Security Assurance team ran the test on Monday and Tuesday. They made 412 queries using a Lithuanian account. Nobody from our team was involved. Two of those queries returned more than Lithuania.",
+    "ref": [
+     64,
+     "some organisations require projects' software to be validated by a quality assurance team, working in parallel with the Agile Project Core Team (A-PCT)"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Hopper stops writing. Brandeis does not look surprised, which is worse than looking surprised.",
+    "plain": "Hopper stops writing. Brandeis does not look surprised, which is worse than if he did."
+   },
+   {
+    "who": "lovelace",
+    "text": "Both in the maturity aggregate. Buckets over ten years pooled across the whole book before the filter ran, so the total leaked the shape of Portugal. Fixed Wednesday, retested Thursday morning, four hundred and twelve clean.",
+    "plain": "Both problems were in the maturity totals. Buckets over ten years were combined across the whole portfolio before the filter was applied, so the total revealed the shape of Portugal's position. It was fixed on Wednesday, retested on Thursday morning, and all 412 queries were then clean."
+   },
+   {
+    "who": "brandeis",
+    "text": "That is the finding I would have written in October. I would rather have it on a Wednesday. And the amendment record?",
+    "plain": "That is exactly the finding I would have written in October. I prefer to have it on a Wednesday. And what about the amendment record?"
+   },
+   {
+    "who": "lovelace",
+    "text": "External readers see a role and a date. Loan Operations Officer, eleventh of March. Internal readers see the staff identifier, as before. Two views of one record, and the screening signed on the sixth.",
+    "plain": "External readers see a role and a date: Loan Operations Officer, 11 March. Internal readers still see the staff identifier, as before. There are two views of one record. The data protection screening was signed on 6 September."
+   },
+   {
+    "who": "turing",
+    "text": "In December of last year I said the feed goes one way and there is no path back into the platform, and that I would quote it at you in 2030. I am early. Nothing on the gateway writes.",
+    "plain": "In December last year I said that the data feed goes only one way, with no path back into the lending platform, and that I would repeat it to you in 2030. I am early. Nothing on the gateway can write data."
+   },
+   {
+    "who": "hopper",
+    "text": "So on the twenty-seventh I have nine authorities, a scenario overlay Risk has wanted since April, and two member states I have to telephone myself.",
+    "plain": "So on 27 September I have nine authorities, a scenario overlay that Risk has wanted since April, and two member states that I must telephone myself."
+   },
+   {
+    "who": "curie",
+    "text": "Release 3 is delivered on the twenty-seventh. The benefit for two of the eleven is not. Those are different sentences, Grace, and if you merge them upstairs you will be explaining it again in November.",
+    "plain": "Release 3 is delivered on 27 September. The benefit for two of the eleven authorities is not delivered. Those are two different statements. If you combine them upstairs, Grace, you will have to explain it again in November."
+   },
+   {
+    "who": "lovelace",
+    "text": "There is training in this too, and it is not code. Eleven half-days, nine of them now, and support cover from seven. That is not iteration 18's work, so I am splitting the team.",
+    "plain": "There is also training, and that is not software work. Eleven half-day sessions, nine of them now, plus support cover from 07:00. That is not the work of iteration 18, so I am splitting the team.",
+    "ref": [
+     22,
+     "the process of releasing may require some additional preparation and some extra activities (training users, fixing a critical bug, etc.)"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Gustave and Charles on release work to the twenty-seventh. Hedy and Albert stay on the builder, because December does not move for September. Two halves of one team, one plan, one stand-up.",
+    "plain": "Gustave and Charles work on the release until 27 September. Hedy and Albert continue on the self-service builder, because the December date does not move for September. Two halves of one team, one plan, one stand-up meeting.",
+    "ref": [
+     22,
+     "An Agile team may also be split into two sub-teams that work together in parallel"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And in January the whole team does that work and nothing else. That iteration is planned like every other one — goal, list, review, retrospective — it just contains no new features.",
+    "plain": "And in January the whole team does that kind of work and nothing else. That iteration is planned like any other one, with a goal, a list, a review and a retrospective. It simply contains no new features.",
+    "g": [
+     [
+      "Transition Iteration",
+      "an iteration spent preparing a release for use instead of building new features"
+     ]
+    ],
+    "ref": [
+     22,
+     "It remains an iteration and as such, it should be carried out just like a regular one (proper ceremonies, Iteration Planning with a Work Items List, etc.)"
+    ]
+   },
+   {
+    "who": "brandeis",
+    "text": "Send me the two arrangements when they come back. And do not open Estonia because it is Friday and the switch is right there.",
+    "plain": "Send me the two arrangements when they are signed. And do not open Estonia just because it is Friday and the switch is easy to reach."
+   },
+   {
+    "who": "curie",
+    "text": "Nobody touches the switch but me, and I do it at nine on the twenty-seventh with Alan in the room. Nine authorities. I will write the two names on the board so we all have to look at them.",
+    "plain": "Nobody touches the switch except me. I will do it at 09:00 on 27 September, with Alan present. Nine authorities. I will write the two missing names on the board so that we all have to look at them.",
+    "ref": [
+     22,
+     "specific requirements may require additional validation steps to ensure that the Release is indeed fully compliant with the agreed Definition of Done"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "She writes them in the corner. Estonia, Cyprus. They stay there until the eighth of November, when one of them comes off, and the board is photographed on the day the other one does.",
+    "plain": "She writes them in the corner: Estonia, Cyprus. They stay there until 8 November, when one is removed. The board is photographed on the day the second one is removed."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Chased eleven administrative arrangements; carries the two unsigned ones.",
+    "k": "Knows independent testing found two leaks in the maturity aggregate before an auditor did.",
+    "w": "Wants the release delivered on the date and the two gaps named separately.",
+    "f": "Afraid the two unsigned arrangements are read upstairs as a late release."
+   },
+   "curie": {
+    "o": "Product Owner. Decides when the release opens, and to whom.",
+    "k": "Knows a release is the sum of three iterations and none of them is a release.",
+    "w": "Wants nine authorities open on the twenty-seventh and the other two visible on the wall.",
+    "f": "Afraid delivered and useful are reported as the same word."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Splits the team into release work and December work.",
+    "k": "Knows the per-authority switch and the two-view amendment record both already exist.",
+    "w": "Wants training, support cover and the builder to progress without one eating the other.",
+    "f": "Afraid a split team becomes two teams that stop attending one stand-up."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Signed the screening on the sixth; holds the per-authority basis.",
+    "k": "Knows nine arrangements are signed and two are not, and which clause is disputed.",
+    "w": "Wants the switch opened only where a signed arrangement exists.",
+    "f": "Afraid convenience opens eleven and a question in March finds no basis for two."
+   },
+   "turing": {
+    "o": "Local Information Security Officer. Required the per-authority switch and independent testing.",
+    "k": "Knows 412 queries were run by people who did not build the filter, and two got through.",
+    "w": "Wants the row-level filter proved rather than asserted before anything opens.",
+    "f": "Afraid one switch would have made one mistake into eleven."
+   },
+   "hopper": {
+    "o": "Business Manager. Runs the training and support side; telephones the two authorities.",
+    "k": "Knows Risk has waited for the overlay since April and gets it on the twenty-seventh.",
+    "w": "Wants one clean sentence for the Project Owner about what opened and what did not.",
+    "f": "Afraid nine of eleven reads upstairs as a release that slipped."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 3.3.3, pp.21-22, with the independent tester at p.64. A Release is the result of the incremental process applied across several iterations: the team releases the solution as a viable product, or a Minimum Viable Product, ready to be used by the stakeholders. By default the continuous exposure of work items plus demonstrated and validated iteration results already enables a solid release, but depending on the solution additional levels of formalism and validation may be required, and specific requirements may demand extra validation steps to confirm the release is fully compliant with the agreed Definition of Done. Complex releases may need extra preparation and activities — training users, fixing a critical bug, extra functional, performance, load, system and integration testing, documenting the system, training support personnel, updating the Development or Deployment Plan — which can be planned as a Transition Iteration. A Transition Iteration is still an iteration: proper ceremonies, Iteration Planning, a Work Items List. The team may decide no new features are developed in it, and an agile team may be split into two sub-teams working in parallel, one on release activities and one on the follow-on release. One Transition Iteration may not be enough. Page 64 allows an independent quality assurance team working in parallel with the A-PCT where the organisation requires it. Pages 21-22, 64.",
+  "notePlain": "Rule: a release is the result of the step-by-step work of several iterations. The team gives the stakeholders a usable product, or a minimum usable product, that is ready to be used (page 21). Normally the constant showing of work items and the accepted iteration results are enough to make a solid release. But depending on what is being built, more formality and more checking may be needed, and some requirements need extra validation steps to prove the release fully meets the agreed Definition of Done (page 22). A complex release may need extra preparation: training users, fixing a serious defect, extra performance, load, system and integration testing, writing documentation, training support staff, and updating the Development or Deployment Plan. This work can be planned as a Transition Iteration. A Transition Iteration is still a normal iteration, with the usual ceremonies, an Iteration Planning session and a Work Items List. The team may decide to build no new features in it. The team may also split into two groups working at the same time, one on release work and one on the next release. One Transition Iteration may not be enough (page 22). Page 64 allows an independent quality team to check the software in parallel with the team where the organisation requires it. Pages 21, 22 and 64."
+ },
+ {
+  "id": "s21",
+  "act": 3,
+  "actName": "Releases & Closing",
+  "title": "The same four logs",
+  "covers": [
+   "Project Logs",
+   "Project Reports"
+  ],
+  "guide_page": 85,
+  "where": "ESM, Kirchberg — Project Support Office, second floor",
+  "when": "04 Oct 2029, 16:30",
+  "cast": [
+   "you",
+   "gantt",
+   "lovelace",
+   "gutenberg",
+   "deming"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The third-quarter progress report is due on Tuesday. Gantt has the shell of it open and a second window with the CASTOR one from 2027 beside it, for the section numbers, which is how everything in this building gets written.",
+    "plain": "The progress report for the third quarter is due on Tuesday. Gantt has an empty version of it open, with the CASTOR report from 2027 in a second window, so he can copy the section numbers. That is how everything in this building gets written."
+   },
+   {
+    "who": "gutenberg",
+    "text": "I am not here about the report. I am here because I have been asked to build the closing archive and I have found two sets of logs, and I have never once seen two sets of anything end well.",
+    "plain": "I am not here about the report. I am here because I have been asked to build the closing archive. I have found two sets of logs, and I have never seen two sets of anything end well."
+   },
+   {
+    "who": "lovelace",
+    "text": "There is one set.",
+    "plain": "There is only one set."
+   },
+   {
+    "who": "gutenberg",
+    "text": "There is a risk log in the project space with fourteen entries and a board in your tool with a column called risks that has nine cards in it, four of which are not in the fourteen.",
+    "plain": "There is a risk log in the project space with fourteen entries. There is also a board in your tool with a column called risks that has nine cards. Four of those cards are not in the fourteen."
+   },
+   {
+    "who": "lovelace",
+    "text": "Then four of them are still ours and have not moved. A card in that column is a thing the team is watching. When it stops being something we can settle in a fortnight it goes to the fourteen, with a number, and after that it belongs to the project.",
+    "plain": "Then four of them are still ours and have not moved yet. A card in that column is something the team is watching. When it becomes something we cannot settle within two weeks, it goes into the fourteen, with a number, and after that it belongs to the project."
+   },
+   {
+    "who": "you",
+    "text": "R-03 was one of them. Charles knows the load model and nobody else does. It sat on their board for two iterations, came across in March, and the mitigation was pairing from iteration five, which is why Hedy can run a reload now.",
+    "plain": "R-03 was one of those. Charles understands the data load model and nobody else does. It stayed on the team board for two iterations, moved across in March, and the mitigation was pairing from iteration 5. That is why Hedy can now run a reload herself.",
+    "ref": [
+     85,
+     "the Agile Project Core Team (A-PCT) should also document and manage domain-specific risks, issues, decisions and changes"
+    ]
+   },
+   {
+    "who": "gutenberg",
+    "text": "And the templates? Because if you have invented an agile risk log I have to describe it in the retention schedule, and I would rather not invent a document class for one project.",
+    "plain": "And what about the templates? If you have invented a new agile risk log, I must describe it in the retention schedule. I would rather not create a new document class for one project.",
+    "g": [
+     [
+      "retention schedule",
+      "the rule saying how long each document must be kept before it is destroyed"
+     ]
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "They are the CASTOR templates. Unchanged. I checked in January because I expected an argument and did not get one.",
+    "plain": "They are the CASTOR templates, unchanged. I checked in January because I expected an argument, and there was not one.",
+    "ref": [
+     85,
+     "As a starting point, the PM2 related Management Plans and the PM2 associated artefacts can be used to ensure that information regarding domain-specific risks, issues, decisions, and changes are properly managed"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Same four. Risk log against the Risk Management Plan, issue log against the issues plan, decision log on its own, change log with the change plan and the request form. What is different is who writes the entries.",
+    "plain": "The same four logs. The risk log goes with the Risk Management Plan, the issue log with the issues plan, the decision log stands alone, and the change log goes with the change plan and the change request form. What is different is who writes the entries.",
+    "g": [
+     [
+      "Decision Log",
+      "the record of decisions taken, with who took them and why"
+     ]
+    ]
+   },
+   {
+    "who": "gutenberg",
+    "text": "Two more than CASTOR had.",
+    "plain": "You have two logs that CASTOR did not have."
+   },
+   {
+    "who": "lovelace",
+    "text": "Testing log and retrospectives log. The testing one points at the test plans and the acceptance plan, one entry per release, and Release 2 closed with no reconciliation differences, which I would like read out at my funeral.",
+    "plain": "Yes: the testing log and the retrospectives log. The testing log refers to the test plans and the deliverables acceptance plan, with one entry per release. Release 2 closed with no reconciliation differences, and I would like that read out at my funeral.",
+    "g": [
+     [
+      "Testing Log",
+      "the record of testing, referenced to the Test Plans and the Deliverables Acceptance Plan"
+     ]
+    ],
+    "ref": [
+     85,
+     "Testing Log Test Plans and Deliverables Acceptance Plan"
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "And the retrospectives log points at the Project-End Report. Not at the status report. That column has said so since November and nobody in this project has looked at it.",
+    "plain": "And the retrospectives log refers to the Project-End Report. It does not refer to the status report. That column has said so since November, and nobody on this project has looked at it.",
+    "ref": [
+     85,
+     "Retrospectives Log Project-End Report"
+    ]
+   },
+   {
+    "who": "gutenberg",
+    "text": "Eighteen entries in it.",
+    "plain": "It contains eighteen entries."
+   },
+   {
+    "who": "deming",
+    "text": "Twenty-six in February. Ask me then. Not today, because today you will get the wrong answer and it will be short.",
+    "plain": "There will be twenty-six by February. Ask me then, not today. Today you would get the wrong answer, and it would be a short one."
+   },
+   {
+    "who": "gutenberg",
+    "text": "Then one thing today. Your board tool is a contract that ends on the thirty-first of March. If any of that lives only there, on the first of April it does not exist and I am the person who will have to write that sentence.",
+    "plain": "Then one point today. Your board tool is bought under a contract that ends on 31 March. If anything exists only in that tool, then on 1 April it does not exist, and I am the person who will have to write that sentence."
+   },
+   {
+    "who": "narr",
+    "text": "Lovelace writes it on her hand, which she does perhaps four times a year and which everybody in the room has learned to treat as a commitment.",
+    "plain": "Lovelace writes it on her hand. She does that about four times a year, and everybody here has learned to treat it as a promise."
+   },
+   {
+    "who": "gantt",
+    "text": "Back to Tuesday. Overview, then details. Stakeholders, milestones, plan, budget. Three point zero five million of four point six. Four releases, three delivered, twenty-eighth of June and twenty-seventh of September both on the day.",
+    "plain": "Back to Tuesday's report. First the overview, then the details. Stakeholders, milestones, plan, budget. We have spent 3.05 million euro of 4.6 million. Of four releases, three are delivered. Both 28 June and 27 September were on the planned day.",
+    "ref": [
+     86,
+     "The report includes a Project Overview (Project stakeholders, Milestones and Deliverables, Project Plan, Budget and Costs) and further Project Details (Scope Changes, Major Risks/Issues and Actions Taken, Achievements)"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Scope changes. Two this year and I have written both of them three times, which is once per quarter, which is the whole difference from CASTOR.",
+    "plain": "Scope changes: there were two this year. I have written about both of them three times, once each quarter. That is the whole difference from CASTOR.",
+    "g": [
+     [
+      "Project Progress Report",
+      "a high-level overview of the whole project; in PM2-Agile written every two or three months"
+     ]
+    ],
+    "ref": [
+     85,
+     "the Project Progress Report is a frequent reporting tool (e.g. bi-monthly or quarterly as opposed to yearly for multi-annual projects)"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "On CASTOR you wrote one of these a year. The scope moved in March and the committee read about it the following February, by which time it was history and nobody could do anything about it except mind.",
+    "plain": "On CASTOR you wrote one of these reports each year. The scope changed in March and the committee read about it the following February. By then it was history. Nobody could act on it. They could only be annoyed."
+   },
+   {
+    "who": "gantt",
+    "text": "They minded a great deal. Achievements, then. Eleven spreadsheets down to two. Nine national authorities live since the twenty-seventh.",
+    "plain": "They were extremely annoyed. Now, achievements: eleven spreadsheets have been reduced to two, and nine national authorities have had access since 27 September."
+   },
+   {
+    "who": "you",
+    "text": "And the charter goes with it at version one point three, because Release 3 does not contain what the charter said it contained in October last year, and the committee should read the difference next to the reason.",
+    "plain": "And the Project Charter goes with the report at version 1.3. Release 3 does not contain what the charter said it would contain in October last year. The committee should read the difference next to the reason for it.",
+    "ref": [
+     86,
+     "Ad hoc Project Status reporting (including an updated version of the Project Charter) may be needed, depending on the complexity of the project and the impact of scope changes during the development of the solution"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "That is the second charter update. The first was July, out of cycle, about the legal basis.",
+    "plain": "That is the second update to the charter. The first was in July, outside the normal cycle, about the legal basis."
+   },
+   {
+    "who": "deming",
+    "text": "Which came out of a log. Louis raised a question, it went in as a risk with a number, and the Project Manager assigned it to the Architecture Owner in the log rather than in a mail nobody can find.",
+    "plain": "That came from a log. Louis raised a question. It was entered as a numbered risk. The Project Manager assigned it to the Architecture Owner inside the log, not in an e-mail that nobody can find later.",
+    "ref": [
+     85,
+     "The project logs are also the coordination tools used by the Project Manager to assign items to the Agile Project Core Team (A-PCT) to be further evaluated and managed"
+    ]
+   },
+   {
+    "who": "gutenberg",
+    "text": "Then my archive is one shelf and not two. I would like that in writing from all three of you, in a mail, today, because in five years I will be the only one of us still here.",
+    "plain": "Then my archive is one shelf, not two. I would like that confirmed in writing by all three of you, by e-mail, today. In five years I will be the only one of us still working here."
+   },
+   {
+    "who": "narr",
+    "text": "Seventeen twenty. The report goes out on the Tuesday, eleven pages, and the only sentence anybody quotes back is the one about two spreadsheets.",
+    "plain": "It is 17:20. The report is sent on the Tuesday. It is eleven pages long. The only sentence anybody quotes back is the one about two spreadsheets."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Accountable for the logs and the reports; assigns items to the team through them.",
+    "k": "Knows the charter is at version 1.3 and why each of the two updates happened.",
+    "w": "Wants scope moves read by the committee in the quarter they happen, not a year later.",
+    "f": "Afraid the one decision that matters was taken in a mail and never logged."
+   },
+   "gantt": {
+    "o": "Project Support Office. Writes the quarterly Project Progress Report and the closing pack.",
+    "k": "Knows both 2029 scope moves were reported in the quarter they happened.",
+    "w": "Wants the overview and details sections filled with figures he did not have to chase.",
+    "f": "Afraid the committee reads eleven pages and remembers one line about spreadsheets."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Keeps the domain-specific entries and hands them up when they stop being hers.",
+    "k": "Knows which four cards on the board have not yet become project-level risks.",
+    "w": "Wants nothing important to live only inside a tool whose contract ends in March.",
+    "f": "Afraid the team's record dies with a licence on the first of April."
+   },
+   "gutenberg": {
+    "o": "Document Management Officer. Building the closing archive and the retention schedule.",
+    "k": "Knows POLLUX reused the CASTOR log templates unchanged, with two logs added.",
+    "w": "Wants one shelf, one document class per log, and it confirmed in writing today.",
+    "f": "Afraid of being the last person in the building who knows where anything is."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Watches which artefact each log actually feeds.",
+    "k": "Knows the retrospectives log has eighteen entries and points at the Project-End Report.",
+    "w": "Wants the February question asked properly rather than answered quickly now.",
+    "f": "Afraid eighteen honest logs are handed over as a substitute for lessons learned."
+   }
+  },
+  "unlock": [
+   22
+  ],
+  "note": "Guide check: sections 7.3.2 and 7.3.3, pp.85-86. To enable overall monitoring of project performance during Executing, the Agile Project Core Team documents and manages domain-specific risks, issues, decisions and changes; managing them lets the Project Core Team identify items that affect overall project performance and must be handled by the general project organisation, supports the Project Manager's reporting and forecasting, and gives the PM the coordination tool for assigning items back to the team. The PM² management plans and artefacts are the starting point: Risks to the Risk Management Plan and Risk Log; Issues to the Issues Management Plan and Issue Log; Decisions to the Decision Log; Changes to the Project Change Management Plan, Change Log and Change Request Form; plus a Testing Log referenced to the Test Plans and Deliverables Acceptance Plan, and a Retrospectives Log referenced to the Project-End Report. On reporting: the development aspect contributes domain-specific status and progress to the project's reports, the Project Status Report carries the Development Status Report to the Managing Layer, and for PM²-Agile projects the Project Progress Report is frequent — bi-monthly or quarterly rather than yearly — so significant scope changes are captured and managed. It contains a Project Overview and Project Details, and ad hoc status reporting with an updated Project Charter may be needed depending on scope impact. Pages 85-86, with the logs guideline at p.84.",
+  "notePlain": "Rule: during Executing, the agile team writes down and manages its own risks, issues, decisions and changes. Doing this lets the Project Core Team spot items that affect the whole project and must be handled by the wider project organisation. It also supports the Project Manager's reporting and forecasting, and it gives the Project Manager a way to assign items back to the team (page 85). The PM2 management plans and documents are the starting point. Risks go with the Risk Management Plan and Risk Log. Issues go with the Issues Management Plan and Issue Log. Decisions go in the Decision Log. Changes go with the Project Change Management Plan, the Change Log and the Change Request Form. Two more logs are added: a Testing Log, linked to the Test Plans and the Deliverables Acceptance Plan, and a Retrospectives Log, linked to the Project-End Report (page 85). For reporting, the development side feeds its status into the project reports. The Project Status Report carries the Development Status Report upward. For agile projects the Project Progress Report is written often, every two or three months instead of once a year, so that big scope changes are caught in time. It has an overview section and a details section, and an extra report with an updated Project Charter may be needed if the scope moves a lot (pages 85 and 86). Pages 84 to 86."
+ },
+ {
+  "id": "s22",
+  "act": 3,
+  "actName": "Releases & Closing",
+  "title": "Who Ada reports to",
+  "covers": [
+   "Project Manager (PM)",
+   "Business Manager (BM)"
+  ],
+  "guide_page": 65,
+  "where": "ESM, Kirchberg — Nightingale's office, fifth floor",
+  "when": "15 Nov 2029, 08:30",
+  "cast": [
+   "you",
+   "nightingale",
+   "hopper",
+   "leonardo",
+   "lovelace"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Half past eight, and on the desk a sheet of paper with an organisation chart on it in pencil, drawn twice. In the second drawing two boxes have gone.",
+    "plain": "It is 08:30. On the desk is a sheet of paper with an organisation chart drawn in pencil, twice. In the second drawing, two boxes have been removed."
+   },
+   {
+    "who": "nightingale",
+    "text": "On the first of February this thing runs and I have to say who runs it. Before that, two smaller matters. The committee secretary has proposed that Ada present the development section in December herself, since she writes it.",
+    "plain": "On 1 February this system goes into service and I must say who operates it. Before that, two smaller matters. The Steering Committee secretary has proposed that Ada present the development section herself in December, since she writes it."
+   },
+   {
+    "who": "hopper",
+    "text": "Which I would support. It is one hand-off fewer and she answers questions better than the rest of us because she was there.",
+    "plain": "I would support that. It removes one hand-off, and she answers questions better than the rest of us, because she was there."
+   },
+   {
+    "who": "you",
+    "text": "No. She should be in the room and she should answer everything they ask her. The report still comes from me.",
+    "plain": "No. She should be in the room and she should answer every question they ask. But the report still comes from me."
+   },
+   {
+    "who": "leonardo",
+    "text": "That is a distinction for the sake of a distinction.",
+    "plain": "That is a difference that exists only for its own sake."
+   },
+   {
+    "who": "lovelace",
+    "text": "It is not, and I want it on the record that I am arguing against my own promotion here. My reporting line is to him. It has been since December last year and it is in the handbook.",
+    "plain": "It is not, and I want it recorded that I am arguing against my own promotion. My reporting line goes to the Project Manager. It has done since December last year and it is written in the handbook.",
+    "ref": [
+     62,
+     "Responsible for reporting on the work progress (Development status report) to the Project Manager (PM)"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "And the better reason is selfish. The moment I report to that committee, that committee is a stakeholder I am managing. I have one job. It is nine people and a fortnight. I am not good enough to do both and I have watched people try.",
+    "plain": "And I have a more selfish reason. The moment I report to that committee, the committee becomes a stakeholder that I have to manage. I have one job: nine people and a two-week cycle. I am not able to do both, and I have watched other people try."
+   },
+   {
+    "who": "narr",
+    "text": "Nightingale writes one word on the pencil chart and does not say which.",
+    "plain": "Nightingale writes one word on the pencil chart. She does not say what it is."
+   },
+   {
+    "who": "nightingale",
+    "text": "Then the larger matter, and I am going to be rude, and neither of you should take it personally because I am asking it about the roles. Marie has the list. Ada has the team. Grace has the users. In February, what is a Project Manager for?",
+    "plain": "Then the larger matter. I am going to be blunt, and neither of you should take it personally, because I am asking about the roles. Marie owns the list. Ada runs the team. Grace has the users. So in February, what is a Project Manager for?"
+   },
+   {
+    "who": "you",
+    "text": "Four things, and I lost two of them on purpose. I do not assign work any more. The team plans its own fortnight and I have not opened their board since March except to look at it.",
+    "plain": "Four things, and I gave up two of them deliberately. I no longer assign work. The team plans its own two weeks. I have not opened their board since March, except to look at it.",
+    "g": [
+     [
+      "self-organising team",
+      "a team that decides itself how to do the work it has committed to"
+     ]
+    ],
+    "ref": [
+     64,
+     "These changes reflect an approach that supports aspects like decentralised decision-making, self-organising teams, permanent business involvement and relentless improvement"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And I do not run the ceremonies. I sit in planning and in the review as one voice with no more weight than Charles's. Ada facilitates. On the fifth of April I forgot that for four days and turned the stand-up into a status meeting, and she put me out of it.",
+    "plain": "And I do not run the ceremonies. I sit in planning and in the review as one voice, with no more weight than Charles has. Ada facilitates them. On 5 April I forgot that for four days and turned the stand-up into a status meeting, and she removed me from it.",
+    "ref": [
+     65,
+     "The Project Manager (PM) participates in these ceremonies as a regular Agile Team Member (ATeM), while the Team Coordinator (TeCo) should be facilitating"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "I put him out of it on the ninth. On the fifth I said nothing, which was worse.",
+    "plain": "I removed him on 9 April. On 5 April I said nothing, which was worse."
+   },
+   {
+    "who": "nightingale",
+    "text": "That is what you gave up. I asked what you do.",
+    "plain": "That is what you gave up. I asked what you do."
+   },
+   {
+    "who": "you",
+    "text": "Method, which I share with her. I hold the Project Handbook, she holds the Development Handbook, and neither of us can change the other's without a conversation. That is why Annex D took three days in April and not a committee.",
+    "plain": "First, method, and I share that with Ada. I hold the Project Handbook and she holds the Development Handbook. Neither of us can change the other's document without a discussion. That is why Annex D was changed in three days in April, instead of going to a committee.",
+    "ref": [
+     65,
+     "this responsibility is shared with the Team Coordinator (TeCo), who will guarantee that all aspects related with agile values and principles are followed according to what is described in the Development Handbook"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And obstacles. She brings me what the team cannot move. Eleven administrative arrangements. Ada cannot telephone a legal service in Tallinn twice a week for four months. I can, and it is the least agile work on this project and it took Release 3 from seven authorities to nine.",
+    "plain": "Second, obstacles. Ada brings me what the team cannot move. There were eleven administrative arrangements to sign. Ada cannot telephone a legal service in Tallinn twice a week for four months. I can. It is the least agile work on this project, and it took Release 3 from seven authorities to nine.",
+    "g": [
+     [
+      "impediment",
+      "anything blocking the team that the team cannot remove by itself"
+     ]
+    ],
+    "ref": [
+     65,
+     "This approach allows the Project Manager (PM) to focus on the problems and impediments identified by the Agile Project Core Team (A-PCT) via the Team Coordinator (TeCo)"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "And the signatures. Somebody authorises the deployment plan, the work plan, the reports. Ada writes them. She does not approve her own work and I would not let her.",
+    "plain": "And the approvals. Somebody must authorise the deployment plan, the work plan and the reports. Ada writes them. She does not approve her own work, and I would not allow it."
+   },
+   {
+    "who": "nightingale",
+    "text": "Where is Marie this morning, incidentally.",
+    "plain": "Where is Marie this morning, by the way?"
+   },
+   {
+    "who": "you",
+    "text": "Refining, with two analysts and Albert. Half past eight on a Thursday. That is the fourth thing, and it is the one I did not do at all this year. She is the point of contact now. Risk and Finance stopped writing to me in about March.",
+    "plain": "She is running a refinement session with two analysts and Albert. It is 08:30 on a Thursday. That is the fourth thing, and it is the one I did not do at all this year. Marie is now the permanent point of contact. Risk and Finance stopped writing to me around March.",
+    "ref": [
+     65,
+     "the new Product Owner's (PrOw) role becomes the permanent point of contact between the requester and provider organisations"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Then say the rest of it, because you are all being kind and I would rather have the sentence. On this project I have been informed of almost everything and responsible for almost nothing, and Florence has drawn a chart with my box missing.",
+    "plain": "Then say the rest of it, because you are all being kind and I would prefer the plain sentence. On this project I have been informed of almost everything and responsible for almost nothing. And Florence has drawn a chart with my box missing."
+   },
+   {
+    "who": "nightingale",
+    "text": "One of the two drawings has your box missing. I drew it to see whether I believed it.",
+    "plain": "Only one of the two drawings has your box missing. I drew it to see whether I believed it."
+   },
+   {
+    "who": "you",
+    "text": "In November last year you gave Marie the authority to decide day to day without coming back to you. Twenty-two iterations, and I cannot find a fortnight where this team stopped and waited for a business answer. That is not nothing. That is the whole difference from CASTOR and it does not show up anywhere.",
+    "plain": "Last November you gave Marie the authority to take daily decisions without returning to you. In twenty-two iterations I cannot find a single one where this team stopped and waited for a business answer. That is not nothing. It is the whole difference from CASTOR, and it appears in no document.",
+    "ref": [
+     65,
+     "An empowered Product Owner aligned with the Business Manager (BM) and the Business Implementation Group (BIG) allows the real benefits of PM2-Agile to surface"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "It shows up in April, when I lost.",
+    "plain": "It appears in April, when I lost the argument."
+   },
+   {
+    "who": "you",
+    "text": "You lost a ranking. In the same year you ran the user representatives, the eleven training half-days, the support desk, the implementation plan and the benefits measurement, and none of that is Marie's and none of it is mine. Your reach got wider, not narrower.",
+    "plain": "You lost one ranking decision. In the same year you ran the user representatives, the eleven training half-days, the support desk, the business implementation plan and the benefits measurement. None of that is Marie's work and none of it is mine. Your range got wider, not narrower.",
+    "g": [
+     [
+      "managing layer",
+      "the Project Manager and Business Manager level, between the directing layer and the team"
+     ]
+    ],
+    "ref": [
+     65,
+     "The adoption of PM2-Agile clearly extends the range of action of the Business Manager (BM)"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Wider and quieter. I have not decided yet whether I liked it.",
+    "plain": "Wider and quieter. I have not yet decided whether I liked it."
+   },
+   {
+    "who": "nightingale",
+    "text": "Then decide by February, because in the second drawing you are the person still measuring this in 2031 and there is nobody else in the building who can. Ada comes to December and answers. The report comes from him. Marie keeps the list.",
+    "plain": "Then decide by February, because in the second drawing you are the person still measuring this in 2031, and nobody else in the building can do it. Ada attends the December committee and answers questions. The report comes from the Project Manager. Marie keeps the list.",
+    "g": [
+     [
+      "decentralised decision-making",
+      "pushing decisions down to the people doing the work instead of upward"
+     ]
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "The pencil chart goes in the drawer. In January a version of it appears with four boxes, and the second drawing turns out to have been the one she believed.",
+    "plain": "The pencil chart goes into the drawer. In January a version of it appears with four boxes. The second drawing turns out to be the one she believed."
+   }
+  ],
+  "choice": {
+   "prompt": "The Steering Committee secretary proposes that Lovelace present the development status to the Committee herself, since she writes it. What do you do?",
+   "promptPlain": "The Steering Committee secretary proposes that Lovelace present the development status to the Committee herself, because she writes it. What do you do?",
+   "options": [
+    {
+     "t": "Decline the reporting line, keep the attendance. The Team Coordinator is Responsible for reporting work progress to the Project Manager, who is Accountable for the Development Status Report and carries it into the Project Status Report. Lovelace attends and answers.",
+     "tPlain": "Say no to the change of reporting line, but keep her in the room. The Team Coordinator is Responsible for reporting work progress to the Project Manager. The Project Manager is Accountable for the Development Status Report and puts it into the Project Status Report. Lovelace attends and answers questions.",
+     "ok": true,
+     "reply": {
+      "who": "lovelace",
+      "text": "Then I sit at the end of the table in December, I answer whatever they ask about iteration twenty-two, and on the day the numbers are ugly it is still his signature and not mine. I am not being modest. I have thought about which of those I want.",
+      "plain": "Then in December I sit at the end of the table. I answer any question about iteration 22. And on the day the figures are bad, the signature is his, not mine. I am not being modest. I have thought about which of those I want."
+     },
+     "why": "The Team Coordinator's own responsibility list makes her responsible for reporting work progress — the Development Status Report — to the Project Manager (p.62). The Development Status Report RAM gives the TeCo R and the PM A, and the PM must be aware how the A-PCT is progressing and ensure the Project Status Report captures it (p.84). Attendance is a different question from the reporting line: transparency wants the status visible to stakeholders, so bringing the TeCo into the room costs nothing and answers more questions. What must not move is who is Accountable.",
+     "whyPlain": "The Team Coordinator's own list of responsibilities says she reports work progress, through the Development Status Report, to the Project Manager (page 62). In the responsibility table the Team Coordinator is Responsible and the Project Manager is Accountable, and the Project Manager must know how the team is progressing and make sure the Project Status Report picks it up (page 84). Being in the room is a separate question from the reporting line. Transparency means stakeholders should see the status, so bringing the Team Coordinator into the meeting costs nothing and answers more questions. What must not change is who is Accountable.",
+     "ref": [
+      84,
+      "the Project Manager (PM) must be aware on how the Agile Project Core Team (A-PCT) is progressing"
+     ]
+    },
+    {
+     "t": "Agree. PM²-Agile decentralises decision-making and the Team Coordinator has the data first-hand; routing it through the Project Manager is exactly the hand-off agile removes.",
+     "tPlain": "Agree. PM2-Agile pushes decisions downward, and the Team Coordinator has the data directly. Sending it through the Project Manager is exactly the kind of hand-off that agile removes.",
+     "ok": false,
+     "reply": {
+      "who": "you",
+      "text": "And then in March the committee asks her to hold the December date, and she says yes, because she is in a room full of people senior to her with no mandate to say anything else. That is what the line is for.",
+      "plain": "And then in March the committee asks her to hold the December date. She says yes, because she is in a room full of people senior to her and has no mandate to say anything else. That is what the reporting line is for."
+     },
+     "why": "Decentralised decision-making in PM²-Agile applies to how the team does its work — the A-PCT is responsible for managing its work as described in the Development Work Plan (p.65). It does not redraw the governance layers. The Team Coordinator's role is deliberately built to hide project management concerns from the team so it can stay on delivery (p.62); putting her in front of the steering layer without the PM does the opposite. The Project Manager remains responsible for the whole project and its deliverables, and is Accountable for the report.",
+     "whyPlain": "In PM2-Agile, decentralised decision-making is about how the team does its work. The team is responsible for managing its own work as described in the Development Work Plan (page 65). It does not redraw the governance levels. The Team Coordinator role is designed to keep project management concerns away from the team so that the team can concentrate on delivery (page 62). Putting her in front of the steering layer without the Project Manager does the opposite. The Project Manager stays responsible for the whole project and its deliverables, and is Accountable for the report.",
+     "ref": [
+      62,
+      "hides the project management concerns from the Agile Project Core Team (A-PCT)"
+     ]
+    },
+    {
+     "t": "Agree, and take something back in exchange: you chair the Iteration Review from December, so you stay close enough to the work to answer for it.",
+     "tPlain": "Agree, and take something back in exchange. From December you chair the Iteration Review, so that you stay close enough to the work to answer for it.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "text": "You chair the review, so Marie accepts an item while the man who signs the schedule is running the room. I will get twenty-nine of twenty-nine accepted every fortnight from now until December and every one of them will be worthless.",
+      "plain": "If you chair the review, then Marie accepts items while the person who signs the schedule is running the meeting. From now until December I will get 29 points of 29 accepted every two weeks, and every one of them will be worthless."
+     },
+     "why": "The guide is specific about the ceremonies: the Project Manager participates as a regular Agile Team Member while the Team Coordinator facilitates (p.65), and the Iteration Review RAM makes the point again — the Product Owner is A/S, the Agile Team Members and Architecture Owner are R, the Team Coordinator supports, and the Project Manager is merely Informed (p.56). This is not a courtesy: it protects the honesty of the acceptance decision, which belongs to the Product Owner against the acceptance criteria. Trading the reporting line for the chair loses twice — the report escapes the Accountable role, and the review acquires a chair whose schedule depends on the answer.",
+     "whyPlain": "The guide is clear about the ceremonies: the Project Manager takes part as an ordinary team member while the Team Coordinator facilitates (page 65). The responsibility table for the Iteration Review says the same again: the Product Owner is Accountable and Supports, the team members and the Architecture Owner are Responsible, the Team Coordinator Supports, and the Project Manager is only Informed (page 56). This is not politeness. It protects the honesty of the acceptance decision, which belongs to the Product Owner and is made against the acceptance criteria. Trading the reporting line for the chair loses twice. The report escapes the person who is Accountable, and the review gains a chair whose schedule depends on the answer.",
+     "ref": [
+      56,
+      "Iteration Review C C I S A/S R R"
+     ]
+    },
+    {
+     "t": "Decline, and keep Lovelace out of the Committee entirely. The Project Manager represents the team upward; sending the Team Coordinator into governance meetings blurs the line you have just defended.",
+     "tPlain": "Say no, and keep Lovelace out of the Committee altogether. The Project Manager represents the team upward. Sending the Team Coordinator into governance meetings blurs the line you have just defended.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "Then in December I ask why iteration twenty-two produced nineteen points and you tell me you will find out. I have sat on committees that ran entirely on people undertaking to find out. Nothing was ever found out.",
+      "plain": "Then in December I ask why iteration 22 produced only nineteen points, and you tell me you will find out. I have sat on committees that ran entirely on people promising to find out. Nothing was ever found out."
+     },
+     "why": "Nothing in the guide keeps the Team Coordinator away from stakeholders; the reporting guideline is the opposite, asking that status information be kept visible to stakeholders and the project team, with stakeholders able to experience progress first-hand (p.84). PM²-Agile also adjusts the type, format, granularity and language of information for non-agile audiences rather than restricting who may be asked. Protecting the reporting line is right; protecting it by removing the person who knows the answer is a governance habit, not a rule.",
+     "whyPlain": "Nothing in the guide keeps the Team Coordinator away from stakeholders. The reporting guideline says the opposite: keep status information visible to stakeholders and to the project team, and let stakeholders see progress at first hand (page 84). PM2-Agile also changes the type, format, detail and language of information for audiences that do not work in an agile way, rather than limiting who may be asked a question. Protecting the reporting line is correct. Protecting it by removing the person who knows the answer is a habit of governance, not a rule.",
+     "ref": [
+      84,
+      "Always keep the status information visible to stakeholders and the project team in a project workspace"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for the whole project; Accountable for every agile artefact.",
+    "k": "Knows exactly which two responsibilities he gave up and which four he kept.",
+    "w": "Wants the reporting line held and Lovelace in the December room answering questions.",
+    "f": "Afraid the honest answer to what a Project Manager is for sounds like a defence."
+   },
+   "nightingale": {
+    "o": "Project Owner. Drawing the service organisation that exists from the first of February.",
+    "k": "Knows Curie is refining at half past eight on a Thursday without being asked to.",
+    "w": "Wants three roles she can name and fund after the project stops existing.",
+    "f": "Afraid she is about to delete the role that made the other three work."
+   },
+   "hopper": {
+    "o": "Business Manager. Delegate of the Project Owner; empowered the Product Owner in November 2028.",
+    "k": "Knows she was informed of almost everything and responsible for almost nothing this year.",
+    "w": "Wants somebody to say plainly whether her role grew or was hollowed out.",
+    "f": "Afraid she gave away the part of the job she was good at and cannot get it back."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Sits on the Steering Committee; will not let a writer approve her own work.",
+    "k": "Knows he wants the person with the answer in the room, whatever the reporting line says.",
+    "w": "Wants committee questions answered on the day rather than undertaken to be found out.",
+    "f": "Afraid of another committee that runs on promises to find out."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Reports work progress to the Project Manager; facilitates the ceremonies.",
+    "k": "Knows what happens to a facilitator who acquires a committee to manage.",
+    "w": "Wants to keep nine people and a fortnight, and nothing else.",
+    "f": "Afraid of being promoted into a room where she cannot say the honest number."
+   }
+  },
+  "unlock": [
+   27,
+   28
+  ],
+  "note": "Guide check: section 6.5, pp.64-65, with the Team Coordinator's responsibilities at p.62. Introducing PM²-Agile changes the governance model's roles to support decentralised decision-making, self-organising teams, permanent business involvement and relentless improvement; the new roles take on some responsibilities usually assigned to the Project Manager, but the PM role is not removed. Methodology compliance becomes shared: the PM educates the team on PM² per the Project Handbook, the TeCo guarantees agile values per the Development Handbook, and the TeCo facilitates the ceremonies while the PM participates as a regular Agile Team Member. Team and progress management passes to the self-organising A-PCT, which frees the PM to focus on the problems and impediments the team raises via the TeCo. Managing business stakeholders' expectations passes to the Product Owner as permanent point of contact; the PM and BM intervene only when expectations are not aligned or the PrOw and the team cannot reach consensus. For the Business Manager, PM²-Agile clearly extends the range of action: she coordinates client-side activities and roles, the PrOw becomes the liaison between User Representatives and the provider, and the BM must empower the PrOw for day-to-day decisions and keep her aligned with the BM and the BIG — an empowered, aligned PrOw is what allows the real benefits of PM²-Agile to surface. The TeCo is responsible for reporting work progress to the PM (p.62). Pages 62, 64-65, with the reporting RAM at p.84.",
+  "notePlain": "Rule: bringing in PM2-Agile changes the roles in the governance model, to support decisions taken lower down, teams that organise themselves, business people involved all the time, and constant improvement. The new roles take over some tasks that usually belong to the Project Manager, but the Project Manager role is not removed (page 64). Method compliance becomes shared: the Project Manager teaches PM2 from the Project Handbook, and the Team Coordinator guarantees agile values from the Development Handbook. The Team Coordinator facilitates the ceremonies while the Project Manager takes part as an ordinary team member (page 65). Managing the team's work passes to the team itself, which frees the Project Manager to work on the obstacles the team raises through the Team Coordinator (page 65). Managing business expectations passes to the Product Owner, who becomes the permanent contact point between the two organisations. The Project Manager and Business Manager step in only when expectations do not match, or when the Product Owner and the team cannot agree (page 65). For the Business Manager, PM2-Agile clearly widens the range of action. She coordinates the client side, the Product Owner becomes the link between user representatives and the provider, and the Business Manager must give the Product Owner power to decide day to day and keep her aligned with the business strategy. A Product Owner who is empowered and aligned is what lets the real benefits of PM2-Agile appear (page 65). The Team Coordinator reports work progress to the Project Manager (page 62). Pages 62, 64, 65 and 84."
+ },
+ {
+  "id": "s23",
+  "act": 3,
+  "actName": "Releases & Closing",
+  "title": "The last gate",
+  "covers": [
+   "Ready for Closing (RfC)",
+   "Transition into service"
+  ],
+  "guide_page": 18,
+  "where": "ESM, Kirchberg — B4-12, the room with the video kit that has never once worked",
+  "when": "14 Feb 2030, 10:00",
+  "cast": [
+   "you",
+   "medici",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "gantt",
+   "deming"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Third gate and the last one. Ready for Planning in October 2028, Ready for Executing that December, and this. Same room as the charter meeting, same video kit, and a printed agenda because Gantt does not trust the screen.",
+    "plain": "This is the third gate and the last one. Ready for Planning was in October 2028, Ready for Executing in December 2028, and now this one. It is the same room as the charter meeting, with the same video equipment, and a printed agenda, because Gantt does not trust the screen.",
+    "g": [
+     [
+      "Ready for Closing (RfC)",
+      "the PM2 gate where the project is judged ready to leave the Executing phase"
+     ]
+    ],
+    "ref": [
+     17,
+     "However, project phases still exist and a common understanding between both the project team members and other project stakeholders should be fostered"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Fourteen days in service. Two incidents, one of them at four in the morning on the fourth, and the duty manager closed it from the plan without telephoning anybody on this project.",
+    "plain": "The system has been in service for fourteen days. There have been two incidents. One was at 04:00 on 4 February. The duty manager resolved it using the plan, without telephoning anybody from this project."
+   },
+   {
+    "who": "leonardo",
+    "text": "The platform patched late and our load read half a day. She found the step in section three, held the load, reran it at six, and told me afterwards. In September that would have been Charles at four in the morning, and in October it would have been me.",
+    "plain": "The lending platform was patched late, so our data load only read half a day of data. She found the step in section three of the plan, stopped the load, ran it again at 06:00, and told me afterwards. In September that would have been Charles at 04:00. In October it would have been me.",
+    "ref": [
+     61,
+     "Assumes overall accountability for the project deliverables"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Deliverables. Four releases, all four on their dates. Portal, gateway, overlay, builder. Operational Model and Deployment Plan handed to IT operations on the twenty-ninth of January and signed by Leonardo's division on the thirtieth.",
+    "plain": "Now the deliverables. There were four releases, all delivered on their planned dates: the portal, the gateway, the scenario overlay and the self-service builder. The Operational Model and the Deployment Plan were handed to IT operations on 29 January, and Leonardo's division signed for them on 30 January.",
+    "ref": [
+     18,
+     "As the project nears completion, the focus shifts to ensuring that the solution is well-integrated into the overall project deliverables"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Four point three one million of four point six. Eighteen hundred and twelve person-days against eighteen fifty. Ninety-four work items unbuilt and I would like somebody to tell me what happens to them, because I cannot archive an open list.",
+    "plain": "We have spent 4.31 million euro of 4.6 million, and used 1,812 person-days of 1,850. Ninety-four work items were never built. I would like somebody to tell me what happens to them, because I cannot archive a list that is still open."
+   },
+   {
+    "who": "nightingale",
+    "text": "They stop being a Work Items List on the day this closes and become Marie's service backlog. She has been working them that way since February. In March it stops being an arrangement and becomes her budget.",
+    "plain": "On the day this project closes they stop being a Work Items List and become Marie's service backlog. She has been working on them that way since February. In March it stops being an informal arrangement and becomes her own budget.",
+    "g": [
+     [
+      "service ownership",
+      "the permanent team that runs, pays for and changes the system after the project"
+     ]
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Then I will spoil it. On Tuesday I read the CASTOR benefits report. Full-year 2029, tabled February 2030, nineteen months after we closed the thing and shook hands in this room.",
+    "plain": "Then I will spoil the mood. On Tuesday I read the CASTOR benefits report. It covers the full year 2029 and was presented in February 2030, nineteen months after we closed that project and shook hands in this room."
+   },
+   {
+    "who": "medici",
+    "text": "It is a good report. It is also the first honest information I have had about a project I approved in 2026, and by the time it reached me every person who could have done anything with it had moved on. So. Do not close this one. Keep it open a year and measure it.",
+    "plain": "It is a good report. It is also the first honest information I have had about a project I approved in 2026. By the time it reached me, everybody who could have acted on it had moved to other work. So, do not close this project. Keep it open for a year and measure it."
+   },
+   {
+    "who": "narr",
+    "text": "Hopper wrote that report. She does not say so, and everybody in the room knows it, and Medici did not mean it as a criticism, which does not entirely help.",
+    "plain": "Hopper wrote that report. She does not say so. Everybody in the room knows it. Medici did not intend it as criticism, which does not entirely help."
+   },
+   {
+    "who": "hopper",
+    "text": "I would take the year. I want to be clear that I would take it, because measuring CASTOR alone for eighteen months was the worst professional experience I have had, and if you offered me a project structure to do it inside I would say yes before you finished the sentence.",
+    "plain": "I would accept the year. I want to be clear about that. Measuring CASTOR alone for eighteen months was the worst professional experience of my career. If you offered me a project structure to do it inside, I would say yes before you finished the sentence."
+   },
+   {
+    "who": "hopper",
+    "text": "And it would be wrong, and I know exactly why, because I have watched what it does. On CASTOR we held the project open ten weeks past go-live to chase one criterion. In those ten weeks nobody in IT would take ownership of anything, because the project still existed and the project was still responsible.",
+    "plain": "And it would be wrong, and I know exactly why, because I have seen the effect. On CASTOR we kept the project open for ten weeks after go-live, to chase one success criterion. During those ten weeks nobody in IT would take ownership of anything, because the project still existed and the project was still responsible."
+   },
+   {
+    "who": "leonardo",
+    "text": "That is true and it was my division. Nobody hires a run team for a system somebody else is still accountable for. The rota only exists because the thirty-first of January was a date and not an intention.",
+    "plain": "That is true, and it was my division. Nobody creates a permanent support team for a system that somebody else is still accountable for. The on-call rota only exists because 31 January was a fixed date and not just an intention."
+   },
+   {
+    "who": "medici",
+    "text": "Then who tells me whether four and a half million was well spent?",
+    "plain": "Then who tells me whether four and a half million euro was well spent?"
+   },
+   {
+    "who": "nightingale",
+    "text": "I do. Not as a project. Against the business case, which does not close when the project does, and which has my name on it and Grace's, and which will still have both in 2031.",
+    "plain": "I do. Not as a project. I report against the Business Case, which does not close when the project closes. It has my name on it and Grace's, and it will still have both in 2031.",
+    "g": [
+     [
+      "benefits realisation",
+      "measuring whether the promised gains actually arrive, usually after the project ends"
+     ]
+    ],
+    "ref": [
+     61,
+     "The Project Owner (PO) is the key project decision maker and accountable for project success"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "And I would rather do it owning a service than chairing a committee for a project that finished in January and is pretending otherwise.",
+    "plain": "And I would rather do that as the owner of a service, than as the chair of a committee for a project that actually finished in January and is pretending it did not.",
+    "ref": [
+     18,
+     "it must contribute to the accrual of the benefits desired by the organisation"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Three of five today. Traceability is a hundred per cent and you can test it in this room in about forty seconds. Zero spreadsheets since the twentieth of December. And the second one, which is the one that matters.",
+    "plain": "Today, three of the five criteria are met. Traceability is at 100 per cent, and you could test that in this room in about forty seconds. There have been zero spreadsheets since 20 December. And the second criterion, which is the important one.",
+    "ref": [
+     18,
+     "This value is measured rigorously using a measuring and learning framework"
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "And the other two.",
+    "plain": "And the other two criteria?"
+   },
+   {
+    "who": "hopper",
+    "text": "The quarter-end pack. January's took two days and two analysts, down from five and four. The target is one and one and the first clean measurement is the April pack, which is three weeks after you have closed this.",
+    "plain": "The first is the quarter-end pack. January's pack took two days and two analysts, down from five days and four analysts. The target is one day and one analyst. The first clean measurement is the April pack, which comes three weeks after you close this project."
+   },
+   {
+    "who": "you",
+    "text": "And the audit findings. Internal Audit closed one on Tuesday. The second is closed subject to a follow-up review in September. So one of the five will not be met on the day we close and I am not going to word it any other way in the report.",
+    "plain": "And the audit findings. Internal Audit closed one on Tuesday. The second is closed, but subject to a follow-up review in September. So one of the five criteria will not be met on the day we close, and I will not word that any differently in the report."
+   },
+   {
+    "who": "medici",
+    "text": "Good. On CASTOR somebody worded it another way and I believed them.",
+    "plain": "Good. On CASTOR, somebody worded it differently and I believed them."
+   },
+   {
+    "who": "deming",
+    "text": "One item outstanding on my list and it is not a deliverable. The end review is scheduled for next Thursday and the lessons are not written. I would rather you gated on it being in the diary than on it being done, because done by Thursday means done badly.",
+    "plain": "There is one item outstanding on my list, and it is not a deliverable. The Project-End Review is scheduled for next Thursday, and the lessons are not written yet. I would rather this gate required the meeting to be in the diary than to be finished. Finished by Thursday would mean finished badly.",
+    "g": [
+     [
+      "Project-End Report",
+      "the PM2 closing document holding lessons learned and recommendations for future projects"
+     ]
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Then closing runs to the twentieth of March. End review, lessons, final report, Levallois contract, the archive, and the resources released. Five weeks and eleven items, and I have done this nine times and it has always taken five weeks.",
+    "plain": "Then the Closing phase runs until 20 March. It covers the end review, the lessons, the final report, the Levallois contract, the archive, and releasing the staff. That is five weeks and eleven items. I have done this nine times, and it has always taken five weeks."
+   },
+   {
+    "who": "medici",
+    "text": "Then I approve the passage to Closing. And Grace, when you come back in 2031 with the number, come back whether it is good or not.",
+    "plain": "Then I approve the move to the Closing phase. And Grace, when you return in 2031 with the figure, come back whether the news is good or bad."
+   },
+   {
+    "who": "hopper",
+    "text": "I did that once already and you did not enjoy it.",
+    "plain": "I have already done that once, and you did not enjoy it."
+   },
+   {
+    "who": "narr",
+    "text": "Eleven fifteen. Seventeen months since the initiation request, and the last piece of governance the project will ever ask for takes seventy-five minutes and produces one signature.",
+    "plain": "It is 11:15. Seventeen months have passed since the Project Initiation Request. The last piece of governance the project will ever need takes seventy-five minutes and produces one signature.",
+    "ref": [
+     17,
+     "project activities must start with initiating and planning, then lead to implementation, and finally end with acceptance, transitioning and closing"
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "Medici wants the project held open for a year so the benefits can be measured inside it, as CASTOR's could not. What do you advise?",
+   "promptPlain": "Medici wants the project held open for a year so that the benefits can be measured inside it, which was not possible on CASTOR. What do you advise?",
+   "options": [
+    {
+     "t": "Close on schedule. Benefits realisation continues after the project, owned by the Project Owner and measured against the Business Case; closing is what transfers ownership of evolution and maintenance to the organisation.",
+     "tPlain": "Close on schedule. Measuring the benefits continues after the project. The Project Owner owns that, measured against the Business Case. Closing is exactly what passes ownership of the system's future changes and upkeep to the organisation.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "text": "And it is my name on it either way. If the project holds the benefits, the benefits belong to something that dissolves. If I hold them, they belong to a division that will still be here when the answer arrives.",
+      "plain": "And my name is on it either way. If the project holds the benefits, then the benefits belong to something that will be dissolved. If I hold them, they belong to a division that will still exist when the answer arrives."
+     },
+     "why": "As a project nears completion the focus shifts to integrating the solution into the overall deliverables and to its contribution to the benefits the organisation wants — and the guide puts a specific emphasis on ensuring the organisation can assume ownership and be accountable for the evolution and maintenance of the information system when the project closes (p.18). That transfer is the point of closing, and it does not happen while a project still exists to be responsible. The benefits are measured against the Business Case by the Project Owner, who is accountable for project success, on whatever clock the benefits actually run on.",
+     "whyPlain": "As a project nears its end, the focus moves to fitting the solution into the whole set of deliverables, and to how it contributes to the benefits the organisation wants. The guide adds a specific point: make sure the organisation can take ownership and be accountable for the future changes and upkeep of the system when the project closes (page 18). That hand-over is the purpose of closing, and it cannot happen while a project still exists and is still responsible. The benefits are measured against the Business Case by the Project Owner, who is accountable for the project's success, on whatever timetable the benefits really follow.",
+     "ref": [
+      18,
+      "There is also an emphasis to ensure that the organisation can assume ownership and is accountable for the evolution and maintenance of the information system when the project closes"
+     ]
+    },
+    {
+     "t": "Hold it open for twelve months as a benefits-tracking phase. The governance already exists, the Steering Committee already meets, and the alternative is another report nobody can act on two years late.",
+     "tPlain": "Hold the project open for twelve months as a benefits-tracking phase. The governance already exists and the Steering Committee already meets. The alternative is another report that arrives two years late and that nobody can act on.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "Then give me the sentence I say to my head of operations in March. She is being asked to fund a run team for a system that is still a project, and every one of her arguments will be right.",
+      "plain": "Then give me the sentence I should say to my head of operations in March. She is being asked to pay for a permanent support team for a system that is still a project. Every argument she makes against it will be correct."
+     },
+     "why": "A project has a defined beginning and an ending date, and the sequence ends with acceptance, transitioning and closing (p.17). A benefits-tracking phase is not a project phase; it is line work that needs an owner in the organisation, not a project structure. Holding the project open keeps a budget line, a Steering Committee and a team allocated to work that is no longer project work, and it defers the ownership transfer the guide asks for. The reporting artefacts say the same thing structurally: the Development Status Report is created in Planning and Executing and has no Closing entry.",
+     "whyPlain": "A project has a fixed start and a fixed end date, and the sequence finishes with acceptance, transition and closing (page 17). Tracking benefits is not a project phase. It is ongoing work that needs an owner inside the organisation, not a project structure. Keeping the project open keeps a budget line, a Steering Committee and a team assigned to work that is no longer project work, and it delays the hand-over of ownership that the guide asks for. The reporting documents show the same thing: the Development Status Report is created in Planning and Executing and has no entry at all for Closing.",
+     "ref": [
+      85,
+      "Development Status Report - Created Created -"
+     ]
+    },
+    {
+     "t": "Hold it open one quarter only — to the April pack, three weeks past the closure date. That is the single measurement that is nearly in reach, and three weeks is not a governance structure.",
+     "tPlain": "Hold the project open for one quarter only, until the April pack, three weeks after the planned closure date. That is the one measurement that is nearly within reach, and three weeks is not a governance structure.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "Three weeks gets you the April pack and one number. It does not get you the audit follow-up in September, and it does not get you the second quarter, which is the first one the analysts run without us standing behind them.",
+      "plain": "Three weeks gives you the April pack and one figure. It does not give you the audit follow-up in September, and it does not give you the second quarter, which is the first one the analysts run without us standing behind them."
+     },
+     "why": "This is the tempting one because it is small, and it is wrong for the same reason as the twelve months, only cheaper to defend. Benefits arrive on the organisation's clock, not the project's: one criterion needs April, another needs an audit follow-up in September, and neither date is negotiable by a Steering Committee. The guide's sequence ends at closing, and the value delivered is measured with a measuring and learning framework that belongs to the organisation. Every extension buys one more data point and postpones the same decision.",
+     "whyPlain": "This option is tempting because it is small, and it is wrong for the same reason as the twelve-month one, only cheaper to defend. Benefits arrive on the organisation's timetable, not the project's. One criterion needs April, another needs an audit follow-up in September, and a Steering Committee cannot move either date. The guide's sequence ends at closing, and the value delivered is measured with a measuring and learning framework that belongs to the organisation. Each extension buys one more measurement and postpones the same decision.",
+     "ref": [
+      17,
+      "The overall sequential character follows the concept that the project has a defined beginning and ending date"
+     ]
+    },
+    {
+     "t": "Close the project, but keep the agile team assembled and funded for a twelve-month warranty, still working to the Release Plan and still producing the Development Status Report.",
+     "tPlain": "Close the project, but keep the agile team together and funded for a twelve-month warranty period, still working to the Release Plan and still producing the Development Status Report.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "Then on the twenty-first of March I am archiving a Release Plan that has releases in it, and reporting against a work plan for a project that does not exist. I have filed stranger things. None of them were ever read.",
+      "plain": "Then on 21 March I am archiving a Release Plan that still contains future releases, and reporting against a work plan for a project that no longer exists. I have filed stranger documents. None of them were ever read."
+     },
+     "why": "This closes the governance and keeps the machinery, which is the wrong half. The Development Work Plan, Release Plan and Development Status Report are Executing-phase artefacts; running them after Executing has ended produces reporting with no one Accountable above it and a release schedule with no charter behind it. What the work actually needs is a service: a backlog, an owner, a run team and a change route — which is what the organisation assumes when the project closes. Keeping the team is a resourcing decision for the service, not a reason to keep the project.",
+     "whyPlain": "This option closes the governance and keeps the machinery, which is the wrong half. The Development Work Plan, the Release Plan and the Development Status Report belong to the Executing phase. Running them after Executing has ended produces reports with nobody Accountable above them, and a release schedule with no charter behind it. What the work really needs is a service: a backlog, an owner, a support team and a route for changes. That is what the organisation takes on when the project closes. Keeping the team is a staffing decision for the service, not a reason to keep the project.",
+     "ref": [
+      83,
+      "Deployment Plan - Created Updated -"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Presents the gate; will word the unmet criterion plainly in the report.",
+    "k": "Knows one of five criteria will not be met on the day the project closes.",
+    "w": "Wants passage to Closing without buying it with a softer sentence.",
+    "f": "Afraid a project that closes with a criterion open is remembered as a project that failed."
+   },
+   "medici": {
+    "o": "AGB chair. Approves passage to Closing; read the CASTOR benefits report on Tuesday.",
+    "k": "Knows the last honest information about CASTOR reached him two years after closure.",
+    "w": "Wants to be told whether four and a half million was well spent, by somebody who will still be there.",
+    "f": "Afraid of approving another project whose evidence arrives after everyone has moved."
+   },
+   "nightingale": {
+    "o": "Project Owner. Takes benefits accountability forward against the Business Case.",
+    "k": "Knows the ninety-four unbuilt items become a service backlog on the first of March.",
+    "w": "Wants to own a service rather than chair a committee for a project that ended in January.",
+    "f": "Afraid the benefits get owned by something that dissolves before they arrive."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Accepted the deliverables; his division now owns evolution and maintenance.",
+    "k": "Knows nobody funds a run team for a system a project is still responsible for.",
+    "w": "Wants the thirty-first of January to have been a date and not an intention.",
+    "f": "Afraid of a warranty year in which ownership quietly never transfers."
+   },
+   "hopper": {
+    "o": "Business Manager. Wrote the CASTOR benefits report; will measure POLLUX's into 2031.",
+    "k": "Knows three of five criteria are demonstrable today and which two are not.",
+    "w": "Wants the year, and argues against it because she has seen what it costs.",
+    "f": "Afraid of spending another eighteen months alone with a spreadsheet of somebody else's benefits."
+   },
+   "gantt": {
+    "o": "Project Support Office. Runs the five-week closing list to the twentieth of March.",
+    "k": "Knows the final figures: 4.31 million, 1,812 person-days, ninety-four items unbuilt.",
+    "w": "Wants a closed list he can archive rather than an open one he cannot.",
+    "f": "Afraid of filing documents for a project that has not agreed it is over."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Holds the outstanding closing item that is not a deliverable.",
+    "k": "Knows the end review is in the diary for Thursday and the lessons are not written.",
+    "w": "Wants the review gated on being scheduled, not on being finished by Thursday.",
+    "f": "Afraid lessons written to meet a gate are lessons written badly."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 3.3.1, pp.17-18, with the role definitions at p.61 and the artefact lifecycle rows at pp.83-85. Projects pass through four distinct PM² phases, and although planning characteristics may be less tangible at the level of the agile team, the phases still exist and a common understanding of them should be fostered; the overall sequential character follows the concept that a project has a defined beginning and ending date, so activities start with initiating and planning, lead to implementation, and end with acceptance, transitioning and closing. As the project nears completion the focus shifts to ensuring the solution is well integrated into the overall project deliverables and contributes to the accrual of the benefits desired by the organisation, with a specific emphasis on ensuring the organisation can assume ownership and be accountable for the evolution and maintenance of the information system when the project closes. Value is measured with a measuring and learning framework. At p.61 the Project Owner is the key project decision maker and accountable for project success, while the Solution Provider assumes overall accountability for the project deliverables. The artefact lifecycle rows are the structural argument against a post-closure project: Deployment Plan created in Planning and updated in Executing, nothing in Closing; Development Status Report created in Planning and Executing, nothing in Closing. Pages 17-18, 61, 83, 85.",
+  "notePlain": "Rule: projects pass through four PM2 phases. Even though planning is less visible at the agile team's level, the phases still exist, and everyone should share the same understanding of them (page 17). A project has a fixed start and end date, so the work starts with initiating and planning, leads to building, and ends with acceptance, transition and closing (page 17). As the project nears the end, attention moves to making sure the solution fits into the whole set of deliverables and helps produce the benefits the organisation wants. The guide adds a specific point: make sure the organisation can take ownership and be accountable for future changes and upkeep of the system when the project closes (page 18). The value delivered is measured with a measuring and learning framework (page 18). On page 61, the Project Owner is the main decision maker and is accountable for the project's success, and the Solution Provider is accountable for the deliverables. The artefact tables make the same point in another way: the Deployment Plan is created in Planning and updated in Executing, with nothing in Closing; the Development Status Report is created in Planning and Executing, with nothing in Closing (pages 83 and 85). Pages 17, 18, 61, 83 and 85."
+ },
+ {
+  "id": "s24",
+  "act": 3,
+  "actName": "Releases & Closing",
+  "title": "Twenty-six and one",
+  "covers": [
+   "Closing",
+   "Lessons Learned"
+  ],
+  "guide_page": 57,
+  "where": "ESM, Kirchberg — team room B4, the wall stripped",
+  "when": "21 Feb 2030, 14:00",
+  "cast": [
+   "you",
+   "deming",
+   "lovelace",
+   "curie",
+   "eiffel",
+   "babbage",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The wall is white with a rectangle on it slightly whiter than the rest. Babbage has twenty-six photographs of that rectangle and has kept every one, including the four that are out of focus.",
+    "plain": "The wall is white, with a rectangle on it that is slightly whiter than the rest. Babbage has twenty-six photographs of that rectangle. He has kept all of them, including the four that are blurred."
+   },
+   {
+    "who": "narr",
+    "text": "Three hours booked. Deming has been in this building since 2013 and has run this meeting forty times, and this is the first one he has walked into with data already in the room.",
+    "plain": "Three hours are booked. Deming has worked in this building since 2013 and has run this meeting forty times. This is the first time he has entered it with the data already in the room."
+   },
+   {
+    "who": "babbage",
+    "text": "Three hours. We have done twenty-six of these. I have the logs, they are all in the repository, and sixty-one of the seventy-four actions in them were done inside a fortnight of being written. What is left to learn?",
+    "plain": "Three hours. We have already held twenty-six of these meetings. I have the logs, they are all in the repository, and sixty-one of the seventy-four actions in them were completed within two weeks of being written. What is left to learn?",
+    "ref": [
+     57,
+     "the Agile Project Core Team (A-PCT) will not wait by the end of the project to make adjustments"
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Nothing about this team. I agree with you completely and I want that said at the start, because everybody expects me to defend the meeting and I am not going to defend it on those grounds.",
+    "plain": "Nothing about this team. I agree with you completely, and I want to say that at the start. Everybody expects me to defend this meeting, and I am not going to defend it on those grounds."
+   },
+   {
+    "who": "deming",
+    "text": "Twenty-six retrospectives improved you. That is what they are for and they worked, and if we sat here for three hours doing a twenty-seventh it would be a waste of an afternoon and I would leave first.",
+    "plain": "Twenty-six retrospectives improved you. That is their purpose, and they worked. If we sat here for three hours doing a twenty-seventh, it would waste an afternoon, and I would be the first to leave.",
+    "g": [
+     [
+      "Project-End Review",
+      "the PM2 closing meeting that captures lessons learned and post-project recommendations"
+     ]
+    ],
+    "ref": [
+     8,
+     "Retrospectives are a great tool to collect feedback and learn about the process and the Agile Team itself"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Then what is this.",
+    "plain": "Then what is this meeting?"
+   },
+   {
+    "who": "deming",
+    "text": "This one is not about you. This one is for the project after this one, and for the people who will run it, none of whom are in this room. Different subject, different reader.",
+    "plain": "This meeting is not about you. It is for the next project, and for the people who will run it, and none of them are in this room. It is a different subject and a different reader."
+   },
+   {
+    "who": "eiffel",
+    "text": "Then give me an example and I will stop looking at the clock. One thing this project taught that no retrospective could have caught.",
+    "plain": "Then give me an example and I will stop looking at the clock. Name one thing this project taught that no retrospective could have found."
+   },
+   {
+    "who": "deming",
+    "text": "The twelfth of October 2028 to the eighth of January 2029. Business case approved to first iteration. Eighty-eight days. Six weeks of it was one decision nobody had been asked to take, and there was no team, so there was no retrospective, so it is in nobody's log.",
+    "plain": "From 12 October 2028 to 8 January 2029. That is from the approval of the Business Case to the first iteration. Eighty-eight days. Six weeks of that was one decision that nobody had been asked to take. There was no team yet, so there was no retrospective, so it appears in nobody's log."
+   },
+   {
+    "who": "narr",
+    "text": "Nobody says anything. Eiffel writes something down, which he has not done since he came in.",
+    "plain": "Nobody speaks. Eiffel writes something down. He has not written anything since he arrived."
+   },
+   {
+    "who": "eiffel",
+    "text": "Then here is mine and it will cost my own firm money. Section one point four of the handbook lets a seconded lead run an iteration as coordinator. It was written in November 2028, it was used once, in July, and my contract does not mention it at all.",
+    "plain": "Then here is mine, and it will cost my own company money. Section 1.4 of the handbook allows a seconded lead to run an iteration as Team Coordinator. It was written in November 2028, it was used once, in July, and my contract does not mention it at all.",
+    "ref": [
+     23,
+     "'Celebrate failure' as a way to openly discuss mistakes and accelerate learning"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Eighteen months with two definitions of done. The one in Annex D, which everyone here obeys, and the one in the schedule to my secondment, which is what I would be paid against if anybody had ever argued. No retrospective can change a procurement clause. That is the sort of thing you mean.",
+    "plain": "For eighteen months there were two definitions of done. One is in Annex D, which everybody here follows. The other is in the schedule of my secondment contract, and that is what I would have been paid against if there had ever been a dispute. No retrospective can change a contract clause. That is the kind of thing you mean."
+   },
+   {
+    "who": "deming",
+    "text": "That is exactly the sort of thing I mean, and thank you, and I will need it in writing before Friday week because after that you are in Paris and nobody in this building will be able to say it.",
+    "plain": "That is exactly the kind of thing I mean. Thank you. I will need it in writing before Friday of next week, because after that you are in Paris and nobody in this building will be able to say it."
+   },
+   {
+    "who": "babbage",
+    "text": "I have a problem with the method and not the meeting. Those logs are honest because nobody outside the room reads them. If you now mine them for an institutional document, then everything I said in July was being collected and I did not know it.",
+    "plain": "I have a problem with the method, not with the meeting. Those logs are honest because nobody outside the room reads them. If you now search them for an official document, then everything I said in July was being collected, and I did not know that.",
+    "ref": [
+     8,
+     "While the Lessons Learned captured at the end of a project remain valuable, the spirit and habit of frequently reviewing and retrospecting must be infused across the project continuum"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Nothing you said in July is in the log. The log holds what we chose to do about it. That was the rule from the first one and I have not broken it and I would have heard about it if I had.",
+    "plain": "Nothing you said in July is in the log. The log holds only what we decided to do about it. That was the rule from the first retrospective. I have not broken it, and I would have been told if I had."
+   },
+   {
+    "who": "deming",
+    "text": "And I have not read them. Ada read them, and what leaves this room leaves because the team agrees it leaves. If that were not true I would have twenty-six honest logs for one project and none at all for the next one.",
+    "plain": "And I have not read them. Ada read them. What leaves this room leaves only because the team agrees that it should. If that were not true, I would have twenty-six honest logs for this project and none at all for the next one."
+   },
+   {
+    "who": "lovelace",
+    "text": "Four things recurred. Not once. Five or more times each, across eighteen months, and every one of them we half-solved and stopped.",
+    "plain": "Four things came up again and again. Not once, but five times or more each, over eighteen months. In every case we half-solved the problem and then stopped."
+   },
+   {
+    "who": "lovelace",
+    "text": "One. The velocity we planned four releases on was invented in November 2028 out of nothing, and it survived until April because it was in a document. Two. Lines seven and eight of the Definition of Done were a checklist for four months and three separate retrospectives named the symptom before anyone changed a baselined page.",
+    "plain": "First: the velocity figure that we used to plan four releases was invented in November 2028 with no evidence, and it survived until April because it was written in a document. Second: lines seven and eight of the Definition of Done were only a checklist for four months, and three separate retrospectives described the symptom before anybody changed a baselined page.",
+    "ref": [
+     57,
+     "PM2 points the need to capture these improvement opportunities throughout the project and not just at the end, where most of them may have already been forgotten"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Three is Louis. Consulted in Planning, then not again until April, and he was the one who told us in November 2028 that he would rather be a work item in January than a finding in October. We made him a finding in April.",
+    "plain": "The third is Louis Brandeis. He was consulted during Planning and then not again until April. In November 2028 he told us he would rather be a work item in January than a finding in October. In April we made him a finding."
+   },
+   {
+    "who": "you",
+    "text": "And that is a recommendation and not a regret. Data protection and security sit in refinement from iteration one for any item that touches a source record. Four lines in a handbook. It would have cost this project nothing and it cost us six weeks.",
+    "plain": "And that is a recommendation, not a regret. Data protection and information security should attend refinement from iteration 1 for any item that touches a source record. That is four lines in a handbook. It would have cost this project nothing, and instead it cost us six weeks.",
+    "g": [
+     [
+      "post-project recommendations",
+      "actions for other people after this project ends, recorded in the Project-End Report"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Then write mine and write it exactly as I say it, because it will be softened by somebody in March. In August 2028 nobody could tell you what the exposure report should contain. In February 2030 nobody can either. That was not a failure of analysis. That was the true state of the problem and we chose an approach that could live with it.",
+    "plain": "Then write mine, and write it exactly as I say it, because somebody will soften it in March. In August 2028, nobody could tell you what the exposure report should contain. In February 2030, nobody can either. That was not a failure of analysis. It was the true state of the problem, and we chose an approach that could live with it."
+   },
+   {
+    "who": "deming",
+    "text": "That one is worth the afternoon on its own, and it is the one that will be read, because the next steering committee that argues about whether to specify or to iterate will argue about it with a number of releases behind them instead of a preference.",
+    "plain": "That lesson alone is worth the afternoon, and it is the one that will be read. The next steering committee that argues about whether to write a specification or to work in iterations will have the record of four releases behind them, instead of just a preference.",
+    "g": [
+     [
+      "Lessons Learned",
+      "what the whole project teaches the organisation, written down for the next project"
+     ]
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "And where does it go, because I am the one who files it. Project-End Report, section six, and a copy in the office library that four people a year open.",
+    "plain": "And where does it go, since I am the person who files it? Into the Project-End Report, section six, with a copy in the Project Support Office library that four people a year open."
+   },
+   {
+    "who": "gantt",
+    "text": "Four people a year is not nothing. On CASTOR it was two, and one of them was you in October 2028, reading the change control section, which is why we have a change process on this project that takes three days.",
+    "plain": "Four people a year is not nothing. On CASTOR it was two, and one of them was you, in October 2028, reading the change control section. That is why this project has a change process that takes three days."
+   },
+   {
+    "who": "babbage",
+    "text": "All right. I withdraw the objection to the meeting. I keep the objection to three hours.",
+    "plain": "All right. I withdraw my objection to the meeting. I keep my objection to three hours."
+   },
+   {
+    "who": "narr",
+    "text": "It takes two hours and fifty minutes. Six lessons, four recommendations, and one sentence that Deming reads back twice to make sure Curie will recognise it in March.",
+    "plain": "The meeting takes two hours and fifty minutes. It produces six lessons, four recommendations, and one sentence that Deming reads back twice, so that Curie will recognise it in March.",
+    "ref": [
+     57,
+     "As soon as possible, the improvement opportunities are integrated into the team's work"
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "The team has twenty-six retrospective logs and sixty-one implemented actions. What goes into the Project-End Report as the project's Lessons Learned?",
+   "promptPlain": "The team has twenty-six retrospective logs and sixty-one completed actions. What goes into the Project-End Report as the project's Lessons Learned?",
+   "options": [
+    {
+     "t": "Hold the Project-End Review and write Lessons Learned and post-project recommendations from it, using the twenty-six logs as one input among several — the team owns what leaves the room.",
+     "tPlain": "Hold the Project-End Review. Write Lessons Learned and post-project recommendations from it, using the twenty-six logs as one input among several. The team decides what leaves the room.",
+     "ok": true,
+     "reply": {
+      "who": "deming",
+      "text": "Then I get the two months before iteration one, which no retrospective could see, and the contract clause, which no retrospective could touch, and the four things that recurred, which every retrospective saw and none of them could fix alone.",
+      "plain": "Then I get three things. The two months before iteration 1, which no retrospective could see. The contract clause, which no retrospective could change. And the four recurring problems, which every retrospective saw and none of them could fix alone."
+     },
+     "why": "PM²'s Project-End Review captures lessons learned and post-project recommendations so teams benefit from the experience acquired during the project (p.57). The Iteration Retrospective does something else: it evaluates the team's own performance, frequently, and produces improvements the team can implement without waiting for management's approval. The retrospectives log is the repository that enriches the lessons learned — an input, from which the whole-project view is built, together with what no fortnight could see: elapsed time before the team existed, contracts, governance, and the themes that recurred across eighteen months.",
+     "whyPlain": "The PM2 Project-End Review captures lessons learned and post-project recommendations, so that teams benefit from the experience gained during the project (page 57). The Iteration Retrospective does something different. It looks at the team's own performance, often, and produces improvements the team can carry out without waiting for management approval. The retrospectives log is the store of material that enriches the lessons learned. It is an input. The whole-project view is built from it, together with things no two-week cycle could see: the time that passed before the team existed, contracts, governance, and the themes that came back again and again over eighteen months.",
+     "ref": [
+      57,
+      "one of its key ceremonies - the Project-End Review meeting - aims to capture lessons learned and post-project recommendations to help teams benefiting from the experience acquired during the project"
+     ]
+    },
+    {
+     "t": "Skip it. Twenty-six retrospectives already captured the learning and sixty-one of seventy-four actions were implemented at the time — which is better than any lessons-learned document has ever managed.",
+     "tPlain": "Skip it. Twenty-six retrospectives already captured the learning, and sixty-one of seventy-four actions were carried out at the time. That is better than any lessons learned document has ever achieved.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "Then in 2032 somebody proposes a two-year specification for a requirement that will not hold still, and there is nothing in this building that says we tried the other thing and what it cost. I have watched that argument lost twice for want of one page.",
+      "plain": "Then in 2032 somebody proposes a two-year specification for a requirement that will not stay still, and there is nothing in this building that records that we tried the other approach and what it cost. I have seen that argument lost twice, for want of a single page."
+     },
+     "why": "The retrospectives are genuinely doing their job — the guide's whole point is that improvement opportunities are integrated into the team's work as soon as possible rather than waiting for the end. But the guide is equally explicit that the Lessons Learned captured at the end of a project remain valuable; the frequent habit is added to them, not substituted for them. The mindsets make it an obligation rather than a courtesy: share knowledge, actively manage lessons learned, contribute to the improvement of project management within the organisation. A closed project that taught its own team and nobody else has kept the smaller half.",
+     "whyPlain": "The retrospectives really are doing their job. The guide's whole point is that improvements go into the team's work as soon as possible, instead of waiting for the end. But the guide is just as clear that the Lessons Learned collected at the end of a project stay valuable. The frequent habit is added to them, not used instead of them (page 8). The mindsets make this a duty rather than good manners: share knowledge, actively manage lessons learned, and help improve project management across the organisation (page 22). A project that closes having taught only its own team has kept the smaller half.",
+     "ref": [
+      22,
+      "Share knowledge, actively manage lessons learned and contribute to the improvement of project management within their Organisations"
+     ]
+    },
+    {
+     "t": "Submit the twenty-sixth retrospective — the transition iteration's — as the project's Lessons Learned. It is the most recent, the team is still together, and it already looks back across the whole delivery.",
+     "tPlain": "Submit the twenty-sixth retrospective, from the transition iteration, as the project's Lessons Learned. It is the most recent, the team is still together, and it already looks back over the whole delivery.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "text": "The twenty-sixth is about a fortnight in January in which we trained nine supervisors and fixed two defects. It is a good log. It has nothing in it about November 2028, because in November 2028 four of the six of us had not met.",
+      "plain": "The twenty-sixth retrospective is about two weeks in January, in which we trained nine supervisors and fixed two defects. It is a good log. It contains nothing about November 2028, because in November 2028 four of the six of us had not met."
+     },
+     "why": "An Iteration Retrospective inspects what happened during that iteration, so that the team can collect as much data as possible about it — it is a permanent and recurrent evaluation of the team's performance made by the team itself, at iteration scale. It is not a project-scale instrument and does not pretend to be. The last one is simply the last fortnight, and the lessons that matter most are usually the ones no single fortnight could see: the elapsed time before the team existed, a contract, a governance route, a theme that only becomes visible when eighteen months of logs are read together.",
+     "whyPlain": "An Iteration Retrospective examines what happened during that iteration, so the team can collect as much data about it as possible. It is a regular, repeated review of the team's performance, done by the team itself, at the scale of one iteration (page 57). It is not a whole-project instrument and does not claim to be. The last one is simply the last two weeks. The lessons that matter most are usually those no single two-week period could see: the time before the team existed, a contract, a governance route, or a pattern that only appears when eighteen months of logs are read together.",
+     "ref": [
+      57,
+      "allowing a permanent and recurrent evaluation of the Agile Project Core Team's (A-PCT) performance made by the team itself"
+     ]
+    },
+    {
+     "t": "Attach all twenty-six retrospective logs to the Project-End Report as the lessons-learned annex. It is complete, it is contemporaneous, and it is not filtered by anybody's memory of what happened.",
+     "tPlain": "Attach all twenty-six retrospective logs to the Project-End Report as the lessons learned annex. It is complete, it was written at the time, and nobody's memory has filtered it.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "Ninety pages, and the first reader will be somebody deciding in 2032 whether to specify or to iterate, with an hour and a governance meeting at three. They will read the first log and the last and conclude whatever they came in with.",
+      "plain": "That is ninety pages. The first reader will be somebody deciding in 2032 whether to write a specification or to work in iterations, with one hour free and a governance meeting at 15:00. They will read the first log and the last one, and conclude whatever they already believed."
+     },
+     "why": "The repository of retrospective logs is a source, and the guide treats it as one: it is where the team keeps its outputs, and it enriches the lessons learned. Handing over the source instead of the conclusion moves the analytical work onto the reader and loses everything that only appears when the logs are read against each other — recurrence, the themes nobody could fix alone, and the periods the logs do not cover at all. It also hands out the team's own record without the team choosing what leaves the room, which is what makes the next project's retrospectives honest.",
+     "whyPlain": "The store of retrospective logs is a source, and the guide treats it as one. It is where the team keeps its outputs, and it enriches the lessons learned (page 57). Handing over the source instead of the conclusion pushes the analysis onto the reader, and loses everything that appears only when the logs are compared with each other: what recurred, the themes nobody could fix alone, and the periods the logs do not cover at all. It also releases the team's own record without the team choosing what leaves the room, and that choice is what keeps the next project's retrospectives honest.",
+     "ref": [
+      57,
+      "the repository where the Agile Project Core Team (A-PCT) keeps the logs of the Iteration retrospectives"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Turns the recurrences into recommendations somebody else can act on.",
+    "k": "Knows the data-protection lesson would have cost four lines in a handbook.",
+    "w": "Wants recommendations written as instructions, not as regrets.",
+    "f": "Afraid the one lesson that matters is softened by somebody in March."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Runs the Project-End Review; has waited the whole project for it.",
+    "k": "Knows the eighty-eight days before iteration one appear in nobody's retrospective log.",
+    "w": "Wants Eiffel's contract lesson in writing before Eiffel leaves the building.",
+    "f": "Afraid a document read by four people a year is written as if by nobody."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Read all twenty-six logs; found the four recurrences.",
+    "k": "Knows the logs hold decisions, not what anybody said, and why that rule matters.",
+    "w": "Wants the recurring four named, since none of them could be fixed inside one fortnight.",
+    "f": "Afraid the room's honesty is spent retrospectively by a document nobody warned them about."
+   },
+   "curie": {
+    "o": "Product Owner. Dictates the lesson she does not want softened.",
+    "k": "Knows nobody could describe the report in 2028 and nobody can now.",
+    "w": "Wants that written as the true state of the problem rather than as a failure.",
+    "f": "Afraid the next committee argues from preference again because nothing was recorded."
+   },
+   "eiffel": {
+    "o": "Agile Team Member, seconded lead. Back at Levallois on Friday week.",
+    "k": "Knows his contract's definition of done and Annex D were never the same document.",
+    "w": "Wants the procurement lesson said out loud even though it costs his own firm.",
+    "f": "Afraid nobody in the building will be able to say it once he has gone."
+   },
+   "babbage": {
+    "o": "Agile Team Member, data engineer. Keeper of twenty-six photographs of a wall.",
+    "k": "Knows sixty-one of seventy-four retrospective actions were done within a fortnight.",
+    "w": "Wants an assurance that what he said in July was never being collected.",
+    "f": "Afraid the safety of the retrospective is revoked backwards at the end of a project."
+   },
+   "gantt": {
+    "o": "Project Support Office. Files the Project-End Report and keeps the office library.",
+    "k": "Knows the CASTOR report had two readers and what one of them changed.",
+    "w": "Wants one page that wins an argument in 2032 for somebody he will never meet.",
+    "f": "Afraid of an argument lost in five years for want of a page nobody wrote."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 5.5, p.57, with section 2.3, p.8, and the mindsets at pp.22-23. Retrospecting is not new in PM²: the Project-End Review meeting captures lessons learned and post-project recommendations so teams benefit from the experience acquired, and PM² already asks that improvement opportunities be captured throughout the project rather than only at the end, where most may already have been forgotten. PM²-Agile takes retrospection further in two ways: the Iteration Retrospective happens at the end of every iteration, giving a permanent and recurrent evaluation of the team's performance made by the team itself; and the team does not wait until the end of the project to adjust, integrating improvement opportunities into its work as soon as possible. The retrospective is focused on real problems affecting the team, and finds solutions the team can implement without waiting for management approval. At the end of the project, when Lessons Learned are collected, the repository where the team keeps its Iteration Retrospective logs is an invaluable source that enriches the lessons learned and the post-project recommendations — an input to them, not a replacement. Section 2.3 states the same relation directly: the Lessons Learned captured at the end of a project remain valuable, and the habit of frequent reviewing and retrospecting is infused across the project continuum in addition. The mindsets make sharing knowledge and actively managing lessons learned an obligation to the wider organisation. Pages 8, 22-23, 57, with the log reference at p.85.",
+  "notePlain": "Rule: looking back is not new in PM2. The Project-End Review meeting collects lessons learned and recommendations for after the project, so that teams gain from the experience. PM2 already asks that improvement ideas be collected during the project, not only at the end, when most of them have been forgotten (page 57). PM2-Agile goes further in two ways. First, the Iteration Retrospective happens at the end of every iteration, which gives a constant, repeated review of the team's performance, made by the team itself. Second, the team does not wait until the end of the project to change things; improvements go into its work as soon as possible (page 57). The retrospective deals with real problems that affect the team, and finds solutions the team can apply without waiting for management approval. At the end of the project, when Lessons Learned are collected, the store of retrospective logs is a very valuable source that enriches the lessons learned and the recommendations. It is an input to them, not a replacement for them (page 57). Page 8 says the same thing directly: lessons learned at the end of a project stay valuable, and the habit of frequent review is added across the whole project. The mindsets make sharing knowledge and actively managing lessons learned a duty to the wider organisation (page 22). Pages 8, 22, 23, 57 and 85."
+ },
+ {
+  "id": "s25",
+  "act": 3,
+  "actName": "Releases & Closing",
+  "title": "Eleven working days",
+  "covers": [
+   "Administrative closure",
+   "Success criteria"
+  ],
+  "guide_page": 23,
+  "where": "ESM, Kirchberg — Lending Operations, fourth floor, the Reporting desks",
+  "when": "20 Mar 2030, 16:00",
+  "cast": [
+   "you",
+   "curie",
+   "medici",
+   "nightingale",
+   "hopper",
+   "lovelace",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "March on the plateau, nine degrees, the south blinds up for once. Nineteen months since a coffee was put down on a printed page at this desk, and the fourth floor has stopped smelling of new carpet.",
+    "plain": "It is March in Kirchberg, nine degrees, and for once the blinds on the south side are open. Nineteen months have passed since somebody put a coffee down on a printed page at this desk. The fourth floor no longer smells of new carpet."
+   },
+   {
+    "who": "gantt",
+    "text": "Sixteen hundred hours. Eleven items, eleven done, the last one at twenty to four. Contract with Levallois closed on the first of March. Archive accepted by Gutenberg this morning, one shelf, as promised.",
+    "plain": "It is 16:00. There were eleven closing items and all eleven are complete, the last at 15:40. The contract with Levallois was closed on 1 March. Gutenberg accepted the archive this morning: one shelf, as promised.",
+    "g": [
+     [
+      "administrative closure",
+      "the final tasks: close the budget, close contracts, archive documents, release the team"
+     ]
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Four point three eight million of four point six. Eighteen hundred and twenty-four person-days of eighteen fifty. Twenty-six iterations, four releases, four dates, four met.",
+    "plain": "We spent 4.38 million euro of 4.6 million, and 1,824 person-days of 1,850. There were twenty-six iterations and four releases, with four planned dates, all four met."
+   },
+   {
+    "who": "narr",
+    "text": "Medici has come down four floors, which he does not do. He is standing because there is one spare chair and Nightingale is in it.",
+    "plain": "Medici has come down four floors, which he does not normally do. He is standing, because there is one spare chair and Nightingale is sitting in it."
+   },
+   {
+    "who": "medici",
+    "text": "In September 2028 I asked what I gained that CASTOR could not give me, and somebody in that room told me it was not speed. I have carried that around for eighteen months. Show me the thing.",
+    "plain": "In September 2028 I asked what I would gain that CASTOR could not give me. Somebody in that room told me it was not speed. I have carried that answer around for eighteen months. Now show me the thing itself."
+   },
+   {
+    "who": "curie",
+    "text": "Two windows. This is a mail from the Central Bank of Cyprus, timed nine forty on Monday the fourth of March. Maturity split by original maturity, not residual, because their supervisors report on a different basis and always have.",
+    "plain": "Here are two windows. This is an e-mail from the Central Bank of Cyprus, timed 09:40 on Monday 4 March. They asked for maturity split by original maturity, not residual, because their supervisors report on a different basis and always have."
+   },
+   {
+    "who": "curie",
+    "text": "And this is the deployment record. Friday the fifteenth, eleven twenty. Ten working days, one iteration, and I did not attend a single meeting about it because nobody needed to hold one.",
+    "plain": "And this is the deployment record: Friday 15 March at 11:20. That is ten working days, or one iteration. I did not attend any meeting about it, because nobody needed to hold one.",
+    "g": [
+     [
+      "success criterion",
+      "a measurable statement in the Business Case that decides whether the project worked"
+     ]
+    ],
+    "ref": [
+     23,
+     "Concentrate on the Flow of value, where the customer defines value"
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "And was that one easy.",
+    "plain": "And was that particular request an easy one?"
+   },
+   {
+    "who": "curie",
+    "text": "That is the right question and it is why I am not going to quote you that one. Forty-one report views since March last year. Fastest four days. Slowest nineteen, and that was the bucket export, which was not a view, it was an argument about what a bucket is. The middle of them is eleven working days.",
+    "plain": "That is the right question, and it is why I will not quote that single case to you. There have been forty-one report views since March last year. The fastest took four days. The slowest took nineteen, and that was the bucket export, which was not really a view but an argument about what a bucket is. The middle value is eleven working days."
+   },
+   {
+    "who": "curie",
+    "text": "The baseline in the business case is one quarter. The target is one iteration. Eleven working days is the honest number and it is the one I want on the paper.",
+    "plain": "The baseline figure in the Business Case is one quarter. The target is one iteration. Eleven working days is the honest number, and that is the number I want written on the paper."
+   },
+   {
+    "who": "hopper",
+    "text": "And two of the forty-one were built after the thirty-first of January, by a run team, with no project behind them. Which is the sentence I have wanted to be able to write since CASTOR.",
+    "plain": "And two of the forty-one were built after 31 January, by the permanent support team, with no project behind them. That is the sentence I have wanted to be able to write since CASTOR.",
+    "ref": [
+     18,
+     "This iterative and incremental nature of PM2-Agile creates a sustainable and paced delivery of value to the organisation"
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Then the rest of the scoreboard, and I would like it from Grace, because Grace is the one who will still be holding it.",
+    "plain": "Then give me the rest of the scoreboard. I would like it from Grace, because Grace is the one who will still be holding it."
+   },
+   {
+    "who": "hopper",
+    "text": "Three of five today. That one. Zero spreadsheets since the twentieth of December. Every figure traceable without manual mapping, which you can test from that chair in forty seconds and I would rather you did.",
+    "plain": "Three of the five criteria are met today. That one. Zero spreadsheets since 20 December. And every figure is traceable without manual mapping, which you can test from that chair in forty seconds, and I would prefer that you did.",
+    "g": [
+     [
+      "validated learning",
+      "proving an assumption with real data from real use instead of assuming it"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "The quarter-end pack I measure in April. The second audit finding is closed subject to a review in September. So I come back to your board in 2031 with two numbers, and I will come back whether they are good or not, as agreed in February.",
+    "plain": "I will measure the quarter-end pack in April. The second audit finding is closed, but subject to a review in September. So I will return to your board in 2031 with two figures, and I will come whether they are good or not, as we agreed in February.",
+    "ref": [
+     22,
+     "Involve project stakeholders in the organisational change needed to maximize project benefits"
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "CASTOR was four of five on its closing day.",
+    "plain": "CASTOR had four of five criteria met on the day it closed."
+   },
+   {
+    "who": "nightingale",
+    "text": "It was, and the fifth arrived in this building nineteen months later, and by then two of the four had drifted and nobody was measuring. Three today with a service that keeps producing them is a different animal from four on a day.",
+    "plain": "That is true, and the fifth arrived in this building nineteen months later. By then two of the other four had drifted, and nobody was measuring. Three criteria today, with a service that keeps producing them, is a very different thing from four on a single day.",
+    "ref": [
+     22,
+     "Maintain an Outcomes Orientation in relation to all projects and project management activities"
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Then close it. Four point three eight against four point six, the commitment closes today and two hundred and twenty thousand goes back to the portfolio, where it will be gone by June because Risk has a data-quality proposal and I have read it twice.",
+    "plain": "Then close it. We spent 4.38 million euro against 4.6 million. The funding commitment closes today, and 220,000 euro returns to the portfolio, where it will be gone by June, because Risk has a data quality proposal and I have read it twice."
+   },
+   {
+    "who": "gantt",
+    "text": "Then I close the line at sixteen hundred, dated today, and POLLUX stops existing as a thing that can spend money.",
+    "plain": "Then I close the funding line at 16:00, dated today. From that point POLLUX stops existing as something that can spend money."
+   },
+   {
+    "who": "medici",
+    "text": "Henry, the end report goes on my shelf next to CASTOR's, spine out, and if anybody asks me in 2032 whether to write a specification or to iterate, I intend to hand them both and let them read the difference.",
+    "plain": "Henry, the Project-End Report goes on my shelf next to CASTOR's, with the spine facing out. If anybody asks me in 2032 whether to write a specification or to work in iterations, I will hand them both and let them read the difference.",
+    "ref": [
+     23,
+     "There is no such thing as an Agile project. There are only PM2-Agile projects"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "I start on the customs tariff project in May and they have already asked me whether we will be doing agile, in exactly that tone. I have three answers ready and none of them is yes.",
+    "plain": "I start work on the customs tariff project in May. They have already asked me whether we will be doing agile, in exactly that tone of voice. I have three answers prepared, and none of them is yes."
+   },
+   {
+    "who": "gantt",
+    "text": "I have put the release burndown in the office template library. Under charts. I want it understood that it is still not a schedule, and that I have said so in the covering note.",
+    "plain": "I have added the release burndown chart to the Project Support Office template library, under charts. I want it understood that it is still not a schedule, and that I have written so in the covering note."
+   },
+   {
+    "who": "you",
+    "text": "Marie. In August 2028 you told me there was no exposure report, there were three.",
+    "plain": "Marie, in August 2028 you told me there was no exposure report. You said there were three."
+   },
+   {
+    "who": "curie",
+    "text": "There are still three. Risk has one, Finance has one, the Board has one, and not one of them is the report, and in five years there will be a fourth I cannot imagine today.",
+    "plain": "There are still three. Risk has one, Finance has one, the Board has one, and none of them is the report. In five years there will be a fourth that I cannot imagine today."
+   },
+   {
+    "who": "curie",
+    "text": "Four point three eight million euro so that I can be wrong for a fortnight instead of a quarter. That is what was bought. Write that one down, Henry, exactly like that, because it is the only sentence in the whole report that is true all the way to the bottom.",
+    "plain": "Four point three eight million euro, so that I can be wrong for two weeks instead of three months. That is what was bought. Write that sentence down, Henry, exactly as I said it. It is the only sentence in the whole report that is true all the way down.",
+    "ref": [
+     23,
+     "Is there life after the project?"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "No project. No budget, no charter, no team. The same desk, the same two screens, the same printed page with pencil on it and a coffee ring drying on the corner.",
+    "plain": "There is no project. No budget, no charter, no team. It is the same desk, the same two screens, the same printed page with pencil marks on it, and a coffee ring drying on the corner."
+   },
+   {
+    "who": "narr",
+    "text": "At the top of the page, in her handwriting, a date. Iteration five opens on the first of April, and nobody in the building has to approve it.",
+    "plain": "At the top of the page, in her handwriting, there is a date. Iteration five opens on 1 April, and nobody in the building has to approve it."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Last day of the project; the role ends with the funding line at sixteen hundred.",
+    "k": "Knows three criteria are demonstrable today and two belong to other people's calendars.",
+    "w": "Wants Curie's sentence recorded before anybody improves it.",
+    "f": "Afraid the thing that actually changed was never written down anywhere."
+   },
+   "curie": {
+    "o": "Product Owner, now service owner. Holds the backlog and the cadence after the project.",
+    "k": "Knows the median is eleven working days and refuses to quote the fastest case.",
+    "w": "Wants the honest number on the paper and her own sentence unsoftened.",
+    "f": "Afraid nobody records that the requirement never stabilised and that this was correct."
+   },
+   "medici": {
+    "o": "AGB chair. Closes the funding line and returns the balance to the portfolio.",
+    "k": "Knows CASTOR showed four of five on a day and drifted before anyone measured again.",
+    "w": "Wants two end reports on one shelf so the next argument is settled with evidence.",
+    "f": "Afraid of funding another thing whose evidence arrives after everyone has left."
+   },
+   "nightingale": {
+    "o": "Project Owner. Keeps benefits accountability; owns the service from the first of March.",
+    "k": "Knows a service that keeps producing figures is not the same as four met on a day.",
+    "w": "Wants the comparison with CASTOR made on the right terms.",
+    "f": "Afraid the measurement stops the moment the last project person leaves."
+   },
+   "hopper": {
+    "o": "Business Manager. Measures the remaining two criteria; reports to the board in 2031.",
+    "k": "Knows two of the forty-one views were built after transition with no project behind them.",
+    "w": "Wants to write the sentence she has waited two years to be able to write.",
+    "f": "Afraid April and September answer differently from the way today feels."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Released today; starts on the customs tariff project in May.",
+    "k": "Knows the question she will be asked there and has three answers that are not yes.",
+    "w": "Wants to arrive without the word agile doing all the work in the first meeting.",
+    "f": "Afraid the next team is handed the ceremonies without the governance under them."
+   },
+   "gantt": {
+    "o": "Project Support Office. Closes the line at sixteen hundred and files the end report.",
+    "k": "Knows every closing item is done and which one took until twenty to four.",
+    "w": "Wants the burndown in the template library with a note saying it is not a schedule.",
+    "f": "Afraid somebody prints one and calls it a plan."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 3.4, pp.22-23, with section 3.3.1, p.18. The PM² Mindsets ask project teams to maintain an outcomes orientation across all project management activities, to involve project stakeholders in the organisational change needed to maximise project benefits, and to share knowledge and actively manage lessons learned. The Infrequently Asked Questions that keep the mindsets live include 'Have we improved?' and 'Is there life after the project?' — the second of which is the closing question of any project, and the one POLLUX answers with a service backlog rather than a report. The PM²-Agile drivers add that there is no such thing as an Agile project, only PM²-Agile projects, and that teams should concentrate on the flow of value, where the customer defines value. Page 18 states the delivery consequence: the iterative and incremental nature of PM²-Agile creates a sustainable and paced delivery of value to the organisation, measured rigorously using a measuring and learning framework, and as the project nears completion the emphasis falls on the organisation assuming ownership and accountability for evolution and maintenance. POLLUX closes with three of five success criteria demonstrable on the day; SC1 waits for the April quarter-end pack and SC5 for an audit follow-up in September, both owned by the Project Owner and the Business Manager against the Business Case. Pages 18, 22-23.",
+  "notePlain": "Rule: the PM2 Mindsets ask project teams to stay focused on outcomes in everything they do, to involve stakeholders in the organisational change needed to get the most benefit, and to share knowledge and actively manage lessons learned (page 22). The questions that keep those mindsets alive include 'Have we improved?' and 'Is there life after the project?' (page 23). The second is the closing question of any project, and POLLUX answers it with a service backlog instead of a report. The PM2-Agile drivers add that there is no such thing as an agile project, only PM2-Agile projects, and that teams should focus on the flow of value, where the customer decides what value is (page 23). Page 18 gives the delivery result: the step-by-step nature of PM2-Agile creates a steady, sustainable delivery of value to the organisation, measured properly with a measuring and learning framework. And as the project nears its end, the emphasis falls on the organisation taking ownership and accountability for future changes and upkeep. POLLUX closes with three of its five success criteria provable on the day. SC1 waits for the April quarter-end pack and SC5 for an audit review in September. Both belong to the Project Owner and the Business Manager, measured against the Business Case. Pages 18, 22 and 23."
+ }
+]

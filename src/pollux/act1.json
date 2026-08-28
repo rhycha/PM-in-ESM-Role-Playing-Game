@@ -1,0 +1,2558 @@
+[
+ {
+  "id": "s01",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "Five days, and then they change it",
+  "covers": [
+   "Requirements"
+  ],
+  "guide_page": 30,
+  "where": "ESM, Kirchberg — Lending Operations, fourth floor, the Reporting desks",
+  "when": "28 Aug 2028, 08:10",
+  "cast": [
+   "you",
+   "curie",
+   "hopper"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Late August on the plateau. Thirty-one degrees forecast, the south blinds already down, and three months after go-live the fourth floor still smells of new carpet.",
+    "plain": "It is late August in Kirchberg. The forecast is 31 degrees. The blinds on the south side are already closed. The new lending platform went live three months ago. The fourth floor still smells of new carpet."
+   },
+   {
+    "who": "narr",
+    "text": "Marie Curie runs Reporting now. Two screens, eleven windows open across them, and beside the keyboard a printed page with pencil on it.",
+    "plain": "Marie Curie is now Head of Reporting. She has two screens with eleven windows open. Next to her keyboard there is a printed page with pencil marks on it."
+   },
+   {
+    "who": "curie",
+    "mood": "flat",
+    "text": "You are early. Sit there. Second-quarter exposure pack. It went to the Board on Friday and nobody has complained, which is the only review it gets.",
+    "plain": "You are early. Sit here. This is the exposure pack for the second quarter. It went to the Board of Directors on Friday. Nobody has complained, and that is the only review it receives.",
+    "g": [
+     [
+      "exposure",
+      "how much the ESM has lent or committed to one country, at a given date"
+     ],
+     [
+      "quarter-end pack",
+      "the set of reports produced after each three-month period for the Board"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "It looks finished.",
+    "plain": "It looks finished."
+   },
+   {
+    "who": "curie",
+    "text": "It is finished. I want you to see what finishing it costs. Eleven files. Four people. Five working days. Every quarter.",
+    "plain": "It is finished. I want you to see what it costs to finish it. Eleven files. Four people. Five working days. Every three months."
+   },
+   {
+    "who": "you",
+    "text": "The platform holds all of it.",
+    "plain": "The lending platform already holds all of that data."
+   },
+   {
+    "who": "curie",
+    "text": "The platform holds all of it. The Board cannot see the platform. Risk cannot see the platform. A supervisor in Vilnius most certainly cannot see the platform.",
+    "plain": "The platform holds all of it. But the Board of Directors cannot see the platform. The Risk division cannot see it. A national supervisor in Vilnius certainly cannot see it."
+   },
+   {
+    "who": "narr",
+    "text": "Grace Hopper arrives with two coffees and puts one down on the printed page without looking.",
+    "plain": "Grace Hopper arrives with two coffees. She puts one down on the printed page without looking."
+   },
+   {
+    "who": "hopper",
+    "text": "Tab six is mine. I send her the maturity buckets by mail on the Tuesday and she pastes them in. That is the state of the art in this building.",
+    "plain": "Tab six is my work. I send Marie the maturity figures by e-mail on the Tuesday and she copies them into the file. That is our current method."
+   },
+   {
+    "who": "curie",
+    "text": "Tab six is the one Internal Audit named. Twice. Which copy is current, and who changed it, and when.",
+    "plain": "Tab six is the one the internal auditors wrote about. Twice. Their questions are: which copy is the current one, who changed it, and when.",
+    "g": [
+     [
+      "version control",
+      "knowing which copy of a file is current, who changed it and when"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "So build the report.",
+    "plain": "So build the report."
+   },
+   {
+    "who": "curie",
+    "text": "Which one?",
+    "plain": "Which report?"
+   },
+   {
+    "who": "you",
+    "text": "The exposure report.",
+    "plain": "The exposure report."
+   },
+   {
+    "who": "curie",
+    "text": "There is no exposure report. There are three. The Board wants one page. Risk wants stress scenarios on it. Finance wants every figure reconciled to the accounts.",
+    "plain": "There is no single exposure report. There are three. The Board wants one page. The Risk division wants stress scenarios included. The Finance division wants every figure checked against the accounts.",
+    "g": [
+     [
+      "reconciled",
+      "checked against another set of records, with every difference explained"
+     ]
+    ],
+    "ref": [
+     31,
+     "An important first step is to identify requirements by clarifying the problem to be solved or the needs to be addressed."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And it moves. In April Risk wanted the scenarios weighted. In July they wanted them unweighted and split by maturity. In October it will be something else and they will be right both times.",
+    "plain": "And it changes. In April, Risk wanted the scenarios weighted. In July, they wanted them unweighted and split by maturity. In October it will be something else, and they will be right on both occasions.",
+    "ref": [
+     30,
+     "when the requirements are not entirely known or if the rate of changes is high, Agile and Lean UX approaches yield better results"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Then somebody writes a specification and we argue about it until March.",
+    "plain": "Then somebody writes a specification and we argue about it until March."
+   },
+   {
+    "who": "hopper",
+    "mood": "dry",
+    "text": "We did that. Two hundred and twelve requirements, and it worked, because every person in the room already knew what a disbursement was.",
+    "plain": "We did that on the last project. We wrote 212 requirements and it worked. It worked because everyone in the room already knew what a disbursement was."
+   },
+   {
+    "who": "curie",
+    "text": "Ask Risk to specify this and they will describe a screen. They will describe the screen they have imagined, and we will build it, and it will be wrong by the second quarter.",
+    "plain": "If you ask Risk to write the specification, they will describe a screen. They will describe the screen they have imagined. We will build it, and by the second quarter it will be wrong.",
+    "ref": [
+     30,
+     "Requirements may be derived from some knowledge of possible solutions. As such, they represent the 'how', rather than the 'what', thus limiting the possibility to discover the most appropriate solution."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Marie. If the Board asked you this morning what the report should contain, what would you send them?",
+    "plain": "Marie, if the Board asked you this morning what the report should contain, what would you send them?"
+   },
+   {
+    "who": "curie",
+    "text": "Mine. Grace would send hers. Both would be defensible and they would not match.",
+    "plain": "I would send my version. Grace would send hers. Both would be defensible, and the two would not match."
+   },
+   {
+    "who": "hopper",
+    "text": "I have Florence at eleven and I have no number for her. I know what it costs us. I do not know what it costs to stop.",
+    "plain": "I meet Florence Nightingale at 11:00 and I have no figure for her. I know what the current situation costs us. I do not know what it would cost to fix it."
+   },
+   {
+    "who": "you",
+    "text": "Start with the thing nobody has written down. Not the screens. The problem. Four analysts, five days, eleven files, and three people who want three different reports.",
+    "plain": "Start with the thing nobody has written down. Not the screens. The problem. Four analysts, five days, eleven files, and three people who want three different reports.",
+    "ref": [
+     31,
+     "it is important to fully document the problem or need in the PM² Business Case before gathering requirements"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Two of my four did this in 2027 as well, before the platform. The numbers got cleaner. The five days did not move.",
+    "plain": "Two of my four analysts did this work in 2027 too, before the new platform existed. The numbers became cleaner. The five days did not change.",
+    "ref": [
+     5,
+     "Agile appreciates the inherent uncertainty of the project environment"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "No project. No budget, no charter, no team. A printed page with pencil on it, a coffee ring now drying on the corner of it, and a problem nobody has yet agreed on.",
+    "plain": "There is no project. No budget, no charter, no team. There is a printed page with pencil marks, a drying coffee ring on one corner, and a problem that nobody has yet agreed on.",
+    "ref": [
+     31,
+     "Without this effort, problem-solving opportunities may be missed"
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager in the ESM Project Support Office. Not assigned to anything. Invited up by Reporting, not by governance.",
+    "k": "Has now watched the quarter-end pack being assembled once, with the file count and the day count attached.",
+    "w": "Wants the problem written down before anybody starts describing screens.",
+    "f": "Afraid this becomes a reporting tool procured on somebody's assumption about what Risk wants."
+   },
+   "curie": {
+    "o": "Head of Reporting, Lending Operations. Owns the quarter-end exposure pack and signs it.",
+    "k": "Knows every one of the eleven files, and which two audit findings sit on tab six.",
+    "w": "Wants the five days back, and wants Risk to stop changing the question in week four.",
+    "f": "Afraid of being handed a portal built to somebody else's guess about the report."
+   },
+   "hopper": {
+    "o": "Senior Loan Operations Officer. Still the business voice, and still measuring the last project's benefits.",
+    "k": "Knows the pain and the audit history. Has no cost figure and no delivery approach.",
+    "w": "Wants something concrete to put in front of Nightingale at eleven.",
+    "f": "Afraid the answer is another two-year specification for a requirement that will not hold still."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 4.4, pp.30-31. Requirements describe the features needed to satisfy stakeholders' needs. If requestor and provider are both certain the requirements specification describes the solution completely, the traditional upfront planning approach can be used. When the requirements are not entirely known, or the rate of change is high, agile and Lean UX approaches yield better results. The guide also warns that requirements derived from a known solution express the 'how' rather than the 'what'. The first step is to clarify the problem to be solved, and the guide is explicit that the problem or need should be fully documented in the PM² Business Case before requirements are gathered. Nothing here is a PM²-Agile project yet: no Project Initiation Request, therefore no Project Owner, no Product Owner, no Work Items List. RASCI row: none. Approver: none, because nothing exists to approve. Pages 30-31.",
+  "notePlain": "Rule: requirements describe what people need. If both sides are sure a written specification describes the whole solution, use the normal PM² way. When the requirements are not really known, or they change often, agile and Lean UX work better (page 30). The guide also warns that people often describe a solution they have already imagined. That is the 'how', not the 'what'. So the first job is to make the problem clear, and the guide says to write that problem fully in the Business Case before collecting requirements (page 31). Here there is no project yet, so there are no roles, no Work Items List and nobody to approve anything. Pages 30 and 31."
+ },
+ {
+  "id": "s02",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "Fund what, exactly",
+  "covers": [
+   "Agile & PM²",
+   "The PM²-Agile Model"
+  ],
+  "guide_page": 14,
+  "where": "ESM, Kirchberg — seventh floor, the Deputy Managing Director's office",
+  "when": "04 Sep 2028, 16:30",
+  "cast": [
+   "you",
+   "medici",
+   "nightingale",
+   "hopper",
+   "leonardo"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Lorenzo de' Medici keeps a shelf of finished things. The CASTOR Project-End Report is on it, spine out. On the desk, one page: a Project Initiation Request dated today.",
+    "plain": "Lorenzo de' Medici keeps a shelf of completed projects. The CASTOR Project-End Report stands on it. On the desk there is a single page: a Project Initiation Request dated today.",
+    "g": [
+     [
+      "Project Initiation Request",
+      "the short PM² document that asks permission to write a Business Case"
+     ],
+     [
+      "Appropriate Governance Body",
+      "the senior committee that decides what the organisation invests in"
+     ]
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Two and a half years ago Grace sat in that chair and told me precisely what eight point four million would buy. It bought it. Six weeks late, and it bought it.",
+    "plain": "Two and a half years ago, Grace sat in that chair and told me exactly what 8.4 million euro would buy. It bought that. It was six weeks late, but it bought it."
+   },
+   {
+    "who": "medici",
+    "text": "Now read me the third line of this one.",
+    "plain": "Now read me the third line of this page."
+   },
+   {
+    "who": "you",
+    "text": "The content of the report cannot be specified in advance.",
+    "plain": "'The content of the report cannot be specified in advance.'"
+   },
+   {
+    "who": "medici",
+    "mood": "warm",
+    "text": "Yes. So what am I funding?",
+    "plain": "Yes. So what am I paying for?"
+   },
+   {
+    "who": "nightingale",
+    "text": "The portal.",
+    "plain": "The portal."
+   },
+   {
+    "who": "medici",
+    "text": "Florence, you cannot tell me what is on it.",
+    "plain": "Florence, you cannot tell me what will be on it."
+   },
+   {
+    "who": "hopper",
+    "text": "Not in September 2028. No.",
+    "plain": "Not in September 2028. No, we cannot."
+   },
+   {
+    "who": "medici",
+    "text": "Then that is an argument for waiting, not for spending. Talk me out of it.",
+    "plain": "Then that is a reason to wait, not a reason to spend money. Persuade me otherwise."
+   },
+   {
+    "who": "you",
+    "text": "Waiting does not make it knowable. Risk changes the question every quarter because their mandate changes every quarter. In a year you buy the same uncertainty at 2029 prices.",
+    "plain": "Waiting will not make it knowable. The Risk division changes the question every quarter, because their work changes every quarter. If you wait a year, you buy the same uncertainty at 2029 prices."
+   },
+   {
+    "who": "leonardo",
+    "text": "And my division writes a specification that four people sign and none of them believe. I have done that. It is expensive and it is quiet.",
+    "plain": "And my division would write a specification that four people sign and nobody believes. I have done that before. It is expensive, and nobody complains until much later."
+   },
+   {
+    "who": "medici",
+    "mood": "dry",
+    "text": "This is the part where somebody tells me agile is faster.",
+    "plain": "This is the moment where somebody usually tells me that agile is faster."
+   },
+   {
+    "who": "you",
+    "text": "It is not faster. It plans more than CASTOR did, and more often, and by more people. That is the actual difference and it is not a selling point.",
+    "plain": "It is not faster. It involves more planning than CASTOR did, more often, and by more people. That is the real difference, and it is not a sales argument.",
+    "ref": [
+     28,
+     "The amount of planning effort in Agile involves more effort in comparison to traditionally managed projects."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Then what do I lose?",
+    "plain": "Then what do I lose?"
+   },
+   {
+    "who": "you",
+    "text": "Nothing you had. Business Case. Charter. Architecture Overview and Operational Model, because there is an information system in it. Four phases, the same gates, this board at the top of them.",
+    "plain": "Nothing that you had before. A Business Case. A Project Charter. An Architecture Overview and an Operational Model, because the solution contains an information system. Four phases, the same gates, and this board above them.",
+    "ref": [
+     2,
+     "PM²-Agile does not replace any part of PM²."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "And what do I gain that CASTOR could not give me?",
+    "plain": "And what do I gain that CASTOR could not give me?"
+   },
+   {
+    "who": "you",
+    "text": "Four decisions instead of one. Four releases in 2029, each usable. You can stop after the second and keep the first two.",
+    "plain": "Four decisions instead of one. Four releases during 2029, each one usable. You can stop after the second release and still keep what the first two delivered.",
+    "g": [
+     [
+      "release",
+      "a working version of the solution actually handed to users, built from several iterations"
+     ]
+    ],
+    "ref": [
+     20,
+     "Release – This is an agreed Solution Increment, delivered to the client and users so that they can start using it as a real product."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "You could not do that with a platform. With a platform you find out in month twenty-two.",
+    "plain": "You could not do that when buying a platform. With a platform you find out in month twenty-two.",
+    "ref": [
+     19,
+     "projects may have several releases as a result of the incremental progress achieved in one or more iterations"
+    ]
+   },
+   {
+    "who": "medici",
+    "mood": "warm",
+    "text": "And what leaves the portfolio to make room for it?",
+    "plain": "And what leaves the investment portfolio to make room for it?",
+    "ref": [
+     68,
+     "a critical goal is to ensure that an outline of the proposed project's goals, scope, estimated budget, roadmap, risks, high-level deliverables"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "The reporting warehouse refresh. It has slipped every year since 2026 and its business case is this one, written worse.",
+    "plain": "The reporting warehouse refresh. It has been delayed every year since 2026, and its business case is the same as this one, written badly."
+   },
+   {
+    "who": "medici",
+    "text": "I have been waiting four years for somebody to say that out loud. Grace. You still owe me a number on the last one.",
+    "plain": "I have waited four years for somebody to say that out loud. Grace, you still owe me a figure on the previous project."
+   },
+   {
+    "who": "hopper",
+    "text": "Full-year 2029, to this board, February 2030. Four of five criteria met on the day we closed, one of them still a blank line. It has not changed.",
+    "plain": "The full-year figures for 2029 come to this board in February 2030. On the day we closed, four of the five success criteria were met and one was still empty. That has not changed."
+   },
+   {
+    "who": "medici",
+    "text": "One more, then I have the Governors at five. If it is agile, and the team organises itself, who exactly do I shout at?",
+    "plain": "One more question, then I meet the Governors at 17:00. If this is agile, and the team organises its own work, who exactly do I hold responsible?",
+    "ref": [
+     64,
+     "The extended governance model defined by PM²-Agile identifies a set of new roles that will take on some responsibilities usually assigned to the Project Manager (PM)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Me. That part does not move.",
+    "plain": "Me. That part does not change."
+   },
+   {
+    "who": "medici",
+    "text": "Good. Then one sentence, and I will sign the page. What am I buying?",
+    "plain": "Good. Then give me one sentence and I will sign the page. What am I buying?",
+    "g": [
+     [
+      "Project Steering Committee",
+      "the committee that steers the project between the top governance body and the manager"
+     ]
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "Lorenzo wants one sentence before he signs. What do you tell him he is buying?",
+   "promptPlain": "Lorenzo wants one sentence before he signs. What do you tell him he is buying?",
+   "options": [
+    {
+     "t": "The same governance you had on CASTOR — Business Case, Charter, gates, Steering Committee. What changes is how Executing is run, because the requirement genuinely is not knowable yet.",
+     "tPlain": "The same governance as CASTOR: Business Case, Charter, gates, Steering Committee. Only the way the Executing phase is run changes, because the requirement really is not knowable yet.",
+     "ok": true,
+     "reply": {
+      "who": "medici",
+      "mood": "flat",
+      "text": "So I am buying the same controls and a different construction method. That I can defend. Bring me a Business Case by October and do not make it long.",
+      "plain": "So I am buying the same controls with a different way of building. I can defend that. Bring me a Business Case in October, and keep it short."
+     },
+     "why": "PM²-Agile does not replace any part of PM² (p.2). It expands PM² with methods, tools and techniques for teams applying Agile and Lean practices inside a PM² project, and PM² keeps supplying the governance model, the lifecycle and the artefacts. The Business Case, Project Charter, Architecture Overview and Operational Model stay mandatory where an information system is part of the solution (p.25). The honest reason for choosing it here is the one in section 4.4: the requirements are not entirely known and the rate of change is high.",
+     "whyPlain": "PM²-Agile does not replace any part of PM² (page 2). It adds methods and techniques for teams working in an agile way inside a PM² project. PM² still supplies the governance, the phases and the documents. The Business Case, Project Charter, Architecture Overview and Operational Model stay compulsory when the solution contains an information system (page 25). The real reason to choose agile here is the one on page 30: the requirements are not known and they change often.",
+     "ref": [
+      2,
+      "PM²-Agile does not replace any part of PM²."
+     ]
+    },
+    {
+     "t": "Speed. Agile delivers in three months what CASTOR needed two years for.",
+     "tPlain": "Speed. Agile delivers in three months what CASTOR needed two years to deliver.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "CASTOR took two years because it replaced a payments system. This one is smaller. That is not the same claim and he will notice.",
+      "plain": "CASTOR took two years because it replaced a payments system. This project is smaller. That is a different claim, and he will notice."
+     },
+     "why": "The guide never sells agile on speed. It says the opposite about planning: the amount of planning effort in agile is greater than in traditionally managed projects, and its intensity is spread across the whole lifecycle (p.28). Selling speed to an Appropriate Governance Body creates a promise nobody in the room controls, and it hides the real reason, which is uncertainty in the requirement.",
+     "whyPlain": "The guide never sells agile as faster. It says the opposite about planning: agile needs more planning effort than a traditional project, spread over the whole lifecycle (page 28). Promising speed to a senior committee creates a promise nobody can keep, and it hides the real reason, which is that the requirement is not known.",
+     "ref": [
+      28,
+      "The amount of planning effort in Agile involves more effort in comparison to traditionally managed projects."
+     ]
+    },
+    {
+     "t": "We fix the scope now with Risk and Finance, then use agile only for the build.",
+     "tPlain": "We agree the full scope now with Risk and Finance, and use agile only for the building work.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "mood": "sharp",
+      "text": "Fix it with whom? Risk changed the scenario basis twice this year. You would be buying a specification with a shelf life of one quarter.",
+      "plain": "Agree it with whom? Risk changed the basis of the scenarios twice this year. You would be buying a specification that is out of date after one quarter."
+     },
+     "why": "The guide is explicit about when the traditional route is correct: if both requestor and provider are certain the requirements specification describes the solution completely, use upfront planning (p.30). That is the CASTOR case, not this one. Fixing a scope nobody can hold still produces a specification the project then defends instead of a solution the users can use.",
+     "whyPlain": "The guide says clearly when the traditional way is right: if both sides are certain that a written specification describes the whole solution, plan it all up front (page 30). That was true for CASTOR. It is not true here. Fixing a scope that will not hold still means the project defends a document instead of delivering a solution.",
+     "ref": [
+      30,
+      "If both the requestor and the provider are certain that the solution is completely described by the requirements specification, then the traditional upfront planning approach can be used."
+     ]
+    },
+    {
+     "t": "Less paperwork. The documentation overhead you complained about on CASTOR disappears.",
+     "tPlain": "Less paperwork. The documentation work that you complained about on CASTOR will disappear.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "text": "He did not complain about the paperwork. He complained about paying for a decision he could not revisit. Do not fix the wrong grievance.",
+      "plain": "He did not complain about the paperwork. He complained about paying for a decision he could not change later. Do not solve the wrong problem."
+     },
+     "why": "Agile does not mean no documentation, but rather just enough, and 'enough' is set by the project's needs and by the corporate requirements for transparency, traceability and control (p.24). Four IT governance artefacts remain mandatory. Promising a governance body less documentation promises something PM²-Agile does not offer, and would be withdrawn at the first audit.",
+     "whyPlain": "Agile does not mean no documents. It means just enough, and 'enough' is decided by the project and by the organisation's need for transparency, traceability and control (page 24). Four IT governance documents stay compulsory. Promising a governance body less paperwork promises something PM²-Agile does not give, and the first audit would take it back.",
+     "ref": [
+      24,
+      "Agile does not mean 'no documentation', but rather just enough."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Named in the Project Initiation Request as intended Project Manager. Not yet assigned by the Solution Provider.",
+    "k": "Knows the problem statement and the delivery approach argument. Has no team and no cost figure.",
+    "w": "Wants the request approved on the honest reason, not on a promise about speed.",
+    "f": "Afraid an easy sentence today becomes a commitment somebody quotes back in 2030."
+   },
+   "medici": {
+    "o": "Deputy Managing Director. Chairs the Corporate Investment Board, the Appropriate Governance Body here.",
+    "k": "Knows what CASTOR cost and delivered. Has read one page about this one.",
+    "w": "Wants to know what he can stop, and what leaves the portfolio to pay for it.",
+    "f": "Afraid of funding an open-ended commitment dressed as a modern method."
+   },
+   "nightingale": {
+    "o": "Head of Lending Operations Division. Project Owner again, and says so before being asked.",
+    "k": "Knows the reporting warehouse refresh has slipped for four years and can be traded.",
+    "w": "Wants the two audit findings closed and the quarter-end back to one day.",
+    "f": "Afraid of owning a second project whose benefits arrive after she has moved on."
+   },
+   "hopper": {
+    "o": "Business Manager designate. Still owns the CASTOR benefit measurement until February 2030.",
+    "k": "Knows the current process end to end and the shape of a Business Case.",
+    "w": "Wants approval to write the case, and a budget line she can defend.",
+    "f": "Afraid of being asked to promise scope she has already said cannot be specified."
+   },
+   "leonardo": {
+    "o": "Head of IT and Digital Division. Solution Provider, as on CASTOR.",
+    "k": "Knows what a disbelieved specification costs, because his division wrote the last one.",
+    "w": "Wants an in-house team this time, not a platform implementation contract.",
+    "f": "Afraid the board hears 'agile' and stops asking his division for dates."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: sections 1 and 3.2, pp.2 and 14. PM²-Agile does not replace any part of PM². It expands PM² with methods, tools and techniques for teams applying Agile and Lean practices, tailored so that information, structures, responsibilities and artefacts stay coherent. PM² acknowledges the uncertain nature of many projects and the value of the Agile attitude, but states that certain management requirements cannot be fully satisfied by a purely Agile approach, which is why the serial phase lifecycle and the governance structure remain. The decision rule for this project sits in section 4.4 (p.30): the traditional upfront approach is correct when both sides are certain the specification describes the solution; agile is correct when the requirements are not entirely known or the rate of change is high. RASCI row: the Project Initiation Request is a PM² artefact, not a PM²-Agile one; the AGB or the Project Owner accepts it. Approver: the Appropriate Governance Body, here the Corporate Investment Board. Pages 2, 14 and 30.",
+  "notePlain": "Rule: PM²-Agile does not replace any part of PM² (page 2). It adds ways of working for agile teams inside a PM² project, and keeps the information, roles and documents joined up. PM² accepts that projects are uncertain and that an agile attitude helps, but says some management needs cannot be met by a purely agile approach. That is why the four phases and the governance structure stay (page 14). The choice between the two is on page 30: plan everything up front when the specification really describes the solution; work in an agile way when the requirements are unknown or change often. The Project Initiation Request is a PM² document. The senior governance body approves it. Pages 2, 14 and 30."
+ },
+ {
+  "id": "s03",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "Two documents that did not change",
+  "covers": [
+   "Business Case",
+   "Project Charter"
+  ],
+  "guide_page": 68,
+  "where": "ESM, Kirchberg — meeting room B4-12, the one with the video kit nobody trusts",
+  "when": "05 Oct 2028, 09:30",
+  "cast": [
+   "you",
+   "hopper",
+   "nightingale",
+   "curie",
+   "lovelace",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "B4-12 has been repainted and the video kit is the same video kit. Grace Hopper has two windows open: a blank Business Case, and the CASTOR one from 2026, for the section numbers.",
+    "plain": "Room B4-12 has been repainted. The video equipment is the same one. Grace Hopper has two windows open: an empty Business Case, and the CASTOR Business Case from 2026, to copy the section numbers."
+   },
+   {
+    "who": "hopper",
+    "text": "Same template. Section for section. I went looking for the agile version and there is not one.",
+    "plain": "It is the same template, section by section. I looked for an agile version and there is no such thing.",
+    "g": [
+     [
+      "Business Case",
+      "the document that says why the project is worth doing and what it will cost"
+     ]
+    ],
+    "ref": [
+     68,
+     "More information about the Business Case document can be found on the PM² Portal and guide"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "There is not one. Business Case, Project Charter, Architecture Overview, Operational Model. All four, because there is an information system in the solution.",
+    "plain": "There is no agile version. Business Case, Project Charter, Architecture Overview, Operational Model. All four are required, because the solution contains an information system.",
+    "ref": [
+     68,
+     "Within the Initiating phase, the IT governance body proposes a minimum set of documentation consisting of a Business Case, a Project Charter, an Architecture Overview and an Operational Model"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Four point six million. Eighteen months. Eighteen hundred and fifty person-days. In-house team, two seconded from Levallois.",
+    "plain": "4.6 million euro. Eighteen months. 1,850 person-days. An in-house team, with two people seconded from Levallois Systems."
+   },
+   {
+    "who": "hopper",
+    "text": "And an alternatives section that will disappoint everybody. Do nothing. Extend the platform's reporting screens. Build a portal. We recommend the portal.",
+    "plain": "And a section on alternatives that will disappoint everyone. Do nothing. Extend the reporting screens of the existing platform. Build a portal. We recommend the portal."
+   },
+   {
+    "who": "curie",
+    "text": "Read me the second criterion.",
+    "plain": "Read me the second success criterion."
+   },
+   {
+    "who": "hopper",
+    "text": "Time to deliver a new report view. Baseline about one quarter. Target one iteration, two weeks.",
+    "plain": "Time to deliver a new report view. The current figure is about one quarter. The target is one iteration, which is two weeks."
+   },
+   {
+    "who": "curie",
+    "text": "Keep it there and keep the number. That criterion is the entire argument for doing it this way. Take it out and by March we are a slow portal project.",
+    "plain": "Keep that criterion, with the number. That criterion is the whole reason for working this way. If you remove it, by March we are just a slow portal project.",
+    "ref": [
+     68,
+     "The purpose of the Business Case is to capture project's rationale"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "SC1 is the one I get asked about at dinner. Five days and four analysts, down to one day and one analyst. And SC3, eleven spreadsheets to zero.",
+    "plain": "The first criterion is the one people ask me about socially. Five days and four analysts, down to one day and one analyst. And the third criterion: eleven spreadsheets down to zero."
+   },
+   {
+    "who": "lovelace",
+    "text": "Zero is a hard number to be wrong about. I would rather have five criteria we can count than nine we can argue about.",
+    "plain": "Zero is a number you cannot be vague about. I would prefer five criteria we can count to nine we can argue about."
+   },
+   {
+    "who": "hopper",
+    "text": "Five is what we did last time. Four met, one blank, and I am still measuring the blank one for Lorenzo in 2030.",
+    "plain": "Five is what we used last time. Four were met, one was left empty, and I am still measuring that one for Lorenzo until 2030."
+   },
+   {
+    "who": "narr",
+    "text": "Section 3.5 goes up on the screen. Four features and nothing else: member-state exposure, instrument and maturity views, scenario overlay and national-authority access, self-service report builder.",
+    "plain": "Section 3.5 appears on the screen. It contains four features and nothing else: exposure by member state, instrument and maturity views, scenario overlay with national-authority access, and a self-service report builder.",
+    "g": [
+     [
+      "Feature",
+      "a proposed service in the solution that answers a business, customer or user need"
+     ]
+    ],
+    "ref": [
+     31,
+     "Features are described in the Project Charter with a high level of abstraction"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Four. And the fourth one is in there because Risk changes its question every quarter, and I would rather they answered their own.",
+    "plain": "Four features. The fourth one is there because the Risk division changes its question every quarter, and I would prefer them to answer it themselves."
+   },
+   {
+    "who": "lovelace",
+    "text": "Those four give me maybe sixty stories. Marie writes them, not this document.",
+    "plain": "Those four features will produce about sixty stories. Marie writes those stories, not this document.",
+    "ref": [
+     31,
+     "the features (functional units) must be decomposed in a set of stories (working units) so that they can be planned and implemented within each iteration"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Section 5.1. Say the word out loud so it is minuted.",
+    "plain": "Section 5.1. Say the word out loud so that it appears in the minutes."
+   },
+   {
+    "who": "you",
+    "text": "PM²-Agile. Phases unchanged, gates unchanged, governance unchanged. Executing in two-week iterations.",
+    "plain": "PM²-Agile. The phases do not change, the gates do not change, the governance does not change. The Executing phase runs in two-week iterations.",
+    "g": [
+     [
+      "Project Charter",
+      "the document that fixes what, how and when, and is the baseline for progress"
+     ]
+    ],
+    "ref": [
+     15,
+     "Because it's a PM² project, all these specific elements are framed by the PM² methodology"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "And section six. There is a box on my organigram that says A-PCT and I do not know what goes in it.",
+    "plain": "And section six. There is a box on my organisation chart that says A-PCT, and I do not know who belongs in it."
+   },
+   {
+    "who": "nightingale",
+    "text": "Marie, Ada, Einstein, three developers. Grace stays where she is. So do I.",
+    "plain": "Marie, Ada, Einstein and three developers. Grace keeps her role. So do I."
+   },
+   {
+    "who": "hopper",
+    "text": "Twelve October at the Corporate Investment Board. Both documents, one meeting. Lorenzo has forty minutes and eleven items.",
+    "plain": "On 12 October at the Corporate Investment Board. Both documents, in one meeting. Lorenzo has forty minutes and eleven agenda items."
+   },
+   {
+    "who": "narr",
+    "text": "Nightingale writes a date on the back of her hand, which is the only planning tool in the room that has never once failed her.",
+    "plain": "Nightingale writes a date on the back of her hand. It is the only planning tool in the room that has never failed her."
+   },
+   {
+    "who": "gantt",
+    "text": "Who signs which document? I ask because I file them.",
+    "plain": "Who signs which document? I ask because I am the one who files them."
+   },
+   {
+    "who": "you",
+    "text": "Grace writes the Business Case, Florence is accountable for it. I complete the Charter and submit it, and this committee is accountable for that one.",
+    "plain": "Grace writes the Business Case and Florence is accountable for it. I complete the Project Charter and submit it, and the Steering Committee is accountable for that one.",
+    "g": [
+     [
+      "RASCI",
+      "a table saying who is Responsible, Accountable, Supporting, Consulted or Informed"
+     ]
+    ],
+    "ref": [
+     68,
+     "Project Charter I A C S C S R C"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "I have all the numbers open in front of me. Give me two days and I will write the Charter as well.",
+    "plain": "I have all the figures open in front of me. Give me two days and I will write the Project Charter too."
+   }
+  ],
+  "choice": {
+   "prompt": "Grace has the numbers open and offers to write the Charter too. What do you say?",
+   "promptPlain": "Grace has all the figures open and offers to write the Project Charter as well. What do you say?",
+   "options": [
+    {
+     "t": "Initiate it if you like. I complete it and submit it for approval, and the Steering Committee approves it — not Florence.",
+     "tPlain": "Start it if you want. I complete it and submit it for approval, and the Steering Committee approves it, not Florence.",
+     "ok": true,
+     "reply": {
+      "who": "hopper",
+      "mood": "dry",
+      "text": "Fine. I will start section three and you can be responsible for it at half past four. Florence, you are consulted. That is a demotion from the Business Case and I want it noted.",
+      "plain": "All right. I will start section three, and it becomes your responsibility at 16:30. Florence, you are only consulted here. That is less than on the Business Case, and I want that recorded."
+     },
+     "why": "The guide states it directly: although the Project Charter can be initiated by the Business Manager, it is ultimately the responsibility of the Project Manager to complete it and submit it for approval (p.68). The two RASCI rows differ and the difference is examinable. Business Case: AGB I, PSC C, PO A, BM R, UR C, SP S, PM S, PCT n.a. Project Charter: AGB I, PSC A, PO C, BM S, UR C, SP S, PM R, PCT C. Both use the eight PM² columns, not the six agile ones.",
+     "whyPlain": "The guide says it plainly: the Business Manager may start the Project Charter, but the Project Manager must complete it and submit it for approval (page 68). The two tables are different, and the difference is examinable. On the Business Case the Project Owner is Accountable and the Business Manager Responsible. On the Charter the Steering Committee is Accountable and the Project Manager Responsible. Both use the eight PM² columns, not the six agile ones.",
+     "ref": [
+      68,
+      "Although the Project Charter can be initiated by the Business Manager (BM), it is ultimately the responsibility of the Project Manager (PM) to complete it and submit it for approval."
+     ]
+    },
+    {
+     "t": "Ada writes it. She is Team Coordinator and the team has to live with it.",
+     "tPlain": "Ada writes it. She is the Team Coordinator and the team has to live with the result.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "text": "I am responsible for two things and neither of them is this. The handbook and the work plan. Do not put me on a row I am not on.",
+      "plain": "I am responsible for two documents, and this is not one of them. The Development Handbook and the Development Work Plan. Do not put me in a row where I do not belong."
+     },
+     "why": "The Team Coordinator is Responsible for the Development Handbook and the Development Work Plan, which are agile-specific artefacts created in Planning, on six-column RASCI rows where the Project Manager is Accountable (pp.66, 75). The Project Charter is an IT governance artefact on the eight-column PM² row, created in Initiating, with no agile role in it at all.",
+     "whyPlain": "The Team Coordinator is Responsible for the Development Handbook and the Development Work Plan. Those are agile documents made in the Planning phase, on six-column tables where the Project Manager is Accountable (pages 66 and 75). The Project Charter is an IT governance document on the eight-column PM² table, made in Initiating, and no agile role appears in it.",
+     "ref": [
+      66,
+      "Development Handbook I A R S S S"
+     ]
+    },
+    {
+     "t": "Marie writes it. She owns the list of what gets built, so she should own the list of features.",
+     "tPlain": "Marie writes it. She owns the list of what gets built, so she should own the list of features.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "The features are yours and the stories are mine. If I write both, nobody can tell me later that I have drifted from the charter.",
+      "plain": "The features belong to your document and the stories belong to mine. If I wrote both, nobody could later show me that I had drifted away from the charter."
+     },
+     "why": "Two different lists. The Project Charter carries Features, described at a high level of abstraction so every layer of the project organisation understands the scope (p.31). The Work Items List carries the stories those features generate, and the Product Owner maintains it. The Charter's feature list is the key generator of work items (p.76) — which only works as a check if the two are owned separately.",
+     "whyPlain": "These are two different lists. The Project Charter holds Features, written at a high level so that every layer of the project understands the scope (page 31). The Work Items List holds the stories that come from those features, and the Product Owner keeps it. The Charter's feature list is the main source of work items (page 76). That check only works if different people own the two lists.",
+     "ref": [
+      76,
+      "the Features' list defined in the Project Charter will be the key generator of the work items that will populate the Work Items List (WIL)"
+     ]
+    },
+    {
+     "t": "Skip the Charter. Put the features straight into the Work Items List and save six weeks.",
+     "tPlain": "Do not write the Charter. Put the features straight into the Work Items List and save six weeks.",
+     "ok": false,
+     "reply": {
+      "who": "gantt",
+      "text": "Then there is no baseline. In fourteen months somebody asks what we said we would build, and the answer is a list that has been re-sorted eighty times.",
+      "plain": "Then there is no baseline. In fourteen months somebody will ask what we said we would build, and the only answer is a list that has been reordered eighty times."
+     },
+     "why": "The Project Charter is mandatory IT governance documentation for any solution containing an information system (p.68), and it is the baseline against which progress is measured. The Work Items List is deliberately volatile: continuously re-prioritised by the Product Owner, never complete. Deleting the fixed reference point does not remove work, it removes the only thing the changing list can be checked against.",
+     "whyPlain": "The Project Charter is compulsory governance documentation whenever the solution contains an information system (page 68), and it is the baseline used to measure progress. The Work Items List is meant to change: the Product Owner re-orders it constantly and it is never complete. Removing the fixed reference does not save work. It removes the only thing the changing list can be compared with.",
+     "ref": [
+      68,
+      "The Project Charter provides a basis for the more detailed project planning."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager, assigned by the Solution Provider. Responsible for completing and submitting the Project Charter.",
+    "k": "Knows both RASCI rows and that the agile roles appear in neither of them.",
+    "w": "Wants the charter's four features written loosely enough to survive contact with Risk.",
+    "f": "Afraid of writing a charter that the Work Items List quietly abandons by June."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for creating the Business Case; supports the Charter.",
+    "k": "Knows the template by heart, having written the same one in 2026.",
+    "w": "Wants the two-week criterion kept with its number, because it justifies the method.",
+    "f": "Afraid of writing a case for a scope that is deliberately not fixed."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for the Business Case; consulted on the Charter.",
+    "k": "Knows what four out of five criteria looks like in a report, from experience.",
+    "w": "Wants both audit findings closed and the quarter-end down to one day.",
+    "f": "Afraid the criteria are written so that nobody can ever fail them."
+   },
+   "curie": {
+    "o": "Named Product Owner in the Charter's governance section. Not yet holding a list.",
+    "k": "Knows exactly which report views exist and which of them nobody uses.",
+    "w": "Wants criterion two kept, because it is the promise she will be judged on.",
+    "f": "Afraid of inheriting a feature list she was never consulted about."
+   },
+   "lovelace": {
+    "o": "Named Team Coordinator. Business Analyst on the previous project, promoted into the role.",
+    "k": "Knows the four features will decompose into roughly sixty stories.",
+    "w": "Wants to stay off rows that are not hers, starting today.",
+    "f": "Afraid of being treated as the project manager of the team."
+   },
+   "gantt": {
+    "o": "Project Support Office. Files, versions and minutes both documents.",
+    "k": "Knows the cost figures and the approval date. Does not know what an A-PCT is.",
+    "w": "Wants a complete organigram before the Corporate Investment Board sees anything.",
+    "f": "Afraid of a project organisation with a box in it that nobody can name."
+   }
+  },
+  "unlock": [
+   10,
+   11
+  ],
+  "note": "Guide check: section 7.1, p.68. Within the Initiating phase the IT governance body proposes a minimum set of documentation: a Business Case, a Project Charter, an Architecture Overview and an Operational Model. PM²-Agile adds nothing to the Business Case or the Charter templates and refers the reader to the PM² Portal and Guide for both. Business Case: purpose is to capture the project's rationale, alignment with strategy, justification of the investment and budgetary needs; it is a living document re-examined at critical milestones. RASCI: AGB I, PSC C, PO A, BM R, UR C, SP S, PM S, PCT n.a. Approver: Project Owner accountable, with the Appropriate Governance Body informed. Project Charter: defines objectives in scope, time, cost and quality, high-level requirements, risks, constraints, milestones and deliverables, and is the baseline against which progress is measured. It may be initiated by the Business Manager but the Project Manager completes and submits it. RASCI: AGB I, PSC A, PO C, BM S, UR C, SP S, PM R, PCT C. Approver: Project Steering Committee. Both rows use the eight PM² columns, not the six agile ones. The Charter's Features list is the key generator of the Work Items List (p.76). Page 68.",
+  "notePlain": "Rule: in the Initiating phase, IT governance asks for four documents: Business Case, Project Charter, Architecture Overview and Operational Model (page 68). PM²-Agile changes nothing in the first two and points you to the PM² guide for them. The Business Case says why the project is worth doing, how it fits the strategy, why the money is justified, and what budget is needed. It stays alive and is checked again at important milestones. Business Manager Responsible, Project Owner Accountable. The Project Charter defines scope, time, cost and quality, plus requirements, risks, milestones and deliverables. It is the baseline for measuring progress. The Business Manager may start it, but the Project Manager completes it and submits it, and the Steering Committee approves it. Both use the eight PM² columns, not the six agile ones. The Charter's features are the main source of the Work Items List. Page 68."
+ },
+ {
+  "id": "s04",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "The same twenty-eight questions",
+  "covers": [
+   "Lifecycle",
+   "Core Roles"
+  ],
+  "guide_page": 17,
+  "where": "ESM, Kirchberg — B4-12, RfP gate review",
+  "when": "16 Oct 2028, 14:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "deming",
+   "gantt",
+   "hopper",
+   "curie",
+   "lovelace"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "On the twelfth the Corporate Investment Board approved the Business Case and gave corporate approval to the Charter. In the same minute the reporting warehouse refresh left the portfolio, after four years of not being cancelled.",
+    "plain": "On 12 October the Corporate Investment Board approved the Business Case and gave corporate approval of the Charter. In the same minute the reporting warehouse refresh was removed from the portfolio, after four years of not being cancelled."
+   },
+   {
+    "who": "gantt",
+    "text": "I did not book this room. The secretariat did, and I want it on record that I assumed there would not be a gate, because the project is agile.",
+    "plain": "I did not book this room. The secretariat did. I want it recorded that I assumed there would be no gate, because the project is agile."
+   },
+   {
+    "who": "deming",
+    "mood": "dry",
+    "text": "That sentence is going to do a great deal of work over the next eighteen months.",
+    "plain": "That sentence will be used to explain many things over the next eighteen months."
+   },
+   {
+    "who": "you",
+    "text": "Four phases. Initiating, Planning, Executing, Closing. Same four, same order, same gates between them. What is iterative is what happens inside Executing.",
+    "plain": "There are four phases: Initiating, Planning, Executing, Closing. The same four, in the same order, with the same gates between them. Only the work inside Executing is iterative.",
+    "g": [
+     [
+      "phase gate",
+      "a checkpoint where a project must be approved before the next phase can start"
+     ]
+    ],
+    "ref": [
+     17,
+     "Projects pass through four distinct phases, as described by PM²"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Serial in the large, iterative in the small. It is a slogan, and it is also literally the plan.",
+    "plain": "Serial in the large, iterative in the small. It is a slogan, and it is also exactly the plan.",
+    "ref": [
+     23,
+     "Be serial in the large, and iterative in the small"
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Same sheet as last time. Initiating tab. Twenty-eight questions, and the Project Manager answers all of them before asking this committee for anything.",
+    "plain": "It is the same sheet as last time. The Initiating tab. Twenty-eight questions. The Project Manager answers all of them before asking this committee for anything."
+   },
+   {
+    "who": "nightingale",
+    "text": "And the answers.",
+    "plain": "And what are the answers?"
+   },
+   {
+    "who": "you",
+    "text": "Twenty-six clean. Two partial. The Architecture Overview exists at version zero point four, which is what Initiating asks for and not a page more. And Eiffel's secondment is agreed and unsigned.",
+    "plain": "Twenty-six are clear. Two are partial. The Architecture Overview exists at version 0.4, which is what the Initiating phase requires and nothing more. And Gustave Eiffel's secondment is agreed but not yet signed."
+   },
+   {
+    "who": "gantt",
+    "text": "An architecture document, in Initiating? Last time I saw nothing of the sort until June.",
+    "plain": "An architecture document, in the Initiating phase? Last time I saw nothing like that until June."
+   },
+   {
+    "who": "you",
+    "text": "On the last project there was no such artefact. Architecture Overview and Operational Model are created in Initiating, then updated in Planning and Executing. Governance, not design.",
+    "plain": "On the last project that document did not exist. The Architecture Overview and the Operational Model are created in Initiating, then updated in Planning and Executing. They are governance documents, not detailed designs.",
+    "ref": [
+     70,
+     "Architecture Overview Created Updated Updated"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "So what is actually different? I have been in three meetings and it looks like the last project with new stationery.",
+    "plain": "So what is actually different? I have attended three meetings and it looks like the last project with new stationery."
+   },
+   {
+    "who": "you",
+    "text": "What happens after the second gate.",
+    "plain": "What happens after the second gate is different."
+   },
+   {
+    "who": "nightingale",
+    "text": "And the people. Say the roles, Henry needs them for the organigram.",
+    "plain": "And the people are different. Say the roles out loud. Henry needs them for the organisation chart."
+   },
+   {
+    "who": "lovelace",
+    "text": "Team Coordinator. I facilitate, I coach, I remove obstacles, and I keep project management away from the team so they can build.",
+    "plain": "I am the Team Coordinator. I facilitate, I coach and I remove obstacles. I keep project management concerns away from the team so that they can build.",
+    "g": [
+     [
+      "Team Coordinator (TeCo)",
+      "facilitator and coach for the agile team; not a project manager, not a Scrum Master"
+     ]
+    ],
+    "ref": [
+     62,
+     "hides the project management concerns from the Agile Project Core Team"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "So, a Scrum Master.",
+    "plain": "So, a Scrum Master."
+   },
+   {
+    "who": "lovelace",
+    "text": "No. And do not translate the rest of it either. Scrum covers construction. This has to cover a lifecycle with your gates in it.",
+    "plain": "No. And do not translate the other words either. Scrum covers the construction work. This has to cover a whole lifecycle, including your gates.",
+    "ref": [
+     11,
+     "Scrum focuses mostly on the \"construction\" aspect of projects."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Product Owner. I hold the list of what gets built and the order it gets built in. Continuously, not quarterly.",
+    "plain": "I am the Product Owner. I hold the list of what will be built and the order in which it will be built. I do that continuously, not once a quarter.",
+    "g": [
+     [
+      "Product Owner (PrOw)",
+      "single voice of the stakeholders inside the team; owns and orders the Work Items List"
+     ]
+    ],
+    "ref": [
+     63,
+     "Continuously prioritises the Work Items List (WIL)"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And I am still the Business Manager, which until last week I thought meant I decided that.",
+    "plain": "And I am still the Business Manager. Until last week I thought that meant I decided those things."
+   },
+   {
+    "who": "curie",
+    "text": "You represent Florence. I take the daily decisions. If those two ever point in different directions we have a real problem and not a paperwork one.",
+    "plain": "You represent Florence. I take the day-to-day decisions. If those two ever point in different directions, we have a real problem and not a paperwork problem.",
+    "ref": [
+     65,
+     "empowered by the Business Manager (BM) to take the necessary day-to-day decisions that allow the development team to progress"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "mood": "dry",
+    "text": "Note the date, Henry. I want to know how long that lasts.",
+    "plain": "Write the date down, Henry. I want to know how long that arrangement lasts."
+   },
+   {
+    "who": "you",
+    "text": "Third one. Albert Einstein, Architecture Owner, seconded from Enterprise Architecture. He starts Monday and he has already sent me four questions.",
+    "plain": "The third role is Architecture Owner. Albert Einstein, seconded from Enterprise Architecture. He starts on Monday and he has already sent me four questions.",
+    "g": [
+     [
+      "Architecture Owner (ArOw)",
+      "the team's solution architect; guides architecture decisions and still delivers like any member"
+     ]
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Nobody approves this checklist, incidentally. I assure the answers. The committee authorises the phase. Those are three different acts and people confuse them every time.",
+    "plain": "Nobody approves this checklist, by the way. I check the answers as quality assurance. The committee authorises the change of phase. Those are three separate actions and people confuse them every time."
+   },
+   {
+    "who": "nightingale",
+    "text": "Then authorise it and give me the next date.",
+    "plain": "Then let us authorise it. Give me the next date."
+   },
+   {
+    "who": "lovelace",
+    "text": "Twenty-third. First Release Planning. Early, on purpose, and it will be a mess, also on purpose.",
+    "plain": "The twenty-third. The first Release Planning session. It is early, deliberately, and it will be untidy, also deliberately.",
+    "ref": [
+     78,
+     "hold the first Release Planning ceremony to establish the initial Release Plan as soon as possible, preferably in the beginning of the Planning phase"
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "The gate closes behind them at fourteen forty. The phase boundary is a line in a document; everybody in the room will spend a year pretending it is a wall, which is the point of it.",
+    "plain": "The gate review ends at 14:40. The boundary between phases is only a line in a document. Everyone in the room will spend a year treating it as a wall, and that is exactly its purpose."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Assesses readiness for Planning and seeks the phase transition from the committee.",
+    "k": "Knows twenty-six answers are clean and which two are not, and why neither is fatal.",
+    "w": "Wants everyone to accept that the gates are unchanged before the vocabulary changes.",
+    "f": "Afraid the word agile is already being used to excuse things it does not cover."
+   },
+   "nightingale": {
+    "o": "Project Owner and chair of the Steering Committee. Authorises the move to Planning.",
+    "k": "Knows both documents carry corporate approval since the twelfth.",
+    "w": "Wants dates in the minutes and the next milestone fixed before she leaves.",
+    "f": "Afraid the Business Manager and the Product Owner will collide over scope by spring."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Assures the checklist answers; does not own the gate decision.",
+    "k": "Knows this is the same phase-exit sheet used on the previous project.",
+    "w": "Wants the three separate acts kept separate: assure, assess, authorise.",
+    "f": "Afraid the word agile becomes the answer to every procedural question."
+   },
+   "gantt": {
+    "o": "Project Support Office. Runs the checklist review, minutes the decision, keeps the organigram.",
+    "k": "Now knows the three agile role names and that two of them are not what he assumed.",
+    "w": "Wants the organisation chart complete and every box named correctly.",
+    "f": "Afraid of a project that produces no schedule he can put in a committee pack."
+   },
+   "hopper": {
+    "o": "Business Manager. Represents the Project Owner in daily project life.",
+    "k": "Knows the Business Case is approved. Has just learned what she no longer decides.",
+    "w": "Wants clarity about where her authority ends and the Product Owner's begins.",
+    "f": "Afraid of being informed about decisions she used to take."
+   },
+   "curie": {
+    "o": "Product Owner. Empowered by the Business Manager to take day-to-day scope decisions.",
+    "k": "Knows the four charter features and that they are not yet stories.",
+    "w": "Wants the daily decision right stated out loud, in front of Nightingale.",
+    "f": "Afraid the empowerment is real until the first disagreement with Hopper."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Facilitates the team, reports development progress upward.",
+    "k": "Knows the first Release Planning is on the twenty-third and will be chaotic.",
+    "w": "Wants people to stop translating agile terms into Scrum ones.",
+    "f": "Afraid of being pulled into project management and out of facilitation."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 3.3.1, p.17. Projects pass through the same four PM² phases and PM²-Agile keeps them. The interfaces between phases are seldom cleanly separated and planning-type activities continue into the following phase, but the guide is explicit that project phases still exist and that a common understanding between team members and other stakeholders should be fostered. Team-level tasks are not sequential: planning, analysing, coding, testing and reviewing happen in every iteration. That is the mindset driver on p.23, be serial in the large and iterative in the small. The Architecture Overview and Operational Model are Created in Initiating (pp.70, 72), which is why they exist at this gate. The agile roles are introduced from section 6.3: Team Coordinator facilitates and coaches and hides project management concerns from the team (p.62); Product Owner continuously prioritises the Work Items List and is the single voice of the stakeholders (p.63); Architecture Owner is the team's solution architect (p.63). RASCI row: none, the Phase Exit Review Checklist has no row. Approver: nobody approves the checklist; the Project Steering Committee authorises the phase transition. Page 17.",
+  "notePlain": "Rule: a PM²-Agile project keeps the four PM² phases: Initiating, Planning, Executing, Closing (page 17). The boundaries between phases are not clean, and planning work continues into the next phase. But the phases still exist, and the guide says everyone should understand them in the same way. Inside a team the work is not in sequence: planning, analysis, coding, testing and review happen in every iteration. The guide sums this up as: be serial in the large, iterative in the small (page 23). The Architecture Overview and the Operational Model are created in Initiating, so they exist at this gate. The agile roles arrive here too: the Team Coordinator facilitates and protects the team from project management work; the Product Owner keeps the Work Items List ordered and speaks for the stakeholders; the Architecture Owner is the team's architect. Nobody approves the checklist. The Steering Committee approves the move to the next phase. Page 17."
+ },
+ {
+  "id": "s05",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "The art of not doing work",
+  "covers": [
+   "PM²-Agile Principles",
+   "The PM²-Agile Mindsets"
+  ],
+  "guide_page": 13,
+  "where": "ESM, Kirchberg — third floor, the old training room, now the team space",
+  "when": "30 Oct 2028, 11:20",
+  "cast": [
+   "you",
+   "lovelace",
+   "curie",
+   "einstein",
+   "lamarr",
+   "babbage",
+   "deming"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The old training room has one long wall and a smell of whiteboard marker that predates everyone in it. Deming has taped twelve printed lines to the wall at eye height. Someone has added a thirteenth in marker.",
+    "plain": "The old training room has one long wall and smells of whiteboard marker. Deming has taped twelve printed lines to the wall at eye level. Somebody has added a thirteenth line in marker.",
+    "g": [
+     [
+      "Agile Project Core Team (A-PCT)",
+      "the part of the Project Core Team that works in an agile way"
+     ]
+    ]
+   },
+   {
+    "who": "lamarr",
+    "text": "The thirteenth is mine. Nobody reads the wall.",
+    "plain": "The thirteenth line is mine. It says: nobody reads the wall."
+   },
+   {
+    "who": "deming",
+    "text": "Then take it down and argue with the other twelve instead. I would rather be contradicted than decorative.",
+    "plain": "Then take it down and argue with the other twelve instead. I would rather be contradicted than used as decoration."
+   },
+   {
+    "who": "curie",
+    "text": "Fine. Risk want a stress view in Release 1. One scenario. The one they run every quarter and paste into tab nine.",
+    "plain": "All right. The Risk division want a stress view in Release 1. One scenario. The one they run every quarter and copy into tab nine."
+   },
+   {
+    "who": "lamarr",
+    "text": "I would rather build the engine. Anything Risk can write as a formula, the portal runs. Three iterations, maybe four with the tests.",
+    "plain": "I would rather build the engine. Any formula that Risk can write, the portal can run. That is three iterations, maybe four including the tests.",
+    "g": [
+     [
+      "Agile Team Member (ATeM)",
+      "a cross-disciplinary team member who designs, builds, tests and estimates"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "They asked for one scenario.",
+    "plain": "They asked for one scenario."
+   },
+   {
+    "who": "lamarr",
+    "text": "They will ask for more. They always ask for more.",
+    "plain": "They will ask for more. They always ask for more."
+   },
+   {
+    "who": "einstein",
+    "mood": "mild",
+    "text": "What problem is the engine solving?",
+    "plain": "What problem does the engine solve?"
+   },
+   {
+    "who": "lamarr",
+    "text": "The next four requests.",
+    "plain": "It solves the next four requests."
+   },
+   {
+    "who": "einstein",
+    "text": "Which nobody has made.",
+    "plain": "Requests that nobody has made yet."
+   },
+   {
+    "who": "lamarr",
+    "text": "Albert, in eleven months I will be building it anyway, badly, on top of something that assumed one scenario.",
+    "plain": "Albert, in eleven months I will build it anyway. I will build it badly, on top of something that assumed there was only one scenario."
+   },
+   {
+    "who": "deming",
+    "text": "Line nine. Simplicity, the art of maximising the amount of work not done. It is the only one of the twelve that costs you something to obey.",
+    "plain": "Line nine on the wall. Simplicity: the art of maximising the amount of work that is not done. It is the only one of the twelve that costs you something to follow.",
+    "ref": [
+     13,
+     "Simplicity – the art of maximising the amount of work not done – is essential"
+    ],
+    "g": [
+     [
+      "waste",
+      "in Lean, any effort or output that does not add value for the user"
+     ]
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "Then say the same to me. If I build the data model for one scenario I will rebuild it in September, and rebuilding a model is not a bug fix, it is a summer.",
+    "plain": "Then say the same thing to me. If I build the data model for one scenario, I will rebuild it in September. Rebuilding a model is not a small fix. It takes a whole summer."
+   },
+   {
+    "who": "lovelace",
+    "text": "Charles. How long is the whole model, properly?",
+    "plain": "Charles. How long does the complete model take, done properly?"
+   },
+   {
+    "who": "babbage",
+    "text": "Ten weeks. Twelve if Finance change the maturity buckets again.",
+    "plain": "Ten weeks. Twelve if the Finance division changes the maturity buckets again."
+   },
+   {
+    "who": "lovelace",
+    "text": "And the part Release 1 actually needs?",
+    "plain": "And the part that Release 1 actually needs?"
+   },
+   {
+    "who": "babbage",
+    "text": "...Eleven days.",
+    "plain": "About eleven days."
+   },
+   {
+    "who": "lovelace",
+    "text": "Then we will have this conversation eleven days from now, with something running.",
+    "plain": "Then we will have this discussion again in eleven days, with something already working."
+   },
+   {
+    "who": "curie",
+    "text": "Line one is mine and I am going to use it. Early and continuous delivery of something valuable. The Board Secretariat sees a page in March or everything I said to Lorenzo was decoration.",
+    "plain": "Line one is mine and I will use it. Early and continuous delivery of something valuable. The Board Secretariat must see a page in March, or everything I told Lorenzo was decoration.",
+    "ref": [
+     13,
+     "The highest priority is to satisfy the client through early and continuous delivery of valuable solutions."
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Line twelve is the one nobody quotes and the one that will hurt us. Enterprise-aware. Brandeis exists. Turing exists. The Architecture Office exists and it is not an obstacle, it is where we work.",
+    "plain": "Line twelve is the one nobody quotes, and the one that will cause us trouble. Be enterprise-aware. Brandeis exists. Turing exists. The Architecture Office exists. It is not an obstacle. It is where we work.",
+    "g": [
+     [
+      "timebox",
+      "a fixed period of time; the work is cut to fit it, not the other way round"
+     ]
+    ],
+    "ref": [
+     13,
+     "Agile practices should be enterprise-aware by considering IT governance, enterprise architecture, and interoperability requirements."
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "As agile as needed, and as agile as possible, within the constraints of the organisation. I have that sentence pinned above my desk and I still cannot decide whether it is wisdom or an apology.",
+    "plain": "Be as agile as needed, and as agile as possible, within the limits of the organisation. That sentence is pinned above my desk. I still cannot decide whether it is wisdom or an excuse.",
+    "ref": [
+     23,
+     "Be as Agile as needed and as Agile as possible within the constraints of the organisation"
+    ]
+   },
+   {
+    "who": "lamarr",
+    "text": "It reads like a licence to be neither.",
+    "plain": "It reads like permission to be neither of those things."
+   },
+   {
+    "who": "einstein",
+    "mood": "mild",
+    "text": "It reads like a description of where you work, Hedy.",
+    "plain": "It reads like a description of the place where you work, Hedy."
+   },
+   {
+    "who": "deming",
+    "text": "Line ten. At regular intervals the team reflects and adjusts. I want that from iteration one, not from iteration six when it is a rescue.",
+    "plain": "Line ten. At regular intervals the team reflects and adjusts. I want that from iteration one, not from iteration six when it has become a rescue operation.",
+    "ref": [
+     13,
+     "At regular intervals, the team reflects on how to improve, then tunes and adjusts its behaviour accordingly"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Hedy. Three iterations of engine, or one iteration of the view Risk asked for. Marie prioritises, but you have the argument and I want it made properly.",
+    "plain": "Hedy. Three iterations to build the engine, or one iteration to build the view that Risk asked for. Marie sets the priority, but the argument is yours and I want it made properly."
+   }
+  ],
+  "choice": {
+   "prompt": "Hedy can build a general scenario engine in three iterations, or the one view Risk asked for in one. What do you back?",
+   "promptPlain": "Hedy can build a general scenario engine in three iterations, or the single view Risk asked for in one. Which do you support?",
+   "options": [
+    {
+     "t": "The one view. Build the engine when a second request actually exists, not before.",
+     "tPlain": "Build the one view. Build the engine when a second request really exists, and not before.",
+     "ok": true,
+     "reply": {
+      "who": "lamarr",
+      "mood": "dry",
+      "text": "One view. And when they ask twice I am going to say so out loud, and then generalise it in an afternoon, which will annoy me more than it annoys you.",
+      "plain": "One view, then. And when they ask a second time I will say so out loud. Then I will make it general in one afternoon, which will annoy me more than it annoys you."
+     },
+     "why": "Principle nine: simplicity, the art of maximising the amount of work not done, is essential (p.13). The generic engine is overproduction, the second Lean waste, kept in check by a well-prioritised Work Items List and by interacting with clients throughout the lifecycle (p.5). It also breaks principle three, deliver value frequently through working solutions, by putting three iterations between the team and any user feedback.",
+     "whyPlain": "Principle nine says simplicity, the art of maximising the work not done, is essential (page 13). A general engine is overproduction, the second kind of Lean waste. The guide controls it with a well-ordered Work Items List and constant contact with the client (page 5). It also breaks principle three, deliver value often through working solutions, because three iterations would pass before any user saw anything.",
+     "ref": [
+      5,
+      "Overproduction – producing more than demand requires"
+     ]
+    },
+    {
+     "t": "The engine. It is cheaper to build the general case once than the specific case four times.",
+     "tPlain": "Build the engine. It is cheaper to build the general case once than the specific case four times.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "Four times what? You have one request. The other three are Hedy's forecast of Risk, and Risk cannot forecast Risk.",
+      "plain": "Four times what? You have one request. The other three are Hedy's prediction of what Risk wants, and Risk cannot predict that themselves."
+     },
+     "why": "Extra features are the classic form of overproduction, and the guide names the antidote: a well-prioritised Work Items List, client interaction throughout the lifecycle and everyone involved in planning (p.5). Building for demand nobody has expressed also delays the primary measure of progress, which is the value and use of what has been delivered (p.13).",
+     "whyPlain": "Extra features are the usual form of overproduction. The guide names the cure: a well-ordered Work Items List, constant contact with the client and everyone involved in planning (page 5). Building for a demand nobody has stated also delays the main measure of progress, which is the value and the use of what has been delivered (page 13).",
+     "ref": [
+      13,
+      "The primary measure of progress is the value and use of what has been delivered."
+     ]
+    },
+    {
+     "t": "Neither yet. Ask Risk to specify every scenario they will ever want, then decide.",
+     "tPlain": "Neither yet. Ask Risk to write down every scenario they will ever want, then decide.",
+     "ok": false,
+     "reply": {
+      "who": "einstein",
+      "text": "They will write down the four they can imagine this morning. In February there will be a fifth and it will be the important one.",
+      "plain": "They will write down the four scenarios they can imagine this morning. In February there will be a fifth one, and it will be the important one."
+     },
+     "why": "This is the requirement problem that put the project in PM²-Agile in the first place. Requirements are assumptions the team validates before developing, not facts collected in advance; that is the Lean UX position the guide builds on (p.27). Asking for a complete specification here re-imports the approach that only works when both sides are certain the specification describes the solution.",
+     "whyPlain": "This is the requirement problem that made the project agile in the first place. Requirements are assumptions the team must test before building, not facts collected in advance. That is the Lean UX idea the guide is built on (page 27). Asking for a complete list here brings back the approach that only works when both sides are sure the specification describes the solution.",
+     "ref": [
+      27,
+      "It focuses on the principle that requirements are assumptions that the Agile Project Core Team (A-PCT) needs to validate before start developing."
+     ]
+    },
+    {
+     "t": "Put both in the Work Items List and let the team decide in January.",
+     "tPlain": "Put both items in the Work Items List and let the team decide in January.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "text": "That is not delegation, that is a queue. In January they will pull whichever is at the top, and whichever is at the top is Marie's decision, and Marie is standing right here.",
+      "plain": "That is not delegation. That is a waiting queue. In January they will take whichever item is at the top. Which item is at the top is Marie's decision, and Marie is standing here."
+     },
+     "why": "The Product Owner continuously prioritises the Work Items List, and the list does not have to be complete but it must be prioritised, or the team risks investing resources in items that are not important (p.76). Deferring the decision is itself a decision, taken by whoever sorts the list. The guide also lists having decisions taken in a timely manner among everyone's rights (p.23).",
+     "whyPlain": "The Product Owner orders the Work Items List all the time. The list does not have to be complete, but it must be in priority order, or the team may spend effort on items that do not matter (page 76). Delaying the decision is still a decision, taken by whoever sorts the list. The guide also lists the right to have decisions taken in good time (page 23).",
+     "ref": [
+      76,
+      "Start working with a prioritised Work Items List (WIL) – The Work Items List (WIL) doesn't have to be complete for the Agile Project Core Team (A-PCT) start working, but it must be prioritised."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. In the room as a participant, not as the person who decides what gets built.",
+    "k": "Knows the principles well enough to hear them being used correctly and incorrectly.",
+    "w": "Wants the argument made out loud so the decision has a reason attached to it.",
+    "f": "Afraid of settling a technical argument he is not qualified to settle."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Facilitates the argument; does not resolve it herself.",
+    "k": "Knows the difference between ten weeks of model and eleven days of it.",
+    "w": "Wants the team to reach its own decision without her voting.",
+    "f": "Afraid the team looks to the Project Manager whenever two of them disagree."
+   },
+   "curie": {
+    "o": "Product Owner. Holds the priority and has just used it in front of the team.",
+    "k": "Knows exactly what Risk asked for, because she was in the room when they asked.",
+    "w": "Wants a usable page in front of the Board Secretariat in March.",
+    "f": "Afraid the team builds for an imagined user rather than the one she represents."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Week one. Asking rather than deciding, so far.",
+    "k": "Knows nothing yet about the data, and is asking about the problem instead.",
+    "w": "Wants each proposal traced back to a problem somebody actually has.",
+    "f": "Afraid of being cast as the person who slows everything down."
+   },
+   "lamarr": {
+    "o": "Agile Team Member, developer. The strongest technical voice in the room.",
+    "k": "Knows the generic engine is the right long-term answer and cannot prove when.",
+    "w": "Wants to build the thing properly once instead of four times badly.",
+    "f": "Afraid of being overruled now and blamed in September for the consequence."
+   },
+   "babbage": {
+    "o": "Agile Team Member, data engineer. Owns the replica model.",
+    "k": "Knows the full model is ten weeks and the Release 1 slice is eleven days.",
+    "w": "Wants a model good enough not to be rebuilt in the summer.",
+    "f": "Afraid of starting something large and never being allowed to finish it."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Put the principles on the wall; will not defend them for the team.",
+    "k": "Knows the retrospective is the mechanism, and that teams drop it first.",
+    "w": "Wants reflection scheduled from iteration one, in writing, in the handbook.",
+    "f": "Afraid the twelve lines become wallpaper by December."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: sections 3.1 and 3.4, pp.13 and 22-23. PM²-Agile adopts, with modifications, the twelve principles of the Agile Manifesto. Four of them are load-bearing here: the highest priority is early and continuous delivery of valuable solutions; deliver value frequently through working solutions; simplicity, the art of maximising the amount of work not done, is essential; and agile practices should be enterprise-aware, considering IT governance, enterprise architecture and interoperability requirements, with agile teams able to collaborate with teams following other approaches. The PM²-Agile Mindsets extend the eleven PM² Mindsets with drivers including making over analysis, organise work around timeboxes not the other way around, and be as agile as needed and as agile as possible within the constraints of the organisation. Overproduction is the second Lean waste (p.5) and extra features are its usual form. RASCI row: none, principles have no artefact row. Approver: none. The priority decision belongs to the Product Owner. Pages 13 and 23.",
+  "notePlain": "Rule: PM²-Agile takes the twelve agile principles and changes them slightly (page 13). Four matter here. Satisfy the client through early and continuous delivery of valuable solutions. Deliver value often through working solutions. Simplicity, the art of maximising the work not done, is essential. And agile practice must be enterprise-aware: IT governance, enterprise architecture and interoperability all count, and agile teams must work with teams that are not agile. The PM²-Agile mindsets add short rules such as making over analysis, organise work around timeboxes, and be as agile as needed and as possible inside the limits of the organisation (page 23). Producing more than is needed is the second kind of Lean waste, and extra features are the usual form of it (page 5). No document, no RASCI row and no approver here. The priority decision belongs to the Product Owner."
+ },
+ {
+  "id": "s06",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "One binder, two books",
+  "covers": [
+   "Development Handbook",
+   "Tailoring & Customisation"
+  ],
+  "guide_page": 72,
+  "where": "ESM, Kirchberg — Project Support Office, second floor",
+  "when": "14 Nov 2028, 15:00",
+  "cast": [
+   "you",
+   "lovelace",
+   "gantt",
+   "gutenberg",
+   "deming",
+   "einstein",
+   "curie"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The CASTOR Project Handbook is on Gantt's shelf. Ninety-four pages, and the spine is cracked in exactly one place, at change management.",
+    "plain": "The CASTOR Project Handbook is on Gantt's shelf. It has 94 pages. The spine is broken in exactly one place, at the change management section.",
+    "g": [
+     [
+      "Project Handbook",
+      "the PM² document that says how this project will be managed and controlled"
+     ]
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Two documents or one.",
+    "plain": "Two documents, or one?"
+   },
+   {
+    "who": "gutenberg",
+    "text": "One configuration item either way. I am not versioning two things that will contradict each other by March.",
+    "plain": "It will be one configuration item either way. I will not version two documents that will contradict each other by March.",
+    "g": [
+     [
+      "configuration item",
+      "a thing under version control, with one owner and one current version"
+     ]
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "One. Annex D of the Project Handbook. The guide calls it a separate artefact and then says in the next sentence that it does not need a separate carrier.",
+    "plain": "One document. Annex D of the Project Handbook. The guide calls it a separate artefact, and then says in the next sentence that it does not need to be a separate document.",
+    "ref": [
+     72,
+     "is identified as a separate artefact but does not have to be a separate information carrier"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "And who writes it? You are the Team Coordinator. He is the Project Manager.",
+    "plain": "And who writes it? You are the Team Coordinator. He is the Project Manager."
+   },
+   {
+    "who": "lovelace",
+    "text": "I write it. He is accountable for it. That row is printed in the guide as the worked example, which I found irritating and then useful.",
+    "plain": "I write it. He is accountable for it. That row is printed in the guide as its worked example. I found that irritating, and then useful.",
+    "ref": [
+     66,
+     "Development Handbook I A R S S S"
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Read me the first line of section two.",
+    "plain": "Read me the first line of section two."
+   },
+   {
+    "who": "lovelace",
+    "text": "Iterations are two weeks. Fixed. And then the reason, because a length without a reason is a habit.",
+    "plain": "Iterations last two weeks. That is fixed. Then the reason is given, because a length without a reason is only a habit."
+   },
+   {
+    "who": "curie",
+    "text": "The reason is criterion two. A new report view in one iteration. If iterations were four weeks the criterion would be a lie.",
+    "plain": "The reason is success criterion two. A new report view in one iteration. If iterations were four weeks, the criterion would be false.",
+    "ref": [
+     25,
+     "the rationale for tailoring and deviations"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "And progress. How do I report progress on a thing with no tasks in it?",
+    "plain": "And progress. How do I report progress on something that has no tasks in it?"
+   },
+   {
+    "who": "lovelace",
+    "text": "Delivered points and completed features. Not documents produced, not percentage of a phase. It is section four and it exists because your question is the normal question.",
+    "plain": "Delivered story points and completed features. Not documents produced, and not percentage of a phase. It is section four, and it exists because your question is the usual one.",
+    "ref": [
+     73,
+     "Describe the Project Progress Measurement clearly"
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Section five is the one I care about. Requirements. Say plainly that stories replace the specification, because half the building will assume there is a specification somewhere.",
+    "plain": "Section five is the one I care about. Requirements. Say clearly that stories replace the specification, because half of this organisation will assume a specification exists somewhere.",
+    "ref": [
+     73,
+     "The use of stories as the working units that drive progress needs to be clear to all stakeholders"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Then change control. On CASTOR a change request took eleven days and a committee.",
+    "plain": "Then change control. On CASTOR, a change request needed eleven days and a committee."
+   },
+   {
+    "who": "you",
+    "text": "Re-sorting the Work Items List is not a change request. Moving a gate, moving a release date or moving money is. That line is in the handbook and I want it read out at the kick-off.",
+    "plain": "Re-ordering the Work Items List is not a change request. Moving a gate, a release date or money is a change request. That sentence is in the handbook and I want it read aloud at the kick-off.",
+    "ref": [
+     73,
+     "the Change Management process must be adjusted to reflect this agility"
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "Section seven. Architecture risks get raised in the team and escalated weekly to the project Risk Log. I would rather write that down than discover in June that nobody was doing it.",
+    "plain": "Section seven. Architecture risks are raised inside the team and passed weekly to the project Risk Log. I would rather write that down than find out in June that nobody was doing it."
+   },
+   {
+    "who": "gantt",
+    "text": "And the deviations. Anything I will be asked about?",
+    "plain": "And the deviations. Is there anything I will be questioned about?"
+   },
+   {
+    "who": "lovelace",
+    "text": "One. Eiffel may act as Team Coordinator for one iteration when I am away. He is seconded from a contractor, so somebody will ask, and the answer will be section one point four.",
+    "plain": "One deviation. Gustave Eiffel may act as Team Coordinator for one iteration when I am absent. He is seconded from a contractor, so somebody will ask about it. The answer is in section 1.4.",
+    "ref": [
+     72,
+     "Documents any deviations from the standard PM²-Agile Roles and the standard RASCI table of responsibilities"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "And the Definition of Done. Code reviewed, tests green, accessibility checked, data-protection check signed.",
+    "plain": "And the Definition of Done. Code reviewed, tests passing, accessibility checked, and a signed data-protection check.",
+    "g": [
+     [
+      "Definition of Done",
+      "the conditions the team agrees a work item must meet before it counts as complete"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Write next to it, in the same paragraph, that done is the team's and acceptance is mine. Because in June somebody will tell me they are the same thing and I would like to point at a page.",
+    "plain": "Write next to it, in the same paragraph, that Done belongs to the team and acceptance belongs to me. In June somebody will tell me they are the same thing, and I want to be able to point at a page."
+   },
+   {
+    "who": "deming",
+    "text": "Living document. Every retrospective that changes how you work changes this, with a date on it. Nine versions by Closing would not surprise me.",
+    "plain": "It is a living document. Every retrospective that changes how you work also changes this document, with a date on it. Nine versions by the Closing phase would not surprise me.",
+    "ref": [
+     73,
+     "It's a living Artefact"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "And at the end? I am asking because in July 2028 I was the one carrying boxes to the archive.",
+    "plain": "And at the end? I ask because in July 2028 I was the person carrying boxes to the archive."
+   },
+   {
+    "who": "you",
+    "text": "It is a reference for the project-end review, then it is closed and archived like everything else. Same as the handbook next to it on your shelf.",
+    "plain": "It is a reference document for the project-end review meeting, then it is closed and archived like everything else. The same as the handbook next to it on your shelf."
+   },
+   {
+    "who": "gantt",
+    "mood": "flat",
+    "text": "Nobody has asked me for a Gantt chart. Eighteen months, and nobody is going to.",
+    "plain": "Nobody has asked me for a Gantt chart. In eighteen months, nobody will."
+   },
+   {
+    "who": "gutenberg",
+    "text": "One item, one owner, one current version. Ada. Send it to me when the number stops moving.",
+    "plain": "One configuration item, one owner, one current version. Ada, send it to me when the version number stops changing."
+   },
+   {
+    "who": "narr",
+    "text": "Nineteen pages, most of them lists. It will be read properly once, by Eiffel, on the morning he has to run an iteration without Lovelace in the building.",
+    "plain": "The handbook has nineteen pages, mostly lists. It will be read carefully once, by Eiffel, on the morning he has to run an iteration while Lovelace is away.",
+    "g": [
+     [
+      "tailoring",
+      "changing parts of the method for one project, and writing down why"
+     ]
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Accountable for the Development Handbook; does not write it.",
+    "k": "Knows what the change process has to say to survive the first verbal scope request.",
+    "w": "Wants the change rule read aloud at the kick-off so nobody can claim surprise.",
+    "f": "Afraid of a handbook that is written once and never opened again."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Responsible for drafting the Development Handbook.",
+    "k": "Knows every tailoring decision and the reason attached to each one.",
+    "w": "Wants the deviation about Eiffel written down before anybody needs it.",
+    "f": "Afraid the handbook becomes a document she defends instead of uses."
+   },
+   "gantt": {
+    "o": "Project Support Office. Will file, version and reference both handbooks.",
+    "k": "Knows what a change request cost on the previous project, in days.",
+    "w": "Wants a progress measure he can put in a committee pack without translating.",
+    "f": "Afraid of eighteen months with no schedule artefact he recognises."
+   },
+   "gutenberg": {
+    "o": "Document Management Officer. Sets the repository, naming and versioning.",
+    "k": "Knows two documents that overlap will diverge, because they always do.",
+    "w": "Wants one configuration item with one owner and one current version.",
+    "f": "Afraid of an annex that quietly becomes a second, competing handbook."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Reviews the approach, not the people.",
+    "k": "Knows the handbook is read again at the project-end review, by strangers.",
+    "w": "Wants retrospective outcomes written into it, dated, from the first iteration.",
+    "f": "Afraid the requirements section is left vague and half the building invents a specification."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Supports the Team Coordinator with technical constraints.",
+    "k": "Knows which architecture risks will need project-level visibility by spring.",
+    "w": "Wants the escalation route for architecture risk written down now.",
+    "f": "Afraid architecture risk stays inside the team until it is an issue."
+   },
+   "curie": {
+    "o": "Product Owner. Supports the handbook; supplies the requestor organisation's reality.",
+    "k": "Knows why the iteration length is two weeks and what it promises.",
+    "w": "Wants Done and acceptance separated on the page, in the same paragraph.",
+    "f": "Afraid of being told in June that a passed test means an accepted deliverable."
+   }
+  },
+  "unlock": [
+   14
+  ],
+  "note": "Guide check: section 7.2.1, pp.72-73, with tailoring at pp.25-26. The Development Handbook documents the selected approach for developing the information system and how the domain-specific aspect relates to the overall project level. It is an extension of the Project Handbook, aligned with its key controlling processes, policies, rules and management approach. It is identified as a separate artefact but does not have to be a separate information carrier: a single container and synchronised configuration management are allowed. It extends three areas of the Project Handbook: roles and responsibilities, including deviations from the standard PM²-Agile roles and the standard RASCI table; the project management plans; and the domain-specific artefacts, with tailoring recorded. The guidelines require the progress measurement to be described clearly, the requirements approach to make stories visible as the working units, and the change management process to be adjusted for stakeholder collaboration. It is a living artefact: outcomes of Iteration Retrospectives and Reviews are documented in it, and in Closing it is a point of reference for the project-end review before being archived. RASCI: BM I, PM A, TeCo R, PrOw S, ArOw S, ATeM S — the guide's own worked example on p.66. Approver: the Project Manager is Accountable; the Business Manager is only Informed. Lifecycle: Created in Planning, Updated in Executing. Pages 72-73.",
+  "notePlain": "Rule: the Development Handbook says how the team will build the information system, and how that connects to the project level (page 72). It extends the Project Handbook and must fit its rules and processes. It is a separate artefact, but it does not have to be a separate document: one container with one version history is allowed. It extends three parts of the Project Handbook: roles and responsibilities, including any deviation from the standard agile roles and the standard RASCI table; the management plans; and the agile artefacts, with the tailoring written down. The guidelines say to describe clearly how progress is measured, to make clear that stories are the working units, and to adjust the change process for collaboration. It is a living document: whatever a retrospective or review changes is recorded here. In Closing it is used for the project-end review and then archived. RASCI: Team Coordinator Responsible, Project Manager Accountable, Product Owner, Architecture Owner and team members supporting, Business Manager informed (page 66). Created in Planning, updated in Executing."
+ },
+ {
+  "id": "s07",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "Show me the schedule",
+  "covers": [
+   "Development Work Plan",
+   "Work Items List",
+   "Release Plan",
+   "Iteration Plan"
+  ],
+  "guide_page": 74,
+  "where": "ESM, Kirchberg — third floor, the team space, in front of the long wall",
+  "when": "21 Nov 2028, 10:00",
+  "cast": [
+   "you",
+   "gantt",
+   "lovelace",
+   "curie",
+   "einstein",
+   "eiffel",
+   "babbage"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Gantt comes up from the second floor with a printed mail from the Steering Committee secretariat. It asks for a project schedule, task level, to December 2029, for the pack that goes out on Monday.",
+    "plain": "Gantt comes up from the second floor with a printed e-mail from the Steering Committee secretariat. It asks for a project schedule at task level, running to December 2029, for the pack that is sent on Monday."
+   },
+   {
+    "who": "gantt",
+    "text": "I have been told there is no schedule.",
+    "plain": "I have been told that there is no schedule."
+   },
+   {
+    "who": "lovelace",
+    "text": "You were told wrong. There are three.",
+    "plain": "You were told wrongly. There are three schedules."
+   },
+   {
+    "who": "narr",
+    "text": "Curie puts her list on the wall screen. It is not a document. It is a filtered view of a tool, sorted, with the top twenty items in bold.",
+    "plain": "Curie puts her list on the wall screen. It is not a document. It is a filtered view inside a tool, sorted, with the top twenty items in bold."
+   },
+   {
+    "who": "curie",
+    "text": "Ninety-six open items. Sixty-one user stories, twenty-four enablers, eleven defects. All estimated. All ranked.",
+    "plain": "There are 96 open items: 61 user stories, 24 enabler stories and 11 defects. All are estimated and all are ranked.",
+    "g": [
+     [
+      "Work Items List (WIL)",
+      "the prioritised list of everything to be built: user stories, enabler stories and defects"
+     ],
+     [
+      "user story",
+      "a small slice of behaviour written from the user's point of view"
+     ]
+    ],
+    "ref": [
+     75,
+     "the Work Items List (WIL) is a list of the work to be done during a project"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "This is the backlog.",
+    "plain": "This is the backlog."
+   },
+   {
+    "who": "curie",
+    "text": "It is the Work Items List. There is a glossary entry that exists purely so people stop calling it the other thing, and I intend to get value out of it.",
+    "plain": "It is the Work Items List. There is a glossary entry that exists only so that people stop using the other name, and I intend to make use of it.",
+    "ref": [
+     103,
+     "Also known as 'Product Backlog'. See Work Items List (WIL), the PM²-Agile term for Product Backlog"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Release 4 is four lines with no estimates on them.",
+    "plain": "Release 4 is four lines with no estimates against them."
+   },
+   {
+    "who": "curie",
+    "text": "Four honest lines. I could write forty and you would put them in the pack, and in July somebody would hold me to them.",
+    "plain": "Four honest lines. I could write forty, and you would put them in the pack. In July somebody would then hold me to them.",
+    "g": [
+     [
+      "MoSCoW",
+      "ranking work as Must have, Should have, Could have, Won't have this time"
+     ]
+    ],
+    "ref": [
+     76,
+     "Start working with a prioritised Work Items List (WIL) – The Work Items List (WIL) doesn't have to be complete for the Agile Project Core Team (A-PCT) start working, but it must be prioritised."
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Second schedule. Four releases. Twenty-ninth of March, twenty-eighth of June, twenty-seventh of September, twentieth of December. What, and when.",
+    "plain": "The second schedule is the Release Plan. Four releases: 29 March, 28 June, 27 September and 20 December 2029. It says what, and when."
+   },
+   {
+    "who": "gantt",
+    "text": "And how?",
+    "plain": "And how the work will be done?"
+   },
+   {
+    "who": "lovelace",
+    "text": "Third schedule. One per iteration. Iteration one opens on the eighth of January and it is the only one written in any detail.",
+    "plain": "That is the third schedule, the Iteration Plan. There is one for each iteration. Iteration one starts on 8 January, and it is the only one written in detail.",
+    "ref": [
+     74,
+     "In the Release Plan, the focus is primarily on what needs to be done and when. In an Iteration Plan, the focus is on how it will be done"
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "And the assumptions are printed on the front of the Release Plan, which I insisted on. Two-week iterations. Thirty-four points once we settle. Eight people and nobody on holiday, which is already false in August.",
+    "plain": "And the assumptions are printed on the front of the Release Plan, which I insisted on. Two-week iterations. Thirty-four points once the team settles. Eight people, with nobody on holiday, which is already untrue for August.",
+    "g": [
+     [
+      "velocity",
+      "the number of points a team actually delivers in one iteration"
+     ],
+     [
+      "story point",
+      "a relative size for a work item, given by the team, not a number of hours"
+     ]
+    ],
+    "ref": [
+     78,
+     "The velocity of the team and the pre-defined size of each iteration are two examples of elements that impact the way a Release Plan is understood"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "There is a word missing. Delivered. My secondment note says delivered and your list says done. Until somebody writes the definition, those are two different invoices.",
+    "plain": "One word is missing: delivered. My secondment agreement says delivered. Your list says done. Until somebody writes down the definition, those are two different invoices."
+   },
+   {
+    "who": "lovelace",
+    "text": "Annex D, section eight. Signed last Thursday.",
+    "plain": "Annex D, section eight. It was signed last Thursday."
+   },
+   {
+    "who": "eiffel",
+    "mood": "flat",
+    "text": "Then I withdraw the objection and I would like a copy.",
+    "plain": "Then I withdraw my objection, and I would like a copy."
+   },
+   {
+    "who": "einstein",
+    "text": "Twenty-four of those ninety-six items are mine and three of them have to land in Release 1. We can argue about which three on Friday.",
+    "plain": "Twenty-four of the 96 items are mine, and three of them must be in Release 1. We can argue about which three on Friday."
+   },
+   {
+    "who": "gantt",
+    "text": "And what do I put in the Project Work Plan? Because that document exists and I maintain it.",
+    "plain": "And what do I put in the Project Work Plan? That document exists and I maintain it."
+   },
+   {
+    "who": "you",
+    "text": "All three of them. The Development Work Plan is the container, and it becomes part of the Project Work Plan. It does not sit beside it and it does not replace it.",
+    "plain": "All three of them. The Development Work Plan is the container, and it becomes part of the Project Work Plan. It does not sit next to it and it does not replace it.",
+    "ref": [
+     74,
+     "The Development Work Plan becomes part of the Project Work Plan"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "In 2026 I could tell that committee where we would be in fourteen months. To the week.",
+    "plain": "In 2026 I could tell that committee where we would be in fourteen months. Exactly, to the week."
+   },
+   {
+    "who": "lovelace",
+    "text": "You could tell them where the plan said you would be.",
+    "plain": "You could tell them where the plan said you would be."
+   },
+   {
+    "who": "gantt",
+    "mood": "flat",
+    "text": "Yes. And that is not nothing, Ada.",
+    "plain": "Yes. And that is not worth nothing, Ada."
+   },
+   {
+    "who": "lovelace",
+    "text": "No. It is not nothing. That is why we are giving you three of them instead of none.",
+    "plain": "No. It is not worth nothing. That is why we are giving you three schedules instead of none."
+   },
+   {
+    "who": "gantt",
+    "text": "Then tell me what goes in Monday's pack, because I write it and my name is on the bottom.",
+    "plain": "Then tell me what goes in Monday's pack. I write it and my name is at the bottom."
+   }
+  ],
+  "choice": {
+   "prompt": "The Steering Committee wants a dated plan to December 2029, task level. What goes in Monday's pack?",
+   "promptPlain": "The Steering Committee wants a dated plan to December 2029, at task level. What goes in Monday's pack?",
+   "options": [
+    {
+     "t": "The Release Plan: four releases, four dates, the goal of each. The Work Items List and the iteration detail sit behind it for anyone who asks.",
+     "tPlain": "The Release Plan: four releases, four dates and the goal of each one. The Work Items List and the iteration detail are available behind it.",
+     "ok": true,
+     "reply": {
+      "who": "gantt",
+      "mood": "flat",
+      "text": "One page, four rows, and a line saying the detail exists. Fine. I will also put the assumptions on it, because when the velocity moves I want to have said so first.",
+      "plain": "One page, four rows, and a note saying the detail exists. Fine. I will also add the assumptions, because when the velocity changes I want to have warned them first."
+     },
+     "why": "The Release Plan exists to be read at more than one level: the Appropriate Governance Body is interested in the several releases planned and their major objectives, while the Product Owner needs to know which work items land in which release (p.78). Giving the committee the release level is not hiding detail, it is the level the guide says that audience wants. The assumptions — velocity and iteration size — must be clearly visible and identified as the plan's current assumptions.",
+     "whyPlain": "The Release Plan is meant to be read at more than one level. The senior governance body wants the releases and their main objectives. The Product Owner needs to know which work items are in which release (page 78). Giving the committee the release level is not hiding anything. It is the level the guide says that audience needs. The assumptions, velocity and iteration length, must be clearly shown as the current assumptions of the plan.",
+     "ref": [
+      78,
+      "the Appropriate Governance Body (AGB) is interested in the several releases planned and their major objectives"
+     ]
+    },
+    {
+     "t": "Break all four releases down to task level now, so the committee gets what it asked for.",
+     "tPlain": "Break all four releases down into tasks now, so the committee gets exactly what it asked for.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "You would be asking me to estimate Release 4, which is a self-service builder for a report nobody has designed. I would give you numbers and they would be fiction with a date on them.",
+      "plain": "You would be asking me to estimate Release 4. That is a self-service builder for a report nobody has designed. I would give you numbers, and they would be fiction with a date attached."
+     },
+     "why": "The Work Items List does not have to be complete for the team to start, but it must be prioritised (p.76), and work items are decomposed into tasks inside the Iteration Plan, for the iteration about to run (p.79). Estimating fourteen months of tasks does not add certainty, it converts unknowns into figures that a committee will then treat as commitments.",
+     "whyPlain": "The Work Items List does not need to be complete before the team starts, but it must be in priority order (page 76). Work items are broken into tasks inside the Iteration Plan, for the iteration that is about to start (page 79). Estimating fourteen months of tasks does not create certainty. It turns unknowns into numbers that a committee will treat as promises.",
+     "ref": [
+      79,
+      "The Work items are then decomposed in the corresponding tasks required to complete them."
+     ]
+    },
+    {
+     "t": "Tell them agile projects do not produce schedules, and offer a demonstration instead.",
+     "tPlain": "Tell them that agile projects do not produce schedules, and offer them a demonstration instead.",
+     "ok": false,
+     "reply": {
+      "who": "lovelace",
+      "mood": "sharp",
+      "text": "I have three schedules on that wall. If you tell the committee they do not exist, the next person who wants a date will go round me to get one, and they will be right to.",
+      "plain": "I have three schedules on that wall. If you tell the committee they do not exist, then the next person who needs a date will go around me to get one, and they will be right to do so."
+     },
+     "why": "The guide addresses this misperception directly. It comes from the value 'responding to change over following a plan', which refers to following a plan, not to planning; the amount of planning effort in agile is greater than in traditional projects and is spread across the whole lifecycle (p.28). The Development Work Plan is precisely the artefact that sets and manages the expectations of the rest of the project organisation.",
+     "whyPlain": "The guide answers this misunderstanding directly. It comes from the value 'responding to change over following a plan'. That is about following a plan, not about planning. Agile involves more planning than a traditional project, spread over the whole lifecycle (page 28). The Development Work Plan is exactly the document that manages the expectations of everyone else in the project.",
+     "ref": [
+      28,
+      "Note that this refers to following a plan, and not to planning"
+     ]
+    },
+    {
+     "t": "Send the Iteration Plan for iteration 1 and explain that the rest will emerge.",
+     "tPlain": "Send the plan for iteration 1 and explain that the rest of the work will emerge later.",
+     "ok": false,
+     "reply": {
+      "who": "einstein",
+      "text": "They have approved four point six million against four releases. Answering with two weeks of tasks is not modesty, it is a different question.",
+      "plain": "They have approved 4.6 million euro against four releases. Answering with two weeks of tasks is not modesty. It is an answer to a different question."
+     },
+     "why": "Wrong level. The Iteration Plan's focus is how the work will be done by the team; the Release Plan's focus is what will be done and when, and it is the one that has to be aligned with the project vision and the Charter milestones (pp.74, 78). A governance audience asking for a schedule is asking a release-level question, and the guide expects the plan to be presented at the level of the audience.",
+     "whyPlain": "This is the wrong level. The Iteration Plan says how the team will do the work. The Release Plan says what will be done and when, and it is the one that must match the project vision and the milestones in the Charter (pages 74 and 78). A governance audience asking for a schedule is asking a release-level question, and the guide expects the plan to be shown at the level of the audience.",
+     "ref": [
+      74,
+      "Schedules – There are two schedule detail levels: a release level schedule (Release Plan) and an iteration level schedule (Iteration Plan)"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Accountable for the Development Work Plan and for its alignment with the Charter.",
+    "k": "Knows all three levels exist and that the committee has only ever seen one kind of plan.",
+    "w": "Wants the committee served at the release level without anyone pretending the detail is absent.",
+    "f": "Afraid a task-level plan is produced to be liked, then quoted for fourteen months."
+   },
+   "gantt": {
+    "o": "Project Support Office. Maintains the Project Work Plan and writes Monday's pack.",
+    "k": "Now knows there are three schedules, and that only one of them is for his audience.",
+    "w": "Wants one page he can defend when somebody asks where we will be in July.",
+    "f": "Afraid of signing a pack that turns out to have promised something it did not."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Responsible for the Development Work Plan and for the Release Plan in particular.",
+    "k": "Knows the velocity assumption is a guess until iteration three has run.",
+    "w": "Wants the Project Support Office to stop asking for the plan it used to get.",
+    "f": "Afraid that denying the schedule exists makes people go around her for dates."
+   },
+   "curie": {
+    "o": "Product Owner. Responsible for the Work Items List inside the Development Work Plan.",
+    "k": "Knows ninety-six items, their order, and which of them she cannot honestly estimate.",
+    "w": "Wants Release 4 to stay four honest headings until somebody has designed it.",
+    "f": "Afraid of being held in July to numbers she was pressured into in November."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Supports the plan; helps the Product Owner place enabler work.",
+    "k": "Knows twenty-four enabler items exist and three of them belong in Release 1.",
+    "w": "Wants the Release 1 enabler argument had properly, on Wednesday, with the list open.",
+    "f": "Afraid enabler work is postponed release by release until it is emergency work."
+   },
+   "eiffel": {
+    "o": "Agile Team Member, seconded lead from Levallois Systems. Contractually precise.",
+    "k": "Now knows the Definition of Done exists and where it is written.",
+    "w": "Wants delivered and done to mean the same thing before the first invoice.",
+    "f": "Afraid of a dispute in month nine about a word nobody defined in month one."
+   },
+   "babbage": {
+    "o": "Agile Team Member, data engineer. Supplied the load and volume assumptions.",
+    "k": "Knows the velocity number is a forecast and that August will break the team-of-eight assumption.",
+    "w": "Wants the assumptions printed on the front of the plan, not buried in it.",
+    "f": "Afraid an assumption becomes a fact the moment it is printed."
+   }
+  },
+  "unlock": [
+   15,
+   16,
+   17,
+   18
+  ],
+  "note": "Guide check: sections 7.2.2 to 7.2.2.3, pp.74-80. The Development Work Plan is a container of different perspectives on what needs to be done and how the development goals will be achieved. It has two parts: the Work Items List, holding user stories, enabler stories and defects, all prioritised and estimated at some point because the list is the main driver of the project; and Schedules, at two detail levels. In the Release Plan the focus is primarily on what needs to be done and when. In an Iteration Plan the focus is on how it will be done by the team. The Development Work Plan becomes part of the Project Work Plan and must align with the project milestones defined by the Project Manager and the whole Project Core Team. It is a living artefact, kept current as information and progress arrive. RASCI: Development Work Plan BM I, PM A, TeCo R, PrOw S, ArOw S, ATeM S (p.75). Work Items List BM S, PM A, TeCo C, PrOw R, ArOw S, ATeM S (p.76) — the only agile row where the Business Manager Supports and the Team Coordinator is Consulted. Release Plan BM I, PM A, TeCo R, PrOw S, ArOw S, ATeM S (p.78). Iteration Plan BM I, PM A, TeCo R, PrOw C, ArOw S, ATeM S (p.80). Approver: the Project Manager is Accountable for all four rows. Pages 74-80.",
+  "notePlain": "Rule: the Development Work Plan holds three things, not one (page 74). The Work Items List holds user stories, enabler stories and defects. Everything in it is put in priority order and estimated at some point, because that list drives the project. Then there are two schedules. The Release Plan says what will be done and when. The Iteration Plan says how the team will do it. The Development Work Plan becomes part of the Project Work Plan and must fit the project milestones. It is a living document, kept up to date as work progresses. Who is who: the Team Coordinator is Responsible for the Work Plan, the Release Plan and the Iteration Plan, and the Project Manager is Accountable for all of them. The Work Items List is different: the Product Owner is Responsible, the Business Manager Supports and the Team Coordinator is only Consulted. That row is the one to remember. Pages 74 to 80."
+ },
+ {
+  "id": "s08",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "Three iterations before anything ships",
+  "covers": [
+   "Architecture Overview",
+   "Operational Model"
+  ],
+  "guide_page": 69,
+  "where": "ESM, Kirchberg — sixth floor, Architecture Office, the room with the whiteboard wall",
+  "when": "26 Nov 2028, 14:00",
+  "cast": [
+   "you",
+   "einstein",
+   "curie",
+   "lovelace",
+   "babbage",
+   "eiffel",
+   "turing",
+   "brandeis"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Einstein has drawn four boxes. Replica data layer, reconciliation service, reporting API, portal UI. He has drawn them three times this week and they have not changed once.",
+    "plain": "Einstein has drawn four boxes: replica data layer, reconciliation service, reporting API, portal user interface. He has drawn them three times this week and they have not changed."
+   },
+   {
+    "who": "einstein",
+    "text": "Three iterations. Replica, audit trail, access zone. Then business stories. I would like to say that once, clearly, before anybody argues with it.",
+    "plain": "Three iterations. The replica, the audit trail, the external access zone. Then business stories. I want to say that once, clearly, before anyone argues with it."
+   },
+   {
+    "who": "curie",
+    "text": "Release 1 is the twenty-ninth of March. That is six iterations. You want half of them and the Board Secretariat sees nothing until June.",
+    "plain": "Release 1 is on 29 March. That is six iterations. You want half of them, and the Board Secretariat would see nothing until June."
+   },
+   {
+    "who": "einstein",
+    "text": "They would see something in March. It would query the lending platform directly and the first time somebody ran a maturity report during a disbursement window we would find out why that is a bad idea.",
+    "plain": "They would see something in March. It would query the lending platform directly. The first time somebody ran a maturity report during a disbursement window, we would learn why that is a bad idea."
+   },
+   {
+    "who": "einstein",
+    "text": "Decision two. Read-only replica. No live query against the platform, ever, in any release, by anyone. That one is not negotiable and it is the only one I will say that about.",
+    "plain": "Architecture decision two. A read-only replica. No live query against the lending platform, ever, in any release, by anyone. That decision is not negotiable, and it is the only one I will say that about.",
+    "g": [
+     [
+      "reference architecture",
+      "the organisation's standard patterns a system is expected to reuse rather than reinvent"
+     ]
+    ],
+    "ref": [
+     69,
+     "The Architecture Overview formally documents the critical architectural decisions made"
+    ]
+   },
+   {
+    "who": "babbage",
+    "text": "And the delta has to land before six. If it lands at seven the one-day quarter-end is a sentence in a business case and nothing else.",
+    "plain": "And the nightly data load must finish before 06:00. If it finishes at 07:00, the one-day quarter-end is only a sentence in a business case.",
+    "g": [
+     [
+      "deployment unit",
+      "a group of components that are installed and run together on the same nodes"
+     ]
+    ]
+   },
+   {
+    "who": "turing",
+    "text": "Say the word replica again and then say who can read it. Because a read-only copy of every exposure in the euro area is not a smaller problem than the original, it is the same problem in a friendlier place.",
+    "plain": "Say the word replica again, then say who is allowed to read it. A read-only copy of every exposure in the euro area is not a smaller problem than the original. It is the same problem in a more convenient location."
+   },
+   {
+    "who": "brandeis",
+    "text": "A supervisor in Vilnius sees Lithuania. Not Portugal, not Greece, not a total that lets her work out Portugal. That is a filter at row level and it belongs in the architecture, not in a screen.",
+    "plain": "A supervisor in Vilnius sees Lithuania. Not Portugal, not Greece, and not a total from which she can calculate Portugal. That is a filter at row level. It belongs in the architecture, not in a screen.",
+    "ref": [
+     70,
+     "compliance concerns need to be addressed in information system's architecture, especially in regards to security, document management and data protection"
+    ]
+   },
+   {
+    "who": "brandeis",
+    "text": "I would rather be a work item in January than a finding in October. I have been the finding. It is a worse document.",
+    "plain": "I would rather be a work item in January than an audit finding in October. I have been the finding before. It is a much worse document."
+   },
+   {
+    "who": "einstein",
+    "text": "Then it is an enabler and it is written down. External access zone, role model, row filter. One item, and it is not small.",
+    "plain": "Then it becomes an enabler story and it is written down. External access zone, role model, row filter. One item, and it is not a small one.",
+    "g": [
+     [
+      "enabler story",
+      "work with an enablement purpose: architecture, infrastructure, compliance, non-functional work"
+     ]
+    ],
+    "ref": [
+     70,
+     "It serves as an invaluable source of Enablers that will populate the Work Items List (WIL)"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "May I say the unhelpful thing. The last architect who told me to build the foundation first was Tesla. He left in October 2027 and my team spent four months building from drawings of a system nobody had agreed to.",
+    "plain": "May I say the unhelpful thing? The last architect who told me to build the foundation first was Nikola Tesla. He left in October 2027. My team then spent four months building from drawings of a system that nobody had agreed to."
+   },
+   {
+    "who": "narr",
+    "text": "Nobody fills the pause. Lovelace, who worked with him for eighteen months, looks at the four boxes instead.",
+    "plain": "Nobody speaks into the pause. Lovelace, who worked with Tesla for eighteen months, looks at the four boxes instead."
+   },
+   {
+    "who": "einstein",
+    "mood": "mild",
+    "text": "He was not wrong about the drawings. He was wrong about the order. Those are separable mistakes and only one of them is mine.",
+    "plain": "He was not wrong about the drawings. He was wrong about the order. Those are two different mistakes, and only one of them is mine."
+   },
+   {
+    "who": "curie",
+    "text": "Then give me a rule I can hold you to. Not this argument again in February and again in May.",
+    "plain": "Then give me a rule I can hold you to. I do not want this argument again in February and again in May."
+   },
+   {
+    "who": "einstein",
+    "text": "Enablers ride in every release. Never zero. Never three iterations in a row with nothing for a user. You prioritise, I supply, and if we deadlock the two of us go to him.",
+    "plain": "Enabler stories go into every release. Never zero of them. Never three iterations in a row with nothing for a user. You set the priority, I supply the items, and if we cannot agree, we both go to the Project Manager.",
+    "ref": [
+     32,
+     "Putting the focus exclusively on building business items may yield good initial results"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Three of yours in Release 1. Replica, audit trail, and half the access zone. The rest in June.",
+    "plain": "Three of your items in Release 1: the replica, the audit trail, and half of the access zone. The rest in June."
+   },
+   {
+    "who": "curie",
+    "text": "And while we are all in the room. On this document I am Informed. Not consulted. Informed.",
+    "plain": "And while we are all in the room. On this document I am Informed. Not consulted. Informed.",
+    "ref": [
+     70,
+     "Architecture Overview I A S I R S"
+    ]
+   },
+   {
+    "who": "einstein",
+    "text": "Yes. And on your list I only support. Neither of us gets to overrule the other, which is the whole reason the two rows are written differently.",
+    "plain": "Yes. And on your list I only support. Neither of us can overrule the other. That is the entire reason why the two rows are written differently.",
+    "ref": [
+     76,
+     "Supports the Product Owner (PrOw) by providing inputs regarding enabler work items that need to be delivered to support business work items"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Albert, how long is this document?",
+    "plain": "Albert, how long is this document?"
+   },
+   {
+    "who": "einstein",
+    "text": "Eleven pages. It would be forty if the platform architecture were not already written and approved. Most of what I would say, I can point at instead.",
+    "plain": "Eleven pages. Without the existing platform architecture it would be forty pages. Most of what I would write already exists, so I can point at it instead.",
+    "ref": [
+     69,
+     "In systems where there is already a well-defined architecture, this artefact can be lighter and refer to the existing architecture"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And the second one. Nodes, environments, what runs where.",
+    "plain": "And the second document. The nodes, the environments, what runs where."
+   },
+   {
+    "who": "einstein",
+    "text": "Three deployment units. Four environments. One-way feed from the platform into the replica and no path back into it, which is Alan's sentence, not mine.",
+    "plain": "Three deployment units. Four environments. A one-way data feed from the platform into the replica, and no route back into it. That was Alan's sentence, not mine.",
+    "ref": [
+     71,
+     "Nodes, the placement of nodes and users across locations, and the connections between nodes"
+    ]
+   },
+   {
+    "who": "turing",
+    "text": "It is my sentence and I will be quoting it back to you in 2030.",
+    "plain": "It is my sentence, and I will be repeating it to you in 2030."
+   },
+   {
+    "who": "einstein",
+    "text": "I review both together at every release boundary. If they drift, the infrastructure stops describing the system, and then nobody can tell whether the system is buildable.",
+    "plain": "I review both documents together at every release boundary. If they drift apart, the infrastructure document stops describing the system, and then nobody can tell whether the system can be built."
+   },
+   {
+    "who": "narr",
+    "text": "Both baselined tomorrow at version zero point nine and one point one. Twenty-four enabler items exist in Marie's list by Wednesday, and three of them carry a March date.",
+    "plain": "Both documents are baselined tomorrow, at version 0.9 and version 1.1. By Wednesday there are 24 enabler items in Marie's list, and three of them carry a March date.",
+    "g": [
+     [
+      "audit trail",
+      "a record showing where each figure came from, who changed it, and when"
+     ]
+    ]
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Accountable for both the Architecture Overview and the Operational Model.",
+    "k": "Knows the enabler balance is the argument that will recur in every release planning.",
+    "w": "Wants a standing rule agreed now rather than the same argument in February and May.",
+    "f": "Afraid of being the deadlock-breaker on decisions he is not competent to break."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Responsible for both artefacts; supports the Product Owner on enablers.",
+    "k": "Knows the replica decision is right and that his sequencing was not.",
+    "w": "Wants enabler work in every release rather than all of it at the start.",
+    "f": "Afraid enablers get deferred release by release until they arrive as emergencies."
+   },
+   "curie": {
+    "o": "Product Owner. Informed on both architecture artefacts. Prioritises the enablers in her list.",
+    "k": "Knows what Release 1 must contain for the March promise to be true.",
+    "w": "Wants a rule she can hold Einstein to, not a fresh negotiation each quarter.",
+    "f": "Afraid the architecture quietly consumes the releases the users are waiting for."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Supports by fetching what the Architecture Owner needs from project level.",
+    "k": "Knows the history in the room and lets somebody else say the name.",
+    "w": "Wants the two artefacts short enough that the team will actually read them.",
+    "f": "Afraid of an architecture argument that becomes a personal one."
+   },
+   "babbage": {
+    "o": "Agile Team Member. Contributes the load design and the operational characteristics.",
+    "k": "Knows the delta load must finish before six for the one-day quarter-end to hold.",
+    "w": "Wants the load window written into the Operational Model as a hard characteristic.",
+    "f": "Afraid the replica is designed for correctness and not for the clock."
+   },
+   "eiffel": {
+    "o": "Agile Team Member, seconded lead. Contributes and says the uncomfortable thing.",
+    "k": "Knows what happens when the architect leaves and the drawings stay.",
+    "w": "Wants the sequencing decided by the team, not by one architect's conviction.",
+    "f": "Afraid of building for four months against a design nobody has agreed."
+   },
+   "turing": {
+    "o": "Local Information Security Officer. Consulted on the architecture's compliance concerns.",
+    "k": "Knows a read-only copy of euro-area exposure is the same risk in a friendlier place.",
+    "w": "Wants the one-way feed written down as an architectural decision, not a habit.",
+    "f": "Afraid the replica is treated as less sensitive because it is a copy."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Consulted on national-authority access.",
+    "k": "Knows a total can leak the parts, and that screens are the wrong place to stop it.",
+    "w": "Wants row-level filtering to be an enabler story in January, with an estimate.",
+    "f": "Afraid of arriving as an audit finding in October instead of a work item in January."
+   }
+  },
+  "unlock": [
+   12,
+   13
+  ],
+  "note": "Guide check: sections 7.1.3 and 7.1.4, pp.69-72. The Architecture Overview gives a high-level view of the software architecture to be developed, its major building blocks, and how the architecture contributes to all the capabilities of the system. It formally documents the critical architectural decisions and how compliance concerns such as security, data protection and anti-fraud are addressed, and where a Reference Architecture exists it documents how the system uses it. Where a well-defined architecture already exists, the artefact can be lighter and refer to it. Crucially it is a source of enablement work: it is an invaluable source of Enablers that populate the Work Items List. The Operational Model describes the operational aspect of the same architecture — infrastructure, logical and physical, deployment units, nodes and their placement, and the connections between nodes — and the guide requires alignment between the two. Balance is section 4.4 on p.32: focusing only on business items means the team struggles once the lack of architecture hits velocity; focusing only on enablers produces a robust solution with none of the functionality users expect, and the Architecture Owner helps the Product Owner find the balance. RASCI: Architecture Overview BM I, PM A, TeCo S, PrOw I, ArOw R, ATeM S (p.70). Operational Model PM A, TeCo S, PrOw I, ArOw R, ATeM S (p.71 — the row prints no BM column). Approver: the Project Manager is Accountable for both. Lifecycle: both Created in Initiating, Updated in Planning and Executing. Pages 69-72.",
+  "notePlain": "Rule: the Architecture Overview gives a high-level picture of the software architecture: the main building blocks and how they support the system's capabilities (page 69). It records the critical architecture decisions, and how security, data protection and anti-fraud are handled. Where the organisation already has standard patterns, it shows how the system uses them. If a good architecture already exists, this document can be short and simply refer to it. It is also the main source of enabler work items for the Work Items List (page 70). The Operational Model describes the same architecture from the infrastructure side: deployment units, nodes, where they run, and the connections between them. The two must stay aligned. On balance, page 32 says: build only business items and the missing architecture will slow you down; build only enablers and users get nothing. The Architecture Owner helps the Product Owner find the balance. For both documents the Architecture Owner is Responsible, the Project Manager Accountable, and the Product Owner only Informed. Both are created in Initiating."
+ },
+ {
+  "id": "s09",
+  "act": 1,
+  "actName": "Initiating & Planning",
+  "title": "The eighth of January",
+  "covers": [
+   "Iterations",
+   "Iteration Planning",
+   "Daily Stand-up"
+  ],
+  "guide_page": 19,
+  "where": "ESM, Kirchberg — Board room, seventh floor, RfE gate review",
+  "when": "04 Dec 2028, 09:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "deming",
+   "gantt",
+   "curie",
+   "lovelace",
+   "einstein"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "On the twenty-seventh at ten to six the Development Handbook and the Development Work Plan were baselined. A week later the same table, the same chairs, and the plateau the colour of wet concrete.",
+    "plain": "On 27 November at 17:50 the Development Handbook and the Development Work Plan were baselined. A week later the same table and the same chairs, with the plateau outside the colour of wet concrete."
+   },
+   {
+    "who": "nightingale",
+    "mood": "impatient",
+    "text": "Ready for Executing. Go.",
+    "plain": "Ready for Executing. Please begin."
+   },
+   {
+    "who": "you",
+    "text": "Planning sheet. Forty-three checks. Two of them are not a clean yes and I will take those first.",
+    "plain": "This is the Planning sheet of the checklist. Forty-three checks. Two of them are not a clean yes, and I will take those first."
+   },
+   {
+    "who": "you",
+    "text": "Deployment Plan. It exists, operations named their cut-over window on Friday, and the dry-run dates are not in it yet. Yes, partially, with the window in the comment.",
+    "plain": "First, the Deployment Plan. It exists. The operations team named their cut-over window on Friday, and the rehearsal dates are not yet in the plan. The answer is yes, partially, with the window written in the comment."
+   },
+   {
+    "who": "deming",
+    "text": "And the Test Plan. Drafted by whom, exactly.",
+    "plain": "And the Test Plan. Who exactly drafted it?"
+   },
+   {
+    "who": "lovelace",
+    "text": "Hedy. The Agile Team Members are responsible for the Test Plan. Not me, not him, not the quality function.",
+    "plain": "Hedy Lamarr drafted it. The Agile Team Members are Responsible for the Test Plan. Not me, not the Project Manager, and not the quality function.",
+    "ref": [
+     81,
+     "Test Plan I A S S S R"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "The developers own the test plan.",
+    "plain": "The developers own the Test Plan."
+   },
+   {
+    "who": "lovelace",
+    "text": "The developers own the testing. It has been a strange month for you, Henry, and it is only the fourth of December.",
+    "plain": "The developers own the testing. It has been a strange month for you, Henry, and it is only 4 December."
+   },
+   {
+    "who": "leonardo",
+    "text": "When do I see something? Not a document. Something that runs.",
+    "plain": "When do I see something? Not a document. Something that actually runs."
+   },
+   {
+    "who": "you",
+    "text": "Nineteenth of January.",
+    "plain": "On 19 January."
+   },
+   {
+    "who": "leonardo",
+    "text": "That is not a release.",
+    "plain": "That is not a release."
+   },
+   {
+    "who": "you",
+    "text": "No. It is an iteration. The release is the twenty-ninth of March.",
+    "plain": "No. It is an iteration. The release is on 29 March."
+   },
+   {
+    "who": "lovelace",
+    "text": "Monday the eighth. Iteration Planning, four hours, eight people. Marie brings the goal, the team decides whether it is reachable and says so out loud.",
+    "plain": "Monday 8 January. Iteration Planning, four hours, eight people. Marie brings the goal. The team decides whether it can be reached, and says so out loud.",
+    "g": [
+     [
+      "iteration goal",
+      "what the iteration is trying to achieve; the Product Owner sets it, the team commits"
+     ]
+    ],
+    "ref": [
+     42,
+     "planning four hours for eight Agile Team Members (ATeM) team, working in two weeks iteration is considered a good practice"
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "I propose it. I do not impose it. If they tell me it is two iterations of work I would rather hear that on the eighth than on the nineteenth.",
+    "plain": "I propose the goal. I do not impose it. If they tell me it is two iterations of work, I would rather hear that on the eighth than on the nineteenth.",
+    "ref": [
+     79,
+     "the Iteration Goal, defined by the Product Owner (PrOw) and committed to by the Agile Project Core Team (A-PCT)"
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "Then every morning, sixty to ninety seconds each. What moved us towards the goal, what will, what is in the way, and how confident you are.",
+    "plain": "Then every morning, sixty to ninety seconds for each person. What moved us towards the goal, what will move us next, what is blocking us, and how confident you feel.",
+    "g": [
+     [
+      "Daily Stand-up",
+      "a short daily check that the team is still aligned on the iteration goal"
+     ]
+    ],
+    "ref": [
+     46,
+     "PM²-Agile suggests sixty to ninety seconds for each Agile Team Member (ATeM) to share relevant information"
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Fifteen minutes a day, eight people, two hundred and forty working days.",
+    "plain": "Fifteen minutes a day, eight people, 240 working days."
+   },
+   {
+    "who": "lovelace",
+    "text": "Yes. And in exchange you stop ringing me at eleven for a status update, because you will already know. That is the trade and I want it agreed in front of Florence.",
+    "plain": "Yes. And in exchange you stop telephoning me at 11:00 for a status update, because you will already know. That is the exchange, and I want it agreed in front of Florence."
+   },
+   {
+    "who": "lovelace",
+    "text": "Last day of the iteration, two ceremonies, not one. Review with you in the room. Retrospective without you.",
+    "plain": "On the last day of the iteration there are two ceremonies, not one. The Iteration Review, with you present. The Iteration Retrospective, without you.",
+    "g": [
+     [
+      "Iteration Review",
+      "the closing meeting where the team demonstrates the work and stakeholders judge the goal"
+     ],
+     [
+      "Iteration Retrospective",
+      "the team's own meeting about how it worked, and what it will change next"
+     ]
+    ],
+    "ref": [
+     21,
+     "The Iteration Review is a prescribed event, where a team aims to collect feedback from the client to ensure that the Work Items are Done"
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "And which of those am I in?",
+    "plain": "And which of those two do I attend?"
+   },
+   {
+    "who": "curie",
+    "text": "The Review. You are informed of the goal and you support the list, and those are two different rows, and I have checked both.",
+    "plain": "The Review. You are informed of the goal, and you support the list. Those are two different rows, and I have checked both of them."
+   },
+   {
+    "who": "hopper",
+    "mood": "dry",
+    "text": "Two years ago I would have found that insulting. Ask me again in June.",
+    "plain": "Two years ago that would have offended me. Ask me again in June."
+   },
+   {
+    "who": "einstein",
+    "text": "The replica starts on day one. If it is not loading by the end of iteration two there is nothing for anyone to look at in March, and I would rather that were on the record now.",
+    "plain": "The replica work starts on day one. If it is not loading data by the end of iteration two, there will be nothing for anyone to look at in March. I would rather that was recorded now."
+   },
+   {
+    "who": "deming",
+    "text": "Retrospective from iteration one. Not from six, when it is a rescue. And when it produces a change, the handbook changes with a date on it.",
+    "plain": "Hold the retrospective from iteration one, not from iteration six when it has become a rescue. And when it produces a change, the handbook changes too, with a date."
+   },
+   {
+    "who": "nightingale",
+    "text": "Approved, then, and Henry can write it down. One question before I do.",
+    "plain": "Approved, then, and Henry can record it. One question before I do."
+   },
+   {
+    "who": "nightingale",
+    "text": "The twenty-second of January. Two days after your first iteration closes. I will be asked what we have. What am I allowed to say?",
+    "plain": "On 22 January. Two days after your first iteration ends. I will be asked what we have. What am I allowed to say?",
+    "ref": [
+     19,
+     "Each iteration produces a product increment which brings the system one step closer to the final product"
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "Florence will be asked on the twenty-second of January what the project has produced. What do you let her say?",
+   "promptPlain": "On 22 January, Florence will be asked what the project has produced. What do you let her say?",
+   "options": [
+    {
+     "t": "That a working increment was demonstrated at the Iteration Review, against the goal Marie set. Not a release, and not a document.",
+     "tPlain": "That a working increment was demonstrated at the Iteration Review, against the goal Marie set. Not a release, and not a document.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "mood": "flat",
+      "text": "A working thing, small, against a goal somebody wrote down in advance. Say it in one sentence like that and I will use it. Henry — transition approved, the eighth of January.",
+      "plain": "A working thing, small, measured against a goal written down in advance. Say it in one sentence like that and I will use it. Henry, the phase transition is approved. Iteration one starts on 8 January."
+     },
+     "why": "PM²-Agile recognises three ways of exposing work: exposure of individual Work Items, exposure at the end of an iteration, and a Release. Exposure at the end of the iteration is the one that supports the Iteration Review, and it covers the items deemed ready for review during that iteration (p.20). The iteration produces a product increment that brings the system one step closer to the final product (p.19), and the Review is where the Product Owner and stakeholders judge it against the goal. It is not a Release, which is a Solution Increment delivered to users as a real product.",
+     "whyPlain": "PM²-Agile has three ways of showing work: one finished work item at a time, everything ready at the end of an iteration, and a Release. What happens at the end of an iteration supports the Iteration Review, and covers the items ready for review in that iteration (page 20). The iteration produces an increment that brings the system one step closer to the final product (page 19), and the Review is where the Product Owner and stakeholders judge it against the goal. It is not a Release, because a Release goes to users as a real product.",
+     "ref": [
+      20,
+      "Exposure at the end of an Iteration – This occurs at the end of the Iteration and supports the Iteration review ceremony"
+     ]
+    },
+    {
+     "t": "That Release 1 is in early. Two weeks in and the Board Secretariat can already use it.",
+     "tPlain": "That Release 1 has arrived early. After two weeks the Board Secretariat can already use it.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "mood": "sharp",
+      "text": "Nobody outside this floor touches anything on the twenty-second. If the Board Secretariat opens it in January they will judge the whole portal on eleven days of work.",
+      "plain": "Nobody outside this floor uses anything on 22 January. If the Board Secretariat opens it in January, they will judge the whole portal on eleven days of work."
+     },
+     "why": "A Release is an agreed Solution Increment delivered to the client and users so that they can start using it as a real product, and it includes all the Done Work Items from several prior iterations (p.20). One iteration's output is not that. Calling it a release also invites validation against the Definition of Done that the increment has not yet been through, and it moves a date the Charter has fixed at 29 March.",
+     "whyPlain": "A Release is an agreed increment given to the client and users so they can use it as a real product, and it contains the Done work items from several iterations (page 20). The output of one iteration is not that. Calling it a release also invites checks against a Definition of Done the work has not yet passed, and it moves a date the Charter fixed at 29 March.",
+     "ref": [
+      20,
+      "Release – This is an agreed Solution Increment, delivered to the client and users so that they can start using it as a real product."
+     ]
+    },
+    {
+     "t": "That the first status report is out and the plan has been re-baselined with real velocity.",
+     "tPlain": "That the first status report is published and the plan has been re-baselined using real velocity figures.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "I asked for something that runs and you have offered me a document about a document. That is exactly the answer I was trying to avoid by agreeing to this.",
+      "plain": "I asked for something that runs, and you have offered me a document about a document. That is exactly the answer I was trying to avoid when I agreed to this."
+     },
+     "why": "The seventh principle sets the measure: the primary measure of progress is the value and use of what has been delivered (p.13). Reports and re-baselined plans are true and they are not progress. The Development Status Report exists and follows each iteration or release, but it reports the increment; it is not a substitute for exposing the output that was built.",
+     "whyPlain": "The seventh principle sets the measure: progress is measured by the value and the use of what has been delivered (page 13). Reports and re-baselined plans are true, but they are not progress. The Development Status Report exists and follows each iteration or release, but it reports on the increment. It does not replace showing the work.",
+     "ref": [
+      13,
+      "The primary measure of progress is the value and use of what has been delivered."
+     ]
+    },
+    {
+     "t": "That nothing is visible yet. The first iterations are groundwork and the first thing to look at is March.",
+     "tPlain": "That there is nothing to see yet. The first iterations are groundwork and the first thing to look at comes in March.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Then you have built a three-month tunnel and asked her to defend it on faith. That is the thing we told Lorenzo this method removes.",
+      "plain": "Then you have created a three-month period with nothing to see, and asked her to defend it on trust. That is the very thing we told Lorenzo this method removes."
+     },
+     "why": "The guide is explicit that the best and most effective way to demonstrate tangible progress is by exposing the output generated in each cycle, so that teams get feedback at an early stage and continuously improve their understanding of what needs to be done (p.20). An enabler-heavy first iteration still produces something demonstrable, and choosing to show nothing removes the feedback loop that justified the approach at the Business Case.",
+     "whyPlain": "The guide says clearly that the best way to show real progress is to expose the output of each cycle, so the team gets feedback early and understands the work better (page 20). Even a first iteration full of enabler work produces something that can be shown. Choosing to show nothing removes the feedback loop that justified this approach in the Business Case.",
+     "ref": [
+      20,
+      "The best and most effective way for an Agile Project Core Team (A-PCT) to demonstrate tangible progress is by exposing the output generated in each cycle"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Assessed readiness for Executing and sought the transition from the committee.",
+    "k": "Knows both partial answers and why neither of them blocks the phase.",
+    "w": "Wants the difference between an iteration and a release fixed in Nightingale's language today.",
+    "f": "Afraid the first thing shown in January is judged as if it were the product."
+   },
+   "nightingale": {
+    "o": "Project Owner and chair. Authorises the transition to the Executing Phase.",
+    "k": "Knows the plans are baselined and the first iteration opens on the eighth.",
+    "w": "Wants one defensible sentence for the twenty-second of January.",
+    "f": "Afraid of promising a release and being handed a demonstration."
+   },
+   "leonardo": {
+    "o": "Solution Provider. His division supplies six of the eight people.",
+    "k": "Knows the team is staffed and the secondment is now signed.",
+    "w": "Wants to see something running before he defends the method to his own directors.",
+    "f": "Afraid of eighteen months in which the only visible outputs are documents."
+   },
+   "hopper": {
+    "o": "Business Manager. Informed of iteration goals; supports the Work Items List.",
+    "k": "Knows exactly which rows she is on, having been told twice this month.",
+    "w": "Wants a seat at the Review and has stopped asking for one at the Retrospective.",
+    "f": "Afraid the day-to-day authority she gave away is harder to lend back."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Assured the checklist; does not own the gate decision.",
+    "k": "Knows retrospectives are dropped first and reinstated last.",
+    "w": "Wants the retrospective running from iteration one and feeding the handbook.",
+    "f": "Afraid the team hides a bad iteration inside a good demonstration."
+   },
+   "gantt": {
+    "o": "Project Support Office. Minutes the transition and maintains the Project Work Plan.",
+    "k": "Now knows the developers own the Test Plan, which he did not expect.",
+    "w": "Wants a reporting rhythm he can rely on without telephoning anybody.",
+    "f": "Afraid the daily ceremony replaces the reporting he is accountable for producing."
+   },
+   "curie": {
+    "o": "Product Owner. Proposes the iteration goal; the team commits to it.",
+    "k": "Knows what iteration one can contain and what it certainly cannot.",
+    "w": "Wants nobody outside the floor touching anything before March.",
+    "f": "Afraid the whole portal is judged on eleven days of work."
+   },
+   "lovelace": {
+    "o": "Team Coordinator. Facilitates the ceremonies and reports development progress upward.",
+    "k": "Knows the cadence and has just traded the daily ceremony for the eleven o'clock calls.",
+    "w": "Wants the Review and the Retrospective kept apart from the first iteration onward.",
+    "f": "Afraid the Retrospective becomes a meeting stakeholders attend."
+   },
+   "einstein": {
+    "o": "Architecture Owner. Enabler work starts on day one of iteration one.",
+    "k": "Knows the replica must be loading by the end of iteration two for March to hold.",
+    "w": "Wants that dependency on the record before anybody promises a March date.",
+    "f": "Afraid the enabler slips quietly and the March promise fails loudly."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: sections 3.3.1 to 3.3.3, pp.19-21, with the ceremonies at pp.41-47. An agile iteration is a period in which the team produces a stable, potentially shippable part of the solution together with any supporting documentation or deliverables. Iterations are timeboxed: the duration is fixed and the scope of the content is actively managed to meet the schedule. Each iteration produces a product increment. PM²-Agile recognises three ways of exposing work: exposure of individual Work Items, exposure at the end of an iteration supporting the Iteration Review, and a Release, which is an agreed Solution Increment delivered to client and users as a real product, containing the Done items of several iterations. Iteration Planning is the first activity of the iteration, sized at two hours per iteration week — four hours for eight members over two weeks (p.42). The Daily Stand-up is sixty to ninety seconds per member (p.46); its RASCI on p.47 has the Project Manager merely Informed. The Iteration Goal is defined by the Product Owner and committed to by the team (p.79). RASCI: no artefact row for the gate itself; the Test Plan row is BM I, PM A, TeCo S, PrOw S, ArOw S, ATeM R (p.81), which is the only agile row where an Agile Team Member is Responsible. Approver: the Project Steering Committee authorises the phase transition. Pages 19-21.",
+  "notePlain": "Rule: an iteration is a fixed period in which the team makes a stable, potentially shippable part of the solution, plus any documents that go with it (page 19). The length is fixed and the scope is managed to fit it. Every iteration produces an increment. There are three ways of showing work: one work item at a time, everything ready at the end of an iteration, and a Release. Only the Release goes to users as a real product, and it contains the finished items of several iterations (page 20). Iteration Planning is the first activity of the iteration: about two hours for each week of the iteration, so four hours for a team of eight on a two-week iteration (page 42). The Daily Stand-up gives each member sixty to ninety seconds (page 46), and the Project Manager is only Informed on it. The Product Owner sets the iteration goal and the team commits to it (page 79). Note the Test Plan: the Agile Team Members are Responsible for it (page 81). The Steering Committee approves the move into Executing."
+ }
+]

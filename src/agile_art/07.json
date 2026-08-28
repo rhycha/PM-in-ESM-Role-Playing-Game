@@ -1,0 +1,323 @@
+{
+ "n": 7,
+ "id": "release-planning",
+ "name": "Release Planning",
+ "group": "Ceremonies",
+ "one_liner": "Business changes reach the Work Items List; team sizes them; priorities reset.",
+ "purpose": "Release Planning's primary goal is to guarantee that the business communicates to the A-PCT the ongoing changes that affect the solution strategy. The team then determines how big and complex those changes are, so the business can decide what to build and when to release. It materialises the Learning step of the PM²-Agile Lean Start-up model, and its main outcome is a prioritised Work Items List and, from it, an updated Release Plan.",
+ "guide_page": 47,
+ "meta": [
+  [
+   "Frequency",
+   "At least once per iteration, assuming a two-week iteration"
+  ],
+  [
+   "More often when",
+   "Iterations are longer, or the solution context is more volatile"
+  ],
+  [
+   "Duration",
+   "No specific recommendation — different tools and techniques apply to each step"
+  ],
+  [
+   "Best run as",
+   "Three separate ceremonies; experience shows this beats a single combined one"
+  ],
+  [
+   "Trigger",
+   "Top-down (a change in organisational strategy) or bottom-up (PrOw or ATeM feedback)"
+  ],
+  [
+   "Three activities",
+   "Manage the WIL · WIL refinement · WIL prioritisation"
+  ],
+  [
+   "Headline RASCI row",
+   "Manage the Work Items List (p. 51) — shown below; the other two rows are in the fields"
+  ],
+  [
+   "Main outputs",
+   "A prioritised Work Items List and a revised Release Plan"
+  ],
+  [
+   "Guide reference",
+   "§5.3, pp. 47–52 (RAMs pp. 51–52; Appendix B.2 p. 95, under Monitor & Control)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "S",
+   "I",
+   "S",
+   "A/R",
+   "I",
+   "I/S"
+  ],
+  "A": "PrOw",
+  "R": "PrOw"
+ },
+ "diagram": [
+  {
+   "sec": "Why it exists (p. 47)",
+   "items": [
+    "A VUCA context means the release strategy goes stale unless the business can refresh it regularly",
+    "Materialises the Learning step of the PM²-Agile Lean Start-up model",
+    "Practises two steps of the Lean UX cycle: Evaluate and Learn, and Incept assumptions and research",
+    "The question is not whether to do it, but how often"
+   ]
+  },
+  {
+   "sec": "1. Manage the Work Items List (§5.3.2.1)",
+   "items": [
+    "PrOw and BM align and share the same vision on changes likely to impact the WIL",
+    "Once aligned, they work with the Business Implementation Group to define how the WIL will materialise the agreed changes",
+    "Items can be added, removed or updated — whatever the case, their goal and acceptance criteria must be clear",
+    "Other stakeholders may be involved, focused on features rather than on the WIL; the PrOw can create a separate ceremony for them",
+    "Design Blocks, collaborative design, design studios and Design Systems are recommended to encourage alignment",
+    "TeCo and an ATeM with UX design skills should facilitate when such tools are used",
+    "Output: a reviewed and prioritised WIL matching PrOw, BM and BIG expectations — the starting point for refinement",
+    "RAM (p. 51): BIG C · BM S · PM I · TeCo S · PrOw A/R · ArOw I · ATeM I/S"
+   ]
+  },
+  {
+   "sec": "2. Work Items List refinement (§5.3.2.2)",
+   "items": [
+    "The PrOw describes all the changes to the rest of the Agile Team Members",
+    "The team returns feasibility information and size — estimates",
+    "PrOw and ATeMs review the items expected in the next iteration and reach common understanding and agreement",
+    "Two key activities: discuss the most relevant items from the WIL; analyse and review estimates",
+    "Most relevant = highest priority items going into the next Iteration Planning, plus items reviewed in the previous Manage-the-WIL session",
+    "More detail for items entering the next Iteration Planning; less detail for items several iterations away, but enough to see concepts, dependencies and links",
+    "The ArOw explains technical enabler items and why they matter to the overall solution",
+    "Ends with relative estimates that let the PrOw and BM prioritise on an educated basis",
+    "RAM (p. 52): BM I · PM I · TeCo S · PrOw R · ArOw I · ATeM S/A"
+   ]
+  },
+  {
+   "sec": "3. Work Items List prioritisation (§5.3.2.3)",
+   "items": [
+    "PrOw and all other stakeholders adjust the release strategy by prioritising the WIL — this simple activity is the main outcome of Release Planning",
+    "The PrOw, aligned with the BM and other stakeholders, prioritises items and reviews the content of the planned releases",
+    "Enablers get particular attention: unimplemented, they can compromise the integrity and usability of the solution",
+    "Because the PrOw and stakeholders are not familiar with enablement items, the ArOw should be present to help",
+    "By the end, a revised Release Plan is generated and shared with the entire PCT",
+    "Depending on the impact, the modified Release Plan may need review by the Project Steering Committee",
+    "RAM (p. 52): BIG C · BM S · PM I · TeCo S · PrOw R/A · ArOw C · ATeM C"
+   ]
+  },
+  {
+   "sec": "Guidelines across the three activities (pp. 51–52)",
+   "items": [
+    "Keep a close eye on the Features — they answer the Needs and carry the release strategy",
+    "Make it visual: Design Blocks give the playground for assumptions and hypotheses",
+    "Define the tools in advance; a workshop with unfamiliar techniques frustrates everyone",
+    "Prepare the session in advance and know the WIL — that is the PrOw's daily work",
+    "Share the items to be discussed in advance, so the team arrives prepared",
+    "Explain and discuss first, estimate after",
+    "Be precise on the short term, concise on the medium and long term",
+    "Take dependencies into account; consult the ArOw on how they affect prioritisation",
+    "Finish with a clearly prioritised WIL, and update the Release Plan accounting for current velocity"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Primary goal",
+   "what": "Guarantee that the business communicates ongoing changes affecting the solution strategy, so it can decide what to build and when to release.",
+   "who": "Business communicates · A-PCT sizes",
+   "pollux": "Risk, the Board and Finance each change their mind; the WIL absorbs it."
+  },
+  {
+   "f": "Frequency rule",
+   "what": "The sequence of three steps should be performed at least once per iteration, considering a two-week iteration.",
+   "who": "PrOw convenes",
+   "pollux": "Iteration 7 ran all three: 04, 09 and 10 April 2029."
+  },
+  {
+   "f": "When to run it more often",
+   "what": "The longer the iteration is, or the more volatile the solution context is, the more frequent Release Planning should be.",
+   "who": "PrOw judges · TeCo schedules",
+   "pollux": "Weekly during Release 3 scoping, when national-authority access is being defined."
+  },
+  {
+   "f": "Duration",
+   "what": "PM²-Agile gives no specific recommendation, because each step can use different tools; a user story workshop can take hours, one person presenting cannot.",
+   "who": "PrOw and TeCo balance time against objective",
+   "pollux": "Two hours, two hours, one hour across the three POLLUX sessions."
+  },
+  {
+   "f": "Three separate ceremonies",
+   "what": "Experience shows that organising the three steps as individual ceremonies yields better results than executing them as a single one.",
+   "who": "TeCo schedules them apart",
+   "pollux": "Never combined; the estimating session is always its own meeting."
+  },
+  {
+   "f": "Top-down trigger",
+   "what": "A change in the organisation's strategy, made as a response to a change in its context, arriving downwards into the release strategy.",
+   "who": "BM carries it in",
+   "pollux": "Board asks for a single-page exposure view ahead of a Governors' meeting."
+  },
+  {
+   "f": "Bottom-up trigger",
+   "what": "Feedback from the Product Owner or an Agile Team Member as the solution continues to evolve.",
+   "who": "PrOw or ATeM raises it",
+   "pollux": "Einstein's enabler backlog, surfaced after the iteration 6 sync failures."
+  },
+  {
+   "f": "Manage the Work Items List",
+   "what": "PrOw and BM align on the changes, then work with the BIG to materialise them in the WIL: items added, removed or updated, with clear goals and acceptance criteria.",
+   "who": "PrOw A/R · BM S · BIG C · TeCo S · ArOw I · ATeM I/S",
+   "pollux": "04 Apr: Hopper brings the Board's request; Curie rewrites four items."
+  },
+  {
+   "f": "WIL refinement",
+   "what": "The PrOw explains the changes; the ATeMs supply feasibility and relative estimates; next-iteration items are detailed until there is common understanding.",
+   "who": "PrOw R · ATeM S/A · TeCo S · BM I · ArOw I · PM I",
+   "pollux": "09 Apr: the ATeMs are Accountable here — Curie explains, they size."
+  },
+  {
+   "f": "WIL prioritisation",
+   "what": "The PrOw, aligned with the BM and stakeholders, resets priorities and reviews the contents of planned releases. The main outcome of Release Planning.",
+   "who": "PrOw R/A · BM S · ArOw C · ATeM C · BIG C",
+   "pollux": "10 Apr: reconciliation panel moves up; scenario overlay stays in Release 3."
+  },
+  {
+   "f": "Who decides priority",
+   "what": "The Product Owner is Responsible and Accountable for the prioritised WIL; the Business Manager supports and aligns, and does not overrule.",
+   "who": "PrOw decides · BM supports",
+   "pollux": "Curie holds the overlay in Release 3 over Hopper's objection, and that stands."
+  },
+  {
+   "f": "Business Implementation Group",
+   "what": "The user representatives are Consulted by the PrOw on foreseen changes to the WIL and on prioritisation; they are not in the refinement RAM.",
+   "who": "BIG — Consulted",
+   "pollux": "Two analysts from Lending Operations sit in the 04 and 10 April sessions."
+  },
+  {
+   "f": "Design Blocks",
+   "what": "The recommended tool for the first two activities: bring the A-PCT and business stakeholders together to challenge assumptions, form hypotheses and design tests.",
+   "who": "TeCo and a UX-skilled ATeM facilitate",
+   "pollux": "Reconciliation panel sketched three ways before a line of code existed."
+  },
+  {
+   "f": "Relative estimates",
+   "what": "High-level sizes, typically in points, provided by the ATeMs so that the PrOw, BM and stakeholders can prioritise on an educated basis.",
+   "who": "ATeM provides · PrOw consumes",
+   "pollux": "Release 2 remainder sized at 202 points on 09 Apr 2029."
+  },
+  {
+   "f": "Enablers in prioritisation",
+   "what": "Technical items that, if not implemented when planned, may compromise the integrity and usability of the solution; the ArOw attends to explain them.",
+   "who": "ArOw C · PrOw prioritises",
+   "pollux": "Einstein wanted three enabler iterations; two enablers were interleaved instead."
+  },
+  {
+   "f": "Detail gradient",
+   "what": "Items entering the next Iteration Planning get more detail; items several iterations away need only enough clarity to show concept, dependencies and links.",
+   "who": "PrOw and A-PCT",
+   "pollux": "Release 4's self-service builder is still one sentence in April 2029."
+  },
+  {
+   "f": "Output — prioritised WIL",
+   "what": "A clearly prioritised Work Items List reflecting the release strategy, giving the A-PCT clear guidance on what to focus on next.",
+   "who": "PrOw owns it",
+   "pollux": "The list Iteration 8 Planning starts from, frozen on the evening of 10 Apr."
+  },
+  {
+   "f": "Output — revised Release Plan",
+   "what": "After prioritisation the information is shared with the A-PCT to update or validate the Release Plan, accounting for the current velocity.",
+   "who": "TeCo R on the plan · PM A",
+   "pollux": "Release Plan v6 issued, Release 2 contents adjusted, velocity revised to 30."
+  },
+  {
+   "f": "PSC review",
+   "what": "Depending on the impact, the modified Release Plan may need to be reviewed by the Project Steering Committee to agree on the changes.",
+   "who": "PM escalates",
+   "pollux": "The Release 2 content change goes to the PSC with the PM's impact note."
+  },
+  {
+   "f": "Relationship to Iteration Planning",
+   "what": "Release Planning prepares and prioritises the WIL; Iteration Planning consumes it. Refinement is described as a vital enabler of a successful Iteration Planning.",
+   "who": "PrOw bridges both",
+   "pollux": "10 Apr prioritisation feeds the Iteration 8 Planning on 16 Apr."
+  },
+  {
+   "f": "Relationship to the Iteration Review",
+   "what": "Analysis the ATeMs cannot finish in the Review's WIL review is handled afterwards, as part of the next iteration's Release Planning exercise.",
+   "who": "A-PCT",
+   "pollux": "Two items left unestimated on 13 Apr moved to the next Manage-the-WIL session."
+  }
+ ],
+ "traps": [
+  "At least once per ITERATION — not once per release.",
+  "Release Planning refines and prioritises the WIL; Iteration Planning only consumes it.",
+  "Best run as three separate ceremonies, not one long meeting.",
+  "The ATeM is Accountable for the refinement step, the PrOw for the other two.",
+  "The guide gives no duration for Release Planning — do not quote one."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX Release Planning cycle within Iteration 7 (Release 2, due 28 Jun 2029)",
+  "rows": [
+   [
+    "Session",
+    "Detail"
+   ],
+   [
+    "1. Manage the WIL — Wed 04 Apr, 14:00–16:00",
+    "Curie (PrOw, A/R) + Hopper (BM, S) + two BIG user representatives (C); Lovelace facilitates a Design Block"
+   ],
+   [
+    "Change brought in",
+    "Top-down: the Board asks for a single-page exposure view before the June Governors' meeting"
+   ],
+   [
+    "WIL effect",
+    "Two items added, one removed, four rewritten with new acceptance criteria"
+   ],
+   [
+    "2. WIL refinement — Mon 09 Apr, 10:00–12:00",
+    "Curie explains (R); Lamarr, Babbage, Eiffel estimate (S/A); Einstein tables three enablers"
+   ],
+   [
+    "Sizing outcome",
+    "Release 2 remainder = 202 points; reconciliation panel re-sized from 21 to 34 points"
+   ],
+   [
+    "3. WIL prioritisation — Tue 10 Apr, 11:00–12:00",
+    "Curie (R/A) with Hopper (S); Einstein consulted on enablers; BIG consulted"
+   ],
+   [
+    "The disagreement",
+    "Hopper wants the scenario overlay pulled into Release 2; Curie keeps it in Release 3"
+   ],
+   [
+    "How it resolved",
+    "The PrOw is Responsible and Accountable for WIL priority; the BM supports. Reconciliation panel advanced instead"
+   ],
+   [
+    "Enabler decision",
+    "WIL-121 sync enabler kept ahead of business stories; Einstein's three-iteration architecture run refused"
+   ],
+   [
+    "Release Plan",
+    "v6 issued by Lovelace (TeCo), communicated to the whole PCT"
+   ],
+   [
+    "Escalation",
+    "Release 2 content change submitted by the PM to the Project Steering Committee"
+   ],
+   [
+    "Feeds",
+    "Iteration 8 Planning, Mon 16 Apr 2029, starts from this prioritised list"
+   ]
+  ]
+ }
+}

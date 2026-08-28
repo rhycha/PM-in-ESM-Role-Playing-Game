@@ -1,0 +1,441 @@
+{
+ "n": 28,
+ "id": "quality-review-checklist",
+ "name": "Quality Review Checklist",
+ "family": "Checklist",
+ "one_liner": "182 scored questions across ten management areas: did the project actually do what the plans said it would?",
+ "purpose": "A Quality Review Checklist is a tool used throughout the project, when performing quality control, to check whether quality management activities have been performed as defined in the Quality Management Plan. It supports the Project Quality Reviewers in verifying that key project activities were carried out as expected and in identifying quality findings. Its consolidated findings and recommendations are the main input to the Quality Review Report.",
+ "guide_page": 80,
+ "rasci": null,
+ "created_in": "Planning Phase (tailored with the Quality Management Plan) · used in Monitor & Control",
+ "approved_by": "Not formally approved — tailored by the PM when planning quality; each completed review is signed off by the Project Quality Reviewer",
+ "inputs": [
+  "Quality Management Plan",
+  "Project Handbook",
+  "Project Work Plan",
+  "Project Logs",
+  "Project Reports and previous review recommendations"
+ ],
+ "feeds": [
+  "Quality Review Report",
+  "Issue Log",
+  "Change Log",
+  "Project Work Plan (remediation actions)",
+  "Phase-exit Review Checklist"
+ ],
+ "gate": "No gate of its own — the Phase-exit Review Checklist supports the RfP/RfE/RfC gates",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Tailored to the project's defined quality control activities"
+  },
+  {
+   "phase": "Executing",
+   "what": "Evidence accumulates; areas become applicable as work starts"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Completed at the planned review frequency; scores areas"
+  },
+  {
+   "phase": "Closing",
+   "what": "Final review feeds the Project-End Report and archived quality records"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "PQR Summary — cover, scoring keys",
+   "meta": true,
+   "items": [
+    "Organisation / Department · Project Name",
+    "Project Owner · Business Manager · Solution Provider · Project Manager",
+    "Project Quality Reviewer · Review Date",
+    "Overall Score · Overall Project Quality Assessment",
+    "Scoring legend: 0 = No · 5 = Yes, partially · 10 = Yes · 1–10 for 'How well…?' · N/A",
+    "Overall Assessment Key: below 0.7 red · 0.7 amber · 0.9 green",
+    "Area · % of Quality Compliance · Score · Included? (Yes/No) — ten areas, each switchable in or out"
+   ]
+  },
+  {
+   "sec": "Recommendations sheet",
+   "items": [
+    "ID",
+    "Findings",
+    "Impact",
+    "Recommendation",
+    "Action Details (effort & responsible)"
+   ]
+  },
+  {
+   "sec": "1. Scope — 24 questions",
+   "items": [
+    "Scope Initiating (Q1–13): needs, in/out scope, Scope Statement, deliverables, success criteria, Charter approval, assumptions, dependencies, acceptance criteria",
+    "Scope Planning (Q14–17): Charter-to-WBS traceability, agreement at Planning Kick-off, WBS granularity",
+    "Scope Change Control (Q18–24): change process, Project Change Management Plan, Change Log, Change Control Meetings, escalation, PO/PSC approval"
+   ]
+  },
+  {
+   "sec": "2. Schedule — 29 questions",
+   "items": [
+    "Activity Definition (Q1–9): Work Plan, Gantt, WBS linkage, granularity, measurable outputs, external dependencies",
+    "Activity Sequencing (Q10–12): critical path overall, per deliverable/iteration, agreed with the PCT",
+    "Activity Duration Estimation (Q13–16): accuracy, estimation by doers, peer review, reference projects",
+    "Schedule Development (Q17–19): baselined, baseline approved, re-baselining via change management",
+    "Schedule Control (Q20–29): tracking, velocity, reviews, resource allocation, contractor delivery"
+   ]
+  },
+  {
+   "sec": "3. Cost — 14 questions",
+   "items": [
+    "Resource Planning (Q1–3): Resource Plan exists, covers training, links to WBS and schedule",
+    "Cost Estimating (Q4–9): provider team involved, subcontract commitments written, all costs, PM effort, cost of risk",
+    "Cost Budgeting (Q10–12): budget approved, payment schedule, purchase orders",
+    "Cost Control (Q13–14): costs actively managed, percentage completed accurate"
+   ]
+  },
+  {
+   "sec": "4. Quality — 30 questions",
+   "items": [
+    "Quality Planning (Q1–11): PM² and template usage, Quality Management Plan exists, PSC-approved, understood; acceptance criteria and test plan; configuration procedure in place",
+    "Quality Assurance (Q12–25): configuration procedure executed, repository maintained and current, PQA role, independent measurement, sign-offs, peer reviews, artefact reviews, test specifications",
+    "Quality Control (Q26–30): control activities happening, corrective actions, review frequency, security & business continuity, configuration log"
+   ]
+  },
+  {
+   "sec": "5. Risk — 23 questions",
+   "items": [
+    "Risk Identification (Q1–5): Risk Management Plan, risks identified, Risk Log used, both sides involved, categories",
+    "Risk Assessment (Q6–11): likelihood and impact, data accuracy, budget impact, escalation, PSC approval of risks above level 15, funding",
+    "Risk Response Development (Q12–15): high risks avoided/reduced, strategies, contingency plans, actions in the Work Plan",
+    "Risk Monitor & Control (Q16–23): weekly Risk Log review, risks in every meeting type, review on approved changes"
+   ]
+  },
+  {
+   "sec": "6. Issues & Decisions — 16 questions",
+   "items": [
+    "Issue Identification and Description (Q1–5): process, Issue Management Plan, Issue Log, both sides involved, Decision Log",
+    "Issue Assessment and Action Description (Q6–12): urgency/impact/size, data accuracy, effort, actions, escalation, owners, decisions follow escalation",
+    "Issue Monitor & Control (Q13–16): review intervals, monitoring and reporting, closure timeliness, follow-up on late items"
+   ]
+  },
+  {
+   "sec": "7. Communication — 18 questions",
+   "items": [
+    "Communications Planning (Q1–5): stakeholder matrix, Communications Management Plan, meetings and reports documented, all stakeholders covered",
+    "Information Distribution (Q6–12): internal and external kick-offs, status per plan, follow-up and PCT meetings, remote teams, steering meetings",
+    "Performance Reporting (Q13–15): minutes published, planned frequency respected, items tailored to audience",
+    "Escalation Management (Q16–18): documented and understood, used effectively, results satisfactory"
+   ]
+  },
+  {
+   "sec": "8. Project Organisation — 12 questions",
+   "items": [
+    "Organization & Planning (Q1–6): roles documented, org chart, PSC in place, subcontracting, PCT capability, sufficient resources",
+    "Staff Acquisition (Q7–9): screening, resourcing agreement, evaluation criteria",
+    "Team Development (Q10–12): off-site/on-site cooperation, teamwork issues, team satisfaction scored 0–10"
+   ]
+  },
+  {
+   "sec": "9. Outsourcing — 10 questions",
+   "items": [
+    "Outsourcing Planning (Q1–5): contract outcomes understood, Outsourcing Plan, delivery schedule, processes and controls for the outsourcer, evaluation criteria",
+    "Outsourcing Contract Administration (Q6–10): corporate selection process, signed contracts, legal review, SLAs, internal agreements"
+   ]
+  },
+  {
+   "sec": "10. Client Satisfaction — 6 questions",
+   "items": [
+    "Satisfaction with schedule (allowing for change requests)",
+    "Satisfaction with requirements",
+    "Satisfaction with quality of deliverables",
+    "Satisfaction with project communication",
+    "Satisfaction with the technical ability of the PCT",
+    "Overall client/requestor satisfaction — all scored 0–10"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Cover block — Organisation/Department, Project Name, PO, BM, SP, PM",
+   "what": "Identifies the project and the four governance roles whose work the review will judge, so findings can be attributed to a real accountability chain.",
+   "who": "PM fills before the review",
+   "castor": "ESM Lending Operations / IT & Digital · CASTOR · Florence Nightingale · Grace Hopper · Leonardo da Vinci · PM."
+  },
+  {
+   "f": "Project Quality Reviewer and Review Date",
+   "what": "The person performing the quality review and the date. The reviewer verifies whether key project activities were performed as expected and identifies quality findings.",
+   "who": "PQA, an internal auditor, or an external entity — independent of the PM",
+   "castor": "W. Edwards Deming (PQA), review date 26 Mar 2027, at the Release 1 milestone."
+  },
+  {
+   "f": "Area · % of Quality Compliance · Score · Included?",
+   "what": "Per-area roll-up. Each of the ten areas can be switched in or out of this review; excluded areas do not contribute to the overall score.",
+   "who": "PM tailors when planning quality · reviewer confirms",
+   "castor": "All ten areas included at Release 1; Outsourcing became applicable after contract award 18 Sep 2026."
+  },
+  {
+   "f": "Overall Score and Overall Project Quality Assessment",
+   "what": "Weighted roll-up of the included areas, converted by the assessment key: below 0.7 means critical issues or major non-compliance, 0.7 amber, 0.9 green.",
+   "who": "Calculated · reviewer may override the RAG rating",
+   "castor": "CASTOR overall 0.82 — amber; two areas below 0.7 pull it down from green."
+  },
+  {
+   "f": "Scoring legend (0 / 5 / 10 / 1–10 / N/A)",
+   "what": "0 = No, nothing done. 5 = Yes, partially. 10 = Yes, meets PM² requirements. Questions starting 'How well…?' score 1–10. N/A = check not applicable.",
+   "who": "Reviewer scores each question",
+   "castor": "'How well is the PM² methodology being used?' scored 8 by W. Edwards Deming; templates scored 7."
+  },
+  {
+   "f": "Comments column",
+   "what": "Justification for the answer given. A score without a comment is not evidence — the comment is what makes the finding auditable.",
+   "who": "Reviewer writes · PM may respond",
+   "castor": "Against Risk Q10: 'R-07 was rated 16 but PSC approval recorded only in the MoM, not the Risk Log.'"
+  },
+  {
+   "f": "Recommendations sheet — ID, Findings, Impact, Recommendation, Action Details",
+   "what": "Documents findings and recommendations on quality assurance and control activities, with effort and responsible person for each action.",
+   "who": "PCT contributes the action plan · reviewers validate its adequacy",
+   "castor": "Finding 3: contractor status reports arriving late; action — Gustave Eiffel to submit by the 5th, 0.5 PD/month."
+  },
+  {
+   "f": "Scope › Scope Initiating (Q1–13)",
+   "what": "Checks documented requestor needs, explicit in/out scope, a formal Scope Statement, needs mapped to deliverables, success criteria measurable, Charter approved by the PSC, assumptions, dependencies and acceptance criteria.",
+   "who": "Reviewer checks · PM and BM supply evidence",
+   "castor": "Charter approved 24 Mar 2026; SC1–SC5 measurable; all scored 10."
+  },
+  {
+   "f": "Scope › Scope Planning (Q14–17)",
+   "what": "Checks that deliverables trace from the Project Charter into the Work Plan WBS, that scope was agreed at the Planning Kick-off, and that WBS granularity fits the project.",
+   "who": "Reviewer checks · PM supplies the Work Plan",
+   "castor": "Scope agreed at the Planning Kick-off of 09 Apr 2026 and minuted; WBS granularity accepted."
+  },
+  {
+   "f": "Scope › Scope Change Control (Q18–24)",
+   "what": "Checks a documented change process, a Project Change Management Plan, a maintained and regularly reviewed Change Log, Change Control Meetings, an escalation procedure, and PO/PSC approval of every scope change.",
+   "who": "Reviewer checks · PM owns the Change Log",
+   "castor": "CR-011 (SRF-backstop screens) correctly logged and decided by the PSC — no verbal scope change accepted."
+  },
+  {
+   "f": "Schedule › Activity Definition (Q1–9)",
+   "what": "Checks a Project Work Plan exists (WBS, estimates, schedule), a consolidated Gantt, WBS linkage, granularity, business and project-management activities scheduled, measurable outputs, external dependencies.",
+   "who": "Reviewer checks · PM supplies",
+   "castor": "Work Plan baselined 26 Jun 2026; business implementation activities for 40 loan administrators included."
+  },
+  {
+   "f": "Schedule › Activity Sequencing and Duration Estimation (Q10–16)",
+   "what": "Checks the critical path overall and per deliverable, agreed with the Core Team; and estimate accuracy, estimation by the people doing the work, peer review, reference projects.",
+   "who": "Reviewer checks · PCT and team leads supply evidence",
+   "castor": "Critical path runs through Release 2 (17 Dec 2027) into the parallel run; estimates peer-reviewed by Nikola Tesla."
+  },
+  {
+   "f": "Schedule › Schedule Development (Q17–19)",
+   "what": "Checks that the schedule was baselined, that the baseline was approved, and that any re-baselining followed the change management process rather than quiet editing.",
+   "who": "Reviewer checks · PSC approved the baseline",
+   "castor": "Baseline approved at the RfE gate, 03 Jul 2026; no re-baselining to date."
+  },
+  {
+   "f": "Schedule › Schedule Control (Q20–29)",
+   "what": "Checks tracking of task status and completion, regular schedule and critical path reviews, weekly resource allocation checks, over-allocation, and whether internal and subcontractor resources deliver to plan.",
+   "who": "Reviewer checks · PM and CPM supply actuals",
+   "castor": "Release 1 delivered 26 Mar 2027 on plan; Levallois resourcing flagged after the architect's departure."
+  },
+  {
+   "f": "Cost › Resource Planning (Q1–3)",
+   "what": "Checks that a Resource Plan exists, covers all resource types including training needs, and can be linked back to the WBS and the schedule.",
+   "who": "Reviewer checks · PM and BM supply",
+   "castor": "Resource Plan covers 3,100 PD and retraining of 40 loan administrators."
+  },
+  {
+   "f": "Cost › Cost Estimating (Q4–9)",
+   "what": "Checks the provider team was involved, subcontract commitments are written, all requestor- and provider-side costs identified, the WBS drove estimating, PM effort included, cost of risk identified.",
+   "who": "Reviewer checks · SP and PM supply",
+   "castor": "€8.4 m includes ESM-side effort and contingency for the SRF-backstop ratification risk."
+  },
+  {
+   "f": "Cost › Cost Budgeting and Cost Control (Q10–14)",
+   "what": "Checks budget approval, an appropriate payment schedule, purchase orders for all authorised purchases, active cost management, and the accuracy of duration-based percentage complete.",
+   "who": "Reviewer checks · PO owns the budget",
+   "castor": "Budget approved with the Business Case, 24 Mar 2026; Levallois payments tied to release acceptance."
+  },
+  {
+   "f": "Quality › Quality Planning (Q1–11)",
+   "what": "Checks how well PM² and its templates are used; whether the Quality Management Plan exists, is understood and PSC-approved; acceptance criteria and test plan; configuration procedure documented.",
+   "who": "Reviewer scores · PM supplies the plan",
+   "castor": "Quality Management Plan v1.0 approved by the PSC 26 Jun 2026; configuration procedure documented in section 9."
+  },
+  {
+   "f": "Quality › Quality Assurance (Q12–25)",
+   "what": "Checks the configuration procedure is executed, the repository is current, a PQA role exists, quality is measured independently, deliverables are signed off, artefacts reviewed before reaching the requestor.",
+   "who": "PQA, PCT, BM or SP perform QA · external audits may be added",
+   "castor": "W. Edwards Deming confirms independent measurement; artefact peer review before every PSC pack."
+  },
+  {
+   "f": "Quality › Quality Control (Q26–30)",
+   "what": "Checks control activities happen, corrective actions are taken, quality reviews follow the planned frequency, security and business-continuity activities are performed, and a project configuration log exists.",
+   "who": "PM performs QC · reviewer verifies",
+   "castor": "Configuration log maintained by Henry Gantt; security activities confirmed with Alan Turing (LISO)."
+  },
+  {
+   "f": "Risk › Risk Identification and Assessment (Q1–11)",
+   "what": "Checks the Risk Management Plan and Risk Log, involvement of both sides and the PCT, risk categories, quantified likelihood and impact, budget impact, escalation, PSC approval above risk level 15.",
+   "who": "Reviewer checks · PM owns the Risk Log",
+   "castor": "R-07 (loss of Levallois key architect) rated high and escalated to the PSC before it materialised."
+  },
+  {
+   "f": "Risk › Risk Response Development (Q12–15)",
+   "what": "Checks high and very high risks are avoided or immediately reduced, a strategy exists per approved risk, contingency plans cover accepted risks, and response actions sit in the Work Plan.",
+   "who": "Reviewer checks · PM and risk owners supply",
+   "castor": "Backstop ratification risk accepted with a contingency; knowledge-transfer actions added to the Work Plan."
+  },
+  {
+   "f": "Risk › Risk Monitor & Control (Q16–23)",
+   "what": "Checks weekly Risk Log review, risks discussed in Follow-up, Core Team, Review and Steering Committee meetings, regular re-assessment, review when changes are approved, and mitigation actually carried out.",
+   "who": "Reviewer checks · PM chairs the reviews",
+   "castor": "Risk Log reviewed weekly; R-07 moved to the Issue Log when the architect actually left."
+  },
+  {
+   "f": "Issues & Decisions › Identification and Assessment (Q1–12)",
+   "what": "Checks the issue process, Issue Management Plan, Issue Log and Decision Log, involvement of both sides, assessment by urgency/impact/size, effort, actions and owners, escalation, and that decisions follow escalation procedures.",
+   "who": "Reviewer checks · PM owns both logs",
+   "castor": "Decision Log carries D-014/D-015 from the PSC of 15 Oct 2026 on the SRF-backstop request."
+  },
+  {
+   "f": "Issues & Decisions › Issue Monitor & Control (Q13–16)",
+   "what": "Checks the Issue Log is reviewed at appropriate intervals, how well issue status is monitored and reported, whether issues close in suitable time, and whether late items are followed up.",
+   "who": "Reviewer scores · PM reports status",
+   "castor": "Issue closure timeliness scored 6 — the Levallois architect issue stayed open longer than the target date."
+  },
+  {
+   "f": "Communication › Communications Planning (Q1–5)",
+   "what": "Checks a project contacts list (stakeholder matrix), an existing Communications Management Plan, documented meetings and reports, coverage of all stakeholders, and stakeholder comfort with the plan.",
+   "who": "Reviewer checks · PM supplies the plan",
+   "castor": "Communications Management Plan v1.0 of 26 Jun 2026 covers all six CASTOR stakeholder groups."
+  },
+  {
+   "f": "Communication › Information Distribution (Q6–12)",
+   "what": "Checks internal and external kick-offs were held, status is communicated per plan including to the PCT, follow-up and Core Team meetings happen, remote teams informed, steering meetings held as planned.",
+   "who": "Reviewer checks · PM and PSO supply evidence",
+   "castor": "Both kick-offs held (09 Apr 2026, 10 Jul 2026); monthly PSC held without a gap since July 2026."
+  },
+  {
+   "f": "Communication › Performance Reporting and Escalation (Q13–18)",
+   "what": "Checks minutes are published after meetings, meetings and reports keep the planned frequency, items are tailored to their audience, and escalation is documented, used and satisfactory.",
+   "who": "Reviewer checks · minute-takers and PM supply",
+   "castor": "Minutes published within two working days; escalation used once, for the verbal SRF-backstop request."
+  },
+  {
+   "f": "Project Organisation (Q1–12)",
+   "what": "Organization & Planning: documented roles, org chart, PSC in place, subcontracting, PCT capability, sufficient resources. Staff Acquisition: screening, agreements, evaluation criteria. Team Development: cooperation, teamwork issues, satisfaction 0–10.",
+   "who": "Reviewer checks · PM, SP and BM supply",
+   "castor": "Team satisfaction scored 7; off-site Levallois and on-site ESM cooperation improved after Release 1."
+  },
+  {
+   "f": "Outsourcing (Q1–10)",
+   "what": "Planning: contract outcomes understood, Outsourcing Plan, delivery schedule, processes and quality controls imposed on the outsourcer, evaluation criteria. Administration: corporate selection, signed contracts, legal review, SLAs, internal agreements.",
+   "who": "Reviewer checks · SP and CPM supply · AGB accountable for the Outsourcing Plan",
+   "castor": "Levallois Systems contract awarded 18 Sep 2026 through the corporate process; SLAs defined and legal-reviewed."
+  },
+  {
+   "f": "Client Satisfaction (Q1–6)",
+   "what": "Six 0–10 scores: satisfaction with schedule allowing for change requests, requirements, quality of deliverables, communication, technical ability of the PCT, and overall satisfaction.",
+   "who": "Reviewer collects from the requestor side — PO, BM and URs",
+   "castor": "Florence Nightingale scores communication 9, deliverable quality 6 after the reconciliation report dispute."
+  }
+ ],
+ "traps": [
+  "It is a quality control tool; the audits and reviews it evidences are quality assurance.",
+  "Its output is the Quality Review Report — findings are also registered as issues in the Issue Log.",
+  "Phase gates use the Phase-exit Review Checklist, not the Quality Review Checklist.",
+  "Answers score 0/5/10; 'How well…?' questions score 1–10 instead.",
+  "N/A is valid per question, but marking a whole area N/A breaks the area total (known template defect)."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — 28.Quality_Review_Checklist.CASTOR.26-03-2027.v1.0, reviewer W. Edwards Deming (PQA), Release 1 milestone review",
+  "rows": [
+   [
+    "Area",
+    "% Compliance",
+    "Assessment",
+    "Key finding"
+   ],
+   [
+    "Scope",
+    "95%",
+    "Green",
+    "CR-011 handled correctly: verbal request converted to Change Request and PSC decision"
+   ],
+   [
+    "Schedule",
+    "88%",
+    "Green",
+    "Release 1 delivered 26 Mar 2027 on the 03 Jul 2026 baseline; no re-baselining"
+   ],
+   [
+    "Cost",
+    "90%",
+    "Green",
+    "€8.4 m budget on track; Levallois payments tied to release acceptance"
+   ],
+   [
+    "Quality",
+    "85%",
+    "Green",
+    "Quality Management Plan approved 26 Jun 2026; configuration log maintained"
+   ],
+   [
+    "Risk",
+    "68%",
+    "Amber",
+    "R-07 rated 16 but PSC approval recorded only in the MoM, not in the Risk Log"
+   ],
+   [
+    "Issues & Decisions",
+    "72%",
+    "Amber",
+    "Architect-departure issue open beyond its target resolution date"
+   ],
+   [
+    "Communication",
+    "92%",
+    "Green",
+    "Minutes published within two working days; escalation used once and effectively"
+   ],
+   [
+    "Project Organisation",
+    "80%",
+    "Green",
+    "Team satisfaction 7/10; off-site and on-site cooperation improving"
+   ],
+   [
+    "Outsourcing",
+    "86%",
+    "Green",
+    "Contract of 18 Sep 2026 legal-reviewed with SLAs; status reports arriving late"
+   ],
+   [
+    "Client Satisfaction",
+    "70%",
+    "Amber",
+    "Deliverable quality scored 6 by Florence Nightingale after the reconciliation dispute"
+   ],
+   [
+    "Overall",
+    "0.82",
+    "Amber",
+    "Unless immediate action is taken on Risk and Issues, the project may become red"
+   ],
+   [
+    "Recommendation 1",
+    "—",
+    "—",
+    "Record PSC risk approvals in the Risk Log, not only in Minutes of Meeting — PM, 0.5 PD"
+   ],
+   [
+    "Recommendation 2",
+    "—",
+    "—",
+    "Levallois Contractor Status Report due by the 5th each month — Gustave Eiffel, 0.5 PD/month"
+   ]
+  ]
+ }
+}

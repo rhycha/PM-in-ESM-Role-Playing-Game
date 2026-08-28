@@ -1,0 +1,320 @@
+{
+ "n": 30,
+ "id": "transition-checklist",
+ "name": "Transition Checklist",
+ "family": "Monitor & Control",
+ "one_liner": "Twenty-six all-project checks plus thirteen IT-only ones, proving the go-live really was ready.",
+ "purpose": "The Transition Checklist supports the Project Manager in verifying whether the transition activities were performed as planned. It is reviewed and customised when planning transition, based on the information in the Transition Plan, but it can also help the Project Manager define the transition activities by identifying key controls.",
+ "guide_page": 83,
+ "rasci": null,
+ "created_in": "Planning Phase — tailored from the Transition Plan (setup output, guide p.51); run during Executing / Monitor & Control",
+ "approved_by": "Not formally approved — a Project Manager control tool (guide p.69); results reported to the PSC, which is Accountable for Manage Transition",
+ "inputs": [
+  "Transition Plan",
+  "Project Work Plan",
+  "Communications Management Plan",
+  "Deliverables Acceptance Plan",
+  "Business Implementation Plan"
+ ],
+ "feeds": [
+  "Manage Transition",
+  "Sign-off Documents",
+  "Project Reports",
+  "Project-End Report"
+ ],
+ "gate": "RfC",
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Tailored from the Transition Plan; IT-component switch answered"
+  },
+  {
+   "phase": "Executing",
+   "what": "Run before, during and after each cutover or release"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "PM verifies transition happened as planned; PSC accountable"
+  },
+  {
+   "phase": "Closing",
+   "what": "Completed checks evidence transfer of responsibility at closure"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Workbook header & controls",
+   "meta": true,
+   "items": [
+    "Usage note — customise when planning transition, based on the Transition Plan",
+    "'Does your project include an IT component?' (Yes/No) — opens the IT Specific tab",
+    "'Transition Checks for All Types of Projects' banner",
+    "% of Compliance (auto-calculated)",
+    "Columns: # · Description · Answer · Comments",
+    "Answer key: Yes / Yes, Partially / No / N/A"
+   ]
+  },
+  {
+   "sec": "All Projects — Planning (1–6)",
+   "items": [
+    "1. Transition Plan defining goals, prerequisites, activities, scheduling, resources, responsibilities?",
+    "2. Transition Plan including coordination aspects agreed with all participants?",
+    "3. Rollback plan in place in case the transition fails?",
+    "4. Transition communication items documented in the Communications Management Plan?",
+    "5. All stakeholders identified, e.g. operations teams?",
+    "6. Transfer of responsibility scheduled and agreed between all participants?"
+   ]
+  },
+  {
+   "sec": "All Projects — Executing (7–16)",
+   "items": [
+    "7. Transition activities performed as planned in the Transition Plan?",
+    "8. Operations-side environment prepared and ready to receive deliverables?",
+    "9. Has training been given to users and support teams?",
+    "10. Deliverables available to the requestor side?",
+    "11. Operational/maintenance activities ready to start?",
+    "12. All supporting documentation delivered to the PO and operations teams?",
+    "13. Deliverables fully operational?",
+    "14. Is support being given to the requestor side?",
+    "15. All project issues and corrective actions documented and resolved/closed?",
+    "16. Formal transfer of responsibilities to the PO and operations teams?"
+   ]
+  },
+  {
+   "sec": "All Projects — Coordination (17–19)",
+   "items": [
+    "17. Resources (people, equipment, facilities, software) available for transition?",
+    "18. Security (physical and logical) and data protection issues taken into account?",
+    "19. List of planned maintenance/operational actions provided to the operations team?"
+   ]
+  },
+  {
+   "sec": "All Projects — Quality of deliverables (20–24)",
+   "items": [
+    "20. QA and control activities performed as planned, e.g. acceptance testing?",
+    "21. Did deliverables meet requirements?",
+    "22. Migration from old to new state validated by the PO and the BIG?",
+    "23. Did the PO approve deliverables?",
+    "24. Were all the transition goals achieved?"
+   ]
+  },
+  {
+   "sec": "All Projects — Communication (25–26)",
+   "items": [
+    "25. Updated transition activities and schedule communicated to all teams involved?",
+    "26. Transfer of responsibility announced to all stakeholders?"
+   ]
+  },
+  {
+   "sec": "IT Specific — Planning (1–2)",
+   "items": [
+    "1. Installation site inspected and site preparation complete and ready?",
+    "2. Data Conversion Plan documented, if applicable?"
+   ]
+  },
+  {
+   "sec": "IT Specific — Executing (3–13)",
+   "items": [
+    "3. Stress, security and other tests conducted?",
+    "4. Deliverables tested in the acceptance environment?",
+    "5. Deliverables validated in the production environment by end users and the PO?",
+    "6. Hardware machines tested?",
+    "7. Equipment and software retested after repair, replacement or modification?",
+    "8. Physical configuration audit conducted at completion of acceptance testing?",
+    "9. All modifications to the physical installation environment complete?",
+    "10. Formal approval from the PO to deploy into production?",
+    "11. Migrated data validated by the BIG and approved by the PO?",
+    "12. Backups performed as planned?",
+    "13. Access rules modified — support staff in, project team and temporary accounts out?"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Usage note (top of sheet)",
+   "what": "Review and customise the checklist when planning transition, based on the Transition Plan; it can also help identify key controls when defining transition activities.",
+   "who": "PM tailors",
+   "castor": "Tailored 26 Jun 2026 with the Transition Plan; run at the dress rehearsal and at cutover."
+  },
+  {
+   "f": "Does your project include an IT component?",
+   "what": "A Yes/No switch at the top of the All Projects sheet; answering Yes brings the thirteen IT Specific checks into scope.",
+   "who": "PM answers",
+   "castor": "Yes — CASTOR replaces the Lending Operations System, so the IT Specific tab applies in full."
+  },
+  {
+   "f": "Answer",
+   "what": "One of four values per check — Yes, Yes Partially, No, N/A — each scored to drive the compliance calculation.",
+   "who": "PM answers · operations and BIG evidence",
+   "castor": "IT check 11 answered 'No' at the 22 Apr 2028 dress rehearsal; 'Yes' at the 15 May cutover."
+  },
+  {
+   "f": "Comments",
+   "what": "Justification for the answer given, providing the evidence trail behind each check.",
+   "who": "PM records",
+   "castor": "'Converted repayment schedules re-validated by the BIG after the second conversion run.'"
+  },
+  {
+   "f": "% of Compliance",
+   "what": "Auto-calculated compliance score per sheet, giving a readiness figure for the transition decision.",
+   "who": "Calculated · PM reports to PSC",
+   "castor": "Reported to the PSC on 05 May 2028 as the evidence for authorising the 15 May cutover."
+  },
+  {
+   "f": "All Projects — Planning (checks 1–6)",
+   "what": "Checked before transition starts: the Transition Plan exists and is complete, coordination is agreed, a rollback plan exists, communications are logged, stakeholders identified, transfer scheduled.",
+   "who": "PM verifies · PSC accountable",
+   "castor": "All six green at the RfE gate, 03 Jul 2026, with the rollback to LOS explicitly documented."
+  },
+  {
+   "f": "3. Is there a rollback plan in place in case the transition fails?",
+   "what": "Verifies business continuity is guaranteed if cutover fails — the single check that most often exposes an unfinished Transition Plan.",
+   "who": "PM verifies · SP prepares · PO decides",
+   "castor": "LOS kept warm to 30 Jun 2028; rollback decision reserved to the PO before the 06:00 value-date cut-off."
+  },
+  {
+   "f": "All Projects — Executing (checks 7–16)",
+   "what": "Checked around cutover: activities performed as planned, environment ready, training given, deliverables available and fully operational, support running, issues closed, responsibility formally transferred.",
+   "who": "PM runs · BM and SP supply · PO receives",
+   "castor": "Checks 7–14 cleared over the 15 May 2028 cutover weekend; check 15 closed once R-07 was resolved."
+  },
+  {
+   "f": "9. Has training been given to users and support teams?",
+   "what": "A verification check only — the design, resourcing and delivery of that training is owned by the Business Implementation Plan and the Business Manager.",
+   "who": "PM verifies · BM delivered it",
+   "castor": "Confirmed 30 Apr 2028: all 40 loan administrators trained by the BIG under the BIP."
+  },
+  {
+   "f": "16. Is there a formal transfer of responsibilities to the Project Owner (PO) and operations teams?",
+   "what": "Confirms the ownership handover actually happened — the point at which the deliverable stops being the project's and becomes the organisation's.",
+   "who": "PM records · SP hands over · PO accepts",
+   "castor": "Signed 15 May 2028: platform ownership to Lending Operations and IT & Digital Division."
+  },
+  {
+   "f": "All Projects — Coordination (checks 17–19)",
+   "what": "Checked alongside the cutover: resources available, security (physical and logical) and data protection considered, and a list of planned maintenance actions handed to the operations team.",
+   "who": "PM coordinates · LISO and DPC advise",
+   "castor": "Alan Turing (LISO) and Louis Brandeis (DPC) signed off check 18 on 06 May 2028."
+  },
+  {
+   "f": "All Projects — Quality of deliverables (checks 20–24)",
+   "what": "Checked at the end of transition: QA performed, requirements met, migration from old to new state validated by PO and BIG, PO approval given, all transition goals achieved.",
+   "who": "PO and BIG validate · PM evidences",
+   "castor": "Check 24 closed 30 Jun 2028: zero missed value dates during the cutover window."
+  },
+  {
+   "f": "22. Was the migration from the old state to the new state validated by the Project Owner (PO) and by the Business Implementation Group (BIG)?",
+   "what": "Covers integrity and availability of data plus effectiveness of procedures, processes, facilities and equipment — validation is dual: BIG validates, PO approves.",
+   "who": "BIG validates · PO approves",
+   "castor": "Grace Hopper's BIG validated converted balances; Florence Nightingale approved on 16 May 2028."
+  },
+  {
+   "f": "All Projects — Communication (checks 25–26)",
+   "what": "Checked after cutover: updated transition activities and schedule communicated to all teams involved, and the transfer of responsibility announced to all stakeholders.",
+   "who": "PM announces · PO endorses",
+   "castor": "Transfer announced to all ESM staff on 16 May 2028, one day after go-live."
+  },
+  {
+   "f": "IT Specific — Planning (checks 1–2)",
+   "what": "Only in scope when the IT-component question is answered Yes: installation site inspected and ready, and a Data Conversion Plan documented if applicable.",
+   "who": "PM verifies · SP prepares",
+   "castor": "Data Conversion Plan for LOS loan agreements and repayment schedules documented 12 Nov 2027."
+  },
+  {
+   "f": "IT Specific — Executing (checks 3–13)",
+   "what": "Technical cutover controls: stress and security tests, acceptance- and production-environment validation, hardware and retest checks, physical configuration audit, PO deployment approval, data validation, backups, access rule changes.",
+   "who": "PM verifies · PCT and operations execute",
+   "castor": "Check 13 closed at cutover: Levallois contractor accounts removed, support staff access granted."
+  }
+ ],
+ "traps": [
+  "The checklist verifies; the Transition Plan defines. The checklist never replaces the plan.",
+  "The IT Specific tab only applies if you answer Yes to the IT-component question.",
+  "Check 9 asks whether training was given — the Business Implementation Plan owns delivering it.",
+  "Checklists have no RASCI row in the guide; PSC is Accountable for Manage Transition, not for the checklist.",
+  "Check 22 needs both: BIG validates the migration, PO approves it."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Transition Checklist, cutover run, 15 May 2028 (Project CASTOR)",
+  "rows": [
+   [
+    "#",
+    "Check",
+    "Answer",
+    "Comment"
+   ],
+   [
+    "—",
+    "Does your project include an IT component?",
+    "Yes",
+    "IT Specific tab in scope"
+   ],
+   [
+    "3",
+    "Rollback plan in place in case the transition fails?",
+    "Yes",
+    "LOS kept warm to 30 Jun 2028"
+   ],
+   [
+    "6",
+    "Transfer of responsibility scheduled and agreed?",
+    "Yes",
+    "Agreed at PSC, 05 May 2028"
+   ],
+   [
+    "9",
+    "Training given to users and support teams?",
+    "Yes",
+    "40 loan administrators trained by 30 Apr 2028, under the BIP"
+   ],
+   [
+    "15",
+    "All project issues and corrective actions resolved/closed?",
+    "Yes",
+    "Issue from risk R-07 closed 28 Apr 2028"
+   ],
+   [
+    "16",
+    "Formal transfer of responsibilities to the PO and operations teams?",
+    "Yes",
+    "Signed 15 May 2028"
+   ],
+   [
+    "18",
+    "Security and data protection issues taken into account?",
+    "Yes",
+    "Alan Turing (LISO), Louis Brandeis (DPC), 06 May 2028"
+   ],
+   [
+    "22",
+    "Migration validated by the PO and the BIG?",
+    "Yes",
+    "BIG validated balances; PO approved 16 May 2028"
+   ],
+   [
+    "24",
+    "Were all the transition goals achieved?",
+    "Yes, Partially",
+    "Zero missed value dates; LOS decommissioning still open"
+   ],
+   [
+    "IT 10",
+    "Formal PO approval to deploy into production?",
+    "Yes",
+    "Florence Nightingale, 14 May 2028"
+   ],
+   [
+    "IT 12",
+    "Backups performed as planned?",
+    "Yes",
+    "Full LOS backup and restore test, 13 May 2028"
+   ],
+   [
+    "IT 13",
+    "Access rules modified for support staff, project accounts removed?",
+    "Yes",
+    "Levallois accounts revoked at cutover"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,302 @@
+{
+ "n": 11,
+ "id": "project-charter",
+ "name": "Project Charter",
+ "group": "Artefacts",
+ "one_liner": "The what, how and when — the baseline progress is measured against.",
+ "purpose": "The Project Charter provides the basis for more detailed project planning: it defines the project's objectives in scope, time, cost and quality, its high-level requirements, risks and constraints, and its milestones and deliverables. A vital element of the project approval process, it carries the what, how and when fundamentals of the project and provides a baseline against which progress can be measured. Although the Business Manager may initiate it, completing it and submitting it for approval is ultimately the Project Manager's responsibility.",
+ "guide_page": 68,
+ "meta": [
+  [
+   "Artefact type",
+   "IT governance artefact — mandatory for projects with an information system (p.25)"
+  ],
+  [
+   "PM² equivalent",
+   "The PM² Project Charter itself — there is no separate 'agile charter'"
+  ],
+  [
+   "Structure",
+   "Unchanged PM² template; the agile guide refers you to the PM² Portal and Guide"
+  ],
+  [
+   "May be initiated by",
+   "Business Manager (BM)"
+  ],
+  [
+   "Produced by",
+   "Project Manager (PM) — Responsible for completing and submitting it"
+  ],
+  [
+   "Approved by",
+   "Project Steering Committee (PSC) — Accountable"
+  ],
+  [
+   "RASCI columns",
+   "PM² eight-column set (AGB·PSC·PO·BM·UR·SP·PM·PCT), not the agile six"
+  ],
+  [
+   "Feeds",
+   "Work Items List — its Features list is the key generator of work items (p.76)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "AGB",
+   "PSC",
+   "PO",
+   "BM",
+   "UR",
+   "SP",
+   "PM",
+   "PCT"
+  ],
+  "row": [
+   "I",
+   "A",
+   "C",
+   "S",
+   "C",
+   "S",
+   "R",
+   "C"
+  ],
+  "A": "PSC",
+  "R": "PM"
+ },
+ "diagram": [
+  {
+   "sec": "1–2. Framing",
+   "items": [
+    "Executive summary (written last)",
+    "Considerations on the Business Case — impact and urgency revisited",
+    "External influences, interfaces and regulatory requirements"
+   ]
+  },
+  {
+   "sec": "3.1 Scope",
+   "items": [
+    "Includes ('IN' scope)",
+    "Excludes ('OUT' scope)",
+    "Scope statement, one or two lines"
+   ]
+  },
+  {
+   "sec": "3.2–3.5 What will be delivered",
+   "items": [
+    "Success criteria",
+    "Stakeholder and user needs — ID · description · priority",
+    "Deliverables — ID · name · description",
+    "Features — related need · feature · deliverable(s)",
+    "Features are the generator of the Work Items List (p.76)"
+   ]
+  },
+  {
+   "sec": "3.6–3.8 Uncertainty",
+   "items": [
+    "Constraints",
+    "Assumptions",
+    "Risks — likelihood, impact, level, owner, response strategy"
+   ]
+  },
+  {
+   "sec": "4. Cost, timing and resources",
+   "items": [
+    "Cost per budget line and per year",
+    "Timing and milestones — ID · description · target date",
+    "Planned resources"
+   ]
+  },
+  {
+   "sec": "5. Approach",
+   "items": [
+    "Methodology — PM²-Agile and any deviation is declared here",
+    "Project change management",
+    "Configuration management",
+    "Organisational change"
+   ]
+  },
+  {
+   "sec": "6. Governance and stakeholders",
+   "items": [
+    "Structure — the project organigram",
+    "Roles and responsibilities, including the A-PCT",
+    "Other stakeholders"
+   ]
+  },
+  {
+   "sec": "How the agile layer uses it",
+   "items": [
+    "Features written at high abstraction so every layer understands the scope (p.31)",
+    "Features prioritised using business value and size; higher-risk features go first (p.31)",
+    "PM is accountable for the WIL staying aligned with charter scope (p.76)",
+    "Release Plan and Iteration Goal must trace back to its milestones (pp.77, 79)",
+    "Updated versions accompany ad hoc status reporting when scope shifts (p.86)"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Objectives",
+   "what": "The project's objectives in scope, time, cost and quality — the four dimensions progress is judged on.",
+   "who": "PM Responsible · PSC Accountable",
+   "pollux": "One portal, €4.6 m, 18 months, figures reconciled to the accounts and traceable to source."
+  },
+  {
+   "f": "Scope — IN and OUT",
+   "what": "What is included and what is explicitly excluded, closed by a one- or two-line scope statement.",
+   "who": "PM drafts · BM supports",
+   "pollux": "IN: exposure reporting portal. OUT: changes to the CASTOR lending platform itself, and payment processing."
+  },
+  {
+   "f": "High-level requirements",
+   "what": "Stakeholder and user needs, each with an ID, a description and a priority — not yet stories.",
+   "who": "BM and User Representatives consulted",
+   "pollux": "N1 Board one-pager, N2 Risk stress scenarios, N3 Finance reconciliation, N4 national-authority access."
+  },
+  {
+   "f": "Features",
+   "what": "A proposed service addressing a business, customer or user need; described with related need and deliverable.",
+   "who": "PM Responsible · BM/BIG prioritise",
+   "pollux": "F1 member-state exposure view, F2 instrument and maturity views, F3 scenario overlay, F4 self-service builder."
+  },
+  {
+   "f": "Features generate the WIL",
+   "what": "The Charter's Features list is the key generator of the work items that populate the Work Items List (p.76).",
+   "who": "PrOw decomposes · PM accountable for alignment",
+   "pollux": "Curie decomposed F1 into eleven user stories and three enablers before iteration 1."
+  },
+  {
+   "f": "Success criteria",
+   "what": "Carried from the Business Case; the measurable statements the project will be judged to have met or missed.",
+   "who": "PM Responsible · PO benefits owner",
+   "pollux": "SC1–SC5 restated verbatim from the Business Case, with baselines and targets unchanged."
+  },
+  {
+   "f": "Deliverables",
+   "what": "Named deliverables with descriptions; releases later deliver parts of them incrementally.",
+   "who": "PM Responsible · SP supports",
+   "pollux": "Portal application, reconciled data layer, national-authority access zone, user and operations documentation."
+  },
+  {
+   "f": "Constraints and assumptions",
+   "what": "What the project cannot change and what it is taking as true; both feed the Release Plan's visible assumptions.",
+   "who": "PM Responsible",
+   "pollux": "Constraint: no change to CASTOR schemas. Assumption: two-week iterations with a stable team of eight."
+  },
+  {
+   "f": "Risks",
+   "what": "High-level risks with likelihood, impact, level, owner and response strategy; refined later in the Risk Log.",
+   "who": "PM Responsible · PCT consulted",
+   "pollux": "R3: data-engineering knowledge concentrated in one team member (Babbage) — mitigation is pairing."
+  },
+  {
+   "f": "Cost, timing and milestones",
+   "what": "Cost by budget line and year, and milestones with target delivery dates — the baseline for progress.",
+   "who": "PM Responsible · PSC approves",
+   "pollux": "€4.6 m; milestones from Charter approval 12 Oct 2028 to administrative closure 20 Mar 2030."
+  },
+  {
+   "f": "Planned resources",
+   "what": "The resource requirements the project is approved to consume, including the delivery team's shape.",
+   "who": "PM Responsible · SP supports",
+   "pollux": "In-house team of six plus two seconded members; Eiffel leads the Levallois Systems secondment."
+  },
+  {
+   "f": "Methodology and deviations",
+   "what": "Section 5.1 declares the methodology and any deviation from PM² — where 'this project is PM²-Agile' is recorded.",
+   "who": "PM Responsible",
+   "pollux": "Declared PM²-Agile: PM² governance and gates kept; Executing run as two-week iterations."
+  },
+  {
+   "f": "Change management approach",
+   "what": "Project change, configuration management and organisational change; agile shifts change management towards stakeholder collaboration.",
+   "who": "PM Responsible",
+   "pollux": "Changes below one release's scope handled by re-prioritising the WIL; anything moving a gate goes to the PSC."
+  },
+  {
+   "f": "Governance and roles",
+   "what": "The project organigram and the roles and responsibilities — this is where the A-PCT joins the PM² organisation.",
+   "who": "PM Responsible · PSC Accountable",
+   "pollux": "A-PCT added: Curie (PrOw), Lovelace (TeCo), Einstein (ArOw), Lamarr, Babbage and Eiffel (ATeM)."
+  },
+  {
+   "f": "Baseline for progress",
+   "what": "The Charter is the baseline progress is measured against; iteration and release goals must trace back to it.",
+   "who": "PM Accountable at project level",
+   "pollux": "Every POLLUX release goal cites the feature and the charter milestone it satisfies."
+  },
+  {
+   "f": "Updated with progress reporting",
+   "what": "Ad hoc status reporting may carry an updated Charter, showing what evolved since the initial version and why (p.86).",
+   "who": "PM Responsible",
+   "pollux": "Charter v1.3 accompanied the Q3 2029 progress report after the scenario overlay moved into Release 3."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "AGB I · PSC A · PO C · BM S · UR C · SP S · PM R · PCT C. Eight PM² columns, not six.",
+   "who": "PSC Accountable · PM Responsible",
+   "pollux": "The PM completes and submits it; the Steering Committee approves it on 12 Oct 2028."
+  }
+ ],
+ "traps": [
+  "The PSC is Accountable, not the PO — that was the Business Case.",
+  "The BM may initiate the Charter, but the PM completes and submits it.",
+  "The Charter holds Features; the Work Items List holds stories — not the same list.",
+  "PM²-Agile writes no separate charter; the PM² Project Charter is used unchanged.",
+  "Appendix B.2 prints only BM = S and PM = R, with no Accountable."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Project Charter v1.0, approved 12 Oct 2028",
+  "rows": [
+   [
+    "Section",
+    "Content"
+   ],
+   [
+    "3.1 Scope IN",
+    "Exposure reporting portal; reconciled data layer; national-authority access"
+   ],
+   [
+    "3.1 Scope OUT",
+    "Changes to the CASTOR lending platform; payment processing; accounting entries"
+   ],
+   [
+    "3.5 Feature F1",
+    "Exposure by member state, read-only — need N1 (Board one-pager)"
+   ],
+   [
+    "3.5 Feature F2",
+    "Instrument and maturity views with reconciliation panel — needs N2, N3"
+   ],
+   [
+    "3.5 Feature F3",
+    "Scenario overlay and national-authority access — needs N2, N4"
+   ],
+   [
+    "3.5 Feature F4",
+    "Self-service report builder — need N2 (Risk changes its questions quarterly)"
+   ],
+   [
+    "4.2 Milestones",
+    "RfP 16 Oct 2028 · RfE 04 Dec 2028 · R1 29 Mar 2029 · R4 20 Dec 2029 · RfC 14 Feb 2030"
+   ],
+   [
+    "4.1 Cost",
+    "€4.6 m · 1,850 PD"
+   ],
+   [
+    "5.1 Methodology",
+    "PM²-Agile; PM² phases and gates unchanged, Executing run in two-week iterations"
+   ],
+   [
+    "6.2 Roles",
+    "PrOw Marie Curie · TeCo Ada Lovelace · ArOw Albert Einstein · ATeM Lamarr, Babbage, Eiffel"
+   ],
+   [
+    "Responsible · Accountable",
+    "Project Manager (you) · Project Steering Committee, chaired by Nightingale"
+   ]
+  ]
+ }
+}

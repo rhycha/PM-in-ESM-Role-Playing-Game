@@ -1,0 +1,168 @@
+{
+ "n": 35,
+ "id": "quality",
+ "name": "Quality",
+ "group": "Themes",
+ "one_liner": "Two qualities: of the development process, and of that process's outputs.",
+ "purpose": "PM²-Agile references two different but complementary quality types — the quality of the development process and the quality of the outputs of the process. As PM² states, project quality management ensures the project meets the expected results in the most efficient way and that deliverables will be accepted by the relevant stakeholders. Quality is the result of collaborative work, common understanding and empathy between all the stakeholders, and it is an indicator of success when the end user perceives the outputs as useful and intuitive.",
+ "guide_page": 34,
+ "meta": [
+  [
+   "Theme",
+   "4.7"
+  ],
+  [
+   "Two types",
+   "Quality of the development process; quality of the outputs of the process"
+  ],
+  [
+   "Test of success",
+   "The end user perceives the outputs as useful and intuitive"
+  ]
+ ],
+ "rasci": null,
+ "diagram": [
+  {
+   "sec": "Two complementary quality types",
+   "items": [
+    "Quality of the development process",
+    "Quality of the outputs of the process"
+   ]
+  },
+  {
+   "sec": "How process quality is managed",
+   "items": [
+    "Tailoring the approach that best fits the project environment",
+    "Frequently involving the whole Agile Project Core Team during each timeboxed cycle",
+    "Frequently involving the Business Manager and the User Representatives",
+    "Focusing exclusively on outcomes the Project Owner's organisation will perceive as valuable"
+   ]
+  },
+  {
+   "sec": "How fit-for-purpose delivery is achieved",
+   "items": [
+    "Close collaboration between the Project Owner and Solution Provider organisations",
+    "Use of agile tools and techniques",
+    "Timeboxed cycles of work and frequent user demos",
+    "Time and space for collaborative improvement inside each cycle"
+   ]
+  },
+  {
+   "sec": "What quality is measured against",
+   "items": [
+    "The project meets the expected results in the most efficient way",
+    "The deliverables are accepted by the relevant stakeholders",
+    "The end user perceives the outputs as useful and intuitive",
+    "The solution is heading in the desired direction, providing maximum value to the business"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Quality of the development process",
+   "what": "The first of the two quality types: how the team works, managed by tailoring and by frequent involvement each cycle.",
+   "who": "A-PCT, TeCo, BM, URs",
+   "pollux": "The way POLLUX runs iterations is itself subject to quality."
+  },
+  {
+   "f": "Quality of the outputs",
+   "what": "The second quality type: whether the deliverables of the process meet expectations and get accepted.",
+   "who": "PrOw accepts; stakeholders validate",
+   "pollux": "The exposure views themselves, judged against Curie's acceptance criteria."
+  },
+  {
+   "f": "The PM² aim",
+   "what": "Project quality management ensures the project meets expected results in the most efficient way and deliverables are accepted by relevant stakeholders.",
+   "who": "PM, PQA, stakeholders",
+   "pollux": "Deming's Quality & Methods function does not disappear on POLLUX."
+  },
+  {
+   "f": "Quality as a collaborative result",
+   "what": "Quality is the result of collaborative work, common understanding and empathy between all the stakeholders.",
+   "who": "All stakeholders",
+   "pollux": "Requires Risk, Finance and the Board to reconcile what they each want."
+  },
+  {
+   "f": "The user's perception",
+   "what": "Quality is an indicator of success when the end user perceives the outputs of the process as useful and intuitive.",
+   "who": "End users",
+   "pollux": "One analyst must assemble the quarter-end pack in one day (criterion SC1)."
+  },
+  {
+   "f": "Tailoring the approach",
+   "what": "Process quality is managed by tailoring the approach that best fits the project environment rather than applying a fixed method.",
+   "who": "TeCo with PM",
+   "pollux": "Captured in the Development Handbook baselined 27 Nov 2028."
+  },
+  {
+   "f": "Frequent involvement",
+   "what": "Process quality also comes from frequently involving the whole A-PCT, the Business Manager and the User Representatives during each timeboxed cycle.",
+   "who": "A-PCT, BM, URs",
+   "pollux": "Hopper and the reporting analysts are in every fortnight's rhythm."
+  },
+  {
+   "f": "Focus on perceived value",
+   "what": "Together they must focus exclusively on generating outcomes that the Project Owner's organisation will perceive as valuable.",
+   "who": "Project Owner's organisation",
+   "pollux": "Value is judged by Nightingale's division, not by feature count."
+  },
+  {
+   "f": "PO and SP collaboration",
+   "what": "Fit-for-purpose deliveries need close collaboration between the Project Owner and Solution Provider organisations, plus agile tools and techniques.",
+   "who": "PO and SP organisations",
+   "pollux": "Nightingale's division and da Vinci's IT division must work as one."
+  },
+  {
+   "f": "Timeboxed cycles and demos",
+   "what": "Timeboxed cycles of work and frequent user demos provide the time and space for collaborative improvement.",
+   "who": "A-PCT and users",
+   "pollux": "Iteration Review on the last day of each two-week iteration."
+  },
+  {
+   "f": "Checking the direction",
+   "what": "This lets the A-PCT assess whether the solution is heading in the desired direction by providing maximum value to business stakeholders.",
+   "who": "A-PCT, PrOw, BM",
+   "pollux": "Each review tests the portal against the five success criteria."
+  }
+ ],
+ "traps": [
+  "PM²-Agile names two quality types: the development process and its outputs.",
+  "Process quality is managed by tailoring the approach, not by adding controls.",
+  "Timeboxed cycles and user demos are quality instruments, not just planning devices.",
+  "Quality is judged by the end user's perception of usefulness, not conformance alone.",
+  "The Business Manager and User Representatives are part of quality, every cycle."
+ ],
+ "pollux_excerpt": {
+  "title": "Quality on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Process quality owner",
+    "W. Edwards Deming, Quality & Methods — unchanged from CASTOR"
+   ],
+   [
+    "Process instrument",
+    "Retrospective at the end of every two-week iteration"
+   ],
+   [
+    "Output instrument",
+    "Iteration Review, with User Representatives validating"
+   ],
+   [
+    "Acceptance",
+    "Marie Curie, against her acceptance criteria"
+   ],
+   [
+    "Measured against",
+    "Success criteria SC1 to SC5 in the Business Case"
+   ],
+   [
+    "Live conflict",
+    "Conflict 6 — passing acceptance criteria is not the same as Done"
+   ]
+  ]
+ }
+}

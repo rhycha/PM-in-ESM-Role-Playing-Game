@@ -1,0 +1,252 @@
+{
+ "n": 21,
+ "id": "change-request-form",
+ "name": "Change Request Form",
+ "family": "Form",
+ "one_liner": "The one-page form that turns a request into a traceable project change.",
+ "purpose": "The template states its own purpose: to capture the need and characteristics of a project change request. It is the first step of the change request process — once the change request is logged into the Change Log, the form is updated with the assigned Change ID and archived. The Guide adds that a change request logs an appeal to amend an agreed baseline: scope, requirements, deliverables, resources, costs, timeframe or quality characteristics.",
+ "guide_page": 76,
+ "rasci": null,
+ "created_in": "Monitor & Control — Manage Project Change; changes can be raised in any phase by any stakeholder",
+ "approved_by": "Project Owner (PO) and/or Project Steering Committee (PSC) approve or reject, per the project's escalation procedure",
+ "inputs": [
+  "Business Case and Project Charter",
+  "Project Change Management Plan (or Project Handbook)",
+  "Project Work Plan",
+  "Communications Management Plan",
+  "Relevant logs (e.g. Issue Log)"
+ ],
+ "feeds": [
+  "Change Log (updated)",
+  "Project Work Plan (updated)",
+  "Project Reports",
+  "Decision Log",
+  "Project-End Report"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Change process and this form defined in the plan"
+  },
+  {
+   "phase": "Executing",
+   "what": "Raised, assessed, decided, implemented"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Tracked to closure through the Change Log"
+  },
+  {
+   "phase": "Closing",
+   "what": "Archived; scope changes evaluated in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Cover",
+   "meta": true,
+   "items": [
+    "Organisation [Name] / Department [Name]",
+    "<Change Request Form>",
+    "Date: <Date>",
+    "Doc. Version"
+   ]
+  },
+  {
+   "sec": "Identification bar",
+   "items": [
+    "Project: <Project Name and ID>",
+    "Change ID: <link to the change log>"
+   ]
+  },
+  {
+   "sec": "Change Request",
+   "items": [
+    "Change Title:",
+    "Identification Date: <dd/mm/yyyy>",
+    "Requested by: <The name of the requestor/group>",
+    "Category:",
+    "Priority: Very High / High / Medium / Low / Very Low"
+   ]
+  },
+  {
+   "sec": "Change Description & Details",
+   "items": [
+    "Current Situation:",
+    "Desired Situation:",
+    "Impact or Risks:",
+    "Out of Scope:"
+   ]
+  },
+  {
+   "sec": "References and Related Documents",
+   "items": [
+    "Reference or Related Document",
+    "Location"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Organisation [Name] / Department [Name]",
+   "what": "Cover block naming the owning organisation and department, with the document title and logo.",
+   "who": "PM or requestor",
+   "castor": "European Stability Mechanism — Lending Operations Division"
+  },
+  {
+   "f": "Date / Doc. Version",
+   "what": "Date the form was issued and its version, so successive re-assessments of the same request are distinguishable.",
+   "who": "PM",
+   "castor": "Date: 12 Mar 2027 · Doc. Version: 1.1 (v1.0 12 Mar, v1.1 after impact assessment 19 Mar)"
+  },
+  {
+   "f": "Project: <Project Name and ID>",
+   "what": "Which project the change is aimed at — a change request always attaches to one project baseline.",
+   "who": "Requestor or PM",
+   "castor": "Project CASTOR — Renewal of the Lending Operations System (LOS), ID ESM-2026-014"
+  },
+  {
+   "f": "Change ID: <link to the change log>",
+   "what": "The identifier assigned when the request is logged. The template says the form is updated with the assigned Change ID and then archived.",
+   "who": "PM assigns from the Change Log",
+   "castor": "CR-007 (Change Log, row 7)"
+  },
+  {
+   "f": "Change Title",
+   "what": "Short name of the change, used from here on in the Change Log and every Status Report.",
+   "who": "Requestor drafts · PM normalises",
+   "castor": "Add SRF common-backstop screens to Release 2"
+  },
+  {
+   "f": "Identification Date: <dd/mm/yyyy>",
+   "what": "When the need was identified — not when it was approved. Fixes the age of the request.",
+   "who": "PM",
+   "castor": "12/03/2027 (verbal request received 09 Mar 2027; put in writing 12 Mar)"
+  },
+  {
+   "f": "Requested by: <The name of the requestor/group>",
+   "what": "The person or group asking. Any project stakeholder may raise a change at any point in the lifecycle.",
+   "who": "Requestor",
+   "castor": "Cabinet of a Board of Directors member, relayed through PO Florence Nightingale"
+  },
+  {
+   "f": "Category",
+   "what": "The kind of change — which part of the baseline it touches: scope, requirements, schedule, cost, quality, resources.",
+   "who": "PM classifies",
+   "castor": "Scope (new functional requirement)"
+  },
+  {
+   "f": "Priority: Very High / High / Medium / Low / Very Low",
+   "what": "Five-point priority, ticked on the form. Used to sequence this request against the other open ones.",
+   "who": "PM proposes · PO/PSC confirm",
+   "castor": "Medium — the underlying instrument is not yet live"
+  },
+  {
+   "f": "Current Situation",
+   "what": "Describe the current situation — a problem, an opportunity or a new need. Why is there a need for a change in the project?",
+   "who": "Requestor drafts · BM/PM sharpen",
+   "castor": "Release 2 covers the live toolkit only; the common backstop to the Single Resolution Fund has no screens and no configured product."
+  },
+  {
+   "f": "Desired Situation",
+   "what": "Describe the desired situation. What is the goal and benefits of this change request?",
+   "who": "Requestor drafts · BM/PM sharpen",
+   "castor": "Backstop drawdown, monitoring and repayment screens delivered inside Release 2, ready on ratification day."
+  },
+  {
+   "f": "Impact or Risks",
+   "what": "The impact or risks of NOT implementing this change; quantify where possible to support cost-benefit analysis, the decision and the priority.",
+   "who": "PM with PCT · BM validates business impact",
+   "castor": "If not done, backstop onboarding relies on the configuration engine — SC3 target 6 weeks, which the PSC judged sufficient."
+  },
+  {
+   "f": "Out of Scope",
+   "what": "Clarify what is out of the scope of this change request, so only the needed change is implemented and the boundary is explicit.",
+   "who": "PM with PCT",
+   "castor": "No change to collateral, pricing or the ESM Treaty-driven legal texts; no new reporting to the Board of Governors."
+  },
+  {
+   "f": "References and Related Documents / Location",
+   "what": "Title and storage location of anything the assessor needs — impact assessment, minutes, requirement extracts.",
+   "who": "PM",
+   "castor": "CR-007 Impact Assessment v1.0, 19 Mar 2027 · MoM PSC 26 Mar 2027 · U:\\CASTOR\\05_Changes\\"
+  },
+  {
+   "f": "Impact assessment (produced under step 2, recorded in the Change Log — not a field on this form)",
+   "what": "Assess whether it is really a project change, the impact of not doing it, its size against objectives, schedule, cost and effort, and its priority.",
+   "who": "PM with PCT estimates · SP confirms feasibility",
+   "castor": "145 PD (Levallois 96 PD, ESM 49 PD), €392.000, +6 weeks on Release 2 — colliding with the parallel run"
+  },
+  {
+   "f": "Decision (recorded in the Change Log and Decision Log — not a field on this form)",
+   "what": "One of four outcomes: approve, reject, postpone or merge. Decision details are documented in the Change Log and communicated to the requestor.",
+   "who": "PO and/or PSC decide · PM communicates",
+   "castor": "PSC 26 Mar 2027, D-021: Postponed pending ESM Treaty reform ratification; re-assess within 30 days of entry into force"
+  }
+ ],
+ "traps": [
+  "No RASCI of its own: the Manage Project Change row governs (p.77) — PO=A, PM=R, PSC=C, BM=S.",
+  "'Impact or Risks' asks the impact of NOT implementing the change, not the cost of doing it.",
+  "The form carries no approval box: the decision lives in the Change Log, not on the form.",
+  "Four decisions exist — approve, reject, postpone, merge. Postponed is a real, correct outcome.",
+  "Change Status values: Submitted, Investigating, Waiting for approval, Approved, Rejected, Postponed, Merged, Implemented."
+ ],
+ "castor_excerpt": {
+  "title": "Extract — Change Request Form CR-007, Project CASTOR, 12 Mar 2027",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Project",
+    "Project CASTOR — Renewal of the Lending Operations System (LOS)"
+   ],
+   [
+    "Change ID",
+    "CR-007 (Change Log)"
+   ],
+   [
+    "Change Title",
+    "Add SRF common-backstop screens to Release 2"
+   ],
+   [
+    "Identification Date",
+    "12/03/2027 — request made verbally on 09 Mar 2027 by the cabinet of a Board of Directors member; PM required it in writing before any work started"
+   ],
+   [
+    "Requested by",
+    "Cabinet of a Board of Directors member, relayed through Project Owner Florence Nightingale"
+   ],
+   [
+    "Category / Priority",
+    "Scope (new functional requirement) / Medium"
+   ],
+   [
+    "Current Situation",
+    "Release 2 delivers straight-through disbursement for the live toolkit — stability support loans, bank recapitalisation, PCCL/ECCL, PMSF and SMSF. The common backstop to the Single Resolution Fund has no dedicated screens and no configured product."
+   ],
+   [
+    "Desired Situation",
+    "Backstop drawdown, monitoring and repayment screens built into Release 2 so that the instrument can be operated from day one of the ESM Treaty reform entering into force."
+   ],
+   [
+    "Impact or Risks (of not implementing)",
+    "None on the live toolkit. The instrument-agnostic configuration engine already delivers success criterion SC3 — new instrument onboarding in 6 weeks instead of 9 months — so the backstop can be configured after ratification without code."
+   ],
+   [
+    "Out of Scope",
+    "Collateral and pricing logic; ESM Treaty legal texts; any new reporting to the Board of Governors; changes to Release 1."
+   ],
+   [
+    "Impact assessment (19 Mar 2027, filed as reference)",
+    "145 PD — Levallois 96 PD, ESM 49 PD — and €392.000. Release 2 slips 6 weeks from 17 Dec 2027 to 28 Jan 2028, overlapping the parallel run that starts 08 Jan 2028."
+   ],
+   [
+    "PSC decision (26 Mar 2027, D-021)",
+    "Postponed. Ratification of the ESM Treaty reform is incomplete, so the backstop is a planned capability, not a live one. Re-assess within 30 days of entry into force. Change Log status set to Postponed; requestor informed by the PO."
+   ]
+  ]
+ }
+}

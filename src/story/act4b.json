@@ -1,0 +1,2612 @@
+[
+ {
+  "id": "s37",
+  "act": 4,
+  "actName": "Executing",
+  "title": "Four times five",
+  "covers": [
+   "Manage Risk"
+  ],
+  "guide_page": 78,
+  "where": "ESM, Kirchberg — Project room B-2.04",
+  "when": "28 Sep 2027, 09:15",
+  "cast": [
+   "you",
+   "tesla",
+   "leonardo",
+   "deming",
+   "gantt"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Rain comes in sideways off the plateau. The monthly reassessment starts eleven minutes late because the lift is out again and Henry Gantt will not take four floors at speed.",
+    "plain": "Rain is blowing across the plateau. The monthly risk review starts 11 minutes late. The lift is broken again, and Henry Gantt refuses to hurry up four floors of stairs."
+   },
+   {
+    "who": "gantt",
+    "text": "Nine open, three moved since August, and I would like to be out of here by ten. R-03, the backstop is not ratified, three by four. R-05, forty administrators unavailable for retraining, three by three. R-09, the parallel run sits across an EFSF rollover, four by three, and it has said Assessing since June.",
+    "plain": "There are 9 open risks in the Risk Log. Three have changed since August. I would like to be out of here by 10:00. Risk R-03: the common backstop is not yet ratified, likelihood 3, impact 4. Risk R-05: 40 loan administrators may not be free for retraining, likelihood 3, impact 3. Risk R-09: the parallel run happens at the same time as an EFSF bond rollover, likelihood 4, impact 3, and its status has said Assessing since June.",
+    "g": [
+     [
+      "Risk Log",
+      "the list of everything that might go wrong, with a score, an owner and a planned response"
+     ]
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "R-07. Take it to five.",
+    "plain": "Now take risk R-07. Raise its likelihood score to 5.",
+    "mood": "flat",
+    "g": [
+     [
+      "likelihood",
+      "how probable it is that the risk happens, scored from 1, very low, to 5, very high"
+     ]
+    ],
+    "ref": [
+     97,
+     "Likelihood (L) A numerical value denoting the estimate of the probability that the risk will occur."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "On what?",
+    "plain": "Based on what evidence?"
+   },
+   {
+    "who": "tesla",
+    "text": "On five. Four means the room can still decide to do nothing about it and feel reasonable.",
+    "plain": "Raise it to 5 because it should be 5. A score of 4 lets this meeting decide to do nothing and still feel sensible."
+   },
+   {
+    "who": "you",
+    "text": "That is not what the column is for. Four by five. Twenty, and it has been twenty since the thirty-first of March.",
+    "plain": "The likelihood column records probability. It is not a tool for pushing people to act. R-07 has likelihood 4 and impact 5. Multiply them: the risk level is 20. It has been 20 since 31 March.",
+    "g": [
+     [
+      "risk level",
+      "likelihood multiplied by impact, giving a number from 1 to 25 that sets priority"
+     ]
+    ],
+    "ref": [
+     97,
+     "The risk level is the product of the likelihood and impact (RL=L*I)."
+    ]
+   },
+   {
+    "who": "gantt",
+    "text": "Twenty is red. Red goes to the Committee in the monthly pack and to the Corporate Investment Board on top of that. Sixteen is where that starts and we are four above it.",
+    "plain": "A risk level of 20 is red. Red risks go to the Project Steering Committee in the monthly report, and also to the Corporate Investment Board. The threshold for that is 16, and this risk is 4 points above it.",
+    "ref": [
+     78,
+     "Report: Regularly inform the Project Steering Committee (PSC) about risk-related activities."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Writing twenty in a spreadsheet does not change what a man decides about his own career.",
+    "plain": "Writing the number 20 in a spreadsheet does not change what a person decides about his own career."
+   },
+   {
+    "who": "you",
+    "text": "No. It changes what we are obliged to do about it, and the obligation is the only part I control.",
+    "plain": "That is true. But the number does change what the project must do about the risk. That obligation is the only part the Project Manager controls.",
+    "ref": [
+     78,
+     "Medium to high level risks are dealt with at a higher priority level."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "While we are in the log. Release 1 scored Risk at sixty-eight per cent, amber, on one finding. The Committee approved the response to R-07 in October last year. It is in the minutes. It is not in the Risk Log. Half a person-day, yours, and the finding is six months old.",
+    "plain": "While we are in the log. My Release 1 review scored the Risk area at 68 per cent, amber, because of one finding. In October 2026 the Steering Committee approved the response to R-07. That approval is in the meeting minutes but not in the Risk Log. Correcting it takes half a person-day of your time, and the finding is now six months old."
+   },
+   {
+    "who": "you",
+    "text": "It goes in today.",
+    "plain": "The Project Manager will write it into the Risk Log today."
+   },
+   {
+    "who": "deming",
+    "text": "You said that in April. Minutes are the record of a meeting. The log is the record of the risk, and only one of those is read by somebody who was not there.",
+    "plain": "You said that in April. Minutes record what a meeting did. The Risk Log records the risk itself. Only the log is read by people who were not in the meeting.",
+    "ref": [
+     78,
+     "Control risk-response activities: The purpose of this step is to monitor and control the implementation of risk-response activities and to revise/update the Risk Log based on a regular reassessment."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Then the fourth step, and it is the one that quietly kills projects. Strategy on R-07 is Reduce. Two actions. The key-person clause in the contract of the eighteenth of September, and fifteen person-days of knowledge transfer, task four point seven, target the eighteenth of December last year.",
+    "plain": "Next comes step four of risk management: checking that the planned response is actually being carried out. This is the step projects most often skip. The response strategy for R-07 is Reduce. It has two actions. First, the key-person clause in the contract signed on 18 September 2026. Second, 15 person-days of knowledge transfer, which is task 4.7 in the Work Plan, with a target date of 18 December 2026.",
+    "g": [
+     [
+      "key-person clause",
+      "a contract term forcing the supplier to replace a named expert and hand over the work"
+     ],
+     [
+      "knowledge transfer",
+      "planned time in which one expert teaches others what only he knows"
+     ]
+    ],
+    "ref": [
+     78,
+     "Develop a risk-response strategy: The purpose of this step is to choose the best possible strategy to meet an identified risk and to plan actions necessary to implement this strategy."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Two of the three modules were transferred.",
+    "plain": "Two of the three parts of that knowledge transfer were done."
+   },
+   {
+    "who": "you",
+    "text": "And the third?",
+    "plain": "What happened to the third part?"
+   },
+   {
+    "who": "leonardo",
+    "text": "December was busy. January was worse. It is scheduled.",
+    "plain": "December was a busy month and January was worse. The third part is in the schedule."
+   },
+   {
+    "who": "tesla",
+    "text": "It is scheduled for the week of the fourteenth of February. The third one is the product configuration engine. Two people in Europe can change a pricing rule in it without breaking a repayment schedule, and Ada is not one of them.",
+    "plain": "It is scheduled for the week of 14 February, which has already passed. The third part is the product configuration engine, where a new loan product is set up by settings instead of new code. Only two people in Europe can change a pricing rule there without damaging a repayment schedule. Ada Lovelace is not one of them."
+   },
+   {
+    "who": "you",
+    "text": "So we have a response and we have not exercised it. Nine months past its target date, on the risk at the top of the log.",
+    "plain": "So the project has a planned response but has not carried it out. It is nine months past its target date, and it belongs to the highest risk in the log."
+   },
+   {
+    "who": "tesla",
+    "text": "Write it at five and somebody upstairs makes him give me the fortnight.",
+    "plain": "If you record the likelihood as 5, senior management will force Leonardo to give me the two weeks I need."
+   },
+   {
+    "who": "you",
+    "text": "I am not scoring a risk to win an argument about a calendar.",
+    "plain": "I will not change a risk score in order to win an argument about the schedule."
+   },
+   {
+    "who": "gantt",
+    "text": "Last one and I will save it. R-11, the Levallois accelerators, six weeks down to four on a new instrument. It is still sitting at Proposed and somebody has typed Reduce in the strategy column.",
+    "plain": "One more before saving. Risk R-11 is about tools from Levallois Systems that could reduce onboarding of a new lending product from 6 weeks to 4. Its status is still Proposed, and somebody has entered Reduce as its response strategy."
+   },
+   {
+    "who": "you",
+    "text": "Enhance. It is the only good news in there and it is filed as a threat.",
+    "plain": "The correct strategy is Enhance. R-11 is an opportunity, not a threat, and it is the only positive entry in the log.",
+    "ref": [
+     97,
+     "Strategies for positive risks (opportunities): -Exploit, Enhance, Accept, Share"
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "Close it. Enhance is a verb that needs a person attached to it. Show me the person and I withdraw the objection.",
+    "plain": "Close R-11. Enhance means somebody has to do the work. Show me the person who will do it, and I will withdraw my objection."
+   },
+   {
+    "who": "leonardo",
+    "text": "And R-07 stays mine.",
+    "plain": "And I remain the owner of risk R-07."
+   },
+   {
+    "who": "you",
+    "text": "The owner is whoever can act on it. On this one that was never going to be me.",
+    "plain": "The risk owner is the person who can actually do something about the risk. For R-07 that was never the Project Manager.",
+    "ref": [
+     97,
+     "Risk owner The person accountable for managing and monitoring the risk."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "The log is saved at 09:41. R-07: likelihood four, impact five, risk level twenty, escalation yes, strategy Reduce, owner Leonardo da Vinci, status Approved. On the twenty-eighth of September 2027 it is still, in every sense the guide means, a risk. Tesla leaves first and takes the stairs.",
+    "plain": "The Risk Log is saved at 09:41. R-07 now reads: likelihood 4, impact 5, risk level 20, escalation yes, strategy Reduce, owner Leonardo da Vinci, status Approved. On 28 September 2027 it is still a risk in the full sense of the word. Tesla leaves the room first and takes the stairs."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for Manage Risk; the Project Owner is Accountable for the process.",
+    "k": "Knows the response to R-07 is nine months late and one module was never handed over.",
+    "w": "Wants the third knowledge-transfer module done and Deming's March finding closed today.",
+    "f": "Afraid the log is becoming a document about the project rather than a tool for running it."
+   },
+   "tesla": {
+    "o": "Lead Solution Architect, seconded from Levallois into the Project Core Team. Identified R-07 himself.",
+    "k": "Knows he will resign next week and that only he and one other can touch the configuration engine.",
+    "w": "Wants the score raised so that somebody forces the handover before he goes.",
+    "f": "Afraid he leaves and the engine leaves with him, and that it will be called disloyalty."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Risk owner of R-07 and accountable for the deliverables it threatens.",
+    "k": "Knows the third handover module was dropped twice and that his division dropped it.",
+    "w": "Wants the score left at four and Release 2 delivered on 17 December.",
+    "f": "Afraid a red risk in the Board pack becomes a question about his division, not about the risk."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Reviews project quality; independent of the Project Manager.",
+    "k": "Knows the October 2026 approval of the R-07 response exists only in the minutes.",
+    "w": "Wants one six-month-old finding closed with evidence, not with an intention.",
+    "f": "Afraid a promise repeated every quarter is teaching the team that findings expire."
+   },
+   "gantt": {
+    "o": "Project Support Office. Keeps the logs, the versions and the reassessment cycle.",
+    "k": "Knows R-09 has been Assessing since June and that twenty crosses the escalation threshold.",
+    "w": "Wants clean field values and the log saved before ten.",
+    "f": "Afraid entries that nobody scores or closes turn the log into a filing cabinet."
+   }
+  },
+  "unlock": [
+   23
+  ],
+  "note": "Guide check: section 9.7, p.78. Manage Risk is a continuous cycle of four steps — identify risks, carry out a risk assessment, develop a risk-response strategy, and control the risk-response activities — plus two more that projects forget: record the response tasks in the Project Work Plan, and report regularly to the Project Steering Committee. Medium to high level risks are dealt with at a higher priority level. Risk Level is the product of likelihood and impact, RL = L x I, on a scale of 1 to 25 (p.97). Threat strategies are Avoid, Reduce, Accept and Transfer/Share; opportunity strategies are Exploit, Enhance, Accept and Share, so an opportunity filed under Reduce is a field error. The risk owner is the person accountable for managing and monitoring that risk and is frequently not the PM. RASCI: AGB I, PSC C, PO A, BM S/C, BIG C, SP I, PM R, PCT C. Approver: none — the PM maintains the Risk Log; the PSC monitors projects with high risk exposure. Pages 78 and 97.",
+  "notePlain": "Rule: managing risk repeats four steps. Find risks. Score each one for likelihood and impact. Choose a response. Then check that the response is actually being carried out. Two more steps follow: put the response tasks in the Work Plan, and report risks to the Steering Committee. Medium and high risks get higher priority. The risk level is likelihood multiplied by impact, from 1 to 25. For threats the strategies are Avoid, Reduce, Accept and Transfer or Share. For opportunities they are Exploit, Enhance, Accept and Share. The risk owner is the person who must manage that risk, and it is usually not the Project Manager. RASCI: Project Manager Responsible, Project Owner Accountable, Steering Committee consulted. Nobody approves the Risk Log; the Project Manager keeps it. Pages 78 and 97."
+ },
+ {
+  "id": "s38",
+  "act": 4,
+  "actName": "Executing",
+  "title": "The one that came true",
+  "covers": [
+   "Manage Risk",
+   "Manage Issues and Decisions"
+  ],
+  "guide_page": 79,
+  "where": "ESM, Kirchberg — Project room B-2.04",
+  "when": "05 Oct 2027, 08:05",
+  "cast": [
+   "you",
+   "eiffel",
+   "leonardo",
+   "tesla"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Gustave Eiffel is in the project room before the ceiling lights have finished coming on. He does not sit down and he does not open his laptop. There is one printed page on the table in front of him.",
+    "plain": "Gustave Eiffel is in the project room before the ceiling lights have fully switched on. He does not sit down and he does not open his laptop. One printed page lies on the table in front of him."
+   },
+   {
+    "who": "eiffel",
+    "text": "Yesterday, sixteen forty. To me, copied to our people in Stockholm. His notice runs to the thirtieth of November.",
+    "plain": "He sent his resignation yesterday at 16:40. He sent it to me and copied it to our head office in Stockholm. His notice period ends on 30 November.",
+    "mood": "flat",
+    "g": [
+     [
+      "notice period",
+      "the time an employee must keep working after resigning, fixed in the contract"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Where.",
+    "plain": "Where is he going?"
+   },
+   {
+    "who": "eiffel",
+    "text": "A clearing house in Frankfurt. I telephoned him at seven this morning and offered money. It is not money.",
+    "plain": "He is going to a clearing house in Frankfurt. I telephoned him at 07:00 this morning and offered more money. Money is not the reason he is leaving.",
+    "g": [
+     [
+      "clearing house",
+      "a company that sits between buyer and seller of a trade and guarantees that it settles"
+     ]
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Leonardo arrives with his coat still on and hears the last nine words of it from the doorway.",
+    "plain": "Leonardo comes in still wearing his coat. He hears the last part of the sentence from the doorway."
+   },
+   {
+    "who": "leonardo",
+    "text": "Then buy him out. Pay him to sit in that chair until Christmas.",
+    "plain": "Then pay him to stay. Pay him to remain in that seat until Christmas."
+   },
+   {
+    "who": "eiffel",
+    "text": "He is serving a notice, not for sale. And he is my employee, which is not the same as my asset.",
+    "plain": "He is working his notice period. He cannot be bought. He is an employee of Levallois, and an employee is not a piece of property."
+   },
+   {
+    "who": "narr",
+    "text": "At twenty past eight Tesla comes in with two coffees and puts one down in front of the Project Manager. Eiffel turns the printed page face down, which is the only gentle thing anyone does all morning.",
+    "plain": "At 08:20 Tesla comes in carrying two coffees. He puts one of them in front of the Project Manager. Eiffel turns the printed resignation letter face down on the table. It is the only kind act of the morning."
+   },
+   {
+    "who": "tesla",
+    "text": "One of those is yours. I am not apologising for anything.",
+    "plain": "One coffee is for you. I will not apologise for resigning."
+   },
+   {
+    "who": "tesla",
+    "text": "Two people can change a pricing rule in that engine without breaking a repayment schedule. That has been true since January. I said so in January.",
+    "plain": "Only two people can change a pricing rule in that engine without damaging a repayment schedule. That has been true since January. I said so in January.",
+    "ref": [
+     78,
+     "Other stakeholders Identify and communicate risks in their areas of expertise."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "You said so a week ago as well.",
+    "plain": "He said the same thing a week ago, at the risk review."
+   },
+   {
+    "who": "tesla",
+    "text": "And you left it at four.",
+    "plain": "And the Project Manager kept the likelihood score at 4."
+   },
+   {
+    "who": "leonardo",
+    "text": "What does it change on your screen? Say it in one sentence, because I have Florence at nine.",
+    "plain": "What changes in your records? Say it in one sentence, because I meet Florence at 09:00."
+   },
+   {
+    "who": "you",
+    "text": "R-07 asks me for a likelihood. Give me one.",
+    "plain": "The Risk Log entry R-07 needs a likelihood score. Give me one.",
+    "ref": [
+     97,
+     "Likelihood (L) A numerical value denoting the estimate of the probability that the risk will occur."
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "One hundred per cent.",
+    "plain": "The likelihood is 100 per cent."
+   },
+   {
+    "who": "you",
+    "text": "The column stops at five, and five is very high. There is no value on it that means it happened on Monday at twenty to five.",
+    "plain": "The likelihood column only goes up to 5, and 5 means very high. No number on that scale means the event has already happened, which it did at 16:40 on Monday.",
+    "ref": [
+     97,
+     "5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low"
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "On my last project we put it at five and carried on. Nobody died.",
+    "plain": "On Eiffel's previous project they set the likelihood to 5 and continued as before. Nothing terrible happened."
+   },
+   {
+    "who": "leonardo",
+    "text": "There is a clause. We paid for a clause.",
+    "plain": "There is a key-person clause in the contract. The project paid for it."
+   },
+   {
+    "who": "eiffel",
+    "text": "There is, and it worked in April. It names the platform architect in our delivery organisation and it got you a replacement and three weeks of handover at our cost. Nikola is on framework days, seconded into your team. The clause was drafted before he was ever on this project.",
+    "plain": "The clause exists and it worked in April. It covers the platform architect employed in Levallois's delivery team. In April it produced a replacement and three weeks of handover, paid by Levallois. Tesla is different: he works under framework day-rates and is seconded into the ESM team. The clause was written before he joined this project.",
+    "g": [
+     [
+      "secondment",
+      "lending an employee to another organisation for a period, while keeping their contract"
+     ]
+    ],
+    "ref": [
+     78,
+     "Develop a risk-response strategy: The purpose of this step is to choose the best possible strategy to meet an identified risk and to plan actions necessary to implement this strategy."
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "Half of your mitigation was a man. Men resign. It is in the literature.",
+    "plain": "Half of your response to this risk was one person, and that person was me. People resign. That is well known.",
+    "mood": "dry",
+    "ref": [
+     78,
+     "Control risk-response activities: The purpose of this step is to monitor and control the implementation of risk-response activities and to revise/update the Risk Log based on a regular reassessment."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Urgency five. Impact five, because the seventeenth of December is behind it and the parallel run is behind that. Size four.",
+    "plain": "The Project Manager scores the new issue. Urgency 5. Impact 5, because Release 2 on 17 December depends on it, and the parallel run depends on Release 2. Size 4.",
+    "g": [
+     [
+      "size (issue log)",
+      "how much effort resolving the issue will take, scored 1 to 5; not how bad it is"
+     ]
+    ],
+    "ref": [
+     98,
+     "Size Issue size represents the effort needed to resolve the issue."
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Forty person-days. That is not wrong. It is optimistic.",
+    "plain": "Size 4 means about 40 person-days of work. That estimate is not incorrect, but it is hopeful."
+   },
+   {
+    "who": "leonardo",
+    "text": "Then here is what I want. Leave R-07 where it is until the fifteenth of November. If Levallois names somebody, the risk was managed, and nobody upstairs is told the same bad news twice.",
+    "plain": "This is what I want. Keep R-07 in the Risk Log until 15 November. If Levallois names a replacement architect by then, the risk was handled, and senior management does not hear the same bad news twice."
+   },
+   {
+    "who": "you",
+    "text": "And if they do not name anyone?",
+    "plain": "And if Levallois does not name anyone?"
+   },
+   {
+    "who": "leonardo",
+    "text": "Then you were right and it has cost you six weeks of log entries. I can live with that. Can you?",
+    "plain": "Then you were right, and the only cost is six weeks of extra work on the logs. I can accept that. Can you?"
+   },
+   {
+    "who": "narr",
+    "text": "The Steering Committee meets on the eighteenth. Whatever is on the screen that morning is what it will be told, and nothing else exists.",
+    "plain": "The Project Steering Committee meets on 18 October. It will only be told what is on the screen that morning. Anything not recorded does not exist for that meeting.",
+    "ref": [
+     79,
+     "Regularly report on issue status to project stakeholders (as per the Communications Plan)."
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "R-07 is on the screen at risk level twenty, and nothing in the Issue Log mentions Monday afternoon. What do you do?",
+   "promptPlain": "R-07 is still in the Risk Log with a risk level of 20. Nothing in the Issue Log mentions Tesla's resignation. What do you do?",
+   "options": [
+    {
+     "t": "Close R-07 as materialised, open I-14 in the Issue Log, put each entry's ID in the other's traceability column, escalation yes, into the pack for the eighteenth.",
+     "tPlain": "Close R-07 in the Risk Log because it has happened. Open issue I-14 in the Issue Log. Write each entry's number in the other entry's traceability column. Mark it for escalation and put it in the papers for the Steering Committee on 18 October.",
+     "ok": true,
+     "reply": {
+      "who": "leonardo",
+      "text": "Then write it so that in five years the two entries can still find each other. And put my name on both of them.",
+      "plain": "Then write it so that in five years somebody can still trace one entry from the other. And put my name on both entries."
+     },
+     "why": "A risk is closed once it has been managed, and materialising is one way of being managed (p.97). What is left is an unplanned event that has already happened and needs a management action, which is what the Issue Log is for; step 3 on p.79 escalates the largest and highest-impact issues to the Project Steering Committee. The traceability column of each log carries the ID of the other, so the history survives the people.",
+     "whyPlain": "A risk is closed when it has been dealt with, and one way of being dealt with is that it happens (page 97). What remains is an unplanned event that already occurred and needs action, which belongs in the Issue Log. Step 3 on page 79 says the biggest and highest-impact issues go to the Steering Committee. Each log has a traceability column, so R-07 names I-14 and I-14 names R-07, and the history survives the people who wrote it.",
+     "ref": [
+      79,
+      "Escalate the largest/highest-impact issues to the Project Steering Committee (PSC) or follow the defined escalation procedure and thresholds."
+     ]
+    },
+    {
+     "t": "Keep R-07 open and raise the likelihood to five until the fifteenth of November. He is on notice for eight more weeks and people change their minds.",
+     "tPlain": "Keep R-07 open in the Risk Log and raise its likelihood to 5 until 15 November. Tesla works his notice for eight more weeks, and people sometimes change their minds.",
+     "ok": false,
+     "reply": {
+      "who": "tesla",
+      "text": "There is a leaving lunch. It is on the twenty-ninth of November and you are on the list.",
+      "plain": "A farewell lunch has already been arranged for 29 November, and you are on the list."
+     },
+     "why": "Likelihood is the estimated probability that the risk will occur (p.97); once it has occurred there is no probability left to estimate, and the twenty-five you would report is a number about nothing. It also leaves the wrong instrument in charge: a risk carries a preventive response strategy, while an issue carries an owner, an action, a size and a target date.",
+     "whyPlain": "Likelihood means the estimated chance that something will happen (page 97). Once it has happened, there is no chance left to estimate, and a risk level of 25 would describe nothing real. It also keeps the wrong tool in use. A risk holds a preventive strategy. An issue holds an owner, an action, an effort size and a target date.",
+     "ref": [
+      97,
+      "Likelihood (L) A numerical value denoting the estimate of the probability that the risk will occur."
+     ]
+    },
+    {
+     "t": "Skip the logs and raise a Change Request. Release 2 will move, and a moved baseline is a change.",
+     "tPlain": "Do not use the logs. Raise a Change Request instead, because Release 2 will move and a changed baseline is a change.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "Nobody has asked for anything. You would be requesting a change to a date that has not moved, to fix a problem you have not written down.",
+      "plain": "Nobody has requested a change. You would be asking to change a date that has not moved yet, in order to solve a problem that is not recorded anywhere."
+     },
+     "why": "Project change management handles requested changes to the baseline, documented in a Change Request Form and the Change Log. A resignation is not requested by anyone; it is an unplanned event, so it is an issue first. Only if the resolution actually moves 17 December does a Change Request follow, and it will reference the issue.",
+     "whyPlain": "Change management deals with changes that somebody asks for. They are recorded on a Change Request Form and in the Change Log. Nobody asked for this resignation. It is an unplanned event, so it is an issue first. If the response then moves the date of 17 December, a Change Request follows and refers to the issue.",
+     "ref": [
+      79,
+      "Identify issues and add them to the Issue Log."
+     ]
+    },
+    {
+     "t": "Open the issue, but keep R-07 open alongside it for visibility until a replacement is named.",
+     "tPlain": "Open the issue, but also keep R-07 open in the Risk Log so that the problem stays visible until a replacement architect is named.",
+     "ok": false,
+     "reply": {
+      "who": "tesla",
+      "text": "Then on Wednesday two people update two entries about one man, and by Christmas the two entries disagree.",
+      "plain": "Then every Wednesday two people will update two records about the same person, and by Christmas the two records will contradict each other."
+     },
+     "why": "The Closed status exists for exactly this transition: the risk has been managed, in this case by happening. Running both entries in parallel counts the same exposure twice in the Project Status Report and splits the response between a preventive action nobody can now perform and a resolution nobody has been assigned.",
+     "whyPlain": "The Closed status exists for this exact moment: the risk has been dealt with, here by happening. Keeping both entries open counts the same problem twice in the status report. It also splits the response between prevention, which is now impossible, and resolution, which nobody has been given.",
+     "ref": [
+      97,
+      "Closed: This status is set once the risk has been managed"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for Manage Risk and for Manage Issues and Decisions.",
+    "k": "Knows R-07 materialised on 04 Oct and that the key-person clause does not cover Tesla.",
+    "w": "Wants the transition recorded today so the Committee of 18 October sees the truth.",
+    "f": "Afraid that holding the score at four last week cost the project its handover."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Reports on status and progress to the PM, and to the PSC if needed.",
+    "k": "Knows the clause covers his delivery organisation and not a framework secondment.",
+    "w": "Wants the news given straight before Stockholm manages it for him.",
+    "f": "Afraid the client concludes that Levallois cannot hold on to architects."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Risk owner of R-07 and, from today, owner of the issue it becomes.",
+    "k": "Knows two of three handover modules were done and which one was not.",
+    "w": "Wants six weeks of quiet before the Committee is told anything.",
+    "f": "Afraid of standing in front of the Committee twice with the same bad news."
+   },
+   "tesla": {
+    "o": "Lead Solution Architect on the Project Core Team, working a notice period to 30 Nov 2027.",
+    "k": "Knows exactly what leaves the building with him, module by module.",
+    "w": "Wants it stated plainly that he warned them in January and again last week.",
+    "f": "Afraid the configuration engine becomes a thing nobody dares to change."
+   }
+  },
+  "unlock": [
+   24
+  ],
+  "note": "Guide check: section 9.8, p.79, and the boundary PM² tests hardest. A risk may happen; an issue has already happened; a change deliberately alters an approved baseline. When R-07 materialises, the Risk Log entry moves to Closed — the status set once a risk has been managed (p.97) — and Issue Log entry I-14 is opened, with each traceability column naming the other. Issues are scored on urgency, impact and size as three separate values: there is no L x I product outside the Risk Log, and size measures effort to resolve, not severity (p.98). Step 3 escalates the largest and highest-impact issues to the Project Steering Committee, or follows the project's own escalation thresholds. RASCI: AGB I, PSC I, PO A, BM S, BIG C, SP I, PM R, PCT C. Approver: none — the PM maintains the Issue Log; the PSC is the escalation destination, which is not the same thing as being Accountable. Pages 79, 97 and 98.",
+  "notePlain": "Rule: this is the boundary that examinations test most. A risk might happen. An issue has already happened. A change deliberately alters an approved plan. When R-07 happens, its Risk Log entry is set to Closed, because a risk is closed once it has been managed, and happening counts. A new Issue Log entry, I-14, is opened. Each entry records the other's number, so the history can be traced. Issues are scored with three separate numbers: urgency, impact and size. There is no multiplication, and size means the effort needed to fix it. The biggest and highest-impact issues go to the Steering Committee. RASCI: Project Manager Responsible, Project Owner Accountable, Steering Committee only Informed, even though it is where issues are escalated. Nobody approves the Issue Log. Pages 79, 97 and 98."
+ },
+ {
+  "id": "s39",
+  "act": 4,
+  "actName": "Executing",
+  "title": "What the committee is for",
+  "covers": [
+   "Manage Issues and Decisions"
+  ],
+  "guide_page": 79,
+  "where": "ESM, Kirchberg — Room Spaak, fifth floor",
+  "when": "18 Oct 2027, 11:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "einstein",
+   "eiffel"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Item three of the Steering Committee, eleven minutes allocated. Gustave Eiffel is invited for this item only and sits at the corner of the table where contractors sit.",
+    "plain": "This is item three on the Steering Committee agenda, with 11 minutes allocated to it. Gustave Eiffel is invited only for this item. He sits at the corner of the table where contractors sit.",
+    "g": [
+     [
+      "Project Steering Committee",
+      "the project's decision and issue-resolution body, chaired by the Project Owner"
+     ]
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Read it as it is written. Not as you would like it to sound.",
+    "plain": "Read the entry exactly as it is written in the log. Do not soften the words."
+   },
+   {
+    "who": "you",
+    "text": "I-14. Lead solution architect resigns, last working day the thirtieth of November. Materialisation of risk R-07, closed on the fifth. Urgency five, impact five, size four. Owner Leonardo da Vinci. Target date the fifteenth of November. Escalation yes.",
+    "plain": "Issue I-14. The lead solution architect has resigned and his last working day is 30 November. This is the materialisation of risk R-07, which was closed on 5 October. Urgency 5, impact 5, size 4. The issue owner is Leonardo da Vinci. The target date is 15 November. It is escalated.",
+    "ref": [
+     79,
+     "Issues are identified, evaluated and assigned for resolution to relevant project stakeholders as per the Issue Management process"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Does the seventeenth of December move?",
+    "plain": "Will Release 2 slip from 17 December?"
+   },
+   {
+    "who": "eiffel",
+    "text": "Not yet.",
+    "plain": "Not at this stage."
+   },
+   {
+    "who": "nightingale",
+    "text": "That is not an answer.",
+    "plain": "That is not a real answer."
+   },
+   {
+    "who": "eiffel",
+    "text": "It is the honest one on the eighteenth of October. Ask me on the fifteenth of November and you will get an answer.",
+    "plain": "It is the honest answer on 18 October. Ask the same question on 15 November and there will be a real answer.",
+    "mood": "even"
+   },
+   {
+    "who": "einstein",
+    "text": "Everyone in this room has said the word architect. Do you need a person, or do you need what is in his head by the thirtieth of November?",
+    "plain": "Everybody in this room has used the word architect. Which do you need: a person in the role, or the knowledge in his head, transferred before 30 November?"
+   },
+   {
+    "who": "hopper",
+    "text": "Both. Only one of them is available.",
+    "plain": "The project needs both. Only one of the two is possible now."
+   },
+   {
+    "who": "leonardo",
+    "text": "The Architecture Office offered me a design authority for eight weeks. I said no. I will not put an ESM architect inside a design ESM is buying.",
+    "plain": "The Architecture Office offered me one of its architects as design authority for eight weeks. I refused. I will not have an ESM architect designing a platform that ESM is buying from a supplier.",
+    "g": [
+     [
+      "design authority",
+      "the person who decides how the system is built and who may change that design"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "What happens to my parallel run if December moves?",
+    "plain": "What happens to the parallel run if Release 2 moves from December?",
+    "g": [
+     [
+      "parallel run",
+      "running the old and the new system side by side on real work, to compare the results"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "It compresses. Eighth of January to the thirtieth of April, cutover the fifteenth of May. There is no slack between those two dates, so any slack has to be found in front of December.",
+    "plain": "The parallel run gets shorter. It runs from 8 January to 30 April, and the switch to the new system is on 15 May. There is no spare time between those dates. Any spare time must be found before December."
+   },
+   {
+    "who": "hopper",
+    "text": "And I train forty people in those same weeks, while all forty of them are doing their day jobs.",
+    "plain": "And I must train 40 loan administrators in those same weeks, while all of them continue their normal work."
+   },
+   {
+    "who": "nightingale",
+    "text": "Then here is what this committee does with an issue. It does not solve it. It names who solves it, and by when, and it does that in eleven minutes.",
+    "plain": "This is what this committee does with an issue. It does not solve the issue. It names the person who must solve it and the date by which it must be solved, and it does that within its 11 minutes.",
+    "ref": [
+     79,
+     "Other project stakeholders Informed about important issues and make critical and important decisions."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "Three costed options sit in the pack, tabbed, prepared until eleven o'clock last night. Nobody opens the pack.",
+    "plain": "The meeting pack contains three costed options with tabs, prepared until 23:00 the previous night. Nobody opens it."
+   },
+   {
+    "who": "nightingale",
+    "text": "Leonardo, you own it. Levallois names a replacement by the fifteenth of November and hands over at Levallois's cost. Nikola's last six weeks are knowledge capture. No new design work, none, whatever he starts on Monday.",
+    "plain": "Leonardo, you own this issue. Levallois must name a replacement architect by 15 November and pay for the handover itself. Nikola's last six weeks are for capturing knowledge only. No new design work, whatever he starts on Monday."
+   },
+   {
+    "who": "leonardo",
+    "text": "He will hate that.",
+    "plain": "He will strongly dislike that."
+   },
+   {
+    "who": "nightingale",
+    "text": "Yes.",
+    "plain": "Yes, he will."
+   },
+   {
+    "who": "eiffel",
+    "text": "Understood. I report weekly to the Project Manager, and to this committee if the date slips.",
+    "plain": "Understood. I will report every week to the Project Manager, and to this committee if the 15 November date is missed.",
+    "ref": [
+     85,
+     "The Contractor's Project Manager (CPM) reports on the project's status and progress to the Project Manager (PM) and, if necessary, the Project Steering Committee (PSC)."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Then it is D-11 as well. Decision owner Leonardo, escalation yes, people present as minuted, decision date today.",
+    "plain": "The Project Manager records it in the Decision Log as D-11. The decision owner is Leonardo. It is escalated. The people present are taken from the minutes. The decision date is today.",
+    "g": [
+     [
+      "Decision Log",
+      "the list of decisions taken, with who took them, when they apply and who was told"
+     ]
+    ],
+    "ref": [
+     99,
+     "Decision owner The person accountable for the decision."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Not today. I sign it when Levallois's written confirmation is on my desk. The twenty-fifth.",
+    "plain": "Not today. I will sign it when Levallois has confirmed it in writing. That will be 25 October."
+   },
+   {
+    "who": "you",
+    "text": "Decision date the twenty-fifth of October. Application date the twenty-sixth. Communicated to this committee, the Core Team and Levallois.",
+    "plain": "So the decision date is 25 October and the date it takes effect is 26 October. It will be communicated to this committee, the Project Core Team and Levallois.",
+    "ref": [
+     99,
+     "Date of Application The date on which the decision is applicable."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Two logs and a third line, for one man leaving a job.",
+    "plain": "That means entries in two logs and a third record, all because one person is changing employer.",
+    "ref": [
+     79,
+     "Link decisions to the resolution of other log items (e.g. risks, issues and changes)."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "And nothing in that log ever says whether the decision worked.",
+    "plain": "And the Decision Log never records whether the decision turned out well."
+   },
+   {
+    "who": "you",
+    "text": "No. There is no status on a decision. It is taken on one date, it applies from another, and after that it is simply true.",
+    "plain": "No. A decision has no status column. It is taken on one date, it applies from another date, and after that it is a fact."
+   },
+   {
+    "who": "narr",
+    "text": "The minutes go out at 16:20. D-11 is signed on the twenty-fifth, four hours after Levallois's written confirmation arrives from Stockholm. Marie Curie writes the two parallel-run dates on the back of her agenda and keeps it.",
+    "plain": "The minutes are circulated at 16:20. Decision D-11 is signed on 25 October, four hours after Levallois's written confirmation arrives from Stockholm. Marie Curie writes the two parallel-run dates on the back of her agenda and keeps the paper."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for issues and decisions; brings escalated items to the PSC.",
+    "k": "Knows the pack was never opened and that the decision will be judged by its record.",
+    "w": "Wants a named owner, a date, and D-11 written before the room disperses.",
+    "f": "Afraid the eleven minutes produce agreement in the room and nothing on paper."
+   },
+   "nightingale": {
+    "o": "Project Owner and PSC chair. Accountable for Manage Issues and Decisions.",
+    "k": "Knows the cutover date has been in front of the Board since March 2026.",
+    "w": "Wants an owner and a deadline named inside her eleven minutes.",
+    "f": "Afraid a committee that starts solving issues stops deciding anything."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Issue owner of I-14 and decision owner of D-11.",
+    "k": "Knows the Architecture Office offer exists and why he refused it.",
+    "w": "Wants Levallois's confirmation in writing before his name goes on a decision.",
+    "f": "Afraid of owning a date that a supplier in Stockholm actually controls."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for business implementation; consulted on this issue.",
+    "k": "Knows training and the parallel run land in the same fourteen weeks.",
+    "w": "Wants the committee to see that a December slip lands on her calendar.",
+    "f": "Afraid the recovery is paid for out of her training window."
+   },
+   "curie": {
+    "o": "User Representative. Verifies user-facing deliverables and signs user acceptance.",
+    "k": "Knows the parallel run has no slack and that the last week holds a rollover.",
+    "w": "Wants the dates said out loud so nobody is surprised in April.",
+    "f": "Afraid a lost architect is paid for with her testing weeks."
+   },
+   "einstein": {
+    "o": "Architecture Office. Advises; holds no accountability and no vote.",
+    "k": "Knows the room is arguing about a role when the shortage is knowledge.",
+    "w": "Wants the problem stated correctly before anybody buys a solution.",
+    "f": "Afraid the project replaces a person and believes the gap is closed."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Reports to the PM, and to the PSC when the date is at risk.",
+    "k": "Knows Stockholm has not yet agreed to pay for the handover.",
+    "w": "Wants a deadline he can carry back to his own management as a client demand.",
+    "f": "Afraid of promising a name in this room that he cannot deliver."
+   }
+  },
+  "unlock": [
+   25
+  ],
+  "note": "Guide check: section 9.8, p.79. The PM monitors issues and decides how to manage them; the largest and highest-impact ones are escalated to the Project Steering Committee, or follow the project's defined escalation procedure and thresholds. Decisions may be implemented by the PM or escalated to the PSC depending on their importance, and are explicitly linked to the resolution of other log items, so D-11 names I-14, which names R-07. The Decision Log records the decision, its owner, the people present, the decision date and the separate date of application, and who it was communicated to; it has no status column (p.99). RASCI: AGB I, PSC I, PO A, BM S, BIG C, SP I, PM R, PCT C — the Project Owner is Accountable for the process, while the PSC is where issues go. Approver: the decision owner; escalated decisions are taken by the PSC. Pages 79 and 99.",
+  "notePlain": "Rule: the Project Manager watches the issues and decides how to handle them. The biggest and highest-impact issues go up to the Steering Committee, or follow the escalation rules the project agreed. Some decisions the Project Manager takes alone; important ones go to the Steering Committee. Decisions are linked to the risks, issues and changes they resolve, so D-11 names I-14, and I-14 names R-07. The Decision Log records the decision, its owner, who was present, the date it was taken, the separate date it starts to apply, and who was told. It has no status column, so it never says whether the decision worked. RASCI: Project Manager Responsible, Project Owner Accountable, Steering Committee Informed. Pages 79 and 99."
+ },
+ {
+  "id": "s40",
+  "act": 4,
+  "actName": "Executing",
+  "title": "One version of the truth",
+  "covers": [
+   "Manage Quality"
+  ],
+  "guide_page": 80,
+  "where": "ESM, Kirchberg — IT and Digital, sixth floor",
+  "when": "26 Oct 2027, 14:00",
+  "cast": [
+   "you",
+   "deming",
+   "gutenberg",
+   "leonardo",
+   "tesla",
+   "lovelace"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Deming runs the mid-Release 2 review with the checklist open on one screen and the March findings on the other. It is a habit that makes people uncomfortable and is meant to.",
+    "plain": "Deming runs the quality review in the middle of Release 2. The Quality Review Checklist is open on one screen and the findings from March are open on the other. This habit makes people uncomfortable, which is why he does it.",
+    "g": [
+     [
+      "Quality Review Checklist",
+      "a scored questionnaire that asks whether the project worked the way its plans said"
+     ]
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Release 1 closed at nought point eight two. Amber. Two recommendations. One was done on Friday, six months late. One is not done at all.",
+    "plain": "The Release 1 review gave an overall score of 0.82, which is amber. It made two recommendations. One was completed on Friday, six months late. The other has not been done."
+   },
+   {
+    "who": "you",
+    "text": "The Levallois status report. Due by the fifth of the month. Eleventh in July, ninth in August, twelfth in September, and today is the twenty-sixth and I do not have October.",
+    "plain": "The outstanding one is the contractor's monthly status report. It is due by the fifth of each month. It arrived on the 11th in July, the 9th in August and the 12th in September. Today is 26 October and the October report has not arrived."
+   },
+   {
+    "who": "deming",
+    "text": "Then it stays open and I will read it out again in December.",
+    "plain": "Then the finding stays open, and I will report it again in December."
+   },
+   {
+    "who": "lovelace",
+    "text": "I have a worse one.",
+    "plain": "I have a more serious problem."
+   },
+   {
+    "who": "lovelace",
+    "text": "Break handling is built against nought point nine of the interface spec. Marie signed one point two in June. Four rules changed in between and two of them are the ones that matter.",
+    "plain": "Levallois built the handling of reconciliation breaks against version 0.9 of the interface specification. Marie Curie approved version 1.2 in June. Four rules changed between the two versions, and two of those four are important.",
+    "g": [
+     [
+      "reconciliation break",
+      "a difference between two records of the same money that has to be explained"
+     ],
+     [
+      "interface specification",
+      "the document that says exactly what data two systems exchange, and in what form"
+     ]
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "I sent them the file. In March. As an attachment, with the best possible intentions.",
+    "plain": "I sent Levallois that file in March. I sent it as an email attachment, and I meant to help."
+   },
+   {
+    "who": "narr",
+    "text": "Nobody says anything for a moment. Tesla has thirty-five days left on the project.",
+    "plain": "Nobody speaks for a moment. Tesla has 35 days left before he leaves the project."
+   },
+   {
+    "who": "gutenberg",
+    "text": "Then it was never a specification. It was a file. The repository holds one point two, signed, with a version history and a named approver. What Levallois has is called reconciliation spec final v2.",
+    "plain": "Then it was never a specification. It was only a file. That is what configuration management is for. The repository holds version 1.2, approved, with a version history and a named approver. The document Levallois is using is called reconciliation spec final v2.",
+    "mood": "dry",
+    "g": [
+     [
+      "configuration management",
+      "keeping one controlled copy of every document and version, so everyone works from the same one"
+     ]
+    ],
+    "ref": [
+     80,
+     "Configuration management helps project stakeholders manage project artefacts and deliverables effectively by providing a single reliable reference to these artefacts and deliverables, thereby ensuring that the correct versions are delivered to the project requestor/client."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "How much?",
+    "plain": "How much will it cost to correct?"
+   },
+   {
+    "who": "lovelace",
+    "text": "Twenty-two person-days and a re-test of break handling. It does not touch December if we start on Monday.",
+    "plain": "22 person-days of work and a repeat of the tests on break handling. Release 2 on 17 December is safe if the work starts on Monday."
+   },
+   {
+    "who": "you",
+    "text": "Root cause before corrective action. Nobody here broke a rule they knew about.",
+    "plain": "Find the root cause before deciding on corrective action. Nobody in this room broke a rule that they knew existed.",
+    "ref": [
+     80,
+     "Identify any non-conformity, analyse the root cause, and implement corrective actions."
+    ]
+   },
+   {
+    "who": "gutenberg",
+    "text": "One repository. One naming convention. Levallois pulls from it under their own account from Monday, and nothing leaves this floor as an attachment again.",
+    "plain": "The corrective action is one document repository and one naming rule. From Monday Levallois will take documents from that repository using its own account. No specification will be sent as an email attachment again.",
+    "ref": [
+     80,
+     "Verify that the configuration management procedure is being followed."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "And write down that we found it, not only that we fixed it. Otherwise you will find it again in March and think it is new.",
+    "plain": "And record that we found this problem, not only that we corrected it. Otherwise you will find it again in March and think it is new.",
+    "ref": [
+     80,
+     "Identify opportunities to improve the quality of both the process and the deliverables."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Which part of this is mine? I am asking honestly. My division built the wrong thing from a file my own architect sent.",
+    "plain": "Which part of this is my responsibility? I am asking honestly. My division built the wrong thing from a file that my own architect sent."
+   },
+   {
+    "who": "you",
+    "text": "The quality of what your division builds. On this process you are the accountable one and I am the responsible one.",
+    "plain": "The quality of what his division builds is his. On the Manage Quality process the Solution Provider is Accountable and the Project Manager is Responsible.",
+    "ref": [
+     80,
+     "Manage Quality I I I S/C C A R C"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Since when?",
+    "plain": "Since when has that been the case?"
+   },
+   {
+    "who": "deming",
+    "text": "Since page eighty. It surprises every Solution Provider I have ever said it to.",
+    "plain": "It is on page 80 of the guide. Every Solution Provider I have told is surprised by it."
+   },
+   {
+    "who": "leonardo",
+    "text": "Then I accept it, and I would like it minuted that I accepted it before I understood it.",
+    "plain": "Then I accept it. And I would like the minutes to record that I accepted it before I understood it.",
+    "mood": "dry"
+   },
+   {
+    "who": "you",
+    "text": "And it turns over one floor down. Quality Assurance: I am the accountable one, the Core Team is responsible for the evidence, and your division is informed.",
+    "plain": "The letters are the other way round for the neighbouring process. On Quality Assurance the Project Manager is Accountable, the Project Core Team is Responsible for producing the evidence, and the Solution Provider is only Informed.",
+    "ref": [
+     58,
+     "Project Manager (PM) Accountable for carrying out all Quality Assurance activities."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "My part does not move either way. I set the standard and I review against it. I assist. I have never signed anything on this project and I do not intend to start.",
+    "plain": "Deming's own role does not change in either process. He sets the quality standard and reviews work against it. He assists. He has never signed a project document here and does not plan to.",
+    "ref": [
+     80,
+     "Project Quality Assurance (PQA) Reviews project quality."
+    ]
+   },
+   {
+    "who": "tesla",
+    "text": "I have signed both kinds of paper this year and nobody told me they were different.",
+    "plain": "I have signed both kinds of quality document this year, and nobody told me that the two were different."
+   },
+   {
+    "who": "lovelace",
+    "text": "Then somebody puts a name on the Quality Assurance evidence pack for the December acceptance, and I would like to know whose before I spend three days compiling it.",
+    "plain": "Then somebody must sign the Quality Assurance evidence pack for the acceptance in December. I want to know whose name it will be before I spend three days assembling it."
+   },
+   {
+    "who": "narr",
+    "text": "Gutenberg writes the new rule on a card and tapes it to the door of the print room. Nothing travels as an attachment. It is still there in 2031.",
+    "plain": "Gutenberg writes the new rule on a card and tapes it to the print room door. The rule is that no document travels as an email attachment. The card is still there in 2031."
+   }
+  ],
+  "choice": {
+   "prompt": "The Quality Assurance evidence pack for Release 2 needs a signature. Whose?",
+   "promptPlain": "The Quality Assurance evidence pack for Release 2 needs a signature. Who should sign it?",
+   "options": [
+    {
+     "t": "Mine. On Quality Assurance the Project Manager is Accountable; Deming sets the standard and reviews, the Core Team supplies the evidence.",
+     "tPlain": "The Project Manager signs. On Quality Assurance the Project Manager is Accountable, Deming sets the standard and reviews the work, and the Core Team provides the evidence.",
+     "ok": true,
+     "reply": {
+      "who": "deming",
+      "text": "Correct. It also means that when I find something in December I am finding it against you, and not for you. Everybody prefers the other arrangement.",
+      "plain": "That is correct. It also means that when I find something in December, I am finding it against you, not for you. Everybody prefers the other arrangement."
+     },
+     "why": "Quality Assurance on p.58 reads PM=A, PCT=R, with the PQA establishing standards and reviewing outputs and the Core Team providing evidence of adherence. That is deliberately not the same as Manage Quality on p.80, where SP=A and PM=R. The pack evidences that the project worked the way the Quality Management Plan said it would, so it belongs to the person accountable for that work.",
+     "whyPlain": "On Quality Assurance, page 58, the Project Manager is Accountable and the Core Team is Responsible. The quality reviewer sets the standards and reviews the outputs, and the Core Team supplies the evidence. This is deliberately different from Manage Quality on page 80, where the Solution Provider is Accountable and the Project Manager Responsible. The pack proves that the project worked as its Quality Management Plan promised, so it belongs to the person accountable for that.",
+     "ref": [
+      58,
+      "Project Core Team (PCT) Adheres to the project's Quality Assurance standards."
+     ]
+    },
+    {
+     "t": "Leonardo signs it. He is Accountable for Manage Quality and the deliverables were his in the first place.",
+     "tPlain": "Leonardo signs it. He is Accountable for Manage Quality, and the deliverables are produced by his division.",
+     "ok": false,
+     "reply": {
+      "who": "leonardo",
+      "text": "I would sign it. And then Deming audits my division's work against a pack my division wrote and I countersigned, and even I can see what that looks like from the seventh floor.",
+      "plain": "I would sign it. And then Deming would audit my division's work using a pack that my division wrote and I countersigned. Even I can see how that looks from the seventh floor."
+     },
+     "why": "This collapses two adjacent rows. Manage Quality on p.80 is SP=A, PM=R; Quality Assurance on p.58 is PM=A, PCT=R with the SP only Informed. Handing the assurance evidence to the party whose work it evidences removes the independence the activity exists to create.",
+     "whyPlain": "This mixes up two neighbouring rules. On Manage Quality the Solution Provider is Accountable and the Project Manager Responsible. On Quality Assurance the Project Manager is Accountable, the Core Team Responsible, and the Solution Provider only Informed. Giving the evidence to the people whose work it describes destroys the independence that the activity exists to provide.",
+     "ref": [
+      58,
+      "Quality Assurance I I I S C I A R"
+     ]
+    },
+    {
+     "t": "Deming signs. He is Project Quality Assurance and the only genuinely independent person in the room.",
+     "tPlain": "Deming signs. He is the quality assurance role and the only truly independent person present.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Then who reviews me? I set the standards and I review the outputs. If I also certify that the outputs met my standards, the review has quietly become a self-assessment.",
+      "plain": "Then who reviews me? I set the standards and I review the outputs. If I also certify that the outputs met my own standards, the review becomes a self-assessment."
+     },
+     "why": "The PQA establishes Quality Assurance standards and reviews project outputs and deliverables (p.58), and reviews project quality (p.80). The role assists; it holds no accountability in either row. Making the reviewer the signatory removes the second pair of eyes and leaves one opinion wearing two hats.",
+     "whyPlain": "The quality assurance role sets the standards and reviews the outputs and deliverables, and reviews the quality of the project. It assists and holds no accountability in either process. If the reviewer signs the evidence, the second pair of eyes disappears and one person holds both opinions.",
+     "ref": [
+      58,
+      "Project Quality Assurance (PQA) Establishes Quality Assurance standards and reviews project outputs and deliverables."
+     ]
+    },
+    {
+     "t": "Send it up to the Steering Committee, which approved the Quality Management Plan in the first place.",
+     "tPlain": "Send the pack to the Steering Committee, because it approved the Quality Management Plan.",
+     "ok": false,
+     "reply": {
+      "who": "gutenberg",
+      "text": "They approved a plan in June 2026. You are asking eight people who have never opened a test log to certify that we followed it.",
+      "plain": "The Steering Committee approved a plan in June 2026. You would be asking eight people who have never looked at a test log to certify that the project followed that plan."
+     },
+     "why": "The PSC approves the Quality Management Plan, but it is only Informed on Manage Quality (p.80) and on Quality Assurance (p.58). Approving a process is not the same act as signing the evidence that the process was followed, and routing it upward buys a month and no additional assurance.",
+     "whyPlain": "The Steering Committee approves the Quality Management Plan, but it is only Informed on Manage Quality and on Quality Assurance. Approving a plan is not the same as signing evidence that the plan was followed. Sending it upward costs a month and adds no assurance.",
+     "ref": [
+      80,
+      "Manage Quality I I I S/C C A R C"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for Manage Quality; Accountable for Quality Assurance.",
+    "k": "Knows one March recommendation is closed and the contractor's report is late for a fourth month.",
+    "w": "Wants the root cause fixed in the repository, not in a reprimand.",
+    "f": "Afraid an amber quality score becomes a standing feature of the project."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Sets the standards, reviews the outputs, signs nothing.",
+    "k": "Knows the same finding has now survived two milestone reviews.",
+    "w": "Wants the discovery recorded, not just the correction.",
+    "f": "Afraid the project confuses being reviewed with being assured."
+   },
+   "gutenberg": {
+    "o": "Document Management Officer. Runs the repository, versions, naming and retention.",
+    "k": "Knows exactly which version Levallois pulled and what the file is called on their side.",
+    "w": "Wants every specification to travel by repository, starting Monday.",
+    "f": "Afraid people will keep helping each other with attachments because it is faster."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Accountable for Manage Quality; his division built from the wrong version.",
+    "k": "Now knows the accountability letter on this process is his, not the PM's.",
+    "w": "Wants the twenty-two person-days absorbed without moving 17 December.",
+    "f": "Afraid the pattern is his division working faster than the paperwork can follow."
+   },
+   "tesla": {
+    "o": "Lead Solution Architect, 35 days from departure; assists with quality control, owns nothing.",
+    "k": "Knows he sent the file and that it was the fastest way to unblock Levallois in March.",
+    "w": "Wants to say it out loud himself rather than have it found in an audit.",
+    "f": "Afraid this is the sentence about him that survives him."
+   },
+   "lovelace": {
+    "o": "Business Analyst on the Core Team. Compiles the Quality Assurance evidence pack.",
+    "k": "Knows which four rules changed between version 0.9 and version 1.2.",
+    "w": "Wants a name on the pack before she spends three days building it.",
+    "f": "Afraid she assembles evidence that nobody is accountable for reading."
+   }
+  },
+  "unlock": [
+   28
+  ],
+  "note": "Guide check: section 9.9, p.80, the first of this chapter's two RASCI anomalies: AGB I, PSC I, PO I, BM S/C, BIG C, SP A, PM R, PCT C — the Solution Provider is Accountable and the Project Manager only Responsible. Read it against Quality Assurance, section 7.3 p.58, where PM=A and PCT=R and the SP is merely Informed; two processes twenty-two pages apart swap the accountable role. Quality management runs four components — quality planning, quality assurance, quality control and quality improvement — throughout the project until the Closing Phase and final acceptance. Configuration management provides a single reliable reference to artefacts and deliverables, so the correct versions reach the requestor. Step 5 is identify the non-conformity, analyse the root cause, implement corrective actions; step 6 is improvement. The PQA reviews project quality; the PCT assists with quality control. Approver: none for the checklist; each completed review is signed off by the quality reviewer. Pages 58 and 80.",
+  "notePlain": "Rule: on Manage Quality the Solution Provider is Accountable and the Project Manager is Responsible. That surprises people, and it is the first of two such reversals in this chapter. Compare it with Quality Assurance on page 58, where the Project Manager is Accountable, the Core Team Responsible, and the Solution Provider only Informed. Quality management has four parts: planning, assurance, control and improvement. It continues until the project is closed and finally accepted. Configuration management gives one reliable copy of every document, so the right version reaches the person who asked for it. When something does not conform, find the root cause first, then correct it, then record the improvement. The quality reviewer reviews quality; the Core Team helps with quality control. Nobody approves the checklist itself. Pages 58 and 80."
+ },
+ {
+  "id": "s41",
+  "act": 4,
+  "actName": "Executing",
+  "title": "Accountable is not on call",
+  "covers": [
+   "Manage Outsourcing"
+  ],
+  "guide_page": 85,
+  "where": "ESM, Kirchberg — Project room B-2.04",
+  "when": "09 Nov 2027, 08:30",
+  "cast": [
+   "you",
+   "eiffel",
+   "medici",
+   "leonardo",
+   "deming"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The call comes in at 08:22 from a Stockholm number. Levallois's account director, met twice before, both times at a signing. He is warm, he is quick, and inside ninety seconds he has offered a replacement architect by the fifteenth and two senior test engineers by the end of the month, if this can stay, as he puts it, at principal level.",
+    "plain": "A call comes at 08:22 from a Stockholm number. It is the account director of Levallois Systems. The Project Manager has met him twice, both times at a contract signing. He is friendly and fast. Within 90 seconds he offers a replacement architect by 15 November and two senior test engineers by the end of the month, if the discussion stays, in his words, at senior level.",
+    "g": [
+     [
+      "account director",
+      "the supplier's commercial manager for a client, who owns the revenue, not the delivery"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Meaning without Gustave.",
+    "plain": "That means without Gustave Eiffel taking part."
+   },
+   {
+    "who": "narr",
+    "text": "He says something about Gustave being stretched. It is true, and that is what makes the offer difficult.",
+    "plain": "He says that Eiffel is overloaded. That is true, which is what makes the offer tempting."
+   },
+   {
+    "who": "eiffel",
+    "text": "You took his call.",
+    "plain": "You accepted his telephone call.",
+    "mood": "flat"
+   },
+   {
+    "who": "you",
+    "text": "I listened to it. There is a difference and I would like to keep it.",
+    "plain": "I listened to it, but I promised nothing. That difference matters and I want to keep it.",
+    "ref": [
+     85,
+     "Project Manager (PM) Manages the contractor(s)."
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "He can find you two engineers because he can move them off another client. In February he moves them off you, and you will not hear it from him. You will hear it from me, four weeks late, in a report you already think arrives late.",
+    "plain": "He can find you two engineers by taking them from another client. In February he will take them away from you. He will not tell you. You will hear it from me, four weeks later, in the report that you already think arrives late."
+   },
+   {
+    "who": "you",
+    "text": "Which brings us to the report. Due by the fifth. Today is the ninth.",
+    "plain": "That brings up the monthly contractor report. It is due by the fifth of the month. Today is the ninth."
+   },
+   {
+    "who": "eiffel",
+    "text": "At noon. It is our finance people, not our test people. Which does not make it better. Only different.",
+    "plain": "It will arrive at midday. The delay is caused by Levallois's finance team, not its test team. That does not make it acceptable, only different."
+   },
+   {
+    "who": "deming",
+    "text": "I have finished with their test evidence. Three of the five acceptance criteria have traceable coverage. Two are asserted.",
+    "plain": "I have finished checking Levallois's test evidence. Three of the five acceptance criteria can be traced to tests. The other two are claimed but not evidenced.",
+    "ref": [
+     85,
+     "Project Quality Assurance (PQA) Performs most of the quality controls."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Which two.",
+    "plain": "Which two criteria are not evidenced?"
+   },
+   {
+    "who": "deming",
+    "text": "AC-01 and AC-04. Onboarding in six weeks, and same-day reconciliation with no unexplained breaks.",
+    "plain": "AC-01 and AC-04. AC-01 is onboarding a new product in six weeks. AC-04 is same-day reconciliation with zero unexplained differences.",
+    "g": [
+     [
+      "acceptance criterion",
+      "a measurable condition a deliverable must meet before anyone is allowed to accept it"
+     ]
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "AC-04 needs a rollover to test it against, and there is not one until April.",
+    "plain": "AC-04 can only be tested during a bond rollover, and the next one is in April."
+   },
+   {
+    "who": "narr",
+    "text": "At ten past nine Lorenzo de' Medici comes down to the project room rather than summoning anyone up to the seventh floor, which in this building is a signal.",
+    "plain": "At 09:10 Lorenzo de' Medici comes down to the project room instead of calling people up to the seventh floor. In this organisation that is a deliberate signal."
+   },
+   {
+    "who": "medici",
+    "text": "I signed the platform contract in September of last year. I am now told that makes me accountable for how it is run, which nobody mentioned at the time.",
+    "plain": "I signed the platform contract in September 2026. I have now been told that this makes me Accountable for how the outsourcing is managed. Nobody told me that when I signed.",
+    "ref": [
+     85,
+     "Manage Outsourcing A C C C I S R I"
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "It caught the whole Committee out in Planning. The Outsourcing Plan is the same letter, in the same place, for the same reason.",
+    "plain": "The same rule surprised the whole Steering Committee during Planning. The Outsourcing Plan carries the same accountability, for the same reason."
+   },
+   {
+    "who": "medici",
+    "text": "Then tell me the exposure in the only two units I use. Money and time.",
+    "plain": "Then tell me the exposure in the only two measures I use: money and time.",
+    "mood": "brisk"
+   },
+   {
+    "who": "you",
+    "text": "Money is contained. Payments follow release acceptance, so nothing has been paid for Release 2. Timesheets are signed monthly and they are current. Time is the exposure. A name on the fifteenth, and Nikola stops on the thirtieth whatever the name is.",
+    "plain": "The money risk is limited. Payments are only made when a release is accepted, so nothing has been paid for Release 2. Timesheets are signed every month and are up to date. Time is the real exposure. A replacement architect must be named on 15 November, and Tesla leaves on 30 November whatever happens.",
+    "g": [
+     [
+      "timesheet",
+      "the signed record of days a contractor's staff worked, used to authorise payment"
+     ]
+    ],
+    "ref": [
+     85,
+     "The Project Manager (PM) monitors costs and schedules."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "And what do you want from me?",
+    "plain": "And what do you want from me?"
+   },
+   {
+    "who": "you",
+    "text": "Nothing today.",
+    "plain": "Nothing today."
+   },
+   {
+    "who": "medici",
+    "text": "Good answer. Accountable is not on call. If this ends in a contractual remedy it becomes mine, and on that day I will want a file, not a telephone call.",
+    "plain": "Good answer. Being Accountable does not mean being available for daily problems. If this ends in a contract penalty, it becomes mine, and on that day I will want a documented file, not a telephone call.",
+    "g": [
+     [
+      "contractual remedy",
+      "the penalty or correction the contract allows when a supplier fails to deliver"
+     ]
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Then give me the file. In writing, dated, against the working methods in the Outsourcing Plan. I would rather be squeezed on paper by a client than reorganised by my own account director.",
+    "plain": "Then give me that file. In writing, dated, and set against the working methods in the Outsourcing Plan. I would rather be pressed formally by a client than reorganised by my own account director.",
+    "ref": [
+     85,
+     "The Project Manager (PM) ensures that the working methods detailed in the project's Outsourcing Plan are applied."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "And tell Ada to stop mailing their test lead directly.",
+    "plain": "And tell Ada Lovelace to stop emailing the contractor's test lead directly."
+   },
+   {
+    "who": "you",
+    "text": "She copies Gustave.",
+    "plain": "She copies Gustave Eiffel on those emails."
+   },
+   {
+    "who": "leonardo",
+    "text": "Copying is not asking.",
+    "plain": "Sending a copy is not the same as going through him."
+   },
+   {
+    "who": "eiffel",
+    "text": "It is not the emails. It is that my test lead now believes he has two clients and neither of them writes his objectives.",
+    "plain": "The problem is not the emails. My test lead now thinks he has two clients, and neither of them sets his objectives."
+   },
+   {
+    "who": "narr",
+    "text": "The letter goes out at 16:40, dated, copied to Stockholm, four paragraphs, none of them warm. The status report arrives at 12:04. The replacement architect is named at ten past four on the afternoon of the fifteenth.",
+    "plain": "The letter is sent at 16:40. It is dated, copied to Levallois head office, and four paragraphs long. None of it is friendly. The monthly status report arrives at 12:04. The replacement architect is named at 16:10 on 15 November, the deadline day.",
+    "ref": [
+     85,
+     "The Project Manager (PM) manages changes to the outsourced work."
+    ]
+   }
+  ],
+  "choice": {
+   "prompt": "Levallois's account director wants a direct line to you, and he is offering the people you need.",
+   "promptPlain": "The contractor's account director wants to deal with you directly, and he is offering exactly the people the project needs.",
+   "options": [
+    {
+     "t": "Everything through Gustave as Contractor's Project Manager: a written, dated demand against the Outsourcing Plan, then the Steering Committee if the fifteenth slips.",
+     "tPlain": "Keep everything going through Gustave Eiffel as the contractor's project manager. Send a written, dated demand based on the Outsourcing Plan, and go to the Steering Committee if 15 November is missed.",
+     "ok": true,
+     "reply": {
+      "who": "eiffel",
+      "text": "Send it today and copy my management. A demand from a client is worth four of my own escalations, and by Friday you will have your architect or you will have my report saying why not.",
+      "plain": "Send it today and copy my management. A formal demand from a client carries more weight than four internal escalations from me. By Friday you will have your architect, or you will have my report explaining why not."
+     },
+     "why": "Step 5 on p.85 makes the Contractor's Project Manager the person who reports status and progress to the PM and, if necessary, to the PSC. Step 3 makes the PM responsible for applying the Outsourcing Plan's working methods, and step 6 for managing changes to the outsourced work. The escalation ladder is CPM to PM to PSC, and it only works while nobody steps off it.",
+     "whyPlain": "On page 85 the contractor's project manager reports progress to the Project Manager, and to the Steering Committee if needed. The Project Manager applies the working methods in the Outsourcing Plan and manages changes to the outsourced work. The escalation path runs from the contractor's project manager to you, and then to the Steering Committee. It only works if nobody steps outside it.",
+     "ref": [
+      85,
+      "The Project Manager (PM) ensures that the working methods detailed in the project's Outsourcing Plan are applied."
+     ]
+    },
+    {
+     "t": "Take the direct line. He can actually move people, Gustave cannot, and Nikola stops on the thirtieth.",
+     "tPlain": "Deal with the account director directly. He can move staff and Eiffel cannot, and Tesla leaves on 30 November.",
+     "ok": false,
+     "reply": {
+      "who": "eiffel",
+      "text": "Then next month you ask me why my report does not match what you were promised, and I will not be able to tell you, because nobody will have told me either.",
+      "plain": "Then next month you will ask me why my report does not match the promises you were given. I will not be able to answer, because nobody will have told me either."
+     },
+     "why": "Bypassing the CPM removes the single accountable counterpart the guide gives you and replaces a contractual chain with a personal one. Commitments made outside the Outsourcing Plan's working methods are not traceable when interim deliverables are validated against agreed criteria, and cannot be enforced under the contract the AGB is Accountable for.",
+     "whyPlain": "Going around the contractor's project manager removes the one person who answers to you and replaces a contract relationship with a personal one. Promises made outside the agreed working methods leave no trace when deliverables are checked against agreed criteria, and they cannot be enforced under the contract that the governance body is accountable for.",
+     "ref": [
+      85,
+      "The Contractor's Project Manager (CPM) reports on the project's status and progress to the Project Manager (PM) and, if necessary, the Project Steering Committee (PSC)."
+     ]
+    },
+    {
+     "t": "Withhold the Release 2 milestone payment now. It is the only language a contractor reliably understands.",
+     "tPlain": "Refuse to pay the Release 2 milestone now. That is the only pressure a contractor always understands.",
+     "ok": false,
+     "reply": {
+      "who": "medici",
+      "text": "You would be taking a contract action in my name, in November, over a deliverable nobody has yet failed to deliver. Ask procurement what that costs us at the next tender.",
+      "plain": "You would be taking contractual action in my name, in November, about a deliverable that nobody has yet failed to deliver. Ask the procurement team what that costs us at the next tender."
+     },
+     "why": "Step 7 ties validation of interim and final deliverables to the criteria agreed in the Outsourcing Plan, and payment follows that validation rather than the PM's frustration. On the RASCI the AGB is Accountable and the PM only Responsible: the commercial remedy belongs to the governance body and procurement, and firing it early spends the leverage you will need at an acceptance that has not happened yet.",
+     "whyPlain": "Deliverables are validated against the criteria agreed in the Outsourcing Plan, and payment follows that check, not the Project Manager's frustration. In the RASCI table the governance body is Accountable and the Project Manager Responsible. Contract penalties belong to the governance body and to procurement. Using one now wastes the pressure you will need at the acceptance that has not yet taken place.",
+     "ref": [
+      85,
+      "The Project Manager (PM) and/or Project Steering Committee (PSC) validate interim and final deliverables and/or milestones based on agreed criteria and as defined in the Outsourcing Plan."
+     ]
+    },
+    {
+     "t": "Ask Lorenzo to telephone Levallois's chief executive today. He is the Accountable role, so let accountability do some work.",
+     "tPlain": "Ask Lorenzo de' Medici to call the chief executive of Levallois today. He holds the accountability, so let him use it.",
+     "ok": false,
+     "reply": {
+      "who": "medici",
+      "text": "And when it happens again in February, who do I call then? I have one call of that kind on this contract. You are asking me to spend it on a staffing gap your own route has not been given four days to close.",
+      "plain": "And if it happens again in February, who do I call then? I have one call of that kind on this contract. You are asking me to use it on a staffing problem that your own route has not had four days to solve."
+     },
+     "why": "The AGB's accountability sits at contract and governance level: the PSC ensures the contractor was chosen properly and that contracts state both parties' expectations, while the PM manages the contractor day to day. Firing the top escalation first leaves nothing above it and teaches the contractor that the written route can be skipped.",
+     "whyPlain": "The governance body is accountable at the level of the contract, not the weekly work. The Steering Committee makes sure the contractor was chosen correctly and that contracts state what both sides expect. The Project Manager manages the contractor day to day. Using the highest escalation first leaves nothing above it, and it teaches the contractor that the written route can be ignored.",
+     "ref": [
+      85,
+      "The Project Steering Committee (PSC) ensures that all contracts clearly define the expectations of both parties."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for Manage Outsourcing; manages the contractor, not the contractor's staff.",
+    "k": "Knows the offer on the telephone is exactly what the project needs and cannot be accepted that way.",
+    "w": "Wants the architect named by the fifteenth through the contractual route.",
+    "f": "Afraid that being correct about the channel costs the project two test engineers."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Delivers the agreed quality and reports to the PM.",
+    "k": "Knows his account director can move people and will move them again.",
+    "w": "Wants a written client demand he can carry into his own management.",
+    "f": "Afraid his team ends up with two clients and no single set of objectives."
+   },
+   "medici": {
+    "o": "AGB, chairing the Corporate Investment Board. Accountable for Manage Outsourcing.",
+    "k": "Knows he signed the contract and has just learnt what the signature carries.",
+    "w": "Wants the exposure in money and time, and no daily involvement.",
+    "f": "Afraid of being called in without a file, on a day when only a file will do."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Supports outsourcing; his people keep contacting the contractor directly.",
+    "k": "Knows Ada has been emailing the contractor's test lead for six weeks.",
+    "w": "Wants his own division inside the channel it agreed to.",
+    "f": "Afraid informal speed is quietly destroying the contractual record."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Performs most of the quality controls on outsourced work.",
+    "k": "Knows AC-01 and AC-04 rest on the contractor's own assertions.",
+    "w": "Wants AC-04 tested against a real rollover before anybody accepts it.",
+    "f": "Afraid the untested criterion is the one the institution is judged on."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 9.13, p.85, the chapter's second RASCI anomaly: AGB A, PSC C, PO C, BM C, BIG I, SP S, PM R, PCT I — the Appropriate Governance Body is Accountable and the Project Manager Responsible. The PM manages the contractor; the Contractor's Project Manager delivers acceptable quality and reports status and progress to the PM and, if necessary, to the PSC, which fixes the escalation ladder as CPM to PM to PSC. The PQA performs most of the quality controls on outsourced work. The PSC ensures the contractor was chosen according to the organisation's processes and that contracts define both parties' expectations; the PM applies the Outsourcing Plan's working methods, monitors costs and schedules, manages changes to the outsourced work, validates interim and final deliverables against agreed criteria, and secures formal approvals on time. Outputs are unglamorous and contractual: status and progress reports, signed contracts, signed purchase orders, signed timesheets. Approver: the AGB approves the Outsourcing Plan; the PM approves timesheets and purchase orders. Page 85.",
+  "notePlain": "Rule: on Manage Outsourcing the governance body that owns the contract is Accountable and the Project Manager is Responsible. This is the second reversal in the chapter. The Project Manager manages the contractor as an organisation, never the contractor's individual staff. The contractor's project manager reports progress to the Project Manager, and to the Steering Committee if necessary, so escalation runs contractor's project manager, then Project Manager, then Steering Committee. The quality reviewer performs most of the quality checks on outsourced work. The Steering Committee makes sure the contractor was selected properly and that contracts state what both sides expect. The Project Manager applies the Outsourcing Plan, watches cost and schedule, manages changes, and checks deliverables against agreed criteria. The outputs are contractual: reports, signed contracts, purchase orders and timesheets. Page 85."
+ },
+ {
+  "id": "s42",
+  "act": 4,
+  "actName": "Executing",
+  "title": "Not my manual",
+  "covers": [
+   "Manage Deliverables Acceptance"
+  ],
+  "guide_page": 81,
+  "where": "ESM, Kirchberg — Room Spaak, fifth floor",
+  "when": "17 Dec 2027, 16:00",
+  "cast": [
+   "you",
+   "curie",
+   "nightingale",
+   "hopper",
+   "leonardo",
+   "deming",
+   "eiffel"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Release 2 goes to acceptance at 14:00 on the last Friday before the building empties. Straight-through disbursement, on the date printed in the Business Case twenty-one months ago.",
+    "plain": "Release 2 is handed over for acceptance at 14:00 on the last Friday before the holidays. It delivers straight-through processing of disbursements, on the exact date written in the Business Case 21 months earlier.",
+    "g": [
+     [
+      "straight-through processing",
+      "data passes from one system to the next automatically, with nobody typing it again"
+     ]
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "Deployed at two. Release notes, User Manual, Operations Manual, training material. One platform and four supporting deliverables.",
+    "plain": "It was deployed at 14:00. With it come release notes, a User Manual, an Operations Manual and training material. That is one main deliverable and four supporting ones."
+   },
+   {
+    "who": "narr",
+    "text": "The design authority named on the release notes joined Levallois on the fifteenth of November. Nobody in the room has met him.",
+    "plain": "The architect named on the release notes started at Levallois on 15 November. Nobody in the room has met him."
+   },
+   {
+    "who": "nightingale",
+    "text": "Marie signs the lot. She is the User Representative and she is the one who will live in it.",
+    "plain": "Marie signs all of it. She is the User Representative and she will use the system every day."
+   },
+   {
+    "who": "curie",
+    "text": "No.",
+    "plain": "No."
+   },
+   {
+    "who": "nightingale",
+    "text": "That is the first time in two years you have not wanted a signature.",
+    "plain": "That is the first time in two years that you have not wanted a signature."
+   },
+   {
+    "who": "curie",
+    "text": "I want the one that is mine. I cannot tell you whether a restart procedure at two in the morning is correct, and if I sign that it is, somebody at two in the morning will believe me.",
+    "plain": "I want only the document that is mine. I cannot judge whether a restart procedure at 02:00 is correct. If I sign that it is, somebody working at 02:00 will believe me.",
+    "ref": [
+     81,
+     "When domain-specific (e.g. technical) documentation is delivered for acceptance, it needs to be reviewed by a subject matter expert/representative."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Then it goes where it belongs. Leonardo's support line takes the Operations Manual.",
+    "plain": "So each document goes to the right reviewer. Leonardo's support and maintenance team reviews the Operations Manual.",
+    "ref": [
+     81,
+     "A stakeholder from the support and maintenance organisation should review an Operations Manual."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "They will read it, they will complain about the date, and they will be right to.",
+    "plain": "They will read it, they will complain about the timing, and they will be justified."
+   },
+   {
+    "who": "hopper",
+    "text": "Training material comes to the training function under my plan. Not to Ada, who wrote half of it, and not to Marie because she is the nearest user.",
+    "plain": "The training material goes to the training function under the Business Implementation Plan. It does not go to Ada Lovelace, who wrote half of it, and it does not go to Marie Curie just because she is the closest user.",
+    "ref": [
+     81,
+     "A stakeholder from the organisation responsible for training should review training materials."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Release notes to the service desk. They are the only people who read them at eight in the morning with somebody shouting.",
+    "plain": "The release notes go to the service desk. They are the only people who read release notes at 08:00 while somebody is shouting at them.",
+    "ref": [
+     81,
+     "A stakeholder from the service operations organisation should review release notes."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "I have run the controls. Most of them, which is how it is meant to work. Two acceptance criteria still rest on Levallois's own test evidence and that is written down.",
+    "plain": "I have carried out the quality controls, most of them myself, which is how the process should work. Two acceptance criteria still depend on Levallois's own test evidence, and I have recorded that."
+   },
+   {
+    "who": "nightingale",
+    "text": "So what do I actually do this afternoon? In verbs.",
+    "plain": "So what do I actually do this afternoon? Tell me in actions."
+   },
+   {
+    "who": "you",
+    "text": "You accept, deliverable by deliverable, on a signed note. I get them in front of you in a state worth signing.",
+    "plain": "You accept each deliverable separately, on a signed Deliverables Acceptance Note. My job is to put them in front of you in a condition worth signing.",
+    "g": [
+     [
+      "Deliverables Acceptance Note",
+      "the signed record that a named deliverable was accepted, and with what open defects"
+     ]
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "And when they are not in that state?",
+    "plain": "And what happens when a deliverable is not in a condition worth signing?"
+   },
+   {
+    "who": "you",
+    "text": "Then the defect goes on the note with a date against it and you accept the rest. That is in the guide. It is not a favour I invented in Planning.",
+    "plain": "Then the defect is written on the note with a date for fixing it, and you accept the rest. That rule is in the guide. I did not invent it during Planning.",
+    "ref": [
+     81,
+     "Note that project deliverables can be conditionally accepted, even with a set of known defects or issues, if these are documented and if there is a plan in place for addressing them."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Say that again in April.",
+    "plain": "Say that again in April."
+   },
+   {
+    "who": "hopper",
+    "text": "Two loan administrators, full time, from the eighth of January. That is not a favour either. Acceptance runs on my people or it does not run.",
+    "plain": "I am giving you two loan administrators, full time, from 8 January. That is not a favour either. The acceptance testing depends on my staff.",
+    "ref": [
+     81,
+     "The Business Manager (BM) provides (qualified) resources to support the users' acceptance of the deliverables."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Then put the dates in the minutes. All of them, including the ones nobody likes.",
+    "plain": "Then put all the dates in the minutes, including the ones nobody likes."
+   },
+   {
+    "who": "you",
+    "text": "Parallel run, eighth of January to the thirtieth of April. And there is a three billion euro EFSF maturity on the twenty-fifth of April, refinancing settling two days later. It is the heaviest reconciliation this platform will ever do and it falls in the last week.",
+    "plain": "The parallel run goes from 8 January to 30 April. A 3 billion euro EFSF bond matures on 25 April and is replaced by a new one, which settles two days later. That bond rollover produces the heaviest reconciliation the platform will ever handle, and it happens in the final week.",
+    "g": [
+     [
+      "EFSF",
+      "European Financial Stability Facility, the temporary euro area rescue fund that the ESM replaced"
+     ],
+     [
+      "bond rollover",
+      "repaying a bond that matures by issuing a new one, usually in the same week"
+     ]
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Is that not a scheduling failure on somebody's part?",
+    "plain": "Is that not a planning mistake by somebody?"
+   },
+   {
+    "who": "you",
+    "text": "It is a scheduling choice. This committee approved the acceptance strategy and the schedule in 2026, and the schedule follows the deliveries. Avoid every funding event and we accept in August with nobody in the building.",
+    "plain": "It is a deliberate choice. The Steering Committee approved the acceptance approach and schedule in 2026, and the schedule follows the delivery dates. If the project avoided every funding event, acceptance would happen in August when almost nobody is at work.",
+    "ref": [
+     81,
+     "The Project Steering Committee (PSC) approves the application of the documented acceptance strategy and acceptance schedule."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "August is beautiful in this building. Eleven people and a vending machine.",
+    "plain": "August is quiet and pleasant in this building. Eleven people and one vending machine."
+   },
+   {
+    "who": "nightingale",
+    "text": "Then I sign four notes and go home. Is that the end of it?",
+    "plain": "Then I sign four notes and go home. Is that the end of it?"
+   },
+   {
+    "who": "you",
+    "text": "It is the end of Release 2. Final acceptance is not this signature and it is not this phase.",
+    "plain": "It is the end of Release 2 only. Final project acceptance is a different signature, in a different phase.",
+    "ref": [
+     81,
+     "Note that final project acceptance takes place in the Closing Phase."
+    ]
+   },
+   {
+    "who": "narr",
+    "text": "The notes are signed at 17:40. Outside, the Kirchberg is already dark and the tram is running on the winter timetable. R-09 is still open in the Risk Log at four by three, and nobody mentions it.",
+    "plain": "The acceptance notes are signed at 17:40. Outside it is already dark and the tram is on the winter timetable. Risk R-09, the parallel run overlapping a bond rollover, is still open with likelihood 4 and impact 3. Nobody mentions it."
+   }
+  ],
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for running deliverables acceptance; the PO is Accountable for it.",
+    "k": "Knows two acceptance criteria rest on the contractor's own evidence and that AC-04 needs a rollover.",
+    "w": "Wants each deliverable in front of the right reviewer before any signature happens.",
+    "f": "Afraid a tired Friday signature becomes the evidence for something nobody verified."
+   },
+   "curie": {
+    "o": "User Representative. Reviews the User Manual and signs for the user side only.",
+    "k": "Knows what she can verify herself and what she cannot.",
+    "w": "Wants to sign one document, the one she can actually check.",
+    "f": "Afraid her signature is used at two in the morning as proof of something she never read."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for acceptance; formally accepts the deliverables.",
+    "k": "Knows Release 2 arrived on the date approved in March 2026.",
+    "w": "Wants to sign and go home before the building closes for Christmas.",
+    "f": "Afraid the acceptance schedule was built around deliveries rather than around risk."
+   },
+   "hopper": {
+    "o": "Business Manager. Provides qualified resources to support the users' acceptance.",
+    "k": "Knows two of her administrators will be on acceptance runs while she trains forty.",
+    "w": "Wants the training material reviewed by the training function, not by its author.",
+    "f": "Afraid January to April has to hold acceptance testing and all the training."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Consulted on acceptance; his service line reviews the Operations Manual.",
+    "k": "Knows his support staff will read the manual over the holidays or not at all.",
+    "w": "Wants the review done properly even though the timing is indefensible.",
+    "f": "Afraid the manual is accepted by people who will never carry a pager."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Assists the PM and performs most of the quality controls.",
+    "k": "Knows exactly which two criteria are asserted rather than evidenced.",
+    "w": "Wants the two gaps written on the record before anyone signs anything.",
+    "f": "Afraid a delivery on the promised date buys forgiveness for untested criteria."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Delivered Release 2 and its four supporting deliverables.",
+    "k": "Knows his new architect has been in post for four weeks and signed the release notes.",
+    "w": "Wants the release accepted so the milestone payment can be invoiced.",
+    "f": "Afraid the reconciliation criterion will be tested in April with his name on it."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 9.10, pp.81-82. RASCI: AGB I, PSC I, PO A, BM S, BIG C, SP C, PM R, PCT C — the Project Owner is Accountable and formally accepts the deliverables; the Project Manager is Responsible for running the process. The domain-expert rule on p.81 is explicit: a User Representative reviews the User Manual, the support and maintenance organisation reviews the Operations Manual, the organisation responsible for training reviews training material, and service operations reviews release notes. The PSC approves the application of the acceptance strategy and schedule; the BM provides qualified resources to support the users' acceptance; the PQA assists the PM and performs most of the quality controls; the PM ensures supporting deliverables such as documentation are supplied alongside the main ones. Deliverables may be conditionally accepted even with known defects, if these are documented and there is a plan to address them. Approver: the Project Owner, on a signed Deliverables Acceptance Note. Final project acceptance takes place in the Closing Phase, not here. Pages 81 and 82.",
+  "notePlain": "Rule: the Project Owner is Accountable for accepting deliverables and signs for them. The Project Manager is Responsible for running the acceptance process. Specialist documents go to specialist reviewers. The User Representative reviews the User Manual. The support and maintenance team reviews the Operations Manual. The training organisation reviews training material. Service operations reviews release notes. The Steering Committee approves the acceptance approach and schedule. The Business Manager supplies trained people to help users accept the work. The quality reviewer helps the Project Manager and performs most of the checks. Supporting documents are delivered with the main deliverable. A deliverable can be accepted with known defects, if the defects are written down and there is a dated plan to fix them. Final acceptance of the whole project happens later, in the Closing Phase. Pages 81 and 82."
+ },
+ {
+  "id": "s43",
+  "act": 4,
+  "actName": "Executing",
+  "title": "Twenty-eight of forty",
+  "covers": [
+   "Manage Business Implementation"
+  ],
+  "guide_page": 84,
+  "where": "ESM, Kirchberg — Lending Operations, third floor",
+  "when": "21 Mar 2028, 15:00",
+  "cast": [
+   "you",
+   "hopper",
+   "nightingale",
+   "curie",
+   "lovelace"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Eleventh week of the parallel run. On the wall behind Grace Hopper's desk there is a printed grid of forty names, and twenty-eight of them are ticked in pencil.",
+    "plain": "This is the eleventh week of the parallel run. On the wall behind Grace Hopper's desk hangs a printed grid of 40 names. 28 of them are ticked in pencil."
+   },
+   {
+    "who": "hopper",
+    "text": "Twelve left. Six of those are on rollover preparation until the end of April, and two are seconded to Finance and Control until June.",
+    "plain": "12 people are still untrained. Six of them are working on the bond rollover until the end of April. Two are lent to Finance and Control until June."
+   },
+   {
+    "who": "you",
+    "text": "The checklist run is the thirtieth of April. Check sixteen.",
+    "plain": "The Business Implementation Checklist is run on 30 April. Check 16 is the relevant one.",
+    "ref": [
+     84,
+     "Ensure that all training activities are completed."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "I know what check sixteen asks. I wrote the plan it checks.",
+    "plain": "I know what check 16 asks. I wrote the Business Implementation Plan that the check tests.",
+    "mood": "tired"
+   },
+   {
+    "who": "curie",
+    "text": "And training is the smaller half of it. Under the old system I chase breaks. Under the new one the system chases them and I approve or reject what it found. Same job title, same grade, different job.",
+    "plain": "Training is the smaller part of the change. In the old system I search for reconciliation breaks myself. In the new one the system finds them and I approve or reject what it found. That is exception handling. Same job title, same grade, different job.",
+    "g": [
+     [
+      "exception handling",
+      "dealing with the cases the system could not process automatically, one by one"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Which is in the plan as a source of resistance, in your name, since 2026. It is the most honest line in the document.",
+    "plain": "That is recorded in the Business Implementation Plan as a source of resistance, under Marie's name, since 2026. It is the most honest line in the document.",
+    "ref": [
+     84,
+     "Implement the planned organisational change management activities."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "I am not resisting. Two of my colleagues are about to discover that the interesting hour of their day has been automated, and one of them will mind very much.",
+    "plain": "I am not resisting. Two of my colleagues will soon find that the most interesting hour of their day has been automated, and one of them will be very unhappy."
+   },
+   {
+    "who": "hopper",
+    "text": "And the disbursement procedure has to be republished with segregation of duties enforced by the platform instead of by two people remembering. That goes through Legal and past Internal Audit, and it is not a project task. It is mine.",
+    "plain": "And the disbursement procedure must be republished, with segregation of duties enforced by the platform instead of by two people remembering. It has to go through Legal and then Internal Audit. That is not project work. It is mine.",
+    "g": [
+     [
+      "segregation of duties",
+      "the rule that no single person may both start and release the same payment"
+     ]
+    ],
+    "ref": [
+     84,
+     "Redesign, adapt or update any affected business processes."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "What can I take off you?",
+    "plain": "What work can the Project Manager remove from her?"
+   },
+   {
+    "who": "hopper",
+    "text": "Say the rest of the sentence first. The part you have been circling since you came up the stairs.",
+    "plain": "Finish the sentence first. The part you have been avoiding since you came up the stairs."
+   },
+   {
+    "who": "you",
+    "text": "It is not mine to take. On this one you are responsible, Florence is accountable, and I support.",
+    "plain": "He cannot take the work. On Manage Business Implementation the Business Manager is Responsible, the Project Owner is Accountable, and the Project Manager only Supports.",
+    "ref": [
+     84,
+     "Manage Business Implementation I I A R C I S I"
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "And I am the accountable one, and I have no spare person in this division before the fifteenth of May. So do not say the word as though it solves anything.",
+    "plain": "And I am the Accountable one, and I have no spare person in this division before 15 May. So do not use the word as though it solves anything."
+   },
+   {
+    "who": "you",
+    "text": "Rooms. Slots in the Work Plan with dates on them. Ada two days a week until the end of April. The Core Team for demonstrations. And the reporting, so that nobody upstairs can say afterwards that they did not know.",
+    "plain": "Rooms. Dated slots in the Project Work Plan. Ada Lovelace for two days a week until the end of April. The Core Team for demonstrations. And the status reporting, so that nobody in senior management can say afterwards that they did not know.",
+    "ref": [
+     84,
+     "Assists the Business Manager (BM) in this activity. Updates the Project Work Plan with any activity changes or progress information."
+    ]
+   },
+   {
+    "who": "lovelace",
+    "text": "I can rebuild the exception walkthrough as four sessions of fifty minutes instead of one afternoon. Then it fits in the gaps around a settlement.",
+    "plain": "I can rebuild the exception-handling walkthrough as four sessions of 50 minutes instead of one long afternoon. Then it fits into the gaps around a bond settlement."
+   },
+   {
+    "who": "hopper",
+    "text": "That helps. That is genuinely the shape of the problem.",
+    "plain": "That helps. That is genuinely the shape of the problem."
+   },
+   {
+    "who": "curie",
+    "text": "Put my two in the first one. If they hear it from Ada before they hear it from a rumour, half of it goes away.",
+    "plain": "Put my two colleagues in the first session. If they hear it from Ada before they hear a rumour, half of the problem disappears."
+   },
+   {
+    "who": "you",
+    "text": "And the part that is not the project's at all. Refresher training from 2029, Lending Operations. Business continuity for the platform, Lending Operations. Benefits against the five success criteria, quarterly, from the first quarter of 2029, Lending Operations.",
+    "plain": "And here is the part that is not the project's at all. Refresher training from 2029: Lending Operations. Business continuity for the platform: Lending Operations. Measuring the five success criteria every quarter from the first quarter of 2029: Lending Operations.",
+    "g": [
+     [
+      "business continuity plan",
+      "the written plan for keeping the work going when a critical system is unavailable"
+     ]
+    ],
+    "ref": [
+     84,
+     "Manage business continuity plans for business-critical systems."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "You keep handing me things.",
+    "plain": "You keep giving me more things to carry."
+   },
+   {
+    "who": "you",
+    "text": "The guide is blunt about it. This work is almost always still required long after the project has ended, and by then there is no project to do it.",
+    "plain": "The guide is direct about this. Business implementation work is nearly always needed long after the project ends, and by then the project no longer exists.",
+    "ref": [
+     84,
+     "Note that business implementation activities will almost always be required long after the project has ended, so it is good practice to also define post-project change activities."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Meaning you leave in July and we are still becoming a different department in 2030.",
+    "plain": "So you leave in July, and we are still becoming a different department in 2030."
+   },
+   {
+    "who": "you",
+    "text": "Yes.",
+    "plain": "Yes."
+   },
+   {
+    "who": "hopper",
+    "text": "Well. At least nobody is pretending.",
+    "plain": "Well. At least nobody is pretending."
+   },
+   {
+    "who": "you",
+    "text": "And on Friday I report it in amber.",
+    "plain": "And on Friday the Project Manager will report this area as amber in the status report.",
+    "ref": [
+     84,
+     "Report on the status of business implementation activities, including any changes."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Good. Amber is the first honest colour that plan has had since January.",
+    "plain": "Good. Amber is the first truthful status that plan has had since January."
+   },
+   {
+    "who": "narr",
+    "text": "Twelve names on the wall without a tick against them, and eight weeks until the platform goes live.",
+    "plain": "12 names on the wall still have no tick beside them, and the new system goes live in eight weeks."
+   }
+  ],
+  "choice": {
+   "prompt": "Twelve of forty loan administrators are untrained with eight weeks to cutover, and the Business Manager is at capacity.",
+   "promptPlain": "12 of the 40 loan administrators are still untrained, the switch-over is in eight weeks, and the Business Manager has no spare capacity.",
+   "options": [
+    {
+     "t": "Report it to Florence with Grace's re-plan, put the project's support into the Work Plan with dates, leave the activities with Grace.",
+     "tPlain": "Report the situation to Florence together with Grace's revised plan. Put the project's support into the Work Plan with dates. Leave the training activities with Grace.",
+     "ok": true,
+     "reply": {
+      "who": "hopper",
+      "text": "Then put Ada's four sessions in your plan with dates, and my twelve names in your report without softening them. I would rather be visible than helped.",
+      "plain": "Then put Ada's four sessions in your plan with dates, and my 12 names in your report without softening them. I would rather be visible than helped."
+     },
+     "why": "On p.84 the BM manages the business implementation activities, the PO is Accountable, and the PM assists, updates the Project Work Plan with activity changes and progress information, and reports status. Support means resources, scheduling and visibility, not taking the work over; the accountability stays with the person who has to live with the result.",
+     "whyPlain": "On page 84 the Business Manager manages these activities and the Project Owner is Accountable. The Project Manager assists, updates the Work Plan with changes and progress, and reports the status. Support means rooms, dates, people and visibility. It does not mean doing the work. The accountability stays with the person who must live with the outcome.",
+     "ref": [
+      84,
+      "Report on the status of business implementation activities, including any changes."
+     ]
+    },
+    {
+     "t": "Run the last twelve sessions yourself with Ada. The project has the capacity and the fifteenth of May is what matters.",
+     "tPlain": "Deliver the last twelve training sessions yourself, with Ada. The project has the people, and the go-live date of 15 May is what counts.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "And in August, when somebody forgets which button releases a value date, they ring the person who taught them. You are gone, and my team never learnt to teach itself.",
+      "plain": "And in August, when somebody forgets which button releases a value date, they will telephone the person who taught them. You will have gone, and my team will never have learnt to teach itself."
+     },
+     "why": "p.84 places the execution of business implementation activities with the BM, accountable to the PO, precisely because they outlive the project: the guide asks projects to define post-project change activities that the permanent organisation carries out. A PM who delivers the training builds a capability that leaves the building at administrative closure on 28 Jul 2028.",
+     "whyPlain": "Page 84 gives these activities to the Business Manager, answering to the Project Owner, because the work continues after the project. The guide asks projects to define the change activities that the permanent organisation will carry out later. If the Project Manager delivers the training, the knowledge leaves with him when the project closes on 28 July 2028.",
+     "ref": [
+      84,
+      "The implementation of these activities is the responsibility of the permanent organisation and they are usually carried out as part of ongoing operations or future projects."
+     ]
+    },
+    {
+     "t": "Reclassify the remaining training as a transition activity, so it sits in the Transition Plan and the Steering Committee can push it.",
+     "tPlain": "Move the remaining training into the Transition Plan as a transition activity, so that the Steering Committee can push it forward.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "text": "We had this argument in June 2026 and I ruled on it. D-05. Reopen it now and you are not solving a training problem, you are relitigating a decision because it became expensive.",
+      "plain": "We had this argument in June 2026 and I decided it. That is decision D-05. If you reopen it now, you are not solving a training problem. You are reopening a decision because it has become expensive."
+     },
+     "why": "The Transition Plan covers moving the finished output into operational use; retraining forty administrators is organisational change and belongs to the Business Implementation Plan, which is what decision D-05 recorded on 23 Jun 2026. Moving an activity between plans to change who is accountable for it is not tailoring, and the two checklists would still ask the same question of two different owners.",
+     "whyPlain": "The Transition Plan covers moving the finished system into daily use. Retraining 40 people is organisational change, and it belongs to the Business Implementation Plan. Decision D-05 recorded exactly that on 23 June 2026. Moving an activity between plans in order to change who is accountable is not tailoring, and both checklists would still ask the same question of two different owners.",
+     "ref": [
+      84,
+      "Ensure that all business implementation activities within the scope of the project are included in the Project Work Plan"
+     ]
+    },
+    {
+     "t": "Recommend that the Steering Committee slips the cutover from the fifteenth of May to September.",
+     "tPlain": "Recommend that the Steering Committee moves the go-live date from 15 May to September.",
+     "ok": false,
+     "reply": {
+      "who": "curie",
+      "text": "Slip it to September and the parallel run runs through the summer, when this floor is at half strength. You will train fewer people, not more.",
+      "plain": "If you move it to September, the parallel run continues through the summer, when this floor is at half strength. You will train fewer people, not more."
+     },
+     "why": "The constraint is the Business Manager's capacity under the Business Implementation Plan, and moving the date without a re-plan from the BM moves the same twelve names four months to the right. The cutover date also belongs to Manage Transition, where the PSC is Accountable and the PM Responsible, so it is not a lever the PM trades against a training curve.",
+     "whyPlain": "The real constraint is the Business Manager's capacity under her plan. Moving the date without a new plan from her simply moves the same 12 names four months later. The go-live date also belongs to the transition process, where the Steering Committee is Accountable and the Project Manager Responsible. It is not something the Project Manager trades against a training problem.",
+     "ref": [
+      83,
+      "Manage Transition I A C C C C R C"
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Supports business implementation; assists the BM and updates the Work Plan.",
+    "k": "Knows twelve of forty are untrained and that six of them are locked to the rollover.",
+    "w": "Wants to give real support without taking work that must outlive the project.",
+    "f": "Afraid Support reads as indifference to the people whose jobs are changing."
+   },
+   "hopper": {
+    "o": "Business Manager. Responsible for managing all business implementation activities.",
+    "k": "Knows exactly which twelve names are untrained and why each one is.",
+    "w": "Wants the twelve names reported honestly and Ada's shorter sessions in the plan.",
+    "f": "Afraid the project quietly takes over her training and leaves her team dependent."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for business implementation and for the benefits behind it.",
+    "k": "Knows the division has no spare person before the cutover on 15 May.",
+    "w": "Wants the problem stated without the pretence that a RASCI letter solves it.",
+    "f": "Afraid she inherits a change programme that the project has already declared finished."
+   },
+   "curie": {
+    "o": "User Representative. Named in the plan as a source of resistance since 2026.",
+    "k": "Knows which two colleagues lose the interesting hour of their day.",
+    "w": "Wants her two people in the first session, before the rumour reaches them.",
+    "f": "Afraid the department is retrained on buttons and not on the job it now has."
+   },
+   "lovelace": {
+    "o": "Business Analyst on the Core Team. Assigned two days a week as project support to the BM.",
+    "k": "Knows the walkthrough is too long to survive a settlement week.",
+    "w": "Wants to cut one long session into four that fit a working day.",
+    "f": "Afraid she is training people on a process that is still being republished."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 9.12, p.84 — the one process in this chapter where the Project Manager is neither Accountable nor Responsible. RASCI: AGB I, PSC I, PO A, BM R, BIG C, SP I, PM S, PCT I. The Business Manager manages the activities; the Project Manager assists, updates the Project Work Plan with activity changes and progress information, and reports on status. The activity list on p.84 is business process redesign, the communication activities defined in the Business Implementation Plan, organisational change management, completion of all training, and business continuity plans for business-critical systems. The guide states that business implementation activities will almost always be required long after the project has ended, so post-project change activities should also be defined; implementing them is the responsibility of the permanent organisation, as ongoing operations or future projects. Approver: the Project Owner approves the Business Implementation Plan; nobody approves the checklist. Page 84.",
+  "notePlain": "Rule: this is the one process here where the Project Manager is neither Accountable nor Responsible. The Business Manager is Responsible and the Project Owner is Accountable. The Project Manager only supports: he assists, adds the activities and their progress to the Work Plan, and reports status. The work itself is redesigning business processes, communicating, managing organisational change, completing all training, and keeping business continuity plans for critical systems. The guide says plainly that this work is almost always still needed long after the project has ended, so the project should also define the change activities that come afterwards. The permanent organisation carries those out. The Project Owner approves the Business Implementation Plan. Nobody approves the checklist. Page 84."
+ },
+ {
+  "id": "s44",
+  "act": 4,
+  "actName": "Executing",
+  "title": "Nine hundred and ninety-eight",
+  "covers": [
+   "Manage Deliverables Acceptance"
+  ],
+  "guide_page": 82,
+  "where": "ESM, Kirchberg — Lending Operations, third floor",
+  "when": "27 Apr 2028, 07:40",
+  "cast": [
+   "you",
+   "curie",
+   "hopper",
+   "nightingale",
+   "deming",
+   "eiffel"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "The three billion euro EFSF bond matured on Tuesday. The refinancing settles today, value date today, and the funding cost allocation across the pooled programme loans recomputed overnight for the first time on the new platform.",
+    "plain": "A 3 billion euro EFSF bond matured on Tuesday. The new bond that replaces it settles today, with today as the value date. Last night the platform recalculated how the funding cost is shared across the pooled programme loans. It was the first time it did this.",
+    "g": [
+     [
+      "value date",
+      "the day the money must actually sit in the receiving account"
+     ],
+     [
+      "pooled loans",
+      "loans funded from one shared pot of borrowing rather than from one matching bond"
+     ]
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "The reconciliation ran at six. Nine hundred and ninety-eight loans reconcile. Two do not.",
+    "plain": "The reconciliation ran at 06:00. 998 loans match. Two do not.",
+    "g": [
+     [
+      "reconciliation",
+      "checking that the records of two systems match, and explaining every difference"
+     ]
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Which two.",
+    "plain": "Which two loans?"
+   },
+   {
+    "who": "curie",
+    "text": "Two on the old EFSF pooling arrangement. The allocation from the rollover reaches them a day late, so this morning the platform and the treasury system disagree about the carry, and my report says so in a footnote instead of balancing.",
+    "plain": "Two loans under the old EFSF pooling arrangement. The share of the rollover cost reaches them one day late. So this morning the platform and the treasury system disagree about the carrying cost. My report explains that in a footnote instead of balancing."
+   },
+   {
+    "who": "eiffel",
+    "text": "It is the treasury feed, not the platform. The feed publishes at close, we consume at six, and for those two the recomputation lands after close.",
+    "plain": "The cause is the treasury data feed, not the platform. The feed publishes at the end of the day and we read it at 06:00. For those two loans the recalculation arrives after the feed has closed."
+   },
+   {
+    "who": "curie",
+    "text": "I do not care whose it is at ten past seven in the morning. My report does not reconcile, and SC2 says same day.",
+    "plain": "At ten past seven in the morning I do not care which system is at fault. My report does not balance, and success criterion SC2 requires same-day reconciliation."
+   },
+   {
+    "who": "hopper",
+    "text": "And the calendar says the parallel run ends on Sunday, Florence approves the deployment on the fourteenth, and we cut over on the fifteenth.",
+    "plain": "And the calendar: the parallel run ends on Sunday 30 April, Florence approves the deployment on 14 May, and we switch to the new system on 15 May."
+   },
+   {
+    "who": "nightingale",
+    "text": "Ask me plainly, both of you. I have the Managing Director's office at nine and I would rather not improvise.",
+    "plain": "Ask me the question clearly, both of you. I am due in the Managing Director's office at 09:00 and I do not want to improvise."
+   },
+   {
+    "who": "deming",
+    "text": "I sign the Operational Readiness Review tomorrow morning either way. What I am able to sign depends on what this room decides today.",
+    "plain": "I sign the Operational Readiness Review tomorrow morning in any case. What I am able to write in it depends on what this room decides today.",
+    "g": [
+     [
+      "Operational Readiness Review",
+      "the formal check that a system, its people and its procedures are ready to go live"
+     ]
+    ],
+    "ref": [
+     81,
+     "Project Quality Assurance (PQA) Assists the Project Manager (PM) and performs most of the quality controls."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Two of my administrators have been on acceptance runs since the eighth of January. They found this at ten past six on the one morning it mattered. That is the process working, not the process failing.",
+    "plain": "Two of Grace's loan administrators have been running acceptance tests since 8 January. They found this problem at 06:10 on the one morning when it mattered. That means the process worked, not that it failed.",
+    "ref": [
+     81,
+     "The Business Manager (BM) provides (qualified) resources to support the users' acceptance of the deliverables."
+    ]
+   },
+   {
+    "who": "eiffel",
+    "text": "We can force an intraday recomputation for the pooled loans and re-run at eleven. Not this morning. Four days of work and a re-test.",
+    "plain": "We can force a mid-day recalculation for the pooled loans and run the reconciliation again at 11:00. Not this morning. It needs four days of work and a repeat test."
+   },
+   {
+    "who": "you",
+    "text": "Four days from today puts a clean re-test on the third of May. Inside the acceptance window, outside the parallel run.",
+    "plain": "Four days from today means a clean repeat test on 3 May. That is still within the acceptance period, but after the parallel run has ended.",
+    "ref": [
+     81,
+     "The Project Manager (PM) ensures that the acceptance procedures and guidelines are applied and the necessary environments (space, infrastructure, tools, etc.), materials and information are provided for the acceptance process to take place."
+    ]
+   },
+   {
+    "who": "you",
+    "text": "And both breaks go in the Issue Log before nine. One entry each, owner Gustave, target the third of May. Whatever this room decides, they exist somewhere other than a footnote.",
+    "plain": "Both breaks will be entered in the Issue Log before 09:00. One entry for each loan, with Gustave Eiffel as owner and a target date of 3 May. Whatever is decided here, the two breaks will exist somewhere other than a footnote.",
+    "ref": [
+     79,
+     "Identify issues and add them to the Issue Log."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Do that first. I have been the only record of those two loans since ten past six.",
+    "plain": "Do that first. Since 06:10 I have been the only record that those two loans exist."
+   },
+   {
+    "who": "you",
+    "text": "The criterion is AC-04. Same-day reconciliation, tolerance zero unexplained breaks. These two are explained. They are not resolved. The tolerance only uses one of those words.",
+    "plain": "The acceptance criterion is AC-04: same-day reconciliation with a tolerance of zero unexplained breaks. These two breaks are explained, but they are not fixed. The tolerance refers only to unexplained breaks.",
+    "ref": [
+     81,
+     "The project deliverables are accepted if the acceptance activities (as described in the Deliverables Acceptance Plan) are carried out within a pre-specified tolerance range."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "And whatever is decided, the Deliverables Acceptance Checklist gets run tomorrow with the true answers in it. Including the ones that are not yes.",
+    "plain": "And whatever is decided, the Deliverables Acceptance Checklist is completed tomorrow with true answers, including the answers that are not yes."
+   },
+   {
+    "who": "curie",
+    "text": "I am not signing that this report reconciles, because it does not.",
+    "plain": "I will not sign that this report reconciles, because it does not.",
+    "ref": [
+     81,
+     "When domain-specific (e.g. technical) documentation is delivered for acceptance, it needs to be reviewed by a subject matter expert/representative."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Then tell me what you will sign. I am not carrying a refusal upstairs without a route out of it.",
+    "plain": "Then tell me what you will sign. I will not take a refusal to senior management without a way out of it.",
+    "ref": [
+     81,
+     "The Project Owner (PO) formally accepts the project's deliverables."
+    ]
+   },
+   {
+    "who": "curie",
+    "text": "Ask him. He wrote the route in May 2026 and I have been carrying it around ever since.",
+    "plain": "Ask him. He wrote the procedure in May 2026, and I have kept it ever since.",
+    "ref": [
+     81,
+     "Note that project deliverables can be conditionally accepted, even with a set of known defects or issues, if these are documented and if there is a plan in place for addressing them."
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Nine hundred and ninety-eight, Marie.",
+    "plain": "998 loans, Marie."
+   },
+   {
+    "who": "curie",
+    "text": "Nine hundred and ninety-eight is not a thousand. That is the whole of my job in one sentence.",
+    "plain": "998 is not 1,000. That is my whole job in one sentence."
+   },
+   {
+    "who": "eiffel",
+    "text": "For what it is worth, she is right about the feed and I would not sign it either.",
+    "plain": "For what it is worth, she is right about the feed, and I would not sign it either."
+   },
+   {
+    "who": "narr",
+    "text": "Room Spaak, the nineteenth of May 2026. Nine hundred and ninety-eight right, two wrong, and a value date on the Thursday. She was two years early and off by nothing at all.",
+    "plain": "In Room Spaak on 19 May 2026, Marie described this exact case: 998 correct, two wrong, with a value date on the Thursday. She was two years early and completely accurate."
+   }
+  ],
+  "choice": {
+   "prompt": "Marie Curie will not accept the reconciliation report, and the cutover is eighteen days away.",
+   "promptPlain": "Marie Curie refuses to accept the reconciliation report. The switch to the new system is 18 days away.",
+   "options": [
+    {
+     "t": "Partial acceptance: Marie signs a Deliverables Acceptance Note naming the two positions as not accepted, with a dated re-test.",
+     "tPlain": "Accept in part. Marie signs a Deliverables Acceptance Note that names the two loans as not accepted, with a dated repeat test.",
+     "ok": true,
+     "reply": {
+      "who": "curie",
+      "text": "Then write both loan identifiers on the note. Not a category, not a footnote. The two numbers, so that in five years somebody can find exactly what I did and did not put my name to.",
+      "plain": "Then write both loan reference numbers on the note. Not a category and not a footnote. The two numbers, so that in five years somebody can see exactly what I did and did not sign for."
+     },
+     "why": "Step 3 on p.81 allows deliverables to be conditionally accepted, even with known defects or issues, if these are documented and there is a plan in place for addressing them. The Deliverables Acceptance Plan fixed the formality as a signed Deliverables Acceptance Note, so the open items are named on the note itself, the re-test is dated 03 May 2028, and the Project Owner's formal approval waits for it.",
+     "whyPlain": "Page 81 allows a deliverable to be accepted on condition, even with known defects, if the defects are written down and there is a plan to fix them. The Deliverables Acceptance Plan says acceptance is recorded on a signed note. So the two open items are named on that note, the repeat test is fixed for 3 May 2028, and the Project Owner's formal approval waits until then.",
+     "ref": [
+      81,
+      "Note that project deliverables can be conditionally accepted, even with a set of known defects or issues, if these are documented and if there is a plan in place for addressing them."
+     ]
+    },
+    {
+     "t": "Accept in full to protect the fifteenth of May. The breaks are logged, the fix is dated, and the note can say accepted.",
+     "tPlain": "Accept the deliverable in full to protect the 15 May go-live date. The two breaks are already in the Issue Log and the fix has a date, so the note can simply say accepted.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Then check thirteen says the deliverables meet the requirements, and it is a false statement signed by four people, one of whom is me.",
+      "plain": "Then check 13 says that the deliverables meet the requirements. That is a false statement signed by four people, and I am one of them."
+     },
+     "why": "AC-04's tolerance is zero unexplained breaks, and acceptance is only allowed within the pre-specified tolerance range, or conditionally with documented defects and a resolution plan. Accepting in full to protect a date puts the institution's name on a reconciliation report that does not reconcile, and destroys the only record showing that SC2 was never demonstrated on a rollover day.",
+     "whyPlain": "The tolerance for AC-04 is zero unexplained breaks. A deliverable may only be accepted inside the agreed tolerance, or on condition, with the defects recorded and a plan to fix them. Accepting in full to save a date puts the organisation's name on a report that does not balance. It also destroys the only evidence that same-day reconciliation was never proved on a rollover day.",
+     "ref": [
+      82,
+      "Manage Deliverables Acceptance I I A S C C R C"
+     ]
+    },
+    {
+     "t": "Reject the deliverable outright. The parallel run stops, the old system carries the rollover, and Levallois re-submits when it is right.",
+     "tPlain": "Reject the deliverable completely. Stop the parallel run, let the old system handle the rollover, and let Levallois deliver again when it is correct.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "Nine hundred and ninety-eight loans work. You would put this division back on three-day reconciliation over two of them, eighteen days from a cutover the Board has a date for.",
+      "plain": "998 loans work. You would put this division back on three-day reconciliation because of two of them, 18 days before a go-live date that the Board already has."
+     },
+     "why": "Non-acceptance is a legitimate route and the Deliverables Acceptance Plan defines it: rejection is logged as an issue, resolved, and the deliverable re-tested and re-submitted. But conditional acceptance exists precisely so that a proportionate defect does not force an all-or-nothing outcome. Rejecting the whole deliverable discards nine hundred and ninety-eight verified results and converts a two-position defect into a schedule failure.",
+     "whyPlain": "Refusing a deliverable is allowed, and the plan describes how: the rejection is logged as an issue, resolved, and the deliverable is tested and delivered again. But conditional acceptance exists so that a small defect does not force an all-or-nothing decision. Rejecting everything throws away 998 verified results and turns a two-loan defect into a missed deadline.",
+     "ref": [
+      81,
+      "The project deliverables are accepted if the acceptance activities (as described in the Deliverables Acceptance Plan) are carried out within a pre-specified tolerance range."
+     ]
+    },
+    {
+     "t": "Have Florence accept it herself. The Project Owner is Accountable for acceptance and can sign over the User Representative's objection.",
+     "tPlain": "Let Florence accept it herself. The Project Owner is Accountable for acceptance and can sign despite the User Representative's objection.",
+     "ok": false,
+     "reply": {
+      "who": "nightingale",
+      "text": "I can. And then the only person in this institution who reads that report every morning is recorded as having no view, and the next time she has one she will keep it to herself.",
+      "plain": "I can. And then the only person in this institution who reads that report every morning is recorded as having no view, and the next time she has one she will keep it to herself."
+     },
+     "why": "The Project Owner is Accountable and provides final acceptance, but domain-specific deliverables must be reviewed by the relevant subject matter expert, and the User Representative's verification is a documented step in the process, not an opinion to be outvoted. Overriding it leaves an acceptance with no evidence behind it and no trace of a known defect.",
+     "whyPlain": "The Project Owner is Accountable and gives final acceptance. But specialist deliverables must be reviewed by the relevant expert, and the User Representative's check is a recorded step in the process, not an opinion that can be outvoted. Overriding it produces an acceptance with no evidence behind it and no record of a known defect.",
+     "ref": [
+      81,
+      "When domain-specific (e.g. technical) documentation is delivered for acceptance, it needs to be reviewed by a subject matter expert/representative."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for the acceptance process; ensures procedures and evidence are in place.",
+    "k": "Knows AC-04 tolerates zero unexplained breaks and that these two are explained, not resolved.",
+    "w": "Wants a route that records the defect and keeps 998 verified results.",
+    "f": "Afraid eighteen days to cutover turns unexplained into acceptable."
+   },
+   "curie": {
+    "o": "User Representative; reviews user-facing deliverables and signs user acceptance.",
+    "k": "Knows two loans out of a thousand do not reconcile and exactly which two.",
+    "w": "Wants both loan identifiers written on the note, not a category.",
+    "f": "Afraid her signature is later read as proof that the report balanced."
+   },
+   "hopper": {
+    "o": "Business Manager. Supplied the two administrators who found the break.",
+    "k": "Knows the acceptance runs worked exactly as designed on the day it mattered.",
+    "w": "Wants the discovery counted as success, not treated as a failure.",
+    "f": "Afraid a two-loan defect costs her division three-day reconciliation again."
+   },
+   "nightingale": {
+    "o": "Project Owner. Accountable for acceptance; her formal approval follows the re-test.",
+    "k": "Knows the Managing Director expects a cutover date at nine o'clock.",
+    "w": "Wants a refusal she can carry upstairs with a route out of it attached.",
+    "f": "Afraid of choosing between her User Representative and her own date."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Signs the Operational Readiness Review on 28 Apr.",
+    "k": "Knows what checks 8, 13 and 15 will have to say tomorrow.",
+    "w": "Wants the checklist completed with true answers, including the ones that are not yes.",
+    "f": "Afraid of signing a readiness review around a sentence that is not true."
+   },
+   "eiffel": {
+    "o": "Contractor's Project Manager. Owns the fix and the four days of work behind it.",
+    "k": "Knows the cause is the timing of the treasury feed, not the platform logic.",
+    "w": "Wants the fix scoped and dated rather than argued about at seven in the morning.",
+    "f": "Afraid a partial acceptance is recorded as a contractor failure in the file."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: section 9.10, pp.81-82. RASCI: AGB I, PSC I, PO A, BM S, BIG C, SP C, PM R, PCT C. Step 3 allows deliverables to be accepted within a pre-specified tolerance range, and to be conditionally accepted even with known defects or issues, provided these are documented and a plan exists to address them — which is what partial acceptance means in practice. The level of formality is whatever the Deliverables Acceptance Plan fixed; for CASTOR that is a signed Deliverables Acceptance Note listing what is not accepted, with the two breaks also logged in the Issue Log. The Deliverables Acceptance Checklist then records the state honestly: check 8 Yes partially, check 9 No pending the re-test of 03 May 2028, check 13 Yes partially because SC2 was not demonstrated, check 15 No, with the Project Owner's formal approval following on 05 May 2028 and the announcement on 08 May. Approver: the Project Owner. Final project acceptance still belongs to the Closing Phase. Pages 81 and 82.",
+  "notePlain": "Rule: a deliverable is accepted if the acceptance work stayed inside the agreed tolerance. It can also be accepted on condition, even with known defects, if those defects are written down and there is a plan to fix them. That is what partial acceptance means. How formal the record is was decided in the Deliverables Acceptance Plan. Here it is a signed note that lists what is not accepted, and the two breaks also go into the Issue Log. The checklist is then completed honestly: check 8 partly yes, check 9 no until the repeat test on 3 May 2028, check 13 partly yes because same-day reconciliation was not proved, check 15 no. The Project Owner's formal approval follows on 5 May 2028. Final acceptance of the whole project still happens in the Closing Phase. Pages 81 and 82."
+ },
+ {
+  "id": "s45",
+  "act": 4,
+  "actName": "Executing",
+  "title": "Ready for Closing",
+  "covers": [
+   "Manage Transition",
+   "Phase Gate: RfC (Ready for Closing)",
+   "Phase Exit Review Checklist"
+  ],
+  "guide_page": 62,
+  "where": "ESM, Kirchberg — Board room, seventh floor",
+  "when": "22 Jun 2028, 09:00",
+  "cast": [
+   "you",
+   "nightingale",
+   "leonardo",
+   "hopper",
+   "curie",
+   "deming",
+   "gantt",
+   "medici",
+   "turing",
+   "brandeis"
+  ],
+  "lines": [
+   {
+    "who": "narr",
+    "text": "Saturday the thirteenth of May: full backup of the old system, restore tested, four hours forty. Sunday: Florence Nightingale's written approval to deploy. Monday the fifteenth at 06:10 the first disbursement instruction goes into the new platform, and at 06:14 it is out the other side. Five weeks later the Steering Committee sits down under the same green glare as the last two gates.",
+    "plain": "On Saturday 13 May the old system was fully backed up and the restore was tested, taking 4 hours 40 minutes. On Sunday Florence Nightingale gave written approval to deploy. On Monday 15 May, the day of the cutover, the first disbursement instruction entered the new platform at 06:10 and came out the other side at 06:14. Five weeks later the Steering Committee meets under the same green light as at the two earlier gates.",
+    "g": [
+     [
+      "cutover",
+      "the moment the organisation stops using the old system and starts using the new one"
+     ]
+    ],
+    "ref": [
+     83,
+     "If applicable, ensure that data backups and rollback scenarios are prepared."
+    ]
+   },
+   {
+    "who": "nightingale",
+    "text": "Item one. Ready for Closing.",
+    "plain": "Item one on the agenda is the Ready for Closing gate."
+   },
+   {
+    "who": "you",
+    "text": "Transition Checklist, cutover run, the fifteenth of May. Twenty-six checks plus the thirteen IT ones, because we answered yes to the IT question.",
+    "plain": "The Transition Checklist was completed for the cutover on 15 May. It has 26 general checks plus 13 IT-specific ones, which apply because the project answered yes to the question about an IT component."
+   },
+   {
+    "who": "turing",
+    "text": "Security signed on the sixth of May. Levallois's accounts revoked at cutover, project accounts removed, support access rules live since the sixteenth.",
+    "plain": "Alan Turing signed the security section on 6 May. Levallois's accounts were withdrawn at cutover, project accounts were deleted, and the support access rules have applied since 16 May."
+   },
+   {
+    "who": "brandeis",
+    "text": "Data protection the same day. The migration carried no personal data beyond named authorising officers, and the retention rule on the old archive is unchanged until decommissioning.",
+    "plain": "Louis Brandeis signed the data protection section on the same day. The migration moved no personal data except the names of the officers who authorise payments. The retention rule for the old system's archive stays the same until it is decommissioned."
+   },
+   {
+    "who": "gantt",
+    "text": "Rollback: the old system stays warm until the thirtieth of June. Florence can order it back before the six o'clock value-date cut-off on any morning until then.",
+    "plain": "On rollback: the old system stays available and ready until 30 June. Until that date Florence can order a return to it, on any morning before the 06:00 value-date deadline.",
+    "g": [
+     [
+      "rollback",
+      "the planned way to return to the old system if the new one fails after go-live"
+     ]
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "Which is eight days from now, and it is the last day anybody can change their mind cheaply.",
+    "plain": "That is eight days from today. It is the last day on which anyone can reverse the decision at low cost."
+   },
+   {
+    "who": "you",
+    "text": "Check twenty-four, were all the transition goals achieved. Yes, partially. Zero missed value dates since cutover. Decommissioning the old system is open, and it is not ours.",
+    "plain": "Check 24 asks whether all the transition goals were achieved. The answer is Yes, partially. No value date has been missed since cutover. Decommissioning the old system is still open, and that is not the project's work.",
+    "g": [
+     [
+      "decommissioning",
+      "shutting a system down for good, after its data and duties have moved elsewhere"
+     ]
+    ]
+   },
+   {
+    "who": "hopper",
+    "text": "Mine, in other words.",
+    "plain": "In other words, it is mine."
+   },
+   {
+    "who": "you",
+    "text": "Yours. With maintenance and support, which started at cutover, and the documentation handover, which completed on the nineteenth of May.",
+    "plain": "Yes, hers. Together with maintenance and support, which began at cutover, and the handover of documentation, which was completed on 19 May.",
+    "ref": [
+     83,
+     "Ensure that all maintenance and support activities begin as planned (if applicable)."
+    ]
+   },
+   {
+    "who": "deming",
+    "text": "Say the part about the plan, because I watched you do it and it is the only unusual thing in this file.",
+    "plain": "Tell them what you did with the plan. I watched you do it, and it is the only unusual thing in this file."
+   },
+   {
+    "who": "you",
+    "text": "We have a Transition Plan, approved here in 2026. I still walked the list the guide gives to projects that do not have one. Who is responsible. What must be true before transition is complete. Backups and rollback. Training. Delivery coordinated, communicated and accepted. Maintenance and support started. Documentation handed over.",
+    "plain": "The project has a Transition Plan, approved by this committee in 2026. Even so, the Project Manager worked through the list that the guide gives to projects without such a plan. Who is responsible. What must be achieved before transition is complete. Backups and rollback. Training. Delivery coordinated, communicated and accepted. Maintenance and support started. All documentation handed over.",
+    "ref": [
+     83,
+     "Ensure that the delivery of the project's outputs is coordinated, communicated and accepted."
+    ]
+   },
+   {
+    "who": "leonardo",
+    "text": "You used a checklist meant for people without a plan.",
+    "plain": "You used a list meant for projects that have no Transition Plan."
+   },
+   {
+    "who": "you",
+    "text": "As a completeness test against our own. It found one gap. Nobody had written down who starts the support contract clock, and the answer was nobody.",
+    "plain": "He used it to test whether the project's own plan was complete. It found one gap. Nobody had recorded who starts the support contract period, and in fact nobody had started it."
+   },
+   {
+    "who": "curie",
+    "text": "Forty administrators trained by the thirtieth of April. The two positions were re-tested on the third of May and closed. Same-day reconciliation has held every morning since the fifteenth, including a quarter-end.",
+    "plain": "All 40 loan administrators were trained by 30 April. The two unreconciled loans were re-tested on 3 May and closed. Same-day reconciliation has worked every morning since 15 May, including at a quarter-end."
+   },
+   {
+    "who": "gantt",
+    "text": "And the issue that came out of R-07 closed on the twenty-eighth of April. Seven months open, and it closed quietly, which is how they close when they close at all.",
+    "plain": "And the issue that came from risk R-07 was closed on 28 April. It was open for seven months, and it closed quietly, which is how they close when they close at all."
+   },
+   {
+    "who": "nightingale",
+    "text": "On the transition, who was accountable? I want that on the record before this committee approves anything.",
+    "plain": "On the transition, who was Accountable? I want that in the minutes before this committee approves anything."
+   },
+   {
+    "who": "you",
+    "text": "This committee. I ran it. You gave provisional acceptance on the fifth of May, before the transition, and ownership transferred on the fifteenth.",
+    "plain": "This committee was Accountable. I was Responsible for running the transition. You gave provisional acceptance on 5 May, before the transition, and ownership passed to you on 15 May.",
+    "g": [
+     [
+      "provisional acceptance",
+      "the Project Owner accepting deliverables before transition, with final acceptance still to come"
+     ]
+    ],
+    "ref": [
+     83,
+     "Manage Transition I A C C C C R C"
+    ]
+   },
+   {
+    "who": "you",
+    "text": "Phase Exit Review Checklist, Executing sheet. Ninety-seven per cent, status nought point nine. I answered it, Deming assured the answers, and it approves nothing by itself.",
+    "plain": "The Phase Exit Review Checklist for the Executing Phase: 97 per cent, status 0.9. I answered it, Deming assured the answers, and it approves nothing by itself.",
+    "ref": [
+     62,
+     "PM2 provides a template Phase Exit Review Checklist for each phase that can be used by the Project Manager (PM) to guide the assessment, alongside a review of the phase's specific goals."
+    ]
+   },
+   {
+    "who": "medici",
+    "text": "Deviations from the approved Business Case or the Charter?",
+    "plain": "Are there any differences from the approved Business Case or the Project Charter?"
+   },
+   {
+    "who": "you",
+    "text": "None. Eight point four million, three thousand one hundred person-days, twenty-six months, as approved in March 2026. SC1, SC2 and SC4 demonstrated. SC3 rehearsed in the test environment in eleven days but not proven in production, because the Treaty reform is not in force. SC5: one audit finding closed, one with Internal Audit, and they have told us early July.",
+    "plain": "There are none. The budget is 8.4 million euro, the effort 3,100 person-days and the duration 26 months, as approved in March 2026. Success criteria SC1, SC2 and SC4 have been demonstrated. SC3 was rehearsed in the test environment in 11 days but has not been proved in live use, because the Treaty reform is not yet in force. For SC5, one internal audit finding is closed and the second is with Internal Audit, who expect to answer in early July."
+   },
+   {
+    "who": "medici",
+    "text": "Then this gate is not mine either. Two years, and this Board has been asked for two decisions in all of it.",
+    "plain": "Then this gate is not mine either. In two years this Board has been asked to take two decisions.",
+    "mood": "brisk"
+   },
+   {
+    "who": "nightingale",
+    "text": "So let me sign the final acceptance this morning and let July be the party.",
+    "plain": "Then let me sign the final project acceptance this morning, and let July be the celebration."
+   },
+   {
+    "who": "you",
+    "text": "No.",
+    "plain": "No."
+   },
+   {
+    "who": "nightingale",
+    "text": "Say why, in one sentence, because I will have to repeat it to people who were not here.",
+    "plain": "Say why, in one sentence, because I will have to repeat it to people who were not here."
+   }
+  ],
+  "choice": {
+   "prompt": "Florence Nightingale wants to sign final project acceptance at the gate. What do you ask the Steering Committee for?",
+   "promptPlain": "Florence Nightingale wants to sign the final project acceptance at this gate. What do you ask the Steering Committee to approve?",
+   "options": [
+    {
+     "t": "The assessment with the open items named, provisional acceptance confirmed, transition complete — and authorisation to move to Closing, nothing more.",
+     "tPlain": "Present the assessment with the open items named, confirm the provisional acceptance, confirm the transition is complete, and ask only for authorisation to move to the Closing Phase.",
+     "ok": true,
+     "reply": {
+      "who": "nightingale",
+      "text": "Then it is minuted as you say it. Ready for Closing, approved, the twenty-second of June 2028. Project-End Review on the twelfth of July, and I will sign the thing you will not let me sign today.",
+      "plain": "Then it is minuted in those words. Ready for Closing, approved, 22 June 2028. The Project-End Review Meeting is on 12 July, and I will then sign the document you will not let me sign today."
+     },
+     "why": "At the RfC gate the PM assesses whether the Executing Phase goals were achieved, verifies that planned activities were carried out, requirements met and outputs fully delivered, and ensures the PO has accepted the deliverables at least provisionally, finalised the transition and made the outputs available to end-users. Only then can the PSC authorise the move to Closing. Final project acceptance takes place in the Closing Phase, so provisional acceptance is the correct state to arrive at this gate with.",
+     "whyPlain": "At this gate the Project Manager checks that the goals of the Executing Phase were met, that the planned work was done, that the requirements were met and the outputs delivered, and that the Project Owner has accepted the deliverables at least provisionally, completed the transition and made the outputs available to users. Only then can the Steering Committee authorise the move to Closing. Final acceptance happens in the Closing Phase, so arriving here with provisional acceptance is correct.",
+     "ref": [
+      62,
+      "The Project Manager (PM) is also responsible for ensuring that the Project Owner (PO) accepts the deliverables (at least provisionally), finalises the transition and makes the outputs available to the end-users."
+     ]
+    },
+    {
+     "t": "Ask her to sign final project acceptance today, so that Closing is purely administrative and the team can be released early.",
+     "tPlain": "Ask her to sign the final project acceptance today, so that the Closing Phase is only paperwork and the team can be released sooner.",
+     "ok": false,
+     "reply": {
+      "who": "deming",
+      "text": "Then the Project-End Review reviews a project that has already been accepted, and every lesson it captures arrives after the only signature that could have been withheld.",
+      "plain": "Then the Project-End Review examines a project that has already been accepted, and every lesson it records arrives after the only signature that could have been withheld."
+     },
+     "why": "Final project acceptance takes place in the Closing Phase (p.81), which starts with the Project-End Review Meeting and ends with the Project Owner's final approval at administrative closure (p.63). Signing at the RfC gate spends the last control the Project Owner holds, before Lessons Learned are captured and before residual items such as decommissioning are handed over in writing.",
+     "whyPlain": "Final acceptance of the project happens in the Closing Phase. That phase begins with the Project-End Review Meeting and ends with the Project Owner's final approval at administrative closure. Signing at this gate uses up the last control the Project Owner has, before the lessons are collected and before remaining items such as decommissioning are handed over in writing.",
+     "ref": [
+      63,
+      "The Closing Phase starts with the Project-End Review Meeting and ends with the Project Owner's (PO) final approval, which marks the project's administrative closure."
+     ]
+    },
+    {
+     "t": "Hold the gate until the old system is decommissioned on the thirtieth of June and Internal Audit closes the second finding.",
+     "tPlain": "Delay the gate until the old system is switched off on 30 June and Internal Audit closes the second finding.",
+     "ok": false,
+     "reply": {
+      "who": "hopper",
+      "text": "Internal Audit will answer on their calendar, not on yours. You would keep a project alive for weeks so that a checklist can say yes instead of yes, partially.",
+      "plain": "Internal Audit answers on its own timetable, not on yours. You would keep a project alive for weeks so that a checklist can say yes instead of yes, partially."
+     },
+     "why": "The gate asks whether the Executing Phase goals were achieved and the outputs fully delivered, accepted at least provisionally and available to end-users — not whether every consequence has settled. Decommissioning and the closure of audit findings are permanent-organisation activities, and holding the gate for them keeps a project structure alive with nothing left for it to do.",
+     "whyPlain": "The gate asks whether the goals of the Executing Phase were achieved and the outputs delivered, accepted at least provisionally, and available to users. It does not ask whether every consequence has finished. Switching off the old system and closing audit findings belong to the permanent organisation. Holding the gate for them keeps a project alive with no work left in it.",
+     "ref": [
+      62,
+      "The Project Manager (PM) assesses whether all the goals of the Executing Phase have been achieved, verifies that all planned activities have been carried out, that all requirements have been met, and that the project's outputs have been fully delivered."
+     ]
+    },
+    {
+     "t": "Refer the gate to Lorenzo and the Corporate Investment Board, since the benefits cannot be measured before 2029.",
+     "tPlain": "Send the gate decision to Lorenzo de' Medici and the Corporate Investment Board, because the benefits cannot be measured before 2029.",
+     "ok": false,
+     "reply": {
+      "who": "medici",
+      "text": "Benefits were never measurable inside twenty-six months and the Business Case said so on page four. Bring me a deviation and I will act. Do not bring me a gate.",
+      "plain": "Benefits were never going to be measurable within 26 months, and the Business Case said so on page four. Bring me a deviation and I will act. Do not bring me a gate."
+     },
+     "why": "Once the conditions are met the PSC authorises the move to Closing; the governance body is involved only where major deviations from the approved Business Case or Project Charter arise, and here budget, effort, duration and scope are unchanged. Benefit realisation after project end is normal and is handed to the permanent organisation through the Project-End Report.",
+     "whyPlain": "When the conditions are met, the Steering Committee authorises the move to Closing. The senior governance body is involved only if there are major differences from the approved Business Case or Charter. Here the budget, effort, duration and scope are unchanged. Benefits arriving after the project ends is normal, and responsibility for measuring them passes to the permanent organisation through the Project-End Report.",
+     "ref": [
+      62,
+      "Once all the above conditions have been met, the Project Steering Committee (PSC) can authorise the Project Manager (PM) to move the project to the Closing Phase."
+     ]
+    }
+   ]
+  },
+  "state": {
+   "you": {
+    "o": "Project Manager. Responsible for Manage Transition and for the RfC assessment.",
+    "k": "Knows the checklist answer on transition goals is Yes, partially, and why.",
+    "w": "Wants authorisation to move to Closing, and nothing beyond that today.",
+    "f": "Afraid a good gate tempts everyone to finish the project two phases early."
+   },
+   "nightingale": {
+    "o": "Project Owner and PSC chair. Provisionally accepted on 05 May; final acceptance is hers in Closing.",
+    "k": "Knows there have been no missed value dates in five weeks of live operation.",
+    "w": "Wants to sign the final acceptance this morning and be finished with it.",
+    "f": "Afraid a July signature looks like a project that could not end."
+   },
+   "leonardo": {
+    "o": "Solution Provider. Consulted on transition; his division now runs level-2 support.",
+    "k": "Knows the rollback window closes on 30 June and what that costs after.",
+    "w": "Wants the last cheap decision date named out loud in this room.",
+    "f": "Afraid the platform is declared finished while the support model is four weeks old."
+   },
+   "hopper": {
+    "o": "Business Manager. Takes decommissioning, refresher training and benefits tracking.",
+    "k": "Knows Internal Audit answers on its own timetable, not the project's.",
+    "w": "Wants the project closed so the remaining work stops being called project work.",
+    "f": "Afraid the residual list is handed over verbally and forgotten by September."
+   },
+   "curie": {
+    "o": "User Representative. Re-tested and closed the two positions on 03 May.",
+    "k": "Knows same-day reconciliation has held every morning, including a quarter-end.",
+    "w": "Wants the closure of the two breaks stated as a fact in the minutes.",
+    "f": "Afraid the department stops checking because the project said it works."
+   },
+   "deming": {
+    "o": "Project Quality Assurance. Assured the answers on the Phase Exit Review Checklist.",
+    "k": "Knows the checklist found one real gap, on the support contract clock.",
+    "w": "Wants the lessons captured before any final signature exists.",
+    "f": "Afraid acceptance before the review turns Lessons Learned into a formality."
+   },
+   "gantt": {
+    "o": "Project Support Office. Holds the checklists, the logs and the rollback window.",
+    "k": "Knows the R-07 issue closed on 28 Apr 2028 after seven months open.",
+    "w": "Wants the gate decision minuted with its date and its conditions.",
+    "f": "Afraid the archive inherits a project that was never formally closed."
+   },
+   "medici": {
+    "o": "AGB, chairing the Corporate Investment Board. Involved only on major deviations.",
+    "k": "Knows budget, effort, duration and scope are unchanged since March 2026.",
+    "w": "Wants to be asked for nothing, and told the deviations if there are any.",
+    "f": "Afraid of being used as a rubber stamp for decisions that belong lower down."
+   },
+   "turing": {
+    "o": "Local Information Security Officer. Signed the security section of the transition on 06 May.",
+    "k": "Knows the contractor's accounts were revoked at cutover and support access is live.",
+    "w": "Wants the security file closed with the rest of the project record.",
+    "f": "Afraid dormant project accounts survive a closure nobody checks."
+   },
+   "brandeis": {
+    "o": "Data Protection Coordinator. Cleared the migration and the archive retention rule.",
+    "k": "Knows the migration carried no personal data beyond named authorising officers.",
+    "w": "Wants the retention rule to survive the decommissioning decision.",
+    "f": "Afraid an archive with no owner keeps data nobody can justify holding."
+   }
+  },
+  "unlock": [],
+  "note": "Guide check: Manage Transition is section 9.11, p.83, with RASCI AGB I, PSC A, PO C, BM C, BIG C, SP C, PM R, PCT C — the Steering Committee is Accountable, the Project Manager Responsible. Where there is no separate Transition Plan the PM must still identify the roles responsible, define what must be achieved before transition is complete, prepare data backups and rollback scenarios, ensure business implementation activities and user training happen, coordinate and communicate delivery, start maintenance and support, and hand over all documentation; the PO provisionally accepts before transition completes and ownership then transfers. The RfC gate, section 7.6 p.62, is the third and final phase gate: the PM assesses that the Executing goals were met, requirements satisfied and outputs fully delivered, accepted at least provisionally, transitioned and available to end-users, and the PSC then authorises the move to Closing. The Phase Exit Review Checklist guides that assessment; nobody approves it. Approver: the PSC authorises the phase transition. Final project acceptance, the Project Acceptance Note and administrative closure all belong to the Closing Phase (pp.63 and 81). Pages 62, 63 and 83.",
+  "notePlain": "Rule: on Manage Transition the Steering Committee is Accountable and the Project Manager is Responsible. If a project has no separate Transition Plan, the Project Manager must still name who is responsible, define what must be true before transition is finished, prepare backups and a rollback plan, make sure training and business changes happen, coordinate and communicate the delivery, start maintenance and support, and hand over all documentation. The Project Owner accepts the deliverables provisionally before transition is complete, and ownership then passes to her. Ready for Closing is the third and last gate. The Project Manager checks that the phase goals were met, the requirements satisfied, the outputs delivered, accepted at least provisionally, transitioned and available to users. The Steering Committee then authorises the move to Closing. The Phase Exit Review Checklist guides the check and approves nothing. Final acceptance and administrative closure belong to the Closing Phase. Pages 62, 63 and 83."
+ }
+]

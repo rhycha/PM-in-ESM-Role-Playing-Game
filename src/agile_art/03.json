@@ -1,0 +1,296 @@
+{
+ "n": 3,
+ "id": "iterations",
+ "name": "Iterations",
+ "group": "The Model",
+ "one_liner": "A fixed timebox producing a stable, potentially shippable slice of solution.",
+ "purpose": "An Agile iteration is a period of time within a project in which the A-PCT produces a stable, potentially shippable part of the solution together with any supporting documentation or deliverables. Iterations are timeboxed: the duration is fixed and the scope of the content is actively managed to meet that schedule. Each iteration produces a product increment that brings the system one step closer to the final product.",
+ "guide_page": 19,
+ "meta": [
+  [
+   "Guide reference",
+   "§3.3.2, pp. 19–21"
+  ],
+  [
+   "Definition",
+   "Predefined, timeboxed and recurring period in which the working solution is created (glossary, p. 104)"
+  ],
+  [
+   "Typical duration",
+   "One to four weeks; in PM²-Agile every iteration has the same duration"
+  ],
+  [
+   "Fixed vs managed",
+   "Duration is fixed; scope of the content is actively managed"
+  ],
+  [
+   "Ceremonies inside one",
+   "Iteration Planning (first activity) · Daily Stand-up · Release Planning (≥ once) · Review + Retrospective (last day)"
+  ],
+  [
+   "Output",
+   "A product increment plus a refined, prioritised Work Items List"
+  ],
+  [
+   "RAM shown below",
+   "The Iteration Plan artefact (§7.2.2.3, p. 80) — not a ceremony row"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "C",
+   "S",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "1. What an iteration is",
+   "items": [
+    "A period in which the A-PCT produces a stable, potentially shippable part of the solution",
+    "Plus any other necessary supporting documentation or deliverables",
+    "Timeboxed: duration fixed, content actively managed to meet the schedule",
+    "Produces a product increment — the system is 'grown', not assembled part after part",
+    "Properly planned: goals well-defined, acceptance criteria established, tasks and responsibilities clear, progress transparent through agreed metrics"
+   ]
+  },
+  {
+   "sec": "2. Why every iteration is the same length (p. 35)",
+   "items": [
+    "Establishes the 'heartbeat' of the project",
+    "Reduces overall uncertainty — we cannot predict everything, but we control when an iteration ends",
+    "Helps understand the project team's performance",
+    "Small and regular iterations also allow decisions to be postponed to the last responsible moment (Set Based Design)"
+   ]
+  },
+  {
+   "sec": "3. What every iteration must do",
+   "items": [
+    "Implement the highest-priority Work Items from the Work Items List",
+    "Address the most critical risks, so each iteration adds value while reducing uncertainty",
+    "Dedicate a portion of its time to lay the foundation for the next iteration — this is where Design Blocks play their role",
+    "Integrate continuously: unit-tested components integrated into regular builds, submitted for integration testing"
+   ]
+  },
+  {
+   "sec": "4. The three ways of exposing work (p. 20)",
+   "items": [
+    "Exposure of Work Items — when the team completes one or more items; keep it light, notify the PrOw, request feedback",
+    "Exposure at the end of an Iteration — supports the Iteration Review; includes all items deemed ready for review",
+    "Release — an agreed Solution Increment delivered to client and users, containing all Done Work Items from several prior iterations",
+    "The sum of all Work Items exposed is what makes a great Iteration Review"
+   ]
+  },
+  {
+   "sec": "5. The iteration ring (CIR)",
+   "items": [
+    "Coordinate: Iteration Planning is the first activity; Daily Stand-up each day; Release Planning at least once",
+    "Implement: build, integrate, expose Work Items to the PrOw as they become ready",
+    "Review: Iteration Review then Iteration Retrospective on the last day",
+    "Close: Iteration Plan updated with the outcome; refined and prioritised WIL handed to the next Iteration Planning"
+   ]
+  },
+  {
+   "sec": "6. What comes out of an iteration",
+   "items": [
+    "A validated increment demonstrated against the iteration goal",
+    "Accepted / rejected verdicts per Work Item against acceptance criteria and the Definition of Done",
+    "New velocity data, which is reflected in the Release Plan",
+    "Retrospective actions, placed in the Work Items List like any other item"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Iteration",
+   "what": "A period in which the A-PCT produces a stable, potentially shippable part of the solution, with supporting documentation and deliverables.",
+   "who": "A-PCT delivers it",
+   "pollux": "Iteration 7 runs Mon 02 Apr to Fri 13 Apr 2029, ten calendar working days."
+  },
+  {
+   "f": "Timebox",
+   "what": "The practice of constraining the time for an activity. The iteration duration is fixed; the scope of its content is what flexes.",
+   "who": "TeCo protects the timebox",
+   "pollux": "Two weeks, fixed for all 26 POLLUX iterations — never extended to fit scope."
+  },
+  {
+   "f": "Same duration for all",
+   "what": "Every PM²-Agile iteration has the same length, for three reasons: project heartbeat, reduced uncertainty, and understanding team performance.",
+   "who": "Set in the Development Handbook",
+   "pollux": "Two weeks even across Easter; the holiday cuts capacity, not the timebox."
+  },
+  {
+   "f": "Product increment",
+   "what": "The output of one iteration: prototypes or specific parts of the system developed or updated, bringing the system one step closer to the final product.",
+   "who": "ATeMs build it",
+   "pollux": "Iteration 7 adds exposure by instrument to the read-only member-state view."
+  },
+  {
+   "f": "Potentially shippable",
+   "what": "Stable and demonstrable at the end of the iteration; not necessarily deployed. Deployment to users is what makes a Release.",
+   "who": "A-PCT judges against the DoD",
+   "pollux": "Instrument view is potentially shippable in April; it ships with Release 2 in June."
+  },
+  {
+   "f": "Iteration Goal",
+   "what": "The well-defined goal of the iteration, proposed by the PrOw from the prioritised WIL, committed to by the A-PCT, and evaluated at the Review.",
+   "who": "PrOw proposes · A-PCT commits",
+   "pollux": "\"A Risk analyst can break exposure down by instrument, traceable to the lending platform.\""
+  },
+  {
+   "f": "Iteration Plan",
+   "what": "The subset of the WIL planned for the iteration, plus start and end dates, the Iteration Goal, sync points with other teams, and related risks and issues.",
+   "who": "TeCo R · PM A · PrOw C",
+   "pollux": "One Iteration Plan per iteration; opened at planning, closed at the review."
+  },
+  {
+   "f": "One iteration, one plan",
+   "what": "Every iteration starts with the Iteration Planning ceremony and ends with the Iteration Review; that arc is captured in a single Iteration Plan.",
+   "who": "TeCo maintains it",
+   "pollux": "Iteration Plan 7 records the Easter Monday holiday and the 189-hour capacity."
+  },
+  {
+   "f": "Acceptance criteria",
+   "what": "Criteria by which a work item is evaluated against client expectations. Commonly all-or-nothing: all pass and the item is a candidate for Done, or it is not Done.",
+   "who": "PrOw defines · ATeM builds to them",
+   "pollux": "Curie's criteria are the reason nobody argues at the review."
+  },
+  {
+   "f": "Definition of Done",
+   "what": "The team's standard for finished work, checked at the Iteration Review. Meeting acceptance criteria alone does not make an item Done.",
+   "who": "A-PCT owns it",
+   "pollux": "POLLUX adds accessibility and a data-protection check to the DoD."
+  },
+  {
+   "f": "Design Blocks",
+   "what": "Workshops within Release Planning where ATeMs sketch low-fidelity prototypes until common understanding is reached; high-fidelity ones then go to stakeholders.",
+   "who": "ATeMs facilitate · PrOw presents · BM/BIG validate",
+   "pollux": "Where Risk, the Board and Finance stop describing three different reports."
+  },
+  {
+   "f": "Foundation for the next iteration",
+   "what": "Each iteration must dedicate a portion of its time to laying the foundation for the work of the following iteration.",
+   "who": "A-PCT plans the slice",
+   "pollux": "Iteration 7 refines the reconciliation-panel stories that Iteration 8 will build."
+  },
+  {
+   "f": "Exposure of Work Items",
+   "what": "Light-touch delivery of a completed item into a standard test environment; the ATeM notifies the PrOw and requests feedback. Formalism kept to a minimum.",
+   "who": "ATeM exposes · PrOw feeds back",
+   "pollux": "Curie sees each instrument-view story the day it is ready, not on the 13th."
+  },
+  {
+   "f": "Continuous integration",
+   "what": "Unit-tested components are integrated to generate a build submitted for integration testing; regular builds spread integration problems across the cycle.",
+   "who": "ATeMs",
+   "pollux": "Broken-build percentage is one of the metrics collected at the retrospective."
+  },
+  {
+   "f": "Velocity",
+   "what": "The number of story points associated with stories finished over a timeboxed iteration; used to test Release Plan feasibility.",
+   "who": "ATeMs generate · TeCo reflects it in the Release Plan",
+   "pollux": "Average 34 points over iterations 4–6; only 21 accepted in iteration 7."
+  },
+  {
+   "f": "Work Items List (WIL)",
+   "what": "The prioritised list of everything to be built — user stories, enabler stories, defects. The main driver of the project and the source of every iteration's content.",
+   "who": "PrOw R · PM A",
+   "pollux": "Curie owns it; Hopper supports; Einstein feeds enablers into it."
+  },
+  {
+   "f": "Enabler story",
+   "what": "A technical work item that supports the implementation of the business solution; identified by the A-PCT, typically explained to the PrOw by the ArOw.",
+   "who": "ArOw proposes · PrOw prioritises",
+   "pollux": "WIL-121, the nightly instrument reference sync from the lending platform."
+  },
+  {
+   "f": "Capacity",
+   "what": "The hours each ATeM can dedicate to the iteration, after holidays, public holidays and other events, usually with an allowance for unplanned work.",
+   "who": "Each ATeM states their own",
+   "pollux": "Nine working days × 7 hours = 63 hours, less 10% for unplanned events."
+  },
+  {
+   "f": "Transition Iteration",
+   "what": "An iteration whose activities prepare a release rather than add features. Planned and run like any regular iteration, with the proper ceremonies.",
+   "who": "A-PCT",
+   "pollux": "Iteration 6 shipped Release 1 on 29 Mar 2029 as a Transition Iteration."
+  }
+ ],
+ "traps": [
+  "The timebox is fixed and scope flexes — never the other way round.",
+  "\"Potentially shippable\" is not \"released\"; a release needs delivery to users.",
+  "Exposing Work Items during the iteration does not replace the Iteration Review.",
+  "All iterations are the same length, including Transition Iterations.",
+  "Retrospective actions are iteration content: they go into the Work Items List."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — POLLUX Iteration Plan 7 (Mon 02 Apr – Fri 13 Apr 2029)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Iteration",
+    "7 of 26 — first build iteration of the Release 2 cycle"
+   ],
+   [
+    "Dates",
+    "02 Apr 2029 to 13 Apr 2029; nine working days (Easter Monday, 02 Apr, is a public holiday)"
+   ],
+   [
+    "Iteration goal",
+    "A Risk analyst can break exposure down by instrument for any member state, every figure traceable to the lending platform"
+   ],
+   [
+    "Committed work items",
+    "WIL-118 instrument view (8) · WIL-121 nightly reference sync, enabler (5) · WIL-124 maturity buckets (8) · WIL-127 drill-through to source (8)"
+   ],
+   [
+    "Committed points",
+    "29 after the vote of confidence dropped defect WIL-131 and added an 8-hour spike"
+   ],
+   [
+    "Planned capacity",
+    "189 hours: Lamarr 57 · Babbage 50 · Eiffel 57 · Einstein 25 (ArOw building as an ATeM)"
+   ],
+   [
+    "Success criterion served",
+    "SC4 — figures traceable to the lending platform without manual mapping (40% → 100%)"
+   ],
+   [
+    "Risks carried",
+    "Nightly sync collides with the lending-platform batch window (raised by Lamarr at planning)"
+   ],
+   [
+    "Sync points",
+    "Finance sign-off on maturity bucket rules, due Wed 11 Apr"
+   ],
+   [
+    "Progress tracking",
+    "Iteration Kanban board + burndown, updated daily at the 09:30 stand-up"
+   ],
+   [
+    "Closing ceremonies",
+    "Iteration Review Fri 13 Apr 10:00–12:00 · Iteration Retrospective Fri 13 Apr 14:00–16:00"
+   ],
+   [
+    "Outcome recorded 13 Apr",
+    "21 points accepted; WIL-127 returned to the top of the WIL, not Done"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "n": 25,
+ "id": "decision-log",
+ "name": "Decision Log",
+ "family": "Log",
+ "one_liner": "Every decision taken: who was present, who owns it, when it applies and who must be told.",
+ "purpose": "The Decision Log contains a summary of the project decisions taken. It brings visibility to decisions and accountability as to how and by whom they are taken, when they become applicable and to whom they must be communicated. Decisions are documented particularly during the Executing Phase, are linked to the resolution of other log items (risks, issues and changes), and are either taken by the Project Manager (PM) or escalated to the Project Steering Committee (PSC) depending on their importance.",
+ "guide_page": 99,
+ "rasci": null,
+ "created_in": "Initiating Phase (set up with the Risk and Issue Logs, p.31)",
+ "approved_by": "n/a - maintained by the Project Manager (PM); each decision is owned by its decision owner, escalated to the PSC when important (p.79)",
+ "inputs": [
+  "Issue Management Plan",
+  "Minutes of Meetings (MoMs)",
+  "Project Logs (Risk, Issue, Change)",
+  "Project Handbook (escalation procedure)"
+ ],
+ "feeds": [
+  "Project Status Report",
+  "Change Log",
+  "Project-End Report"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Initiating",
+   "what": "Log set up alongside the Risk and Issue Logs"
+  },
+  {
+   "phase": "Planning",
+   "what": "Records planning decisions such as outsourcing and plan ownership"
+  },
+  {
+   "phase": "Executing",
+   "what": "Main use: decisions documented as they are taken"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Decisions linked to related risks, issues and changes; status reported"
+  },
+  {
+   "phase": "Closing",
+   "what": "Decision history supports the Project-End Report and Lessons Learned"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Decision Identification",
+   "items": [
+    "ID",
+    "Category",
+    "Title",
+    "Description",
+    "Identified by",
+    "People present",
+    "Comments"
+   ]
+  },
+  {
+   "sec": "Ownership",
+   "items": [
+    "Decision Owner",
+    "Decision Date",
+    "Escalation"
+   ]
+  },
+  {
+   "sec": "Decision Implementation",
+   "items": [
+    "Application Date",
+    "Decision communicated to:"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "ID",
+   "what": "The decision identifier. The template ships rows pre-numbered D01-D20; projects tailor the scheme.",
+   "who": "PM assigns when the decision is logged",
+   "castor": "D-09"
+  },
+  {
+   "f": "Category",
+   "what": "Area affected by the decision: business, IT, people & organisation, external or legal.",
+   "who": "PM classifies",
+   "castor": "Business / Scope"
+  },
+  {
+   "f": "Title",
+   "what": "Short title for the decision.",
+   "who": "PM writes it",
+   "castor": "Postpone CR-014 SRF-backstop screens to post-go-live"
+  },
+  {
+   "f": "Description",
+   "what": "Description of the decision's details and its impact, if applicable, including any conditions attached.",
+   "who": "PM drafts from the Minutes of Meeting",
+   "castor": "Release 2 scope frozen; configuration hooks kept so the backstop can onboard in six weeks once ratified."
+  },
+  {
+   "f": "Identified by",
+   "what": "The name of the person who identified the need for a decision - not necessarily the decision maker.",
+   "who": "Whoever raised the need",
+   "castor": "Project Manager (PM), after assessing change request CR-014"
+  },
+  {
+   "f": "People present",
+   "what": "Names of those present when the decision was made; reference the relevant Minutes of Meeting (MoM) instead of repeating them.",
+   "who": "PM records from the MoM",
+   "castor": "PSC of 26/05/27: Florence Nightingale (chair), Leonardo da Vinci, Grace Hopper, PM, Marie Curie, Albert Einstein"
+  },
+  {
+   "f": "Comments",
+   "what": "The traceability column: IDs of related Change, Risk or Issue Log entries, related Project Work Plan tasks, plus any extra information.",
+   "who": "PM maintains",
+   "castor": "CR-014; risk R-03; issue I-11 reduced Release 2 capacity"
+  },
+  {
+   "f": "Decision Owner",
+   "what": "The person accountable for the decision. A committee decision still needs a named accountable person.",
+   "who": "PM records the accountable person",
+   "castor": "Florence Nightingale (PO), chairing the PSC"
+  },
+  {
+   "f": "Decision Date",
+   "what": "The date on which the decision was taken. Distinct from the date it becomes applicable.",
+   "who": "PM records",
+   "castor": "26/05/27"
+  },
+  {
+   "f": "Escalation",
+   "what": "Should the decision be escalated to the Directing or Steering Layers? Yes or No, per the project's escalation procedure.",
+   "who": "PM decides against the Governance Model",
+   "castor": "Yes - taken at the Steering Layer by the PSC, CIB informed"
+  },
+  {
+   "f": "Application Date",
+   "what": "The date on which the decision becomes applicable. Guide Appendix B calls this field 'Date of Application'.",
+   "who": "Decision owner sets; PM records",
+   "castor": "27/05/27"
+  },
+  {
+   "f": "Decision communicated to:",
+   "what": "The groups, teams and individuals to whom the decision must be communicated, as per the Communications Management Plan.",
+   "who": "PM communicates and records",
+   "castor": "PCT, Levallois (Gustave Eiffel), BIG, and the requesting cabinet via the PO"
+  }
+ ],
+ "traps": [
+  "The Decision Log has no Status column - decisions are dated, then applied.",
+  "Decision Date is when it was taken; Application Date is when it bites.",
+  "Decision Log records the decision; the Change Log records the change decided.",
+  "The Assessing versus Investigating status conflict concerns the Risk and Change Logs only.",
+  "Set up in Initiating with the Risk and Issue Logs; Change Log waits for Planning."
+ ],
+ "castor_excerpt": {
+  "title": "Extract - Decision Log, as at 31 May 2027",
+  "rows": [
+   [
+    "ID",
+    "Decision",
+    "Decision Owner",
+    "Decision Date",
+    "Esc.",
+    "Application Date",
+    "Communicated to",
+    "Comments"
+   ],
+   [
+    "D-03",
+    "Buy a configurable platform; do not build in-house",
+    "Lorenzo de' Medici (AGB, chair of the CIB)",
+    "09/06/26",
+    "Yes",
+    "26/06/26",
+    "PSC, PCT, Procurement",
+    "Outsourcing Plan - AGB is Accountable"
+   ],
+   [
+    "D-05",
+    "Retraining of 40 loan administrators belongs to the Business Implementation Plan, not the Transition Plan",
+    "Florence Nightingale (PO)",
+    "23/06/26",
+    "No",
+    "26/06/26",
+    "BIG, PCT, Marie Curie (UR)",
+    "Risk R-05"
+   ],
+   [
+    "D-07",
+    "Award the platform contract to Levallois Systems",
+    "Florence Nightingale (PO)",
+    "18/09/26",
+    "Yes",
+    "18/09/26",
+    "PSC, PCT, Levallois, CIB",
+    "Outsourcing Plan; opens risk R-07"
+   ],
+   [
+    "D-08",
+    "Levallois to name a replacement architect by 22/05/27, handover at its own cost",
+    "Leonardo da Vinci (SP)",
+    "30/04/27",
+    "Yes",
+    "01/05/27",
+    "PSC, PCT, Levallois",
+    "Issue I-11 (materialised risk R-07)"
+   ],
+   [
+    "D-09",
+    "Postpone CR-014 SRF-backstop screens to post-go-live; keep configuration hooks in Release 2",
+    "Florence Nightingale (PO)",
+    "26/05/27",
+    "Yes",
+    "27/05/27",
+    "PSC, PCT, Levallois, BIG, requesting cabinet",
+    "CR-014; R-03; I-11"
+   ],
+   [
+    "D-11",
+    "Hold Release 2 at 17/12/27 and rebuild architecture cover in-house rather than re-tender",
+    "Leonardo da Vinci (SP)",
+    "18/10/27",
+    "Yes",
+    "19/10/27",
+    "PSC, PCT, Levallois",
+    "Issue I-14 (second materialisation of R-07)"
+   ]
+  ]
+ }
+}

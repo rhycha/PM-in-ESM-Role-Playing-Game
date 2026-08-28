@@ -1,0 +1,316 @@
+{
+ "n": 21,
+ "id": "development-status-report",
+ "name": "Development Status Report",
+ "group": "Artefacts",
+ "one_liner": "The team's progress, in the Project Status Report's own terms.",
+ "purpose": "The Development Status Report documents and communicates the status of the A-PCT towards the development goals, and is incorporated at the project reporting level. Like the Project Status Report it carries tracking information on cost, schedule, scope, risks, issues, changes and forecasts for the project's next steps, and it can follow each iteration and/or each release depending on the project's reporting needs. One of its key elements is the burndown chart, at both iteration and release level.",
+ "guide_page": 83,
+ "meta": [
+  [
+   "Artefact type",
+   "Coordination & reporting artefact"
+  ],
+  [
+   "PM² equivalent",
+   "Project Status Report — the Development Status Report becomes a section of it"
+  ],
+  [
+   "Produced by",
+   "Team Coordinator (TeCo) — Responsible"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — as on every agile artefact row"
+  ],
+  [
+   "Frequency",
+   "Can follow each iteration and/or each release, per the project's reporting needs"
+  ],
+  [
+   "Key element",
+   "The burndown chart — release level and iteration level"
+  ],
+  [
+   "PrOw and ArOw",
+   "Informed only; ATeM Support with their daily work information"
+  ],
+  [
+   "Lifecycle",
+   "Planning Created · Executing Created (p.85 table prints 'Created' in both columns)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "I",
+   "I",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "1. Tracking information",
+   "items": [
+    "Cost",
+    "Schedule",
+    "Scope",
+    "Risks",
+    "Issues",
+    "Changes",
+    "Forecasts for the project's next steps"
+   ]
+  },
+  {
+   "sec": "2. Release burndown chart",
+   "items": [
+    "Shows the estimated functionality remaining to complete the current release",
+    "When can the release be completed, based on the team's velocity?",
+    "What progress has been accomplished so far?",
+    "Is the team's velocity sufficient to complete the release on time?"
+   ]
+  },
+  {
+   "sec": "3. What the release chart exposes",
+   "items": [
+    "A broad view of a release's progress",
+    "Reviewed at least once each iteration",
+    "Whether functionality is being delivered at the expected pace",
+    "Projects whose scope is out of control"
+   ]
+  },
+  {
+   "sec": "4. Iteration burndown chart",
+   "items": [
+    "The primary tool for understanding the status of the current iteration",
+    "Current team performance based on estimated effort left",
+    "Against optimal performance — the expected effort left that fulfils the iteration goal",
+    "Updated frequently, preferably daily"
+   ]
+  },
+  {
+   "sec": "5. The two charts differ",
+   "items": [
+    "Iteration chart tracks remaining effort in points or hours",
+    "Release chart tracks functionality delivered",
+    "The release chart compares functionality delivered against functionality forecast"
+   ]
+  },
+  {
+   "sec": "6. Actions the charts trigger",
+   "items": [
+    "Remove work items from the iteration or from the Work Items List",
+    "Reduce the ambition level associated with a work item",
+    "Find better ways of approaching work items",
+    "Adjust resources, budget, timelines, quality levels or commitments"
+   ]
+  },
+  {
+   "sec": "7. Inputs",
+   "items": [
+    "The Iteration and Release Plans",
+    "The team's velocity",
+    "The Work Items List",
+    "An updated release strategy",
+    "The project management logs — issues, decisions, risks"
+   ]
+  },
+  {
+   "sec": "8. How it is communicated",
+   "items": [
+    "Progress meetings aligned with iteration and release cycles",
+    "A status meeting at the end of each iteration",
+    "Status kept visible in a project workspace — walls or an automated tool",
+    "Stakeholders can come and experience the progress first-hand"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Status towards development goals",
+   "what": "Documents and communicates the status of the A-PCT towards the development goals of the project.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Reported per iteration and consolidated per release across POLLUX's four releases."
+  },
+  {
+   "f": "Cost",
+   "what": "Tracking information on cost, as in the Project Status Report — the agile layer's contribution to project cost reporting.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "€2.1 m of €4.6 m consumed at the end of Release 2."
+  },
+  {
+   "f": "Schedule",
+   "what": "Where delivery stands against the planned releases and iterations.",
+   "who": "TeCo Responsible",
+   "pollux": "Release 2 delivered on 28 Jun 2029 as planned; Release 3 forecast holds."
+  },
+  {
+   "f": "Scope",
+   "what": "What has been delivered and what has moved — the visible face of re-prioritisation.",
+   "who": "TeCo Responsible · PrOw Informed",
+   "pollux": "Scenario overlay pulled forward into Release 3; self-service builder trimmed."
+  },
+  {
+   "f": "Risks, issues and changes",
+   "what": "Carried from the project logs so the managing layer sees domain-specific items that affect the project.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Risk R3 (single-point data knowledge) reduced after pairing; one open change request."
+  },
+  {
+   "f": "Forecasts",
+   "what": "Forecasts for the project's next steps — the report is not only backward-looking.",
+   "who": "TeCo Responsible",
+   "pollux": "At 34 points velocity, Release 3 completes 27 Sep 2029 with two points of margin."
+  },
+  {
+   "f": "Release burndown chart",
+   "what": "Shows the estimated functionality remaining to complete the current release, reviewed at least once each iteration.",
+   "who": "TeCo Responsible",
+   "pollux": "Release 2 chart flattened at iteration 8, then recovered when the late rule set arrived."
+  },
+  {
+   "f": "When can the release complete",
+   "what": "The release chart answers when the release can be completed based on the team's performance — its velocity.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Forecast at iteration 9 held the 28 Jun date with one item carried over."
+  },
+  {
+   "f": "Is velocity sufficient",
+   "what": "Whether the team's velocity is sufficient to complete the release on time — the feasibility question, answered with data.",
+   "who": "TeCo Responsible",
+   "pollux": "34 points against 168 remaining meant Release 3 needed a scope decision, not overtime."
+  },
+  {
+   "f": "Scope out of control",
+   "what": "The release chart can expose projects whose scope is out of control, negatively affecting expected progress.",
+   "who": "PM Accountable",
+   "pollux": "Release 4's line stopped falling as Risk added report views; that triggered the trim."
+  },
+  {
+   "f": "Iteration burndown chart",
+   "what": "The primary tool for the current iteration: estimated effort left versus the optimal effort left for the goal.",
+   "who": "TeCo Responsible · ATeM Support",
+   "pollux": "Updated daily after the stand-up; visible on the team wall at Kirchberg."
+  },
+  {
+   "f": "Frequency of updates",
+   "what": "The iteration chart should be updated frequently, preferably daily, so the team can react to changes.",
+   "who": "ATeM Support",
+   "pollux": "Daily update caught the late Finance rule set on day three, not at the review."
+  },
+  {
+   "f": "Effort versus functionality",
+   "what": "The iteration chart tracks remaining effort in points or hours; the release chart tracks functionality delivered.",
+   "who": "TeCo Responsible",
+   "pollux": "Iteration 9 chart in points; Release 2 chart in features delivered against forecast."
+  },
+  {
+   "f": "Corrective actions",
+   "what": "Removing items, reducing a work item's ambition, better approaches, or adjusting resources, budget, timelines, quality or commitments.",
+   "who": "A-PCT · PM Accountable",
+   "pollux": "Scenario spike dropped rather than the iteration extended — the reaction the chart is for."
+  },
+  {
+   "f": "Refer to the Development Work Plan",
+   "what": "Velocity, burndown charts, the Work Items List and the updated release strategy supply the objective data.",
+   "who": "TeCo Responsible",
+   "pollux": "Report is generated from the same tool that holds the WIL and both schedules."
+  },
+  {
+   "f": "Project logs are vital",
+   "what": "Issues, decisions and risks must be kept current so everything is addressed and resolved.",
+   "who": "TeCo Responsible · PM coordinates",
+   "pollux": "Log review is the first agenda item of the end-of-iteration status meeting."
+  },
+  {
+   "f": "Align progress meetings",
+   "what": "A progress status meeting at the end of each iteration is an effective way to communicate the development effort's status.",
+   "who": "PM and TeCo",
+   "pollux": "End-of-iteration status meeting on Friday afternoons, separate from the Retrospective."
+  },
+  {
+   "f": "Transparency",
+   "what": "Keep status visible to stakeholders in a project workspace — walls or an automated tool — where progress can be seen first-hand.",
+   "who": "Whole A-PCT",
+   "pollux": "Boards on the wall; Gantt (PSO) reads them instead of requesting a Gantt chart."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "BM I · PM A · TeCo R · PrOw I · ArOw I · ATeM S — PrOw and ArOw are informed, not supporting.",
+   "who": "PM Accountable · TeCo Responsible",
+   "pollux": "Lovelace writes it; you carry the relevant part into the POLLUX Project Status Report."
+  }
+ ],
+ "traps": [
+  "Development Status Report becomes a section of the Project Status Report.",
+  "PrOw is only Informed — the Product Owner does not own progress reporting.",
+  "Iteration burndown tracks effort; release burndown tracks functionality delivered.",
+  "The p.85 phase table says Created in Planning and Created in Executing — not 'Updated'.",
+  "The Daily Stand-up is not a status meeting; this report is where status lives."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Development Status Report, end of iteration 9 (Release 2)",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Period",
+    "Iteration 9, 07–18 May 2029"
+   ],
+   [
+    "Iteration goal",
+    "Achieved — Finance reconciles without a spreadsheet"
+   ],
+   [
+    "Delivered",
+    "34 points committed, 31 delivered, one item carried to iteration 10"
+   ],
+   [
+    "Velocity",
+    "34-point average holding since iteration 3"
+   ],
+   [
+    "Release burndown",
+    "Release 2 on track for 28 Jun 2029; 68 points remaining"
+   ],
+   [
+    "Cost",
+    "€2.1 m of €4.6 m consumed"
+   ],
+   [
+    "Scope change",
+    "Scenario overlay pulled forward into Release 3 at Risk's request"
+   ],
+   [
+    "Risks and issues",
+    "R3 pairing mitigation working; Finance control file arrived two days late"
+   ],
+   [
+    "Forecast",
+    "Release 3 achievable at current velocity with two points of margin"
+   ],
+   [
+    "Responsible · Accountable",
+    "Ada Lovelace (TeCo) · Project Manager (PM)"
+   ],
+   [
+    "Feeds",
+    "POLLUX Project Status Report, development section"
+   ]
+  ]
+ }
+}

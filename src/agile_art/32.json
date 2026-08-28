@@ -1,0 +1,265 @@
+{
+ "n": 32,
+ "id": "requirements",
+ "name": "Requirements",
+ "group": "Themes",
+ "one_liner": "Features and stories, each with a business or enabler perspective, prioritised in one list.",
+ "purpose": "Requirements describe the product or service features needed to satisfy stakeholders' needs. When requirements are not entirely known, or the rate of change is high, agile and Lean UX approaches yield better results than fixing them upfront. To manage them, PM²-Agile uses two dimensions: the Abstraction Level, expressed through Features and Stories, and the Implementation Perspective, expressed through Business and Enabler items.",
+ "guide_page": 30,
+ "meta": [
+  [
+   "Theme",
+   "4.4 — spans guide pages 30 to 32"
+  ],
+  [
+   "Two dimensions",
+   "Abstraction Level (features, stories) and Implementation Perspective (business, enabler)"
+  ],
+  [
+   "Collected in",
+   "The prioritised Work Items List"
+  ]
+ ],
+ "rasci": {
+  "title": "RAM (RASCI) — Work Items List",
+  "rows": [
+   [
+    "Role",
+    "Letter"
+   ],
+   [
+    "BM",
+    "S"
+   ],
+   [
+    "PM",
+    "A"
+   ],
+   [
+    "TeCo",
+    "C"
+   ],
+   [
+    "PrOw",
+    "R"
+   ],
+   [
+    "ArOw",
+    "S"
+   ],
+   [
+    "ATeM",
+    "S"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Abstraction level — the ladder",
+   "items": [
+    "Feature — a proposed service addressing business, customer and user needs",
+    "Features are described in the Project Charter with a high level of abstraction",
+    "Features (functional units) are decomposed into stories (working units) to fit an iteration",
+    "Story — a small, vertical slice of system behaviour supporting incremental development",
+    "Stories are referred to as Work Units or Work Items and collected in a prioritised Work Items List"
+   ]
+  },
+  {
+   "sec": "Implementation perspective — the split",
+   "items": [
+    "Business Feature — a feature with a business perspective",
+    "Enabler Feature — a feature with an enablement perspective",
+    "User Story — a story with a business perspective",
+    "Enabler Story — a story with an enablement perspective",
+    "Enablement Work covers architecture, infrastructure, evaluating options, legal compliance, continuous improvement, other non-functional requirements"
+   ]
+  },
+  {
+   "sec": "The reporting units these map onto",
+   "items": [
+    "Delivery units — work packages, deliveries",
+    "Functional units — features",
+    "Work units — user stories, enabler stories, bugs"
+   ]
+  },
+  {
+   "sec": "Three strategic risks in identifying requirements",
+   "items": [
+    "Requirements derived from a known solution express the 'how' rather than the 'what'",
+    "Requirements are investment items and may duplicate capabilities that already exist",
+    "Without clarifying the problem first, opportunities are missed and enterprise impact underestimated"
+   ]
+  },
+  {
+   "sec": "How features are prioritised",
+   "items": [
+    "Combine Business Value with the 'Size' of a feature",
+    "Highest business value with the shortest turn-around time is delivered first",
+    "In higher-risk projects, weigh the risk reduction factor — higher risk, higher priority",
+    "Involve the Business Manager, the Project Owner and the Business Implementation Group"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "What a requirement is",
+   "what": "A description of product or service features that are required to satisfy the stakeholders' needs.",
+   "who": "Requestor and provider organisations",
+   "pollux": "'Exposure by member state, instrument and maturity, traceable to the platform.'"
+  },
+  {
+   "f": "When fixing them upfront works",
+   "what": "If both requestor and provider are certain the specification describes the solution completely, the traditional upfront planning approach can be used.",
+   "who": "Requestor and provider",
+   "pollux": "True on CASTOR, which replaced a system that already did a defined job."
+  },
+  {
+   "f": "When agile works better",
+   "what": "When requirements are not entirely known or the rate of change is high, agile and Lean UX approaches yield better results.",
+   "who": "A-PCT, stakeholders",
+   "pollux": "Each quarter the reporting requirements change — so POLLUX went agile."
+  },
+  {
+   "f": "Co-evolution",
+   "what": "Good agile organisation creates conditions for requestor and provider co-evolution through regular exposure to their agreements' interpretation.",
+   "who": "PrOw, A-PCT, User Representatives",
+   "pollux": "Curie and the team reinterpret the report definition every fortnight."
+  },
+  {
+   "f": "Risk — 'how' not 'what'",
+   "what": "Requirements derived from knowledge of possible solutions express the how rather than the what, limiting discovery of the best solution.",
+   "who": "PrOw, ArOw",
+   "pollux": "'Rebuild the spreadsheets in a portal' would have fixed the wrong solution."
+  },
+  {
+   "f": "Risk — investment and duplication",
+   "what": "Each requirement is an investment item and a recurring expense, and may duplicate capabilities that already exist and could be reused.",
+   "who": "ArOw, Architecture Office",
+   "pollux": "Einstein checks what the CASTOR platform already provides before building."
+  },
+  {
+   "f": "Risk — problem not clarified",
+   "what": "The problem or need must be fully documented in the PM² Business Case before gathering requirements, then implementation impact evaluated.",
+   "who": "BM responsible for the Business Case",
+   "pollux": "The Business Case documents the five-day, four-analyst quarter-end problem."
+  },
+  {
+   "f": "Dimension — abstraction level",
+   "what": "PM²-Agile acknowledges the key role of Features and Stories in describing the solution's behaviour at different abstraction levels.",
+   "who": "PrOw, A-PCT",
+   "pollux": "'Reconciliation panel' as feature; its stories as the work items."
+  },
+  {
+   "f": "Dimension — implementation perspective",
+   "what": "The perspective cannot be restricted to business: the underlying work supporting the business features is the role of Business and Enabler items.",
+   "who": "ArOw with PrOw",
+   "pollux": "Traceability plumbing is enabler work; the exposure view is business work."
+  },
+  {
+   "f": "Feature definition",
+   "what": "A proposed service, within the context of a solution, that exists to address the needs of the business, the customer and the user.",
+   "who": "Described in the Project Charter",
+   "pollux": "The charter approved 12 Oct 2028 lists the portal's features."
+  },
+  {
+   "f": "Features in the Project Charter",
+   "what": "Features are described with a high level of abstraction so all layers understand the scope, with context and a benefit hypothesis to verify on delivery.",
+   "who": "PM responsible for the charter",
+   "pollux": "Each feature carries the benefit hypothesis behind criteria SC1 to SC5."
+  },
+  {
+   "f": "Feature prioritisation",
+   "what": "Features must be prioritised to execute the release strategy, involving key stakeholders such as the BM, the Project Owner and the BIG.",
+   "who": "BM, PO, BIG",
+   "pollux": "Hopper and Nightingale weigh in on which views come first."
+  },
+  {
+   "f": "Business value and size",
+   "what": "Combine business value and feature size; the highest value with the shortest turn-around is delivered first, weighing risk reduction where relevant.",
+   "who": "PrOw with BM",
+   "pollux": "Read-only exposure by member state is the fastest valuable slice for Release 1."
+  },
+  {
+   "f": "Features span releases",
+   "what": "A feature is developed and delivered in the context of a release across several iterations, so it must be decomposed into stories.",
+   "who": "PrOw, ATeMs",
+   "pollux": "The reconciliation panel spans several two-week iterations before Release 2."
+  },
+  {
+   "f": "Story definition",
+   "what": "A piece of functionality written in user-focused language, implemented within an iteration, representing a small vertical slice of system behaviour.",
+   "who": "A-PCT implements",
+   "pollux": "One view, one filter, one export — each a slice a fortnight can carry."
+  },
+  {
+   "f": "Just enough information",
+   "what": "Stories give just enough information for business and technical people to understand the intent; details are deferred until implementation.",
+   "who": "PrOw, ATeMs",
+   "pollux": "Detail on maturity buckets waits until the story is pulled."
+  },
+  {
+   "f": "Acceptance criteria",
+   "what": "Through acceptance criteria and acceptance tests, stories become more specific, helping to ensure system quality.",
+   "who": "PrOw, ATeMs",
+   "pollux": "Nobody argues with Curie's acceptance criteria."
+  },
+  {
+   "f": "Who consumes stories",
+   "what": "The main consumer is the Agile Project Core Team, though the Business Manager and User Representatives in the BIG also use them.",
+   "who": "A-PCT, BM, URs",
+   "pollux": "Hopper reads the same stories the team implements."
+  },
+  {
+   "f": "Enablement work",
+   "what": "Non-business effort enabling the features: architecture, infrastructure, evaluating options, legal compliance, continuous improvement and non-functional requirements.",
+   "who": "ArOw, ATeMs",
+   "pollux": "Data-protection work for national-authority access is enablement, not a feature."
+  },
+  {
+   "f": "Balance business and enabler",
+   "what": "Enabler items must always be visible and considered when prioritising; the ArOw helps the PrOw find the right balance.",
+   "who": "ArOw and PrOw",
+   "pollux": "Conflict 5 — all-enabler stalls value; all-business collapses velocity later."
+  }
+ ],
+ "traps": [
+  "The guide never uses the word 'epic' — features decompose directly into stories.",
+  "Features are functional units, stories are work units — not the other way round.",
+  "A feature rarely fits one iteration; a story must fit one.",
+  "Enabler stories are requirements too and compete for Work Items List priority.",
+  "Feature prioritisation involves the BM, Project Owner and BIG, not only the PrOw."
+ ],
+ "pollux_excerpt": {
+  "title": "Requirements on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Business Feature",
+    "Exposure by member state, read-only — Release 1"
+   ],
+   [
+    "Enabler Feature",
+    "Traceability back to the CASTOR lending platform (criterion SC4)"
+   ],
+   [
+    "User Story",
+    "A view slice a two-week iteration can deliver"
+   ],
+   [
+    "Enabler Story",
+    "Einstein's architecture and data-protection groundwork"
+   ],
+   [
+    "Collected in",
+    "The Work Items List, owned and prioritised by Marie Curie"
+   ],
+   [
+    "Live conflict",
+    "Conflict 5 — enabler work versus business value in Release 1"
+   ]
+  ]
+ }
+}

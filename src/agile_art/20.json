@@ -1,0 +1,309 @@
+{
+ "n": 20,
+ "id": "deployment-plan",
+ "name": "Deployment Plan",
+ "group": "Artefacts",
+ "one_liner": "How the solution reaches production, is validated there, and is watched.",
+ "purpose": "The Deployment Plan defines the strategy, the roles and responsibilities and the tasks needed to ensure the information system can be deployed, run and managed by the IT operations team. Because it focuses on the technical aspects of deployment it is closely related to IT operations concerns such as cut-over, rollbacks and back-out procedures for contingency and risk management. It must have enough detail for operations to deploy, run and manage the system, and it is complemented — not replaced — by the PM² Transition Plan and Business Implementation Plan, which cover the client organisation's readiness.",
+ "guide_page": 82,
+ "meta": [
+  [
+   "Artefact type",
+   "Agile-specific artefact"
+  ],
+  [
+   "PM² equivalent",
+   "None standalone; complemented by the PM² Transition Plan and Business Implementation Plan"
+  ],
+  [
+   "Produced by",
+   "Team Coordinator (TeCo) — Responsible"
+  ],
+  [
+   "Accountable",
+   "Project Manager (PM) — as on every agile artefact row"
+  ],
+  [
+   "Extra participant",
+   "A representative of the relevant operational unit contributes (p.82)"
+  ],
+  [
+   "Pairs with",
+   "Operational Model — both are vital to deploy and use the system in production"
+  ],
+  [
+   "Aligns with",
+   "Release Plan (release schedule) and the project-level Transition Plan"
+  ],
+  [
+   "Lifecycle",
+   "Planning Created · Executing Updated (p.83)"
+  ]
+ ],
+ "rasci": {
+  "cols": [
+   "BM",
+   "PM",
+   "TeCo",
+   "PrOw",
+   "ArOw",
+   "ATeM"
+  ],
+  "row": [
+   "I",
+   "A",
+   "R",
+   "S",
+   "S",
+   "S"
+  ],
+  "A": "PM",
+  "R": "TeCo"
+ },
+ "diagram": [
+  {
+   "sec": "The three prescribed sections",
+   "items": [
+    "1. Deployment in Production",
+    "2. Validate the Solution",
+    "3. Monitor, Report and Respond to problems"
+   ]
+  },
+  {
+   "sec": "1. Deployment in Production",
+   "items": [
+    "The complete deployment process",
+    "Which features are expected to become available",
+    "Which work packages will be generated",
+    "Which libraries will be used",
+    "Environment requirements",
+    "Generated configuration data"
+   ]
+  },
+  {
+   "sec": "2. Validate the Solution",
+   "items": [
+    "Mechanisms guaranteeing the deployment was done correctly",
+    "Specific stress and performance tests",
+    "Smoke tests with some key features",
+    "Verification of whether a correction is required",
+    "Possible full roll-back of the deployment"
+   ]
+  },
+  {
+   "sec": "3. Monitor, Report and Respond",
+   "items": [
+    "Mechanisms to detect problems",
+    "Mechanisms to report them",
+    "Mechanisms to solve them",
+    "Identify potential issues before they become real problems and jeopardise deployment and operation"
+   ]
+  },
+  {
+   "sec": "What the plan defines overall",
+   "items": [
+    "The deployment strategy",
+    "The roles and responsibilities",
+    "The tasks required so operations can deploy, run and manage the system",
+    "Enough detail for the IT operations team to work from"
+   ]
+  },
+  {
+   "sec": "IT-operations concerns",
+   "items": [
+    "Cut-over",
+    "Rollbacks",
+    "Back-out procedures for contingency",
+    "Risk management"
+   ]
+  },
+  {
+   "sec": "Fit with PM²-Agile",
+   "items": [
+    "Considers the iterative and incremental nature of PM²-Agile",
+    "Contributes to releasing working solutions at regular intervals",
+    "A Continuous Delivery Pipeline as part of a DevSecOps initiative",
+    "A living artefact revisited as feedback from previous deployments arrives"
+   ]
+  },
+  {
+   "sec": "Before it is trusted",
+   "items": [
+    "Operations must understand the plan",
+    "Deploy, operate and manage successfully in a pre-production environment",
+    "Several dry-runs for a seamless transition to production",
+    "IT Operations integrally involved where the organisation is siloed"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Deployment strategy",
+   "what": "The strategy applied for the deployment efforts during the project lifecycle, outlined and communicated to everyone involved.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Continuous delivery to pre-production; a scheduled cut-over window per quarterly release."
+  },
+  {
+   "f": "Roles and responsibilities",
+   "what": "Who does what in a deployment — creating consensus and awareness of the efforts involved in a successful technical deployment.",
+   "who": "TeCo Responsible · operations representative contributes",
+   "pollux": "Operations executes the production cut-over; the team supplies the package and the smoke-test list."
+  },
+  {
+   "f": "Deployment tasks",
+   "what": "The tasks that must be taken into account so the system can be deployed, run and managed by IT operations.",
+   "who": "TeCo Responsible · ATeM Support",
+   "pollux": "Pre-load freeze, package deploy, configuration apply, smoke tests, access re-enable."
+  },
+  {
+   "f": "Deployment in Production",
+   "what": "Details the complete deployment process: features becoming available, work packages, libraries, environment requirements, generated configuration data.",
+   "who": "TeCo Responsible",
+   "pollux": "Release 2 deploys three units — data layer, API with reconciliation, portal UI."
+  },
+  {
+   "f": "Validate the Solution",
+   "what": "The mechanisms guaranteeing the deployment was done correctly — stress and performance tests, smoke tests on key features.",
+   "who": "ATeM Support · TeCo Responsible",
+   "pollux": "Smoke test: one member state's total must match last night's reconciled control figure."
+  },
+  {
+   "f": "Roll-back",
+   "what": "Validation may show a correction is required, possibly resulting in a full roll-back of the deployment.",
+   "who": "Operations executes · TeCo plans",
+   "pollux": "Roll-back window of ninety minutes; Release 2 used it once during a rehearsal."
+  },
+  {
+   "f": "Monitor, Report and Respond",
+   "what": "Foreseen mechanisms to detect, report and solve problems, identifying potential issues before they become real problems.",
+   "who": "Operations · TeCo Responsible",
+   "pollux": "Load-completion alert before 06:00 CET; failure pages the on-call data engineer."
+  },
+  {
+   "f": "Cut-over and back-out",
+   "what": "Closely related to IT operations: cut-over, rollbacks and back-out procedures for contingency and risk management.",
+   "who": "TeCo with operations representative",
+   "pollux": "Cut-over on the Thursday evening before each release date, back-out decision by 22:00."
+  },
+  {
+   "f": "Relation to the Operational Model",
+   "what": "Closely related: both artefacts are vital to ensure the system can be deployed and used in production environments.",
+   "who": "ArOw owns the model · TeCo the plan",
+   "pollux": "Deployment units in the plan are exactly the three units named in the Operational Model."
+  },
+  {
+   "f": "Relation to the Transition Plan",
+   "what": "The PM² Transition Plan and Business Implementation Plan complement it by covering client readiness — training, support.",
+   "who": "PM Accountable at project level",
+   "pollux": "National-authority training sits in the Business Implementation Plan, not here."
+  },
+  {
+   "f": "Iterative and incremental nature",
+   "what": "Must consider the iterative and incremental nature of PM²-Agile and support releasing working solutions at regular intervals.",
+   "who": "TeCo Responsible",
+   "pollux": "Same pipeline for all four releases; nothing bespoke per release except the smoke-test list."
+  },
+  {
+   "f": "Continuous Delivery Pipeline",
+   "what": "Setting up a CD pipeline as part of a DevSecOps initiative is a strategic decision described and validated in the plan.",
+   "who": "ATeM Support · PM Accountable",
+   "pollux": "Pipeline decision recorded at RfE; it removed the manual package hand-off CASTOR needed."
+  },
+  {
+   "f": "Development and Operations",
+   "what": "DevSecOps brings both ecosystems together; if the organisation is siloed, IT Operations must be integrally involved.",
+   "who": "TeCo Responsible · operations representative",
+   "pollux": "Operations sits in Release Planning once per release — da Vinci's division supplies the representative."
+  },
+  {
+   "f": "Compatible with the Development Handbook",
+   "what": "If the Handbook foresees incremental development, the Deployment Plan must foresee a strategy enabling it.",
+   "who": "TeCo owns both",
+   "pollux": "Both name the pipeline and the same pre-production environment."
+  },
+  {
+   "f": "Align with the Release Plan",
+   "what": "Deployment efforts are planned with respect to the Release Plan — critical when a separate operations department owns production.",
+   "who": "TeCo Responsible · PM Accountable",
+   "pollux": "Cut-over dates derive from the four release dates, never the other way round."
+  },
+  {
+   "f": "Test it first",
+   "what": "Operations must deploy, operate and manage the solution in pre-production; perform several dry-runs before production.",
+   "who": "Operations · ATeM Support",
+   "pollux": "Two dry-runs before Release 1; one before every later release."
+  },
+  {
+   "f": "Living artefact",
+   "what": "Revisited as the project evolves and feedback from previous deployment efforts is gathered.",
+   "who": "TeCo Responsible",
+   "pollux": "Updated after Release 1's cut-over overran by forty minutes on the configuration step."
+  },
+  {
+   "f": "RAM (RASCI) row",
+   "what": "BM I · PM A · TeCo R · PrOw S · ArOw S · ATeM S, plus a contributing representative of the operational unit.",
+   "who": "PM Accountable · TeCo Responsible",
+   "pollux": "Lovelace writes it with operations; Hopper is informed of the cut-over windows."
+  }
+ ],
+ "traps": [
+  "Deployment Plan is technical; Transition Plan and Business Implementation Plan cover people.",
+  "TeCo is Responsible, even though it is the most operational artefact.",
+  "It has three named sections — deploy, validate, monitor. Learn the three.",
+  "Operational Model describes the infrastructure; the Deployment Plan puts software onto it.",
+  "It adds a participant no other artefact has: the operational unit representative."
+ ],
+ "pollux_excerpt": {
+  "title": "Extract — Deployment Plan v3.0, Release 2 cut-over (28 Jun 2029)",
+  "rows": [
+   [
+    "Section",
+    "Content"
+   ],
+   [
+    "Deployment in Production",
+    "Three units: data layer · API with reconciliation service · portal UI"
+   ],
+   [
+    "Environment requirements",
+    "Configuration applied from the release package; no manual edits permitted"
+   ],
+   [
+    "Cut-over window",
+    "Thursday 27 Jun, 18:00–22:00 CET; back-out decision at 22:00"
+   ],
+   [
+    "Validate the Solution",
+    "Smoke test — one member state's total matches last night's reconciled control figure"
+   ],
+   [
+    "Performance test",
+    "Quarter-end volume replayed against pre-production before cut-over"
+   ],
+   [
+    "Roll-back",
+    "Ninety-minute full roll-back path, exercised in the dry-run"
+   ],
+   [
+    "Monitor and respond",
+    "Load-completion alert before 06:00 CET; failure pages the on-call data engineer"
+   ],
+   [
+    "Dry-runs",
+    "Two before Release 1; one before each later release"
+   ],
+   [
+    "Responsible · Accountable",
+    "Ada Lovelace (TeCo) · Project Manager (PM)"
+   ],
+   [
+    "Contributor",
+    "Representative of IT Operations, da Vinci's division"
+   ],
+   [
+    "Lesson folded in",
+    "Release 1 cut-over overran forty minutes on configuration — step now automated"
+   ]
+  ]
+ }
+}

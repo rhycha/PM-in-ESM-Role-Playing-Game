@@ -1,0 +1,277 @@
+{
+ "n": 26,
+ "id": "agile-team-member",
+ "name": "Agile Team Member (ATeM)",
+ "group": "Roles",
+ "one_liner": "Cross-disciplinary generalist who builds and tests the information system each iteration.",
+ "purpose": "The Agile Team Member (ATeM) focuses on producing the actual information system that is part of the project's solution. The role encompasses architecture, analysis, design, programming, testing, planning and estimation, so ATeMs have cross-disciplinary skills even though the degree of specialisation varies from individual to individual. They are generalists, as opposed to traditional highly-specialised roles such as developers, analysts and testers.",
+ "guide_page": 63,
+ "meta": [
+  [
+   "Layer",
+   "Performing layer — core role of the Agile Project Core Team (A-PCT)"
+  ],
+  [
+   "Skills",
+   "Generalists, not specialists: architecture, analysis, design, code, test, planning, estimation"
+  ],
+  [
+   "Owns",
+   "The execution of every internal ceremony, and the Test Plan"
+  ]
+ ],
+ "rasci": {
+  "title": "ATeM in the guide's RAM (RASCI) tables",
+  "rows": [
+   [
+    "Artefact or ceremony",
+    "ATeM"
+   ],
+   [
+    "Iteration Planning",
+    "R"
+   ],
+   [
+    "Daily Stand-up",
+    "R/A"
+   ],
+   [
+    "Iteration Review",
+    "R"
+   ],
+   [
+    "Iteration Retrospective",
+    "R/A"
+   ],
+   [
+    "Test Plan",
+    "R"
+   ],
+   [
+    "Work Items List refinement",
+    "S/A"
+   ],
+   [
+    "Work Items List / Release Plan / Iteration Plan",
+    "S"
+   ],
+   [
+    "Architecture Overview / Operational Model",
+    "S"
+   ],
+   [
+    "Development Handbook / Work Plan / Deployment Plan",
+    "S"
+   ],
+   [
+    "Manage Work Items List (ceremony)",
+    "I/S"
+   ]
+  ],
+  "legend": [
+   [
+    "Letter",
+    "Meaning"
+   ],
+   [
+    "R",
+    "Responsible — does the work and leads those who support"
+   ],
+   [
+    "A",
+    "Accountable — authorises and approves; only one person"
+   ],
+   [
+    "S",
+    "Supports — works with the Responsible person to complete it"
+   ],
+   [
+    "C",
+    "Consulted — provides input to the activity"
+   ],
+   [
+    "I",
+    "Informed — kept up to date"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Owns",
+   "items": [
+    "Production of the information system that is part of the solution",
+    "Execution of Iteration Planning, Daily Stand-up, Review and Retrospective",
+    "The Test Plan (Responsible)",
+    "The team's Definition of Done, agreed among themselves",
+    "Testing of the software — it is every ATeM's responsibility"
+   ]
+  },
+  {
+   "sec": "Decides",
+   "items": [
+    "The best way to do the work in each iteration",
+    "Which items go into the Iteration Work Items List, at their capacity",
+    "How the 'meet after' from the Daily Stand-up is organised",
+    "The relative estimates given to work items"
+   ]
+  },
+  {
+   "sec": "Attends",
+   "items": [
+    "Iteration Planning — Responsible for running it and building the Iteration WIL",
+    "Daily Stand-up — Responsible; provides work information against the Iteration Goal",
+    "Iteration Review — Responsible for setup and execution; may delegate the demo",
+    "Iteration Retrospective — Responsible for activities, Accountable for outputs",
+    "Work Items List refinement — contributes estimates and new items"
+   ]
+  },
+  {
+   "sec": "Does not do",
+   "items": [
+    "Set priorities or accept work items — the Product Owner does both",
+    "Report progress straight to the Project Manager — it goes via the Team Coordinator",
+    "Hand testing to someone else — testing is part of every ATeM's job",
+    "Wait for the Architecture Owner to decide — architecture is a team discussion",
+    "Depend on Domain, Technical Experts or Independent Testers, who join only temporarily"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Plans and estimates",
+   "what": "Participates in the planning and estimation of iterations and releases, supplying the relative estimates.",
+   "who": "TeCo facilitates; PrOw explains items",
+   "pollux": "Lamarr, Babbage and Eiffel size the reconciliation work for Release 2."
+  },
+  {
+   "f": "Participates in architecture design",
+   "what": "Participates in the solution architecture design rather than receiving it from the Architecture Owner.",
+   "who": "Architecture Owner, other ATeMs",
+   "pollux": "The three ATeMs shape the data model with Einstein, not under him."
+  },
+  {
+   "f": "Develops the system",
+   "what": "Develops part of the information system, in collaboration with the solution architecture design.",
+   "who": "ArOw, other ATeMs",
+   "pollux": "Babbage builds the exposure data engine feeding every portal view."
+  },
+  {
+   "f": "Tests developments",
+   "what": "Tests developments; testing the software is part of the responsibilities of all Agile Team Members.",
+   "who": "Independent Tester only if the organisation requires one",
+   "pollux": "Each ATeM tests their own work; no separate ESM test team is assumed."
+  },
+  {
+   "f": "Reports to the Team Coordinator",
+   "what": "Provides progress information to the Team Coordinator, who consolidates it into the Development Status Report.",
+   "who": "Team Coordinator, then Project Manager",
+   "pollux": "Progress reaches you through Lovelace, never directly from the developers."
+  },
+  {
+   "f": "Decides how to work",
+   "what": "Decides the best way to do the work in each iteration — the self-organising team principle in practice.",
+   "who": "The A-PCT collectively",
+   "pollux": "The team, not the PM, decides how the scenario overlay gets built."
+  },
+  {
+   "f": "Communicates and collaborates",
+   "what": "Communicates and collaborates with the rest of the Agile Project Core Team, face to face wherever possible.",
+   "who": "Whole A-PCT",
+   "pollux": "Daily Stand-up every morning keeps in-house and seconded members aligned."
+  },
+  {
+   "f": "Cross-disciplinary skills",
+   "what": "Encompasses architecture, analysis, design, programming, testing, planning and estimation; specialisation depth varies per person.",
+   "who": "A-PCT",
+   "pollux": "Lamarr is the developer but sizes, tests and designs alongside the rest."
+  },
+  {
+   "f": "Skill-growing environment",
+   "what": "Whatever their background and experience, ATeMs collaborate with the rest of the team in a skill-growing environment.",
+   "who": "A-PCT",
+   "pollux": "Eiffel's contract discipline about 'done' spreads to the in-house members."
+  },
+  {
+   "f": "Responsible for the Test Plan",
+   "what": "Drafts the Test Plan and provides technical advice on testing scope, types and techniques.",
+   "who": "PM accountable; TeCo, ArOw, PrOw support",
+   "pollux": "The ATeMs draft it; you stay accountable for the testing approach."
+  },
+  {
+   "f": "Runs the Daily Stand-up",
+   "what": "Responsible and Accountable for the Daily Stand-up; ATeMs alone arrange the 'meet after' the TeCo noted.",
+   "who": "TeCo facilitates; PM and PrOw informed",
+   "pollux": "Conflict 4 — the stand-up is theirs, not the PM's status slot."
+  },
+  {
+   "f": "Runs the Iteration Review",
+   "what": "Responsible for the setup and execution of the Review; may deliver the demo or delegate it to the Product Owner.",
+   "who": "PrOw accountable for the output; BM and BIG consulted",
+   "pollux": "Demonstrates the read-only exposure view before Release 1 on 29 Mar 2029."
+  },
+  {
+   "f": "Runs the Retrospective",
+   "what": "Responsible for all retrospective activities including collecting hard data and defining action plans; accountable for its outputs.",
+   "who": "TeCo facilitates; PrOw and BM informed if necessary",
+   "pollux": "Conflict 7 — the team must keep review and retrospective separate."
+  },
+  {
+   "f": "Domain Expert (other role)",
+   "what": "Business analysts and similar experts may be invited temporarily to help the team understand context and scope.",
+   "who": "Invited alongside the PrOw, who remains the single voice",
+   "pollux": "A quarter-end analyst joins to explain the eleven-spreadsheet chain."
+  },
+  {
+   "f": "Technical Expert (other role)",
+   "what": "Specialists in architecture, UX, security or database administration join temporarily to overcome specific technical challenges.",
+   "who": "Often from the Architecture Office",
+   "pollux": "Turing (LISO) advises on securing national-authority access for Release 3."
+  },
+  {
+   "f": "Independent Tester (other role)",
+   "what": "Some organisations require a quality assurance team working in parallel to validate the software; the A-PCT still owns quality.",
+   "who": "Parallel QA team, if the organisation requires it",
+   "pollux": "If ESM requires parallel validation, it does not relieve the ATeMs."
+  }
+ ],
+ "traps": [
+  "ATeMs are generalists — analysts and testers are ATeMs, not separate roles.",
+  "Testing belongs to every ATeM; an Independent Tester is optional and additional.",
+  "ATeMs report progress to the Team Coordinator, not to the Project Manager.",
+  "The ArOw, and the PM in ceremonies, act as regular Agile Team Members.",
+  "Domain and Technical Experts join temporarily; they are not A-PCT core roles."
+ ],
+ "pollux_excerpt": {
+  "title": "The Agile Team Members — Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Hedy Lamarr",
+    "Developer — consistently underestimated, consistently right about the hard technical problem"
+   ],
+   [
+    "Charles Babbage",
+    "Data engineer — builds the engine; famously never finished one, which is a live risk"
+   ],
+   [
+    "Gustave Eiffel",
+    "Seconded lead, Levallois Systems — contractually precise about what 'done' means"
+   ],
+   [
+    "Team shape",
+    "In-house agile team with two seconded contractor members"
+   ],
+   [
+    "Cadence",
+    "Two-week iterations; Daily Stand-up every morning"
+   ],
+   [
+    "They own",
+    "Iteration Planning, Daily Stand-up, Review and Retrospective execution"
+   ]
+  ]
+ }
+}

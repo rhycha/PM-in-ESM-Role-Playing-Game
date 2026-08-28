@@ -1,0 +1,269 @@
+{
+ "n": 28,
+ "id": "business-manager-agile",
+ "name": "Business Manager (BM) in a PM²-Agile Project",
+ "group": "Roles",
+ "one_liner": "Project Owner's delegate who empowers and aligns the Product Owner.",
+ "purpose": "As defined in PM², the Business Manager coordinates client-side activities and roles and ensures the project's deliverables fulfil business and user needs. Adopting PM²-Agile clearly extends the BM's range of action, because the new Product Owner role creates a permanent and active client's voice on the provider's side. The BM must empower the PrOw for day-to-day decisions and keep the PrOw aligned with the BM and the Business Implementation Group.",
+ "guide_page": 65,
+ "meta": [
+  [
+   "Layer",
+   "Managing layer — delegate of the Project Owner, unchanged by PM²-Agile"
+  ],
+  [
+   "Extended by",
+   "The PrOw's permanent client voice inside the Agile Project Core Team"
+  ],
+  [
+   "Must",
+   "Empower the PrOw and keep the Work Items List aligned to business strategy"
+  ]
+ ],
+ "rasci": {
+  "title": "BM in the guide's RAM (RASCI) tables",
+  "rows": [
+   [
+    "Artefact or ceremony",
+    "BM"
+   ],
+   [
+    "Business Case (PM² RAM)",
+    "R"
+   ],
+   [
+    "Project Charter (PM² RAM)",
+    "S"
+   ],
+   [
+    "Work Items List",
+    "S"
+   ],
+   [
+    "Work Items List prioritisation",
+    "S"
+   ],
+   [
+    "Manage Work Items List (ceremony)",
+    "S"
+   ],
+   [
+    "Iteration Review",
+    "C"
+   ],
+   [
+    "Work Items List refinement",
+    "I"
+   ],
+   [
+    "Release Plan / Iteration Plan / Development Work Plan",
+    "I"
+   ],
+   [
+    "Development Handbook / Development Status Report",
+    "I"
+   ],
+   [
+    "Daily Stand-up",
+    "N/A"
+   ]
+  ],
+  "legend": [
+   [
+    "Letter",
+    "Meaning"
+   ],
+   [
+    "R",
+    "Responsible — does the work and leads those who support"
+   ],
+   [
+    "A",
+    "Accountable — authorises and approves; only one person"
+   ],
+   [
+    "S",
+    "Supports — works with the Responsible person to complete it"
+   ],
+   [
+    "C",
+    "Consulted — provides input to the activity"
+   ],
+   [
+    "I",
+    "Informed — kept up to date"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Owns",
+   "items": [
+    "Coordination of client-side activities and roles — user and business representatives",
+    "Assurance that deliverables fulfil the business and user needs",
+    "The Business Case (Responsible, in the PM² RAM)",
+    "The empowerment of the Product Owner for day-to-day decisions",
+    "Alignment of the Work Items List with business strategy, with the BIG"
+   ]
+  },
+  {
+   "sec": "Decides",
+   "items": [
+    "How far the Product Owner is empowered to decide without waiting",
+    "Business priorities and objectives fed into the Work Items List",
+    "With the Project Manager, when to intervene on misaligned expectations"
+   ]
+  },
+  {
+   "sec": "Attends",
+   "items": [
+    "Manage the Work Items List — supports, explaining context changes affecting the list",
+    "Work Items List prioritisation — supports, determining priorities with the PrOw",
+    "Iteration Review — consulted on demonstrated and new or deleted work items",
+    "Informed of WIL refinement outputs, the updated Release Plan and iteration goals"
+   ]
+  },
+  {
+   "sec": "Does not do",
+   "items": [
+    "Own or prioritise the Work Items List — the PrOw is Responsible and Accountable",
+    "Act as the single voice of the stakeholders — that is the PrOw's role",
+    "Attend the Daily Stand-up — the RAM marks the BM N/A there",
+    "Accept or reject iteration output — the PrOw accepts against acceptance criteria",
+    "Manage the A-PCT or its plans — that stays with the team, TeCo and PM"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "Coordinates the client side",
+   "what": "Plays a vital role coordinating client-side activities and roles such as user and business representatives.",
+   "who": "User Representatives, BIG, Project Owner",
+   "pollux": "Hopper keeps Lending Operations' representatives lined up behind the portal."
+  },
+  {
+   "f": "Ensures fitness for business need",
+   "what": "Ensures the project's deliverables fulfil the business and user needs, as defined in PM².",
+   "who": "Project Owner, PrOw",
+   "pollux": "Holds the portal to the five success criteria in the Business Case."
+  },
+  {
+   "f": "Range of action extended",
+   "what": "PM²-Agile clearly extends the BM's range of action because the PrOw creates a permanent client voice on the provider's side.",
+   "who": "Product Owner",
+   "pollux": "Hopper gains a daily voice inside the team she did not have on CASTOR."
+  },
+  {
+   "f": "PrOw as liaison",
+   "what": "The PrOw becomes the right person to act as liaison between the User Representatives and the provider organisation.",
+   "who": "URs, provider organisation",
+   "pollux": "Curie carries reporting-analyst feedback into the team every fortnight."
+  },
+  {
+   "f": "WIL reflects client strategy",
+   "what": "The prioritised Work Items List reflects the client organisation's strategy and needs, produced by URs and PrOw in refinement.",
+   "who": "User Representatives, PrOw",
+   "pollux": "The list encodes what Risk, Finance and the Board each need from reporting."
+  },
+  {
+   "f": "URs validate in the Review",
+   "what": "The PrOw ensures User Representatives participate actively in the Iteration Review to validate the iteration output.",
+   "who": "PrOw, URs, ATeMs",
+   "pollux": "Analysts validate the reconciliation panel before Release 2 on 28 Jun 2029."
+  },
+  {
+   "f": "Empowerment of the PrOw",
+   "what": "Must empower the PrOw to take the day-to-day decisions that let the team progress without waiting for specific decisions.",
+   "who": "Product Owner",
+   "pollux": "Hopper empowers Curie; the team never waits a fortnight for an answer."
+  },
+  {
+   "f": "Alignment of the PrOw",
+   "what": "Must keep the PrOw aligned with the BM and the BIG so the Work Items List reflects the business strategy and vision.",
+   "who": "Business Implementation Group",
+   "pollux": "Alignment sessions keep Curie's priorities inside the agreed release strategy."
+  },
+  {
+   "f": "Supports prioritisation",
+   "what": "Supports the Product Owner in determining the priorities of the Work Items List; the PrOw stays Responsible and Accountable.",
+   "who": "PrOw, BIG consulted",
+   "pollux": "Conflict 3 — on Release 2, Curie decides and Hopper supports."
+  },
+  {
+   "f": "Explains context changes",
+   "what": "Supports the Manage Work Items List activity by explaining how changes to the solution or organisation context affect the list.",
+   "who": "PrOw, TeCo facilitates",
+   "pollux": "Flags that a new national-authority requirement changes Release 3 content."
+  },
+  {
+   "f": "Consulted in the Iteration Review",
+   "what": "Consulted about the demonstrated items and about new or deleted work items arising from the review.",
+   "who": "ATeMs, PrOw, BIG",
+   "pollux": "Comments on the demonstrated exposure views without accepting them."
+  },
+  {
+   "f": "Informed, not involved, downstream",
+   "what": "Informed by the PrOw of refinement outputs and the updated Release Plan, and of iteration goals by PrOw and PM.",
+   "who": "PrOw, Project Manager",
+   "pollux": "Hopper learns each iteration goal without sitting in the planning."
+  },
+  {
+   "f": "Intervention with the PM",
+   "what": "Together with the Project Manager, may intervene when expectations are not aligned or the PrOw and team cannot reach consensus.",
+   "who": "Project Manager, PrOw, A-PCT",
+   "pollux": "You and Hopper intervene only when Curie and the team deadlock."
+  },
+  {
+   "f": "Delegate of the Project Owner",
+   "what": "In the PM² organisation the BM is the Project Owner's delegate in the managing layer and collaborates with the PM.",
+   "who": "Project Owner, Project Manager",
+   "pollux": "Hopper represents Nightingale, who stays accountable for the benefits."
+  },
+  {
+   "f": "Responsible for the Business Case",
+   "what": "In the PM² RAM the BM is Responsible for the Business Case, with the Project Owner accountable.",
+   "who": "Project Owner accountable; PM supports",
+   "pollux": "The Business Case approved 12 Oct 2028 argues why agile, not just faster."
+  }
+ ],
+ "traps": [
+  "The BM does not become the Product Owner; PM²-Agile extends the BM's range of action.",
+  "An unempowered Product Owner is the failure mode — the team waits for BM decisions.",
+  "BM supports WIL prioritisation; the PrOw is Responsible and Accountable for it.",
+  "The BM is N/A in the Daily Stand-up RAM, not merely informed.",
+  "The BM represents the Project Owner; the PrOw represents stakeholders inside the team."
+ ],
+ "pollux_excerpt": {
+  "title": "Grace Hopper — Business Manager, Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Person",
+    "Grace Hopper, Senior Loan Operations Officer"
+   ],
+   [
+    "Status",
+    "Same role as on CASTOR — still the business's daily voice"
+   ],
+   [
+    "Delegate of",
+    "Florence Nightingale, Project Owner, accountable for the benefits"
+   ],
+   [
+    "Must",
+    "Empower Marie Curie and keep the Work Items List aligned to business strategy"
+   ],
+   [
+    "Attends",
+    "WIL management and prioritisation (supports); Iteration Review (consulted)"
+   ],
+   [
+    "Live conflict",
+    "Conflict 3 — Release 2 scope; the PrOw decides, the BM supports"
+   ]
+  ]
+ }
+}

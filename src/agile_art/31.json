@@ -1,0 +1,226 @@
+{
+ "n": 31,
+ "id": "coordination-and-reporting",
+ "name": "Coordination and Reporting",
+ "group": "Themes",
+ "one_liner": "Translate the team's rituals and metrics for everyone outside the agile team.",
+ "purpose": "Agile practices have developed specific terms, rituals, formats and metrics, but an Agile Project Core Team does not work in isolation: other non-agile teams and stakeholder groups have their own informational needs and preferences. PM²-Agile addresses this by adjusting the types of information, formats, granularity, language and frequency of communication. Internally the team coordinates face to face through its ceremonies; externally it coordinates through regular project meetings and reports.",
+ "guide_page": 29,
+ "meta": [
+  [
+   "Theme",
+   "4.3"
+  ],
+  [
+   "Two directions",
+   "External coordination with other layers; internal coordination inside the A-PCT"
+  ],
+  [
+   "Reporting artefact",
+   "Development Status Report — TeCo responsible, PM accountable"
+  ]
+ ],
+ "rasci": {
+  "title": "RAM (RASCI) — Development Status Report",
+  "rows": [
+   [
+    "Role",
+    "Letter"
+   ],
+   [
+    "BM",
+    "I"
+   ],
+   [
+    "PM",
+    "A"
+   ],
+   [
+    "TeCo",
+    "R"
+   ],
+   [
+    "PrOw",
+    "I"
+   ],
+   [
+    "ArOw",
+    "I"
+   ],
+   [
+    "ATeM",
+    "S"
+   ]
+  ]
+ },
+ "diagram": [
+  {
+   "sec": "Three groups of reporting and planning units",
+   "items": [
+    "Delivery units — e.g. work packages, deliveries",
+    "Functional units — e.g. use cases, business processes, capabilities, features",
+    "Work units — e.g. work items like user stories, enabler stories, bugs",
+    "Link them: stories group into a feature; features link to a delivery unit"
+   ]
+  },
+  {
+   "sec": "Five themes coordinated with other groups",
+   "items": [
+    "Planning — a Release Plan that integrates with the overall project work plan",
+    "Reporting — progress metrics and frequency aligned with other teams' accepted metrics",
+    "Architecture — artefacts following organisation standards so analysis costs no overhead",
+    "Deployment and Transition — PCT and A-PCT working with the IT operations team",
+    "Risk — technical and project risks following the PM² Risk Management Process and Risk Log"
+   ]
+  },
+  {
+   "sec": "External communication events",
+   "items": [
+    "Project follow-up meetings",
+    "Project Status Reports",
+    "Demos and Deliverables Acceptance events"
+   ]
+  },
+  {
+   "sec": "Internal communication ceremonies",
+   "items": [
+    "Daily Stand-up",
+    "Iteration Planning",
+    "Iteration Review",
+    "Iteration Retrospective"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "The A-PCT is not isolated",
+   "what": "There may be other non-agile teams in the project plus stakeholder groups with specific informational needs and preferences.",
+   "who": "Other project teams, managing layers",
+   "pollux": "The portal team must report alongside ESM units that never went agile."
+  },
+  {
+   "f": "Five things PM²-Agile adjusts",
+   "what": "PM²-Agile adjusts the types of information, formats, granularity, language and frequency of communication to those needs.",
+   "who": "TeCo and PM",
+   "pollux": "Lovelace reformats burndown data into something Gantt's office accepts."
+  },
+  {
+   "f": "Coordination on planning",
+   "what": "The A-PCT provides a Release Plan that is easy to understand and integrates with the overall project work plan.",
+   "who": "TeCo responsible; PM accountable",
+   "pollux": "Four release dates sit inside the eighteen-month project timeline."
+  },
+  {
+   "f": "Coordination on reporting",
+   "what": "The A-PCT's progress metrics and reporting frequency should align with the metrics accepted by other teams and management layers.",
+   "who": "PM, PSO, managing layer",
+   "pollux": "Iteration metrics roll into the Project Status Report you own."
+  },
+  {
+   "f": "Coordination on architecture",
+   "what": "Architecture artefacts follow organisation standards so impact assessment, reusability and interoperability analysis need no extra overhead.",
+   "who": "ArOw, Architecture Office",
+   "pollux": "Einstein documents to ESM enterprise architecture conventions."
+  },
+  {
+   "f": "Coordination on deployment",
+   "what": "The PCT and A-PCT work with the IT operations team; transparency enables collaboration supporting processes such as software configuration management.",
+   "who": "IT operations",
+   "pollux": "Operations join early for the transition into service on 31 Jan 2030."
+  },
+  {
+   "f": "Coordination on risk",
+   "what": "A-PCTs may capture both technical and other project risks following the PM² Risk Management Process and using artefacts such as the Risk Log.",
+   "who": "PM, TeCo, ArOw",
+   "pollux": "The risk that Babbage's engine is never finished goes in the Risk Log."
+  },
+  {
+   "f": "Delivery units",
+   "what": "The coarsest planning and reporting group — for example work packages and deliveries.",
+   "who": "Managing and directing layers",
+   "pollux": "Each of the four POLLUX releases reports as a delivery."
+  },
+  {
+   "f": "Functional units",
+   "what": "The middle group — use cases, business processes, capabilities and features.",
+   "who": "PrOw, BM, BIG",
+   "pollux": "'Reconciliation panel' is a feature reported at this level."
+  },
+  {
+   "f": "Work units",
+   "what": "The finest group — work items such as user stories, enabler stories and bugs.",
+   "who": "A-PCT",
+   "pollux": "The stories Curie prioritises in the Work Items List."
+  },
+  {
+   "f": "Traceability between the units",
+   "what": "Wherever possible link the units: stories group into a feature, and features link to a specific delivery unit.",
+   "who": "PrOw, TeCo",
+   "pollux": "Every story traces up to a release, so progress is visible to Medici."
+  },
+  {
+   "f": "Why traceability matters",
+   "what": "Linking the units allows more effective external coordination by giving stakeholders a clear view of execution and delivery.",
+   "who": "External stakeholders",
+   "pollux": "Answers 'what will Release 3 contain' without opening the team's board."
+  },
+  {
+   "f": "External communication events",
+   "what": "External coordination is facilitated through project follow-up meetings, Project Status Reports, and demos and deliverables acceptance events.",
+   "who": "PM, BM, stakeholders",
+   "pollux": "Demos to national authorities become acceptance events for Release 3."
+  },
+  {
+   "f": "Internal coordination",
+   "what": "Internal coordination within an A-PCT is supported by open, frequent, efficient and face-to-face communication.",
+   "who": "A-PCT",
+   "pollux": "Daily Stand-up every morning, review and retrospective each fortnight."
+  },
+  {
+   "f": "The four internal ceremonies",
+   "what": "Daily Stand-up, Iteration Planning, Iteration Review and Iteration Retrospective carry the team's internal communication.",
+   "who": "A-PCT; TeCo facilitates",
+   "pollux": "Conflict 4 — the stand-up must not become the PM's status meeting."
+  }
+ ],
+ "traps": [
+  "The three groups are delivery units, functional units and work units — in that order.",
+  "Stories group into features; features link to a delivery unit, never the reverse.",
+  "A-PCT risks still follow the PM² Risk Management Process and its Risk Log.",
+  "Internal coordination is face-to-face; external coordination runs on meetings and reports.",
+  "The Development Status Report is the TeCo's, not the Product Owner's."
+ ],
+ "pollux_excerpt": {
+  "title": "Coordination and reporting on Project POLLUX",
+  "rows": [
+   [
+    "Field",
+    "Value"
+   ],
+   [
+    "Delivery unit",
+    "Release 2 — instrument and maturity views, reconciliation panel, 28 Jun 2029"
+   ],
+   [
+    "Functional unit",
+    "The reconciliation panel feature"
+   ],
+   [
+    "Work unit",
+    "The stories and enabler stories that build it"
+   ],
+   [
+    "Internal",
+    "Daily Stand-up; Iteration Review and Retrospective each fortnight"
+   ],
+   [
+    "External",
+    "Development Status Report from Lovelace, into your Project Status Report"
+   ],
+   [
+    "Live conflict",
+    "Conflict 4 — the Daily Stand-up drifting into status reporting"
+   ]
+  ]
+ }
+}

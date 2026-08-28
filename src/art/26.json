@@ -1,0 +1,276 @@
+{
+ "n": 26,
+ "id": "change-log",
+ "name": "Change Log",
+ "family": "Log",
+ "one_liner": "Every requested change to the baseline: its size, its priority, the approval decision and the actual delivery.",
+ "purpose": "The Change Log is the register of project changes used for recording, assessing, monitoring, controlling and tracking change requests and their respective decisions. It brings transparency, accountability and traceability to every change made after the project scope and plans have been baselined, and serves as the means of communicating changes to the Project Owner (PO) and/or Project Steering Committee (PSC) for approval. Approved or merged changes are carried into the Project Work Plan and the related plans and logs are updated.",
+ "guide_page": 96,
+ "rasci": null,
+ "created_in": "Planning Phase (set up with the Project Change Management Plan, p.31)",
+ "approved_by": "n/a as a log - each change is approved or rejected by the Project Owner (PO) and/or the Project Steering Committee (PSC) (p.76)",
+ "inputs": [
+  "Project Change Management Plan",
+  "Change Request Form",
+  "Business Case and Project Charter",
+  "Project Work Plan",
+  "Issue Log and other Project Logs"
+ ],
+ "feeds": [
+  "Project Work Plan",
+  "Project Status Report",
+  "Decision Log",
+  "Project-End Report"
+ ],
+ "gate": null,
+ "lifecycle": [
+  {
+   "phase": "Planning",
+   "what": "Set up and tailored with the Project Change Management Plan"
+  },
+  {
+   "phase": "Executing",
+   "what": "Change requests logged, assessed, sized and prioritised"
+  },
+  {
+   "phase": "Monitor & Control",
+   "what": "Approve, reject, postpone or merge; implement and control changes"
+  },
+  {
+   "phase": "Closing",
+   "what": "Delivered and open changes summarised in the Project-End Report"
+  }
+ ],
+ "diagram": [
+  {
+   "sec": "Change Identification and Description",
+   "items": [
+    "ID",
+    "Category",
+    "Title",
+    "Description",
+    "Status",
+    "Requested by",
+    "Date Identified"
+   ]
+  },
+  {
+   "sec": "Change Assessment and Action Description",
+   "items": [
+    "Action Details (effort & responsible)",
+    "Size (Effort)",
+    "Priority",
+    "Target Delivery Date"
+   ]
+  },
+  {
+   "sec": "Change Approval",
+   "items": [
+    "Escalation",
+    "Decision",
+    "Decided by",
+    "Decision Date"
+   ]
+  },
+  {
+   "sec": "Change Implementation",
+   "items": [
+    "Actual Delivery Date",
+    "Traceability and Comments"
+   ]
+  }
+ ],
+ "fields": [
+  {
+   "f": "ID",
+   "what": "The change identifier, also written back onto the Change Request Form once assigned. Template ships rows pre-numbered C01-C20.",
+   "who": "PM assigns on logging",
+   "castor": "CR-014"
+  },
+  {
+   "f": "Category",
+   "what": "Categorises the change, e.g. New Requirement, Issue or Risk related, Business, Technology.",
+   "who": "PM classifies",
+   "castor": "New Requirement"
+  },
+  {
+   "f": "Title",
+   "what": "A short title for the requested change.",
+   "who": "PM writes it from the Change Request Form",
+   "castor": "Add SRF-backstop screens to Release 2"
+  },
+  {
+   "f": "Description",
+   "what": "Fuller description of the requested change including the possible impact of not implementing it.",
+   "who": "Requestor drafts on the Change Request Form; PM records",
+   "castor": "Verbal cabinet request to build backstop screens now; not implementing risks a later 9-month onboarding."
+  },
+  {
+   "f": "Status",
+   "what": "Submitted, Assessing, Waiting for approval, Approved, Rejected, Postponed, Merged, Implemented. The template lists six and calls the list not exhaustive.",
+   "who": "PM updates through the change process",
+   "castor": "Postponed, from Submitted (05/05/27) via Assessing and Waiting for approval"
+  },
+  {
+   "f": "Requested by",
+   "what": "The name of the person requesting the change. Any stakeholder may request a change at any point.",
+   "who": "Requestor named by the PM",
+   "castor": "Florence Nightingale (PO), relaying a Board of Directors cabinet request"
+  },
+  {
+   "f": "Date Identified",
+   "what": "The initial submission date of the change request, dd/mm/yy. Appendix B also calls it Submission Date.",
+   "who": "PM records on logging",
+   "castor": "05/05/27"
+  },
+  {
+   "f": "Action Details (effort & responsible)",
+   "what": "The recommended action, including steps, deliverables, timescale, resources and effort involved.",
+   "who": "PCT estimates; PM records",
+   "castor": "Keep configuration hooks in Release 2 (12 PD); defer screens; re-assess after ratification."
+  },
+  {
+   "f": "Size (Effort)",
+   "what": "Effort needed to implement the change: 5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low.",
+   "who": "PCT estimates",
+   "castor": "4 - about 120 PD for full screens"
+  },
+  {
+   "f": "Priority",
+   "what": "Agreed priority of the change: 5=Very high, 4=High, 3=Medium, 2=Low, 1=Very low. Scored separately from Size.",
+   "who": "PM proposes; PO or PSC agrees",
+   "castor": "2 - the backstop instrument is not yet ratified"
+  },
+  {
+   "f": "Target Delivery Date",
+   "what": "The target date for the change to be delivered, dd/mm/yy.",
+   "who": "PM sets with the PCT",
+   "castor": "Requested for 17/12/27 (Release 2); dropped on postponement"
+  },
+  {
+   "f": "Escalation",
+   "what": "Should the change be escalated to the Directing or Steering Layers? Yes or No, per the project's escalation procedure.",
+   "who": "PM decides against the Governance Model",
+   "castor": "Yes - beyond the PM's delegated change authority"
+  },
+  {
+   "f": "Decision",
+   "what": "The decision taken, linked to the Decision Log entry. Four possible decisions: approve, reject, postpone or merge.",
+   "who": "PO and/or PSC decide; PM records",
+   "castor": "Postponed to post-go-live; configuration hooks only in Release 2 (decision D-09)"
+  },
+  {
+   "f": "Decided by",
+   "what": "The person or committee that approved or rejected the change.",
+   "who": "PM records",
+   "castor": "Project Steering Committee (PSC), chaired by Florence Nightingale (PO)"
+  },
+  {
+   "f": "Decision Date",
+   "what": "The date on which the decision was made, dd/mm/yy.",
+   "who": "PM records from the Minutes of Meeting",
+   "castor": "26/05/27"
+  },
+  {
+   "f": "Actual Delivery Date",
+   "what": "The date on which the change was actually delivered, dd/mm/yy. Blank until implementation completes.",
+   "who": "PM records at delivery",
+   "castor": "Empty - postponed, so nothing delivered"
+  },
+  {
+   "f": "Traceability and Comments",
+   "what": "IDs of the Project Work Plan tasks implementing the change, IDs of related risks, issues and decisions, plus any comments.",
+   "who": "PM maintains",
+   "castor": "Change Request Form CRF-014; decision D-09; risk R-03; capacity hit from issue I-11"
+  }
+ ],
+ "traps": [
+  "Appendix B p.96 prints 'Assessing'; glossary p.124 prints 'Investigating' - same status.",
+  "The template's six statuses omit 'Waiting for approval' and 'Merged'; it says not exhaustive.",
+  "A change is not an issue: a verbal scope request needs a Change Request Form and log entry.",
+  "Size and Priority are separate 1-5 scores; there is no L x I product here.",
+  "Project Change Management Plan defines the process; the Change Log records the changes."
+ ],
+ "castor_excerpt": {
+  "title": "Extract - Change Log, as at 31 May 2027",
+  "rows": [
+   [
+    "ID",
+    "Change",
+    "Status",
+    "Size",
+    "Priority",
+    "Esc.",
+    "Decision / Decided by",
+    "Decision Date",
+    "Traceability and Comments"
+   ],
+   [
+    "CR-003",
+    "Split disbursement authorisation into two roles (segregation of duties)",
+    "Implemented",
+    "2",
+    "5",
+    "No",
+    "Approved - PSC",
+    "06/11/26",
+    "Internal audit finding 1; SC5; delivered 26/03/27"
+   ],
+   [
+    "CR-009",
+    "Extend the audit-trail export to the treasury system",
+    "Approved",
+    "3",
+    "4",
+    "No",
+    "Approved - Florence Nightingale (PO)",
+    "12/03/27",
+    "Release 2 (17/12/27); relates to issue I-08"
+   ],
+   [
+    "CR-011",
+    "Align the reconciliation report format with Finance & Control",
+    "Merged",
+    "2",
+    "3",
+    "No",
+    "Merged into CR-009 - PM",
+    "12/03/27",
+    "See CR-009"
+   ],
+   [
+    "CR-012",
+    "Produce retraining material for the 40 loan administrators",
+    "Rejected",
+    "3",
+    "2",
+    "No",
+    "Rejected, not a project change - Florence Nightingale (PO)",
+    "20/04/27",
+    "Belongs to the Business Implementation Plan; decision D-05"
+   ],
+   [
+    "CR-013",
+    "Add an ECCL product template to the configuration engine",
+    "Waiting for approval",
+    "3",
+    "4",
+    "Yes",
+    "PSC of 30/06/27",
+    "-",
+    "Success criterion SC3"
+   ],
+   [
+    "CR-014",
+    "Add SRF-backstop screens now (verbal cabinet request)",
+    "Postponed",
+    "4",
+    "2",
+    "Yes",
+    "Postponed to post-go-live - PSC",
+    "26/05/27",
+    "CRF-014; decision D-09; risk R-03; issue I-11"
+   ]
+  ]
+ }
+}

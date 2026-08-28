@@ -1,0 +1,1728 @@
+[
+ {
+  "a": [
+   "eight point four million",
+   "eight point four"
+  ],
+  "k": "money",
+  "s": "€8.4 million",
+  "d": "The whole approved budget for Project CASTOR. It is set in the Business Case, copied into the Project Charter (section 4.1) and proved line by line in the Work Plan on 26 Jun 2026. It pays for the platform licence, the contractor, data migration, testing and retraining. It is administrative budget, so it does not touch the ESM's lending capacity.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eight and a half",
+   "Give or take two",
+   "Two million"
+  ],
+  "k": "money",
+  "s": "≈€8.5 m, ±€2 m",
+  "d": "Leonardo's first guess at the cost, made in the 30-minute meeting on 9 Jan 2026 before anyone had written anything down. He means about 8.5 million euro, and he could be 2 million euro out in either direction. Six weeks of work later the Business Case turns this into the firm 8.4 million euro figure.",
+  "sc": [
+   "s02"
+  ]
+ },
+ {
+  "a": [
+   "two hundred and fifty million"
+  ],
+  "k": "money",
+  "s": "€250 million",
+  "d": "The size of the single disbursement Marie Curie is typing on the morning of 8 Jan 2026 — the third tranche of a loan. It has to be keyed by hand into three different systems. The number is there to show what one mistake would cost.",
+  "sc": [
+   "s01"
+  ]
+ },
+ {
+  "a": [
+   "A hundred and sixty-eight thousand euro",
+   "two per cent of the budget"
+  ],
+  "k": "money",
+  "s": "€168,000 = 2% of €8.4 m",
+  "d": "Florence's money limit for risk: the project must not carry a risk that could cost more than 2 per cent of the 8.4 million euro budget, which is 168,000 euro. It goes into the Risk Management Plan as the risk appetite, so nobody can argue about it later.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "three hundred and forty days",
+   "five hundred and fifty thousand"
+  ],
+  "k": "money",
+  "s": "340 person-days · €550,000",
+  "d": "Work package 1.1, project management and Project Support Office support: 340 days of work costing 550,000 euro. The first of the seven cost rows read out to the Steering Committee on 26 Jun 2026.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "one hundred and sixty, two hundred and fifty thousand",
+   "two hundred and fifty thousand"
+  ],
+  "k": "money",
+  "s": "160 person-days · €250,000",
+  "d": "Work package 1.2, procurement and contract award: 160 days of work costing 250,000 euro. This is the money for running the tender that ends with Levallois Systems being awarded the contract on 18 Sep 2026.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "eight hundred and twenty, two point four million",
+   "two point four million"
+  ],
+  "k": "money",
+  "s": "820 person-days · €2.4 m",
+  "d": "Work package 1.3, Release 1 (the product configuration engine): 820 days of work costing 2.4 million euro. Release 1 is due in March 2027.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "nine hundred and forty, two point eight million",
+   "two point eight million"
+  ],
+  "k": "money",
+  "s": "940 person-days · €2.8 m",
+  "d": "Work package 1.4, Release 2 (straight-through disbursement): 940 days costing 2.8 million euro. It is the biggest single line in the plan, and it is due in December 2027.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "three hundred and sixty, one point zero five million",
+   "one point zero five million"
+  ],
+  "k": "money",
+  "s": "360 person-days · €1.05 m",
+  "d": "Work package 1.5, the parallel run: 360 days costing 1,050,000 euro. The parallel run means the new platform and the old LOS system are both used on the same real work from January to April 2028, to prove the new one gives the same answers.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "two hundred and twenty, seven hundred and fifty thousand",
+   "seven hundred and fifty thousand"
+  ],
+  "k": "money",
+  "s": "220 person-days · €750,000",
+  "d": "Work package 1.6, transition and go-live: 220 days costing 750,000 euro. This is the money for the switch-over itself — cutover, fallback and the day LOS becomes read-only — leading to go-live on 15 May 2028.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "two hundred and sixty, six hundred thousand",
+   "six hundred thousand"
+  ],
+  "k": "money",
+  "s": "260 person-days · €600,000",
+  "d": "Work package 1.7, business implementation: 260 days costing 600,000 euro. It pays for retraining the 40 loan administrators and redesigning the way they work. Grace Hopper owns this one, in her Business Implementation Plan.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "five-year total cost of ownership"
+  ],
+  "k": "money",
+  "s": "5-year total cost of ownership",
+  "d": "Not just the build cost but everything the platform costs over five years: licence, maintenance, support and training. Grace adds it to the Business Case because it is the number Lorenzo de' Medici, who holds the budget, will actually read.",
+  "sc": [
+   "s05"
+  ]
+ },
+ {
+  "a": [
+   "three thousand one hundred person-days",
+   "Three thousand one hundred days",
+   "three thousand one hundred"
+  ],
+  "k": "effort",
+  "s": "3,100 person-days",
+  "d": "The total internal work in the project, measured in person-days (one person working one day). It first appears as Leonardo's estimate on 12 Jan 2026 and is still exactly the figure the seven work packages add up to on 26 Jun 2026.",
+  "sc": null
+ },
+ {
+  "a": [
+   "two hundred days"
+  ],
+  "k": "effort",
+  "s": "200 person-days moved",
+  "d": "To make the seven work packages add up to the Charter figures, 200 days of work were moved out of Release 2 and into the parallel run, and work package 1.3.5 was cut completely. Both moves are written into the estimates section with a date, so the committee can check them.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "ninety person-days",
+   "Two quarters of manual regulatory extracts"
+  ],
+  "k": "effort",
+  "s": "≈90 person-days of F&C time",
+  "d": "The price of delaying the reporting warehouse refresh so CASTOR can be funded: for two quarters, Finance and Control must pull regulatory reports by hand, costing about 90 days of their time. Lorenzo insists this cost is written next to the decision, not hidden.",
+  "sc": [
+   "s06"
+  ]
+ },
+ {
+  "a": [
+   "Two hundred and sixty days"
+  ],
+  "k": "effort",
+  "s": "260 person-days for retraining",
+  "d": "The size of work package 1.7: retraining the 40 loan administrators and every business change around them. Grace Hopper points out that these are 260 days of her own people's working lives, which is why the plan is hers to write and not yours.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "forty days"
+  ],
+  "k": "effort",
+  "s": "40 days of Marie Curie's time",
+  "d": "Grace's rule for writing a risk properly: 'Lending Operations cannot release its people' is vague, but 'Marie Curie, forty days' is a fact somebody can argue with. Naming the person and the number of days turns a worry into a real risk entry.",
+  "sc": [
+   "s11"
+  ]
+ },
+ {
+  "a": [
+   "a hundred and sixty tasks"
+  ],
+  "k": "count",
+  "s": "≈160 tasks",
+  "d": "By the end of the day on 16 Jun 2026 the work breakdown has 7 top boxes, 41 work packages and about 160 tasks — and no numbers against any of them yet. Costing comes ten days later.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "forty-one work packages"
+  ],
+  "k": "count",
+  "s": "41 work packages",
+  "d": "The middle level of the work breakdown: the seven big boxes split into 41 work packages. A work package is a chunk of work small enough to hand to somebody, big enough to be worth tracking.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "twenty-six months"
+  ],
+  "k": "time",
+  "s": "26 months",
+  "d": "How long CASTOR is planned to run: 26 months, from the Charter in March 2026 to administrative closure on 28 Jul 2028. It is one of the three fixed numbers (with 8.4 million euro and 3,100 person-days) that every document has to keep.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Nine months to six weeks",
+   "nine months"
+  ],
+  "k": "time",
+  "s": "SC3: 9 months → 6 weeks",
+  "d": "Success criterion 3. Today, adding a brand-new lending instrument to LOS needs bespoke code and takes nine months from decision to first disbursement. CASTOR must cut that to six weeks, because if the Treaty reform is ratified the common backstop arrives with only weeks of notice.",
+  "sc": null
+ },
+ {
+  "a": [
+   "six weeks"
+  ],
+  "k": "time",
+  "s": "6 weeks (SC3 target)",
+  "d": "The promise made in the Charter: once the Treaty reform is ratified, the backstop instrument must be live on the new platform within six weeks. That promise is itself a risk, because nobody in the building controls when ratification happens.",
+  "sc": [
+   "s11"
+  ]
+ },
+ {
+  "a": [
+   "let us spend six weeks",
+   "authority to spend six weeks"
+  ],
+  "k": "time",
+  "s": "6 weeks to write the Business Case",
+  "d": "What the Corporate Investment Board actually approved on 22 Jan 2026: not the money, just permission to spend about six weeks working out whether 8.4 million euro is the right number. That work becomes the Business Case, due in March.",
+  "sc": [
+   "s03",
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "six weeks with the payment gateway"
+  ],
+  "k": "time",
+  "s": "6 weeks of investigation",
+  "d": "Leonardo will not give a firmer cost until his people have spent six weeks studying the payment messaging gateway — the system that sends payment messages out. It silently pushes the value date if an instruction arrives after 16:00 and nobody wrote down why.",
+  "sc": [
+   "s02"
+  ]
+ },
+ {
+  "a": [
+   "fourteen days"
+  ],
+  "k": "time",
+  "s": "14 days (10–24 Mar 2026)",
+  "d": "The time you have between being handed the project on 10 Mar 2026 and the Steering Committee meeting of 24 Mar 2026, where the Project Charter has to be accepted. Two weeks to write your first document as Project Manager.",
+  "sc": [
+   "s06"
+  ]
+ },
+ {
+  "a": [
+   "twelve months",
+   "slips from 2026 into 2027"
+  ],
+  "k": "time",
+  "s": "12-month slip, 2026 → 2027",
+  "d": "The reporting warehouse refresh is pushed back by twelve months, from 2026 into 2027, to free budget and people for CASTOR. This is the answer to Lorenzo's question 'what leaves the portfolio to make room?', and it is priced on the same page.",
+  "sc": null
+ },
+ {
+  "a": [
+   "eighteen months earlier",
+   "Eighteen months"
+  ],
+  "k": "time",
+  "s": "18 months of warning",
+  "d": "The gap between May 2026, when risk R-07 is written down, and 4 Oct 2027, when Levallois's lead architect actually resigns. Because the risk was logged early, the key-person clause and the knowledge transfer are already paid for when it happens.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "Ten days to the baseline",
+   "Ten days since the breakdown"
+  ],
+  "k": "time",
+  "s": "10 days (16–26 Jun 2026)",
+  "d": "The ten working days between the work-breakdown workshop on 16 Jun 2026 and the Steering Committee on 26 Jun 2026 that baselines the Project Work Plan. In those ten days every task gets a person or a resource profile against it, which is what turns effort into money.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Fifteen minutes"
+  ],
+  "k": "time",
+  "s": "15 minutes for introductions",
+  "d": "The slot you give the 21 people at the Planning Kick-off Meeting to say, one sentence each, what CASTOR changes about their Tuesday. It over-runs to 19 minutes and produces the most useful sentence of the morning.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "It takes nineteen"
+  ],
+  "k": "time",
+  "s": "19 minutes (planned 15)",
+  "d": "The round of introductions runs 4 minutes over its 15-minute slot. Worth it: a tester from IT says CASTOR will change nothing about his Tuesday, which flags a gap nobody had spotted.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "in nineteen minutes"
+  ],
+  "k": "time",
+  "s": "19 minutes at the CIB",
+  "d": "The Corporate Investment Board approved the Business Case and gave corporate approval to the Project Charter on 24 Mar 2026 in nineteen minutes — and spent most of them on the reporting warehouse, not on CASTOR. Six months of preparation, nineteen minutes of decision.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "eleven minutes"
+  ],
+  "k": "time",
+  "s": "11 minutes of agenda time",
+  "d": "CASTOR is item seven of nine at the Corporate Investment Board on 22 Jan 2026 and gets eleven minutes. That is why the Project Initiation Request has to be one page.",
+  "sc": [
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "Two months saved"
+  ],
+  "k": "time",
+  "s": "2 months Florence wants back",
+  "d": "Florence wants the tender published in mid-March 2026 instead of waiting for the Business Case, which she thinks would save two months. The answer is no: the Business Case has to compare several options and recommend one before anything is bought.",
+  "sc": [
+   "s05"
+  ]
+ },
+ {
+  "a": [
+   "the fifteenth of May 2028",
+   "Fifteenth of May 2028",
+   "the fifteenth of May"
+  ],
+  "k": "date",
+  "s": "15 May 2028",
+  "d": "Go-live: the day the new platform takes over from LOS. Florence names it on 12 Jan 2026, before there is a project, and it never moves. A requirement is a 'Must' only if CASTOR cannot go live on this date without it.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the third of July"
+  ],
+  "k": "date",
+  "s": "3 Jul 2026",
+  "d": "The RfE gate — 'Ready for Executing'. It is the check that planning is finished and the project may start building. Deming will read the minutes of 26 Jun 2026 at that gate, which is why what you say about the Work Plan matters.",
+  "sc": [
+   "s07",
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "the eighteenth of September"
+  ],
+  "k": "date",
+  "s": "18 Sep 2026",
+  "d": "The day the implementation contract is awarded to Levallois Systems, under an existing framework contract. Until then there is no contractor, so contractor work is priced against a role profile and a framework rate rather than a named person.",
+  "sc": [
+   "s07",
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "on the twenty-fourth",
+   "the twenty-fourth"
+  ],
+  "k": "date",
+  "s": "24 Mar 2026",
+  "d": "The day both documents are approved: the Steering Committee accepts the Project Charter in the morning, and that afternoon the Corporate Investment Board approves the Business Case and gives corporate approval to the Charter. From here CASTOR is a real project.",
+  "sc": [
+   "s06",
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "the second of April"
+  ],
+  "k": "date",
+  "s": "2 Apr 2026",
+  "d": "The agenda for the Planning Kick-off Meeting goes out on 2 April, one week before the meeting on 9 April, with the Project Charter attached. Sending the agenda in advance is a rule, not a courtesy — though four people still read it for the first time in the room.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "the thirtieth of April 2028"
+  ],
+  "k": "date",
+  "s": "30 Apr 2028",
+  "d": "The last day of the parallel run, and the date the contractor's staff are released. It is written into section 4.11 of the Project Handbook, so the exit of contractor people is planned rather than improvised.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "the twenty-eighth of July 2028"
+  ],
+  "k": "date",
+  "s": "28 Jul 2028",
+  "d": "Administrative closure: the day the project folder is finished and archived. It is also the day the personal data held in the stakeholder matrix must stop being kept — the retention limit Brandeis asks for.",
+  "sc": [
+   "s13"
+  ]
+ },
+ {
+  "a": [
+   "12 January"
+  ],
+  "k": "date",
+  "s": "12 Jan 2026",
+  "d": "The date of the one-page Project Initiation Request — written in Grace's office that morning and approved by the Corporate Investment Board ten days later, on 22 Jan 2026.",
+  "sc": [
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "parallel run January to April 2028",
+   "The parallel run is January to April 2028",
+   "parallel run in early 2028"
+  ],
+  "k": "date",
+  "s": "8 Jan – 30 Apr 2028",
+  "d": "The four months when the new platform and the old LOS run side by side on the same real work, so the results can be compared before anyone trusts the new one. It sits dangerously close to an EFSF bond rollover, which is risk R-11.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three days after National Day"
+  ],
+  "k": "date",
+  "s": "26 Jun 2026",
+  "d": "Luxembourg's National Day is 23 June, so 'three days after' is 26 Jun 2026 — the Steering Committee that baselines the Project Work Plan and, with it, the Project Handbook. The building is half empty; the committee is not.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "The envelope was allocated in October"
+  ],
+  "k": "date",
+  "s": "October 2025 budget round",
+  "d": "The administrative budget for the year was divided up in October 2025, before CASTOR existed. That is why Lorenzo keeps asking what leaves the portfolio: the pot is already full, so anything new pushes something else out.",
+  "sc": [
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "09:30 to 12:30"
+  ],
+  "k": "time",
+  "s": "09:30–12:30, 9 Apr 2026",
+  "d": "The three hours of the Planning Kick-off Meeting — the one time all 21 people are in the same room. Everything after this is smaller meetings, so the agenda has to earn every minute.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "11:14"
+  ],
+  "k": "time",
+  "s": "11:14, 22 Jan 2026",
+  "d": "The exact minute the Corporate Investment Board approves the Project Initiation Request and moves on to item eight (bicycle parking). Gantt records the time because a governance decision needs a timestamp.",
+  "sc": [
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "16:40"
+  ],
+  "k": "time",
+  "s": "16:40, 10 Apr 2026",
+  "d": "The Minutes of the Planning Kick-off Meeting go out at 16:40 — one working day after the meeting. Sending minutes fast is the rule: people remember a meeting for about a day.",
+  "sc": [
+   "s11"
+  ]
+ },
+ {
+  "a": [
+   "four o'clock cut-off",
+   "sixteen hundred"
+  ],
+  "k": "time",
+  "s": "16:00 daily cut-off",
+  "d": "The deadline in the payment gateway. An instruction checked and released after 16:00 loses its value date and pays a day late. It is the reason the second officer has to finish reading all three copies before four o'clock — and nobody has ever written down why the rule exists.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three o'clock"
+  ],
+  "k": "time",
+  "s": "15:00 deadline, 12 Jan 2026",
+  "d": "Florence gave one instruction: one page, on her desk before 15:00 on Monday. The Project Initiation Request is written to that deadline, which is exactly why it stays one page.",
+  "sc": [
+   "s03"
+  ]
+ },
+ {
+  "a": [
+   "Status meeting Tuesdays"
+  ],
+  "k": "time",
+  "s": "Tuesdays / Thursdays / monthly",
+  "d": "The meeting rhythm written into the Communications Management Plan: project status meeting every Tuesday, Core Team every Thursday, Steering Committee once a month chaired by Florence. Written down once so nobody has to ask.",
+  "sc": [
+   "s16"
+  ]
+ },
+ {
+  "a": [
+   "twice a year"
+  ],
+  "k": "time",
+  "s": "2 progress reports a year",
+  "d": "Lorenzo de' Medici, who chairs the board that funds CASTOR, gets the progress report twice a year and nothing else. He has eleven other projects, so the communication plan gives him little and on time rather than lots and ignored.",
+  "sc": [
+   "s16"
+  ]
+ },
+ {
+  "a": [
+   "tolerance one month"
+  ],
+  "k": "pct",
+  "s": "Monthly ± one month",
+  "d": "A metric with a tolerance: the Steering Committee should meet monthly, and a month of slippage is acceptable. Deming's point is that an honest tolerance you can keep beats a zero tolerance you will break in August.",
+  "sc": [
+   "s16"
+  ]
+ },
+ {
+  "a": [
+   "once per phase"
+  ],
+  "k": "pct",
+  "s": "1 review per artefact per phase, 0 tolerance",
+  "d": "The second quality metric: every project document is reviewed once in each phase, with no tolerance allowed. Unlike the meeting rhythm, this one is absolute.",
+  "sc": [
+   "s16"
+  ]
+ },
+ {
+  "a": [
+   "R-07"
+  ],
+  "k": "id",
+  "s": "Risk R-07",
+  "d": "Risk log entry 7: the contractor loses its lead architect. Leonardo raises it in March 2026, before there is even a contract, and it is scored likelihood 3 × impact 4 = 12 (yellow, above Florence's appetite). Its responses — a named-staff clause in the tender and Tesla shadowing the design authority — are real work with days against them in the Work Plan. On 4 Oct 2027 it happens, and it moves from the Risk Log to the Issue Log.",
+  "sc": null
+ },
+ {
+  "a": [
+   "R-11"
+  ],
+  "k": "id",
+  "s": "Risk R-11",
+  "d": "Risk log entry 11, owned by Grace Hopper: the parallel run (January to April 2028) overlaps an EFSF bond rollover, and the same Lending Operations people cannot do both. Scored 3 × 4 = 12, the same as R-07. The schedule shows the dependency openly: if Release 2 slips past December 2027, the run slides further into the rollover.",
+  "sc": null
+ },
+ {
+  "a": [
+   "D-04",
+   "forty staff trained"
+  ],
+  "k": "id",
+  "s": "Deliverable D-04",
+  "d": "Deliverable 4 in the Project Charter: 40 trained Lending Operations staff. Marie Curie notes that this is the first time in fourteen years that training people has appeared on the same delivery list as software — which is why she stops objecting to everything else that morning.",
+  "sc": [
+   "s08"
+  ]
+ },
+ {
+  "a": [
+   "SC1 to SC5",
+   "Stop at SC1"
+  ],
+  "k": "id",
+  "s": "Success criteria SC1–SC5",
+  "d": "The five measurable success criteria carried from the Business Case into the Charter. SC1 disbursement 5 working days → 1; SC2 reconciliation 3 working days → same day; SC3 new instrument 9 months → 6 weeks; SC4 manual re-keying ~1,400 fields a quarter → 0; SC5 open audit findings 2 → 0. They must still be measurable in 2028.",
+  "sc": null
+ },
+ {
+  "a": [
+   "A is do nothing"
+  ],
+  "k": "id",
+  "s": "Option A: do nothing",
+  "d": "The first of the three options compared in the Business Case. Keep LOS, spend nothing, and both audit findings stay open with instrument onboarding still at nine months. 'Do nothing' is always included, because written out honestly it argues against itself.",
+  "sc": [
+   "s05"
+  ]
+ },
+ {
+  "a": [
+   "B keeps it cheaper",
+   "B's SWOT"
+  ],
+  "k": "id",
+  "s": "Option B: rebuild LOS",
+  "d": "The second option: re-platform and extend LOS in-house. Tesla defends it — the knowledge stays in the building and it is cheaper — but it keeps bespoke code for every new instrument, which is the actual problem. It stays in the Business Case as a real option with its weakness written in its SWOT table.",
+  "sc": [
+   "s05"
+  ]
+ },
+ {
+  "a": [
+   "Alternative C",
+   "Architecture supports C"
+  ],
+  "k": "id",
+  "s": "Option C: buy and configure",
+  "d": "The recommended option: buy a market platform and configure it, delivered as a mix of in-house core team and outsourced implementation. 8.4 million euro over 26 months. Einstein backs it on one condition, written into the Charter: the configuration engine must be demonstrated before Release 2 is committed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Release 1",
+   "release one March 2027",
+   "release one"
+  ],
+  "k": "id",
+  "s": "Release 1 — Mar 2027",
+  "d": "The first delivery: the product configuration engine, the part that lets a new lending instrument be set up by configuration instead of new code. Due March 2027, work package 1.3, 820 person-days and 2.4 million euro. Einstein wants it demonstrated before Release 2 is committed.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Release 2",
+   "release two December 2027",
+   "release two"
+  ],
+  "k": "id",
+  "s": "Release 2 — Dec 2027",
+  "d": "The second delivery: straight-through disbursement, meaning one instruction entered once and carried automatically from loan agreement to payment. Due December 2027, work package 1.4, 940 person-days and 2.8 million euro. The parallel run cannot start until it is accepted.",
+  "sc": null
+ },
+ {
+  "a": [
+   "version 1.0"
+  ],
+  "k": "version",
+  "s": "v1.0",
+  "d": "The first approved version of a document. The Business Case and the Project Charter both go to the Steering Committee on 24 Mar 2026 as version 1.0. Gutenberg's point on 12 Jan was exactly this: one version number in one folder, not an attachment sitting in three mailboxes with three different dates.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Fifteen dot Quality underscore Management underscore Plan dot CASTOR dot twenty-six dash zero six dash twenty twenty-six dot v one point zero",
+   "twenty-six dash zero six dash twenty twenty-six",
+   "v one point zero",
+   "Number, name, CASTOR, date, version"
+  ],
+  "k": "version",
+  "s": "15.Quality_Management_Plan.CASTOR…v1.0",
+  "d": "Gutenberg spells the file-naming rule out loud, letter by letter: document number, document name, project name, date as DD-MM-YYYY, then version. So this file is '15.Quality_Management_Plan.CASTOR.26-06-2026.v1.0'. The point is that in 26 months Internal Audit will ask which version the contractor was paid against, and the name alone must answer.",
+  "sc": [
+   "s16"
+  ]
+ },
+ {
+  "a": [
+   "01 Initiating through 05 Closing",
+   "Folders 01 Initiating"
+  ],
+  "k": "section",
+  "s": "Folders 01–05 by phase",
+  "d": "The project folder tree has five numbered top folders, one per phase: 01 Initiating, 02 Planning, 03 Executing, 04 Monitor & Control, 05 Closing. Gantt adds an email subject-line tag as well, on the grounds that people obey a subject line and ignore a policy.",
+  "sc": [
+   "s16"
+  ]
+ },
+ {
+  "a": [
+   "five squares by five",
+   "between one and twenty-five",
+   "each scored one to five"
+  ],
+  "k": "score",
+  "s": "5 × 5 grid, scores 1–25",
+  "d": "The risk grid. Likelihood is scored 1 to 5 and impact is scored 1 to 5, and the two are multiplied, so a risk score is somewhere between 1 and 25. Green is bottom left (unlikely, harmless), red is top right (likely, serious).",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "Two or below green, three to sixteen yellow, twenty and above red",
+   "Two or below green",
+   "three to sixteen yellow",
+   "twenty and above red"
+  ],
+  "k": "score",
+  "s": "≤2 green · 3–16 yellow · ≥20 red",
+  "d": "The colour bands on the 5×5 risk grid, invented by this room on 28 May 2026 and then written into the Risk Management Plan so they are still the same numbers in 2028. Score 2 or less is green, 3 to 16 is yellow, 20 or more is red.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "Likelihood three, impact four"
+  ],
+  "k": "score",
+  "s": "R-07: 12 = likelihood 3 × impact 4",
+  "d": "How R-07 is scored: a 3 out of 5 chance of happening, and an impact of 4 out of 5 if it does. 3 × 4 = 12, which is yellow and above Florence's appetite of 6, so the project must actively reduce it rather than just watch it.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "three and four, twelve again"
+  ],
+  "k": "score",
+  "s": "R-11: 12 = likelihood 3 × impact 4",
+  "d": "R-11 gets the same score as R-07: likelihood 3, impact 4, so 3 × 4 = 12. Yellow, above appetite, and owned by Grace Hopper because it is her people who cannot do the parallel run and the bond rollover at the same time.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "High and high"
+  ],
+  "k": "score",
+  "s": "High likelihood × high impact",
+  "d": "Leonardo's first, wordy statement of risk R-07 in March 2026, before the project has a scoring scale. Two months later the same risk is written properly as likelihood 3 × impact 4 = 12 — which is the whole reason for having numbers instead of adjectives.",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "Risk level six or below",
+   "six or below"
+  ],
+  "k": "score",
+  "s": "≤6 = within appetite",
+  "d": "Florence's risk appetite, and also the bottom rung of the escalation ladder. A risk scoring 6 or less is one the project accepts and the Project Manager handles alone. Anything above 6 has to be reduced or escalated.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "eight to fifteen"
+  ],
+  "k": "score",
+  "s": "8–15 → the Project Owner",
+  "d": "The middle rung of the risk escalation ladder: a risk scoring between 8 and 15 goes to Florence Nightingale, the Project Owner. R-07 and R-11 both score 12, so both land on her desk.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "sixteen and above"
+  ],
+  "k": "score",
+  "s": "≥16 → Steering Committee",
+  "d": "The top rung of the escalation ladder: a risk scoring 16 or more goes to the Project Steering Committee, and a red risk (20 or more) also goes to Lorenzo's Corporate Investment Board. Escalating is not failure — it is how the right people get to decide.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "one chance in four"
+  ],
+  "k": "pct",
+  "s": "≤25% likelihood",
+  "d": "The second half of Florence's risk appetite: the project should not carry a risk with more than a one-in-four (25%) chance of happening. Together with the 2-per-cent money cap, this is what 'my risk appetite is zero' turns into once it has to be written down.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "risk appetite is zero"
+  ],
+  "k": "score",
+  "s": "Appetite: score ≤6",
+  "d": "Florence starts by saying she will accept no risk at all, because the ESM is a crisis institution. That is not usable, so the room converts it into three numbers: score 6 or below, chance no worse than one in four, possible loss no more than 2 per cent of the budget.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "Impact four means",
+   "five to ten per cent"
+  ],
+  "k": "pct",
+  "s": "Impact 4 = 5–10% of €8.4 m",
+  "d": "What the impact scores actually mean in money, so that everyone scores the same way. Impact 4 out of 5 means the risk would cost between 5 and 10 per cent of the 8.4 million euro budget, or move several milestones.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "Six. Business. IT."
+  ],
+  "k": "count",
+  "s": "6 risk categories",
+  "d": "The six headings the Risk Log sorts by: Business, IT, People and organisation, External, Legal, Communication and information. The empty ones are the interesting ones — an empty branch usually means nobody has looked there, and nobody had looked at Legal.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "Urgency, impact and size, one to five each"
+  ],
+  "k": "score",
+  "s": "Issues: 3 scores of 1–5",
+  "d": "Issues are scored differently from risks: urgency, impact and size, each 1 to 5. Small ones are closed with Grace; medium and above go to the Steering Committee, and whatever is decided goes into the Decision Log with a name against it. Only things that need a management action are logged at all.",
+  "sc": [
+   "s15"
+  ]
+ },
+ {
+  "a": [
+   "Size and priority both scored one to five"
+  ],
+  "k": "score",
+  "s": "Changes: size + priority, 1–5",
+  "d": "How a change request is scored. Very low and low: Grace and the Project Manager decide. Medium and above: the Steering Committee sits as the change control board. Four outcomes are possible, not two — approve, reject, postpone or merge.",
+  "sc": [
+   "s14"
+  ]
+ },
+ {
+  "a": [
+   "four outcomes"
+  ],
+  "k": "count",
+  "s": "4 change outcomes",
+  "d": "A change request can be approved, rejected, postponed or merged with another change. Having 'postpone' as an honest answer is what stops people smuggling scope in sideways — like the backstop screens requested verbally in a lift.",
+  "sc": [
+   "s14"
+  ]
+ },
+ {
+  "a": [
+   "2.2"
+  ],
+  "k": "section",
+  "s": "Business Case §2.2",
+  "d": "Section 2.2 of the Business Case, 'current situation impact'. It is where Ada's process map goes: 41 steps from signed loan agreement to value date, 9 of which exist only because two systems cannot talk to each other.",
+  "sc": [
+   "s05"
+  ]
+ },
+ {
+  "a": [
+   "5.12"
+  ],
+  "k": "section",
+  "s": "Business Case §5.12",
+  "d": "Section 5.12 of the Business Case, 'synergies and interdependencies'. This is the box Lorenzo cares about: what else in the organisation is affected. Left empty, he fills it in out loud in the meeting; filled in, it says the reporting warehouse refresh slips twelve months and prices the slip.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Cost, 4.1"
+  ],
+  "k": "section",
+  "s": "Project Charter §4.1",
+  "d": "Section 4.1 of the Project Charter, the cost section: 8.4 million euro spread across 2026 to 2028, 3,100 person-days of internal effort, type of delivery 'mix' (in-house core team plus outsourced implementation).",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "Milestones, 4.2"
+  ],
+  "k": "section",
+  "s": "Project Charter §4.2",
+  "d": "Section 4.2 of the Project Charter, the milestone list: RfE gate 3 Jul 2026, contract award 18 Sep 2026, Release 1 March 2027, Release 2 December 2027, parallel run January to April 2028, go-live 15 May 2028.",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "3.5"
+  ],
+  "k": "section",
+  "s": "Project Charter §3.5",
+  "d": "Section 3.5 of the Project Charter, features in scope. Turing's 'four eyes' control goes here: even with straight-through processing, the person who starts a disbursement must not be the person who releases it. Putting it in 3.5 makes it a traced deliverable, not a footnote.",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "3.2"
+  ],
+  "k": "section",
+  "s": "Project Charter §3.2",
+  "d": "Section 3.2 of the Project Charter, the objectives table. Somebody had copied an old version in which the reconciliation target had quietly drifted from 'same day' to 'next day'. Deming caught it: two documents, one baseline.",
+  "sc": [
+   "s08"
+  ]
+ },
+ {
+  "a": [
+   "5.1 says"
+  ],
+  "k": "section",
+  "s": "Project Charter §5.1",
+  "d": "Section 5.1 of the Project Charter, the project management approach: PM2, with no deviations. It is the shortest paragraph in the document and the one people will argue about longest.",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "section 6"
+  ],
+  "k": "section",
+  "s": "Project Charter §6",
+  "d": "Section 6 of the Project Charter, roles and responsibilities. Marie Curie's name goes in here against the job of reviewing and signing off the 212 requirements, so that pointing at them is not a polite way of forgetting them.",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "appendix one"
+  ],
+  "k": "section",
+  "s": "Charter appendix 1",
+  "d": "Where the 212 detailed requirements live: not in the Charter itself but in a separate Requirements Document, referenced from appendix one with a document location. The Charter carries high-level needs and points at the detail.",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "Two point two",
+   "section two point two"
+  ],
+  "k": "section",
+  "s": "Project Handbook §2.2",
+  "d": "Section 2.2 of the Project Handbook: the three critical success factors. It is the one page Florence would read if she read only one. It is also the section Gantt has open when he finds the template's approval line.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "Three point two"
+  ],
+  "k": "section",
+  "s": "Project Handbook §3.2",
+  "d": "Section 3.2 of the Project Handbook, the tailoring table: which management plans this project actually needs, and which are just a section instead of a document. Here it is six management plans in four separate documents.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "sections 4.1 and 4.4"
+  ],
+  "k": "section",
+  "s": "Handbook §4.1 and §4.4",
+  "d": "Risk management stays as section 4.1 of the Project Handbook and change management as section 4.4, instead of becoming separate plans. It is a deliberate tailoring decision, written where people can argue with it — which Tesla immediately does.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "three point five"
+  ],
+  "k": "section",
+  "s": "Project Handbook §3.5",
+  "d": "Section 3.5 of the Project Handbook, the escalation rules: very low and low, the Core Team decides; medium, Grace and the Project Manager decide at the status meeting; high and very high go to the Steering Committee. Written once, and every other plan points at it instead of copying it.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "Six point two"
+  ],
+  "k": "section",
+  "s": "Project Handbook §6.2",
+  "d": "Section 6.2 of the Project Handbook, governance roles. Two deviations from the standard method are recorded here with a reason next to each: the agile roles are deleted, and no Project Manager Assistant is appointed. Einstein sits on the Steering Committee on request rather than as a member.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "four point eleven"
+  ],
+  "k": "section",
+  "s": "Project Handbook §4.11",
+  "d": "Section 4.11 of the Project Handbook: how people leave the project. Contractor staff are released when the parallel run ends on 30 Apr 2028. Planning the exit in advance is part of managing a mixed in-house and outsourced team.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "section four point four",
+   "four point four"
+  ],
+  "k": "section",
+  "s": "Handbook §4.4 — change control",
+  "d": "Section 4.4, the change management rules. Any deviation from the scope, schedule, cost or quality baselined in June 2026 is a change: scored for size and priority 1 to 5, decided by Grace and the Project Manager if very low or low, by the Steering Committee if medium or above.",
+  "sc": [
+   "s14"
+  ]
+ },
+ {
+  "a": [
+   "item seven"
+  ],
+  "k": "section",
+  "s": "CIB agenda item 7",
+  "d": "CASTOR is the seventh of nine items at the Corporate Investment Board on 22 Jan 2026, with eleven minutes of the morning. It carries at 11:14 and the board moves on to item eight, which is about bicycle parking.",
+  "sc": [
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "item eight"
+  ],
+  "k": "section",
+  "s": "Kick-off agenda item 8",
+  "d": "Item eight of the Planning Kick-off agenda: the list of plans this project actually needs. Whatever is agreed there lands in the Project Handbook, and the Handbook is what the team will be held to.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "Item four"
+  ],
+  "k": "section",
+  "s": "PSC agenda item 4",
+  "d": "Item four of the Steering Committee agenda on 26 Jun 2026: the Project Work Plan. It is the item that ends with the committee approving the Work Plan and the Quality Management Plan as decision four in the minutes.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "nine items"
+  ],
+  "k": "count",
+  "s": "9 items on the CIB agenda",
+  "d": "The Corporate Investment Board has nine items to get through on 22 Jan 2026. CASTOR is one of them, which is why a one-page request is a courtesy that gets rewarded and a forty-page one is not.",
+  "sc": [
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "Question twenty-one"
+  ],
+  "k": "section",
+  "s": "Checklist Q21 — logs",
+  "d": "Question 21 of the 28-question Initiating Phase Exit Review Checklist: are the project logs open? Answer: Risk, Issue and Decision Logs all open, with 9 risks, 2 issues and 4 decisions in them. The Change Log opens in planning.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "Twenty-four. Security"
+  ],
+  "k": "section",
+  "s": "Checklist Q24 — security, DM, DP",
+  "d": "Question 24 of the gate checklist covers information security, document management and data protection. Turing (security) and Brandeis (data protection) have signed their sections, and Gutenberg has the repository and the naming convention.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "Sixteen and twenty-five"
+  ],
+  "k": "section",
+  "s": "Checklist Q16 and Q25",
+  "d": "Questions 16 and 25 of the gate checklist: is the Business Case approved, and is the Project Charter accepted? Both happened on Tuesday 24 Mar 2026 and both are in the minutes, so both are a clean yes.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "Twelve to fifteen"
+  ],
+  "k": "section",
+  "s": "Checklist Q12–Q15 — costs",
+  "d": "Questions 12 to 15 of the gate checklist, all about money: total cost of ownership in euro and in full-time equivalents, both sides costed, funding lines named, savings estimated. It took the longest to answer and is the part Lorenzo reuses at the next budget round in October.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "Question nine",
+   "were at least four alternatives analysed"
+  ],
+  "k": "section",
+  "s": "Checklist Q9 — 4 alternatives",
+  "d": "The only question on the 28-question sheet that cannot be ticked. It asks whether at least four alternatives were analysed; CASTOR analysed three (do nothing, extend LOS, buy a platform). The honest answer is 'Yes, partially' with the three named in the comments box — a partial answer with a reason is evidence; a tick is only a number.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "ninety-six per cent"
+  ],
+  "k": "pct",
+  "s": "96% of the gate checklist",
+  "d": "27 of the 28 questions on the Initiating Phase Exit Review Checklist are a clean yes, which is 96 per cent. The checklist is the Project Manager's own assessment tool, not a pass mark — the Steering Committee still decides whether the project may enter planning.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "Row nineteen"
+  ],
+  "k": "section",
+  "s": "Stakeholder matrix row 19",
+  "d": "Row 19 of the Project Stakeholder Matrix: the Contractor's Project Manager. Levallois Systems is not awarded the contract until 18 Sep 2026, so the row exists with no name in it. Deleting the row would mean forgetting the role.",
+  "sc": [
+   "s13"
+  ]
+ },
+ {
+  "a": [
+   "sheet two"
+  ],
+  "k": "section",
+  "s": "Stakeholder matrix sheet 2",
+  "d": "The second tab of the stakeholder matrix, the Key Stakeholder Data Sheet: mobile numbers, private emails, preferred channel and a free-text 'Concerns and needs' box. Brandeis makes the point that this is personal data about colleagues sitting on a drive four divisions can open.",
+  "sc": [
+   "s13"
+  ]
+ },
+ {
+  "a": [
+   "Step thirty-one"
+  ],
+  "k": "section",
+  "s": "Process step 31 of 41",
+  "d": "Step 31 of Ada's 41-step process map: the back office telephones the treasury desk to confirm the nostro account is funded. A phone call, in the middle of a payment process worth hundreds of millions, because two systems cannot talk to each other.",
+  "sc": [
+   "s05"
+  ]
+ },
+ {
+  "a": [
+   "One point one"
+  ],
+  "k": "section",
+  "s": "WP 1.1 — project management",
+  "d": "Work package 1.1: project management and Project Support Office support, running the whole 26 months. Costed at 340 person-days and 550,000 euro.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "One point two"
+  ],
+  "k": "section",
+  "s": "WP 1.2 — procurement and award",
+  "d": "Work package 1.2: running the tender and awarding the contract to Levallois Systems on 18 Sep 2026. Costed at 160 person-days and 250,000 euro.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "One point three, Release 1"
+  ],
+  "k": "section",
+  "s": "WP 1.3 — Release 1",
+  "d": "Work package 1.3: building Release 1, the product configuration engine, due March 2027. Costed at 820 person-days and 2.4 million euro.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "One point three point two"
+  ],
+  "k": "section",
+  "s": "WP 1.3.2 — instrument templates",
+  "d": "One level further down inside Release 1: configure the instrument templates, one per ESM lending product — PCCL and ECCL (the two precautionary credit lines), the loan facility, bank recapitalisation, and the primary and secondary market facilities that everyone forgets because they have not been used in years.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "one point three point five"
+  ],
+  "k": "section",
+  "s": "WP 1.3.5 — cut",
+  "d": "A work package inside Release 1 that was cut completely to make the plan fit the 8.4 million euro and 3,100 person-days in the Charter. The cut is written into the estimates section with a date on it, so it can be questioned rather than discovered.",
+  "sc": [
+   "s18"
+  ]
+ },
+ {
+  "a": [
+   "One point four"
+  ],
+  "k": "section",
+  "s": "WP 1.4 — Release 2",
+  "d": "Work package 1.4: building Release 2, straight-through disbursement, due December 2027. Costed at 940 person-days and 2.8 million euro — the biggest line in the plan.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "One point five, the parallel run",
+   "One point five. Three hundred and sixty days"
+  ],
+  "k": "section",
+  "s": "WP 1.5 — parallel run",
+  "d": "Work package 1.5: running the new platform and LOS side by side, January to April 2028. Costed at 360 person-days and 1,050,000 euro. Tesla points out it originally contained nothing but 'running it', so reconciliation evidence, Marie's acceptance pack and the fallback to LOS were added.",
+  "sc": null
+ },
+ {
+  "a": [
+   "One point five point four"
+  ],
+  "k": "section",
+  "s": "WP 1.5.4 — fallback",
+  "d": "The piece added under the parallel run once Tesla noticed it was missing: the evidence pack, Marie Curie's acceptance material and the fallback to LOS if the run fails. Written down before somebody assumes it is free.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "One point six"
+  ],
+  "k": "section",
+  "s": "WP 1.6 — transition and go-live",
+  "d": "Work package 1.6: cutover, fallback and the day LOS goes read-only, ending at go-live on 15 May 2028. Costed at 220 person-days and 750,000 euro. This is the Transition Plan, and the Project Manager writes it.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "One point seven"
+  ],
+  "k": "section",
+  "s": "WP 1.7 — business implementation",
+  "d": "Work package 1.7: retraining the 40 loan administrators and every business change around them. 260 person-days and 600,000 euro. It belongs to the Business Implementation Plan, which Grace Hopper writes and Florence approves — not the Transition Plan.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "Seven boxes"
+  ],
+  "k": "count",
+  "s": "7 work packages at level 2",
+  "d": "The second level of the work breakdown: 1.1 project management, 1.2 procurement and award, 1.3 Release 1, 1.4 Release 2, 1.5 parallel run, 1.6 transition and go-live, 1.7 business implementation. Deliverables come first, and the work falls out of them.",
+  "sc": [
+   "s17"
+  ]
+ },
+ {
+  "a": [
+   "Twenty-two fields"
+  ],
+  "k": "count",
+  "s": "22 fields, re-keyed twice",
+  "d": "Marie Curie retypes 22 fields from LOS into the treasury system, then types them a third time into the payment gateway. A second officer then reads all three copies against each other before the 16:00 cut-off. That reading is the only control there is.",
+  "sc": [
+   "s01"
+  ]
+ },
+ {
+  "a": [
+   "fourteen hundred fields",
+   "Fourteen hundred payment fields"
+  ],
+  "k": "count",
+  "s": "SC4: ~1,400 fields/quarter → 0",
+  "d": "Success criterion 4, and the number that starts the whole project. About 1,400 payment fields a quarter are typed in by hand across three systems. Internal Audit made Lending Operations count them. CASTOR must take that number to zero.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Two open audit findings",
+   "two audit findings",
+   "Two open findings to zero",
+   "Two findings"
+  ],
+  "k": "count",
+  "s": "SC5: 2 findings → 0",
+  "d": "Success criterion 5. Internal Audit has two open findings against LOS: one on segregation of duties (the same person can do too much), one on the completeness of the audit trail (you can see what LOS holds, not always who changed it). Florence signs the response to both, which is why she wants the project.",
+  "sc": null
+ },
+ {
+  "a": [
+   "fourteen years",
+   "Fourteen-year-old system"
+  ],
+  "k": "count",
+  "s": "LOS is 14 years old",
+  "d": "LOS, the Lending Operations System, was written in the EFSF era and extended every year since. Three people in the building can read the parts that matter and two of them are contractors. Its age is the reason every new instrument needs bespoke code.",
+  "sc": null
+ },
+ {
+  "a": [
+   "five working days",
+   "Five days to one"
+  ],
+  "k": "count",
+  "s": "SC1: 5 working days → 1",
+  "d": "Success criterion 1: the time from a signed disbursement instruction to the money's value date. Today it is five working days when nothing goes wrong. CASTOR must get it to one. Marie's question is the hard one: who does the checking inside that one day?",
+  "sc": null
+ },
+ {
+  "a": [
+   "Three working days to reconcile",
+   "Three days to same day",
+   "Three more to reconcile",
+   "Reconciliation afterwards, three more"
+  ],
+  "k": "count",
+  "s": "SC2: 3 working days → same day",
+  "d": "Success criterion 2: post-disbursement reconciliation, the check that what left the account matches what was instructed. Today it takes three working days after the payment. CASTOR must make it same-day.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Forty-one steps",
+   "Nine of them"
+  ],
+  "k": "count",
+  "s": "41 steps, 9 of them pointless",
+  "d": "Ada Lovelace's process map of what happens today: 41 steps from a signed loan agreement to the value date, and 9 of those steps exist only because two systems cannot speak to each other. The map goes into section 2.2 of the Business Case with the numbers on it.",
+  "sc": [
+   "s05"
+  ]
+ },
+ {
+  "a": [
+   "Two hundred and twelve requirements",
+   "Two hundred and twelve",
+   "Six workshops"
+  ],
+  "k": "count",
+  "s": "212 requirements, 6 workshops",
+  "d": "What six workshops with Marie's people produced by 17 Mar 2026: 212 numbered requirements, every sheet signed. They do not go in the Project Charter, which people must be able to read in twenty minutes — they go in a separate Requirements Document referenced from appendix one.",
+  "sc": [
+   "s07"
+  ]
+ },
+ {
+  "a": [
+   "two hundred and fourteen numbered lines"
+  ],
+  "k": "count",
+  "s": "214 requirements (by 21 May)",
+  "d": "The requirements list has grown from 212 in March to 214 by the workshop on 21 May 2026. It keeps growing because users describe solutions ('put a Refresh button here') and the analyst has to turn each one back into a need.",
+  "sc": [
+   "s14"
+  ]
+ },
+ {
+  "a": [
+   "ninety-six Must",
+   "Ninety-six Musts",
+   "all ninety-six",
+   "seventy-one Should",
+   "thirty-nine Could",
+   "eight Won't"
+  ],
+  "k": "count",
+  "s": "96 M · 71 S · 39 C · 8 W",
+  "d": "The MoSCoW split of the requirements on 21 May 2026: 96 Must, 71 Should, 39 Could, 8 Won't. Tesla's complaint is fair — 96 Musts is a wish list, not a priority order. The test that shrinks it: a Must is something without which the project does not go live on 15 May 2028.",
+  "sc": [
+   "s14"
+  ]
+ },
+ {
+  "a": [
+   "Twenty-eight questions"
+  ],
+  "k": "count",
+  "s": "28 questions at the RfP gate",
+  "d": "The Initiating Phase Exit Review Checklist has 28 questions on one sheet, and the Project Manager answers every one before asking the Steering Committee for anything. The gate on 27 Mar 2026 is not about whether the documents are approved — that happened on the 24th — but whether the project is fit to start planning.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "Nine risks",
+   "Two issues",
+   "Four decisions"
+  ],
+  "k": "count",
+  "s": "9 risks · 2 issues · 4 decisions",
+  "d": "What is in the logs at the RfP gate on 27 Mar 2026: nine risks (including R-07), two issues, and four decisions, one of which is the reporting warehouse slip. The Change Log is the only one still closed; it opens in planning.",
+  "sc": [
+   "s09"
+  ]
+ },
+ {
+  "a": [
+   "Twenty-one people",
+   "Twenty-one sentences"
+  ],
+  "k": "count",
+  "s": "21 people at the kick-off",
+  "d": "Everyone CASTOR touches, in one room from 09:30 to 12:30 on 9 Apr 2026: Core Team, Business Implementation Group, user representatives, Solution Provider, Project Owner, Business Manager. It is the only time they will all be together, which is why fifteen minutes of introductions is cheap.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "Three boxes"
+  ],
+  "k": "count",
+  "s": "3 team bodies",
+  "d": "The three groups everyone at the kick-off belongs to: the Project Steering Committee (decides), the Business Implementation Group (the business side who must change how they work) and the Project Core Team (who build it). Grace tells each person which box they are in before lunch.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "Four hundred letters",
+   "six hundred of them"
+  ],
+  "k": "count",
+  "s": "400 interest letters a quarter",
+  "d": "The quarterly interest notices: 400 letters a quarter, merged in Word, checked twice and posted by a person. Grace has signed six hundred of them. Fixing them would be cheap next to 8.4 million euro — which is exactly why it must be logged as a proposed change rather than slipped into the scope.",
+  "sc": [
+   "s10"
+  ]
+ },
+ {
+  "a": [
+   "two pages of lessons learned"
+  ],
+  "k": "count",
+  "s": "2 pages of lessons learned",
+  "d": "The Project-End Report from the collateral register replacement, three years earlier. Two pages of lessons, and one whole page is about business experts who were promised part-time and delivered part of part-time. Grace says the same thing will happen to CASTOR, and it becomes critical success factor number one.",
+  "sc": null
+ },
+ {
+  "a": [
+   "Eleven pages"
+  ],
+  "k": "count",
+  "s": "11 pages of handwritten notes",
+  "d": "What Gantt wrote down at the Planning Kick-off Meeting. He offers a full transcript; the answer is no. Minutes are a summary, not a recording — and the detail he wants to keep belongs in his own notebook.",
+  "sc": [
+   "s11"
+  ]
+ },
+ {
+  "a": [
+   "Four things"
+  ],
+  "k": "count",
+  "s": "4 things minutes must contain",
+  "d": "The rule for Minutes of Meeting: record what was raised as an issue, what was identified as a risk, what was decided, and what somebody proposed to change. Everything else is texture. And each of those four must also be copied into its own log.",
+  "sc": [
+   "s11"
+  ]
+ },
+ {
+  "a": [
+   "Three risks"
+  ],
+  "k": "count",
+  "s": "3 risks from the kick-off",
+  "d": "The three risks the Planning Kick-off produced, none of them technical: ratification of the Treaty reform is not complete but the backstop was promised in six weeks; the parallel run in early 2028 sits next to an EFSF bond rollover; and Lending Operations cannot release its people for two years without something else giving.",
+  "sc": [
+   "s11"
+  ]
+ },
+ {
+  "a": [
+   "eighty-one addresses",
+   "Eighty-one"
+  ],
+  "k": "count",
+  "s": "81 people on the distribution list",
+  "d": "The Minutes go to everyone on the Project Charter's stakeholder list, not only to the 21 who turned up — which is 81 email addresses. Florence insists, because half her division learns what is happening from documents they are copied into.",
+  "sc": [
+   "s11"
+  ]
+ },
+ {
+  "a": [
+   "Six actions, six owners, six dates"
+  ],
+  "k": "count",
+  "s": "6 actions, each owned and dated",
+  "d": "What the kick-off minutes actually commit anybody to. An action without a named owner and a date is not an action. Four of the six are the Project Manager's; taking the 81 addresses makes it five.",
+  "sc": [
+   "s11"
+  ]
+ },
+ {
+  "a": [
+   "Forty-one pages"
+  ],
+  "k": "count",
+  "s": "41-page Project Handbook",
+  "d": "The Project Handbook, printed because Florence does not read long documents on screen. It describes how the project is run — approach, controlling processes, rules, escalation route, who holds which role — not what gets built. What gets built is the Charter, and later the Work Plan.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "Three critical success factors"
+  ],
+  "k": "count",
+  "s": "3 critical success factors",
+  "d": "The three things that must be true or CASTOR fails: Lending Operations releases its people for the whole build; Florence is visibly the owner; and SC1 to SC5 are still measurable in 2028. The first is a promise about her staffing, not about the project, which is exactly why it is on page one.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "six management plans and four documents"
+  ],
+  "k": "count",
+  "s": "6 plans, 4 documents",
+  "d": "The tailoring decision: CASTOR needs six management plans, but only four of them are separate documents. Requirements, issue, quality and communications each get their own; risk and change stay as sections 4.1 and 4.4 of the Handbook, because a whole plan would only ever be read by the Project Manager.",
+  "sc": [
+   "s12"
+  ]
+ },
+ {
+  "a": [
+   "Twenty-two rows"
+  ],
+  "k": "count",
+  "s": "22 stakeholder rows",
+  "d": "The Project Stakeholder Matrix has 22 rows grouped as teams, roles, support, operational and one catch-all group at the bottom. It is not finished: Florence can name six more people in Finance and Control, three of whom will be reconciling this system at seven in the morning.",
+  "sc": [
+   "s13"
+  ]
+ },
+ {
+  "a": [
+   "six people in Finance and Control"
+  ],
+  "k": "count",
+  "s": "6 missing stakeholders",
+  "d": "The gap Florence spots in the stakeholder matrix: six people in Finance and Control who are not on it, three of whom will be reconciling the new system early every morning. Missing a stakeholder is how you find out about them at acceptance instead of at planning.",
+  "sc": [
+   "s13"
+  ]
+ },
+ {
+  "a": [
+   "eleven other projects",
+   "forty minutes a year"
+  ],
+  "k": "count",
+  "s": "11 projects, ~40 min/year",
+  "d": "Why Lorenzo de' Medici is 'medium interest' even though he chairs the board that funded CASTOR: he has eleven other projects and about forty minutes a year for this one. That combination decides what to send him and how often — which is where the communications plan starts.",
+  "sc": [
+   "s13"
+  ]
+ },
+ {
+  "a": [
+   "Four permanent seats"
+  ],
+  "k": "count",
+  "s": "4 permanent PSC seats",
+  "d": "The Project Steering Committee has four permanent members: Project Owner, Solution Provider, Business Manager and Project Manager. Everyone else — quality assurance, the user representative, the architecture office — is there because the project needs them, and some advise without voting.",
+  "sc": [
+   "s06"
+  ]
+ },
+ {
+  "a": [
+   "Two non-conformities"
+  ],
+  "k": "count",
+  "s": "2 non-conformities, both closed",
+  "d": "What independent quality assurance found when Deming checked the Charter against the Business Case: the reconciliation target in section 3.2 had drifted to 'next day', and the risk table had no owners. Both fixed before the meeting. This is why the author does not review their own document.",
+  "sc": [
+   "s08"
+  ]
+ },
+ {
+  "a": [
+   "three vendors"
+  ],
+  "k": "count",
+  "s": "3 platform vendors",
+  "d": "There are only three credible vendors in this market, and Florence can name all three from memory. That is why she wants to skip to a tender — and why the Business Case still has to compare options rather than suppliers.",
+  "sc": null
+ },
+ {
+  "a": [
+   "forty administrators",
+   "forty loan administrators"
+  ],
+  "k": "count",
+  "s": "40 loan administrators",
+  "d": "Marie Curie's team: the 40 people who do the typing today and whose working day the new platform rewrites. Retraining them is deliverable D-04, work package 1.7, and it belongs in Grace's Business Implementation Plan — not in the Project Manager's Transition Plan.",
+  "sc": null
+ },
+ {
+  "a": [
+   "B4-12"
+  ],
+  "k": "place",
+  "s": "Meeting room B4-12",
+  "d": "The small ESM meeting room where most of the early CASTOR meetings happen: eight seats, one screen that gives everybody a green cast, and a video kit nobody trusts. The Initiating Meeting (9 Jan 2026), the first Steering Committee (10 Mar), the Charter signing (24 Mar) and the RfP gate review (27 Mar) are all held here.",
+  "sc": null
+ },
+ {
+  "a": [
+   "A1-02"
+  ],
+  "k": "place",
+  "s": "Board room A1-02",
+  "d": "The good room: a working screen, working microphones and a table for twenty-two. It is where the Corporate Investment Board meets, chaired by Lorenzo de' Medici. Getting an item on this agenda is how CASTOR gets money.",
+  "sc": [
+   "s04"
+  ]
+ },
+ {
+  "a": [
+   "fourth floor"
+  ],
+  "k": "place",
+  "s": "4th floor — Lending Operations",
+  "d": "Lending Operations lives on the fourth floor of the ESM's Kirchberg building, and so does the windowless file room used as the project room. IT and Digital (Leonardo's division) is two floors below; the Project Support Office is on the third floor; the big meeting rooms are B4-12, A1-02 and B-2.04.",
+  "sc": null
+ },
+ {
+  "a": [
+   "the camera that has pointed at the ceiling tiles",
+   "the ceiling tile"
+  ],
+  "k": "place",
+  "s": "B-2.04's broken camera",
+  "d": "Room B-2.04 is the long meeting room used for the Planning Kick-off and most Steering Committees from April 2026 on. Its ceiling-mounted camera has pointed at the ceiling tiles since the EFSF migration, so remote participants such as Legal see nothing. It is fixed by 28 May 2026.",
+  "sc": [
+   "s10"
+  ]
+ }
+]
