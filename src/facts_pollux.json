@@ -45,7 +45,7 @@
  "conv":[["Story points","relative size, not days","A number that says 'this is about twice that'. The team's scale is 1, 2, 3, 5, 8, 13, 21. Points never convert to days."],
          ["Velocity","points finished per iteration","Started at an invented 34, revised to 30 once real iterations had run. Used to forecast, never as a target."],
          ["Iteration","two weeks, fixed","Iteration 1 starts 8 Jan 2029. The length never moves; the scope does."],
-         ["Definition of Done","11 lines, 9 automated, 2 by hand","Team-wide and unchanging. Different from acceptance criteria, which are written per work item by the Product Owner."],
+         ["Definition of Done","11 lines, 9 automated, 2 by hand","A shared quality standard for the team, revised through the agreed process and recorded in the Development Handbook. Apply the agreed version consistently. Acceptance criteria describe the needs of an individual work item."],
          ["Acceptance criteria","per work item, written by the Product Owner","A story can pass every acceptance criterion and still not be Done."],
          ["Work item ids","numbered on the Work Items List","Item 127, item 131. Cards on the long wall, ordered by the Product Owner."],
          ["The twelve principles","taped to the team-room wall","Characters quote them by line number. Line 1 = deliver early and continuously. Line 9 = simplicity. Line 12 = be enterprise-aware."]],

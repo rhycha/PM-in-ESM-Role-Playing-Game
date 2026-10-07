@@ -2,9 +2,9 @@
 
 **The European Commission's PM² methodology, taught as a playable case study.**
 Two complete projects — a waterfall one and an agile one — set inside a fictional
-European Stability Mechanism, with 77 scenes, 1,945 lines of dialogue, all 33 PM²
-artefacts filled in with real case content, 550 exam questions, and 8 hours of
-recorded voice acting.
+European Stability Mechanism, with 77 scenes, 1,378 lines of dialogue, all 33 PM²
+artefacts filled in with case content, 550 practice questions, recorded narration,
+and an English reader with corrected number pronunciation.
 
 <p align="center">
   <a href="https://rhycha.github.io/PM-in-ESM-Role-Playing-Game/"><b>▶ Play it in your browser</b></a>
@@ -59,12 +59,12 @@ to the Issue Log while the Solution Provider argues that it was always going to 
 
 | | | |
 |---|---|---|
-| **Project CASTOR** | 52 scenes · 1,318 lines · 31 decisions | The full PM² lifecycle — Initiating, Planning, Executing, Closing, all three phase gates, all 13 Monitor & Control processes |
-| **Project POLLUX** | 25 scenes · 627 lines · 14 decisions | PM²‑Agile as the sequel: same institution, same people, built on what CASTOR delivered |
+| **Project CASTOR** | 52 scenes · 918 lines · 31 decisions | The full PM² lifecycle — Initiating, Planning, Executing, Closing, all three phase gates, all 13 Monitor & Control processes |
+| **Project POLLUX** | 25 scenes · 460 lines · 14 decisions | PM²‑Agile as the sequel: same institution, same people, built on what CASTOR delivered |
 | **Artefact Atlas** | 33 artefacts · 708 fields | Every official PM² artefact as a structure diagram, each field explained and filled with case content |
 | **Agile Atlas** | 42 entries | The model, the five ceremonies, the agile artefacts, the four roles, and the themes |
 | **Revision dashboards** | 550 questions | 300 PM² + 250 PM²‑Agile, each with the guide page it comes from; timed mocks, a RASCI drill, weak-topic practice |
-| **Recorded voice** | 8 h 12 min · 4,250 clips | Every line spoken, in two scripts — the natural dialogue and a Plain English rewrite |
+| **Recorded voice** | 1,558 indexed clips · 9 active MP3 files | Current dialogue and decision replies; clear reading offers an alternative English voice |
 
 ### The story, with the artefact beside it
 
@@ -149,8 +149,8 @@ Every activity and artefact the guide prescribes, and the scene where you met it
 
 ## For PM² candidates
 
-This is free, offline, and yours to use. Nothing phones home; progress is saved in your
-own browser.
+This is free and yours to use. Progress is saved in your own browser. The story and
+recordings work offline; the optional system reader depends on the voice you choose.
 
 **If you have five days**, start at `play/03_Dashboard_EN.html` and follow the plan.
 **If you have forty-eight hours**, the dashboard has a shorter path that says which
@@ -199,7 +199,7 @@ disagreements are documented rather than smoothed over.
 
 **Delivery.** Roughly 15,000 lines of hand-written HTML, CSS and JavaScript; a Python
 build pipeline; six self-contained deliverables that run offline from a file with no
-server, no framework and no dependencies; 4,250 audio clips rendered locally with an
+server, no framework and no dependencies; 1,558 active audio clips rendered locally with an
 open-source model and assembled into seek-indexed sprites.
 
 **How I work with AI.** This was built with Claude as a pair, and that is the point rather
@@ -230,9 +230,23 @@ open play/03_Dashboard_EN.html      # macOS · use `xdg-open` on Linux, `start` 
 
 Or use the [live version](https://rhycha.github.io/PM-in-ESM-Role-Playing-Game/).
 
-**Voice.** The `play/voice/` folder holds the recorded audio; the story pages find it
-automatically when they sit beside it. Turn it on with the 🔊 button, or press `V`.
-Without it, the pages fall back to your browser's own speech synthesis.
+**Start with the scene brief.** Each scene explains the immediate situation and gives
+you one thing to listen for. Expand **Orient me** for the project goal, the stakes,
+and who is in the room. Definitions below the dialogue explain unfamiliar terms.
+
+**Voice.** **More → Cast voices** opens the reading settings. The new default is
+**Clear reading**, with an English reader, normal pitch, expanded number text and
+manual advance. Use the number sample to choose a voice and pace. For example,
+`0.08` becomes “zero point zero eight” and `€8.4m` becomes “eight point four million euros”.
+The **Existing recordings** option still plays the files in `play/voice/`;
+those MP3 files retain their earlier pronunciation until regenerated.
+Available system voices and their quality depend on the browser and device;
+some voices use online services. The page itself makes no speech-service request.
+
+**Socratic voice study.** Attach [the study pack](docs/study/PM2_VOICE_STUDY_PACK.md)
+to a voice conversation. It includes beginner background, twelve sessions, tutor
+guidance, numerical examples and a progress handoff. [Start here](docs/study/START_HERE.md)
+has the opening prompt. A [plain-text copy](docs/study/PM2_VOICE_STUDY_PACK.txt) is also available.
 
 **Keys.** `space` advance or pause · `←` back · `P` plain English · `V` voice ·
 `F` project file · `R` in the room · `Esc` close
@@ -246,7 +260,7 @@ play/     the six deliverables — self-contained HTML, no dependencies
 src/      the content as data: artefacts, scenes, questions, solution diagrams,
           props, the number registry, the case bibles
 tools/    the build pipeline and the voice renderer
-          voice/ — 16 MP3 sprites, 8 h 12 min, seek-indexed, loaded automatically
+          voice/ — 9 active MP3 sprites, seek-indexed, loaded automatically
 docs/     case bibles and the screenshots in this README
 ```
 
@@ -262,9 +276,33 @@ tar xf voice-en-us-libritts-high.tar.gz
 python3 tools/make_voices.py       # ~3 h on two cores; resumable
 ```
 
-Numbers are normalised to words before synthesis, each sentence is rendered separately
-and joined with a fixed pause, and silences are trimmed — which is why nothing breaks in
-the middle of a figure.
+Numbers are normalised before sentence splitting. The browser reader and recording
+renderer share pronunciation fixtures. Regenerating audio uses a cache keyed by
+the text, normalizer and model, so an old clip is not silently reused after a fix.
+The active story page supplies the narration text. A successful render creates a
+new MP3 filename and synchronises that page's timing table and `voice/index.json`;
+other acts and old MP3 files remain intact. The legacy `tools/lines_*.json` files
+are not used to overwrite the newer dialogue.
+Preview the recording work without loading a model or writing audio:
+
+```bash
+python3 tools/make_voices.py --plan --project castor --act 1 --take plain
+```
+
+The checked-in story pages include later content edits that are not fully represented
+by the old `gen/` build templates. Apply the reading and context enhancements to the
+existing pages with these commands from the repository root:
+
+```bash
+python3 tools/install_context.py play/06_Project_CASTOR_EN.html play/09_Project_POLLUX_EN.html
+python3 tools/apply_voice_revision.py
+python3 tools/repair_study_facts.py
+```
+
+These installers preserve story text and audio indexes. The last command updates
+reference cards to distinguish risk colours from escalation authority, explain the
+duration/date discrepancy, and clarify that the Definition of Done can be revised
+through the agreed process.
 
 **Portraits** — the cast is drawn as generated SVG. `tools/get_portraits.py` will replace
 them with public-domain photographs from Wikimedia Commons; it checks each file's licence

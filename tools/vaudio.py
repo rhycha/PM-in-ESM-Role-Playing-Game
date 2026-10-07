@@ -53,10 +53,10 @@ def fade(a, ms=8):
 
 def say(voice, cfg_factory, text, norm, sentences):
     """-> int16 mono at 22050, sentence-separated, silence-cleaned."""
-    from piper import SynthesisConfig
     parts=[]
-    for sent in sentences(text):
-        t=norm(sent)
+    # Expand decimals and versions before splitting so punctuation inside a
+    # number can never become a sentence boundary.
+    for t in sentences(norm(text)):
         if not t.strip(): continue
         chunks=list(voice.synthesize(t, syn_config=cfg_factory()))
         pcm=np.frombuffer(b"".join(c.audio_int16_bytes for c in chunks), dtype=np.int16)

@@ -1,5 +1,6 @@
 # build scratch
 _voice_tmp/
+.voice-cache/
 *.pcm
 __pycache__/
 *.pyc
@@ -11,3 +12,6 @@ portraits/
 # never commit: personal copies of the official guide
 *ANNOTE*.pdf
 02_PM2_Guide*.pdf
+
+# transfer bundles
+*.tgz
